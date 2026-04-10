@@ -1,7 +1,7 @@
 import { randomUUID } from "crypto";
 import { NextResponse } from "next/server";
-import type { IntakePayload } from "../../lib/ella";
-import { intakeStore } from "../../lib/store";
+import type { IntakePayload } from "@/lib/ella";
+import { intakeStore } from "@/lib/store";
 
 function norm(value: unknown): string | null {
   if (typeof value !== "string" || value.trim() === "") return null;

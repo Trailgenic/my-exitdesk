@@ -1,5 +1,5 @@
 import { Resend } from "resend";
-import { ExitDeskReport } from "../emails/ExitDeskReport";
+import { ExitDeskReport } from "@/emails/ExitDeskReport";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 

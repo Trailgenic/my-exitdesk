@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { stripe, PRICE } from "../../../lib/stripe";
+import { stripe, PRICE } from "@/lib/stripe";
 
 export async function POST(request: Request) {
   const { intake_id, email } =

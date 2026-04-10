@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
-import { stripe } from "../../../lib/stripe";
-import { intakeStore } from "../../../lib/store";
-import { generateReport } from "../../../lib/ella";
-import { sendReport } from "../../../lib/email";
+import { stripe } from "@/lib/stripe";
+import { intakeStore } from "@/lib/store";
+import { generateReport } from "@/lib/ella";
+import { sendReport } from "@/lib/email";
 
 export const runtime = "nodejs";
 
