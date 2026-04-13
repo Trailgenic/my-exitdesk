@@ -80,7 +80,14 @@ function CheckoutContent() {
     fetch("/api/checkout/create-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ intake_id, email }),
+      body: JSON.stringify({ 
+    email,
+    companyName: searchParams.get("companyName") ?? "Unknown",
+    companyDescription: searchParams.get("companyDescription") ?? "",
+    founderRole: searchParams.get("founderRole") ?? "",
+    exitMotivation: searchParams.get("exitMotivation") ?? "",
+    postTransactionIntent: searchParams.get("postTransactionIntent") ?? "",
+  }),
     })
       .then((r) => r.json())
       .then((d) => {

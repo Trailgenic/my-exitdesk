@@ -1,30 +1,18 @@
 import { NextResponse } from "next/server";
 import { stripe, PRICE } from "@/lib/stripe";
-import { intakeStore } from "@/lib/store";
 
 export async function POST(request: Request) {
-  const { intake_id, email } =
-    (await request.json()) as {
-      intake_id: string;
-      email: string;
-    };
+  const body = await request.json();
+  const { email, ...intakeData } = body;
 
-  if (!intake_id || !email) {
+  if (!email) {
     return NextResponse.json(
-      { error: "intake_id and email are required" },
+      { error: "email is required" },
       { status: 400 }
     );
   }
 
-  const intake = intakeStore.get(intake_id);
-  if (!intake) {
-    return NextResponse.json(
-      { error: "Intake not found. Please resubmit the form." },
-      { status: 404 }
-    );
-  }
-
-  const intakeJson = JSON.stringify(intake);
+  const intakeJson = JSON.stringify(intakeData);
   const chunkSize = 490;
   const chunks: Record<string, string> = {};
   for (let i = 0; i * chunkSize < intakeJson.length; i++) {
@@ -43,7 +31,6 @@ export async function POST(request: Request) {
     receipt_email: email,
     description: "Exit Desk Report",
     metadata: {
-      intake_id,
       email,
       ...chunks,
     },
