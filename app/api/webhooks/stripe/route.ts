@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
-import { intakeStore } from "@/lib/store";
 import { generateReport } from "@/lib/ella";
 import { sendReport } from "@/lib/email";
+import type { IntakePayload } from "@/lib/ella";
 
 export const runtime = "nodejs";
 
@@ -26,14 +26,22 @@ export async function POST(request: Request) {
 
   if (event.type === "payment_intent.succeeded") {
     const paymentIntent = event.data.object;
-    const intake_id = paymentIntent.metadata?.intake_id;
-    const email = paymentIntent.metadata?.email;
+    const metadata = paymentIntent.metadata ?? {};
+    const email = metadata.email;
+    const numChunks = parseInt(metadata.intake_chunks ?? "0", 10);
 
-    if (intake_id && email) {
-      const intake = intakeStore.get(intake_id);
-      if (intake) {
+    if (email && numChunks > 0) {
+      let intakeJson = "";
+      for (let i = 0; i < numChunks; i++) {
+        intakeJson += metadata[`intake_${i}`] ?? "";
+      }
+
+      try {
+        const intake = JSON.parse(intakeJson) as IntakePayload;
         const report = await generateReport(intake);
         await sendReport(email, report, intake.companyName);
+      } catch (err) {
+        console.error("Report generation or delivery failed:", err);
       }
     }
   }
