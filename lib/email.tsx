@@ -12,7 +12,7 @@ export async function sendReport(
     "Your Exit Desk Report"} — ${companyName}`;
 
   await resend.emails.send({
-    from: process.env.RESEND_FROM_EMAIL ?? "mike@mikeye.com",
+    from: `Mike Ye <${process.env.RESEND_FROM_EMAIL ?? "mike@mikeye.com"}>`,
     to,
     subject,
     react: ExitDeskReport({ report, companyName }),
