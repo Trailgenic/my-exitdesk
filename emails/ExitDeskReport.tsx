@@ -126,11 +126,11 @@ export function ExitDeskReport({
                   {section.heading ? (
                     <Text
                       style={{
-                        fontSize: "10px",
+                        fontSize: "12px",
                         fontFamily: "'Courier New', monospace",
                         letterSpacing: "0.12em",
                         textTransform: "uppercase",
-                        color: "#888880",
+                        color: "#1B3A6B",
                         margin: "0 0 10px 0",
                         borderBottom: "0.5px solid #E0DDD6",
                         paddingBottom: "8px",
