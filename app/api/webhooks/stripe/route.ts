@@ -62,6 +62,7 @@ export async function POST(request: Request) {
         targetTimeline: null,
         bankerEngaged: null,
         priorOffers: null,
+        additionalContext: null,
       };
 
       try {

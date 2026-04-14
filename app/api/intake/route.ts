@@ -58,6 +58,7 @@ export async function POST(request: Request) {
     targetTimeline: norm(body.targetTimeline),
     bankerEngaged: norm(body.bankerEngaged),
     priorOffers: norm(body.priorOffers),
+    additionalContext: null,
   };
 
   const intake_id = randomUUID();
