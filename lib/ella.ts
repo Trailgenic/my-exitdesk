@@ -84,7 +84,7 @@ export async function generateReport(
       body: JSON.stringify({
         model: "gpt-4.1",
         temperature: 0.2,
-        max_tokens: 3000,
+        max_tokens: 8000,
         messages: [
           { role: "system", content: systemPrompt },
           { role: "user", content: formatIntake(intake) },
