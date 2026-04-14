@@ -26,6 +26,7 @@ export interface IntakePayload {
   targetTimeline: string | null;
   bankerEngaged: string | null;
   priorOffers: string | null;
+  additionalContext: string | null;
 }
 
 function formatIntake(intake: IntakePayload): string {
@@ -56,7 +57,8 @@ INTERNAL AI CAPABILITY: ${f(intake.internalAiCapability)}
 TECH STACK COMPLEXITY: ${f(intake.techStackComplexity)}
 TARGET TIMELINE: ${f(intake.targetTimeline)}
 BANKER ENGAGED: ${f(intake.bankerEngaged)}
-PRIOR OFFERS: ${f(intake.priorOffers)}`;
+PRIOR OFFERS: ${f(intake.priorOffers)}
+ADDITIONAL CONTEXT: ${f(intake.additionalContext)}`;
 }
 
 export async function generateReport(
