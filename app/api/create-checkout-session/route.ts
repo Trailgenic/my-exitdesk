@@ -1,6 +1,31 @@
 import { NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
 
+const ALLOWED_ORIGINS = [
+  "https://www.mikeye.com",
+  "https://mikeye.com",
+  "https://mikeye.webflow.io",
+];
+
+function corsHeaders(origin: string | null) {
+  const allowed = ALLOWED_ORIGINS.includes(origin ?? "")
+    ? origin
+    : ALLOWED_ORIGINS[0];
+  return {
+    "Access-Control-Allow-Origin": allowed ?? ALLOWED_ORIGINS[0],
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+  };
+}
+
+export async function OPTIONS(request: Request) {
+  const origin = request.headers.get("origin");
+  return new Response(null, {
+    status: 204,
+    headers: corsHeaders(origin),
+  });
+}
+
 export async function POST(request: Request) {
   const body = await request.json() as {
     score?: number;
@@ -49,5 +74,9 @@ export async function POST(request: Request) {
     cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/exit/checkout`,
   });
 
-  return NextResponse.json({ url: session.url });
+  const origin = request.headers.get("origin");
+  return NextResponse.json(
+    { url: session.url },
+    { headers: corsHeaders(origin) }
+  );
 }
