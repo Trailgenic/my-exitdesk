@@ -31,13 +31,13 @@ export async function POST(request: Request) {
   const payload = {
     api_key: apiKey,
     email,
+    confirmed: true,
     fields: {
       exit_score: String(score),
       weakest_dimension: weakestDimension,
       score_band: scoreBand,
       exit_path: exitPath,
     },
-    tags: [exitPath === "low" ? "exit-score-below-40" : "exit-score-40-plus"],
   };
 
   const res = await fetch(
