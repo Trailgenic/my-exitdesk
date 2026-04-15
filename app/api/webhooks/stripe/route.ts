@@ -21,6 +21,38 @@ async function tagSubscriberPurchased(email: string): Promise<void> {
   });
 }
 
+async function removeScoreTags(email: string): Promise<void> {
+  const apiSecret = process.env.CONVERTKIT_API_SECRET;
+  if (!apiSecret || !email) return;
+
+  const lookupRes = await fetch(
+    `https://api.convertkit.com/v3/subscribers?api_secret=${encodeURIComponent(
+      apiSecret
+    )}&email_address=${encodeURIComponent(email)}`
+  );
+
+  if (!lookupRes.ok) return;
+
+  const lookupBody = (await lookupRes.json()) as {
+    subscribers?: Array<{ id?: number }>;
+  };
+  const subscriberId = lookupBody.subscribers?.[0]?.id;
+  if (!subscriberId) return;
+
+  await Promise.all(
+    [18944001, 18944002].map(async (tagId) => {
+      await fetch(
+        `https://api.convertkit.com/v3/subscribers/${subscriberId}/tags/${tagId}`,
+        {
+          method: "DELETE",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ api_secret: apiSecret }),
+        }
+      );
+    })
+  );
+}
+
 export async function POST(request: Request) {
   const rawBody = await request.text();
   const signature = request.headers.get("stripe-signature") ?? "";
@@ -48,6 +80,11 @@ export async function POST(request: Request) {
 
     if (email) {
       await tagSubscriberPurchased(email);
+      try {
+        await removeScoreTags(email);
+      } catch (err) {
+        console.error("Score tag removal failed:", err);
+      }
 
       const intake: IntakePayload = {
         companyName: metadata.companyName || "Not provided",
