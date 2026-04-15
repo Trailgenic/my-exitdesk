@@ -32,6 +32,7 @@ export async function POST(request: Request) {
     api_key: apiKey,
     email,
     confirmed: true,
+    tags: [exitPath === "low" ? 18944002 : 18944001],
     fields: {
       exit_score: String(score),
       weakest_dimension: weakestDimension,
