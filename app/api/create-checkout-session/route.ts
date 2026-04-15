@@ -38,6 +38,8 @@ export async function POST(request: Request) {
     q6?: string;
     q7?: string;
     q8?: string;
+    companyName?: string;
+    companyDescription?: string;
     ref?: string;
   };
 
@@ -52,6 +54,10 @@ export async function POST(request: Request) {
   if (body.q6) metadata.q6 = body.q6;
   if (body.q7) metadata.q7 = body.q7;
   if (body.q8) metadata.q8 = body.q8;
+  if (body.companyName) metadata.companyName = body.companyName;
+  if (body.companyDescription) {
+    metadata.companyDescription = body.companyDescription;
+  }
 
   const session = await stripe.checkout.sessions.create({
     mode: "payment",
