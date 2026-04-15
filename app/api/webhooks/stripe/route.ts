@@ -53,6 +53,67 @@ async function removeScoreTags(email: string): Promise<void> {
   );
 }
 
+function resolveAnswer(
+  questionKey: "q1" | "q2" | "q3" | "q4" | "q5" | "q6" | "q7" | "q8",
+  rawValue: string | null | undefined
+): string | null {
+  if (!rawValue) return null;
+
+  const answerMap = {
+    q1: {
+      a: "Under $1M",
+      b: "$1M–$3M",
+      c: "$3M–$7M",
+      d: "$7M–$15M",
+      e: "Over $15M",
+    },
+    q2: {
+      a: "Recurring contract revenue",
+      b: "Repeat but informal revenue",
+      c: "Project-based revenue",
+      d: "Mixed recurring and project revenue",
+    },
+    q3: {
+      a: "Business runs normally without me",
+      b: "Some disruption but recovers",
+      c: "Significant disruption",
+      d: "Business stops without me",
+    },
+    q4: {
+      a: "No customer over 10%",
+      b: "10–20% in top customer",
+      c: "20–40% in top customer",
+      d: "Over 40% in top customer",
+    },
+    q5: {
+      a: "Strong independent management team",
+      b: "Capable team with some founder involvement",
+      c: "Thin management, founder-dependent",
+      d: "No real management layer",
+    },
+    q6: {
+      a: "Improving",
+      b: "Stable",
+      c: "Declining",
+      d: "Not tracking closely",
+    },
+    q7: {
+      a: "Long-term customer relationships and brand",
+      b: "Proprietary systems, licenses, or regulatory position",
+      c: "Specialized team or operational know-how",
+      d: "Nothing — commodity business",
+    },
+    q8: {
+      a: "Selling from strength — business performing well",
+      b: "Personal readiness — lifestyle or succession",
+      c: "Forced or urgent — health, partner, or market pressure",
+      d: "Exploring — not committed to selling yet",
+    },
+  } as const;
+
+  return answerMap[questionKey][rawValue as keyof (typeof answerMap)[typeof questionKey]] ?? null;
+}
+
 export async function POST(request: Request) {
   const rawBody = await request.text();
   const signature = request.headers.get("stripe-signature") ?? "";
@@ -90,23 +151,23 @@ export async function POST(request: Request) {
         companyName: metadata.companyName || "Not provided",
         companyDescription: metadata.companyDescription || "Not provided",
         founderRole: metadata.founderRole || "Not provided",
-        exitMotivation: metadata.exitMotivation || "Not provided",
+        exitMotivation: resolveAnswer("q8", metadata.q8),
         postTransactionIntent:
           metadata.postTransactionIntent || "Not provided",
         email,
-        revenueModel: metadata.q2 || null,
-        impliedRevenueRange: metadata.q1 || null,
+        revenueModel: resolveAnswer("q2", metadata.q2),
+        impliedRevenueRange: resolveAnswer("q1", metadata.q1),
         revenueTrend: null,
         marginProfile: null,
-        marginTrajectory: metadata.q6 || null,
-        customerConcentration: metadata.q4 || null,
+        marginTrajectory: resolveAnswer("q6", metadata.q6),
+        customerConcentration: resolveAnswer("q4", metadata.q4),
         pricingPower: null,
-        stepAwayBreaks: metadata.q3 || null,
+        stepAwayBreaks: resolveAnswer("q3", metadata.q3),
         relationshipDependency: null,
         brandTiedToFounder: null,
         documentedSystems: null,
-        managementDepth: metadata.q5 || null,
-        hardToReplicate: metadata.q7 || null,
+        managementDepth: resolveAnswer("q5", metadata.q5),
+        hardToReplicate: resolveAnswer("q7", metadata.q7),
         leaseAndFacilities: null,
         legalExposure: null,
         aiImpact: null,
