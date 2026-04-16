@@ -25,23 +25,34 @@ function parseReport(report: string): Array<{ heading: string; body: string }> {
 
   for (const line of lines) {
     const trimmed = line.trim();
+    // Strip markdown symbols
+    const sanitized = trimmed
+      .replace(/\*\*/g, '')
+      .replace(/\*/g, '')
+      .replace(/^#+\s*/, '')
+      .replace(/^>\s*/, '');
+
+    // Skip divider lines
+    if (/^---+$/.test(trimmed)) continue;
+
     // Detect section headings — all caps lines or lines starting with numbers
     const isHeading =
-      /^[A-Z][A-Z\s\-&—:]{8,}$/.test(trimmed) ||
-      /^\d+[\.\)]\s+[A-Z]/.test(trimmed) ||
-      /^(EXECUTIVE SUMMARY|EXIT READINESS|BUYER-LENS|REVENUE QUALITY|FOUNDER DEPENDENCE|FINANCIAL PROFILE|DILIGENCE PRESSURE|COMPETITIVE POSITION|TIMING|PRE-MARKET|UNCERTAINTY|STRUCTURAL RISK|PROCESS LEVERAGE|SELLER ARCHETYPE|FRAMING BY)/i.test(trimmed);
+      trimmed.startsWith("#") ||
+      /^[A-Z][A-Z\s\-&—:]{8,}$/.test(sanitized) ||
+      /^\d+[\.\)]\s+[A-Z]/.test(sanitized) ||
+      /^(EXECUTIVE SUMMARY|EXIT READINESS|BUYER-LENS|REVENUE QUALITY|FOUNDER DEPENDENCE|FINANCIAL PROFILE|DILIGENCE PRESSURE|COMPETITIVE POSITION|TIMING|PRE-MARKET|UNCERTAINTY|STRUCTURAL RISK|PROCESS LEVERAGE|SELLER ARCHETYPE|FRAMING BY)/i.test(sanitized);
 
-    if (isHeading && trimmed.length > 0) {
+    if (isHeading && sanitized.length > 0) {
       if (currentHeading || currentBody.length > 0) {
         sections.push({
           heading: currentHeading,
           body: currentBody.join("\n").trim(),
         });
       }
-      currentHeading = trimmed;
+      currentHeading = sanitized;
       currentBody = [];
-    } else if (trimmed.length > 0) {
-      currentBody.push(line);
+    } else if (sanitized.length > 0) {
+      currentBody.push(sanitized);
     } else if (currentBody.length > 0) {
       currentBody.push("");
     }
@@ -102,7 +113,7 @@ export function ExitDeskReport({
                 letterSpacing: "0.02em",
               }}
             >
-              Exit Desk
+              Exit Desk by Mike Ye
             </Heading>
             <Text
               style={{
