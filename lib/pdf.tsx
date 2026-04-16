@@ -79,6 +79,10 @@ const styles = StyleSheet.create({
     fontSize: 8,
     color: '#AAAAAA',
   },
+  footerPage: {
+    fontSize: 8,
+    color: '#AAAAAA',
+  },
 });
 
 function sanitizeLine(line: string): string {
@@ -153,12 +157,14 @@ export async function generateReportPDF(
         <View
           style={styles.footer}
           fixed
-          render={({ pageNumber, totalPages }: { pageNumber: number; totalPages: number }) => (
+          render={({ pageNumber }: { pageNumber: number }) => (
             <>
               <Text style={styles.footerText}>
                 Exit Desk · Confidential · mikeye.com
               </Text>
-              <Text style={styles.footerText}>{`${pageNumber} / ${totalPages}`}</Text>
+              <Text style={styles.footerPage}>
+                {pageNumber}
+              </Text>
             </>
           )}
         />
