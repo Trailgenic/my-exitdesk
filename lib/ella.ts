@@ -1,3 +1,6 @@
+import Anthropic from '@anthropic-ai/sdk';
+import ELLA_SYSTEM_PROMPT from './ella-prompt';
+
 export interface IntakePayload {
   companyName: string;
   companyDescription: string;
@@ -64,42 +67,17 @@ ADDITIONAL CONTEXT: ${f(intake.additionalContext)}`;
 export async function generateReport(
   intake: IntakePayload
 ): Promise<string> {
-  const systemPrompt = process.env.ELLA_SYSTEM_PROMPT;
-  if (!systemPrompt) {
-    throw new Error("ELLA_SYSTEM_PROMPT is not set.");
-  }
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
-    throw new Error("OPENAI_API_KEY is not set.");
+    throw new Error("ANTHROPIC_API_KEY is not set.");
   }
 
-  const res = await fetch(
-    "https://api.openai.com/v1/chat/completions",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify({
-        model: "gpt-4.1",
-        temperature: 0.2,
-        max_tokens: 8000,
-        messages: [
-          { role: "system", content: systemPrompt },
-          { role: "user", content: formatIntake(intake) },
-        ],
-      }),
-    }
-  );
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`OpenAI error: ${res.status} — ${text}`);
-  }
-
-  const json = await res.json() as {
-    choices: Array<{ message: { content: string } }>;
-  };
-  return json.choices[0].message.content;
+  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const response = await client.messages.create({
+    model: 'claude-opus-4-6',
+    max_tokens: 8000,
+    system: ELLA_SYSTEM_PROMPT,
+    messages: [{ role: 'user', content: formatIntake(intake) }]
+  });
+  return (response.content[0] as { type: 'text'; text: string }).text;
 }
