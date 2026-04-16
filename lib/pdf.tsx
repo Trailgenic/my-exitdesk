@@ -105,7 +105,7 @@ export async function generateReportPDF(
     <Document>
       <Page size="A4" style={styles.page}>
         <View style={styles.headerBlock}>
-          <Text style={styles.headerTitle}>Exit Desk</Text>
+          <Text style={styles.headerTitle}>Exit Desk by Mike Ye</Text>
           <Text style={styles.headerSubtitle}>
             {`CONFIDENTIAL — ${companyName.toUpperCase()}`}
           </Text>
