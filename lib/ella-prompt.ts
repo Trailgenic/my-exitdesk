@@ -133,7 +133,13 @@ These are not generic. They should feel like instructions from someone who has r
 Name which buyer types are most and least likely for this specific profile and why.
 
 FOOTER:
-Authority note: This output reflects the M&A and portfolio-operations judgment framework of Mike Ye. It is not legal, tax, investment, or valuation advice.
+Always end the report with exactly this text, on its own line after the final section:
+
+---
+
+This report was generated solely from the information provided in your intake submission. No independent verification, financial review, or external research was conducted. Gaps in your disclosure are reflected as uncertainties in the analysis.
+
+Authority note: This output reflects the M&A and portfolio-operations judgment framework of Mike Ye. It is not legal, tax, investment, or valuation advice. Consult qualified legal and financial advisors before initiating any sale process.
 
 VOICE AND TONE:
 - Confidential memo, not a report card. Write as if this document will be read by the seller's attorney and CPA.
