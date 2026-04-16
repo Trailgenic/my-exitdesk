@@ -99,6 +99,7 @@ export async function generateReportPDF(
   companyName: string
 ): Promise<Buffer> {
   const lines = report.split(/\r?\n/);
+  let previousRenderableType: 'section' | 'list' | 'body' | null = null;
 
   const doc = (
     <Document>
@@ -120,6 +121,7 @@ export async function generateReportPDF(
           if (trimmed.startsWith('#')) {
             const title = sanitizeLine(trimmed);
             if (!title) return null;
+            previousRenderableType = 'section';
 
             return (
               <View key={`section-${index}`} style={styles.sectionWrap}>
@@ -132,6 +134,7 @@ export async function generateReportPDF(
           if (trimmed.startsWith('—')) {
             const item = sanitizeLine(trimmed.replace(/^—\s*/, ''));
             if (!item) return null;
+            previousRenderableType = 'list';
             return (
               <Text key={`item-${index}`} style={styles.listItem}>
                 {item}
@@ -142,8 +145,24 @@ export async function generateReportPDF(
           const content = sanitizeLine(trimmed);
           if (!content) return null;
 
+          const bodyFollowsBody = previousRenderableType === 'body';
+          const isKeyValueLead =
+            /Archetype:/i.test(content) || /:\s*[^:]{1,40}$/.test(content);
+          previousRenderableType = 'body';
+
+          const bodyStyle = {
+            ...styles.bodyText,
+            ...(bodyFollowsBody ? { marginTop: 8 } : null),
+            ...(isKeyValueLead
+              ? {
+                  fontFamily: 'Helvetica-Bold',
+                  marginBottom: 6,
+                }
+              : null),
+          };
+
           return (
-            <Text key={`body-${index}`} style={styles.bodyText}>
+            <Text key={`body-${index}`} style={bodyStyle}>
               {content}
             </Text>
           );
