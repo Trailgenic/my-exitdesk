@@ -3,6 +3,8 @@ import { generateReport } from "@/lib/ella";
 import { sendReport } from "@/lib/email";
 import type { IntakePayload } from "@/lib/ella";
 
+export const maxDuration = 300;
+
 const ALLOWED_ORIGINS = [
   "https://www.mikeye.com",
   "https://mikeye.com",
