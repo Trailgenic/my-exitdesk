@@ -9,6 +9,8 @@ export async function sendReport(
   report: string,
   companyName: string
 ): Promise<void> {
+  const calendlyUrl =
+    process.env.CALENDLY_ADVISORY_URL ?? "https://calendly.com/mike-mikeye/90min";
   const pdfBuffer = await generateReportPDF(report, companyName)
 
   const subject = `${process.env.REPORT_SUBJECT_PREFIX ?? 
@@ -18,7 +20,7 @@ export async function sendReport(
     from: `Mike Ye <${process.env.RESEND_FROM_EMAIL ?? "mike@mikeye.com"}>`,
     to,
     subject,
-    react: ExitDeskReport({ report, companyName }),
+    react: ExitDeskReport({ report, companyName, calendlyUrl }),
     attachments: [
       {
         filename: `Exit-Desk-Report-${companyName.replace(/[^a-zA-Z0-9]/g, '-')}.pdf`,
