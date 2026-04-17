@@ -8,59 +8,61 @@ export interface IntakePayload {
   exitMotivation: string;
   postTransactionIntent: string;
   email: string;
+  yearsInBusiness: string | null;
+  industry: string | null;
   revenueModel: string | null;
   impliedRevenueRange: string | null;
-  revenueTrend: string | null;
-  marginProfile: string | null;
+  recurringPercent: string | null;
+  ebitdaRange: string | null;
   marginTrajectory: string | null;
+  financialClean: string | null;
   customerConcentration: string | null;
-  pricingPower: string | null;
+  customerTenure: string | null;
+  newBusinessSource: string | null;
   stepAwayBreaks: string | null;
-  relationshipDependency: string | null;
+  employeeCount: string | null;
   brandTiedToFounder: string | null;
   documentedSystems: string | null;
   managementDepth: string | null;
   hardToReplicate: string | null;
   leaseAndFacilities: string | null;
   legalExposure: string | null;
-  aiImpact: string | null;
-  internalAiCapability: string | null;
-  techStackComplexity: string | null;
-  targetTimeline: string | null;
-  bankerEngaged: string | null;
-  priorOffers: string | null;
+  industryDynamics: string | null;
+  inboundInterest: string | null;
+  keyEmployeeRisk: string | null;
   additionalContext: string | null;
 }
 
 function formatIntake(intake: IntakePayload): string {
   const f = (v: string | null) => v ?? "Not provided";
-  return `COMPANY: ${intake.companyName}
+return `COMPANY: ${intake.companyName}
 DESCRIPTION: ${intake.companyDescription}
 FOUNDER ROLE: ${intake.founderRole}
 EXIT MOTIVATION: ${intake.exitMotivation}
 POST-TRANSACTION INTENT: ${intake.postTransactionIntent}
+YEARS IN BUSINESS: ${f(intake.yearsInBusiness)}
+INDUSTRY: ${f(intake.industry)}
 ---
 REVENUE MODEL: ${f(intake.revenueModel)}
-IMPLIED REVENUE: ${f(intake.impliedRevenueRange)}
-REVENUE TREND: ${f(intake.revenueTrend)}
-MARGIN PROFILE: ${f(intake.marginProfile)}
+RECURRING PERCENTAGE: ${f(intake.recurringPercent)}
+IMPLIED REVENUE RANGE: ${f(intake.impliedRevenueRange)}
+EBITDA/SDE RANGE: ${f(intake.ebitdaRange)}
 MARGIN TRAJECTORY: ${f(intake.marginTrajectory)}
+FINANCIAL CLEANLINESS: ${f(intake.financialClean)}
 CUSTOMER CONCENTRATION: ${f(intake.customerConcentration)}
-PRICING POWER: ${f(intake.pricingPower)}
-IF STEPPED AWAY BREAKS: ${f(intake.stepAwayBreaks)}
-RELATIONSHIP DEPENDENCY: ${f(intake.relationshipDependency)}
-BRAND TIED TO FOUNDER: ${f(intake.brandTiedToFounder)}
-DOCUMENTED SYSTEMS: ${f(intake.documentedSystems)}
+CUSTOMER TENURE: ${f(intake.customerTenure)}
+NEW BUSINESS SOURCE: ${f(intake.newBusinessSource)}
+STEP AWAY IMPACT: ${f(intake.stepAwayBreaks)}
 MANAGEMENT DEPTH: ${f(intake.managementDepth)}
+DOCUMENTED SYSTEMS: ${f(intake.documentedSystems)}
+EMPLOYEE COUNT: ${f(intake.employeeCount)}
+BRAND TIED TO FOUNDER: ${f(intake.brandTiedToFounder)}
 HARD TO REPLICATE: ${f(intake.hardToReplicate)}
 LEASE AND FACILITIES: ${f(intake.leaseAndFacilities)}
 LEGAL EXPOSURE: ${f(intake.legalExposure)}
-AI IMPACT: ${f(intake.aiImpact)}
-INTERNAL AI CAPABILITY: ${f(intake.internalAiCapability)}
-TECH STACK COMPLEXITY: ${f(intake.techStackComplexity)}
-TARGET TIMELINE: ${f(intake.targetTimeline)}
-BANKER ENGAGED: ${f(intake.bankerEngaged)}
-PRIOR OFFERS: ${f(intake.priorOffers)}
+INDUSTRY DYNAMICS: ${f(intake.industryDynamics)}
+INBOUND INTEREST: ${f(intake.inboundInterest)}
+KEY EMPLOYEE RISK: ${f(intake.keyEmployeeRisk)}
 ADDITIONAL CONTEXT: ${f(intake.additionalContext)}`;
 }
 
