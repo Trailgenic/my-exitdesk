@@ -1,5 +1,6 @@
 (function() {
 
+  var isSubmitting = false;
   var sessionId = null;
   var sessionEmail = null;
   var answers = {};
@@ -138,6 +139,9 @@
   };
 
   window.submitForm = function() {
+    if (isSubmitting) return;
+    isSubmitting = true;
+
     var btn = document.getElementById('ed-submit-btn');
     var errorEl = document.getElementById('ed-error');
     var submitting = document.getElementById('ed-submitting');
@@ -200,6 +204,7 @@
       submitting.style.display = 'none';
       document.getElementById('ed-s5').style.display = 'block';
       btn.disabled = false;
+      isSubmitting = false;
       errorEl.style.display = 'block';
     });
   };
