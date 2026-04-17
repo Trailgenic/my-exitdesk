@@ -3,6 +3,8 @@ import { generateReport } from "@/lib/ella";
 import { sendReport } from "@/lib/email";
 import type { IntakePayload } from "@/lib/ella";
 
+export const maxDuration = 300;
+
 const ALLOWED_ORIGINS = [
   "https://www.mikeye.com",
   "https://mikeye.com",
@@ -76,27 +78,28 @@ export async function POST(request: Request) {
     founderRole: body.founderRole,
     exitMotivation: body.exitMotivation,
     postTransactionIntent: "Not specified",
+    yearsInBusiness: body.yearsInBusiness,
+    industry: body.industry,
     impliedRevenueRange: body.revenueRange,
     revenueModel: body.revenueModel,
-    revenueTrend: body.recurringPercent,
+    recurringPercent: body.recurringPercent,
     customerConcentration: body.customerConcentration,
-    pricingPower: body.customerTenure,
+    customerTenure: body.customerTenure,
+    newBusinessSource: body.newBusinessSource ?? null,
     stepAwayBreaks: body.steppedAway,
     managementDepth: body.managementTeam,
     documentedSystems: body.documentedSystems,
-    relationshipDependency: body.employeeCount,
+    employeeCount: body.employeeCount,
     brandTiedToFounder: null,
-    marginProfile: body.ebitdaRange,
+    ebitdaRange: body.ebitdaRange,
     marginTrajectory: body.marginTrajectory,
+    financialClean: body.financialClean,
     leaseAndFacilities: body.facility ?? null,
     hardToReplicate: body.hardToReplicate.join(", "),
     legalExposure: body.diligenceDisclosure,
-    aiImpact: body.industryDynamics,
-    internalAiCapability: null,
-    techStackComplexity: null,
-    targetTimeline: body.inboundInterest,
-    bankerEngaged: null,
-    priorOffers: body.keyEmployeeRisk,
+    industryDynamics: body.industryDynamics,
+    inboundInterest: body.inboundInterest,
+    keyEmployeeRisk: body.keyEmployeeRisk,
     additionalContext: body.openText ?? null,
   };
 
