@@ -15,6 +15,7 @@ import * as React from "react";
 interface ExitDeskReportProps {
   report: string;
   companyName: string;
+  calendlyUrl: string;
 }
 
 function parseReport(report: string): Array<{ heading: string; body: string }> {
@@ -71,10 +72,8 @@ function parseReport(report: string): Array<{ heading: string; body: string }> {
 export function ExitDeskReport({
   report,
   companyName,
+  calendlyUrl,
 }: ExitDeskReportProps) {
-  const calendlyUrl =
-    process.env.CALENDLY_ADVISORY_URL ?? "[CALENDLY_LINK_PLACEHOLDER]";
-
   const sections = parseReport(report);
 
   return (

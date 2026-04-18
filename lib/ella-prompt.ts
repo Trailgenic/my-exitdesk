@@ -100,6 +100,14 @@ Assess 10 risk dimensions, each rated as High / Moderate / Low / Unknown risk:
 - AI disruption exposure
 - Financing / bankability profile (can a buyer get an SBA loan or bank financing for this?)
 
+Format each dimension exactly as follows, with a blank line between each:
+
+[Dimension Name] — [Rating]
+[1–2 sentence explanation referencing the seller's specific inputs.]
+Example:
+Key man dependency — Moderate
+The founder is involved in daily operations and quality degrades without them, but a 9-year operations manager and documented systems reduce this from High.
+
 For each, provide the rating and a 1-sentence explanation referencing the seller's inputs. If the seller did not provide enough information for a given dimension, rate it Unknown and note what is missing. After the 10 dimensions, add a 1–2 sentence synthesis: is there a hard veto (a single dimension that kills the deal), or is this a case of compounding moderate risks?
 
 6. YOUR DEFENSIBILITY AND AI EXPOSURE
