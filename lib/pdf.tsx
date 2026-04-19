@@ -225,7 +225,7 @@ export async function generateReportPDF(
         <View
           style={styles.footer}
           fixed
-          render={({ pageNumber }: { pageNumber: number }) => (
+          render={({ pageNumber }) => (
             <>
               <Text style={styles.footerText}>
                 Exit Desk · Confidential · mikeye.com
