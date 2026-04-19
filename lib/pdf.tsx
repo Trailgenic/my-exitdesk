@@ -11,18 +11,19 @@ import {
 const styles = StyleSheet.create({
   page: { padding: '48pt 52pt 64pt 52pt', backgroundColor: '#F7F5F0', color: '#2A2A26', fontFamily: 'Times-Roman', fontSize: 11 },
   mastheadBrand: { fontFamily: 'Courier-Bold', fontSize: 8, letterSpacing: 1.2, color: '#1A1A18', textAlign: 'right', marginBottom: 6 },
-  mastheadCompany: { fontSize: 24, fontWeight: 400, color: '#1A1A18', marginBottom: 8, lineHeight: 1.1 },
+  mastheadCompany: { fontSize: 24, fontWeight: 400, color: '#1A1A18', marginBottom: 4, lineHeight: 1.1 },
+  mastheadConfidential: { fontFamily: 'Courier', fontSize: 8, letterSpacing: 1, color: '#888880', marginBottom: 8 },
   mastheadRule: { borderBottomWidth: 0.5, borderBottomColor: '#C8C4BA', marginBottom: 28, marginTop: 8 },
   sectionRuleRow: { flexDirection: 'row', alignItems: 'center', marginTop: 32, marginBottom: 16 },
   sectionNumber: { fontFamily: 'Courier', fontSize: 8, color: '#c8a96e', letterSpacing: 1, marginRight: 10 },
-  sectionLabel: { fontFamily: 'Courier', fontSize: 8, letterSpacing: 1.2, color: '#888880', marginRight: 14 },
+  sectionLabel: { fontFamily: 'Courier', fontSize: 8, letterSpacing: 1.2, color: '#c8a96e', marginRight: 14 },
   sectionRuleLine: { flex: 1, borderBottomWidth: 0.5, borderBottomColor: '#C8C4BA' },
   bodyText: { fontSize: 11, lineHeight: 1.75, color: '#2A2A26', marginBottom: 10 },
   pullQuote: { borderLeftWidth: 1.5, borderLeftColor: '#c8a96e', paddingLeft: 14, marginTop: 14, marginBottom: 14 },
   pullQuoteText: { fontSize: 11, fontStyle: 'italic', color: '#1A1A18', lineHeight: 1.65 },
-  signalBlock: { backgroundColor: '#1A1A18', padding: '16pt 20pt', marginTop: 10, marginBottom: 16 },
+  signalBlock: { backgroundColor: '#F2F0EB', borderLeftWidth: 1.5, borderLeftColor: '#c8a96e', padding: '16pt 20pt', marginTop: 10, marginBottom: 16 },
   signalLabel: { fontFamily: 'Courier', fontSize: 7, letterSpacing: 1.4, color: '#c8a96e', marginBottom: 6 },
-  signalText: { fontSize: 11, fontStyle: 'italic', color: '#C8C4BA', lineHeight: 1.65 },
+  signalText: { fontSize: 11, fontStyle: 'italic', color: '#2A2A26', lineHeight: 1.65 },
   riskRow: { flexDirection: 'row', borderBottomWidth: 0.5, borderBottomColor: '#E0DDD6', paddingTop: 10, paddingBottom: 10, alignItems: 'flex-start' },
   riskDimension: { fontFamily: 'Courier', fontSize: 7.5, letterSpacing: 0.6, color: '#555550', width: 130, paddingRight: 10 },
   riskDesc: { fontSize: 10, color: '#2A2A26', lineHeight: 1.55, flex: 1, paddingRight: 10 },
@@ -88,6 +89,7 @@ export async function generateReportPDF(
       <Page size="A4" style={styles.page}>
         <Text style={styles.mastheadBrand}>EXIT DESK — BY MIKE YE</Text>
         <Text style={styles.mastheadCompany}>{companyName}</Text>
+        <Text style={styles.mastheadConfidential}>CONFIDENTIAL</Text>
         <View style={styles.mastheadRule} />
 
         {lines.map((rawLine, index) => {
@@ -102,6 +104,14 @@ export async function generateReportPDF(
             trimmed.startsWith('This report was generated solely') ||
             trimmed.startsWith('This report reflects the M&A judgment') ||
             trimmed.startsWith('This output reflects the M&A and portfolio')
+          ) {
+            return null;
+          }
+
+          // Skip Opus header lines — already rendered in masthead
+          if (
+            /^Exit Desk\s*$/i.test(trimmed) ||
+            /^Confidential\s*[—-]/i.test(trimmed)
           ) {
             return null;
           }
