@@ -74,6 +74,63 @@ export async function generateReportPDF(
   companyName: string
 ): Promise<Buffer> {
   const lines = report.split(/\r?\n/);
+  const riskItems: Array<{ index: number; dimension: string; rating: string; explanation: string }> = [];
+  for (let i = 0; i < lines.length; i++) {
+    const sanitized = sanitizeLine(lines[i].trim());
+    const match = sanitized.match(/^(.*?)\s+—\s+(High|Moderate|Low|Unknown)$/i);
+    if (match) {
+      riskItems.push({
+        index: i,
+        dimension: match[1],
+        rating: match[2].toUpperCase(),
+        explanation: sanitizeLine((lines[i + 1] || '').trim()),
+      });
+    }
+  }
+  const riskLineIndices = new Set(riskItems.flatMap(r => [r.index, r.index + 1]));
+
+  const actionCards: Array<{ startIndex: number; endIndex: number; num: string; title: string; bodyLines: string[]; timeline: string }> = [];
+  if (lines.some((l) => sanitizeLine(l).match(/^(\d+)\.\s+[A-Z]/))) {
+    let current: typeof actionCards[0] | null = null;
+    for (let i = 0; i < lines.length; i++) {
+      const s = sanitizeLine(lines[i].trim());
+      const actionMatch = s.match(/^(\d+)\.\s+(.+)$/);
+      const isInSection09 = (() => {
+        let sec = '00';
+        for (let j = 0; j <= i; j++) {
+          const t = sanitizeLine(lines[j].trim());
+          const h = t.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
+          if (lines[j].trim().startsWith('#') && h) sec = h[1].padStart(2, '0');
+        }
+        return sec === '09';
+      })();
+      if (actionMatch && isInSection09) {
+        if (current) { current.endIndex = i - 1; actionCards.push(current); }
+        current = { startIndex: i, endIndex: i, num: actionMatch[1].padStart(2, '0'), title: actionMatch[2], bodyLines: [], timeline: '' };
+      } else if (current) {
+        if (/^Timeline:/i.test(s)) current.timeline = s;
+        else if (s) current.bodyLines.push(s);
+        current.endIndex = i;
+      }
+    }
+    if (current) actionCards.push(current);
+  }
+  const actionLineIndices = new Set(actionCards.flatMap(c => Array.from({ length: c.endIndex - c.startIndex + 1 }, (_, k) => c.startIndex + k)));
+
+  let inSection08 = false;
+  const uncertainty08Items: Array<{ index: number; text: string }> = [];
+  for (let i = 0; i < lines.length; i++) {
+    const s = sanitizeLine(lines[i].trim());
+    const h = s.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
+    if (lines[i].trim().startsWith('#') && h) {
+      inSection08 = h[1].padStart(2, '0') === '08';
+    }
+    if (inSection08 && s.startsWith('—')) {
+      uncertainty08Items.push({ index: i, text: s.replace(/^—\s*/, '') });
+    }
+  }
+  const uncertainty08Indices = new Set(uncertainty08Items.map(u => u.index));
+
   let previousRenderableType: 'section' | 'list' | 'body' | null = null;
   let currentSection = '00';
   let previousBodyLength = 0;
@@ -85,10 +142,58 @@ export async function generateReportPDF(
         <Text style={styles.mastheadCompany}>{companyName}</Text>
         <View style={styles.mastheadRule} />
 
+        {riskItems.map((item, i) => {
+          const riskStyle =
+            item.rating === 'HIGH'
+              ? styles.riskHigh
+              : item.rating === 'MODERATE'
+                ? styles.riskModerate
+                : item.rating === 'LOW'
+                  ? styles.riskLow
+                  : styles.riskUnknown;
+
+          return (
+            <View key={`risk-item-${i}`} style={styles.riskRow}>
+              <Text style={styles.riskDimension}>{item.dimension}</Text>
+              <Text style={styles.riskDesc}>{item.explanation}</Text>
+              <Text style={riskStyle}>{item.rating}</Text>
+            </View>
+          );
+        })}
+
+        {actionCards.map((card, i) => (
+          <View key={`action-card-${i}`} style={styles.actionBlock}>
+            <View style={styles.actionHeaderRow}>
+              <Text style={styles.actionNumber}>{card.num}</Text>
+              <Text style={styles.actionTitle}>{card.title.toUpperCase()}</Text>
+            </View>
+            {card.bodyLines.map((line, j) => (
+              <Text key={`ab-${j}`} style={styles.actionBody}>{line}</Text>
+            ))}
+            {card.timeline ? <Text style={styles.actionTimeline}>{card.timeline}</Text> : null}
+          </View>
+        ))}
+
+        {uncertainty08Items.length > 0 && (
+          <View style={styles.uncertaintyBox}>
+            <Text style={styles.uncertaintyLabel}>GAPS IN DISCLOSURE — REFLECTED AS UNCERTAINTIES</Text>
+            {uncertainty08Items.map((item, i) => (
+              <View key={`u-${i}`} style={styles.ledgerItem}>
+                <Text style={styles.ledgerDash}>—</Text>
+                <Text style={styles.ledgerText}>{item.text}</Text>
+              </View>
+            ))}
+          </View>
+        )}
+
         {lines.map((rawLine, index) => {
           const trimmed = rawLine.trim();
 
           if (!trimmed || /^---+$/.test(trimmed)) {
+            return null;
+          }
+
+          if (riskLineIndices.has(index) || actionLineIndices.has(index) || uncertainty08Indices.has(index)) {
             return null;
           }
 
@@ -114,7 +219,7 @@ export async function generateReportPDF(
             const item = sanitizeLine(trimmed.replace(/^—\s*/, ''));
             if (!item) return null;
             previousRenderableType = 'list';
-            const ledgerRow = (
+            return (
               <View key={`item-${index}`} style={styles.ledgerItem}>
                 <Text style={styles.ledgerDash}>—</Text>
                 <Text style={styles.ledgerText}>{item}</Text>
@@ -141,54 +246,12 @@ export async function generateReportPDF(
             /Archetype:/i.test(content) || /:\s*[^:]{1,40}$/.test(content);
           const isSignalLabel =
             currentSection === '02' && /^(POSITION|READY|PREPARE|BUILD)\b/i.test(content);
-          const riskMatch = currentSection === '05' ? content.match(/^(.*?)\s+—\s+(High|Moderate|Low|Unknown)$/i) : null;
-          const actionMatch = currentSection === '09' ? content.match(/^(\d+)\.\s*(.+)$/) : null;
-          const isTimeline = currentSection === '09' && /^Timeline:/i.test(content);
           const isPullQuote =
             (content.length < 200 && previousBodyLength > 200) ||
             content.startsWith('The founder should expect') ||
             content.startsWith('The correct response');
           previousRenderableType = 'body';
           previousBodyLength = content.length;
-
-          if (riskMatch) {
-            const rating = riskMatch[2].toUpperCase();
-            const riskStyle =
-              rating === 'HIGH'
-                ? styles.riskHigh
-                : rating === 'MODERATE'
-                  ? styles.riskModerate
-                  : rating === 'LOW'
-                    ? styles.riskLow
-                    : styles.riskUnknown;
-
-            return (
-              <View key={`risk-${index}`} style={styles.riskRow}>
-                <Text style={styles.riskDimension}>{riskMatch[1]}</Text>
-                <Text style={styles.riskDesc}>{''}</Text>
-                <Text style={riskStyle}>{rating}</Text>
-              </View>
-            );
-          }
-
-          if (actionMatch) {
-            return (
-              <View key={`action-${index}`} style={styles.actionBlock}>
-                <View style={styles.actionHeaderRow}>
-                  <Text style={styles.actionNumber}>{actionMatch[1].padStart(2, '0')}</Text>
-                  <Text style={styles.actionTitle}>{actionMatch[2].toUpperCase()}</Text>
-                </View>
-              </View>
-            );
-          }
-
-          if (isTimeline) {
-            return (
-              <Text key={`timeline-${index}`} style={styles.actionTimeline}>
-                {content}
-              </Text>
-            );
-          }
 
           if (isSignalLabel) {
             return (
@@ -225,11 +288,7 @@ export async function generateReportPDF(
               : null),
           };
 
-          return (
-            <Text key={`body-${index}`} style={currentSection === '09' ? styles.actionBody : bodyStyle}>
-              {content}
-            </Text>
-          );
+          return <Text key={`body-${index}`} style={bodyStyle}>{content}</Text>;
         })}
 
         <Text style={styles.disclaimer}>
