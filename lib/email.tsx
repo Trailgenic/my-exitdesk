@@ -2,13 +2,12 @@ import { Resend } from "resend";
 import { ExitDeskReport } from "@/emails/ExitDeskReport";
 import { generateReportPDF } from './pdf';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function sendReport(
   to: string,
   report: string,
   companyName: string
 ): Promise<void> {
+  const resend = new Resend(process.env.RESEND_API_KEY);
   const calendlyUrl =
     process.env.CALENDLY_ADVISORY_URL ?? "https://calendly.com/mike-mikeye/90min";
   const pdfBuffer = await generateReportPDF(report, companyName)
