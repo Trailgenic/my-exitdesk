@@ -225,6 +225,17 @@ export async function generateReportPDF(
                 <Text style={styles.ledgerText}>{item}</Text>
               </View>
             );
+
+            if (currentSection === '08') {
+              return (
+                <View key={`uncertainty-${index}`} style={styles.uncertaintyBox}>
+                  <Text style={styles.uncertaintyLabel}>GAPS IN DISCLOSURE — REFLECTED AS UNCERTAINTIES</Text>
+                  {ledgerRow}
+                </View>
+              );
+            }
+
+            return ledgerRow;
           }
 
           const content = sanitizeLine(trimmed);
