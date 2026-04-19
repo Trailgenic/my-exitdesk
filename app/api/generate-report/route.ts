@@ -140,9 +140,12 @@ export async function POST(request: Request) {
       { headers: corsHeaders(origin) }
     );
   } catch (err) {
-    console.error("Report generation failed:", err);
+    const errorMessage = err instanceof Error ? err.message : String(err);
+    const errorStack = err instanceof Error ? err.stack : "";
+    console.error("Report generation failed:", errorMessage);
+    console.error("Stack:", errorStack);
     return NextResponse.json(
-      { error: `Report generation failed: ${err}` },
+      { error: `Report generation failed: ${errorMessage}` },
       { status: 500, headers: corsHeaders(origin) }
     );
   }
