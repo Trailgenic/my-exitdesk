@@ -74,6 +74,66 @@ export async function generateReportPDF(
   companyName: string
 ): Promise<Buffer> {
   const lines = report.split(/\r?\n/);
+
+  // Pre-process risk items (section 05): collect dimension, rating, explanation
+  const riskItems: Array<{ indices: number[]; dimension: string; rating: string; explanation: string }> = [];
+  for (let i = 0; i < lines.length; i++) {
+    const s = sanitizeLine(lines[i].trim());
+    const match = s.match(/^(.*?)\s+—\s+(High|Moderate|Low|Unknown)$/i);
+    if (match) {
+      riskItems.push({
+        indices: [i, i + 1],
+        dimension: match[1],
+        rating: match[2].toUpperCase(),
+        explanation: sanitizeLine((lines[i + 1] || '').trim()),
+      });
+      i += 1;
+    }
+  }
+  const riskLineIndices = new Set(riskItems.flatMap(r => r.indices));
+
+  // Pre-process action cards (section 09): collect num, title, body, timeline
+  const actionCards: Array<{ indices: number[]; num: string; title: string; bodyLines: string[]; timeline: string }> = [];
+  let inSection09 = false;
+  let currentCard: typeof actionCards[0] | null = null;
+  for (let i = 0; i < lines.length; i++) {
+    const s = sanitizeLine(lines[i].trim());
+    const headingMatch = s.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
+    if (lines[i].trim().startsWith('#') && headingMatch) {
+      if (currentCard) { actionCards.push(currentCard); currentCard = null; }
+      inSection09 = headingMatch[1].padStart(2, '0') === '09';
+      continue;
+    }
+    if (!inSection09) continue;
+    const actionMatch = s.match(/^(\d+)\.\s+(.+)$/);
+    if (actionMatch) {
+      if (currentCard) actionCards.push(currentCard);
+      currentCard = { indices: [i], num: actionMatch[1].padStart(2, '0'), title: actionMatch[2], bodyLines: [], timeline: '' };
+    } else if (currentCard) {
+      currentCard.indices.push(i);
+      if (/^Timeline:/i.test(s)) currentCard.timeline = s;
+      else if (s) currentCard.bodyLines.push(s);
+    }
+  }
+  if (currentCard) actionCards.push(currentCard);
+  const actionLineIndices = new Set(actionCards.flatMap(c => c.indices));
+
+  // Pre-process section 08 uncertainty items
+  const uncertainty08Items: Array<{ index: number; text: string }> = [];
+  let inSection08 = false;
+  for (let i = 0; i < lines.length; i++) {
+    const s = sanitizeLine(lines[i].trim());
+    const headingMatch = s.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
+    if (lines[i].trim().startsWith('#') && headingMatch) {
+      inSection08 = headingMatch[1].padStart(2, '0') === '08';
+      continue;
+    }
+    if (inSection08 && s.startsWith('—')) {
+      uncertainty08Items.push({ index: i, text: s.replace(/^—\s*/, '') });
+    }
+  }
+  const uncertainty08Indices = new Set(uncertainty08Items.map(u => u.index));
+
   let previousRenderableType: 'section' | 'list' | 'body' | null = null;
   let currentSection = '00';
   let previousBodyLength = 0;
@@ -81,17 +141,65 @@ export async function generateReportPDF(
   const doc = (
     <Document>
       <Page size="A4" style={styles.page}>
+
+        {/* Masthead */}
         <Text style={styles.mastheadBrand}>EXIT DESK — BY MIKE YE</Text>
         <Text style={styles.mastheadCompany}>{companyName}</Text>
         <View style={styles.mastheadRule} />
 
+        {/* Risk grid — rendered before main loop, in document order it will appear at section 05 */}
+        {riskItems.map((item, i) => {
+          const riskStyle =
+            item.rating === 'HIGH' ? styles.riskHigh :
+            item.rating === 'MODERATE' ? styles.riskModerate :
+            item.rating === 'LOW' ? styles.riskLow :
+            styles.riskUnknown;
+          return (
+            <View key={`risk-pre-${i}`} style={styles.riskRow}>
+              <Text style={styles.riskDimension}>{item.dimension}</Text>
+              <Text style={styles.riskDesc}>{item.explanation}</Text>
+              <Text style={riskStyle}>{item.rating}</Text>
+            </View>
+          );
+        })}
+
+        {/* Action cards */}
+        {actionCards.map((card, i) => (
+          <View key={`action-pre-${i}`} style={styles.actionBlock}>
+            <View style={styles.actionHeaderRow}>
+              <Text style={styles.actionNumber}>{card.num}</Text>
+              <Text style={styles.actionTitle}>{card.title.toUpperCase()}</Text>
+            </View>
+            {card.bodyLines.map((line, j) => (
+              <Text key={`ab-${j}`} style={styles.actionBody}>{line}</Text>
+            ))}
+            {card.timeline ? <Text style={styles.actionTimeline}>{card.timeline}</Text> : null}
+          </View>
+        ))}
+
+        {/* Uncertainty box */}
+        {uncertainty08Items.length > 0 && (
+          <View style={styles.uncertaintyBox}>
+            <Text style={styles.uncertaintyLabel}>GAPS IN DISCLOSURE — REFLECTED AS UNCERTAINTIES</Text>
+            {uncertainty08Items.map((item, i) => (
+              <View key={`u-${i}`} style={styles.ledgerItem}>
+                <Text style={styles.ledgerDash}>—</Text>
+                <Text style={styles.ledgerText}>{item.text}</Text>
+              </View>
+            ))}
+          </View>
+        )}
+
+        {/* Main line-by-line pass */}
         {lines.map((rawLine, index) => {
           const trimmed = rawLine.trim();
 
-          if (!trimmed || /^---+$/.test(trimmed)) {
-            return null;
-          }
+          if (!trimmed || /^---+$/.test(trimmed)) return null;
 
+          // Skip lines already rendered by pre-processors
+          if (riskLineIndices.has(index) || actionLineIndices.has(index) || uncertainty08Indices.has(index)) return null;
+
+          // Section headings
           if (trimmed.startsWith('#')) {
             const title = sanitizeLine(trimmed);
             if (!title) return null;
@@ -100,7 +208,6 @@ export async function generateReportPDF(
             const number = headingMatch ? headingMatch[1].padStart(2, '0') : '00';
             const label = (headingMatch ? headingMatch[2] : title).toUpperCase();
             currentSection = number;
-
             return (
               <View key={`section-${index}`} style={styles.sectionRuleRow}>
                 <Text style={styles.sectionNumber}>{number}</Text>
@@ -110,89 +217,36 @@ export async function generateReportPDF(
             );
           }
 
+          // Em-dash ledger items (section 04 and others, not 08 which is pre-processed)
           if (trimmed.startsWith('—')) {
             const item = sanitizeLine(trimmed.replace(/^—\s*/, ''));
             if (!item) return null;
             previousRenderableType = 'list';
-            const ledgerRow = (
+            return (
               <View key={`item-${index}`} style={styles.ledgerItem}>
                 <Text style={styles.ledgerDash}>—</Text>
                 <Text style={styles.ledgerText}>{item}</Text>
               </View>
             );
-
-            if (currentSection === '08') {
-              return (
-                <View key={`uncertainty-${index}`} style={styles.uncertaintyBox}>
-                  <Text style={styles.uncertaintyLabel}>GAPS IN DISCLOSURE — REFLECTED AS UNCERTAINTIES</Text>
-                  {ledgerRow}
-                </View>
-              );
-            }
-
-            return ledgerRow;
           }
 
           const content = sanitizeLine(trimmed);
           if (!content) return null;
 
           const bodyFollowsBody = previousRenderableType === 'body';
-          const isKeyValueLead =
-            /Archetype:/i.test(content) || /:\s*[^:]{1,40}$/.test(content);
-          const isSignalLabel =
-            currentSection === '02' && /^(POSITION|READY|PREPARE|BUILD)\b/i.test(content);
-          const riskMatch = currentSection === '05' ? content.match(/^(.*?)\s+—\s+(High|Moderate|Low|Unknown)$/i) : null;
-          const actionMatch = currentSection === '09' ? content.match(/^(\d+)\.\s*(.+)$/) : null;
-          const isTimeline = currentSection === '09' && /^Timeline:/i.test(content);
+          const isKeyValueLead = /Archetype:/i.test(content) || /:\s*[^:]{1,40}$/.test(content);
+          const isSignalLabel = currentSection === '02' && /^(POSITION|READY|PREPARE|BUILD)\b/i.test(content);
           const isPullQuote =
             (content.length < 200 && previousBodyLength > 200) ||
             content.startsWith('The founder should expect') ||
             content.startsWith('The correct response');
+
           previousRenderableType = 'body';
           previousBodyLength = content.length;
 
-          if (riskMatch) {
-            const rating = riskMatch[2].toUpperCase();
-            const riskStyle =
-              rating === 'HIGH'
-                ? styles.riskHigh
-                : rating === 'MODERATE'
-                  ? styles.riskModerate
-                  : rating === 'LOW'
-                    ? styles.riskLow
-                    : styles.riskUnknown;
-
-            return (
-              <View key={`risk-${index}`} style={styles.riskRow}>
-                <Text style={styles.riskDimension}>{riskMatch[1]}</Text>
-                <Text style={styles.riskDesc}>{''}</Text>
-                <Text style={riskStyle}>{rating}</Text>
-              </View>
-            );
-          }
-
-          if (actionMatch) {
-            return (
-              <View key={`action-${index}`} style={styles.actionBlock}>
-                <View style={styles.actionHeaderRow}>
-                  <Text style={styles.actionNumber}>{actionMatch[1].padStart(2, '0')}</Text>
-                  <Text style={styles.actionTitle}>{actionMatch[2].toUpperCase()}</Text>
-                </View>
-              </View>
-            );
-          }
-
-          if (isTimeline) {
-            return (
-              <Text key={`timeline-${index}`} style={styles.actionTimeline}>
-                {content}
-              </Text>
-            );
-          }
-
           if (isSignalLabel) {
             return (
-              <View key={`signal-${index}`} style={styles.signalBlock}>
+              <View key={`signal-label-${index}`} style={styles.signalBlock}>
                 <Text style={styles.signalLabel}>{content}</Text>
               </View>
             );
@@ -217,16 +271,11 @@ export async function generateReportPDF(
           const bodyStyle = {
             ...styles.bodyText,
             ...(bodyFollowsBody ? { marginTop: 8 } : null),
-            ...(isKeyValueLead
-              ? {
-                  fontFamily: 'DMMono',
-                  marginBottom: 6,
-                }
-              : null),
+            ...(isKeyValueLead ? { fontFamily: 'DMMono', marginBottom: 6 } : null),
           };
 
           return (
-            <Text key={`body-${index}`} style={currentSection === '09' ? styles.actionBody : bodyStyle}>
+            <Text key={`body-${index}`} style={bodyStyle}>
               {content}
             </Text>
           );
@@ -241,12 +290,8 @@ export async function generateReportPDF(
           fixed
           render={({ pageNumber }: { pageNumber: number }) => (
             <>
-              <Text style={styles.footerText}>
-                Exit Desk · Confidential · mikeye.com
-              </Text>
-              <Text style={styles.footerText}>
-                {pageNumber}
-              </Text>
+              <Text style={styles.footerText}>Exit Desk · Confidential · mikeye.com</Text>
+              <Text style={styles.footerText}>{pageNumber}</Text>
             </>
           )}
         />
