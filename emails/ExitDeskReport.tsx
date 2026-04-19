@@ -32,13 +32,21 @@ function parseReport(report: string): Array<{ heading: string; body: string }> {
 
     if (/^---+$/.test(trimmed)) continue;
 
+    // Skip Opus header lines — rendered in masthead
+    if (/^Exit Desk\s*$/i.test(sanitized)) continue;
+    if (/^Confidential\s*[—-]/i.test(sanitized)) continue;
+
+    // Skip footer disclaimer lines
+    if (
+      sanitized.startsWith("This report was generated solely") ||
+      sanitized.startsWith("This report reflects the M&A judgment") ||
+      sanitized.startsWith("This output reflects the M&A and portfolio")
+    ) continue;
+
     const isHeading =
       trimmed.startsWith("#") ||
-      /^[A-Z][A-Z\s\-&—:]{8,}$/.test(sanitized) ||
-      /^\d+[\.\)]\s+[A-Z]/.test(sanitized) ||
-      /^(EXECUTIVE SUMMARY|EXIT READINESS|BUYER-LENS|REVENUE QUALITY|FOUNDER DEPENDENCE|FINANCIAL PROFILE|DILIGENCE PRESSURE|COMPETITIVE POSITION|TIMING|PRE-MARKET|UNCERTAINTY|STRUCTURAL RISK|PROCESS LEVERAGE|SELLER ARCHETYPE|FRAMING BY)/i.test(
-        sanitized,
-      );
+      /^\d+[\.\)]\s+.{4,}$/.test(sanitized) ||
+      /^(BUYER'S FIRST IMPRESSION|HOW BUYERS WILL|WHERE BUYERS WILL|HOW A SERIOUS BUYER|YOUR EXIT READINESS|WHERE THE DEAL|YOUR DEFENSIBILITY|HOW NOT TO LOSE|WHAT THIS REPORT|WHAT TO FIX|WHO WILL ACTUALLY)/i.test(sanitized);
 
     if (isHeading && sanitized.length > 0) {
       if (currentHeading || currentBody.length > 0) {
@@ -69,7 +77,7 @@ function parseReport(report: string): Array<{ heading: string; body: string }> {
 function splitHeading(heading: string): { number: string; label: string } {
   const match = heading.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
   if (!match) {
-    return { number: "00", label: heading.toUpperCase() };
+    return { number: "", label: heading.toUpperCase() };
   }
   return { number: match[1].padStart(2, "0"), label: match[2].toUpperCase() };
 }
@@ -97,10 +105,11 @@ export function ExitDeskReport({
           style={{
             maxWidth: "640px",
             margin: "0 auto",
-            backgroundColor: "#FFFFFF",
+            backgroundColor: "#F7F5F0",
             padding: "32px 40px 40px 40px",
           }}
         >
+          {/* Masthead */}
           <Section>
             <Text
               style={{
@@ -108,7 +117,7 @@ export function ExitDeskReport({
                 fontSize: "10px",
                 textTransform: "uppercase",
                 letterSpacing: "0.12em",
-                color: "#888880",
+                color: "#1A1A18",
                 fontWeight: "700",
                 margin: "0",
                 textAlign: "right",
@@ -122,11 +131,22 @@ export function ExitDeskReport({
                 fontSize: "32px",
                 fontWeight: "400",
                 color: "#1A1A18",
-                margin: "8px 0 12px 0",
+                margin: "8px 0 4px 0",
                 lineHeight: "1.2",
               }}
             >
               {companyName}
+            </Text>
+            <Text
+              style={{
+                fontFamily: "'Courier New', monospace",
+                fontSize: "9px",
+                letterSpacing: "0.1em",
+                color: "#888880",
+                margin: "0 0 12px 0",
+              }}
+            >
+              CONFIDENTIAL
             </Text>
             <div
               style={{
@@ -142,11 +162,11 @@ export function ExitDeskReport({
               ? sections.map((section, sectionIndex) => {
                   const heading = splitHeading(section.heading);
                   const isReadinessSection =
-                    /^(EXIT READINESS SIGNAL|YOUR EXIT READINESS SIGNAL)$/i.test(
+                    /^(EXIT READINESS SIGNAL|YOUR EXIT READINESS SIGNAL|2[\.\)]\s)/i.test(
                       section.heading.trim(),
-                    );
+                    ) || heading.number === "02";
                   const isRiskSection =
-                    heading.number === "05" || /STRUCTURAL RISK/i.test(heading.label);
+                    heading.number === "05" || /WHERE THE DEAL/i.test(heading.label);
                   const isLedgerSection = heading.number === "04" || heading.number === "08";
                   const isActionSection = heading.number === "09";
 
@@ -229,32 +249,36 @@ export function ExitDeskReport({
                         >
                           <tbody>
                             <tr>
+                              {heading.number ? (
+                                <td
+                                  style={{
+                                    fontFamily: "'Courier New', monospace",
+                                    fontSize: "10px",
+                                    color: "#c8a96e",
+                                    letterSpacing: "0.1em",
+                                    paddingRight: "12px",
+                                    whiteSpace: "nowrap",
+                                    verticalAlign: "middle",
+                                  }}
+                                >
+                                  {heading.number}
+                                </td>
+                              ) : null}
                               <td
                                 style={{
                                   fontFamily: "'Courier New', monospace",
                                   fontSize: "10px",
                                   color: "#c8a96e",
-                                  letterSpacing: "0.1em",
-                                  paddingRight: "12px",
-                                  whiteSpace: "nowrap",
-                                }}
-                              >
-                                {heading.number}
-                              </td>
-                              <td
-                                style={{
-                                  fontFamily: "'Courier New', monospace",
-                                  fontSize: "10px",
-                                  color: "#888880",
                                   letterSpacing: "0.12em",
                                   textTransform: "uppercase",
                                   paddingRight: "16px",
                                   whiteSpace: "nowrap",
+                                  verticalAlign: "middle",
                                 }}
                               >
                                 {heading.label}
                               </td>
-                              <td style={{ width: "100%", borderBottom: "0.5px solid #C8C4BA" }} />
+                              <td style={{ width: "100%", borderBottom: "0.5px solid #C8C4BA", verticalAlign: "middle" }} />
                             </tr>
                           </tbody>
                         </table>
@@ -263,8 +287,9 @@ export function ExitDeskReport({
                       {isReadinessSection && lines.length > 0 ? (
                         <div
                           style={{
-                            backgroundColor: "#1A1A18",
-                            padding: "24px 28px",
+                            backgroundColor: "#F2F0EB",
+                            borderLeft: "1.5px solid #c8a96e",
+                            padding: "20px 24px",
                             margin: "16px 0 24px 0",
                           }}
                         >
@@ -294,7 +319,7 @@ export function ExitDeskReport({
                                   fontFamily: "Georgia, 'Times New Roman', serif",
                                   fontSize: "15px",
                                   fontStyle: "italic",
-                                  color: "#C8C4BA",
+                                  color: "#2A2A26",
                                   lineHeight: "1.65",
                                   margin: i === 0 ? "0" : "0 0 12px 0",
                                 }}
@@ -454,6 +479,7 @@ export function ExitDeskReport({
               )}
           </Section>
 
+          {/* Advisory CTA */}
           <Section
             style={{
               backgroundColor: "#1A1A18",
@@ -491,18 +517,9 @@ export function ExitDeskReport({
             >
               Book Advisory Session
             </Link>
-            <Text
-              style={{
-                fontFamily: "'Courier New', monospace",
-                fontSize: "10px",
-                color: "#555550",
-                margin: "12px 0 0 0",
-              }}
-            >
-              {calendlyUrl}
-            </Text>
           </Section>
 
+          {/* Footer */}
           <Section style={{ paddingTop: "24px" }}>
             <div style={{ borderTop: "0.5px solid #C8C4BA", marginBottom: "16px" }} />
             <Text
