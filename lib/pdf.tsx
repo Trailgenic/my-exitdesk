@@ -10,7 +10,7 @@ import {
 
 const styles = StyleSheet.create({
   page: { padding: '48pt 52pt 64pt 52pt', backgroundColor: '#F7F5F0', color: '#2A2A26', fontFamily: 'Times-Roman', fontSize: 11 },
-  mastheadBrand: { fontFamily: 'Courier', fontSize: 8, letterSpacing: 1.2, color: '#888880', textAlign: 'right', marginBottom: 6 },
+  mastheadBrand: { fontFamily: 'Courier-Bold', fontSize: 8, letterSpacing: 1.2, color: '#1A1A18', textAlign: 'right', marginBottom: 6 },
   mastheadCompany: { fontSize: 24, fontWeight: 400, color: '#1A1A18', marginBottom: 8, lineHeight: 1.1 },
   mastheadRule: { borderBottomWidth: 0.5, borderBottomColor: '#C8C4BA', marginBottom: 28, marginTop: 8 },
   sectionRuleRow: { flexDirection: 'row', alignItems: 'center', marginTop: 32, marginBottom: 16 },
@@ -35,13 +35,15 @@ const styles = StyleSheet.create({
   ledgerText: { fontSize: 10, color: '#2A2A26', lineHeight: 1.6, flex: 1 },
   uncertaintyBox: { backgroundColor: '#F2F0EB', borderLeftWidth: 1.5, borderLeftColor: '#C8C4BA', padding: '14pt 18pt', marginTop: 10, marginBottom: 10 },
   uncertaintyLabel: { fontFamily: 'Courier', fontSize: 7.5, letterSpacing: 1.2, color: '#888880', marginBottom: 10 },
+  uncertaintyItem: { flexDirection: 'row', paddingTop: 6, paddingBottom: 6 },
+  uncertaintyDash: { fontSize: 10, color: '#C8C4BA', width: 14 },
+  uncertaintyText: { fontSize: 10, color: '#2A2A26', lineHeight: 1.6, flex: 1 },
   actionBlock: { backgroundColor: '#F2F0EB', borderLeftWidth: 1.5, borderLeftColor: '#C8C4BA', padding: '14pt 18pt', marginBottom: 12 },
   actionHeaderRow: { flexDirection: 'row', alignItems: 'flex-start', marginBottom: 8 },
   actionNumber: { fontFamily: 'Courier', fontSize: 8, color: '#c8a96e', marginRight: 10 },
   actionTitle: { fontFamily: 'Courier', fontSize: 8, letterSpacing: 0.8, color: '#555550', flex: 1 },
   actionBody: { fontSize: 10, lineHeight: 1.7, color: '#2A2A26', marginBottom: 6 },
   actionTimeline: { fontFamily: 'Courier', fontSize: 7.5, letterSpacing: 0.8, color: '#c8a96e', marginTop: 6 },
-  disclaimer: { fontFamily: 'Courier', fontSize: 7.5, color: '#AAAAAA', lineHeight: 1.7, letterSpacing: 0.3, marginTop: 20, borderTopWidth: 0.5, borderTopColor: '#C8C4BA', paddingTop: 14 },
   footer: { position: 'absolute', bottom: 24, left: 52, right: 52, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTopWidth: 0.5, borderTopColor: '#C8C4BA', paddingTop: 8 },
   footerText: { fontFamily: 'Courier', fontSize: 7, color: '#AAAAAA', letterSpacing: 0.4 },
 });
@@ -64,6 +66,23 @@ export async function generateReportPDF(
   let currentSection = '00';
   let previousBodyLength = 0;
 
+  // Pre-collect section 8 uncertainty items for grouped rendering
+  const uncertaintyItems: string[] = [];
+  let inSection8 = false;
+  for (const rawLine of lines) {
+    const trimmed = rawLine.trim();
+    if (trimmed.startsWith('#')) {
+      const title = sanitizeLine(trimmed);
+      const headingMatch = title.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
+      const number = headingMatch ? headingMatch[1].padStart(2, '0') : '00';
+      inSection8 = number === '08';
+    }
+    if (inSection8 && trimmed.startsWith('—')) {
+      const item = sanitizeLine(trimmed.replace(/^—\s*/, ''));
+      if (item) uncertaintyItems.push(item);
+    }
+  }
+
   const doc = (
     <Document>
       <Page size="A4" style={styles.page}>
@@ -78,6 +97,15 @@ export async function generateReportPDF(
             return null;
           }
 
+          // Skip lines that are pure disclaimer text from Opus footer
+          if (
+            trimmed.startsWith('This report was generated solely') ||
+            trimmed.startsWith('This report reflects the M&A judgment') ||
+            trimmed.startsWith('This output reflects the M&A and portfolio')
+          ) {
+            return null;
+          }
+
           if (trimmed.startsWith('#')) {
             const title = sanitizeLine(trimmed);
             if (!title) return null;
@@ -86,6 +114,28 @@ export async function generateReportPDF(
             const number = headingMatch ? headingMatch[1].padStart(2, '0') : '00';
             const label = (headingMatch ? headingMatch[2] : title).toUpperCase();
             currentSection = number;
+
+            // For section 8, render the grouped uncertainty box right after the header
+            if (number === '08') {
+              return (
+                <View key={`section-${index}`}>
+                  <View style={styles.sectionRuleRow}>
+                    <Text style={styles.sectionNumber}>{number}</Text>
+                    <Text style={styles.sectionLabel}>{label}</Text>
+                    <View style={styles.sectionRuleLine} />
+                  </View>
+                  <View style={styles.uncertaintyBox}>
+                    <Text style={styles.uncertaintyLabel}>GAPS IN DISCLOSURE — REFLECTED AS UNCERTAINTIES</Text>
+                    {uncertaintyItems.map((item, i) => (
+                      <View key={`u-${i}`} style={styles.uncertaintyItem}>
+                        <Text style={styles.uncertaintyDash}>—</Text>
+                        <Text style={styles.uncertaintyText}>{item}</Text>
+                      </View>
+                    ))}
+                  </View>
+                </View>
+              );
+            }
 
             return (
               <View key={`section-${index}`} style={styles.sectionRuleRow}>
@@ -96,27 +146,21 @@ export async function generateReportPDF(
             );
           }
 
+          // Skip section 8 bullet items — already rendered in grouped box above
+          if (currentSection === '08' && trimmed.startsWith('—')) {
+            return null;
+          }
+
           if (trimmed.startsWith('—')) {
             const item = sanitizeLine(trimmed.replace(/^—\s*/, ''));
             if (!item) return null;
             previousRenderableType = 'list';
-            const ledgerRow = (
+            return (
               <View key={`item-${index}`} style={styles.ledgerItem}>
                 <Text style={styles.ledgerDash}>—</Text>
                 <Text style={styles.ledgerText}>{item}</Text>
               </View>
             );
-
-            if (currentSection === '08') {
-              return (
-                <View key={`uncertainty-${index}`} style={styles.uncertaintyBox}>
-                  <Text style={styles.uncertaintyLabel}>GAPS IN DISCLOSURE — REFLECTED AS UNCERTAINTIES</Text>
-                  {ledgerRow}
-                </View>
-              );
-            }
-
-            return ledgerRow;
           }
 
           const content = sanitizeLine(trimmed);
@@ -218,21 +262,13 @@ export async function generateReportPDF(
           );
         })}
 
-        <Text style={styles.disclaimer}>
-          This output reflects the M&A and portfolio-operations judgment framework of Mike Ye. Not legal, tax, or investment advice.
-        </Text>
-
         <View
           style={styles.footer}
           fixed
           render={({ pageNumber }) => (
             <>
-              <Text style={styles.footerText}>
-                Exit Desk · Confidential · mikeye.com
-              </Text>
-              <Text style={styles.footerText}>
-                {pageNumber}
-              </Text>
+              <Text style={styles.footerText}>Exit Desk · Confidential · mikeye.com</Text>
+              <Text style={styles.footerText}>{pageNumber}</Text>
             </>
           )}
         />
