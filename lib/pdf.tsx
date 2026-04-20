@@ -115,7 +115,7 @@ export async function generateReportPDF(
           // Skip Opus header lines — already rendered in masthead
           if (
             /^Exit Desk\s*$/i.test(trimmed) ||
-            /^Confidential\s*[—-]/i.test(trimmed)
+            /^Confidential[\s\u2014\u2013\-]/i.test(trimmed)
           ) {
             return null;
           }
