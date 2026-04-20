@@ -249,21 +249,6 @@ export function ExitDeskReport({
                         >
                           <tbody>
                             <tr>
-                              {heading.number ? (
-                                <td
-                                  style={{
-                                    fontFamily: "'Courier New', monospace",
-                                    fontSize: "10px",
-                                    color: "#c8a96e",
-                                    letterSpacing: "0.1em",
-                                    paddingRight: "12px",
-                                    whiteSpace: "nowrap",
-                                    verticalAlign: "middle",
-                                  }}
-                                >
-                                  {heading.number}
-                                </td>
-                              ) : null}
                               <td
                                 style={{
                                   fontFamily: "'Courier New', monospace",
@@ -272,13 +257,14 @@ export function ExitDeskReport({
                                   letterSpacing: "0.12em",
                                   textTransform: "uppercase",
                                   paddingRight: "16px",
-                                  whiteSpace: "nowrap",
                                   verticalAlign: "middle",
+                                  width: "1%",
+                                  whiteSpace: "nowrap",
                                 }}
                               >
-                                {heading.label}
+                                {heading.number ? `${heading.number}  ${heading.label}` : heading.label}
                               </td>
-                              <td style={{ width: "100%", borderBottom: "0.5px solid #C8C4BA", verticalAlign: "middle" }} />
+                              <td style={{ borderBottom: "0.5px solid #C8C4BA", verticalAlign: "middle" }} />
                             </tr>
                           </tbody>
                         </table>
@@ -362,15 +348,10 @@ export function ExitDeskReport({
                       ) : isActionSection && actionCards.length > 0 ? (
                         <>
                           {actionCards.map((card, i) => (
-                            <div key={`action-${i}`} style={{ backgroundColor: "#F2F0EB", borderLeft: "1.5px solid #C8C4BA", padding: "20px 24px", marginBottom: "16px" }}>
-                              <table role="presentation" width="100%" cellPadding={0} cellSpacing={0} style={{ borderCollapse: "collapse" }}>
-                                <tbody>
-                                  <tr>
-                                    <td style={{ fontFamily: "'Courier New', monospace", fontSize: "10px", color: "#c8a96e", whiteSpace: "nowrap", paddingRight: "12px", verticalAlign: "top" }}>{card.num}</td>
-                                    <td style={{ fontFamily: "'Courier New', monospace", fontSize: "10px", textTransform: "uppercase", letterSpacing: "0.08em", color: "#555550", verticalAlign: "top" }}>{card.title}</td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                            <div key={`action-${i}`} style={{ backgroundColor: "#F2F0EB", borderLeft: "1.5px solid #C8C4BA", padding: "20px 24px", marginBottom: "16px", marginLeft: "24px" }}>
+                              <Text style={{ fontFamily: "'Courier New', monospace", fontSize: "10px", textTransform: "uppercase", letterSpacing: "0.08em", color: "#1A1A18", margin: "0 0 8px 0", paddingLeft: "16px" }}>
+                                {card.num}{"  "}{card.title}
+                              </Text>
                               {card.body.map((line, bodyIndex) => (
                                 <Text key={`action-body-${bodyIndex}`} style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "14px", lineHeight: "1.72", color: "#2A2A26", margin: "10px 0 0 0" }}>{line}</Text>
                               ))}
