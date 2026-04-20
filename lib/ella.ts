@@ -74,7 +74,7 @@ export async function generateReport(
     throw new Error("ANTHROPIC_API_KEY is not set.");
   }
 
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY, maxRetries: 3 });
   const response = await client.messages.create({
     model: 'claude-opus-4-6',
     max_tokens: 8000,
