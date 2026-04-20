@@ -119,6 +119,8 @@ export async function generateReportPDF(
           if (trimmed.startsWith('#')) {
             const title = sanitizeLine(trimmed);
             if (!title) return null;
+            if (/^Exit Desk\s*$/i.test(title)) return null;
+            if (/^Confidential\s*[—–-]/i.test(title)) return null;
             previousRenderableType = 'section';
             const headingMatch = title.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
             const number = headingMatch ? headingMatch[1].padStart(2, '0') : '00';
