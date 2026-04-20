@@ -252,7 +252,8 @@ export function ExitDeskReport({
                               <td
                                 style={{
                                   fontFamily: "'Courier New', monospace",
-                                  fontSize: "10px",
+                                  fontSize: "11px",
+                                  fontWeight: "700",
                                   color: "#c8a96e",
                                   letterSpacing: "0.12em",
                                   textTransform: "uppercase",
