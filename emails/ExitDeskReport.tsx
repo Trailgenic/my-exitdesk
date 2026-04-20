@@ -34,7 +34,7 @@ function parseReport(report: string): Array<{ heading: string; body: string }> {
 
     // Skip Opus header lines — rendered in masthead
     if (/^Exit Desk\s*$/i.test(sanitized)) continue;
-    if (/^Confidential\s*[—-]/i.test(sanitized)) continue;
+    if (/^Confidential[\s\u2014\u2013\-]/i.test(sanitized)) continue;
 
     // Skip footer disclaimer lines
     if (
@@ -258,7 +258,8 @@ export function ExitDeskReport({
                                   textTransform: "uppercase",
                                   paddingRight: "16px",
                                   verticalAlign: "middle",
-                                  width: "1%",
+                                  width: "auto",
+                                  maxWidth: "320px",
                                   whiteSpace: "nowrap",
                                 }}
                               >
@@ -349,9 +350,18 @@ export function ExitDeskReport({
                         <>
                           {actionCards.map((card, i) => (
                             <div key={`action-${i}`} style={{ backgroundColor: "#F2F0EB", borderLeft: "1.5px solid #C8C4BA", padding: "20px 24px", marginBottom: "16px", marginLeft: "24px" }}>
-                              <Text style={{ fontFamily: "'Courier New', monospace", fontSize: "10px", textTransform: "uppercase", letterSpacing: "0.08em", color: "#1A1A18", margin: "0 0 8px 0", paddingLeft: "16px" }}>
-                                {card.num}{"  "}{card.title}
-                              </Text>
+                              <table role="presentation" width="100%" cellPadding={0} cellSpacing={0} style={{ borderCollapse: "collapse", marginBottom: "8px" }}>
+                                <tbody>
+                                  <tr>
+                                    <td style={{ fontFamily: "'Courier New', monospace", fontSize: "10px", textTransform: "uppercase", letterSpacing: "0.08em", color: "#1A1A18", whiteSpace: "nowrap", paddingRight: "12px", verticalAlign: "top", width: "auto" }}>
+                                      {card.num}
+                                    </td>
+                                    <td style={{ fontFamily: "'Courier New', monospace", fontSize: "10px", textTransform: "uppercase", letterSpacing: "0.08em", color: "#1A1A18", verticalAlign: "top" }}>
+                                      {card.title.toUpperCase()}
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
                               {card.body.map((line, bodyIndex) => (
                                 <Text key={`action-body-${bodyIndex}`} style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: "14px", lineHeight: "1.72", color: "#2A2A26", margin: "10px 0 0 0" }}>{line}</Text>
                               ))}

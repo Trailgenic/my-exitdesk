@@ -62,7 +62,14 @@ export async function generateReportPDF(
   report: string,
   companyName: string
 ): Promise<Buffer> {
-  const lines = report.split(/\r?\n/);
+  const lines = report
+    .split(/\r?\n/)
+    .filter(line => {
+      const t = line.trim();
+      if (/^Exit Desk\s*$/i.test(t)) return false;
+      if (/^Confidential[\s\u2014\u2013\-]/i.test(t)) return false;
+      return true;
+    });
   let previousRenderableType: 'section' | 'list' | 'body' | null = null;
   let currentSection = '00';
   let previousBodyLength = 0;
@@ -112,13 +119,6 @@ export async function generateReportPDF(
             return null;
           }
 
-          // Skip Opus header lines — already rendered in masthead
-          if (
-            /^Exit Desk\s*$/i.test(trimmed) ||
-            /^Confidential\s*[—-]/i.test(trimmed)
-          ) {
-            return null;
-          }
 
           if (trimmed.startsWith('#')) {
             const title = sanitizeLine(trimmed);
