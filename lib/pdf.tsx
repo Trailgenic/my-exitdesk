@@ -77,10 +77,14 @@ export async function generateReportPDF(
       const headingMatch = title.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
       const number = headingMatch ? headingMatch[1].padStart(2, '0') : '00';
       inSection8 = number === '08';
+    } else if (/^8[\.\)]\s+/i.test(trimmed) || /^WHAT THIS REPORT CANNOT SEE/i.test(trimmed)) {
+      inSection8 = true;
+    } else if (/^\d+[\.\)]\s+/i.test(trimmed) && !/^8[\.\)]\s+/i.test(trimmed)) {
+      inSection8 = false;
     }
-    if (inSection8 && trimmed.startsWith('—')) {
+    if (inSection8 && (trimmed.startsWith('—') || trimmed.startsWith('-'))) {
       const item = sanitizeLine(trimmed.replace(/^—\s*/, ''));
-      if (item) uncertaintyItems.push(item);
+      if (item) uncertaintyItems.push(item.replace(/^-\s*/, ''));
     }
   }
 
@@ -119,6 +123,8 @@ export async function generateReportPDF(
           if (trimmed.startsWith('#')) {
             const title = sanitizeLine(trimmed);
             if (!title) return null;
+            if (/^Exit Desk\s*$/i.test(title)) return null;
+            if (/^Confidential\s*[—–-]/i.test(title)) return null;
             previousRenderableType = 'section';
             const headingMatch = title.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
             const number = headingMatch ? headingMatch[1].padStart(2, '0') : '00';
@@ -232,17 +238,17 @@ export async function generateReportPDF(
 
           if (isSignalLabel) {
             return (
-              <View key={`signal-${index}`} style={styles.signalBlock}>
-                <Text style={styles.signalLabel}>{content}</Text>
-              </View>
+              <Text key={`signal-${index}`} style={{ fontFamily: 'Courier', fontSize: 8, letterSpacing: 1.2, color: '#c8a96e', marginBottom: 10, marginTop: 4 }}>
+                {content}
+              </Text>
             );
           }
 
           if (currentSection === '02') {
             return (
-              <View key={`signal-text-${index}`} style={styles.signalBlock}>
-                <Text style={styles.signalText}>{content}</Text>
-              </View>
+              <Text key={`signal-text-${index}`} style={styles.bodyText}>
+                {content}
+              </Text>
             );
           }
 
