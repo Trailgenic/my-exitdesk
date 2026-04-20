@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
   mastheadConfidential: { fontFamily: 'Courier', fontSize: 8, letterSpacing: 1, color: '#888880', marginBottom: 8 },
   mastheadRule: { borderBottomWidth: 0.5, borderBottomColor: '#C8C4BA', marginBottom: 28, marginTop: 8 },
   sectionRuleRow: { flexDirection: 'row', alignItems: 'center', marginTop: 32, marginBottom: 16 },
-  sectionNumber: { fontFamily: 'Courier', fontSize: 8, color: '#c8a96e', letterSpacing: 1, marginRight: 10 },
-  sectionLabel: { fontFamily: 'Courier', fontSize: 8, letterSpacing: 1.2, color: '#c8a96e', marginRight: 14 },
+  sectionNumber: { fontFamily: 'Courier-Bold', fontSize: 9, color: '#c8a96e', letterSpacing: 1, marginRight: 10 },
+  sectionLabel: { fontFamily: 'Courier-Bold', fontSize: 9, letterSpacing: 1.2, color: '#c8a96e', marginRight: 14 },
   sectionRuleLine: { flex: 1, borderBottomWidth: 0.5, borderBottomColor: '#C8C4BA' },
   bodyText: { fontSize: 11, lineHeight: 1.75, color: '#2A2A26', marginBottom: 10 },
   pullQuote: { borderLeftWidth: 1.5, borderLeftColor: '#c8a96e', paddingLeft: 14, marginTop: 14, marginBottom: 14 },
@@ -62,7 +62,14 @@ export async function generateReportPDF(
   report: string,
   companyName: string
 ): Promise<Buffer> {
-  const lines = report.split(/\r?\n/);
+  const lines = report
+    .split(/\r?\n/)
+    .filter(line => {
+      const t = line.trim();
+      if (/^Exit Desk\s*$/i.test(t)) return false;
+      if (/^Confidential[\s\u2014\u2013\-]/i.test(t)) return false;
+      return true;
+    });
   let previousRenderableType: 'section' | 'list' | 'body' | null = null;
   let currentSection = '00';
   let previousBodyLength = 0;
@@ -112,13 +119,6 @@ export async function generateReportPDF(
             return null;
           }
 
-          // Skip Opus header lines — already rendered in masthead
-          if (
-            /^Exit Desk\s*$/i.test(trimmed) ||
-            /^Confidential\s*[—-]/i.test(trimmed)
-          ) {
-            return null;
-          }
 
           if (trimmed.startsWith('#')) {
             const title = sanitizeLine(trimmed);
