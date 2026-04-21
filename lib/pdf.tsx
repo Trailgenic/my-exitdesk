@@ -45,6 +45,11 @@ const styles = StyleSheet.create({
   actionTitle: { fontFamily: 'Courier', fontSize: 8, letterSpacing: 0.8, color: '#555550', flex: 1 },
   actionBody: { fontSize: 10, lineHeight: 1.7, color: '#2A2A26', marginBottom: 6 },
   actionTimeline: { fontFamily: 'Courier', fontSize: 7.5, letterSpacing: 0.8, color: '#c8a96e', marginTop: 6 },
+  closingRule: { borderBottomWidth: 0.5, borderBottomColor: '#C8C4BA', marginTop: 40, marginBottom: 24 },
+  closingSignature: { fontSize: 14, color: '#1A1A18', marginBottom: 4 },
+  closingBrand: { fontFamily: 'Courier', fontSize: 8, letterSpacing: 1.2, color: '#888880', marginBottom: 20 },
+  closingCredential: { fontSize: 10, lineHeight: 1.6, color: '#555550', marginBottom: 16 },
+  closingDisclaimer: { fontFamily: 'Courier', fontSize: 7.5, letterSpacing: 0.8, color: '#AAAAAA' },
   footer: { position: 'absolute', bottom: 24, left: 52, right: 52, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderTopWidth: 0.5, borderTopColor: '#C8C4BA', paddingTop: 8 },
   footerText: { fontFamily: 'Courier', fontSize: 7, color: '#AAAAAA', letterSpacing: 0.4 },
 });
@@ -277,6 +282,13 @@ export async function generateReportPDF(
             </Text>
           );
         })}
+        <View style={styles.closingRule} />
+        <Text style={styles.closingSignature}>Mike Ye</Text>
+        <Text style={styles.closingBrand}>Exit Desk · mikeye.com</Text>
+        <Text style={styles.closingCredential}>
+          25 years and $7.4B in acquisitions, divestitures, and portfolio exits across media, healthcare services, retail, and technology.
+        </Text>
+        <Text style={styles.closingDisclaimer}>Not legal, tax, investment, or valuation advice.</Text>
 
         <View
           style={styles.footer}

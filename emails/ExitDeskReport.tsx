@@ -511,6 +511,60 @@ export function ExitDeskReport({
             </Link>
           </Section>
 
+          <Section style={{ paddingTop: "8px" }}>
+            <div
+              style={{
+                borderBottom: "0.5px solid #C8C4BA",
+                marginTop: "40px",
+                marginBottom: "24px",
+                width: "100%",
+              }}
+            />
+            <Text
+              style={{
+                fontFamily: "Georgia, 'Times New Roman', serif",
+                fontSize: "14px",
+                color: "#1A1A18",
+                margin: "0 0 4px 0",
+              }}
+            >
+              Mike Ye
+            </Text>
+            <Text
+              style={{
+                fontFamily: "'Courier New', monospace",
+                fontSize: "8px",
+                letterSpacing: "1.2px",
+                color: "#888880",
+                margin: "0 0 20px 0",
+              }}
+            >
+              Exit Desk · mikeye.com
+            </Text>
+            <Text
+              style={{
+                fontFamily: "Georgia, 'Times New Roman', serif",
+                fontSize: "10px",
+                lineHeight: "1.6",
+                color: "#555550",
+                margin: "0 0 16px 0",
+              }}
+            >
+              25 years and $7.4B in acquisitions, divestitures, and portfolio exits across media, healthcare services, retail, and technology.
+            </Text>
+            <Text
+              style={{
+                fontFamily: "'Courier New', monospace",
+                fontSize: "7.5px",
+                letterSpacing: "0.8px",
+                color: "#AAAAAA",
+                margin: "0",
+              }}
+            >
+              Not legal, tax, investment, or valuation advice.
+            </Text>
+          </Section>
+
           {/* Footer */}
           <Section style={{ paddingTop: "24px" }}>
             <div style={{ borderTop: "0.5px solid #C8C4BA", marginBottom: "16px" }} />
