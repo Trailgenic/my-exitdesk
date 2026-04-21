@@ -70,9 +70,16 @@ export async function generateReportPDF(
   const lines = report
     .split(/\r?\n/)
     .filter(line => {
-      const t = line.trim();
+      // Strip markdown heading markers, bold/italic emphasis, and whitespace
+      const t = line
+        .replace(/^#+\s*/, '')
+        .replace(/\*\*/g, '')
+        .replace(/\*/g, '')
+        .trim();
+      if (!t) return true; // keep empty lines for spacing logic
       if (/^Exit Desk\s*$/i.test(t)) return false;
-      if (/^Confidential[\s\u2014\u2013\-]/i.test(t)) return false;
+      if (/^Confidential\b/i.test(t)) return false;
+      if (/^Exit Desk\s*[—–-]\s*by Mike Ye/i.test(t)) return false;
       return true;
     });
   let previousRenderableType: 'section' | 'list' | 'body' | null = null;
@@ -129,7 +136,8 @@ export async function generateReportPDF(
             const title = sanitizeLine(trimmed);
             if (!title) return null;
             if (/^Exit Desk\s*$/i.test(title)) return null;
-            if (/^Confidential\s*[—–-]/i.test(title)) return null;
+            if (/^Confidential\b/i.test(title)) return null;
+            if (/^Exit Desk\s*[—–-]\s*by Mike Ye/i.test(title)) return null;
             previousRenderableType = 'section';
             const headingMatch = title.match(/^(\d{1,2})[\.\)\-\s]+(.+)$/);
             const number = headingMatch ? headingMatch[1].padStart(2, '0') : '00';
