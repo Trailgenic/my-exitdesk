@@ -65,7 +65,7 @@ export async function POST(request: Request) {
       {
         price_data: {
           currency: "usd",
-          unit_amount: 49900,
+          unit_amount: 500,
           product_data: {
             name: "Exit Readiness Report",
             description: "Buyer-lens exit readiness report for $1M–$20M business owners. Built from 25 years and $7.4B in M&A transactions — positioning memo, diligence map, AI exposure assessment, and pre-market action plan. Delivered within 24 hours.",
