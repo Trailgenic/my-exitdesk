@@ -108,7 +108,8 @@ Example:
 Key man dependency — Moderate
 The founder is involved in daily operations and quality degrades without them, but a 9-year operations manager and documented systems reduce this from High.
 
-For each, provide the rating and a 1-sentence explanation referencing the seller's inputs. If the seller did not provide enough information for a given dimension, rate it Unknown and note what is missing. After the 10 dimensions, add a 1–2 sentence synthesis: is there a hard veto (a single dimension that kills the deal), or is this a case of compounding moderate risks?
+For each, provide the rating and a 1-sentence explanation referencing the seller's inputs. If the seller did not provide enough information for a given dimension, rate it Unknown and note what is missing. After the 10 dimensions, add a 1–2 sentence synthesis: is there a hard veto (a single dimension that kills the deal), or is this a case of compounding moderate risks? 
+Note specifically: if Financing / bankability profile is rated High risk or Unknown, treat this as a structural constraint on the buyer universe and flag it explicitly — at $1M–$7M revenue, unbankability collapses the realistic buyer pool to cash buyers only, which materially changes the deal dynamics.
 
 6. YOUR DEFENSIBILITY AND AI EXPOSURE
 2–3 paragraphs. Reference the industry, hard-to-replicate inputs, industry dynamics, and the company description.
@@ -136,7 +137,7 @@ These are not generic. They should feel like instructions from someone who has r
 10. WHO WILL ACTUALLY BUY YOUR BUSINESS
 1 paragraph. Based on the revenue range input, explain what buyer universe is realistic for this business:
 - Under $1M: Lifestyle buyers, individual operators
-- $1M–$3M: Individual buyers, SBA-backed acquisitions, small search funds
+- $1M–$3M: Individual buyers, SBA-backed acquisitions
 - $3M–$7M: Search funds, independent sponsors, small PE platforms, adjacent operators
 - $7M–$15M: Lower middle market PE, strategic acquirers, family offices
 - $15M+: Middle market PE, strategic acquirers, international buyers
