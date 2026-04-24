@@ -1,5 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 import ELLA_SYSTEM_PROMPT from './ella-prompt';
+import ELLA_MAINSTREET_SYSTEM_PROMPT from './ella-mainstreet-prompt';
 
 export interface IntakePayload {
   companyName: string;
@@ -66,6 +67,13 @@ KEY EMPLOYEE RISK: ${f(intake.keyEmployeeRisk)}
 ADDITIONAL CONTEXT: ${f(intake.additionalContext)}`;
 }
 
+function selectPrompt(impliedRevenueRange: string | null): string {
+  if (impliedRevenueRange === "Under $1M") {
+    return ELLA_MAINSTREET_SYSTEM_PROMPT;
+  }
+  return ELLA_SYSTEM_PROMPT;
+}
+
 export async function generateReport(
   intake: IntakePayload
 ): Promise<string> {
@@ -78,7 +86,7 @@ export async function generateReport(
   const response = await client.messages.create({
     model: 'claude-opus-4-6',
     max_tokens: 8000,
-    system: ELLA_SYSTEM_PROMPT,
+    system: selectPrompt(intake.impliedRevenueRange),
     messages: [{ role: 'user', content: formatIntake(intake) }]
   });
   return (response.content[0] as { type: 'text'; text: string }).text;

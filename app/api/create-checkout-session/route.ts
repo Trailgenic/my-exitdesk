@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
 
+const EXIT_READINESS_REPORT_PRICE_ID = "price_1TPASdCor2M881VXmebNfwav";
+
 const ALLOWED_ORIGINS = [
   "https://www.mikeye.com",
   "https://mikeye.com",
@@ -61,16 +63,11 @@ export async function POST(request: Request) {
 
   const session = await stripe.checkout.sessions.create({
     mode: "payment",
+    customer_creation: "always",
+    allow_promotion_codes: true,
     line_items: [
       {
-        price_data: {
-          currency: "usd",
-          unit_amount: 49900,
-          product_data: {
-            name: "Exit Readiness Report",
-            description: "Buyer-lens exit readiness report for $1M–$20M business owners. Built from 25 years and $7.4B in M&A transactions — positioning memo, diligence map, AI exposure assessment, and pre-market action plan. Delivered within 24 hours.",
-          },
-        },
+        price: EXIT_READINESS_REPORT_PRICE_ID,
         quantity: 1,
       },
     ],
