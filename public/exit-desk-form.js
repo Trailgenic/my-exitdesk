@@ -13,7 +13,7 @@
   ];
 
   var preFillMap = {
-    q1: { target: 'q5', map: { a: null, b: '1m_3m', c: '3m_7m', d: '7m_15m', e: '25m_plus' } },
+    q1: { target: 'q5', map: { a: 'under_1m', b: '1m_3m', c: '3m_7m', d: '7m_15m', e: '25m_plus' } },
     q2: { target: 'q8', map: { a: 'recurring_contracts', b: 'repeat_no_contract', c: 'project_based', d: 'mixed' } },
     q3: { target: 'q13', map: { a: 'runs_normally', b: 'continues_quality_suffers', c: 'declines_significantly', d: 'effectively_stops' } },
     q4: { target: 'q10', map: { a: 'under_10', b: '10_20', c: 'over_35', d: null } },
