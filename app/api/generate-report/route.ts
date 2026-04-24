@@ -76,7 +76,7 @@ export async function POST(request: Request) {
     const maps: Record<string, Record<string, string>> = {
       founderRole: { operator: "I run it day-to-day — primary operator", involved: "Actively involved, team handles daily operations", removed: "Largely removed — business runs without me", advisory: "Board or advisory level only" },
       exitMotivation: { strategic: "Selling from strength — timing feels right strategically", personal: "Personal readiness — lifestyle, retirement, or new venture", pressure: "Facing pressure — health, partner conflict, or burnout", exploring: "Exploring options before deciding", inbound: "Received inbound interest, want to understand position" },
-      revenueRange: { "1m_3m": "$1M–$3M", "3m_7m": "$3M–$7M", "7m_15m": "$7M–$15M", "15m_25m": "$15M–$25M", "25m_plus": "$25M+" },
+      revenueRange: { under_1m: "Under $1M", "1m_3m": "$1M–$3M", "3m_7m": "$3M–$7M", "7m_15m": "$7M–$15M", "15m_25m": "$15M–$25M", "25m_plus": "$25M+" },
       yearsInBusiness: { under_3: "Under 3 years", "3_7": "3–7 years", "7_15": "7–15 years", "15_25": "15–25 years", "25_plus": "25+ years" },
       revenueModel: { recurring_contracts: "Recurring contracts or retainers", repeat_no_contract: "Repeat customers without formal contracts", project_based: "Project-based or job-based engagements", product_sales: "Product sales", mixed: "Mixed revenue model" },
       recurringPercent: { "75_plus": "75% or more recurring", "50_74": "50–74% recurring", "25_49": "25–49% recurring", under_25: "Under 25% recurring", none: "None — fully transactional" },
