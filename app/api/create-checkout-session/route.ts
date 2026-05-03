@@ -1,7 +1,14 @@
 import { NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
 
-const EXIT_READINESS_REPORT_PRICE_ID = "price_1TPASdCor2M881VXmebNfwav";
+const PRICE_IDS = {
+  full: process.env.STRIPE_PRICE_ID_FULL ?? "price_1TPASdCor2M881VXmebNfwav",
+  lite: process.env.STRIPE_PRICE_ID_LITE ?? "",
+} as const;
+
+const PRICE_PAID = { full: 499, lite: 199 } as const;
+
+type Tier = keyof typeof PRICE_IDS;
 
 const ALLOWED_ORIGINS = [
   "https://www.mikeye.com",
@@ -45,6 +52,17 @@ export async function POST(request: Request) {
     ref?: string;
   };
 
+  const tier: Tier = body.q1 === "a" ? "lite" : "full";
+  const priceId = PRICE_IDS[tier];
+
+  if (!priceId) {
+    const origin = request.headers.get("origin");
+    return NextResponse.json(
+      { error: `Price ID not configured for tier: ${tier}` },
+      { status: 500, headers: corsHeaders(origin) }
+    );
+  }
+
   const metadata: Record<string, string> = {};
   if (body.score !== undefined) metadata.score = String(body.score);
   if (body.weakest) metadata.weakest = body.weakest;
@@ -60,6 +78,8 @@ export async function POST(request: Request) {
   if (body.companyDescription) {
     metadata.companyDescription = body.companyDescription;
   }
+  metadata.tier = tier;
+  metadata.price_paid = String(PRICE_PAID[tier]);
 
   const session = await stripe.checkout.sessions.create({
     mode: "payment",
@@ -67,7 +87,7 @@ export async function POST(request: Request) {
     allow_promotion_codes: true,
     line_items: [
       {
-        price: EXIT_READINESS_REPORT_PRICE_ID,
+        price: priceId,
         quantity: 1,
       },
     ],
