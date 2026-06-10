@@ -1,3 +1,21 @@
+// =============================================================
+// Exit Desk Buyer-Lens Valuation Calculator — v1.0
+// Loaded by: mikeye.com/exit/valuation (Webflow embed)
+//
+// Industry multiples: BizBuySell 2025 median data, IBBA Market
+// Pulse, adjusted by 25 years of buy-side M&A judgment (Mike Ye).
+// 26 industry categories. Tier routing: SDE-based under $1M
+// revenue, EBITDA-based at $1M+.
+//
+// SYNC DISCIPLINE — public claims about this calculator live in
+// three locations and must stay synchronized:
+//   1. This file (the executable logic)
+//   2. /exit/valuation page schema (WebApplication node, v1.1)
+//   3. /exit page schema (Offer node, v5.5)
+// If multiples, inputs, tier threshold, or scenario logic change
+// here, update both schemas and bump this version.
+// =============================================================
+
 function getTier(revenue) {
   return revenue < 1000000 ? 'sde' : 'ebitda';
 }
