@@ -1,3 +1,24 @@
+// =============================================================
+// Exit Desk Score — Diagnostic Content Layer — v1.0
+// Loaded by: mikeye.com/exit/score (Webflow embed)
+//
+// Supplies dimension narratives, industry framing, and tier-aware
+// result copy for the free 8-question Exit Readiness Assessment —
+// the self-assessment layer of the Buyer-Lens Audit™ framework.
+// The diagnostic scores the 5 owner-self-reportable dimensions;
+// the paid audit adds the 3 buyer-judgment dimensions (buyer
+// psychology, diligence pressure, AI exposure).
+//
+// SYNC DISCIPLINE — public claims about the diagnostic live in:
+//   1. This file (narratives + tier copy)
+//   2. The /exit/score Webflow embed (scoring math + CTA wiring)
+//   3. /exit/score page schema (WebApplication node, v1.3)
+//   4. Buyer-Lens Audit framework: mcp.mikeye.com/frameworks/buyer-lens-audit.json
+// Tier pricing ($199 Main Street under $1M / $499 Full Report at
+// $1M+) must match the framework's delivery model. If you change
+// tiers or dimensions here, update the embed and schema to match.
+// =============================================================
+
 var RQ_A = { narrative: "Recurring contract revenue is the cleanest revenue signal a buyer can underwrite. It tells a serious buyer that future cash flow is not being rebuilt from zero each month, which lowers perceived volatility and increases lender confidence. In most lower-middle-market processes, contracted recurring revenue supports tighter diligence conclusions, broader buyer interest, and a premium versus otherwise similar transactional businesses. The practical effect is not just a higher multiple, but a more durable one, because buyers are willing to believe the revenue base will survive ownership transition.", recommendation: "Prepare a contract revenue schedule showing renewal dates, termination terms, customer tenure, and concentration by account. In a process, the strength of recurring revenue is maximized when it is documented at the contract level rather than described in general terms." };
 var RQ_B = { narrative: "Repeat business without formal contracts is valuable, but buyers do not treat it the same as true recurring revenue. They will give some credit for customer behavior and longevity, while still discounting the fact that nothing legally binds that revenue to stay in place after a sale. In practice, that can create a multiple gap of roughly 0.5x to 1.5x EBITDA or SDE (net profit + owner add-backs), which on a $3M business can mean a value gap of a few hundred thousand dollars depending on margins and buyer type. The issue is not whether customers like the business. The issue is whether a buyer can finance and underwrite future revenue with confidence.", recommendation: "Take your 10 most stable repeat customers and convert the top 3 into annual service agreements, retainers, or minimum-volume commitments. A buyer will give disproportionate credit to even a small block of revenue that is formally documented." };
 var RQ_C = { narrative: "Buyers see project-based revenue as revenue that has to be rebuilt again and again, not revenue that is already locked in. They focus heavily on backlog, win rates, repeat customer behavior, and whether new work depends on the founder staying involved. Because next year's revenue is less visible, lenders are usually more conservative and buyers discount these businesses versus contract-heavy peers. A project-based business can still sell well, but only if the seller can prove that demand is consistent rather than one-off.", recommendation: "Create one recurring service layer tied to completed jobs, such as maintenance, monitoring, inspections, or ongoing support. The fastest way to improve buyer confidence is to show that at least part of next year's revenue is already built into the model." };
