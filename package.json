@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:acquisition": "node --import tsx --test lib/acquisition/*.test.ts"
   },
   "dependencies": {
     "@react-email/components": "0.0.22",
@@ -25,6 +26,7 @@
     "@types/node": "^20.0.0",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
+    "tsx": "4.23.1",
     "typescript": "^5.4.0"
   }
 }
