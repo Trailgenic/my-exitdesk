@@ -82,6 +82,90 @@ export const MIKE_ACQUISITION_DOCTRINE: readonly AcquisitionDoctrinePrinciple[] 
       acquisitionApplication:
         "End with a decision posture, conditions to advance, walk-away conditions, and the next irreversible commitment.",
     },
+    {
+      id: "control-and-alignment",
+      title: "Require control and seller alignment",
+      rule: "A buyer should know who can deliver the company, whether the sellers control the required vote, and whether the owner-operators retain enough economic alignment to support a stable transition.",
+      acquisitionApplication:
+        "Treat missing seller control as a potential early stop. Preserve an exception only for a genuinely scarce or strategically imperative asset with a credible consent path.",
+    },
+    {
+      id: "value-from-underwritable-economics",
+      title: "Value underwritable economics",
+      rule: "Value a company from normalized free cash flow and EBITDA, use normalized SDE for an owner-operated business, and use replacement cost when earnings and free cash flow are negative.",
+      acquisitionApplication:
+        "Vet add-backs, accounting policies, owner compensation, family payroll, personal expenses, growth investment, and deferred maintenance before relying on reported earnings.",
+    },
+    {
+      id: "buyer-keeps-synergy",
+      title: "Keep buyer-created synergy separate",
+      rule: "The seller is paid for the value created to date; buyer-specific synergy belongs to the buyer who must fund, execute, and bear the risk of realizing it.",
+      acquisitionApplication:
+        "Do not increase standalone value for buyer-specific synergy. Use credible synergy only to assess strategic fit, affordability, and the buyer's private hard ceiling.",
+    },
+    {
+      id: "survive-the-downside",
+      title: "Require downside survivability",
+      rule: "A transaction must remain survivable through both revenue decline and margin compression.",
+      acquisitionApplication:
+        "Model best, most-likely, and worst cases, including financing cost and required capital. If the worst case is not survivable, do not advance.",
+    },
+    {
+      id: "replicate-the-financials",
+      title: "Replicate the financials",
+      rule: "Reported results are not fully underwritten until they can be reconstructed from the general ledger and tied to cash, tax filings, invoices, and contracts.",
+      acquisitionApplication:
+        "Prefer a quality-of-earnings report, then audited financials. Investigate overstated revenue, understated expense, concentration, and undisclosed obligations without treating every explainable variance as fraud.",
+    },
+    {
+      id: "protect-revenue-integrate-cost",
+      title: "Protect revenue while integrating cost",
+      rule: "Revenue-producing functions should be integrated carefully; back-office cost functions can usually be integrated more quickly.",
+      acquisitionApplication:
+        "Preserve a standalone operating view for up to six months when helpful for transition and earnout measurement, while planning earlier integration of finance, HR, technology, and other support functions.",
+    },
+    {
+      id: "ceiling-and-patience",
+      title: "Maintain a ceiling and patience",
+      rule: "A broad range may preserve access to a scarce asset, but every deal requires a hard ceiling and the discipline to walk when it is reached.",
+      acquisitionApplication:
+        "Stay available if an over-priced process fails. A later re-entry at a supportable valuation is preferable to winning an uneconomic auction.",
+    },
+    {
+      id: "structure-liability-deliberately",
+      title: "Structure liability deliberately",
+      rule: "Prefer an asset purchase to select the assets and liabilities acquired; accept stock or membership interests when strategic necessity, scarcity, or continuity justifies the additional exposure.",
+      acquisitionApplication:
+        "Separate enterprise value from equity value, subtract debt unless specifically assumed, normalize the working-capital peg, and assess contracts, licenses, leases, and ordinary-course obligations for continuity and risk.",
+    },
+    {
+      id: "use-contingency-for-alignment",
+      title: "Use contingency for alignment",
+      rule: "Earnouts are most useful when the seller remains with the business and can influence the result.",
+      acquisitionApplication:
+        "A typical starting point balances revenue and EBITDA targets equally, with the EBITDA definition and accounting policies stated precisely. Structural inflexibility may be cured through a lower price.",
+    },
+    {
+      id: "match-return-metric-to-buyer",
+      title: "Match the return metric to the buyer",
+      rule: "Strategic buyers should emphasize payback period, while financial sponsors should emphasize internal rate of return.",
+      acquisitionApplication:
+        "Do not let the wrong headline return metric obscure the capital, financing, and downside risks that matter to the actual buyer.",
+    },
+    {
+      id: "trust-is-earned-in-diligence",
+      title: "Let diligence update trust",
+      rule: "Forthright, consistent, and timely seller responses increase trust; evasiveness, inconsistency, and unexplained delay reduce it.",
+      acquisitionApplication:
+        "Assess a suspected misrepresentation by its type, severity, materiality, and explanation. Investigate intentional conduct rigorously without making it an automatic walk in every case.",
+    },
+    {
+      id: "loi-fixes-core-economics",
+      title: "Use the LOI to fix core economics",
+      rule: "The LOI should define valuation, cash-free debt-free treatment, timing, exclusivity, and the principal economic and structural assumptions without prematurely negotiating every definitive-agreement provision.",
+      acquisitionApplication:
+        "Include customary representations and warranties at a high level. Leave detailed indemnification, caps, baskets, survival periods, and known-liability allocation for definitive agreements unless a specific risk requires earlier agreement.",
+    },
   ] as const;
 
 export const ACQUISITION_DOCTRINE_AUTHORITY_NOTE =
