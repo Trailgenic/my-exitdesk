@@ -32,7 +32,7 @@ export class AcquisitionOrchestrationStageError extends Error {
   }
 }
 
-interface CoreOrchestrationResult {
+export interface CoreOrchestrationResult {
   reportId: string;
   completedAt: string;
   report: AcquisitionOrchestrationResult["report"];

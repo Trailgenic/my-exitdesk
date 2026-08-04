@@ -46,6 +46,7 @@ export interface AcquisitionOrchestrationPayload {
 export interface AcquisitionOrchestrationCommand {
   requestId: string;
   idempotencyKey: string;
+  orderId?: string;
   payload: AcquisitionOrchestrationPayload;
 }
 
@@ -73,6 +74,10 @@ export type AcquisitionApiErrorCode =
   | "invalid_json"
   | "invalid_request"
   | "idempotency_conflict"
+  | "request_in_progress"
+  | "payment_required"
+  | "entitlement_consumed"
+  | "rate_limited"
   | "reasoning_unavailable"
   | "internal_error";
 

@@ -7,7 +7,16 @@ import type {
 } from "./orchestration-contract";
 import type { AcquisitionOrchestrator } from "./orchestration";
 import { AcquisitionOrchestrationStageError } from "./orchestration";
-import { AcquisitionIdempotencyConflictError } from "./idempotency";
+import {
+  AcquisitionIdempotencyConflictError,
+  AcquisitionIdempotencyInProgressError,
+} from "./idempotency";
+import {
+  AcquisitionEntitlementConsumedError,
+  AcquisitionOrderNotFoundError,
+  AcquisitionPaymentRequiredError,
+} from "./commerce";
+import type { AcquisitionRateLimiter } from "./rate-limit";
 import {
   AcquisitionOrchestrationValidationError,
   parseAcquisitionOrchestrationPayload,
@@ -20,6 +29,7 @@ export const MIN_ACQUISITION_API_SECRET_CHARACTERS = 32;
 export interface AcquisitionApiDependencies {
   apiSecret: string | undefined;
   getOrchestrator: () => AcquisitionOrchestrator;
+  rateLimiter?: AcquisitionRateLimiter;
   requestIdFactory?: () => string;
   logError?: (message: string, context: Record<string, unknown>) => void;
 }
@@ -83,6 +93,7 @@ export async function handleAcquisitionApiRequest(
   {
     apiSecret,
     getOrchestrator,
+    rateLimiter,
     requestIdFactory = randomUUID,
     logError = (message, context) => console.error(message, context),
   }: AcquisitionApiDependencies,
@@ -100,6 +111,7 @@ export async function handleAcquisitionApiRequest(
       "Acquisition Lens is not configured.",
     );
   }
+
   if (
     !isAuthorizedAcquisitionRequest(
       request.headers.get("authorization"),
@@ -112,6 +124,33 @@ export async function handleAcquisitionApiRequest(
       "unauthorized",
       "Authentication is required.",
     );
+  }
+  if (rateLimiter) {
+    try {
+      const rate = await rateLimiter.check(
+        "generate",
+        createHash("sha256").update(apiSecret).digest("base64url"),
+      );
+      if (!rate.allowed) {
+        return errorResponse(
+          requestId,
+          429,
+          "rate_limited",
+          "Too many Acquisition Lens requests. Retry shortly.",
+        );
+      }
+    } catch (error) {
+      logError("Acquisition Lens rate limit failure", {
+        requestId,
+        errorName: error instanceof Error ? error.name : "UnknownError",
+      });
+      return errorResponse(
+        requestId,
+        503,
+        "service_unavailable",
+        "Acquisition Lens is temporarily unavailable.",
+      );
+    }
   }
 
   const contentType = request.headers.get("content-type") ?? "";
@@ -186,6 +225,16 @@ export async function handleAcquisitionApiRequest(
     );
   }
 
+  const orderId = request.headers.get("x-acquisition-order-id")?.trim();
+  if (orderId && !/^[A-Za-z0-9-]{8,128}$/.test(orderId)) {
+    return errorResponse(
+      requestId,
+      400,
+      "invalid_request",
+      "X-Acquisition-Order-Id is invalid.",
+    );
+  }
+
   let orchestrator: AcquisitionOrchestrator;
   try {
     orchestrator = getOrchestrator();
@@ -206,6 +255,7 @@ export async function handleAcquisitionApiRequest(
     const result = await orchestrator.run({
       requestId,
       idempotencyKey,
+      orderId,
       payload,
     });
     return jsonResponse({ ok: true, result }, 200, requestId);
@@ -224,6 +274,33 @@ export async function handleAcquisitionApiRequest(
         409,
         "idempotency_conflict",
         "The Idempotency-Key was already used for a different request.",
+      );
+    }
+    if (error instanceof AcquisitionIdempotencyInProgressError) {
+      return errorResponse(
+        requestId,
+        409,
+        "request_in_progress",
+        "The original request is still processing. Check the order status before retrying.",
+      );
+    }
+    if (
+      error instanceof AcquisitionPaymentRequiredError ||
+      error instanceof AcquisitionOrderNotFoundError
+    ) {
+      return errorResponse(
+        requestId,
+        402,
+        "payment_required",
+        "A verified Acquisition Lens payment is required.",
+      );
+    }
+    if (error instanceof AcquisitionEntitlementConsumedError) {
+      return errorResponse(
+        requestId,
+        409,
+        "entitlement_consumed",
+        "This Acquisition Lens entitlement is assigned to another request.",
       );
     }
     if (
