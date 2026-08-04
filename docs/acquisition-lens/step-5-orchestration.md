@@ -98,6 +98,10 @@ multiple instances. A shared durable adapter must replace it before payment or
 public production traffic is activated; the orchestration interface is already
 designed for that replacement.
 
+Step 6 supplies that shared durable adapter to the live Acquisition Lens route;
+the in-memory implementation remains only as an isolated test/development
+default for direct construction of the Step 5 orchestrator.
+
 ## Safe failure contract
 
 The HTTP layer returns stable error codes:
