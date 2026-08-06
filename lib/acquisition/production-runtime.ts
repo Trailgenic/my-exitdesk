@@ -9,6 +9,11 @@ import {
   createAcquisitionRedisClient,
   retentionSeconds,
 } from "./durable-storage";
+import {
+  AcquisitionDeliveryService,
+  type AcquisitionDeliveryResult,
+  ResendAcquisitionEmailClient,
+} from "./delivery";
 import { RedisAcquisitionIdempotencyStore } from "./idempotency";
 import type { CoreOrchestrationResult } from "./orchestration";
 import { createAcquisitionOrchestrator } from "./orchestration";
@@ -23,6 +28,7 @@ export interface AcquisitionProductionRuntime {
   paymentService: AcquisitionPaymentService;
   orchestrator: ReturnType<typeof createProductionAcquisitionOrchestrator>;
   rateLimiter: RedisAcquisitionRateLimiter;
+  deliveryService: AcquisitionDeliveryService;
 }
 
 let liveRuntime: AcquisitionProductionRuntime | undefined;
@@ -65,6 +71,14 @@ export function getAcquisitionProductionRuntime() {
       lockSeconds: 90,
       waitMilliseconds: 30_000,
     });
+  const deliveryIdempotency =
+    new RedisAcquisitionIdempotencyStore<AcquisitionDeliveryResult>({
+      redis,
+      cipher,
+      retentionSeconds: reportRetention,
+      lockSeconds: 300,
+      waitMilliseconds: 30_000,
+    });
   const baseOrchestrator = createAcquisitionOrchestrator({
     reasoningEngine: createAcquisitionReasoningEngine({
       model: createAnthropicAcquisitionReasoningModel(),
@@ -89,12 +103,22 @@ export function getAcquisitionProductionRuntime() {
     successUrl: process.env.ACQUISITION_CHECKOUT_SUCCESS_URL ?? "",
     cancelUrl: process.env.ACQUISITION_CHECKOUT_CANCEL_URL ?? "",
   });
+  const deliveryService = new AcquisitionDeliveryService({
+    commerceStore,
+    idempotencyStore: deliveryIdempotency,
+    emailClient: new ResendAcquisitionEmailClient(process.env.RESEND_API_KEY),
+    from:
+      process.env.ACQUISITION_RESEND_FROM_EMAIL ??
+      "Acquisition Lens by Mike Ye <mike@mikeye.com>",
+    subjectPrefix: process.env.ACQUISITION_REPORT_SUBJECT_PREFIX,
+  });
 
   liveRuntime = {
     commerceStore,
     paymentService,
     orchestrator,
     rateLimiter,
+    deliveryService,
   };
   return liveRuntime;
 }
