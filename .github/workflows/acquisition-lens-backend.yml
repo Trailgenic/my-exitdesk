@@ -1,0 +1,47 @@
+name: Acquisition Lens backend
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ACQUISITION_BACKEND_MODE: internal
+      ACQUISITION_API_SECRET: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+      ACQUISITION_DATA_ENCRYPTION_KEY: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      ACQUISITION_REDIS_REST_URL: https://redis.example.test
+      ACQUISITION_REDIS_REST_TOKEN: ci-redis-token
+      ACQUISITION_STRIPE_PRICE_ID: price_acquisition_ci
+      ACQUISITION_STRIPE_WEBHOOK_SECRET: whsec_acquisition_ci
+      ACQUISITION_CHECKOUT_SUCCESS_URL: https://example.test/acquisition/success?session_id={CHECKOUT_SESSION_ID}
+      ACQUISITION_CHECKOUT_CANCEL_URL: https://example.test/acquisition/cancel
+      ACQUISITION_RATE_LIMIT_PER_MINUTE: "10"
+      ACQUISITION_REPORT_RETENTION_DAYS: "30"
+      ACQUISITION_LEDGER_RETENTION_DAYS: "90"
+      ANTHROPIC_API_KEY: sk-ant-acquisition-ci
+      ACQUISITION_REASONING_MODEL: claude-opus-4-6
+      ACQUISITION_REASONING_MAX_TOKENS: "8000"
+      ACQUISITION_REASONING_TEMPERATURE: "0"
+      RESEND_API_KEY: re_acquisition_ci
+      ACQUISITION_RESEND_FROM_EMAIL: Acquisition Lens <reports@example.test>
+      STRIPE_SECRET_KEY: sk_test_acquisition_ci
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install --ignore-scripts --no-package-lock
+      - run: npm run typecheck -- --incremental false
+      - run: npm run test:acquisition
+      - run: npm run build

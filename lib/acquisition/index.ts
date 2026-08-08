@@ -1,5 +1,7 @@
 export * from "./contracts";
 export * from "./deal-screen";
+export * from "./deployment";
+export * from "./deployment-http";
 export * from "./doctrine";
 export * from "./report-contract";
 export * from "./anthropic-reasoning-client";
