@@ -14,6 +14,7 @@ import {
   type AcquisitionDeliveryResult,
   ResendAcquisitionEmailClient,
 } from "./delivery";
+import { assertAcquisitionBackendEnabled } from "./deployment";
 import { RedisAcquisitionIdempotencyStore } from "./idempotency";
 import type { CoreOrchestrationResult } from "./orchestration";
 import { createAcquisitionOrchestrator } from "./orchestration";
@@ -34,6 +35,7 @@ export interface AcquisitionProductionRuntime {
 let liveRuntime: AcquisitionProductionRuntime | undefined;
 
 export function getAcquisitionProductionRuntime() {
+  assertAcquisitionBackendEnabled();
   if (liveRuntime) return liveRuntime;
 
   const redis = createAcquisitionRedisClient({
