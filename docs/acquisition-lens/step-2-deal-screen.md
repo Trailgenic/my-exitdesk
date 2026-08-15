@@ -4,14 +4,14 @@
 
 Step 2 converts Mike Ye's buyer-side judgment into a deterministic early deal
 screen. It decides whether the current facts support proceeding, continued
-investigation, repricing, or passing before Ella writes the narrative.
+investigation, repricing, or passing before the judgment layer writes the narrative.
 
 It does not change any Exit Desk route, prompt, checkout, report, email, or
 Webflow integration.
 
 ## Governing principle
 
-**Code calculates and applies explicit gates. Ella interprets.**
+**Code calculates and applies explicit gates. Mike Ye's acquisition judgment guides the interpretation.**
 
 The deal screen is categorical rather than a weighted score. A numerical score
 could hide a fatal issue by allowing attractive attributes to offset it.

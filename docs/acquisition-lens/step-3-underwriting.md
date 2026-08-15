@@ -5,14 +5,14 @@
 Step 3 creates the calculation source of truth for Acquisition Lens. It turns
 explicit, sourced assumptions into normalized earnings, standalone value,
 equity value, capital requirements, buyer returns, and best/most-likely/worst
-scenario outputs before Ella interprets the transaction.
+scenario outputs before the judgment layer interprets the transaction.
 
 It does not change any Exit Desk route, prompt, checkout, report, email, or
 Webflow integration.
 
 ## Governing principle
 
-**Code calculates. Ella interprets.**
+**Code calculates. Mike Ye's acquisition judgment guides the interpretation.**
 
 The engine does not invent add-backs, multiples, financing terms, exit values,
 or synergies. Every judgment-bearing input remains visible and sourced. The
@@ -62,7 +62,7 @@ weakly supported assumptions.
 ## Add-back governance
 
 The engine accepts the treatment decision but never hides it. The intake and
-later Ella layer must apply Mike Ye's doctrine before marking an adjustment as
+later judgment layer must apply Mike Ye's doctrine before marking an adjustment as
 accepted:
 
 - One-time events, one-time accounting adjustments, and non-ordinary-course
@@ -90,7 +90,7 @@ The engine identifies, but does not narratively resolve:
   exceeding uses.
 
 The Step 2 Deal Screen consumes these outputs later. A failed worst case or
-hard-ceiling breach remains a pass condition; Ella cannot reason around the
+hard-ceiling breach remains a pass condition; the judgment layer cannot reason around the
 math.
 
 The result includes a small `dealScreenBridge` containing the offer, standalone

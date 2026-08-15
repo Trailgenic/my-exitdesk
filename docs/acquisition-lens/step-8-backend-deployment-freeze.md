@@ -39,7 +39,7 @@ The readiness response pins the backend at `1.0.0` and reports the frozen intake
 The frozen backend includes:
 
 - deterministic Deal Screen and underwriting engines;
-- Mike Ye acquisition doctrine and Ella reasoning controls;
+- Mike Ye acquisition doctrine and controlled reasoning safeguards;
 - payment, entitlement, encrypted persistence, retention, and deletion;
 - confidential IC memo rendering and private email delivery;
 - authentication, rate limiting, idempotency, evidence handling, and fail-closed configuration.

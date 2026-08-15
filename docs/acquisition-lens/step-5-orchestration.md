@@ -5,7 +5,7 @@
 Step 5 connects the four approved Acquisition Lens layers into one controlled
 backend execution path:
 
-`Intake → Underwriting → Deal Screen → Ella Reasoning → Structured Report`
+`Intake → Underwriting → Deal Screen → Mike Ye Judgment → Structured Report`
 
 The service validates the complete transaction packet, establishes one
 authoritative source for calculated fields, coalesces duplicate requests, and
@@ -18,7 +18,7 @@ or Webflow integration.
 ## Governing principle
 
 **The caller supplies facts and assumptions. Code controls sequence and
-calculations. Ella interprets only the resulting evidence packet.**
+calculations. Mike Ye's acquisition judgment guides interpretation of only the resulting evidence packet.**
 
 The caller cannot submit a recommendation, confidence level, standalone value,
 hard-ceiling conclusion, or downside-survivability conclusion. Those fields are
@@ -46,7 +46,7 @@ created inside the backend from the approved deterministic engines.
 4. **Run the deterministic Deal Screen**
    - Apply Step 2 hard stops, price discipline, seller-control logic, evidence
      gates, and LOI readiness.
-5. **Run Ella reasoning**
+5. **Apply Mike Ye's acquisition judgment**
    - Send the intake and unchanged deterministic outputs to the Step 4 engine.
    - Require evidence-cited structured output.
    - Preserve the deterministic recommendation, confidence, vetoes, and math.
