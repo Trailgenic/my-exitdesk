@@ -383,7 +383,7 @@ export function makeAcquisitionReportFixture(): AcquisitionReasoningReport {
       },
     ],
     authorityNote:
-      "Deterministic underwriting and the Deal Screen govern price discipline, downside survivability, and decision posture. Ella's narrative explains those outputs but cannot replace or override them.",
+      "Deterministic underwriting and the Deal Screen govern price discipline, downside survivability, and decision posture. Mike Ye's acquisition judgment explains those outputs but cannot replace or override them.",
     limitations: [
       "This is a preliminary screen based only on supplied information and calculated outputs.",
       "No independent quality of earnings, legal diligence, tax diligence, customer calls, or technology audit has been completed.",

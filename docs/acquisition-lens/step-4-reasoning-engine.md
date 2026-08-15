@@ -12,7 +12,7 @@ Webflow integration.
 
 ## Governing principle
 
-**Code decides and calculates. Ella interprets.**
+**Code decides and calculates. Mike Ye's acquisition judgment guides the interpretation.**
 
 The deterministic layers remain authoritative for:
 

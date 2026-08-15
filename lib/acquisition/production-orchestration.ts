@@ -15,7 +15,7 @@ export interface AcquisitionProductionOrchestratorOptions {
 
 /**
  * Payment and lifecycle guard around the authoritative Step 5 pipeline. It
- * cannot alter deterministic underwriting or Ella's evidence packet.
+ * cannot alter deterministic underwriting or the reasoning evidence packet.
  */
 export function createProductionAcquisitionOrchestrator({
   orchestrator,

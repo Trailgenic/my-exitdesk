@@ -16,7 +16,7 @@ Desk prompts:
 
 ## Governing principle
 
-**Code calculates. Ella interprets.**
+**Code calculates. Mike Ye's acquisition judgment guides the interpretation.**
 
 Price mechanics, implied multiples, normalized earnings, debt service, buyer
 cash requirements, working capital, capital expenditures, and sensitivity

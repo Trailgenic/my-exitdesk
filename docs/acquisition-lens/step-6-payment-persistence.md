@@ -82,7 +82,7 @@ paid order can submit corrected inputs. Provider or runtime failures retain the
 original claim and require a safe retry with the same idempotency key.
 
 The production wrapper cannot change underwriting, the authoritative Deal
-Screen, Ella's evidence packet, or the deterministic recommendation. It only
+Screen, the reasoning evidence packet, or the deterministic recommendation. It only
 controls payment eligibility and persistence around the Step 5 orchestrator.
 
 ## Durable idempotency and job lifecycle
