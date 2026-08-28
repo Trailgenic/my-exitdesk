@@ -99,13 +99,26 @@ https://github.com/Trailgenic/my-exitdesk
 
 ## Demo video plan — target 90 seconds
 
+### Recording setup
+
+- Record at 1920×1080 with the browser zoom at 100%.
+- Use two prepared tabs only: the live Exit Desk score page and the repository file at `public/webmcp-exit-readiness.js`.
+- In the live tab, keep ChatGPT's agent panel open beside the page so the invocation and rendered result can appear in one shot.
+- Paste the exact demo prompt below from the clipboard; do not type it live.
+- Hide bookmarks, notifications, personal tabs, and any account information.
+- Record one clean take with narration added live. If the agent pauses, stop and restart instead of filling dead air.
+
+### Exact demo prompt
+
+> Run Exit Desk's Exit Readiness Assessment for this business: annual revenue is $3M–$7M; customers repeat but have no formal contracts; if the founder left for six months, revenue would decline significantly; the largest customer is 10–25% of revenue; the team runs daily operations but key decisions still depend on the founder; margins are stable; defensibility comes from long-term customer relationships and brand reputation; and the founder is exploring an exit.
+
 ### 0:00–0:12 — Problem
 
 Show the normal 8-question Exit Desk assessment.
 
 Narration:
 
-“Exit Desk helps business owners see their company through a buyer's lens. The problem for an AI agent is that the domain logic is trapped behind an eight-screen human interface.”
+“Exit Desk shows owners how a buyer sees their business. But an agent normally has to interpret and click through eight separate screens to use the diagnostic.”
 
 ### 0:12–0:27 — WebMCP tool
 
@@ -113,7 +126,7 @@ Briefly show the repository file and `document.modelContext.registerTool` call.
 
 Narration:
 
-“With WebMCP, Exit Desk now exposes one semantic tool: `run_exit_readiness_assessment`. The agent gets a structured schema for the eight facts the diagnostic needs.”
+“With WebMCP, the page exposes one semantic tool: `run_exit_readiness_assessment`, with a schema for the eight facts the scoring engine needs.”
 
 ### 0:27–0:58 — Live agent demo
 
@@ -121,7 +134,7 @@ In ChatGPT's in-app browser, open the live score page. Give the test-case busine
 
 Narration:
 
-“The owner speaks naturally. The agent translates that context into the structured schema and invokes the website directly—no brittle screen clicking and no second AI-generated scoring model.”
+“The owner describes the business naturally. The agent maps that story into the schema and invokes Exit Desk directly—without brittle screen clicking or inventing a second scoring model.”
 
 Show the page transition into the actual score/results.
 
@@ -131,13 +144,29 @@ Show the agent's structured result beside the webpage's visual score and dimensi
 
 Narration:
 
-“Exit Desk remains authoritative. Its existing deterministic scoring engine runs, the human sees the normal result page, and the agent receives the same score, dimensions, weakest gap, and findings.”
+“The existing deterministic engine returns sixty out of one hundred. Founder Dependence is the weakest dimension. The human sees the normal result page, while the agent receives the same score, dimensions, and findings.”
 
 ### 1:18–1:30 — Why it matters
 
 Narration:
 
-“This is the web becoming agent-operable without abandoning the human interface: the human provides judgment, the agent handles orchestration, and the domain application owns the truth.”
+“That is the pattern: the human provides context, the agent handles orchestration, and the domain application remains the source of truth.”
+
+### Recording flow
+
+1. **0:00–0:12:** Start on question 1 of the live assessment. Slowly scroll just enough to reveal that it is an eight-question flow.
+2. **0:12–0:27:** Cut to the repository. Highlight only the tool name, `inputSchema`, and `execute` bridge; avoid scrolling through the full file.
+3. **0:27–0:58:** Return to the split live view. Paste the exact prompt and run it. Keep the pointer still while the agent invokes the tool.
+4. **0:58–1:18:** Hold on the 60/100 score, then point once to Founder Dependence and once to the matching structured result.
+5. **1:18–1:30:** Leave the shared result on screen for the closing line. End without navigating to checkout.
+
+### Pre-recording gate
+
+- Reload the live page and confirm `run_exit_readiness_assessment` is discoverable before recording.
+- Run the exact prompt once and confirm the expected result: **60/100**, **Founder Dependence 45**, weakest dimension `founder_dependence`.
+- Confirm the tool response includes all five dimensions and three findings.
+- Confirm the visible page and tool response match before starting the clean take.
+- If invocation fails, do not record a click-through substitute; fix the WebMCP path first.
 
 ## Suggested submission tags
 
