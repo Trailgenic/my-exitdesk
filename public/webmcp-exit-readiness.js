@@ -79,7 +79,10 @@
         ],
         additionalProperties: false
       },
-      annotations: { readOnlyHint: true },
+      // The assessment does not persist data, but it does change the visible
+      // page state. Marking it read-only would give the browser the wrong
+      // safety signal.
+      annotations: { readOnlyHint: false, untrustedContentHint: false },
       execute: async function (input) {
         if (typeof window.selectOption !== 'function' || typeof window.showResults !== 'function') {
           throw new Error('Exit Desk assessment is not ready on this page.');
@@ -116,7 +119,7 @@
         });
         const checkout = document.getElementById('es-checkout-link');
 
-        return JSON.stringify({
+        const result = {
           score: Number(document.getElementById('es-score-display')?.textContent || 0),
           score_band: document.getElementById('es-score-band')?.textContent?.trim() || '',
           interpretation: document.getElementById('es-score-band-label')?.textContent?.trim() || '',
@@ -125,7 +128,15 @@
           findings: findings,
           next_step_url: checkout && checkout.offsetParent !== null ? checkout.href : null,
           note: 'This is a structured buyer-lens readiness diagnostic, not a valuation or professional opinion.'
-        });
+        };
+
+        // Return a standard tool result. The JSON text keeps the complete
+        // result available to WebMCP clients while remaining easy for an
+        // agent to inspect and compare with the rendered page.
+        return {
+          content: [{ type: 'text', text: JSON.stringify(result) }],
+          structuredContent: result
+        };
       }
     });
 
