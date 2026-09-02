@@ -8,16 +8,25 @@ Exit Desk is a buyer-lens exit-readiness application for business owners. The We
 
 Exit Desk existed before the OpenAI WebMCP Challenge. The WebMCP work was added during the challenge period beginning August 25, 2026. The new implementation is isolated in:
 
-- `public/webmcp-exit-readiness.js` — registers the WebMCP tool and bridges agent inputs to the existing diagnostic UI.
+- `public/webmcp-exit-readiness.js` — registers the WebMCP tools and bridges agent inputs to the existing diagnostic UI.
 - `docs/webmcp-challenge.md` — architecture, testing instructions, submission copy, and demo plan.
+- `docs/webmcp-site-pattern.md` — reusable action/read contract and rollout gates for the broader site stack.
 
 The dated Git history distinguishes this challenge-period extension from the pre-existing application.
 
-## The tool
+## The site tools
 
-`run_exit_readiness_assessment` is registered with `document.modelContext.registerTool(...)`.
+Exit Desk registers two complementary tools with
+`document.modelContext.registerTool(...)`:
 
-It accepts eight structured facts:
+- `run_exit_readiness_assessment` is the action tool. It converts eight
+  structured business facts into the existing diagnostic's choices, runs the
+  existing scoring workflow, and renders the result for the human.
+- `get_exit_readiness_result` is the read-only tool. It returns the score and
+  findings already visible on the page after either the owner or the agent
+  completes the assessment.
+
+The action tool accepts eight structured facts:
 
 1. annual revenue
 2. revenue model
@@ -54,12 +63,22 @@ Ask the agent to run the Exit Readiness Assessment using a complete set of busin
 
 > Run the Exit Desk assessment for a $3M–$7M business with repeat customers but no contracts. Revenue would decline significantly if the founder left for six months. The largest customer is 10–25% of revenue. The team runs daily operations but the founder still makes key decisions. Margins are stable. The moat is long-term customer relationships and brand reputation. The owner is exploring an exit but is not under pressure.
 
-The agent should discover and invoke `run_exit_readiness_assessment`. Exit Desk should render the result page and return structured result data to the agent.
+The agent should discover and invoke `run_exit_readiness_assessment`. Exit Desk
+should render the result page and return structured result data to the agent.
+Then ask the agent to read the current result. It should invoke
+`get_exit_readiness_result` without changing the visible page.
+
+The WebMCP contract can also be verified locally:
+
+```bash
+npm run verify:webmcp
+```
 
 ## Safety and scope
 
 - No account or email is required to run the free diagnostic.
-- The WebMCP tool does not submit payment or send email.
+- The WebMCP tools do not submit payment, send email, create an account, or
+  generate the paid report.
 - The tool uses only the facts provided for the current assessment.
 - The result is a structured buyer-lens readiness diagnostic, not a valuation or professional opinion.
 
