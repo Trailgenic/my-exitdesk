@@ -1,0 +1,19 @@
+name: Acquisition Lens first look
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm run test:acquisition:screen
+      - run: npm run build:acquisition:screen
+      - run: git diff --exit-code -- docs/acquisition-lens/webflow public/acquisition-lens-preview.html public/acquisition-screen-preview.html
