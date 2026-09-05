@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: { outputFileTracingIncludes: { '/api/acquisition/buyer-report*': ['./public/fonts/acquisition/*'] } },
   async redirects() {
     return [
       {
