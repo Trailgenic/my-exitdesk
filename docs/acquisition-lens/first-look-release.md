@@ -1,3 +1,5 @@
+> Superseded as the flagship product: the first-look screen is now only the free entry point. See `buyer-report-release.md` for the AI buyer assessment built from the existing acquisition doctrine.
+
 # Acquisition Lens: focused first-look release
 
 ## Product decision
