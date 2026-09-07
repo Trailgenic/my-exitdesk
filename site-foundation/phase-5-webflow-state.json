@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-09-07",
+  "tools": {
+    "pageId": "6a9f3a7d2148e9081ffed5ea",
+    "path": "/tools-and-models",
+    "mainElementId": "52deabaa-bc4a-e7e9-165a-0730a7e828f5",
+    "rootElementId": "52deabaa-bc4a-e7e9-165a-0730a7e828f6",
+    "headerInstanceId": "5132396e-aa16-87c4-09e5-7f3ec3887a34",
+    "footerInstanceId": "d906745f-8467-7786-4271-b595a8ccaa0f",
+    "draft": true,
+    "includeInSitemap": false,
+    "robots": "noindex,nofollow"
+  },
+  "libraryDoorway": {
+    "pageId": "6a9f20d0a616017e7bdf9a95",
+    "elementId": "390cd76c-c26e-f952-2174-c74970c5b8ce"
+  },
+  "sharedNavigation": {
+    "componentId": "f07efd16-1738-4b42-506a-2a87fbe66e2a",
+    "elementId": "f07efd16-1738-4b42-506a-2a87fbe66e36",
+    "label": "Tools & Models",
+    "href": "/tools-and-models"
+  },
+  "models": [
+    {
+      "bodyMatches": true,
+      "canonicalUrl": null,
+      "downloadUrl": null,
+      "id": "6a9f3af084946e9b265e5820",
+      "isDraft": true,
+      "reviewedDate": null,
+      "slug": "gap-retail-valuation-model",
+      "sourcesMatch": true
+    },
+    {
+      "bodyMatches": true,
+      "canonicalUrl": null,
+      "downloadUrl": null,
+      "id": "6a9f3af084946e9b265e5822",
+      "isDraft": true,
+      "reviewedDate": null,
+      "slug": "salesforce-software-valuation-model",
+      "sourcesMatch": true
+    },
+    {
+      "bodyMatches": true,
+      "canonicalUrl": null,
+      "downloadUrl": null,
+      "id": "6a9f3af084946e9b265e5824",
+      "isDraft": true,
+      "reviewedDate": null,
+      "slug": "ziff-davis-media-valuation-model",
+      "sourcesMatch": true
+    },
+    {
+      "bodyMatches": true,
+      "canonicalUrl": null,
+      "downloadUrl": null,
+      "id": "6a9f3af084946e9b265e5826",
+      "isDraft": true,
+      "reviewedDate": null,
+      "slug": "surgery-partners-healthcare-valuation-model",
+      "sourcesMatch": true
+    }
+  ],
+  "verification": {
+    "nativeContentMatched": true,
+    "anchorsVerified": true,
+    "noHtmlEmbeds": true,
+    "modelDownloadsAbsent": true,
+    "publicInventoryCount": 6,
+    "browserVisualQA": false
+  },
+  "publicationPerformed": false
+}

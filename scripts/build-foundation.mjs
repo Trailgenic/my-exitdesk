@@ -11,6 +11,7 @@ const manifest = JSON.parse(read("content-manifest.json"));
 const css = read("foundation.css");
 const fragments = ["header.html", "main.html", "footer.html"].map(read).join("\n")
   .replaceAll('href="/m-and-a#available-resources"', 'href="#resources"')
+  .replaceAll('href="/tools-and-models"', 'href="#resources"')
   .replaceAll('href="/m-and-a"', 'href="#library"')
   .replaceAll('href="/rebuild-foundation#products"', 'href="#products"');
 const safeJSON = (value) => JSON.stringify(value, null, 2).replaceAll("<", "\\u003c");

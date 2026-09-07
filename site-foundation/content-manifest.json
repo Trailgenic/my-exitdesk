@@ -1,8 +1,8 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "updated": "2026-09-07",
   "canonicalOrigin": "https://www.mikeye.com",
-  "phase": "working-pack-downloads",
+  "phase": "tools-and-models-placeholders",
   "positioning": {
     "headline": "The Deal Is Only the Beginning.",
     "supportingStatement": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
@@ -15,7 +15,8 @@
     "resourceTemplatePageId": "6a9f1684bfb97f3c671ae859",
     "topicTemplatePageId": "6a9f168391744e4c67910a0f",
     "topicsCollectionId": "6a9f168391744e4c67910a09",
-    "resourcesCollectionId": "6a9f1683bfb97f3c671ae853"
+    "resourcesCollectionId": "6a9f1683bfb97f3c671ae853",
+    "toolsDraftPageId": "6a9f3a7d2148e9081ffed5ea"
   },
   "topics": [
     {
@@ -263,6 +264,134 @@
         "version": "0.1-draft",
         "downloadVerified": true
       }
+    },
+    {
+      "id": "gap-valuation-model",
+      "name": "Gap: valuing a retail business",
+      "summary": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory.",
+      "decision": "Does the valuation hold if sales soften and the business has to discount more stock?",
+      "sourcePrinciples": [
+        "replicate-the-financials",
+        "survive-the-downside",
+        "ceiling-and-patience"
+      ],
+      "format": "Model",
+      "topic": "valuation",
+      "company": "Gap Inc.",
+      "ticker": "NYSE: GAP",
+      "industry": "Specialty retail",
+      "status": "draft",
+      "version": "0.1-draft",
+      "workbookStatus": "awaiting-delivery",
+      "download": null,
+      "valuationDate": null,
+      "contentReviewedAt": null,
+      "publicationDate": null,
+      "cmsStatus": "draft-content",
+      "url": null,
+      "proposedPath": "/ma-resources/gap-retail-valuation-model",
+      "sourceFile": "editorial/company-models.json",
+      "relatedResources": [
+        "workflow-diligence",
+        "integration-continuity"
+      ],
+      "webflowItemId": "6a9f3af084946e9b265e5820"
+    },
+    {
+      "id": "salesforce-valuation-model",
+      "name": "Salesforce: valuing a software business",
+      "summary": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth.",
+      "decision": "How much growth can the business turn into cash for each share after the costs of delivering it?",
+      "sourcePrinciples": [
+        "replicate-the-financials",
+        "unknowns-are-findings",
+        "survive-the-downside"
+      ],
+      "format": "Model",
+      "topic": "valuation",
+      "company": "Salesforce",
+      "ticker": "NYSE: CRM",
+      "industry": "Enterprise software",
+      "status": "draft",
+      "version": "0.1-draft",
+      "workbookStatus": "awaiting-delivery",
+      "download": null,
+      "valuationDate": null,
+      "contentReviewedAt": null,
+      "publicationDate": null,
+      "cmsStatus": "draft-content",
+      "url": null,
+      "proposedPath": "/ma-resources/salesforce-software-valuation-model",
+      "sourceFile": "editorial/company-models.json",
+      "relatedResources": [
+        "workflow-diligence",
+        "integration-continuity"
+      ],
+      "webflowItemId": "6a9f3af084946e9b265e5822"
+    },
+    {
+      "id": "ziff-davis-valuation-model",
+      "name": "Ziff Davis: valuing a digital media business",
+      "summary": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued.",
+      "decision": "Which earnings can the current portfolio keep producing, and what makes those earnings vulnerable?",
+      "sourcePrinciples": [
+        "replicate-the-financials",
+        "transferability",
+        "buyer-keeps-synergy"
+      ],
+      "format": "Model",
+      "topic": "valuation",
+      "company": "Ziff Davis",
+      "ticker": "NASDAQ: ZD",
+      "industry": "Digital media",
+      "status": "draft",
+      "version": "0.1-draft",
+      "workbookStatus": "awaiting-delivery",
+      "download": null,
+      "valuationDate": null,
+      "contentReviewedAt": null,
+      "publicationDate": null,
+      "cmsStatus": "draft-content",
+      "url": null,
+      "proposedPath": "/ma-resources/ziff-davis-media-valuation-model",
+      "sourceFile": "editorial/company-models.json",
+      "relatedResources": [
+        "workflow-diligence",
+        "integration-continuity"
+      ],
+      "webflowItemId": "6a9f3af084946e9b265e5824"
+    },
+    {
+      "id": "surgery-partners-valuation-model",
+      "name": "Surgery Partners: valuing a healthcare-services business",
+      "summary": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep.",
+      "decision": "What cash belongs to the buyer after operating needs, partner interests, and debt are taken into account?",
+      "sourcePrinciples": [
+        "protect-revenue-integrate-cost",
+        "replicate-the-financials",
+        "survive-the-downside"
+      ],
+      "format": "Model",
+      "topic": "valuation",
+      "company": "Surgery Partners",
+      "ticker": "NASDAQ: SGRY",
+      "industry": "Healthcare services",
+      "status": "draft",
+      "version": "0.1-draft",
+      "workbookStatus": "awaiting-delivery",
+      "download": null,
+      "valuationDate": null,
+      "contentReviewedAt": null,
+      "publicationDate": null,
+      "cmsStatus": "draft-content",
+      "url": null,
+      "proposedPath": "/ma-resources/surgery-partners-healthcare-valuation-model",
+      "sourceFile": "editorial/company-models.json",
+      "relatedResources": [
+        "workflow-diligence",
+        "integration-continuity"
+      ],
+      "webflowItemId": "6a9f3af084946e9b265e5826"
     }
   ],
   "products": [

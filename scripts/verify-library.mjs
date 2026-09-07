@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { createHash } from "node:crypto";
 import { handbooks } from "./handbook-content.mjs";
+import { models, modelBody, toolsHub } from "./model-content.mjs";
 const read = (path) => readFileSync(resolve("site-foundation", path), "utf8");
 const home = read("generated/MikeYe-Phase1-Preview.html");
 const html = read("generated/MikeYe-Library-Preview.html");
@@ -54,3 +55,29 @@ for (const book of handbooks) {
 }
 console.log("Library checks passed: approved headline, six original publication links, semantic structure, anchors, draft boundaries, and truthful availability.");
 console.log("Editorial checks passed: deal/masthead distinction, documented judgment references, two complete draft guides, and exclusion from public resource inventories.");
+assert.equal(models.length, 4);
+assert.equal(new Set(models.map(m => m.id)).size, 4);
+const tools = toolsHub();
+assert.equal((tools.match(/class="my5-model-card"/g) || []).length, 4);
+assert.equal((tools.match(/class="my5-method"/g) || []).length, 5);
+assert.match(html, /href="#tools-and-models">Tools &amp; Models/);
+for (const model of models) {
+  const entry = manifest.resources.find(r => r.id === model.id);
+  assert.ok(entry, "Model missing from canonical draft manifest");
+  assert.equal(entry.workbookStatus, "awaiting-delivery");
+  assert.equal(entry.status, "draft");
+  assert.equal(entry.download, null);
+  assert.equal(entry.url, null);
+  assert.equal(entry.valuationDate, null);
+  assert.equal(entry.contentReviewedAt, null);
+  assert.ok(model.sourcePrinciples.every(id => doctrine.includes('id: "' + id + '"')));
+  assert.ok(html.includes('id="' + model.id + '"'));
+  const body = modelBody(model);
+  assert.match(body, /Workbook coming soon/);
+  assert.ok(!/href="[^"]*\.xlsx|download=|Download (Excel|model|workbook)/i.test(body), "Pending model advertises a download");
+  assert.ok(tools.includes('/ma-resources/' + model.slug), "Hub omits model starting guide");
+  for (const name of ["generated/resource-index.json", "generated/resource-index.schema.json", "generated/llms-resources.txt"]) {
+    assert.ok(!read(name).includes(model.slug) && !read(name).includes(model.name), "Pending model leaked into published inventory");
+  }
+}
+console.log("Model checks passed: four coming-soon guides, no invented downloads or review dates, source principles, working navigation, and public-index exclusion.");
