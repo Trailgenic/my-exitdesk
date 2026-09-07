@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { isSuppressed } from "@/lib/stalled/runtime";
 
 const ALLOWED_ORIGINS = [
   "https://www.mikeye.com",
@@ -39,6 +40,13 @@ export async function POST(request: Request) {
       { error: "Valid email required" },
       { status: 400, headers: corsHeaders(origin) }
     );
+  }
+
+  // A prior marketing opt-out must not be silently undone by this endpoint.
+  try {
+    if (await isSuppressed(email)) return NextResponse.json({error:'This email has opted out of Exit Desk marketing.'},{status:409,headers:corsHeaders(origin)});
+  } catch {
+    return NextResponse.json({error:'Subscription temporarily unavailable.'},{status:503,headers:corsHeaders(origin)});
   }
 
   const apiKey = process.env.CONVERTKIT_API_KEY;

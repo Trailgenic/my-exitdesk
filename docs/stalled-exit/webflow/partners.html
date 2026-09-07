@@ -1,0 +1,213 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap');
+.pp-root { font-family: 'EB Garamond', Georgia, serif; background: #F7F5F0; color: #1A1A18; max-width: 720px; margin: 0 auto; padding: 72px 40px 80px; box-sizing: border-box; }
+.pp-masthead { margin-bottom: 48px; padding-bottom: 36px; border-bottom: 0.5px solid #C8C4BA; }
+.pp-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 16px; }
+.pp-title { font-size: 2.6rem; font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 16px 0; color: #1A1A18; }
+.pp-subtitle { font-size: 1.1rem; color: #555550; line-height: 1.7; font-style: italic; max-width: 580px; margin: 0; }
+.pp-intro { font-size: 1.05rem; line-height: 1.8; color: #2A2A26; margin-bottom: 20px; }
+.pp-intro strong { font-weight: 500; color: #1A1A18; }
+.pp-section-rule { display: flex; align-items: center; gap: 16px; margin: 48px 0 24px; }
+.pp-section-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; white-space: nowrap; }
+.pp-rule { flex: 1; height: 0.5px; background: #C8C4BA; }
+.pp-value-block { padding: 28px 32px; background: #FDFCF9; border: 0.5px solid #C8C4BA; border-left: 2px solid #1A1A18; margin-bottom: 16px; }
+.pp-value-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-bottom: 10px; }
+.pp-value-text { font-size: 1.0rem; line-height: 1.75; color: #2A2A26; }
+.pp-value-text strong { font-weight: 500; color: #1A1A18; }
+.pp-flow-block { padding: 32px 36px; background: #1A1A18; margin-bottom: 32px; }
+.pp-flow-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #c8a96e; margin-bottom: 14px; }
+.pp-flow-headline { font-size: 1.3rem; font-weight: 400; color: #F7F5F0; margin-bottom: 16px; line-height: 1.4; letter-spacing: -0.01em; }
+.pp-flow-row { display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 16px 0; border-bottom: 0.5px solid rgba(255,255,255,0.1); align-items: start; }
+.pp-flow-row:last-of-type { border-bottom: none; }
+.pp-flow-direction { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #c8a96e; padding-top: 2px; line-height: 1.4; }
+.pp-flow-text { font-size: 0.95rem; color: #E0DDD6; line-height: 1.65; font-style: italic; }
+.pp-mechanics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+.pp-mech-card { padding: 24px 24px 20px; background: #FDFCF9; border: 0.5px solid #C8C4BA; }
+.pp-mech-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 10px; }
+.pp-mech-value { font-size: 1.1rem; font-weight: 500; color: #1A1A18; margin-bottom: 6px; line-height: 1.3; }
+.pp-mech-desc { font-size: 0.9rem; color: #555550; line-height: 1.6; font-style: italic; }
+.pp-steps { display: flex; flex-direction: column; gap: 0; margin-bottom: 24px; }
+.pp-step { display: grid; grid-template-columns: 48px 1fr; gap: 20px; padding: 20px 0; border-bottom: 0.5px solid #E0DDD6; align-items: start; }
+.pp-step:last-child { border-bottom: none; }
+.pp-step-num { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #AAAAAA; padding-top: 3px; }
+.pp-step-title { font-size: 1.05rem; font-weight: 400; color: #1A1A18; margin-bottom: 4px; letter-spacing: -0.01em; }
+.pp-step-text { font-size: 0.95rem; color: #555550; line-height: 1.65; font-style: italic; }
+.pp-kit-block { padding: 28px 32px; background: #F2F0EB; border: 0.5px solid #C8C4BA; border-left: 2px solid #c8a96e; margin-bottom: 32px; }
+.pp-kit-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #c8a96e; margin-bottom: 14px; }
+.pp-kit-headline { font-size: 1.3rem; font-weight: 400; color: #1A1A18; margin-bottom: 10px; line-height: 1.35; letter-spacing: -0.01em; }
+.pp-kit-body { font-size: 0.95rem; color: #555550; font-style: italic; line-height: 1.7; margin-bottom: 18px; }
+.pp-kit-link { display: inline-block; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #1A1A18; background: #c8a96e; border: 0.5px solid #c8a96e; padding: 12px 24px; text-decoration: none; transition: background 0.15s; }
+.pp-kit-link:hover { background: #b8975c; }
+.pp-form-block { padding: 32px 36px; background: #FDFCF9; border: 0.5px solid #C8C4BA; margin-bottom: 32px; }
+.pp-form-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-bottom: 10px; }
+.pp-form-headline { font-size: 1.3rem; font-weight: 400; color: #1A1A18; margin-bottom: 8px; line-height: 1.35; letter-spacing: -0.01em; }
+.pp-form-sub { font-size: 0.95rem; color: #555550; font-style: italic; line-height: 1.6; margin-bottom: 24px; }
+.pp-field { margin-bottom: 16px; }
+.pp-field-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #888880; margin-bottom: 6px; }
+.pp-input { width: 100%; font-family: 'EB Garamond', Georgia, serif; font-size: 1.0rem; color: #1A1A18; background: #F7F5F0; border: 0.5px solid #C8C4BA; padding: 11px 14px; box-sizing: border-box; -webkit-appearance: none; }
+.pp-input:focus { outline: none; border-color: #888880; }
+.pp-input::placeholder { color: #AAAAAA; font-style: italic; }
+.pp-textarea { width: 100%; font-family: 'EB Garamond', Georgia, serif; font-size: 1.0rem; color: #1A1A18; background: #F7F5F0; border: 0.5px solid #C8C4BA; padding: 11px 14px; box-sizing: border-box; resize: vertical; min-height: 90px; -webkit-appearance: none; }
+.pp-textarea:focus { outline: none; border-color: #888880; }
+.pp-textarea::placeholder { color: #AAAAAA; font-style: italic; }
+.pp-submit { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #F7F5F0; background: #1A1A18; border: 0.5px solid #1A1A18; padding: 13px 28px; cursor: pointer; margin-top: 8px; transition: background 0.15s; -webkit-appearance: none; }
+.pp-submit:hover { background: #333330; }
+.pp-submit:disabled { opacity: 0.4; cursor: default; }
+.pp-form-note { font-size: 0.85rem; color: #888880; font-style: italic; line-height: 1.6; margin-top: 14px; }
+.pp-confirm { display: none; padding: 20px 24px; background: #F2F0EB; border-left: 2px solid #1A1A18; margin-top: 16px; font-size: 0.95rem; color: #2A2A26; line-height: 1.65; }
+.pp-footer { margin-top: 56px; padding-top: 28px; border-top: 0.5px solid #C8C4BA; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.pp-footer a { font-family: 'EB Garamond', serif; font-size: 0.95rem; color: #888880; text-decoration: none; border-bottom: 0.5px solid transparent; transition: color 0.15s, border-color 0.15s; }
+.pp-footer a:hover { color: #1A1A18; border-bottom-color: #888880; }
+@media (max-width: 580px) { .pp-root { padding: 48px 24px 64px; } .pp-title { font-size: 2.0rem; } .pp-mechanics { grid-template-columns: 1fr; } .pp-flow-row { grid-template-columns: 1fr; gap: 6px; } }
+</style>
+
+<div class="pp-root">
+
+<div class="pp-masthead">
+<div class="pp-label">Exit Desk · Partner Program</div>
+<h1 class="pp-title">Partner With the Resource Your Clients Need 1–5 Years Before They Sell.</h1>
+<p class="pp-subtitle">For business brokers, M&amp;A advisors, CPAs, estate-planning attorneys, and wealth advisors who serve business-owner clients across all revenue scales — from sub-$1M Main Street operators to $25M+ lower-middle-market founders.</p>
+</div>
+
+<p class="pp-intro">Your clients will sell eventually. Most are not ready. When the day comes, they will either be prepared — or they will learn in diligence what they should have fixed three years earlier. <strong>Exit Desk is built for exactly that window — the 1–5 years before a client engages a broker or starts a formal process.</strong></p>
+
+<p class="pp-intro">A flat-fee buyer-lens audit ($199 below $1M annual revenue; $499 at $1M+) is not a competitive threat to your engagement. It is the resource that makes your clients ready for it.</p>
+
+<div class="pp-value-block"><div class="pp-value-label">Already on the market?</div><p class="pp-intro">For a seller whose process has slowed, Exit Desk provides an independent buyer-side diagnostic before the next pricing or positioning decision. You keep the relationship. Exit Desk does not broker transactions or compete for your engagement.</p></div>
+
+<div class="pp-section-rule"><span class="pp-section-label">Two-Way Partnership</span><div class="pp-rule"></div></div>
+
+<div class="pp-flow-block">
+<div class="pp-flow-label">How the Partnership Works</div>
+<div class="pp-flow-headline">Referrals flow in both directions — pre-qualified leads when the business is ready, paid placement when it isn't.</div>
+
+<div class="pp-flow-row">
+<div class="pp-flow-direction">You → Exit Desk</div>
+<div class="pp-flow-text">When a client is thinking about an eventual sale but not ready to engage, refer them to the Buyer-Lens Audit™. They get a buyer-side read on what to fix; you stay the trusted advisor in their corner. $100 referral fee per converted client.</div>
+</div>
+
+<div class="pp-flow-row">
+<div class="pp-flow-direction">Exit Desk → You</div>
+<div class="pp-flow-text">When the audit identifies a sale-ready seller in your industry or region, we refer them to partner brokers, M&amp;A advisors, or wealth advisors in our network. Pre-qualified, pre-educated, and arriving with a buyer-lens analysis already in hand.</div>
+</div>
+
+<div class="pp-flow-row">
+<div class="pp-flow-direction">No Conflict</div>
+<div class="pp-flow-text">Exit Desk doesn't represent sellers, doesn't compete for engagements, doesn't earn on transaction close. Different product, different point in the journey. Brokers help clients sell; we help clients prepare.</div>
+</div>
+</div>
+
+<div class="pp-section-rule"><span class="pp-section-label">What You Get</span><div class="pp-rule"></div></div>
+
+<div class="pp-value-block">
+<div class="pp-value-label">For Your Practice</div>
+<div class="pp-value-text">A structured buyer-side resource you can offer clients without building one. You look proactive. The client gets a buyer-lens analysis grounded in 25 years and 75+ transactions of M&amp;A judgment, calibrated to their revenue scale and buyer universe — from Main Street operators under $1M to lower-middle-market founders at $15M+. <strong>The fee is a small fraction of even the smallest typical sale.</strong></div>
+</div>
+
+<div class="pp-value-block">
+<div class="pp-value-label">For Your Client</div>
+<div class="pp-value-text">A confidential-memo-style report identifying exactly where buyer scrutiny will focus first — earnings quality, owner dependency, customer concentration, competitive position, AI exposure. Delivered within 24 hours. The client enters any future process with specificity no broker will give them upfront.</div>
+</div>
+
+<div class="pp-value-block">
+<div class="pp-value-label">For Brokers Specifically</div>
+<div class="pp-value-text">A pre-engagement filter for prospects who aren't ready yet. Refer them to Exit Desk during the preparation window, and we send them back when the business is ready to go to market. <strong>You preserve the relationship without taking the engagement before it's right.</strong></div>
+</div>
+
+<div class="pp-section-rule"><span class="pp-section-label">Program Mechanics</span><div class="pp-rule"></div></div>
+
+<div class="pp-mechanics">
+<div class="pp-mech-card"><div class="pp-mech-label">Referral Fee</div><div class="pp-mech-value">$100 per report</div><div class="pp-mech-desc">A flat $100 for each converted paid report, at either pricing tier.</div></div>
+<div class="pp-mech-card"><div class="pp-mech-label">Commitment</div><div class="pp-mech-value">None</div><div class="pp-mech-desc">No minimums, no quotas, no exclusivity. Refer when it fits your client.</div></div>
+<div class="pp-mech-card"><div class="pp-mech-label">Tracking</div><div class="pp-mech-value">Manual for v1</div><div class="pp-mech-desc">Use your assigned referral tag when sharing Exit Desk. Referral approval, conversion review, and payouts remain manual for v1.</div></div>
+<div class="pp-mech-card"><div class="pp-mech-label">Payment</div><div class="pp-mech-value">Monthly</div><div class="pp-mech-desc">Conversion summary and payout on the first business day of each month.</div></div>
+</div>
+
+<div class="pp-section-rule"><span class="pp-section-label">How It Works</span><div class="pp-rule"></div></div>
+
+<div class="pp-steps">
+<div class="pp-step"><div class="pp-step-num">01</div><div><div class="pp-step-title">Join the Program</div><div class="pp-step-text">Submit the form below. You'll receive a partner welcome email with the sample report PDF, a client-facing one-pager, and your referral tag.</div></div></div>
+<div class="pp-step"><div class="pp-step-num">02</div><div><div class="pp-step-title">Share With Clients</div><div class="pp-step-text">When a business-owner client is thinking about an eventual sale, share the sample report and the free 8-question audit preview. Most partners lead with the sample — it demonstrates the deliverable without asking the client to do anything.</div></div></div>
+<div class="pp-step"><div class="pp-step-num">03</div><div><div class="pp-step-title">Client Purchases</div><div class="pp-step-text">Client takes the free audit preview, decides the full Buyer-Lens Audit™ is worth it, and purchases. Your referral tag is captured at checkout.</div></div></div>
+<div class="pp-step"><div class="pp-step-num">04</div><div><div class="pp-step-title">You Get Paid — Or Get a Referral Back</div><div class="pp-step-text">On the first business day of each month, you receive a conversion summary and your $100-per-report payout via ACH or check. When the audit identifies a client as sale-ready and you're a fit for their industry or region, we refer them back to you.</div></div></div>
+</div>
+
+<div class="pp-kit-block">
+<div class="pp-kit-label">Before You Sign Up</div>
+<div class="pp-kit-headline">See what you'll be sharing with clients.</div>
+<div class="pp-kit-body">The sample reports demonstrate the same buyer-lens framework applied at different revenue scales — from a sub-$1M Main Street operator to a $4.2M lower-middle-market business. Read whichever fits your typical client before you decide whether the program fits your practice. Your clients receive the same quality of analysis, calibrated to their scale.</div>
+<a href="/exit/sample" class="pp-kit-link">Read the Sample Reports →</a>
+</div>
+
+<div class="pp-section-rule"><span class="pp-section-label">Join the Program</span><div class="pp-rule"></div></div>
+
+<div class="pp-form-block">
+<div class="pp-form-label">Partner Signup</div>
+<div class="pp-form-headline">Apply to the Exit Desk Partner Program.</div>
+<div class="pp-form-sub">Submit the form and you'll receive a welcome email with the partner kit within one business day.</div>
+
+<form id="pp-form" onsubmit="return submitPartnerForm(event)">
+<div class="pp-field"><div class="pp-field-label">Your Name</div><input type="text" class="pp-input" id="pp-name" required placeholder="First and last name" /></div>
+<div class="pp-field"><div class="pp-field-label">Firm Name</div><input type="text" class="pp-input" id="pp-firm" required placeholder="Your practice or firm" /></div>
+<div class="pp-field"><div class="pp-field-label">Email</div><input type="email" class="pp-input" id="pp-email" required placeholder="you@firm.com" /></div>
+<div class="pp-field"><div class="pp-field-label">Practice Type</div><input type="text" class="pp-input" id="pp-practice" placeholder="e.g. business broker, M&amp;A advisor, CPA, estate-planning attorney, wealth advisor" /></div>
+<div class="pp-field"><div class="pp-field-label">Business-Owner Clients (Approximate)</div><input type="text" class="pp-input" id="pp-clients" placeholder="How many business-owner clients do you serve, and what revenue range?" /></div>
+<div class="pp-field"><div class="pp-field-label">Notes <span style="color:#AAAAAA;text-transform:none;letter-spacing:0;font-family:EB Garamond,serif;font-style:italic">(optional)</span></div><textarea class="pp-textarea" id="pp-notes" placeholder="Anything specific about your practice or clients we should know..."></textarea></div>
+<button type="submit" class="pp-submit" id="pp-submit-btn">Submit Application →</button>
+</form>
+
+<div class="pp-form-note">Applications are reviewed within one business day. No commitment until we send your partner kit and referral tag.</div>
+<div class="pp-confirm" id="pp-confirm">Application received. Check your inbox within one business day for your partner kit and referral tag. Questions: <a href="mailto:mike@mikeye.com" style="color:#1A1A18;text-decoration:underline">mike@mikeye.com</a></div>
+</div>
+
+<div class="pp-footer">
+<a href="/exit">Exit Desk Overview</a>
+<a href="/exit/sample">Sample Reports</a>
+<a href="/exit/articles">Articles &amp; Case Studies</a>
+<a href="/">Home</a>
+</div>
+
+</div>
+
+<script>
+function submitPartnerForm(e) {
+  e.preventDefault();
+  var btn = document.getElementById('pp-submit-btn');
+  var form = document.getElementById('pp-form');
+  var confirm = document.getElementById('pp-confirm');
+  btn.disabled = true;
+  btn.textContent = 'Submitting...';
+  var formData = new FormData();
+  formData.append('Name', document.getElementById('pp-name').value);
+  formData.append('Firm', document.getElementById('pp-firm').value);
+  formData.append('Email', document.getElementById('pp-email').value);
+  formData.append('Practice Type', document.getElementById('pp-practice').value);
+  formData.append('Clients', document.getElementById('pp-clients').value);
+  formData.append('Notes', document.getElementById('pp-notes').value);
+  if (window.ExitDeskCampaign && window.ExitDeskCampaign.token) formData.append('Stalled Exit Campaign', window.ExitDeskCampaign.token);
+  formData.append('_subject', 'Exit Desk Partner Application — ' + document.getElementById('pp-firm').value);
+  fetch('https://formspree.io/f/maqveydb', {
+    method: 'POST',
+    body: formData,
+    headers: { 'Accept': 'application/json' }
+  })
+  .then(function(response) {
+    if (response.ok) {
+      if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('partner_application');
+      form.style.display = 'none';
+      confirm.style.display = 'block';
+    } else {
+      btn.textContent = 'Try Again';
+      btn.disabled = false;
+    }
+  })
+  .catch(function() {
+    btn.textContent = 'Try Again';
+    btn.disabled = false;
+  });
+  return false;
+}
+</script>
+
+<!-- Stalled Exit v0: attribution only; existing diagnostic and pricing remain authoritative. -->
+<script src="https://my-exitdesk.vercel.app/exit-campaign.js"></script>

@@ -1,0 +1,496 @@
+<!-- =============================================== -->
+<!-- /exit/sample — Sample Reports Body v1.2       -->
+<!-- v1.2 — added FitWire Daily (Digital Media)    -->
+<!-- =============================================== -->
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap');
+
+  .sr-root {
+    font-family: 'EB Garamond', Georgia, serif;
+    background: #F7F5F0;
+    color: #1A1A18;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 72px 40px 80px;
+    box-sizing: border-box;
+  }
+
+  .sr-masthead {
+    margin-bottom: 48px;
+    padding-bottom: 36px;
+    border-bottom: 0.5px solid #C8C4BA;
+  }
+
+  .sr-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    margin-bottom: 16px;
+  }
+
+  .sr-title {
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px 0;
+    color: #1A1A18;
+  }
+
+  .sr-subtitle {
+    font-size: 1.1rem;
+    color: #555550;
+    line-height: 1.6;
+    font-style: italic;
+    max-width: 580px;
+    margin: 0;
+  }
+
+  .sr-body {
+    font-size: 1.1rem;
+    line-height: 1.78;
+    color: #2A2A26;
+    margin-bottom: 20px;
+  }
+
+  .sr-section-rule {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 44px 0 28px;
+  }
+
+  .sr-section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    white-space: nowrap;
+  }
+
+  .sr-rule {
+    flex: 1;
+    height: 0.5px;
+    background: #C8C4BA;
+  }
+
+  .sr-report-card {
+    margin-bottom: 2px;
+    border-left: 1.5px solid #C8C4BA;
+    background: #F2F0EB;
+    padding: 32px 36px;
+  }
+
+  .sr-report-card + .sr-report-card {
+    margin-top: 16px;
+  }
+
+  .sr-report-kicker {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #888880;
+    margin-bottom: 10px;
+  }
+
+  .sr-report-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #1A1A18;
+    margin: 0 0 8px 0;
+    line-height: 1.3;
+  }
+
+  .sr-report-profile {
+    font-size: 0.95rem;
+    color: #555550;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.04em;
+    margin-bottom: 20px;
+  }
+
+  .sr-excerpt-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #c8a96e;
+    margin-bottom: 12px;
+  }
+
+  .sr-excerpt {
+    font-size: 1.0rem;
+    line-height: 1.72;
+    color: #2A2A26;
+    font-style: italic;
+    border-left: 1.5px solid #c8a96e;
+    padding-left: 16px;
+    margin: 0 0 20px 0;
+  }
+
+  .sr-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .sr-section-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border: 0.5px solid #C8C4BA;
+    color: #888880;
+  }
+
+  .sr-report-cta {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1A1A18;
+    text-decoration: none;
+    border-bottom: 0.5px solid #1A1A18;
+    padding-bottom: 1px;
+  }
+
+  .sr-report-cta:hover {
+    color: #888880;
+    border-bottom-color: #888880;
+  }
+
+  .sr-what-inside {
+    margin: 2rem 0;
+    padding: 28px 32px;
+    background: #1A1A18;
+  }
+
+  .sr-what-inside-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #c8a96e;
+    margin-bottom: 16px;
+  }
+
+  .sr-what-inside-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sr-what-inside-list li {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.0rem;
+    color: #C8C4BA;
+    padding: 8px 0 8px 16px;
+    border-bottom: 0.5px solid #2E2E2C;
+    position: relative;
+    line-height: 1.5;
+  }
+
+  .sr-what-inside-list li:last-child {
+    border-bottom: none;
+  }
+
+  .sr-what-inside-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #c8a96e;
+    font-size: 0.85rem;
+  }
+
+  .sr-cta-block {
+    margin: 3rem 0 2rem;
+    padding: 36px 40px;
+    background: #1A1A18;
+    text-align: center;
+  }
+
+  .sr-cta-block p {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.15rem;
+    color: #C8C4BA;
+    margin: 0 0 1.5rem;
+    line-height: 1.65;
+    font-style: italic;
+  }
+
+  .sr-cta-btn {
+    display: inline-block;
+    background: #c8a96e;
+    color: #1A1A18;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    text-decoration: none;
+  }
+
+  .sr-cta-btn:hover { background: #b8965a; }
+
+  .sr-cta-secondary {
+    display: block;
+    margin-top: 1rem;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #555550;
+    text-decoration: none;
+  }
+
+  .sr-cta-secondary:hover { color: #888880; }
+
+  .sr-footer {
+    margin-top: 56px;
+    padding-top: 28px;
+    border-top: 0.5px solid #C8C4BA;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .sr-nav-group-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin-bottom: 12px;
+  }
+
+  .sr-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .sr-nav-links a {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.0rem;
+    color: #2A2A26;
+    text-decoration: none;
+    border-bottom: 0.5px solid transparent;
+    transition: border-color 0.15s, color 0.15s;
+    display: inline-block;
+    padding-bottom: 1px;
+  }
+
+  .sr-nav-links a:hover {
+    color: #1A1A18;
+    border-bottom-color: #888880;
+  }
+
+  .sr-nav-back {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888880;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 48px;
+  }
+
+  .sr-nav-back:hover { color: #555550; }
+
+  @media (max-width: 580px) {
+    .sr-root { padding: 48px 24px 64px; }
+    .sr-title { font-size: 2.1rem; }
+    .sr-footer { grid-template-columns: 1fr; }
+    .sr-report-card { padding: 24px 20px; }
+    .sr-what-inside { padding: 20px; }
+    .sr-cta-block { padding: 28px 24px; }
+  }
+</style>
+
+<div class="sr-root">
+
+  <a class="sr-nav-back" href="https://www.mikeye.com/exit">← Exit Desk</a>
+
+  <div class="sr-masthead">
+    <div class="sr-label">Exit Desk — Sample Reports</div>
+    <h1 class="sr-title">See What the Report Actually Looks Like</h1>
+    <p class="sr-subtitle">Four real Exit Desk reports generated from 26-question intake submissions, calibrated to different revenue scales and industries — from Main Street under $1M to lower-middle-market $3M–$7M, across trades, professional services, and digital media. Nothing redacted.</p>
+  </div>
+
+  <p class="sr-body">Every Exit Desk report is generated from your specific inputs — 26 questions across five buyer diligence dimensions. The reports below were generated from fictional but realistic business profiles, each calibrated to a different point in the small-business exit market: a Main Street commercial landscape operator under $1M, a residential HVAC services company at $3M–$7M, a professional services advisory firm at $3M–$7M, and a digital trade media platform at $1M–$3M.</p>
+
+  <p class="sr-body">Read the sample that fits your business — or your client's business — and see exactly how a serious buyer would frame it: looking for what the numbers don't show, where the risk concentrates, and whether the revenue survives the founder walking out the door.</p>
+
+  <div class="sr-what-inside">
+    <div class="sr-what-inside-title">Every report includes</div>
+    <ul class="sr-what-inside-list">
+      <li>Buyer's first impression — how a serious acquirer would frame the business internally</li>
+      <li>Seller archetype analysis — what the exit motivation signals to a buyer</li>
+      <li>Buyer-lens positioning memo — calibrated to the realistic buyer universe at the seller's scale</li>
+      <li>Revenue quality assessment — underwritability, concentration risk, recurring vs. transactional</li>
+      <li>Diligence pressure map — where buyer scrutiny will focus first, ranked</li>
+      <li>Competitive position assessment, including AI exposure where material</li>
+      <li>Structural risk profile across the dimensions that matter at the seller's scale</li>
+      <li>Pre-market action plan — specific actions ranked by impact, with timelines</li>
+      <li>Buyer universe analysis — who will actually write a check, and why</li>
+      <li>Uncertainty disclosure — what the report cannot assess and why it matters</li>
+    </ul>
+  </div>
+
+  <div class="sr-section-rule">
+    <span class="sr-section-label">Sample Report 1 · Main Street</span>
+    <div class="sr-rule"></div>
+  </div>
+
+  <div class="sr-report-card">
+    <div class="sr-report-kicker">Trades & Field Services · Dallas–Fort Worth, TX</div>
+    <h2 class="sr-report-title">Apex Landscape Group</h2>
+    <div class="sr-report-profile">Under $1M revenue · $200K–$500K SDE · 7–15 years operating · 6-person crew + seasonal contractors</div>
+
+    <div class="sr-excerpt-label">From the report — Buyer's First Impression</div>
+    <p class="sr-excerpt">Apex Landscape Group is a DFW commercial landscape maintenance operator doing under $1M in revenue with 40 recurring monthly contracts, mostly office parks and HOAs, and an owner who describes himself as strategically involved but not running daily field operations. The SDE range of $200K–$500K on a recurring commercial book with low customer concentration and long tenure is an attractive profile for an SBA-financed acquisition — this is the kind of cash-flow-positive, route-based service business that individual buyers actively look for.</p>
+
+    <div class="sr-excerpt-label">From the report — Where the Deal Gets Complicated</div>
+    <p class="sr-excerpt">Financial cleanliness is the single largest obstacle to a successful sale. If the books cannot be cleaned to underwriting standard, the realistic buyer pool collapses from SBA-financed individuals (70–80% of sub-$1M buyers) to cash-only buyers, which is a materially smaller market and will reduce both the speed and the price of any transaction.</p>
+
+    <div class="sr-sections">
+      <span class="sr-section-tag">Buyer: SBA individual</span>
+      <span class="sr-section-tag">Customer concentration: Low</span>
+      <span class="sr-section-tag">Financial cleanliness: High risk</span>
+      <span class="sr-section-tag">Books: Cash basis</span>
+    </div>
+
+    <a class="sr-report-cta" href="https://www.mikeye.com/exit/sample/apex-landscape">Read the full Apex Landscape report →</a>
+  </div>
+
+  <div class="sr-section-rule">
+    <span class="sr-section-label">Sample Report 2 · Lower-Middle-Market</span>
+    <div class="sr-rule"></div>
+  </div>
+
+  <div class="sr-report-card">
+    <div class="sr-report-kicker">Trades & Home Services · Phoenix, AZ</div>
+    <h2 class="sr-report-title">Pinnacle HVAC Services</h2>
+    <div class="sr-report-profile">$3M–$7M revenue · $500K–$1M SDE · 22 years operating · 8 certified technicians</div>
+
+    <div class="sr-excerpt-label">From the report — Buyer's First Impression</div>
+    <p class="sr-excerpt">Pinnacle HVAC Services is a 22-year-old residential and light commercial HVAC operation in the Phoenix metro generating between $3M and $7M in revenue with $500K to $1M in EBITDA. The business has a strong local brand, a fleet of 12 owned vehicles, and a meaningful service contract base in a high-growth Sun Belt market that is actively consolidating. The concern is that the founder runs it day-to-day, the business deteriorates meaningfully without him, and the management layer underneath has not been tested in an autonomous capacity.</p>
+
+    <div class="sr-excerpt-label">From the report — How Not to Lose Leverage</div>
+    <p class="sr-excerpt">The correct response to casual inbound interest is not to negotiate. It is to acknowledge interest, continue positioning the business, and create a structured process where multiple buyers compete simultaneously.</p>
+
+    <div class="sr-sections">
+      <span class="sr-section-tag">Founder dependency: High</span>
+      <span class="sr-section-tag">Customer concentration: Low</span>
+      <span class="sr-section-tag">AI exposure: Low</span>
+      <span class="sr-section-tag">Consolidation: Active</span>
+    </div>
+
+    <a class="sr-report-cta" href="https://www.mikeye.com/exit/sample/pinnacle-hvac">Read the full Pinnacle HVAC report →</a>
+  </div>
+
+  <div class="sr-section-rule">
+    <span class="sr-section-label">Sample Report 3 · Lower-Middle-Market</span>
+    <div class="sr-rule"></div>
+  </div>
+
+  <div class="sr-report-card">
+    <div class="sr-report-kicker">Professional Services · Southeast US</div>
+    <h2 class="sr-report-title">Meridian Advisory Group</h2>
+    <div class="sr-report-profile">$3M–$7M revenue · $500K–$1M EBITDA · HR & organizational consulting · 7 FTE + 2 contractors</div>
+
+    <div class="sr-excerpt-label">From the report — Buyer's First Impression</div>
+    <p class="sr-excerpt">Meridian Advisory Group is a Southeast-focused HR and organizational consulting firm generating between $3M and $7M in revenue with EBITDA in the $500K–$1M range — a profile that puts it squarely in the awkward middle for professional services acquisitions. The firm is small — nine total headcount including contractors — which means this is a people-and-relationships acquisition, and the diligence will center almost entirely on whether those people and relationships survive a transaction.</p>
+
+    <div class="sr-excerpt-label">From the report — What to Fix Before You Talk to Anyone</div>
+    <p class="sr-excerpt">The two senior consultants who manage most client relationships are the most valuable transferable assets in Meridian. Stop considering equity and execute. Structure retention agreements, equity grants, or stay bonuses with 24–36 month vesting periods tied to a change of control. If a buyer discovers during diligence that the two people who hold client relationships have no contractual incentive to stay, the offer will include a significant holdback.</p>
+
+    <div class="sr-sections">
+      <span class="sr-section-tag">Founder dependency: Moderate</span>
+      <span class="sr-section-tag">Revenue quality: Moderate</span>
+      <span class="sr-section-tag">AI exposure: Low–Moderate</span>
+      <span class="sr-section-tag">Management depth: Thin</span>
+    </div>
+
+    <a class="sr-report-cta" href="https://www.mikeye.com/exit/sample/meridian-advisory">Read the full Meridian Advisory report →</a>
+  </div>
+
+  <div class="sr-section-rule">
+    <span class="sr-section-label">Sample Report 4 · Digital Media</span>
+    <div class="sr-rule"></div>
+  </div>
+
+  <div class="sr-report-card">
+    <div class="sr-report-kicker">Digital Trade Media · Fitness & Wellness</div>
+    <h2 class="sr-report-title">FitWire Daily</h2>
+    <div class="sr-report-profile">$1M–$3M revenue · $200K–$500K EBITDA · Sub-3-year operating history · 100,000 subscribers · 3–10 employees</div>
+
+    <div class="sr-excerpt-label">From the report — Buyer's First Impression</div>
+    <p class="sr-excerpt">FitWire Daily is a sub-3-year-old digital trade media platform covering the fitness and wellness industry. The thesis is straightforward: fitness and wellness lacks a definitive B2B media brand the way other verticals have theirs, and FitWire is positioning to own that category. The question for any buyer is whether a 100,000-subscriber platform with under three years of operating history and repeat-but-uncontracted revenue has crossed from promising into provable.</p>
+
+    <div class="sr-excerpt-label">From the report — Competitive Position & AI Exposure</div>
+    <p class="sr-excerpt">If a buyer reviews the content library and finds that a meaningful percentage could be generated by ChatGPT with industry prompts, the valuation conversation changes fundamentally. The Founder needs a clear, specific answer to: "What does FitWire produce that AI cannot?" — backed by engagement data showing the audience values those specific content types.</p>
+
+    <div class="sr-sections">
+      <span class="sr-section-tag">Founder dependency: Moderate</span>
+      <span class="sr-section-tag">Revenue: Uncontracted</span>
+      <span class="sr-section-tag">AI exposure: High</span>
+      <span class="sr-section-tag">Operating history: Under 3 yrs</span>
+    </div>
+
+    <a class="sr-report-cta" href="https://www.mikeye.com/exit/sample/fitwire-daily">Read the full FitWire Daily report →</a>
+  </div>
+
+  <div class="sr-section-rule">
+    <span class="sr-section-label">Your Report</span>
+    <div class="sr-rule"></div>
+  </div>
+
+  <p class="sr-body">These reports were generated from fictional inputs. Your report is generated from your actual 26-question intake — which means every finding, every diligence pressure point, and every pre-market action references your specific business, your specific industry, your specific scale, and your specific answers.</p>
+
+  <p class="sr-body">The free diagnostic takes 90 seconds and gives you a scored readiness rating across all five dimensions. The Buyer-Lens Audit is $199 for businesses under $1M in annual revenue and $499 for $1M+ — one flat fee, delivered within 24 hours.</p>
+
+  <div class="sr-cta-block">
+    <p>Start with the free assessment. See where you stand before you pay anything.</p>
+    <a class="sr-cta-btn" href="https://www.mikeye.com/exit/score">Check Your Exit Readiness — Free</a>
+    <a class="sr-cta-secondary" href="https://www.mikeye.com/exit/checkout">Get your Buyer-Lens Audit — from $199 →</a>
+  </div>
+
+  <div class="sr-footer">
+    <div>
+      <div class="sr-nav-group-label">Exit Desk</div>
+      <div class="sr-nav-links">
+        <a href="https://www.mikeye.com/exit">Exit Desk Overview</a>
+        <a href="https://www.mikeye.com/exit/score">Free Assessment</a>
+        <a href="https://www.mikeye.com/exit/articles">Articles & Case Studies</a>
+        <a href="https://www.mikeye.com/exit/partners">Partner Program</a>
+      </div>
+    </div>
+    <div>
+      <div class="sr-nav-group-label">Sample Reports</div>
+      <div class="sr-nav-links">
+        <a href="https://www.mikeye.com/exit/sample/apex-landscape">Apex Landscape Group</a>
+        <a href="https://www.mikeye.com/exit/sample/pinnacle-hvac">Pinnacle HVAC Services</a>
+        <a href="https://www.mikeye.com/exit/sample/meridian-advisory">Meridian Advisory Group</a>
+        <a href="https://www.mikeye.com/exit/sample/fitwire-daily">FitWire Daily</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- =============================================== -->
+<!-- END /exit/sample Body v1.2                    -->
+<!-- =============================================== -->
+
+<!-- Stalled Exit v0: attribution only; existing diagnostic and pricing remain authoritative. -->
+<script src="https://my-exitdesk.vercel.app/exit-campaign.js"></script>

@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
+    "test:stalled": "node --import tsx --test lib/stalled/*.test.ts",
+    "stalled": "node --import tsx scripts/stalled-exit.ts",
     "test:acquisition": "node --import tsx --test lib/acquisition/*.test.ts",
     "verify:webmcp": "node scripts/verify-webmcp-exit-readiness.mjs",
     "verify:acquisition:deployment": "node scripts/verify-acquisition-deployment.mjs"

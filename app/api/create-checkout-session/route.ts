@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
+import { verifyToken } from "@/lib/stalled/security";
 
 const PRICE_IDS = {
   full: process.env.STRIPE_PRICE_ID_FULL ?? "price_1TPASdCor2M881VXmebNfwav",
@@ -50,6 +51,7 @@ export async function POST(request: Request) {
     companyName?: string;
     companyDescription?: string;
     ref?: string;
+    se_token?: string;
   };
 
   const tier: Tier = body.q1 === "a" ? "lite" : "full";
@@ -80,6 +82,9 @@ export async function POST(request: Request) {
   }
   metadata.tier = tier;
   metadata.price_paid = String(PRICE_PAID[tier]);
+  // Campaign attribution is separate from the existing manual partner referral tag.
+  const campaignToken = verifyToken(body.se_token, process.env.STALLED_EXIT_SIGNING_SECRET ?? '', 'campaign');
+  if (campaignToken && body.se_token && body.se_token.length <= 500) metadata.se_token = body.se_token;
 
   const session = await stripe.checkout.sessions.create({
     mode: "payment",
@@ -92,7 +97,7 @@ export async function POST(request: Request) {
       },
     ],
     metadata,
-    client_reference_id: body.ref || undefined,
+    client_reference_id: body.ref && /^[a-zA-Z0-9_-]{1,64}$/.test(body.ref) ? body.ref : undefined,
     success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/exit/desk?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/exit/checkout`,
   });

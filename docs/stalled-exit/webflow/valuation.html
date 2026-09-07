@@ -1,0 +1,389 @@
+<!-- =============================================== -->
+<!-- /exit/valuation — Body Embed v2.0              -->
+<!-- Dark-editorial redesign + animated waterfall   -->
+<!-- Math UNCHANGED: external exit-valuation-content -->
+<!-- .js still drives all calc. All script IDs kept. -->
+<!-- =============================================== -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&display=swap');
+
+  .vc-wrap { font-family:'EB Garamond',Georgia,serif; max-width:880px; margin:0 auto; padding:0; color:#1A1A18; }
+
+  /* FORM */
+  .vc-form { background:#FDFCF9; border:0.5px solid #C8C4BA; padding:36px; margin:24px 0; }
+  .vc-header-stakes { margin:0 0 30px 0; padding:0; }
+  .vc-header-stakes-line1 { font-family:'EB Garamond',Georgia,serif; font-size:30px; font-weight:600; color:#1A1A18; line-height:1.15; letter-spacing:-0.02em; margin-bottom:10px; }
+  .vc-header-stakes-line2 { font-family:'EB Garamond',Georgia,serif; font-size:18px; font-weight:400; font-style:italic; color:#5a5446; line-height:1.45; }
+  .vc-row { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-bottom:22px; }
+  .vc-field { display:flex; flex-direction:column; }
+  .vc-field label { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#888880; margin-bottom:8px; }
+  .vc-field input, .vc-field select { font-family:'EB Garamond',Georgia,serif; font-size:18px; padding:11px 13px; border:0.5px solid #C8C4BA; background:#fff; color:#1A1A18; -webkit-appearance:none; border-radius:0; }
+  .vc-field input:focus, .vc-field select:focus { outline:none; border-color:#1A1A18; }
+  .vc-slider-wrap { display:flex; align-items:center; gap:12px; padding-top:8px; }
+  .vc-slider-wrap input[type=range] { flex:1; accent-color:#c8a96e; }
+  .vc-slider-value { font-family:'DM Mono',monospace; font-size:14px; min-width:48px; text-align:right; color:#1A1A18; }
+  .vc-helper { font-size:13px; color:#8a8270; font-style:italic; margin-top:5px; }
+  .vc-calc-btn { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#1A1A18; background:#c8a96e; border:0.5px solid #c8a96e; padding:15px 24px; cursor:pointer; transition:background 0.15s; align-self:flex-end; }
+  .vc-calc-btn:hover { background:#b8975c; }
+
+  /* OUTPUT */
+  .vc-output { display:none; margin-top:40px; }
+  .vc-tier { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:#888880; margin-bottom:14px; }
+
+  /* WATERFALL — dark hero */
+  .vc-wf { background:#1A1A18; padding:36px 40px 32px; margin-bottom:8px; }
+  .vc-wf-label { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#c8a96e; margin-bottom:6px; }
+  .vc-wf-sub { font-family:'EB Garamond',serif; font-size:15px; font-style:italic; color:#8a8478; margin-bottom:30px; }
+  .vc-wf-chart { position:relative; display:grid; grid-template-columns:1fr 1fr 1fr; gap:20px; height:240px; align-items:end; }
+  .vc-wf-baseline { position:absolute; left:0; right:0; height:0; border-top:1px dashed rgba(255,255,255,0.22); opacity:0; transition:bottom 0.9s cubic-bezier(.22,1,.36,1), opacity 0.4s; z-index:1; pointer-events:none; }
+  .vc-wf-baseline span { position:absolute; left:0; top:-8px; font-family:'DM Mono',monospace; font-size:8px; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.4); background:#1A1A18; padding-right:8px; }
+  .vc-wf-col { display:flex; flex-direction:column; justify-content:flex-end; height:100%; position:relative; z-index:2; }
+  .vc-wf-val { font-family:'EB Garamond',serif; font-size:23px; font-weight:600; color:#F7F5F0; text-align:center; margin-bottom:10px; line-height:1; opacity:0; transition:opacity 0.5s; }
+  .vc-wf-track { width:100%; height:185px; display:flex; align-items:flex-end; }
+  .vc-wf-fill { width:100%; height:0; transition:height 0.95s cubic-bezier(.22,1,.36,1); border-radius:2px 2px 0 0; }
+  #wf-bar-today { background:linear-gradient(180deg,#9a9384,#6f695b); }
+  #wf-bar-optimized { background:linear-gradient(180deg,#d8b878,#b8975c); transition-delay:0.1s; }
+  #wf-bar-premarket { background:linear-gradient(180deg,#4a8a4a,#2d5a2d); transition-delay:0.2s; }
+  .vc-wf-col .vc-wf-val { transition-delay:0.5s; }
+  .vc-wf-stage { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:#c8a96e; text-align:center; margin-top:14px; }
+  .vc-wf-time { font-family:'EB Garamond',serif; font-size:12px; font-style:italic; color:#7a766c; text-align:center; margin-top:3px; }
+
+  .vc-uplift { background:#0f0f0d; color:#F7F5F0; padding:22px 32px; font-family:'EB Garamond',Georgia,serif; font-size:21px; line-height:1.4; margin-bottom:32px; border-left:2px solid #c8a96e; }
+
+  /* SCENARIO DETAIL */
+  .vc-scenarios { display:grid; grid-template-columns:1fr; gap:12px; margin-bottom:32px; }
+  .vc-scenario { background:#FDFCF9; border:0.5px solid #C8C4BA; padding:24px 28px; }
+  .vc-scenario.today { border-left:2px solid #6f695b; }
+  .vc-scenario.optimized { border-left:2px solid #b8975c; }
+  .vc-scenario.premarket { border-left:2px solid #2d5a2d; }
+  .vc-scenario-label { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:#888880; margin-bottom:8px; }
+  .vc-scenario-title { font-family:'EB Garamond',Georgia,serif; font-size:22px; font-weight:600; color:#1A1A18; margin-bottom:10px; }
+  .vc-scenario-value { font-family:'EB Garamond',Georgia,serif; font-size:30px; font-weight:600; color:#1A1A18; margin-bottom:4px; }
+  .vc-scenario-multiple { font-family:'DM Mono',monospace; font-size:12px; color:#5a5446; margin-bottom:14px; }
+  .vc-scenario-narrative { font-family:'EB Garamond',Georgia,serif; font-size:16px; line-height:1.6; color:#2c2820; }
+
+  /* CAPTURE */
+  .vc-capture { background:#F2F0EB; border:0.5px solid #C8C4BA; border-left:2px solid #c8a96e; padding:28px 32px; margin:32px 0; }
+  .vc-capture-label { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#c8a96e; font-weight:700; margin-bottom:12px; }
+  .vc-capture-headline { font-family:'EB Garamond',Georgia,serif; font-size:21px; font-weight:600; color:#1A1A18; margin-bottom:10px; letter-spacing:-0.01em; line-height:1.3; }
+  .vc-capture-body { font-family:'EB Garamond',Georgia,serif; font-size:16px; line-height:1.6; color:#2c2820; margin-bottom:20px; }
+  .vc-capture-trigger { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:#1A1A18; background:#c8a96e; border:0.5px solid #c8a96e; padding:14px 24px; cursor:pointer; transition:opacity 0.2s; }
+  .vc-capture-trigger:hover { opacity:0.85; }
+  .vc-capture-form { display:none; gap:12px; align-items:stretch; }
+  .vc-capture-form.active { display:flex; flex-wrap:wrap; }
+  .vc-capture-form input[type=email] { flex:1; min-width:220px; font-family:'EB Garamond',Georgia,serif; font-size:16px; padding:13px 16px; border:0.5px solid #C8C4BA; background:#fff; }
+  .vc-capture-form input[type=email]:focus { outline:none; border-color:#1A1A18; }
+  .vc-capture-form button { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:#F7F5F0; background:#1A1A18; border:0.5px solid #1A1A18; padding:13px 24px; cursor:pointer; white-space:nowrap; }
+  .vc-capture-success { display:none; font-family:'EB Garamond',Georgia,serif; font-size:16px; color:#2d5a2d; line-height:1.55; font-style:italic; padding:14px 0; }
+  .vc-capture-success.active { display:block; }
+  .vc-capture-error { display:none; font-family:'EB Garamond',Georgia,serif; font-size:15px; color:#a83232; margin-top:8px; font-style:italic; }
+  .vc-capture-error.active { display:block; }
+
+  .vc-gaps { background:#fff; border:0.5px solid #C8C4BA; padding:28px 32px; margin:32px 0; }
+  .vc-gaps-label { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:#5a5446; margin-bottom:16px; }
+  .vc-gaps-list { font-family:'EB Garamond',Georgia,serif; font-size:16px; line-height:1.6; color:#2c2820; padding-left:20px; margin:0; }
+  .vc-gaps-list li { margin-bottom:12px; }
+  .vc-gaps-list li:last-child { margin-bottom:0; }
+  .vc-gaps-list strong { font-weight:600; }
+
+  .vc-thesis { background:#FDFCF9; border-left:2px solid #1A1A18; padding:28px 32px; margin:40px 0; font-family:'EB Garamond',Georgia,serif; font-size:19px; line-height:1.6; color:#1A1A18; }
+  .vc-thesis strong { font-weight:600; }
+
+  .vc-cta-wrap { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:32px 0; }
+  .vc-cta { display:block; text-align:center; padding:18px 24px; font-family:'DM Mono',monospace; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; text-decoration:none; transition:opacity 0.2s; }
+  .vc-cta:hover { opacity:0.85; }
+  .vc-cta-primary { background:#1A1A18; color:#F7F5F0; }
+  .vc-cta-secondary { background:transparent; color:#1A1A18; border:0.5px solid #1A1A18; }
+  .vc-trust { font-family:'EB Garamond',Georgia,serif; font-size:15px; line-height:1.55; color:#5a5446; text-align:center; margin-top:24px; font-style:italic; }
+
+  @media (max-width:700px) {
+    .vc-form { padding:24px; }
+    .vc-row { grid-template-columns:1fr; }
+    .vc-header-stakes-line1 { font-size:24px; }
+    .vc-header-stakes-line2 { font-size:16px; }
+    .vc-wf { padding:24px; }
+    .vc-wf-chart { height:200px; gap:10px; }
+    .vc-wf-track { height:150px; }
+    .vc-wf-val { font-size:17px; }
+    .vc-wf-stage { font-size:8px; }
+    .vc-cta-wrap { grid-template-columns:1fr; }
+    .vc-scenario-value { font-size:25px; }
+    .vc-thesis, .vc-uplift { font-size:17px; padding:20px 24px; }
+    .vc-capture-form { flex-direction:column; }
+    .vc-capture-form input[type=email], .vc-capture-form button { width:100%; }
+  }
+</style>
+
+<div class="vc-wrap">
+
+  <div class="vc-form">
+    <div class="vc-header-stakes">
+      <div class="vc-header-stakes-line1">Most Sellers Leave 31% on the Table.</div>
+      <div class="vc-header-stakes-line2">See what positioning could lift your number to. Built by a 25-year buy-side veteran whose acquisitions include Rolling Stone and Dick Clark's New Year's Rockin' Eve.</div>
+    </div>
+
+    <div style="font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:#c8a96e; margin-bottom:24px;">Your valuation updates live as you complete the fields below ↓</div>
+
+    <div class="vc-row">
+      <div class="vc-field">
+        <label for="input-revenue">Annual Revenue (USD)</label>
+        <input type="number" id="input-revenue" placeholder="e.g. 2500000" min="0" step="50000">
+      </div>
+      <div class="vc-field">
+        <label for="input-earnings">SDE or EBITDA (USD)</label>
+        <input type="number" id="input-earnings" placeholder="e.g. 500000" min="0" step="10000">
+        <div class="vc-helper">Under $1M revenue uses SDE. Over $1M uses EBITDA.</div>
+      </div>
+    </div>
+
+    <div class="vc-row">
+      <div class="vc-field">
+        <label for="input-industry">Industry</label>
+        <select id="input-industry">
+          <option value="">— Select industry —</option>
+          <option value="hvac-plumbing-electrical">HVAC / Plumbing / Electrical</option>
+          <option value="landscaping">Landscaping / Lawn Care</option>
+          <option value="roofing">Roofing / General Contracting</option>
+          <option value="cleaning">Cleaning / Janitorial</option>
+          <option value="auto-repair">Auto Repair / Service</option>
+          <option value="dental">Dental Practice</option>
+          <option value="veterinary">Veterinary Practice</option>
+          <option value="medical-practice">Medical Practice</option>
+          <option value="physical-therapy">Physical Therapy / Wellness</option>
+          <option value="med-spa">Med Spa / Aesthetics</option>
+          <option value="accounting">Accounting / CPA Firm</option>
+          <option value="law-firm">Law Firm</option>
+          <option value="consulting">Consulting Firm</option>
+          <option value="marketing-agency">Marketing / Creative Agency</option>
+          <option value="staffing">Staffing / Recruiting</option>
+          <option value="restaurant">Restaurant</option>
+          <option value="cafe-coffee">Café / Coffee Shop</option>
+          <option value="specialty-retail">Specialty Retail</option>
+          <option value="ecommerce">E-commerce / DTC</option>
+          <option value="salon-spa">Salon / Spa</option>
+          <option value="fitness">Fitness / Gym</option>
+          <option value="manufacturing">Manufacturing</option>
+          <option value="distribution">Distribution / Wholesale</option>
+          <option value="technology-saas">Technology / SaaS</option>
+          <option value="digital-media">Digital Media / Publishing</option>
+          <option value="other-service">Other Service Business</option>
+        </select>
+      </div>
+      <div class="vc-field">
+        <label for="input-owner">Your Involvement</label>
+        <select id="input-owner">
+          <option value="">— Select —</option>
+          <option value="full-time">Full-time operator (I run it)</option>
+          <option value="part-time">Part-time / strategic only</option>
+          <option value="removed">Removed (team runs it without me)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="vc-row">
+      <div class="vc-field">
+        <label for="input-management">Management Team</label>
+        <select id="input-management">
+          <option value="">— Select —</option>
+          <option value="solo">Solo (no management layer)</option>
+          <option value="team">Capable team, I make key decisions</option>
+          <option value="strong">Strong team makes most decisions</option>
+        </select>
+      </div>
+      <div class="vc-field">
+        <label for="input-recurring">Recurring Revenue (%): <span class="vc-slider-value" id="recurring-display">0%</span></label>
+        <div class="vc-slider-wrap"><input type="range" id="input-recurring" min="0" max="100" value="0" step="5"></div>
+        <div class="vc-helper">Contracts, retainers, subscriptions.</div>
+      </div>
+    </div>
+
+    <div class="vc-row" style="grid-template-columns:1fr;">
+      <div class="vc-field">
+        <label for="input-concentration">Top Customer (% of revenue): <span class="vc-slider-value" id="concentration-display">20%</span></label>
+        <div class="vc-slider-wrap"><input type="range" id="input-concentration" min="0" max="100" value="20" step="5"></div>
+        <div class="vc-helper">If diversified, leave at default.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vc-output" id="output-container">
+
+    <div class="vc-tier" id="output-tier"></div>
+
+    <!-- WATERFALL -->
+    <div class="vc-wf">
+      <div class="vc-wf-label">Projected Enterprise Value</div>
+      <div class="vc-wf-sub">How positioning compounds the same earnings into a higher number.</div>
+      <div class="vc-wf-chart">
+        <div class="vc-wf-baseline" id="wf-baseline"><span>Today</span></div>
+        <div class="vc-wf-col">
+          <div class="vc-wf-val" id="wf-val-today">—</div>
+          <div class="vc-wf-track"><div class="vc-wf-fill" id="wf-bar-today"></div></div>
+          <div class="vc-wf-stage">Today</div>
+          <div class="vc-wf-time">As buyers see it now</div>
+        </div>
+        <div class="vc-wf-col">
+          <div class="vc-wf-val" id="wf-val-optimized">—</div>
+          <div class="vc-wf-track"><div class="vc-wf-fill" id="wf-bar-optimized"></div></div>
+          <div class="vc-wf-stage">Optimized</div>
+          <div class="vc-wf-time">6–12 months</div>
+        </div>
+        <div class="vc-wf-col">
+          <div class="vc-wf-val" id="wf-val-premarket">—</div>
+          <div class="vc-wf-track"><div class="vc-wf-fill" id="wf-bar-premarket"></div></div>
+          <div class="vc-wf-stage">Pre-Market</div>
+          <div class="vc-wf-time">90–180 days</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vc-uplift" id="output-uplift-percent"></div>
+
+    <div class="vc-scenarios">
+      <div class="vc-scenario today">
+        <div class="vc-scenario-label">Today — As Buyers See It Now</div>
+        <div class="vc-scenario-title">If You Went to Market This Week</div>
+        <div class="vc-scenario-value"><span id="output-today-low">$0</span> – <span id="output-today-high">$0</span></div>
+        <div class="vc-scenario-multiple" id="output-today-multiple"></div>
+        <div class="vc-scenario-narrative" id="output-narrative-today"></div>
+      </div>
+      <div class="vc-scenario optimized">
+        <div class="vc-scenario-label">Optimized — 6 to 12 Months of Work</div>
+        <div class="vc-scenario-title">After Targeted Positioning</div>
+        <div class="vc-scenario-value"><span id="output-optimized-low">$0</span> – <span id="output-optimized-high">$0</span></div>
+        <div class="vc-scenario-multiple" id="output-optimized-multiple"></div>
+        <div class="vc-scenario-narrative" id="output-narrative-optimized"></div>
+      </div>
+      <div class="vc-scenario premarket">
+        <div class="vc-scenario-label">Pre-Market — 90 to 180 Days of Preparation</div>
+        <div class="vc-scenario-title">What Professional Sellers Achieve</div>
+        <div class="vc-scenario-value"><span id="output-premarket-low">$0</span> – <span id="output-premarket-high">$0</span></div>
+        <div class="vc-scenario-multiple" id="output-premarket-multiple"></div>
+        <div class="vc-scenario-narrative" id="output-narrative-premarket"></div>
+      </div>
+    </div>
+
+    <div class="vc-capture" id="capture-email-analysis">
+      <div class="vc-capture-label">Save This Analysis</div>
+      <div class="vc-capture-headline">Email me this valuation analysis.</div>
+      <div class="vc-capture-body">Get this three-scenario read in your inbox to reference later — plus a short series on how 25-year buy-side veterans actually read businesses for sale.</div>
+      <button type="button" class="vc-capture-trigger" data-target="form-email-analysis">Email Me This Analysis →</button>
+      <form class="vc-capture-form" id="form-email-analysis" data-kit-form="9439102" data-source="email-analysis">
+        <input type="email" name="email_address" placeholder="your@email.com" required>
+        <button type="submit">Send It</button>
+      </form>
+      <div class="vc-capture-success" id="success-email-analysis">Check your inbox — confirmation email on the way.</div>
+      <div class="vc-capture-error" id="error-email-analysis"></div>
+    </div>
+
+    <div class="vc-gaps">
+      <div class="vc-gaps-label">What This Calculator Doesn't Tell You</div>
+      <ul class="vc-gaps-list">
+        <li><strong>Who will actually buy this business</strong> — SBA-financed individuals, search funds, PE platforms, strategic acquirers all price differently. The calculator doesn't show buyer pool sizing or what each type would pay.</li>
+        <li><strong>What buyers will find in diligence</strong> — the issues that surface in the first 30 days and either kill the deal or compress price. The calculator doesn't see your books, your contracts, your key employees, or your operational risks.</li>
+        <li><strong>The diligence pressure map</strong> — where scrutiny will focus first, ranked by severity. Without this, you walk into the process blind.</li>
+        <li><strong>Your specific pre-market action plan</strong> — the calculator shows that positioning lifts value. It doesn't tell you which 3-5 specific actions move the multiple most for your business, in what order, on what timeline.</li>
+        <li><strong>How the deal will get structured</strong> — earnout vs cash at close, seller note, working capital peg, retention agreements, escrow. These determine how much of the headline number you actually receive.</li>
+      </ul>
+    </div>
+
+    <div class="vc-capture" id="capture-excel-download">
+      <div class="vc-capture-label">Stress-Test Your Numbers</div>
+      <div class="vc-capture-headline">Download the full Buyer-Lens Valuation Model.</div>
+      <div class="vc-capture-body">An 8-sheet Excel model that lets you stress-test valuation across 4 buyer types, project forward 5 years, build sensitivity tables, and reverse-solve for any target exit value. Same logic as this calculator — but yours to model offline.</div>
+      <button type="button" class="vc-capture-trigger" data-target="form-excel-download">Download the Excel Model →</button>
+      <form class="vc-capture-form" id="form-excel-download" data-kit-form="9439102" data-source="excel-download">
+        <input type="email" name="email_address" placeholder="your@email.com" required>
+        <button type="submit">Send the Model</button>
+      </form>
+      <div class="vc-capture-success" id="success-excel-download">Check your inbox — confirm your email and the Excel model will download.</div>
+      <div class="vc-capture-error" id="error-excel-download"></div>
+    </div>
+
+    <div class="vc-thesis">
+      Most business owners ask the wrong question. They ask <em>"what is my business worth?"</em> The right question is <strong>"what will a buyer pay for what they see?"</strong> The difference between those two numbers is rarely small — and it's the entire reason professional sellers prepare before going to market.
+    </div>
+
+    <div class="vc-cta-wrap">
+      <a href="/exit/score" class="vc-cta vc-cta-primary">Find What a Buyer Will See — Free Diagnostic</a>
+      <a href="/exit/checkout" class="vc-cta vc-cta-secondary">Get the Full Buyer-Lens Audit</a>
+    </div>
+
+    <div class="vc-trust">
+      Built by Mike Ye after 25 years on the buy side. Rolling Stone, Billboard, Express, Surgical Care Affiliates. 75+ transactions, $500K to $2B+.
+    </div>
+
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Slider value displays
+    var rec = document.getElementById('input-recurring'), recD = document.getElementById('recurring-display');
+    if (rec && recD) rec.addEventListener('input', function(){ recD.textContent = this.value + '%'; });
+    var con = document.getElementById('input-concentration'), conD = document.getElementById('concentration-display');
+    if (con && conD) con.addEventListener('input', function(){ conD.textContent = this.value + '%'; });
+
+    // Email capture reveal + Kit submit
+    document.querySelectorAll('.vc-capture-trigger').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var f = document.getElementById(btn.getAttribute('data-target'));
+        if (f){ btn.style.display='none'; f.classList.add('active'); var i=f.querySelector('input[type=email]'); if(i) setTimeout(function(){i.focus();},100); }
+      });
+    });
+    document.querySelectorAll('.vc-capture-form').forEach(function(form){
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        var src=form.getAttribute('data-source'), fid=form.getAttribute('data-kit-form');
+        var inp=form.querySelector('input[type=email]'), email=inp.value.trim();
+        var btn=form.querySelector('button[type=submit]');
+        var ok=document.getElementById('success-'+src), err=document.getElementById('error-'+src);
+        if(!email || email.indexOf('@')===-1){ if(err){err.textContent='Please enter a valid email address.';err.classList.add('active');} return; }
+        btn.disabled=true; btn.textContent='Sending...'; if(err) err.classList.remove('active');
+        var fd=new FormData(); fd.append('email_address',email);
+        fetch('https://app.kit.com/forms/'+fid+'/subscriptions',{method:'POST',body:fd,mode:'no-cors'})
+          .then(function(){ form.style.display='none'; if(ok) ok.classList.add('active');
+            if(typeof gtag==='function') gtag('event','email_capture',{source:src,form_id:fid}); })
+          .catch(function(){ btn.disabled=false; btn.textContent=src==='excel-download'?'Send the Model':'Send It';
+            if(err){err.textContent='Something went wrong. Please try again or email mike@mikeye.com directly.';err.classList.add('active');} });
+      });
+    });
+
+    // WATERFALL — reads the values the external script writes, animates bars
+    var container = document.getElementById('output-container');
+    function parseCur(t){ if(!t) return 0; var s=(''+t).replace(/[$,\s]/g,''); var m=1;
+      if(/m$/i.test(s)){m=1e6;s=s.slice(0,-1);} else if(/k$/i.test(s)){m=1e3;s=s.slice(0,-1);}
+      var n=parseFloat(s); return isNaN(n)?0:n*m; }
+    function fmt(n){ if(n>=1e6) return '$'+(n/1e6).toFixed(1)+'M'; return '$'+Math.round(n/1000)+'K'; }
+    function txt(id){ var el=document.getElementById(id); return el?el.textContent:''; }
+    function midOf(lo,hi){ return (parseCur(txt(lo))+parseCur(txt(hi)))/2; }
+    function setBar(id,mid,max){ var el=document.getElementById(id); if(el) el.style.height=(max>0?(mid/max*100):0)+'%'; }
+    function setVal(id,mid){ var el=document.getElementById(id); if(el){ el.textContent=mid>0?fmt(mid):'—'; el.style.opacity=mid>0?'1':'0'; } }
+    function draw(){
+      if(!container || container.style.display==='none' || container.style.display==='') return;
+      var t=midOf('output-today-low','output-today-high');
+      var o=midOf('output-optimized-low','output-optimized-high');
+      var p=midOf('output-premarket-low','output-premarket-high');
+      if(p<=0) return;
+      var max=Math.max(t,o,p)||1;
+      setBar('wf-bar-today',t,max); setBar('wf-bar-optimized',o,max); setBar('wf-bar-premarket',p,max);
+      setVal('wf-val-today',t); setVal('wf-val-optimized',o); setVal('wf-val-premarket',p);
+      var line=document.getElementById('wf-baseline');
+      if(line){ line.style.bottom='calc(44px + '+((t/max)*185)+'px)'; line.style.opacity=t>0?'1':'0'; }
+    }
+    var raf;
+    var obs=new MutationObserver(function(){ if(raf) cancelAnimationFrame(raf); raf=requestAnimationFrame(draw); });
+    if(container){
+      obs.observe(container,{attributes:true,attributeFilter:['style']});
+      obs.observe(container,{childList:true,subtree:true,characterData:true});
+    }
+  });
+</script>
+
+<script src="https://my-exitdesk.vercel.app/exit-valuation-content.js" defer></script>
+<!-- =============================================== -->
+<!-- END /exit/valuation Body Embed v2.0            -->
+<!-- =============================================== -->
+
+<!-- Stalled Exit v0: attribution only; existing diagnostic and pricing remain authoritative. -->
+<script src="https://my-exitdesk.vercel.app/exit-campaign.js"></script>
