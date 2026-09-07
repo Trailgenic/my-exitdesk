@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 export const maxDuration = 300;
 
 interface DeliveryRouteContext {
-  params: { orderId: string };
+  params: Promise<{ orderId: string }>;
 }
 
 export async function POST(request: Request, context: DeliveryRouteContext) {
@@ -44,7 +44,8 @@ export async function POST(request: Request, context: DeliveryRouteContext) {
       },
     );
   }
-  return handleAcquisitionDeliveryRequest(request, context.params.orderId, {
+  const { orderId } = await context.params;
+  return handleAcquisitionDeliveryRequest(request, orderId, {
     apiSecret: process.env.ACQUISITION_API_SECRET,
     deliveryService: production.deliveryService,
     rateLimiter: production.rateLimiter,

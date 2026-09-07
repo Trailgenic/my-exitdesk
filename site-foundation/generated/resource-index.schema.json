@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Selected published Mike Ye M&A resources",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "WebPage",
+        "@id": "https://www.mikeye.com/exit/valuation",
+        "url": "https://www.mikeye.com/exit/valuation",
+        "name": "Business valuation scenarios",
+        "description": "Explore the existing Exit Desk calculator and its indicative positioning scenarios."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/intelligence",
+        "url": "https://www.mikeye.com/intelligence",
+        "name": "The five decision frames",
+        "description": "Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/exit/articles/buzzangle-case-study",
+        "url": "https://www.mikeye.com/exit/articles/buzzangle-case-study",
+        "name": "BuzzAngle Music",
+        "description": "A strategic investment in music data, viewed through competitive position and capability."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study",
+        "url": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study",
+        "name": "Sourcing Journal",
+        "description": "Founder clarity, partner alignment, and the timing of a capability acquisition."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study",
+        "url": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study",
+        "name": "Long Beach Outpatient Surgery",
+        "description": "A controlling investment and the operating work behind a multi-specialty expansion."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
+        "url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
+        "name": "Exit readiness checklist",
+        "description": "An existing seller-preparation checklist, organized around what buyers will examine."
+      }
+    }
+  ]
+}

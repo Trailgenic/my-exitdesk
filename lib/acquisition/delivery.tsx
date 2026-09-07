@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 
-import { renderAsync } from "@react-email/render";
+import { render } from "@react-email/render";
 import React from "react";
 
 import { AcquisitionLensReportEmail } from "@/emails/AcquisitionLensReport";
@@ -183,8 +183,8 @@ export class AcquisitionDeliveryService {
         );
         const [pdf, html, text] = await Promise.all([
           generateAcquisitionLensPDF(report),
-          renderAsync(email),
-          renderAsync(email, { plainText: true }),
+          render(email),
+          render(email, { plainText: true }),
         ]);
         const providerIdempotencyKey = `acquisition-report/${createHash("sha256")
           .update(input.idempotencyKey)

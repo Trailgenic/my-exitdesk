@@ -6,7 +6,7 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 interface OrderRouteContext {
-  params: { orderId: string };
+  params: Promise<{ orderId: string }>;
 }
 
 export async function GET(request: Request, context: OrderRouteContext) {
@@ -64,7 +64,8 @@ async function handle(request: Request, context: OrderRouteContext) {
       },
     );
   }
-  return handleAcquisitionOrderRequest(request, context.params.orderId, {
+  const { orderId } = await context.params;
+  return handleAcquisitionOrderRequest(request, orderId, {
     apiSecret: process.env.ACQUISITION_API_SECRET,
     commerceStore: production.commerceStore,
   });

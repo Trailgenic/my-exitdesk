@@ -1,0 +1,11 @@
+# Mike Ye — Selected M&A Resources
+
+> Staged supplemental resource inventory. Not a replacement for the deployed llms.txt or full MCP registry.
+> Entries refer to existing published resources; planned topics and unlaunched products are excluded.
+
+- [Business valuation scenarios](https://www.mikeye.com/exit/valuation): Explore the existing Exit Desk calculator and its indicative positioning scenarios.
+- [The five decision frames](https://www.mikeye.com/intelligence): Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions.
+- [BuzzAngle Music](https://www.mikeye.com/exit/articles/buzzangle-case-study): A strategic investment in music data, viewed through competitive position and capability.
+- [Sourcing Journal](https://www.mikeye.com/exit/articles/sourcing-journal-case-study): Founder clarity, partner alignment, and the timing of a capability acquisition.
+- [Long Beach Outpatient Surgery](https://www.mikeye.com/exit/articles/long-beach-surgical-case-study): A controlling investment and the operating work behind a multi-specialty expansion.
+- [Exit readiness checklist](https://www.mikeye.com/exit/articles/exit-readiness-checklist): An existing seller-preparation checklist, organized around what buyers will examine.
