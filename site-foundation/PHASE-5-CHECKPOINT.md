@@ -30,3 +30,9 @@ The Ziff Davis guide specifically carries the Connectivity disposal/continuing-o
 ## When Claude delivers
 
 Follow `editorial/MODEL-HANDOFF.md`, reconcile the guide to the actual delivered workbook, verify the exported file and redistribution posture, and update the existing record and immutable download metadata together. Do not mark a workbook reviewed or available just because a file has arrived.
+
+## NVIDIA extension — 2026-09-07
+
+Mike requested a fifth company model placeholder, NVIDIA (NVDA), with the workbook to be requested from Claude after the original four. Added a practical semiconductor/AI infrastructure starting guide covering demand, product transitions, supply commitments, cash conversion, investment adjustments and price discipline. Its company references link to NVIDIA annual and financial reports inspected on 2026-09-07; no financial figures or valuation outputs were imported.
+
+The existing hub now has five native model cards. The new CMS body and source notes match the authored version, its download/review/canonical fields remain empty, and it is draft and excluded from the sitemap. Current inventory is thirteen Resource records. NVIDIA and eight other records are draft; the four preexisting model records returned isDraft=false on the latest read and were not changed in this turn. This flag alone is not evidence of live publication. The tools hub remains draft. Existing pages and the other four guide bodies are preserved. Local foundation/library checks pass for five placeholders; public inventory remains six existing publications.

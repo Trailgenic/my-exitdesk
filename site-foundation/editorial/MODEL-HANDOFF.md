@@ -1,6 +1,6 @@
 # Company model handoff
 
-Four starting guides are staged. The workbook build belongs to Claude. This checkpoint contains no company financials, valuation outputs, forecast assumptions, or workbook downloads for these four companies.
+Five starting guides are staged. The workbook build belongs to Claude. This checkpoint contains no company financials, valuation outputs, forecast assumptions, or workbook downloads for these five companies. Mike will request NVIDIA after Claude completes the original four.
 
 ## Stable mapping
 
@@ -10,8 +10,11 @@ Four starting guides are staged. The workbook build belongs to Claude. This chec
 | Salesforce | salesforce-valuation-model | /ma-resources/salesforce-software-valuation-model |
 | Ziff Davis | ziff-davis-valuation-model | /ma-resources/ziff-davis-media-valuation-model |
 | Surgery Partners | surgery-partners-valuation-model | /ma-resources/surgery-partners-healthcare-valuation-model |
+| NVIDIA | nvidia-valuation-model | /ma-resources/nvidia-ai-infrastructure-valuation-model |
 
 The hub route is `/tools-and-models`. Reuse the same CMS records and slugs when models arrive; do not create parallel pages. The existing resource template renders the starting guides now and can hold the completed methodology later.
+
+NVIDIA adds a semiconductor/AI infrastructure example alongside Salesforce's software example. Its model should address disclosed business mix, customer concentration, product transitions, supply commitments, inventory and prepayments, investment gains/assets, dilution, and a defensible fade from rapid growth. Do not invent separately disclosed software economics or present an acquisition-return illustration as a feasible takeover of NVIDIA. Apply the same source, methodology, and verification requirements below.
 
 ## Requested delivery from Claude
 

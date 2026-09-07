@@ -55,10 +55,10 @@ for (const book of handbooks) {
 }
 console.log("Library checks passed: approved headline, six original publication links, semantic structure, anchors, draft boundaries, and truthful availability.");
 console.log("Editorial checks passed: deal/masthead distinction, documented judgment references, two complete draft guides, and exclusion from public resource inventories.");
-assert.equal(models.length, 4);
-assert.equal(new Set(models.map(m => m.id)).size, 4);
+assert.equal(models.length, 5);
+assert.equal(new Set(models.map(m => m.id)).size, 5);
 const tools = toolsHub();
-assert.equal((tools.match(/class="my5-model-card"/g) || []).length, 4);
+assert.equal((tools.match(/class="my5-model-card"/g) || []).length, 5);
 assert.equal((tools.match(/class="my5-method"/g) || []).length, 5);
 assert.match(html, /href="#tools-and-models">Tools &amp; Models/);
 for (const model of models) {
@@ -80,4 +80,4 @@ for (const model of models) {
     assert.ok(!read(name).includes(model.slug) && !read(name).includes(model.name), "Pending model leaked into published inventory");
   }
 }
-console.log("Model checks passed: four coming-soon guides, no invented downloads or review dates, source principles, working navigation, and public-index exclusion.");
+console.log("Model checks passed: five coming-soon guides, no invented downloads or review dates, source principles, working navigation, and public-index exclusion.");

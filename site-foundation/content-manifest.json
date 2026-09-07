@@ -1,8 +1,8 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.1",
   "updated": "2026-09-07",
   "canonicalOrigin": "https://www.mikeye.com",
-  "phase": "tools-and-models-placeholders",
+  "phase": "nvidia-model-placeholder",
   "positioning": {
     "headline": "The Deal Is Only the Beginning.",
     "supportingStatement": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
@@ -392,6 +392,39 @@
         "integration-continuity"
       ],
       "webflowItemId": "6a9f3af084946e9b265e5826"
+    },
+    {
+      "id": "nvidia-valuation-model",
+      "name": "NVIDIA: valuing an AI infrastructure business",
+      "summary": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce.",
+      "decision": "What must remain true about demand, margins, and cash conversion for the valuation to hold?",
+      "sourcePrinciples": [
+        "replicate-the-financials",
+        "unknowns-are-findings",
+        "survive-the-downside",
+        "ceiling-and-patience"
+      ],
+      "format": "Model",
+      "topic": "valuation",
+      "company": "NVIDIA",
+      "ticker": "NASDAQ: NVDA",
+      "industry": "Semiconductors & AI infrastructure",
+      "status": "draft",
+      "version": "0.1-draft",
+      "workbookStatus": "awaiting-delivery",
+      "download": null,
+      "valuationDate": null,
+      "contentReviewedAt": null,
+      "publicationDate": null,
+      "cmsStatus": "draft-content",
+      "url": null,
+      "proposedPath": "/ma-resources/nvidia-ai-infrastructure-valuation-model",
+      "sourceFile": "editorial/company-models.json",
+      "relatedResources": [
+        "workflow-diligence",
+        "integration-continuity"
+      ],
+      "webflowItemId": "6a9f3f2c598f07756d56ea73"
     }
   ],
   "products": [

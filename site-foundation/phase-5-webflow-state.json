@@ -61,6 +61,16 @@
       "reviewedDate": null,
       "slug": "surgery-partners-healthcare-valuation-model",
       "sourcesMatch": true
+    },
+    {
+      "id": "6a9f3f2c598f07756d56ea73",
+      "slug": "nvidia-ai-infrastructure-valuation-model",
+      "bodyMatches": true,
+      "sourcesMatch": true,
+      "isDraft": true,
+      "downloadUrl": null,
+      "canonicalUrl": null,
+      "reviewedDate": null
     }
   ],
   "verification": {
@@ -71,5 +81,16 @@
     "publicInventoryCount": 6,
     "browserVisualQA": false
   },
-  "publicationPerformed": false
+  "publicationPerformed": false,
+  "nvidiaExtension": {
+    "requestedBy": "Mike in rebuild conversation",
+    "cardElementId": "b1efd067-700c-848b-658e-2a5e81185a3a",
+    "includeInSitemap": false,
+    "modelCardCount": 5,
+    "resourceDraftCount": 9,
+    "workbookOwner": "Claude; to be requested after the original four",
+    "resourceCount": 13,
+    "preexistingModelIsDraftAtRead": false,
+    "preexistingModelStateModified": false
+  }
 }

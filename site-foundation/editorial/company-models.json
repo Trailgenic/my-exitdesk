@@ -78,5 +78,25 @@
     "judgment": "Protect the work that produces revenue while evaluating cost changes. Test lower volumes or reimbursement alongside cost pressure, including the cash needed for debt and essential investment.",
     "sourcePrinciples": ["protect-revenue-integrate-cost", "replicate-the-financials", "survive-the-downside"],
     "sources": [{"title": "Surgery Partners financial reports", "url": "https://ir.surgerypartners.com/financial-information/annual-reports"}, {"title": "Surgery Partners company disclosures", "url": "https://ir.surgerypartners.com/"}]
+  },
+  {
+    "id": "nvidia-valuation-model",
+    "slug": "nvidia-ai-infrastructure-valuation-model",
+    "name": "NVIDIA: valuing an AI infrastructure business",
+    "company": "NVIDIA",
+    "ticker": "NASDAQ: NVDA",
+    "industry": "Semiconductors & AI infrastructure",
+    "summary": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce.",
+    "decision": "What must remain true about demand, margins, and cash conversion for the valuation to hold?",
+    "firstTask": "Choose one disclosed business or revenue category. Write down who pays, what they receive, and what has to happen before the company can recognise revenue and collect cash. Keep customer spending plans separate from revenue already earned.",
+    "drivers": [
+      {"name": "Demand that becomes revenue", "question": "How much growth depends on customers continuing to expand, finance, and bring computing capacity into service?", "evidence": "Disclosed revenue categories, customer concentration, receivables, and management commentary on demand and deployment timing.", "consequence": "Test slower customer spending and delayed deployments. Do not convert a broad AI spending forecast directly into company revenue."},
+      {"name": "Margins through a product transition", "question": "What changes as new chips, systems, and networking products replace the current mix?", "evidence": "Gross-margin bridges, product-transition disclosures, inventory provisions, and disclosed supply or market-access constraints.", "consequence": "Separate a temporary transition cost from a lasting change in economics. Test both lower revenue and lower margins rather than extending a strong quarter indefinitely."},
+      {"name": "Cash committed before the sale", "question": "What cash or commitments are needed to secure supply and support growth, and how much remains if demand slows?", "evidence": "Inventory, supplier prepayments, purchase commitments, receivables, capital spending, and the cash-flow statement.", "consequence": "A business can depend on external manufacturing and still carry substantial inventory and supply risk. Include those obligations in the downside."}
+    ],
+    "watchout": "Separate operating profit from gains or losses on investments. Reconcile investments and other non-operating assets in the enterprise-to-equity bridge without counting them twice. Do not invent standalone software revenue or profit to justify a software multiple; use the economics actually disclosed. A DCF needs a defensible path from rapid growth to a sustainable long-term business.",
+    "judgment": "Scarcity can justify deeper investigation, but it does not remove the price ceiling. Write down the evidence supporting the growth case, what would weaken it, and whether the business can withstand the downside. Keep conviction in the capability separate from willingness to pay any price.",
+    "sourcePrinciples": ["replicate-the-financials", "unknowns-are-findings", "survive-the-downside", "ceiling-and-patience"],
+    "sources": [{"title": "NVIDIA annual reports and proxies", "url": "https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx"}, {"title": "NVIDIA financial reports", "url": "https://investor.nvidia.com/financial-info/financial-reports/default.aspx"}]
   }
 ]
