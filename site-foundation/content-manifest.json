@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "updated": "2026-09-07",
   "canonicalOrigin": "https://www.mikeye.com",
-  "phase": "library-draft",
+  "phase": "practical-handbook-drafts",
   "positioning": {
     "headline": "The Deal Is Only the Beginning.",
     "supportingStatement": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
@@ -177,6 +177,62 @@
       "cmsStatus": "draft-index",
       "publicationDate": null,
       "contentReviewedAt": null
+    },
+    {
+      "id": "workflow-diligence",
+      "name": "Before You Buy: Follow the Work",
+      "format": "Handbook",
+      "topic": "due-diligence",
+      "summary": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy.",
+      "decision": "Can the business keep producing its results when the owner changes?",
+      "status": "draft",
+      "version": "0.1-draft",
+      "contentReviewedAt": null,
+      "publicationDate": null,
+      "cmsStatus": "draft-content",
+      "url": null,
+      "proposedPath": "/ma-resources/before-you-buy-follow-the-work",
+      "sourceFile": "editorial/workflow-diligence.json",
+      "sourcePrinciples": [
+        "frame-before-detail",
+        "replicate-the-financials",
+        "transferability",
+        "control-and-alignment",
+        "unknowns-are-findings",
+        "survive-the-downside",
+        "buyer-keeps-synergy",
+        "ceiling-and-patience",
+        "trust-is-earned-in-diligence",
+        "decision-not-description"
+      ],
+      "webflowItemId": "6a9f2af7de5d336681b4b4ce"
+    },
+    {
+      "id": "integration-continuity",
+      "name": "After the Deal: Keep the Business Working",
+      "format": "Handbook",
+      "topic": "integration",
+      "summary": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings.",
+      "decision": "What must keep working, what should change, and who is responsible for the handover?",
+      "status": "draft",
+      "version": "0.1-draft",
+      "contentReviewedAt": null,
+      "publicationDate": null,
+      "cmsStatus": "draft-content",
+      "url": null,
+      "proposedPath": "/ma-resources/after-the-deal-keep-the-business-working",
+      "sourceFile": "editorial/integration-continuity.json",
+      "sourcePrinciples": [
+        "protect-revenue-integrate-cost",
+        "transferability",
+        "replicate-the-financials",
+        "buyer-keeps-synergy",
+        "use-contingency-for-alignment",
+        "survive-the-downside",
+        "unknowns-are-findings",
+        "decision-not-description"
+      ],
+      "webflowItemId": "6a9f2af7de5d336681b4b4d0"
     }
   ],
   "products": [
@@ -1402,5 +1458,16 @@
   "rights": {
     "public": "Only approved, published educational material may enter public indexes.",
     "private": "Never place confidential workflow graphs, cases, licensed data, customer records, or evaluation sets in public CMS fields."
+  },
+  "careerEvidence": {
+    "selectedDeals": {
+      "url": "https://www.mikeye.com/about",
+      "label": "View Mike’s deal list"
+    },
+    "pmcMastheads": {
+      "url": "https://www.mikeye.com/about/record",
+      "label": "PMC masthead records",
+      "supports": "Title and tenure at Penske Media Corporation"
+    }
   }
 }

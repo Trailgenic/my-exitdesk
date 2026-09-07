@@ -1,0 +1,63 @@
+{
+  "verifiedOn": "2026-09-07",
+  "siteId": "69499e76d9c11f22288abc28",
+  "homepage": {
+    "pageId": "6a9f1608e824c600831d2eaf",
+    "isDraft": true,
+    "dealLink": {
+      "elementId": "2838016c-113e-9d3f-7cfb-994fd0fcd4a8",
+      "label": "View Mike’s deal list →",
+      "url": "https://www.mikeye.com/about"
+    },
+    "careerEvidenceElementId": "8fe5b861-79ec-3752-071e-bfc6ac9e984c",
+    "mastheadLabel": "PMC masthead records",
+    "mastheadSupports": "PMC title and tenure"
+  },
+  "library": {
+    "pageId": "6a9f20d0a616017e7bdf9a95",
+    "isDraft": true,
+    "draftGuideSectionId": "f8ad8af8-f68a-0193-d98b-60f29fc5a52b",
+    "existingPublishedResourceLinks": 6
+  },
+  "resources": [
+    {
+      "id": "6a9f2af7de5d336681b4b4d0",
+      "slug": "after-the-deal-keep-the-business-working",
+      "isDraft": true,
+      "canonicalURL": null,
+      "reviewedDate": null,
+      "version": "0.1-draft",
+      "bodyMatchesSource": true,
+      "sourceNotesMatch": true
+    },
+    {
+      "id": "6a9f2af7de5d336681b4b4ce",
+      "slug": "before-you-buy-follow-the-work",
+      "isDraft": true,
+      "canonicalURL": null,
+      "reviewedDate": null,
+      "version": "0.1-draft",
+      "bodyMatchesSource": true,
+      "sourceNotesMatch": true
+    }
+  ],
+  "template": {
+    "pageId": "6a9f1684bfb97f3c671ae859",
+    "robots": "noindex,nofollow",
+    "bodyCMSBindingVerified": true,
+    "sourceNotesCMSBindingVerified": true,
+    "emptyCanonicalButtonHidden": true,
+    "existingOriginalPublicationLinksRemainInSourceNotes": true
+  },
+  "publication": {
+    "webflowPublished": false,
+    "productionMerged": false,
+    "publicResourceInventoryIncludesDrafts": false
+  },
+  "limitations": [
+    "Mike editorial review remains before handbook publication.",
+    "Raw Q&A interview was not located; saved acquisition doctrine governs these adaptations.",
+    "No rendered/browser visual QA was performed.",
+    "Native brand-font installation remains a release gate. Catalogue insertion succeeded with an unavailable Courier New font warning; no blocked font operation was retried."
+  ]
+}
