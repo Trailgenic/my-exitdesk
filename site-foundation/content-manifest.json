@@ -1,11 +1,19 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updated": "2026-09-07",
   "canonicalOrigin": "https://www.mikeye.com",
-  "phase": "foundation-draft",
+  "phase": "library-draft",
+  "positioning": {
+    "headline": "The Deal Is Only the Beginning.",
+    "supportingStatement": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
+    "approval": "Approved by Mike in the rebuild conversation"
+  },
   "webflow": {
     "siteId": "69499e76d9c11f22288abc28",
     "draftPageId": "6a9f1608e824c600831d2eaf",
+    "libraryDraftPageId": "6a9f20d0a616017e7bdf9a95",
+    "resourceTemplatePageId": "6a9f1684bfb97f3c671ae859",
+    "topicTemplatePageId": "6a9f168391744e4c67910a0f",
     "topicsCollectionId": "6a9f168391744e4c67910a09",
     "resourcesCollectionId": "6a9f1683bfb97f3c671ae853"
   },
