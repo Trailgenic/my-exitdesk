@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { createHash } from "node:crypto";
 import { handbooks } from "./handbook-content.mjs";
 const read = (path) => readFileSync(resolve("site-foundation", path), "utf8");
 const home = read("generated/MikeYe-Phase1-Preview.html");
@@ -37,6 +38,16 @@ for (const book of handbooks) {
   assert.equal(entry.status, "draft");
   assert.equal(entry.contentReviewedAt, null);
   assert.equal(entry.url, null);
+  if (book.download) {
+    const download = book.download;
+    assert.equal(download.downloadVerified, true);
+    assert.match(download.url, /^https:\/\/raw\.githubusercontent\.com\/Trailgenic\/my-exitdesk\/[a-f0-9]{40}\/public\/resources\/.+\.xlsx$/);
+    assert.ok(html.includes('href="' + download.url + '"'), "Missing workbook download link");
+    const bytes = readFileSync(resolve(download.repositoryPath));
+    assert.equal(bytes.length, download.bytes);
+    assert.equal(createHash("sha256").update(bytes).digest("hex"), download.sha256, "Workbook changed without a version update");
+    assert.ok(html.includes("Put the guide to work"));
+  }
   for (const name of ["generated/resource-index.json", "generated/resource-index.schema.json", "generated/llms-resources.txt"]) {
     assert.ok(!read(name).includes(book.slug) && !read(name).includes(book.name), "Unpublished handbook leaked into public inventory");
   }

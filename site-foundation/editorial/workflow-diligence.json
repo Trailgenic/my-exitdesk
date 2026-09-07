@@ -4,7 +4,7 @@
   "name": "Before You Buy: Follow the Work",
   "format": "Handbook",
   "topic": "due-diligence",
-  "version": "0.1-draft",
+  "version": "0.2-draft",
   "status": "draft",
   "contentReviewedAt": null,
   "publicationDate": null,
@@ -26,6 +26,10 @@
     {
       "heading": "Start here: follow one real sale",
       "html": "<p>You do not need to map the whole company on the first day. Pick one important product or service. Ask the team to walk through a recent customer sale, from the first promise to the money arriving in the bank. Then ask for a second example where something went wrong.</p><p>A workflow is simply how work gets done: who starts it, what they need, which decisions they make, and who receives the result. Watching the work helps you see what a polished presentation leaves out.</p><p><strong>Leave this first conversation with:</strong> a short map of the work, the people and systems it depends on, and the questions that still need evidence. This is a starting point for diligence, not a substitute for the wider financial, commercial, legal, tax, people and technology review.</p>"
+    },
+    {
+      "heading": "Put the guide to work",
+      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx\">Download the editable Excel working pack</a> · XLSX · Draft 0.1</p><p>Open Start Here, then use Diligence Checklist, Follow One Sale and Issue Log. The workbook includes plain-language prompts, status dropdowns and blank working areas. Twenty rows are provided in each working tracker; copy the pack for another workstream.</p><p>The worked example is fictional and stays on the instruction tab. Your entries stay in your copy of the workbook; no macros or external workbook links are included.</p>"
     },
     {
       "heading": "1. Say what you think you are buying",
@@ -60,5 +64,20 @@
       "html": "<p>Use one note per important finding. Keep the answers short enough to discuss in a working meeting.</p><ul><li><strong>Work being tested:</strong> ___</li><li><strong>What management says happens:</strong> ___</li><li><strong>What the records and walkthrough show:</strong> ___</li><li><strong>What is still unknown:</strong> ___</li><li><strong>Effect on customers, cash, price or handover:</strong> ___</li><li><strong>Action — investigate, price, protect or walk:</strong> ___</li><li><strong>Owner and due date:</strong> ___</li><li><strong>Evidence needed to close the issue:</strong> ___</li><li><strong>Integration handoff and receiving owner:</strong> ___</li></ul><p><strong>You are ready for the next decision when</strong> the material findings have evidence, an owner and an agreed consequence. The remaining unknowns should be visible to the person approving the next commitment.</p>"
     }
   ],
-  "sourceNotes": "<p>Draft 0.1 · Prepared for Mike Ye’s editorial review. Adapted from Mike’s documented acquisition principles. The working notes, suggested cadence and illustrative examples are new editorial applications, not interview quotations.</p><p>Related reading: <a href=\"https://www.mikeye.com/intelligence\">Mike’s decision frameworks</a>. Mike’s selected transactions appear on <a href=\"https://www.mikeye.com/about\">About Mike</a>; <a href=\"https://www.mikeye.com/about/record\">PMC mastheads</a> document his title and tenure.</p>"
+  "sourceNotes": "<p>Draft 0.2 · Prepared for Mike Ye’s editorial review. Adapted from Mike’s documented acquisition principles. The working notes, suggested cadence and illustrative examples are new editorial applications, not interview quotations.</p><p>Related reading: <a href=\"https://www.mikeye.com/intelligence\">Mike’s decision frameworks</a>. Mike’s selected transactions appear on <a href=\"https://www.mikeye.com/about\">About Mike</a>; <a href=\"https://www.mikeye.com/about/record\">PMC mastheads</a> document his title and tenure.</p>",
+  "download": {
+    "filename": "MikeYe-Diligence-Working-Pack.xlsx",
+    "repositoryPath": "public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+    "sha256": "3750261d781aee91aa7125ab512cd4308fe434be0ef95d22fe3645651927dfbc",
+    "bytes": 15187,
+    "sheets": [
+      "Start Here",
+      "Diligence Checklist",
+      "Follow One Sale",
+      "Issue Log"
+    ],
+    "version": "0.1-draft",
+    "downloadVerified": true
+  }
 }

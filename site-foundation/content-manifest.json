@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "updated": "2026-09-07",
   "canonicalOrigin": "https://www.mikeye.com",
-  "phase": "practical-handbook-drafts",
+  "phase": "working-pack-downloads",
   "positioning": {
     "headline": "The Deal Is Only the Beginning.",
     "supportingStatement": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
@@ -186,7 +186,7 @@
       "summary": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy.",
       "decision": "Can the business keep producing its results when the owner changes?",
       "status": "draft",
-      "version": "0.1-draft",
+      "version": "0.2-draft",
       "contentReviewedAt": null,
       "publicationDate": null,
       "cmsStatus": "draft-content",
@@ -205,7 +205,22 @@
         "trust-is-earned-in-diligence",
         "decision-not-description"
       ],
-      "webflowItemId": "6a9f2af7de5d336681b4b4ce"
+      "webflowItemId": "6a9f2af7de5d336681b4b4ce",
+      "download": {
+        "filename": "MikeYe-Diligence-Working-Pack.xlsx",
+        "repositoryPath": "public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+        "sha256": "3750261d781aee91aa7125ab512cd4308fe434be0ef95d22fe3645651927dfbc",
+        "bytes": 15187,
+        "sheets": [
+          "Start Here",
+          "Diligence Checklist",
+          "Follow One Sale",
+          "Issue Log"
+        ],
+        "version": "0.1-draft",
+        "downloadVerified": true
+      }
     },
     {
       "id": "integration-continuity",
@@ -215,7 +230,7 @@
       "summary": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings.",
       "decision": "What must keep working, what should change, and who is responsible for the handover?",
       "status": "draft",
-      "version": "0.1-draft",
+      "version": "0.2-draft",
       "contentReviewedAt": null,
       "publicationDate": null,
       "cmsStatus": "draft-content",
@@ -232,7 +247,22 @@
         "unknowns-are-findings",
         "decision-not-description"
       ],
-      "webflowItemId": "6a9f2af7de5d336681b4b4d0"
+      "webflowItemId": "6a9f2af7de5d336681b4b4d0",
+      "download": {
+        "filename": "MikeYe-Integration-Working-Pack.xlsx",
+        "repositoryPath": "public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+        "sha256": "26437d4e0830ffcda040523d103418f43393b9a79c31d83f1565dfb480d0b89c",
+        "bytes": 17836,
+        "sheets": [
+          "Start Here",
+          "Day 1",
+          "Change Tracker",
+          "Savings Tracker"
+        ],
+        "version": "0.1-draft",
+        "downloadVerified": true
+      }
     }
   ],
   "products": [

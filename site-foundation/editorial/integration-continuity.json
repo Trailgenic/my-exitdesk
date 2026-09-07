@@ -4,7 +4,7 @@
   "name": "After the Deal: Keep the Business Working",
   "format": "Handbook",
   "topic": "integration",
-  "version": "0.1-draft",
+  "version": "0.2-draft",
   "status": "draft",
   "contentReviewedAt": null,
   "publicationDate": null,
@@ -24,6 +24,10 @@
     {
       "heading": "Start here: choose the work you cannot interrupt",
       "html": "<p>Start with a customer promise, not an organisation chart. Choose a few activities that must keep working through the handover: taking an order, delivering the service, supporting the customer, sending the invoice and collecting payment.</p><p>For each activity, name the current owner, the person taking responsibility after close, and the people or systems that could interrupt it. A workflow is simply the sequence of work and decisions needed to produce that result.</p><p><strong>Your first useful output:</strong> a short list of what must continue, the changes being proposed, and the conditions each change must meet before it happens. Expand it as the team learns more.</p>"
+    },
+    {
+      "heading": "Put the guide to work",
+      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx\">Download the editable Excel working pack</a> · XLSX · Draft 0.1</p><p>Open Start Here, then use Day 1, Change Tracker and Savings Tracker. The workbook includes plain-language prompts, status dropdowns and blank working areas. Twenty rows are provided in each working tracker; copy the pack for another workstream.</p><p>The worked example is fictional and stays on the instruction tab. Your entries stay in your copy of the workbook; no macros or external workbook links are included.</p>"
     },
     {
       "heading": "1. Protect revenue while integrating cost",
@@ -62,5 +66,20 @@
       "html": "<p>This suggested cadence is a practical way to apply the principles. Review customer and revenue problems first, then cash, people and systems, then the planned improvements. Ask what changed since last week, what needs a decision, and who will act by when.</p><p>Mark work complete when it has been demonstrated, the receiving owner accepts it and the result can be checked. A green status box is not evidence. Keep unresolved decisions visible and carry them into the next meeting.</p><p><strong>A useful first-100-days plan</strong> is a sequence of these owned decisions and tested changes. It is not a requirement to force every customer, team and system onto the same timetable.</p>"
     }
   ],
-  "sourceNotes": "<p>Draft 0.1 · Prepared for Mike Ye’s editorial review. Adapted from Mike’s documented acquisition principles. The working notes, suggested cadence and illustrative examples are new editorial applications, not interview quotations.</p><p>Related reading: <a href=\"https://www.mikeye.com/intelligence\">Mike’s decision frameworks</a>. Mike’s selected transactions appear on <a href=\"https://www.mikeye.com/about\">About Mike</a>; <a href=\"https://www.mikeye.com/about/record\">PMC mastheads</a> document his title and tenure.</p>"
+  "sourceNotes": "<p>Draft 0.2 · Prepared for Mike Ye’s editorial review. Adapted from Mike’s documented acquisition principles. The working notes, suggested cadence and illustrative examples are new editorial applications, not interview quotations.</p><p>Related reading: <a href=\"https://www.mikeye.com/intelligence\">Mike’s decision frameworks</a>. Mike’s selected transactions appear on <a href=\"https://www.mikeye.com/about\">About Mike</a>; <a href=\"https://www.mikeye.com/about/record\">PMC mastheads</a> document his title and tenure.</p>",
+  "download": {
+    "filename": "MikeYe-Integration-Working-Pack.xlsx",
+    "repositoryPath": "public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+    "sha256": "26437d4e0830ffcda040523d103418f43393b9a79c31d83f1565dfb480d0b89c",
+    "bytes": 17836,
+    "sheets": [
+      "Start Here",
+      "Day 1",
+      "Change Tracker",
+      "Savings Tracker"
+    ],
+    "version": "0.1-draft",
+    "downloadVerified": true
+  }
 }
