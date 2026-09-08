@@ -1,0 +1,587 @@
+<!-- =============================== -->
+<!-- MikeYe.com | About Page        -->
+<!-- BODY ONLY — v1.1               -->
+<!-- Editorial Design System Match  -->
+<!-- =============================== -->
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&display=swap');
+
+  .my-root {
+    font-family: 'EB Garamond', Georgia, serif;
+    background: #F7F5F0;
+    color: #1A1A18;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 72px 40px 80px;
+    box-sizing: border-box;
+  }
+
+  .my-masthead {
+    display: grid;
+    grid-template-columns: 1fr 148px;
+    gap: 40px;
+    align-items: start;
+    margin-bottom: 56px;
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid #C8C4BA;
+  }
+
+  .my-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    margin-bottom: 16px;
+  }
+
+  .my-name {
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin: 0 0 20px 0;
+    color: #1A1A18;
+  }
+
+  .my-tagline {
+    font-size: 1.05rem;
+    color: #555550;
+    line-height: 1.5;
+    font-style: italic;
+    max-width: 460px;
+  }
+
+  .my-photo {
+    width: 148px;
+    height: 148px;
+    object-fit: cover;
+    object-position: top center;
+    filter: grayscale(100%) contrast(1.05);
+    display: block;
+  }
+
+  .my-body {
+    font-size: 1.1rem;
+    line-height: 1.78;
+    color: #2A2A26;
+    margin-bottom: 20px;
+  }
+
+  .my-body strong {
+    font-weight: 500;
+    color: #1A1A18;
+  }
+
+  .my-section-rule {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 48px 0 28px;
+  }
+
+  .my-section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    white-space: nowrap;
+  }
+
+  .my-rule {
+    flex: 1;
+    height: 0.5px;
+    background: #C8C4BA;
+  }
+
+  .my-ledger {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 8px 0;
+  }
+
+  .my-ledger li {
+    font-size: 1.0rem;
+    line-height: 1.65;
+    color: #2A2A26;
+    padding: 14px 0;
+    border-bottom: 0.5px solid #E0DDD6;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+  }
+
+  .my-ledger-cat {
+    font-weight: 500;
+    color: #1A1A18;
+    font-size: 0.95rem;
+  }
+
+  .my-ledger-detail {
+    color: #444440;
+    font-size: 0.95rem;
+  }
+
+  .my-figure {
+    margin: 28px 0 8px;
+    padding: 0;
+  }
+
+  .my-figure img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: block;
+    filter: contrast(1.02);
+  }
+
+  .my-figure-caption {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: #555550;
+    margin-top: 12px;
+    max-width: 360px;
+  }
+
+  .my-career {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .my-career li {
+    padding: 18px 0;
+    border-bottom: 0.5px solid #E0DDD6;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+  }
+
+  .my-career-period {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.82rem;
+    color: #888880;
+    padding-top: 2px;
+  }
+
+  .my-career-role {
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: #1A1A18;
+    line-height: 1.4;
+    margin-bottom: 4px;
+  }
+
+  .my-career-org {
+    font-size: 0.95rem;
+    color: #555550;
+    margin-bottom: 8px;
+  }
+
+  .my-career-desc {
+    font-size: 0.92rem;
+    color: #666660;
+    line-height: 1.65;
+  }
+
+  .my-edu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .my-edu li {
+    padding: 14px 0;
+    border-bottom: 0.5px solid #E0DDD6;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+  }
+
+  .my-edu-degree {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.82rem;
+    color: #888880;
+    padding-top: 2px;
+  }
+
+  .my-edu-school {
+    font-size: 1.0rem;
+    color: #2A2A26;
+    line-height: 1.5;
+  }
+
+  .my-cta-block {
+    margin-top: 56px;
+    padding: 32px 28px;
+    border: 0.5px solid #C8C4BA;
+    background: rgba(200, 196, 186, 0.08);
+  }
+
+  .my-cta-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    margin-bottom: 20px;
+  }
+
+  .my-cta-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .my-cta-item {
+    padding: 20px 0 0;
+  }
+
+  .my-cta-name {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #1A1A18;
+    margin-bottom: 8px;
+  }
+
+  .my-cta-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.82rem;
+    color: #888880;
+    margin-bottom: 10px;
+  }
+
+  .my-cta-desc {
+    font-size: 0.92rem;
+    color: #555550;
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+
+  .my-cta-link {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #1A1A18;
+    text-decoration: none;
+    border-bottom: 1px solid #1A1A18;
+    padding-bottom: 2px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  .my-cta-link:hover {
+    color: #555550;
+    border-color: #555550;
+  }
+
+  .my-footer {
+    margin-top: 56px;
+    padding-top: 28px;
+    border-top: 0.5px solid #C8C4BA;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+  }
+
+  .my-nav-group-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin-bottom: 12px;
+  }
+
+  .my-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .my-nav-links a {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.0rem;
+    color: #2A2A26;
+    text-decoration: none;
+    border-bottom: 0.5px solid transparent;
+    transition: border-color 0.15s, color 0.15s;
+    display: inline-block;
+    padding-bottom: 1px;
+  }
+
+  .my-nav-links a:hover {
+    color: #1A1A18;
+    border-bottom-color: #888880;
+  }
+
+  @media (max-width: 580px) {
+    .my-masthead { grid-template-columns: 1fr; }
+    .my-photo { width: 100px; height: 100px; order: -1; }
+    .my-ledger li,
+    .my-career li,
+    .my-edu li { grid-template-columns: 1fr; gap: 4px; }
+    .my-cta-grid { grid-template-columns: 1fr; }
+    .my-footer { grid-template-columns: 1fr; }
+    .my-root { padding: 48px 24px 64px; }
+    .my-name { font-size: 2.4rem; }
+    .my-figure img { max-width: 100%; }
+    .my-figure-caption { max-width: 100%; }
+  }
+</style>
+
+<div class="my-root">
+
+  <!-- BREADCRUMB -->
+  <div style="margin-bottom: 32px;">
+    <a href="https://www.mikeye.com/"
+       style="font-family: 'DM Mono', monospace; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: #888880; text-decoration: none; border-bottom: 0.5px solid transparent; transition: color 0.15s, border-color 0.15s;"
+       onmouseover="this.style.color='#1A1A18'; this.style.borderBottomColor='#888880';"
+       onmouseout="this.style.color='#888880'; this.style.borderBottomColor='transparent';"
+    >← Mike Ye</a>
+  </div>
+
+  <!-- MASTHEAD -->
+  <div class="my-masthead">
+    <div>
+      <div class="my-label">M&amp;A Executive · Corporate Development · 25+ Years</div>
+      <h1 class="my-name">Mike Ye</h1>
+      <p class="my-tagline">25 years buying, selling, and restructuring businesses across media, technology, retail, healthcare, and asset management.</p>
+    </div>
+    <img
+      src="https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/69c5c110700b43ddb283e090_Mike%20Ye%20B%26W.png"
+      alt="Mike Ye — M&amp;A Executive"
+      class="my-photo"
+    />
+  </div>
+
+  <!-- BIO -->
+  <p class="my-body">
+    Mike Ye is an M&amp;A and corporate development executive who has spent more than
+    two decades leading acquisitions, divestitures, strategic investments, and capital
+    restructuring across media, technology, retail, healthcare, and asset management.
+  </p>
+
+  <p class="my-body">
+    As <strong>Vice President of Strategic Planning &amp; Acquisitions at Penske Media
+    Corporation</strong>, he led end-to-end execution of enterprise transactions —
+    sourcing, diligence, valuation, structuring, negotiation, and integration — across
+    a portfolio that included <strong>Rolling Stone</strong>, <strong>Billboard</strong>,
+    <strong>SXSW Festival</strong>, <strong>the Golden Globes</strong>, <strong>New Year's Rockin' Eve</strong>,
+    <strong>The Hollywood Reporter</strong>, and <strong>Robb Report</strong>.
+    He also led the strategic divestitures of <strong>BGR</strong> and <strong>TVLine</strong>,
+    and the strategic investment in <strong>BuzzAngle Music</strong> and
+    <strong>Sourcing Journal</strong>.
+  </p>
+<p class="my-body">
+    Between L Brands and Penske, he served as <strong>Director of Financial
+    Operations at Surgical Care Affiliates</strong>, where he oversaw P&amp;L for
+    a portfolio of ambulatory surgical centers and led the controlling-stake
+    acquisition and multi-specialty expansion of <strong>Long Beach Outpatient
+    Surgery</strong> — an asset later affiliated with SCA and ultimately part of
+    SCA's <strong>$2.3B acquisition by Optum / UnitedHealth Group</strong>.
+  </p>
+  <p class="my-body">
+    Prior to Penske, he served as <strong>Director of Corporate Development &amp;
+    Finance at L Brands</strong>, where he led the <strong>$778M divestiture of
+    Express</strong>, supported the <strong>$628M acquisition of La Senza</strong>,
+    and helped execute a <strong>$2.5B capital restructuring</strong>. At
+    <strong>Intel Capital</strong>, he managed the portfolio exit program during a
+    period when the fund monetized <strong>$5B+ across 500+ companies</strong>.
+  </p>
+
+  <p class="my-body">
+    He holds an <strong>MBA in Strategic Finance from Cornell University's Johnson
+    Graduate School of Management</strong> and a <strong>BA in Economics from UCLA</strong>.
+    He is fluent in Mandarin.
+  </p>
+
+  <p class="my-body">
+    He is now the founder of <strong>exmxc.ai</strong>, an intelligence institution
+    focused on how AI systems reshape institutional positioning, capital allocation,
+    and competitive strategy — and <strong>TrailGenic</strong>, an AI-native longevity
+    methodology platform.
+  </p>
+
+  <!-- SELECTED TRANSACTIONS -->
+  <div class="my-section-rule">
+    <span class="my-section-label">Selected Transactions</span>
+    <div class="my-rule"></div>
+  </div>
+
+  <ul class="my-ledger">
+    <li>
+      <span class="my-ledger-cat">Buy-Side (Media)</span>
+      <div class="my-ledger-detail">
+        Rolling Stone, Billboard, SXSW Festival, the Golden Globes / Dick Clark Productions, The Hollywood Reporter, Robb Report, Life Is Beautiful Festival
+        <figure class="my-figure">
+          <img
+            src="https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/69f917f2d65b708c454de20b_file_00000000b4a471fdb7a8520b3817ae07.png"
+            alt="Mike Ye at the ACG Los Angeles Annual Awards Ceremony, 2018, Walt Disney Concert Hall, with VIP Award Winner badge from Penske Media Corp."
+            loading="lazy"
+          />
+          <figcaption class="my-figure-caption">
+            ACG Los Angeles — 2018 M&amp;A Deal of the Year, Penske Media's acquisition of Rolling Stone.
+          </figcaption>
+        </figure>
+      </div>
+    </li>
+    <li>
+      <span class="my-ledger-cat">Strategic Investments (Media)</span>
+      <span class="my-ledger-detail">BuzzAngle Music, Sourcing Journal, Vox Media, SheKnows Media, LDJ Productions, Music Business Worldwide</span>
+    </li>
+    <li>
+      <span class="my-ledger-cat">Sell-Side (Media)</span>
+      <span class="my-ledger-detail">BGR, TVLine, HollywoodLife</span>
+    </li>
+    <li>
+      <span class="my-ledger-cat">Buy-Side (Healthcare)</span>
+      <span class="my-ledger-detail">Long Beach Outpatient Surgery — controlling stake acquisition, multi-specialty expansion, affiliated with Surgical Care Affiliates (subsequently acquired by Optum / UnitedHealth Group for $2.3B)</span>
+    </li>
+    <li>
+      <span class="my-ledger-cat">Buy-Side (Retail)</span>
+      <span class="my-ledger-detail">La Senza — $628M acquisition (L Brands)</span>
+    </li>
+    <li>
+      <span class="my-ledger-cat">Sell-Side (Retail)</span>
+      <span class="my-ledger-detail">Express — $778M divestiture (L Brands)</span>
+    </li>
+    <li>
+      <span class="my-ledger-cat">Capital Restructuring</span>
+      <span class="my-ledger-detail">$2.5B recapitalization — L Brands</span>
+    </li>
+    <li>
+      <span class="my-ledger-cat">Portfolio Exits</span>
+      <span class="my-ledger-detail">Intel Capital exit program — $5B+ monetized across 500+ companies</span>
+    </li>
+    <li>
+      <span class="my-ledger-cat">Quantitative Capital</span>
+      <span class="my-ledger-detail">Mellon Capital Management — Vanguard Russell 2000 Value Fund, S&amp;P 500 Index Plus Fund</span>
+    </li>
+  </ul>
+
+  <!-- CAREER -->
+  <div class="my-section-rule">
+    <span class="my-section-label">Career</span>
+    <div class="my-rule"></div>
+  </div>
+
+  <ul class="my-career">
+    <li>
+      <span class="my-career-period">2016 – 2025</span>
+      <div>
+        <div class="my-career-role">Vice President, Strategic Planning &amp; Acquisitions</div>
+        <div class="my-career-org">Penske Media Corporation — Los Angeles, CA</div>
+        <div class="my-career-desc">Led acquisitions, divestitures, and strategic investments across global media and experiential platforms. Transaction record includes Rolling Stone, Billboard, SXSW Festival, the Golden Globes, BuzzAngle Music, and Sourcing Journal.</div>
+      </div>
+    </li>
+    <li>
+      <span class="my-career-period">2014 – 2016</span>
+      <div>
+        <div class="my-career-role">Director, Financial Operations</div>
+        <div class="my-career-org">Surgical Care Affiliates — Los Angeles, CA</div>
+        <div class="my-career-desc">Oversaw financial operations for 10+ ambulatory surgical centers. P&amp;L management, expansion support, and M&amp;A modeling. Led controlling stake acquisition and multi-specialty expansion of Long Beach Outpatient Surgery.</div>
+      </div>
+    </li>
+    <li>
+      <span class="my-career-period">2006 – 2013</span>
+      <div>
+        <div class="my-career-role">Director, Corporate Development &amp; Finance</div>
+        <div class="my-career-org">L Brands (Limited Brands) — New York, NY</div>
+        <div class="my-career-desc">Corporate development, strategic finance, and FP&amp;A. Led $778M divestiture of Express, supported $628M acquisition of La Senza and $2.5B capital restructuring.</div>
+      </div>
+    </li>
+    <li>
+      <span class="my-career-period">Earlier</span>
+      <div>
+        <div class="my-career-role">Senior Associate, Exits &amp; Strategic Investments</div>
+        <div class="my-career-org">Intel Capital</div>
+        <div class="my-career-desc">Portfolio exit program across 500+ companies.</div>
+      </div>
+    </li>
+    <li>
+      <span class="my-career-period">Earlier</span>
+      <div>
+        <div class="my-career-role">Portfolio Manager, Global Index &amp; Hedge Strategies</div>
+        <div class="my-career-org">Mellon Capital Management</div>
+        <div class="my-career-desc">Index fund management including Vanguard Russell 2000 Value Fund and S&amp;P 500 Index Plus Fund.</div>
+      </div>
+    </li>
+  </ul>
+
+  <!-- EDUCATION -->
+  <div class="my-section-rule">
+    <span class="my-section-label">Education</span>
+    <div class="my-rule"></div>
+  </div>
+
+  <ul class="my-edu">
+    <li>
+      <span class="my-edu-degree">MBA, Strategic Finance</span>
+      <span class="my-edu-school">Cornell University — Johnson Graduate School of Management</span>
+    </li>
+    <li>
+      <span class="my-edu-degree">BA, Economics</span>
+      <span class="my-edu-school">University of California, Los Angeles (UCLA)</span>
+    </li>
+  </ul>
+
+  <!-- EXIT DESK CTA -->
+  <div class="my-cta-block">
+    <div class="my-cta-label">Advisory Services</div>
+    <div class="my-cta-grid" style="grid-template-columns: 1fr;">
+      <div class="my-cta-item" style="max-width: 540px;">
+        <div class="my-cta-name">Exit Desk</div>
+        <div class="my-cta-price">$199 – $499 flat fee</div>
+        <div class="my-cta-desc">Buyer-lens exit analysis for business owners preparing to sell. See what a serious buyer would see — calibrated to your scale, from Main Street to lower-middle market — before you walk into any process.</div>
+        <a href="https://www.mikeye.com/exit" class="my-cta-link">Learn more →</a>
+      </div>
+    </div>
+  </div>
+
+<!-- FOOTER NAV -->
+<div class="my-footer">
+  <div>
+    <div class="my-nav-group-label">Profile &amp; Network</div>
+    <div class="my-nav-links">
+      <a href="https://www.mikeye.com/" rel="noopener">Home</a>
+      <a href="https://www.mikeye.com/about" rel="noopener">About Mike Ye</a>
+      <a href="https://www.mikeye.com/about/record" rel="noopener">Contemporaneous Record</a>
+      <a href="https://www.mikeye.com/exit/story" rel="noopener">Why I Built Exit Desk</a>
+      <a href="https://www.mikeye.com/intelligence" rel="noopener">Intelligence Hub</a>
+      <a href="https://www.mikeye.com/podcast/">The Mike Ye Briefing Podcast</a>
+      <a href="https://www.exmxc.ai/about-us/mike-ye" target="_blank" rel="noopener me">Profile at exmxc.ai</a>
+      <a href="https://www.linkedin.com/in/michaelye73/" target="_blank" rel="noopener me">LinkedIn</a>
+    </div>
+  </div>
+
+  <div>
+    <div class="my-nav-group-label">Advisory</div>
+    <div class="my-nav-links">
+      <a href="https://www.mikeye.com/exit">Exit Desk</a>
+      <a href="https://www.mikeye.com/exit/articles">Articles &amp; Case Studies</a>
+      <a href="https://www.mikeye.com/exit/sample">Sample Reports</a>
+    </div>
+  </div>
+
+  <div>
+    <div class="my-nav-group-label">Decision Frames</div>
+    <div class="my-nav-links">
+      <a href="https://www.mikeye.com/intelligence/judgment-as-a-service">Judgment-as-a-Service</a>
+      <a href="https://www.mikeye.com/intelligence/dependency-vs-leverage">Dependency vs. Leverage</a>
+      <a href="https://www.mikeye.com/intelligence/timing-asymmetry">Timing Asymmetry</a>
+      <a href="https://www.mikeye.com/intelligence/signal-vs-narrative">Signal vs. Narrative</a>
+      <a href="https://www.mikeye.com/intelligence/scarcity-vs-growth">Scarcity vs. Growth</a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- =============================== -->
+<!-- END MikeYe.com | About Page v1.1 -->
+<!-- =============================== -->

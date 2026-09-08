@@ -1,0 +1,45 @@
+.ma2-main { font-family:Arial, sans-serif; background:#F7F5F0; color:#1A1A18; max-width:1160px; margin:0 auto; padding:64px 0 60px; box-sizing:border-box; }
+.ma2-masthead { display:grid; grid-template-columns:1fr 240px; gap:64px; align-items:center; margin-bottom:56px; padding-bottom:40px; border-bottom:1px solid #C8C4BA; }
+.ma2-label { font-family:monospace; font-size:12px; letter-spacing:0.12em; text-transform:uppercase; color:#79602E; margin-bottom:16px; line-height:1.7; }
+.ma2-name { font-size:60px; font-weight:400; line-height:1.08; letter-spacing:-0.02em; margin:0 0 20px 0; color:#1A1A18; font-family:Georgia, serif; }
+.ma2-tagline { font-size:26px; color:#555550; line-height:1.5; font-style:normal; max-width:740px; font-family:Georgia, serif; }
+.ma2-photo { width:240px; height:280px; object-fit:cover; object-position:top center; filter:grayscale(100%) contrast(1.05); display:block; }
+.ma2-body { font-size:17px; line-height:1.8; color:#2A2A26; margin-bottom:20px; max-width:780px; }
+.ma2-section-rule { display:flex; align-items:center; gap:16px; margin:48px 0 28px; }
+.ma2-section-label { font-family:monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#5C5C54; white-space:nowrap; }
+.ma2-rule { flex:1; height:1px; background:#C8C4BA; }
+.ma2-ledger { list-style:none; padding:0; margin:0 0 8px 0; }
+.ma2-row { font-size:1.0rem; line-height:1.65; color:#2A2A26; padding:24px 0; border-bottom:1px solid #E0DDD6; display:grid; grid-template-columns:250px 1fr; gap:32px; }
+.ma2-ledger-cat { font-weight:500; color:#1A1A18; font-size:16px; line-height:1.75; }
+.ma2-ledger-detail { color:#444440; font-size:16px; line-height:1.75; }
+.ma2-figure { margin:28px 0 8px; padding:0; }
+.ma2-evidence-image { width:100%; max-width:460px; height:auto; display:block; filter:contrast(1.02); }
+.ma2-figure-caption { font-family:Georgia, serif; font-style:italic; font-size:15px; line-height:1.55; color:#555550; margin-top:12px; max-width:460px; }
+.ma2-career { list-style:none; padding:0; margin:0; }
+.ma2-career-period { font-family:monospace; font-size:12px; color:#79602E; padding-top:2px; line-height:1.7; }
+.ma2-career-role { font-size:25px; font-weight:400; color:#1A1A18; line-height:1.4; margin-bottom:4px; font-family:Georgia, serif; margin-top:0; }
+.ma2-career-org { font-size:16px; color:#555550; margin-bottom:8px; line-height:1.75; }
+.ma2-career-desc { font-size:16px; color:#666660; line-height:1.75; }
+.ma2-edu { list-style:none; padding:0; margin:0; }
+.ma2-edu-degree { font-family:monospace; font-size:12px; color:#79602E; padding-top:2px; line-height:1.7; }
+.ma2-edu-school { font-size:16px; color:#2A2A26; line-height:1.75; }
+.ma2-cta-block { margin-top:56px; padding:32px 28px; border:1px solid #C8C4BA; background:rgba(200, 196, 186, 0.08); }
+.ma2-cta-label { font-family:monospace; font-size:12px; letter-spacing:0.12em; text-transform:uppercase; color:#79602E; margin-bottom:20px; line-height:1.7; }
+.ma2-cta-grid { display:grid; grid-template-columns:1fr; gap:24px; }
+.ma2-cta-item { padding:20px 0 0; }
+.ma2-cta-name { font-size:30px; font-weight:400; color:#1A1A18; margin-bottom:8px; font-family:Georgia, serif; margin-top:0; }
+.ma2-cta-price { font-family:monospace; font-size:12px; color:#79602E; margin-bottom:10px; line-height:1.7; }
+.ma2-cta-desc { font-size:16px; color:#555550; line-height:1.75; margin-bottom:14px; max-width:740px; }
+.ma2-cta-link { font-family:monospace; font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:#1A1A18; text-decoration:none; border-bottom:1px solid #1A1A18; padding-bottom:2px; transition:color 0.15s, border-color 0.15s; }
+.ma2-cta-link:hover { color:#555550; border-color:#555550; }
+.ma2-footer { margin-top:56px; padding-top:28px; border-top:1px solid #C8C4BA; display:grid; grid-template-columns:1fr 1fr 1fr; gap:32px; }
+.ma2-nav-group-label { font-family:monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#79602E; margin-bottom:12px; line-height:1.7; }
+.ma2-nav-links { display:flex; flex-direction:column; gap:8px; }
+.ma2-footer-link { font-family:Georgia, serif; font-size:16px; color:#2A2A26; text-decoration:none; border-bottom:1px solid transparent; transition:border-color 0.15s, color 0.15s; display:inline-block; padding-bottom:1px; line-height:1.75; }
+.ma2-footer-link:hover { color:#1A1A18; border-bottom-color:#5C5C54; }
+.ma2-section-title { font-family:Georgia, serif; font-size:36px; font-weight:400; line-height:1.2; margin-top:60px; margin-bottom:24px; }
+.ma2-footer-link:focus { outline:2px solid #79602E; outline-offset:4px; }
+.ma2-cta-link:focus { outline:2px solid #79602E; outline-offset:4px; }
+@media screen and (max-width:991px) { .ma2-masthead { grid-template-columns:1fr 190px; gap:36px; } .ma2-photo { width:190px; height:230px; } .ma2-name { font-size:50px; } .ma2-row { grid-template-columns:200px 1fr; } }
+@media screen and (max-width:767px) { .ma2-main { padding:40px 0; } .ma2-masthead { grid-template-columns:1fr; gap:28px; } .ma2-photo { width:180px; height:210px; } .ma2-name { font-size:42px; } .ma2-row { grid-template-columns:1fr; gap:10px; } .ma2-footer { grid-template-columns:1fr; } .ma2-section-title { font-size:32px; margin-top:44px; } .ma2-cta-grid { grid-template-columns:1fr; } }
+@media screen and (max-width:479px) { .ma2-name { font-size:36px; } .ma2-tagline { font-size:24px; } .ma2-cta-block { padding:24px; } }
