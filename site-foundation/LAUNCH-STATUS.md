@@ -28,3 +28,5 @@ The canonical content manifest has been promoted only after a successful product
 Current production code merges: PR 100 (`126e518`), PR 101 (`714c755`), PR 102 (`c549dcd`), and PR 103 (`48b59d9`). PR 103 passed GitHub Actions run `34183389101`; its production Vercel deployment also succeeded. Native controls, script versions and rollback IDs are documented in `native-funnel/README.md`. HTML, download and public machine-data audit evidence is under `launch/production-*.json`.
 
 Daily additions can proceed from this published foundation. Keep Acquisition Lens and the separate Stalled Exit campaign unlaunched until their own work is approved and verified.
+
+The next major editorial phase is recorded in `FUTURE-UPDATES.md`: an end-to-end M&A deal workflow checklist, a comprehensive due diligence checklist, and a comprehensive post-deal integration checklist. Each resource will combine credible research with Mike's documented judgment and will require Mike's review and approval before it becomes canonical or is published.
