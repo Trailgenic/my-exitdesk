@@ -1,0 +1,55 @@
+{
+  "version": "1.4.1",
+  "scope": "selected-existing-resources",
+  "replacesExistingRegistry": false,
+  "resources": [
+    {
+      "id": "exit-valuation",
+      "name": "Business valuation scenarios",
+      "format": "Tool",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/exit/valuation",
+      "summary": "Explore the existing Exit Desk calculator and its indicative positioning scenarios."
+    },
+    {
+      "id": "decision-frames",
+      "name": "The five decision frames",
+      "format": "Framework",
+      "topic": "corporate-development",
+      "url": "https://www.mikeye.com/intelligence",
+      "summary": "Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions."
+    },
+    {
+      "id": "buzzangle-case-study",
+      "name": "BuzzAngle Music",
+      "format": "Case study",
+      "topic": "corporate-development",
+      "url": "https://www.mikeye.com/exit/articles/buzzangle-case-study",
+      "summary": "A strategic investment in music data, viewed through competitive position and capability."
+    },
+    {
+      "id": "sourcing-journal-case-study",
+      "name": "Sourcing Journal",
+      "format": "Case study",
+      "topic": "deal-structure",
+      "url": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study",
+      "summary": "Founder clarity, partner alignment, and the timing of a capability acquisition."
+    },
+    {
+      "id": "long-beach-surgical-case-study",
+      "name": "Long Beach Outpatient Surgery",
+      "format": "Case study",
+      "topic": "integration",
+      "url": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study",
+      "summary": "A controlling investment and the operating work behind a multi-specialty expansion."
+    },
+    {
+      "id": "exit-readiness-checklist",
+      "name": "Exit readiness checklist",
+      "format": "Checklist",
+      "topic": "due-diligence",
+      "url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
+      "summary": "An existing seller-preparation checklist, organized around what buyers will examine."
+    }
+  ]
+}

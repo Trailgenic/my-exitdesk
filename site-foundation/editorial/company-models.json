@@ -1,0 +1,387 @@
+[
+  {
+    "id": "gap-valuation-model",
+    "slug": "gap-retail-valuation-model",
+    "name": "Gap: valuing a retail business",
+    "company": "Gap Inc.",
+    "ticker": "NYSE: GAP",
+    "industry": "Specialty retail",
+    "summary": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory.",
+    "decision": "Does the valuation hold if sales soften and the business has to discount more stock?",
+    "firstTask": "Choose one brand and follow a product from purchase to sale. Write down the selling price after discounts, the merchandise cost, and the cash committed before the customer pays. Then identify the store and central costs still needed to run the business.",
+    "drivers": [
+      {
+        "name": "Sales customers actually repeat",
+        "question": "How much growth comes from existing stores and customers, and how much comes from new space or a change in the reporting calendar?",
+        "evidence": "Brand sales, comparable-sales disclosures, store openings and closures, and the fiscal calendar.",
+        "consequence": "Separate ongoing demand from growth that requires more stores, stock, and capital."
+      },
+      {
+        "name": "Margin after the markdown",
+        "question": "What happens to profit if the same stock sells at a lower price?",
+        "evidence": "Gross margin, inventory balances, markdown commentary, and relevant sourcing costs.",
+        "consequence": "Test lower sales and a lower merchandise margin together; do not hold margin flat just to preserve the valuation."
+      },
+      {
+        "name": "Cash needed to stay in business",
+        "question": "How much inventory, store spending, and rent must the business fund before growth produces cash?",
+        "evidence": "Seasonal working capital, capital expenditure, lease commitments, and store closure costs.",
+        "consequence": "An attractive earnings multiple can still leave too little cash after the operating commitments are paid."
+      }
+    ],
+    "watchout": "Keep rent and leases on a consistent basis when comparing companies. If the valuation includes lease obligations, the earnings and cash-flow measures must support that treatment. A brand-level valuation needs disclosed brand economics; sales alone do not establish brand profit.",
+    "judgment": "Reconstruct sustainable earnings before choosing a multiple. An expense is not removable merely because management calls it an adjustment. Keep the required replacement cost and maintenance spending in the case.",
+    "sourcePrinciples": [
+      "replicate-the-financials",
+      "survive-the-downside",
+      "ceiling-and-patience"
+    ],
+    "sources": [
+      {
+        "title": "Gap company and brand overview",
+        "url": "https://www.gapinc.com/en-us/"
+      },
+      {
+        "title": "Gap financial information",
+        "url": "https://investors.gapinc.com/financial-information/default.aspx"
+      }
+    ],
+    "download": {
+      "filename": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+      "repositoryPath": "public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+      "bytes": 97991,
+      "sha256": "99c4f4eff548dde24d861b3bc5c9dd8fea7c091144d3f7fc9c55785d54c6a4fc",
+      "version": "1.2",
+      "verifiedAt": "2026-09-08",
+      "downloadVerified": true,
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
+    },
+    "workbookSheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "Operating Forecast",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Verified Inputs"
+    ],
+    "valuationDate": "2026-09-04",
+    "workbookFocus": "In Trading Comps, keep rent and lease treatment consistent. Then use Operating Forecast to test slower sales, more markdowns, and more cash tied up in inventory. Compare the change in DCF with the price ceiling in Acquisition Returns."
+  },
+  {
+    "id": "salesforce-valuation-model",
+    "slug": "salesforce-software-valuation-model",
+    "name": "Salesforce: valuing a software business",
+    "company": "Salesforce",
+    "ticker": "NYSE: CRM",
+    "industry": "Enterprise software",
+    "summary": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth.",
+    "decision": "How much growth can the business turn into cash for each share after the costs of delivering it?",
+    "firstTask": "Follow one subscription from the customer commitment to service delivery and cash collection. Keep bookings, recognised revenue, and cash receipts separate. They describe different stages of the same relationship.",
+    "drivers": [
+      {
+        "name": "Revenue that lasts",
+        "question": "What supports the next period of revenue, and what still depends on selling more?",
+        "evidence": "Subscription and support revenue, services revenue, remaining performance obligations, and disclosed customer indicators.",
+        "consequence": "Remaining performance obligations are contracted work still to be recognised as revenue, not cash already available to shareholders."
+      },
+      {
+        "name": "Growth that earns its cost",
+        "question": "What does the business need to spend to sell, support, and improve the product?",
+        "evidence": "Sales and marketing, research and development, service delivery costs, and acquisition disclosures.",
+        "consequence": "Separate acquired growth from organic growth where the evidence allows. Do not project margin expansion while ignoring the spending needed for the growth case."
+      },
+      {
+        "name": "Cash per share",
+        "question": "How much of the cash generation belongs to each share after dilution?",
+        "evidence": "Stock compensation, share awards, repurchases, diluted shares, and the cash-flow statement.",
+        "consequence": "Explain the economic cost of stock compensation. Adding it back while ignoring dilution can overstate value."
+      }
+    ],
+    "watchout": "A revenue multiple needs a view on future margins and cash conversion. Company-reported free cash flow and the unlevered cash flow used in a DCF may differ; reconcile them. Keep undisclosed retention or customer metrics visibly unavailable.",
+    "judgment": "A compelling growth story is a hypothesis to test. Ask what evidence supports the renewal, margin, and cash assumptions, then keep the downside visible if the growth arrives later or costs more.",
+    "sourcePrinciples": [
+      "replicate-the-financials",
+      "unknowns-are-findings",
+      "survive-the-downside"
+    ],
+    "sources": [
+      {
+        "title": "Salesforce annual reports",
+        "url": "https://investor.salesforce.com/financials/annual-reports/default.aspx"
+      },
+      {
+        "title": "Salesforce fiscal 2027 second-quarter results",
+        "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+      }
+    ],
+    "download": {
+      "filename": "Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+      "repositoryPath": "public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+      "bytes": 89753,
+      "sha256": "094cee758940492f81e83b6ce100a6364060a03734a72158875bf0d1db36650b",
+      "version": "1.2",
+      "verifiedAt": "2026-09-08",
+      "downloadVerified": true,
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx"
+    },
+    "workbookSheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "Operating Forecast",
+      "KPIs & SBC-FCF",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Verified Inputs"
+    ],
+    "valuationDate": "2026-09-04",
+    "workbookFocus": "Use KPIs & SBC-FCF to follow stock compensation and cash generation through to each share. Then test slower subscription growth and the cost of delivering it. Keep the acquisition bridge separate from the operating forecast."
+  },
+  {
+    "id": "ziff-davis-valuation-model",
+    "slug": "ziff-davis-media-valuation-model",
+    "name": "Ziff Davis: valuing a digital media business",
+    "company": "Ziff Davis",
+    "ticker": "NASDAQ: ZD",
+    "industry": "Digital media",
+    "summary": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued.",
+    "decision": "Which earnings can the current portfolio keep producing, and what makes those earnings vulnerable?",
+    "firstTask": "Choose one revenue stream and trace why the customer pays. Identify who controls the customer relationship, how the audience arrives, and what could interrupt the path from attention to cash.",
+    "drivers": [
+      {
+        "name": "The portfolio that remains",
+        "question": "Do the historical earnings, cash flows, and balance sheet describe the same set of businesses?",
+        "evidence": "Continuing-operation disclosures, disposal notes, segment reporting, and use of sale proceeds.",
+        "consequence": "Rebuild the starting point before projecting growth. A sold business cannot keep contributing earnings to the future case."
+      },
+      {
+        "name": "Quality of the revenue stream",
+        "question": "What is repeatable, and what relies on traffic, advertising demand, or another platform?",
+        "evidence": "Disclosed advertising, subscription, affiliate, and other revenue categories, plus relevant distribution dependencies.",
+        "consequence": "Give different revenue streams different assumptions when the evidence supports it. Audience size alone does not establish durable profit."
+      },
+      {
+        "name": "The cost of maintaining the portfolio",
+        "question": "Which adjusted costs recur as part of owning and renewing these businesses?",
+        "evidence": "Acquisition, restructuring, amortisation, capital spending, and management adjustment reconciliations.",
+        "consequence": "Distinguish an accounting charge from the ongoing investment needed to sustain the capability."
+      }
+    ],
+    "watchout": "Ziff Davis disclosed the sale of its Connectivity business in the second quarter of 2026. The release presents continuing-operation earnings but some cash-flow measures include discontinued operations. Reconcile that difference and sale proceeds before using a multiple or DCF.",
+    "judgment": "Value the seller's sustainable standalone business first. Improvements that only a particular buyer can create belong in a separate synergy case, with the cost and risk of delivering them.",
+    "sourcePrinciples": [
+      "replicate-the-financials",
+      "transferability",
+      "buyer-keeps-synergy"
+    ],
+    "sources": [
+      {
+        "title": "Ziff Davis company overview",
+        "url": "https://investor.ziffdavis.com/overview/default.aspx"
+      },
+      {
+        "title": "Ziff Davis second-quarter 2026 results and disposal presentation",
+        "url": "https://investor.ziffdavis.com/news/news-details/2026/Ziff-Davis-Reports-Second-Quarter-2026-Financial-Results/default.aspx"
+      }
+    ],
+    "download": {
+      "filename": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+      "repositoryPath": "public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+      "bytes": 85802,
+      "sha256": "803ee3bd3afdf9047c0ff32cc64968216287732463d3f77a01bb9d943f66d420",
+      "version": "1.2",
+      "verifiedAt": "2026-09-08",
+      "downloadVerified": true,
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
+    },
+    "workbookSheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "Portfolio & Divestiture",
+      "Operating Forecast",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Source Inputs"
+    ],
+    "valuationDate": "2026-09-04",
+    "workbookFocus": "Start with Portfolio & Divestiture to see which businesses remain and how sale proceeds affect cash. Then test ongoing earnings after recurring costs. Do not add sale proceeds again if they are already in the cash balance."
+  },
+  {
+    "id": "surgery-partners-valuation-model",
+    "slug": "surgery-partners-healthcare-valuation-model",
+    "name": "Surgery Partners: valuing a healthcare-services business",
+    "company": "Surgery Partners",
+    "ticker": "NASDAQ: SGRY",
+    "industry": "Healthcare services",
+    "summary": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep.",
+    "decision": "What cash belongs to the buyer after operating needs, partner interests, and debt are taken into account?",
+    "firstTask": "Follow a surgical case from referral and scheduling to treatment, billing, and collection using public disclosures or appropriately authorised records. Identify the people, capacity, and payment arrangements that make the revenue possible.",
+    "drivers": [
+      {
+        "name": "Volume and payment",
+        "question": "Are results improving because more cases are performed, because the case mix changes, or because payment per case improves?",
+        "evidence": "Same-facility volumes, revenue per case, facility growth, and disclosed reimbursement or payer commentary.",
+        "consequence": "Separate volume from price and mix. Do not assume that higher revenue per case will continue without supporting evidence."
+      },
+      {
+        "name": "The people who sustain the work",
+        "question": "What must stay in place for a facility to keep serving patients?",
+        "evidence": "Physician relationships, staffing needs, capacity, key agreements, and maintenance investment.",
+        "consequence": "Test operating continuity before counting a saving. Cost changes that disrupt capacity can reduce the revenue supporting the deal."
+      },
+      {
+        "name": "The cash the parent owns",
+        "question": "Does the earnings measure include economic interests that belong to facility partners?",
+        "evidence": "Ownership disclosures, noncontrolling interests, adjusted EBITDA reconciliations, partner distributions, and debt schedules.",
+        "consequence": "Match the ownership covered by the valuation to the ownership covered by earnings and cash flow. Avoid deducting partner interests twice."
+      }
+    ],
+    "watchout": "Noncontrolling interests are portions of consolidated businesses owned by other investors. Company-adjusted EBITDA, consolidated earnings, and cash attributable to the parent can cover different economics. Reconcile them before applying a peer multiple or building the equity bridge.",
+    "judgment": "Protect the work that produces revenue while evaluating cost changes. Test lower volumes or reimbursement alongside cost pressure, including the cash needed for debt and essential investment.",
+    "sourcePrinciples": [
+      "protect-revenue-integrate-cost",
+      "replicate-the-financials",
+      "survive-the-downside"
+    ],
+    "sources": [
+      {
+        "title": "Surgery Partners financial reports",
+        "url": "https://ir.surgerypartners.com/financial-information/annual-reports"
+      },
+      {
+        "title": "Surgery Partners company disclosures",
+        "url": "https://ir.surgerypartners.com/"
+      }
+    ],
+    "download": {
+      "filename": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+      "repositoryPath": "public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+      "bytes": 90351,
+      "sha256": "1c0b8cf82a18f37314e9ad0eea9d1b0713069c3944ce0f468cb773763a5940df",
+      "version": "1.2",
+      "verifiedAt": "2026-09-08",
+      "downloadVerified": true,
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
+    },
+    "workbookSheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "NCI Reconciliation",
+      "Operating Forecast",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Source Inputs"
+    ],
+    "valuationDate": "2026-09-04",
+    "workbookFocus": "Start with NCI Reconciliation: facility partners own part of the economics. Follow adjusted earnings, partner income, and cash distributions separately. Then test the cash the parent can retain after investment and debt costs."
+  },
+  {
+    "id": "nvidia-valuation-model",
+    "slug": "nvidia-ai-infrastructure-valuation-model",
+    "name": "NVIDIA: valuing an AI infrastructure business",
+    "company": "NVIDIA",
+    "ticker": "NASDAQ: NVDA",
+    "industry": "Semiconductors & AI infrastructure",
+    "summary": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce.",
+    "decision": "What must remain true about demand, margins, and cash conversion for the valuation to hold?",
+    "firstTask": "Choose one disclosed business or revenue category. Write down who pays, what they receive, and what has to happen before the company can recognise revenue and collect cash. Keep customer spending plans separate from revenue already earned.",
+    "drivers": [
+      {
+        "name": "Demand that becomes revenue",
+        "question": "How much growth depends on customers continuing to expand, finance, and bring computing capacity into service?",
+        "evidence": "Disclosed revenue categories, customer concentration, receivables, and management commentary on demand and deployment timing.",
+        "consequence": "Test slower customer spending and delayed deployments. Do not convert a broad AI spending forecast directly into company revenue."
+      },
+      {
+        "name": "Margins through a product transition",
+        "question": "What changes as new chips, systems, and networking products replace the current mix?",
+        "evidence": "Gross-margin bridges, product-transition disclosures, inventory provisions, and disclosed supply or market-access constraints.",
+        "consequence": "Separate a temporary transition cost from a lasting change in economics. Test both lower revenue and lower margins rather than extending a strong quarter indefinitely."
+      },
+      {
+        "name": "Cash committed before the sale",
+        "question": "What cash or commitments are needed to secure supply and support growth, and how much remains if demand slows?",
+        "evidence": "Inventory, supplier prepayments, purchase commitments, receivables, capital spending, and the cash-flow statement.",
+        "consequence": "A business can depend on external manufacturing and still carry substantial inventory and supply risk. Include those obligations in the downside."
+      }
+    ],
+    "watchout": "Separate operating profit from gains or losses on investments. Reconcile investments and other non-operating assets in the enterprise-to-equity bridge without counting them twice. Do not invent standalone software revenue or profit to justify a software multiple; use the economics actually disclosed. A DCF needs a defensible path from rapid growth to a sustainable long-term business.",
+    "judgment": "Scarcity can justify deeper investigation, but it does not remove the price ceiling. Write down the evidence supporting the growth case, what would weaken it, and whether the business can withstand the downside. Keep conviction in the capability separate from willingness to pay any price.",
+    "sourcePrinciples": [
+      "replicate-the-financials",
+      "unknowns-are-findings",
+      "survive-the-downside",
+      "ceiling-and-patience"
+    ],
+    "sources": [
+      {
+        "title": "NVIDIA annual reports and proxies",
+        "url": "https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx"
+      },
+      {
+        "title": "NVIDIA financial reports",
+        "url": "https://investor.nvidia.com/financial-info/financial-reports/default.aspx"
+      }
+    ],
+    "download": {
+      "filename": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+      "repositoryPath": "public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+      "bytes": 90814,
+      "sha256": "4afbd3e6745250a16259b753805420e921a491dc4f4d869006a0f8639c377175",
+      "version": "1.2",
+      "verifiedAt": "2026-09-08",
+      "downloadVerified": true,
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
+    },
+    "workbookSheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "Operating Forecast",
+      "KPIs & SBC",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Source Inputs"
+    ],
+    "valuationDate": "2026-09-04",
+    "workbookFocus": "Use KPIs & SBC to connect growth to margins, stock compensation, and cash. In DCF, test a slower growth path and the long-term margin together. Keep supply commitments visible and separate operating value from investment assets."
+  }
+]

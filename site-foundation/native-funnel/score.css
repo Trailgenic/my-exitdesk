@@ -1,0 +1,115 @@
+
+
+.es-root { font-family: Georgia, serif; background: #F7F5F0; color: #1A1A18; max-width: 780px; margin: 0 auto; padding: 72px 40px 80px; box-sizing: border-box; }
+.es-masthead { margin-bottom: 48px; padding-bottom: 36px; border-bottom: 0.5px solid #C8C4BA; }
+.es-label { font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 16px; }
+.es-title { font-size: 2.4rem; font-weight: 400; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 16px 0; color: #1A1A18; }
+.es-subtitle { font-size: 1.05rem; color: #555550; line-height: 1.65; font-style: italic; max-width: 560px; margin: 0; }
+.es-meta { display: flex; gap: 24px; margin-top: 20px; flex-wrap: wrap; }
+.es-meta-item { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #AAAAAA; }
+.es-meta-item span { color: #888880; }
+.es-progress-wrap { margin-bottom: 40px; }
+.es-progress-label { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #AAAAAA; margin-bottom: 8px; }
+.es-progress-bar { width: 100%; height: 2px; background: #E0DDD6; }
+.es-progress-fill { height: 100%; background: #1A1A18; transition: width 0.3s ease; }
+.es-question { display: none; }
+.es-question.active { display: block; }
+.es-q-number { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #AAAAAA; margin-bottom: 12px; }
+.es-q-text { font-size: 1.4rem; font-weight: 400; line-height: 1.4; color: #1A1A18; margin-bottom: 32px; letter-spacing: -0.01em; }
+.es-options { display: flex; flex-direction: column; gap: 8px; }
+.es-option { display: flex; align-items: flex-start; gap: 14px; padding: 16px 20px; background: #FDFCF9; border: 0.5px solid #C8C4BA; cursor: pointer; transition: border-color 0.15s, background 0.15s; }
+.es-option:hover { border-color: #888880; background: #F7F5F0; }
+.es-option.selected { border-color: #1A1A18; background: #F2F0EB; }
+.es-option-marker { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.10em; color: #AAAAAA; margin-top: 2px; flex-shrink: 0; width: 16px; }
+.es-option.selected .es-option-marker { color: #1A1A18; }
+.es-option-text { font-size: 1.0rem; line-height: 1.55; color: #2A2A26; }
+.es-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 32px; }
+.es-btn { font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; padding: 11px 24px; border: 0.5px solid; cursor: pointer; transition: background 0.15s, color 0.15s; -webkit-appearance: none; }
+.es-btn-primary { background: #1A1A18; color: #F7F5F0; border-color: #1A1A18; }
+.es-btn-primary:hover { background: #333330; }
+.es-btn-primary:disabled { opacity: 0.35; cursor: default; }
+.es-btn-ghost { background: transparent; color: #888880; border-color: #C8C4BA; }
+.es-btn-ghost:hover { color: #1A1A18; border-color: #888880; }
+.es-results { display: none; }
+.es-score-block { padding: 40px; background: #1A1A18; margin-bottom: 40px; text-align: center; }
+.es-score-number { font-size: 5rem; font-weight: 400; color: #F7F5F0; line-height: 1; letter-spacing: -0.03em; margin-bottom: 8px; }
+.es-score-denom { font-size: 1.5rem; color: #888880; }
+.es-score-band { font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-top: 12px; }
+.es-score-band-label { color: #F7F5F0; font-size: 1.0rem; font-family: Georgia, serif; font-style: italic; margin-top: 6px; }
+.es-radar-wrap { margin-bottom: 40px; padding: 32px; background: #FDFCF9; border: 0.5px solid #C8C4BA; }
+.es-radar-title { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-bottom: 24px; }
+.es-dimension-bars { display: flex; flex-direction: column; gap: 14px; }
+.es-dim-row { display: grid; grid-template-columns: 160px 1fr 36px; gap: 12px; align-items: center; }
+.es-dim-label { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #888880; }
+.es-dim-bar-bg { height: 4px; background: #E0DDD6; }
+.es-dim-bar-fill { height: 100%; background: #1A1A18; transition: width 0.6s ease; }
+.es-dim-score { font-family: 'Courier New', monospace; font-size: 9px; color: #888880; text-align: right; }
+.es-section-rule { display: flex; align-items: center; gap: 16px; margin: 40px 0 24px; }
+.es-section-label { font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #c8a96e; font-weight: 700; white-space: nowrap; }
+.es-rule { flex: 1; height: 0.5px; background: #C8C4BA; }
+.es-finding { padding: 24px 28px; background: #FDFCF9; border: 0.5px solid #C8C4BA; border-left: 2px solid #1A1A18; margin-bottom: 12px; }
+.es-finding-label { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 8px; }
+.es-finding-text { font-size: 1.0rem; line-height: 1.7; color: #2A2A26; }
+.es-dim-block { padding: 24px 28px; background: #FDFCF9; border: 0.5px solid #C8C4BA; margin-bottom: 12px; }
+.es-dim-block.weakest { border-left: 2px solid #c8a96e; background: #F7F4EC; }
+.es-dim-block-eyebrow { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #c8a96e; font-weight: 700; margin-bottom: 8px; }
+.es-dim-block-label { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 10px; }
+.es-dim-block.weakest .es-dim-block-label { color: #1A1A18; }
+.es-dim-block-narrative { font-size: 1.0rem; line-height: 1.75; color: #2A2A26; margin-bottom: 12px; }
+.es-dim-block-rec { font-size: 0.95rem; line-height: 1.65; color: #555550; font-style: italic; padding-top: 10px; border-top: 0.5px solid #E0DDD6; }
+.es-dim-block-rec-label { font-style: normal; font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #888880; }
+.es-dim-block-case { font-size: 0.9rem; line-height: 1.65; color: #555550; font-style: italic; padding-top: 10px; margin-top: 10px; border-top: 0.5px solid #E0DDD6; }
+.es-dim-block-case a { font-style: normal; color: #1A1A18; text-decoration: none; border-bottom: 0.5px solid #c8a96e; padding-bottom: 1px; }
+.es-dim-block-case a:hover { border-bottom-color: #1A1A18; }
+.es-industry-text { font-size: 1.0rem; line-height: 1.75; color: #2A2A26; padding: 24px 28px; background: #FDFCF9; border: 0.5px solid #C8C4BA; }
+.es-delta-block { padding: 32px 36px; background: #F2F0EB; border: 0.5px solid #C8C4BA; margin-bottom: 32px; }
+.es-delta-label { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-bottom: 14px; }
+.es-delta-headline { font-size: 1.25rem; font-weight: 400; color: #1A1A18; line-height: 1.4; letter-spacing: -0.01em; margin-bottom: 14px; font-style: italic; }
+.es-delta-body { font-size: 1.0rem; line-height: 1.8; color: #2A2A26; margin-bottom: 14px; }
+.es-delta-body:last-child { margin-bottom: 0; }
+.es-email-block { padding: 28px 32px; background: #FDFCF9; border: 0.5px solid #C8C4BA; margin-bottom: 32px; }
+.es-email-label { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-bottom: 8px; }
+.es-email-headline { font-size: 1.15rem; font-weight: 400; color: #1A1A18; line-height: 1.4; letter-spacing: -0.01em; margin-bottom: 8px; }
+.es-email-sub { font-size: 0.95rem; color: #555550; font-style: italic; margin-bottom: 16px; line-height: 1.6; }
+.es-email-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.es-email-input { flex: 1; min-width: 200px; font-family: Georgia, serif; font-size: 1.0rem; color: #1A1A18; background: #F7F5F0; border: 0.5px solid #C8C4BA; padding: 10px 14px; box-sizing: border-box; -webkit-appearance: none; }
+.es-email-input:focus { outline: none; border-color: #888880; }
+.es-email-input::placeholder { color: #AAAAAA; font-style: italic; }
+.es-email-btn { font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; background: #1A1A18; color: #F7F5F0; border: 0.5px solid #1A1A18; padding: 10px 20px; cursor: pointer; white-space: nowrap; transition: background 0.15s; -webkit-appearance: none; }
+.es-email-btn:hover { background: #333330; }
+.es-email-confirm { display: none; font-size: 0.9rem; color: #555550; font-style: italic; margin-top: 10px; }
+.es-cta-block { padding: 36px 40px; background: #FDFCF9; border: 1px solid #c8a96e; margin-bottom: 32px; }
+.es-cta-credential { font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; text-align: center; padding-bottom: 20px; margin-bottom: 24px; border-bottom: 0.5px solid #E0DDD6; }
+.es-cta-credential span { color: #1A1A18; }
+.es-cta-label { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #c8a96e; font-weight: 700; margin-bottom: 12px; }
+.es-cta-headline { font-size: 1.4rem; font-weight: 400; color: #1A1A18; margin-bottom: 10px; line-height: 1.4; letter-spacing: -0.01em; }
+.es-cta-sub { font-size: 1.0rem; color: #2A2A26; margin-bottom: 20px; line-height: 1.7; }
+.es-cta-btn { display: inline-block; font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #1A1A18; background: #c8a96e; border: 0.5px solid #c8a96e; padding: 14px 30px; text-decoration: none; cursor: pointer; transition: background 0.15s; margin-bottom: 16px; }
+.es-cta-btn:hover { background: #b8975c; }
+.es-cta-guarantee { font-size: 0.88rem; color: #555550; font-style: italic; line-height: 1.6; padding-top: 16px; border-top: 0.5px solid #E0DDD6; }
+.es-cta-guarantee-label { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #888880; font-style: normal; display: block; margin-bottom: 4px; }
+.es-trust-headline { font-size: 1.6rem; font-weight: 400; color: #1A1A18; line-height: 1.35; letter-spacing: -0.01em; margin-bottom: 16px; }
+.es-trust-body { font-size: 1.05rem; line-height: 1.78; color: #2A2A26; margin-bottom: 20px; }
+.es-trust-action { padding: 24px 28px; background: #FDFCF9; border: 0.5px solid #C8C4BA; margin-bottom: 12px; }
+.es-trust-action-label { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 8px; }
+.es-trust-action-text { font-size: 1.0rem; line-height: 1.65; color: #2A2A26; margin-bottom: 8px; }
+.es-trust-action a { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #1A1A18; text-decoration: none; border-bottom: 0.5px solid #C8C4BA; padding-bottom: 1px; }
+.es-trust-action a:hover { border-bottom-color: #1A1A18; }
+.es-soft-cta { margin-top: 32px; font-size: 0.9rem; color: #888880; font-style: italic; text-align: center; }
+.es-soft-cta a { color: #888880; text-decoration: none; border-bottom: 0.5px solid #C8C4BA; }
+.es-footer { margin-top: 56px; padding-top: 28px; border-top: 0.5px solid #C8C4BA; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.es-footer a { font-family: Georgia, serif; font-size: 0.95rem; color: #888880; text-decoration: none; border-bottom: 0.5px solid transparent; transition: color 0.15s, border-color 0.15s; }
+.es-footer a:hover { color: #1A1A18; border-bottom-color: #888880; }
+@media screen and (max-width: 767px) {
+.es-root { padding: 48px 24px 64px; }
+.es-title { font-size: 1.9rem; }
+.es-q-text { font-size: 1.2rem; }
+.es-score-number { font-size: 3.5rem; }
+.es-dim-row { grid-template-columns: 120px 1fr 28px; }
+.es-cta-block { padding: 24px; }
+.es-email-row { flex-direction: column; }
+}
+
+.es-root { padding-top:48px; padding-right:0; padding-left:0; max-width:780px; width:100%; }
+
+@media screen and (max-width: 767px) { .es-root { padding-top:32px; } }

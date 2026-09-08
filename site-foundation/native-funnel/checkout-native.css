@@ -1,0 +1,176 @@
+.ec-root{
+    font-family: Georgia, serif;
+    background: #F7F5F0;
+    color: #1A1A18;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 72px 40px 80px;
+    box-sizing: border-box;
+  }
+.ec-masthead{
+    margin-bottom: 40px;
+    padding-bottom: 32px;
+    border-bottom: 0.5px solid #C8C4BA;
+  }
+.ec-label{
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    margin-bottom: 16px;
+  }
+.ec-title{
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin: 0 0 12px 0;
+    color: #1A1A18;
+  }
+.ec-subtitle{
+    font-size: 1.0rem;
+    color: #555550;
+    line-height: 1.65;
+    font-style: italic;
+    margin: 0;
+  }
+.ec-score-block{
+    display: none;
+    padding: 24px 28px;
+    background: #1A1A18;
+    margin-bottom: 32px;
+  }
+.ec-score-row{
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+.ec-score-number{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #F7F5F0;
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+.ec-score-denom{
+    font-size: 1.2rem;
+    color: #888880;
+  }
+.ec-score-band{
+    font-family: 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    margin-bottom: 8px;
+  }
+.ec-score-weakest{
+    font-size: 0.95rem;
+    color: #F7F5F0;
+    font-style: italic;
+    line-height: 1.6;
+  }
+.ec-included{
+    padding: 28px 32px;
+    background: #FDFCF9;
+    border: 0.5px solid #C8C4BA;
+    margin-bottom: 32px;
+  }
+.ec-included-label{
+    font-family: 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #888880;
+    margin-bottom: 16px;
+  }
+.ec-calibration{
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 0.5px solid #E0DDD6;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: #555550;
+    font-style: italic;
+  }
+.ec-terms{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+  }
+.ec-term{
+    font-family: 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+  }
+.ec-cta-wrap{
+    margin-bottom: 24px;
+  }
+.ec-cta-btn{
+    display: block;
+    width: 100%;
+    padding: 18px 28px;
+    background: #1A1A18;
+    color: #F7F5F0;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.15s;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+  }
+.ec-loading{
+    display: none;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    margin-top: 12px;
+  }
+.ec-error{
+    display: none;
+    font-size: 0.9rem;
+    color: #9A3B2A;
+    font-style: italic;
+    margin-top: 12px;
+    line-height: 1.6;
+  }
+.ec-trust{
+    font-size: 0.9rem;
+    color: #888880;
+    font-style: italic;
+    line-height: 1.65;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.ec-divider{
+    height: 0.5px;
+    background: #C8C4BA;
+    margin: 40px 0;
+  }
+.ec-back{
+    font-family: 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    text-decoration: none;
+    border-bottom: 0.5px solid #C8C4BA;
+    padding-bottom: 1px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+@media screen and (max-width: 767px){.ec-root{ padding: 48px 24px 64px; }
+.ec-title{ font-size: 1.8rem; }}
+.ec-root{ padding-top:48px; padding-right:0; padding-left:0; max-width:780px; width:100%; }
+@media screen and (max-width: 767px){.ec-root{ padding-top:32px; }}

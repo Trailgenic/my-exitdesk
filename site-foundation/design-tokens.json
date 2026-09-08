@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "colors": {
+    "paper": "#F7F5F0",
+    "ink": "#1A1A18",
+    "muted": "#5C5C54",
+    "line": "#CEC9BC",
+    "gold": "#79602E",
+    "forest": "#173D34",
+    "white": "#FFFFFF"
+  },
+  "layout": {
+    "canvas": "1160px",
+    "reading": "740px"
+  },
+  "typography": {
+    "display": "EB Garamond, Georgia, serif",
+    "body": "Arial, sans-serif",
+    "label": "DM Mono, monospace"
+  }
+}

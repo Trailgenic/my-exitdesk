@@ -1,0 +1,85 @@
+{
+  "id": "integration-continuity",
+  "slug": "after-the-deal-keep-the-business-working",
+  "name": "After the Deal: Keep the Business Working",
+  "format": "Handbook",
+  "topic": "integration",
+  "version": "0.2-draft",
+  "status": "draft",
+  "contentReviewedAt": null,
+  "publicationDate": null,
+  "summary": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings.",
+  "decision": "What must keep working, what should change, and who is responsible for the handover?",
+  "sourcePrinciples": [
+    "protect-revenue-integrate-cost",
+    "transferability",
+    "replicate-the-financials",
+    "buyer-keeps-synergy",
+    "use-contingency-for-alignment",
+    "survive-the-downside",
+    "unknowns-are-findings",
+    "decision-not-description"
+  ],
+  "sections": [
+    {
+      "heading": "Start here: choose the work you cannot interrupt",
+      "html": "<p>Start with a customer promise, not an organisation chart. Choose a few activities that must keep working through the handover: taking an order, delivering the service, supporting the customer, sending the invoice and collecting payment.</p><p>For each activity, name the current owner, the person taking responsibility after close, and the people or systems that could interrupt it. A workflow is simply the sequence of work and decisions needed to produce that result.</p><p><strong>Your first useful output:</strong> a short list of what must continue, the changes being proposed, and the conditions each change must meet before it happens. Expand it as the team learns more.</p>"
+    },
+    {
+      "heading": "Put the guide to work",
+      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx\">Download the editable Excel working pack</a> · XLSX · Draft 0.1</p><p>Open Start Here, then use Day 1, Change Tracker and Savings Tracker. The workbook includes plain-language prompts, status dropdowns and blank working areas. Twenty rows are provided in each working tracker; copy the pack for another workstream.</p><p>The worked example is fictional and stays on the instruction tab. Your entries stay in your copy of the workbook; no macros or external workbook links are included.</p>"
+    },
+    {
+      "heading": "1. Protect revenue while integrating cost",
+      "html": "<p>This is a central rule in Mike’s acquisition doctrine. Move carefully around the people, relationships and capabilities that keep customers buying. Support functions may offer earlier opportunities to combine work, but first check what depends on them.</p><p>For example, a billing system looks like back-office infrastructure until changing it stops invoices or customer access. A planned saving is not a saving if it disrupts the revenue needed to pay for the deal.</p><ul><li><strong>Preserve for now:</strong> customer relationships, specialist delivery work and capabilities central to the purchase.</li><li><strong>Combine when ready:</strong> duplicated support work with a tested handover and clear accountability.</li><li><strong>Pause or redesign:</strong> changes whose dependencies, ownership or effect on customers remain unclear.</li></ul><p>These are working choices, not permanent labels. Revisit them when the evidence changes.</p>"
+    },
+    {
+      "heading": "2. Bring diligence findings into the operating plan",
+      "html": "<p>Every material diligence issue should have a receiving owner after the deal. “Integration will handle it” is not a plan.</p><ul><li>A key customer relies on the founder: agree introductions, transition coverage and responsibility for the relationship.</li><li>One employee holds critical know-how: test a backup and make the handover part of the retention conversation.</li><li>A supplier or licence needs consent: name the person obtaining it and the operating contingency if it is delayed.</li><li>Reported profit depends on an add-back: identify whether the cost actually disappears and when.</li><li>A workflow uses third-party data: confirm permitted use before sharing it with new teams or an AI provider.</li></ul><p>Before close, plan within the agreed access and approval arrangements. Record activities that depend on completion of the transaction or professional review; do not treat planning access as operating control.</p>"
+    },
+    {
+      "heading": "3. Make Day 1 a continuity check",
+      "html": "<p>Day 1 is the first operating day under the new ownership. Use the list below to establish who will respond if the business cannot perform its ordinary work.</p><ul><li><strong>Customers:</strong> contacts know who handles urgent questions, renewals, service problems and unusual commitments.</li><li><strong>Employees:</strong> people know their manager, immediate responsibilities and where to ask questions.</li><li><strong>Cash:</strong> payroll, supplier payments, invoicing, collections and approval responsibilities are covered.</li><li><strong>Access:</strong> essential systems, user permissions, support contacts and recovery arrangements are ready.</li><li><strong>Agreements:</strong> required consents and transition obligations have an owner and a documented status.</li><li><strong>Decisions:</strong> the team knows who can approve an exception and who can stop a risky change.</li></ul><p>For any incomplete item, write down the temporary arrangement, accountable person and expiry date. “In progress” does not explain how the business will operate tomorrow.</p>"
+    },
+    {
+      "heading": "4. Test a change before making it the only way to work",
+      "html": "<p>For each proposed system or process change, ask the team to demonstrate a normal transaction and a difficult exception. Test with authorised data and appropriate access. Include the people who will actually do the work.</p><ul><li>What is changing, and why is it worth changing?</li><li>Who or what relies on the current process?</li><li>What must be true before the team switches over?</li><li>What will show that the new process works?</li><li>Who can pause the change, and what is the fallback?</li><li>When will the old process be retired, and who signs off?</li></ul><p>A cutover is the moment work moves to the new process or system. Choose that moment based on readiness and business needs. If invoicing, delivery or service quality deteriorates, pause and investigate instead of declaring the project complete because the system launched.</p>"
+    },
+    {
+      "heading": "5. Keep the results visible",
+      "html": "<p>Mike’s doctrine allows a standalone operating view for up to six months when it helps with transition or earnout measurement. That is an optional reporting approach, not a rule to postpone integration for six months.</p><p>Keep enough visibility to tell the difference between the acquired business’s performance, a change in accounting, a one-time integration cost and a buyer-created improvement. Otherwise the team can appear to meet a target by moving costs between reporting lines.</p><p>An earnout is part of the purchase price paid later if agreed targets are met. Where one exists, keep the performance definitions, accounting policies and responsibilities clear. Mike’s preference is to use it when the continuing seller can influence the result. Changes to responsibilities and measures need deliberate agreement, not an assumption that everyone means the same thing.</p>"
+    },
+    {
+      "heading": "6. Make each synergy earn its place",
+      "html": "<p>A synergy is an improvement made possible by combining the businesses. Separate the seller’s standalone results from what the buyer plans to create. Mike’s position is that buyer-specific synergy does not increase the seller’s standalone value: the buyer funds it, executes it and bears the risk.</p><p>For every proposed improvement, capture:</p><ul><li><strong>Starting point:</strong> the current cost or performance, with supporting records.</li><li><strong>Action:</strong> the actual work that changes the result.</li><li><strong>Owner:</strong> one person accountable for delivery.</li><li><strong>Timing and cost:</strong> when the benefit begins, one-time spending and ongoing replacement costs.</li><li><strong>Dependencies:</strong> permissions, people, systems or other changes required first.</li><li><strong>Proof:</strong> how finance will verify the benefit without double-counting it.</li><li><strong>Customer impact:</strong> the signal that would cause the team to pause.</li></ul><p>If revenue falls or costs run ahead of plan, update the downside and cash needs. Do not preserve the acquisition case by leaving yesterday’s assumptions in the model.</p>"
+    },
+    {
+      "heading": "A worked example: combining billing",
+      "html": "<p><strong>Illustrative example, not a Mike Ye transaction.</strong> Two companies can save money by using one billing platform. The acquired company, however, has several customers with unusual approval steps. Moving them into the standard process could delay invoices and collections.</p><p>Keep the customer-facing work running while the team documents those exceptions. Test a normal invoice, an exception and a correction in the new process. Agree who approves the switch and what happens if invoices fail. Count the saving after the old costs stop and the new ongoing costs are included—not when the migration project is announced.</p>"
+    },
+    {
+      "heading": "Copy this handover note",
+      "html": "<ul><li><strong>Customer promise or business activity:</strong> ___</li><li><strong>Current owner / receiving owner:</strong> ___ / ___</li><li><strong>People, systems and agreements required:</strong> ___</li><li><strong>What stays the same for now:</strong> ___</li><li><strong>Proposed change and reason:</strong> ___</li><li><strong>Evidence required before the switch:</strong> ___</li><li><strong>Approver / target date:</strong> ___ / ___</li><li><strong>Warning signal and person who can pause:</strong> ___</li><li><strong>Fallback and customer communication:</strong> ___</li><li><strong>Result after the change and follow-up date:</strong> ___</li></ul>"
+    },
+    {
+      "heading": "Run a short weekly working meeting",
+      "html": "<p>This suggested cadence is a practical way to apply the principles. Review customer and revenue problems first, then cash, people and systems, then the planned improvements. Ask what changed since last week, what needs a decision, and who will act by when.</p><p>Mark work complete when it has been demonstrated, the receiving owner accepts it and the result can be checked. A green status box is not evidence. Keep unresolved decisions visible and carry them into the next meeting.</p><p><strong>A useful first-100-days plan</strong> is a sequence of these owned decisions and tested changes. It is not a requirement to force every customer, team and system onto the same timetable.</p>"
+    }
+  ],
+  "sourceNotes": "<p>Draft 0.2 · Prepared for Mike Ye’s editorial review. Adapted from Mike’s documented acquisition principles. The working notes, suggested cadence and illustrative examples are new editorial applications, not interview quotations.</p><p>Related reading: <a href=\"https://www.mikeye.com/intelligence\">Mike’s decision frameworks</a>. Mike’s selected transactions appear on <a href=\"https://www.mikeye.com/about\">About Mike</a>; <a href=\"https://www.mikeye.com/about/record\">PMC mastheads</a> document his title and tenure.</p>",
+  "download": {
+    "filename": "MikeYe-Integration-Working-Pack.xlsx",
+    "repositoryPath": "public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+    "sha256": "26437d4e0830ffcda040523d103418f43393b9a79c31d83f1565dfb480d0b89c",
+    "bytes": 17836,
+    "sheets": [
+      "Start Here",
+      "Day 1",
+      "Change Tracker",
+      "Savings Tracker"
+    ],
+    "version": "0.1-draft",
+    "downloadVerified": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "verifiedOn": "2026-09-07",
+  "sourceCommit": "335b47a0dfac53743a8c29db3ec2afae2d2ee854",
+  "workbooks": [
+    {
+      "filename": "MikeYe-Diligence-Working-Pack.xlsx",
+      "repositoryPath": "public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+      "sha256": "3750261d781aee91aa7125ab512cd4308fe434be0ef95d22fe3645651927dfbc",
+      "bytes": 15187,
+      "sheets": [
+        "Start Here",
+        "Diligence Checklist",
+        "Follow One Sale",
+        "Issue Log"
+      ],
+      "downloadStatus": 200,
+      "downloadBytesMatch": true
+    },
+    {
+      "filename": "MikeYe-Integration-Working-Pack.xlsx",
+      "repositoryPath": "public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+      "sha256": "26437d4e0830ffcda040523d103418f43393b9a79c31d83f1565dfb480d0b89c",
+      "bytes": 17836,
+      "sheets": [
+        "Start Here",
+        "Day 1",
+        "Change Tracker",
+        "Savings Tracker"
+      ],
+      "downloadStatus": 200,
+      "downloadBytesMatch": true
+    }
+  ],
+  "cms": [
+    {
+      "bodyMatches": true,
+      "canonicalURL": null,
+      "downloadMatches": true,
+      "id": "6a9f2af7de5d336681b4b4d0",
+      "isDraft": true,
+      "reviewedDate": null,
+      "sourceNotesMatch": true,
+      "version": "0.2-draft"
+    },
+    {
+      "bodyMatches": true,
+      "canonicalURL": null,
+      "downloadMatches": true,
+      "id": "6a9f2af7de5d336681b4b4ce",
+      "isDraft": true,
+      "reviewedDate": null,
+      "sourceNotesMatch": true,
+      "version": "0.2-draft"
+    }
+  ],
+  "library": {
+    "pageId": "6a9f20d0a616017e7bdf9a95",
+    "downloadLinkElements": [
+      "71fd7a4d-98f6-67b2-ad96-86bab3d56d79",
+      "7d730ffc-9a2e-6668-56fa-04bf37760f4e"
+    ],
+    "linksReadBack": true
+  },
+  "verification": {
+    "allEightSheetsVisuallyReviewed": true,
+    "formulaBehaviorChecksPassed": true,
+    "zeroFormulaErrors": true,
+    "noMacros": true,
+    "noExternalWorkbookLinks": true,
+    "publicInventoryRemainsSixExistingResources": true
+  },
+  "webflowAssetAttempt": {
+    "uploadStatus": 403,
+    "unusedMetadataIds": [
+      "6a9f318430a4392d395ff961",
+      "6a9f318508509c4e04c9e9c9"
+    ],
+    "retriedDeniedUploads": false,
+    "linkedAnywhere": false,
+    "resolution": "Versioned workbook files saved in the existing public GitHub repository; commit-pinned public downloads returned HTTP 200 and matched their SHA-256 hashes."
+  },
+  "publication": {
+    "webflowPublished": false,
+    "productionMerged": false,
+    "workbookDownloadsAccessible": true,
+    "handbooksRemainDraft": true
+  }
+}

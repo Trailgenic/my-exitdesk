@@ -14,6 +14,7 @@ const ALLOWED_ORIGINS = [
   "https://www.mikeye.com",
   "https://mikeye.com",
   "https://mikeye.webflow.io",
+  "https://mike-ye.webflow.io",
 ];
 
 function corsHeaders(origin: string | null) {

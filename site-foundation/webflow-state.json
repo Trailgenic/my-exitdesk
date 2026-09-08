@@ -1,0 +1,711 @@
+{
+  "checkedAt": "2026-09-07",
+  "siteId": "69499e76d9c11f22288abc28",
+  "draft": {
+    "id": "6a9f1608e824c600831d2eaf",
+    "slug": "rebuild-foundation",
+    "isDraft": true,
+    "includeInSitemap": false,
+    "robots": "noindex,nofollow"
+  },
+  "components": [
+    {
+      "instanceId": "b112e070-bb14-3d74-a1c8-697be512cb01",
+      "componentId": "f07efd16-1738-4b42-506a-2a87fbe66e2a",
+      "name": "MY Authority Header v1",
+      "props": []
+    },
+    {
+      "instanceId": "4472e03b-3a96-9499-7701-a15c8dd9bdc8",
+      "componentId": "8cca3d98-0cb0-3861-2fc6-9f22d7ff87f2",
+      "name": "MY Resource Card v1",
+      "props": [
+        {
+          "hasOverride": false,
+          "name": "Format",
+          "propId": "8cc760bb-3937-23ff-52b3-58114b9345c2",
+          "value": "Tool"
+        },
+        {
+          "hasOverride": false,
+          "name": "Title",
+          "propId": "6fbe8c6c-9f65-f83b-f79f-73ce1ff4ac49",
+          "value": "Business valuation scenarios"
+        },
+        {
+          "hasOverride": false,
+          "name": "Summary",
+          "propId": "89afe9a9-0853-e4ac-52c1-8f7fea9a5f1f",
+          "value": "Explore the existing Exit Desk calculator and its indicative positioning scenarios."
+        },
+        {
+          "hasOverride": false,
+          "name": "Link label",
+          "propId": "cbd21e6c-9b43-63ea-a797-ce16fb6e72a9",
+          "value": "Explore Business valuation scenarios →"
+        },
+        {
+          "hasOverride": false,
+          "name": "Canonical resource URL",
+          "propId": "3641f4d1-851e-3cf5-65eb-49a8738b71e8",
+          "value": {
+            "mode": "url",
+            "to": "https://www.mikeye.com/exit/valuation"
+          }
+        }
+      ]
+    },
+    {
+      "instanceId": "f18c3cf7-7a34-1417-1da4-e83e3886ca43",
+      "componentId": "8cca3d98-0cb0-3861-2fc6-9f22d7ff87f2",
+      "name": "MY Resource Card v1",
+      "props": [
+        {
+          "hasOverride": true,
+          "name": "Format",
+          "propId": "8cc760bb-3937-23ff-52b3-58114b9345c2",
+          "value": "Framework"
+        },
+        {
+          "hasOverride": true,
+          "name": "Title",
+          "propId": "6fbe8c6c-9f65-f83b-f79f-73ce1ff4ac49",
+          "value": "The five decision frames"
+        },
+        {
+          "hasOverride": true,
+          "name": "Summary",
+          "propId": "89afe9a9-0853-e4ac-52c1-8f7fea9a5f1f",
+          "value": "Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions."
+        },
+        {
+          "hasOverride": true,
+          "name": "Link label",
+          "propId": "cbd21e6c-9b43-63ea-a797-ce16fb6e72a9",
+          "value": "Explore The five decision frames →"
+        },
+        {
+          "hasOverride": true,
+          "name": "Canonical resource URL",
+          "propId": "3641f4d1-851e-3cf5-65eb-49a8738b71e8",
+          "value": {
+            "mode": "url",
+            "to": "https://www.mikeye.com/intelligence"
+          }
+        }
+      ]
+    },
+    {
+      "instanceId": "d89b73a0-0202-78ee-321e-c15aeb271f02",
+      "componentId": "8cca3d98-0cb0-3861-2fc6-9f22d7ff87f2",
+      "name": "MY Resource Card v1",
+      "props": [
+        {
+          "hasOverride": true,
+          "name": "Format",
+          "propId": "8cc760bb-3937-23ff-52b3-58114b9345c2",
+          "value": "Case study"
+        },
+        {
+          "hasOverride": true,
+          "name": "Title",
+          "propId": "6fbe8c6c-9f65-f83b-f79f-73ce1ff4ac49",
+          "value": "BuzzAngle Music"
+        },
+        {
+          "hasOverride": true,
+          "name": "Summary",
+          "propId": "89afe9a9-0853-e4ac-52c1-8f7fea9a5f1f",
+          "value": "A strategic investment in music data, viewed through competitive position and capability."
+        },
+        {
+          "hasOverride": true,
+          "name": "Link label",
+          "propId": "cbd21e6c-9b43-63ea-a797-ce16fb6e72a9",
+          "value": "Explore BuzzAngle Music →"
+        },
+        {
+          "hasOverride": true,
+          "name": "Canonical resource URL",
+          "propId": "3641f4d1-851e-3cf5-65eb-49a8738b71e8",
+          "value": {
+            "mode": "url",
+            "to": "https://www.mikeye.com/exit/articles/buzzangle-case-study"
+          }
+        }
+      ]
+    },
+    {
+      "instanceId": "7868556f-c57f-affd-656e-3aa04495e7d0",
+      "componentId": "8cca3d98-0cb0-3861-2fc6-9f22d7ff87f2",
+      "name": "MY Resource Card v1",
+      "props": [
+        {
+          "hasOverride": true,
+          "name": "Format",
+          "propId": "8cc760bb-3937-23ff-52b3-58114b9345c2",
+          "value": "Case study"
+        },
+        {
+          "hasOverride": true,
+          "name": "Title",
+          "propId": "6fbe8c6c-9f65-f83b-f79f-73ce1ff4ac49",
+          "value": "Sourcing Journal"
+        },
+        {
+          "hasOverride": true,
+          "name": "Summary",
+          "propId": "89afe9a9-0853-e4ac-52c1-8f7fea9a5f1f",
+          "value": "Founder clarity, partner alignment, and the timing of a capability acquisition."
+        },
+        {
+          "hasOverride": true,
+          "name": "Link label",
+          "propId": "cbd21e6c-9b43-63ea-a797-ce16fb6e72a9",
+          "value": "Explore Sourcing Journal →"
+        },
+        {
+          "hasOverride": true,
+          "name": "Canonical resource URL",
+          "propId": "3641f4d1-851e-3cf5-65eb-49a8738b71e8",
+          "value": {
+            "mode": "url",
+            "to": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study"
+          }
+        }
+      ]
+    },
+    {
+      "instanceId": "fcf21d4d-aef9-1a55-c28f-b5bdcecec903",
+      "componentId": "8cca3d98-0cb0-3861-2fc6-9f22d7ff87f2",
+      "name": "MY Resource Card v1",
+      "props": [
+        {
+          "hasOverride": true,
+          "name": "Format",
+          "propId": "8cc760bb-3937-23ff-52b3-58114b9345c2",
+          "value": "Case study"
+        },
+        {
+          "hasOverride": true,
+          "name": "Title",
+          "propId": "6fbe8c6c-9f65-f83b-f79f-73ce1ff4ac49",
+          "value": "Long Beach Outpatient Surgery"
+        },
+        {
+          "hasOverride": true,
+          "name": "Summary",
+          "propId": "89afe9a9-0853-e4ac-52c1-8f7fea9a5f1f",
+          "value": "A controlling investment and the operating work behind a multi-specialty expansion."
+        },
+        {
+          "hasOverride": true,
+          "name": "Link label",
+          "propId": "cbd21e6c-9b43-63ea-a797-ce16fb6e72a9",
+          "value": "Explore Long Beach Outpatient Surgery →"
+        },
+        {
+          "hasOverride": true,
+          "name": "Canonical resource URL",
+          "propId": "3641f4d1-851e-3cf5-65eb-49a8738b71e8",
+          "value": {
+            "mode": "url",
+            "to": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study"
+          }
+        }
+      ]
+    },
+    {
+      "instanceId": "23d9d4fc-8a66-2d02-44c3-525af662dfdc",
+      "componentId": "8cca3d98-0cb0-3861-2fc6-9f22d7ff87f2",
+      "name": "MY Resource Card v1",
+      "props": [
+        {
+          "hasOverride": true,
+          "name": "Format",
+          "propId": "8cc760bb-3937-23ff-52b3-58114b9345c2",
+          "value": "Checklist"
+        },
+        {
+          "hasOverride": true,
+          "name": "Title",
+          "propId": "6fbe8c6c-9f65-f83b-f79f-73ce1ff4ac49",
+          "value": "Exit readiness checklist"
+        },
+        {
+          "hasOverride": true,
+          "name": "Summary",
+          "propId": "89afe9a9-0853-e4ac-52c1-8f7fea9a5f1f",
+          "value": "An existing seller-preparation checklist, organized around what buyers will examine."
+        },
+        {
+          "hasOverride": true,
+          "name": "Link label",
+          "propId": "cbd21e6c-9b43-63ea-a797-ce16fb6e72a9",
+          "value": "Explore Exit readiness checklist →"
+        },
+        {
+          "hasOverride": true,
+          "name": "Canonical resource URL",
+          "propId": "3641f4d1-851e-3cf5-65eb-49a8738b71e8",
+          "value": {
+            "mode": "url",
+            "to": "https://www.mikeye.com/exit/articles/exit-readiness-checklist"
+          }
+        }
+      ]
+    },
+    {
+      "instanceId": "ab000720-f40d-d2aa-4377-d9593a162260",
+      "componentId": "54566e88-3170-dd07-ed26-bd9fe09b21dd",
+      "name": "MY Authority Footer v1",
+      "props": []
+    }
+  ],
+  "collections": [
+    {
+      "id": "6a9f168391744e4c67910a09",
+      "label": "Verify draft topics",
+      "count": 10,
+      "allDraft": true,
+      "items": [
+        {
+          "id": "6a9f1878f05b49301190ceec",
+          "slug": "strategic-finance",
+          "isDraft": true,
+          "canonicalUrl": null
+        },
+        {
+          "id": "6a9f1878f05b49301190ceea",
+          "slug": "divestitures",
+          "isDraft": true,
+          "canonicalUrl": null
+        },
+        {
+          "id": "6a9f1878f05b49301190cee8",
+          "slug": "integration",
+          "isDraft": true,
+          "canonicalUrl": null
+        },
+        {
+          "id": "6a9f1878f05b49301190cee6",
+          "slug": "synergies",
+          "isDraft": true,
+          "canonicalUrl": null
+        },
+        {
+          "id": "6a9f1878f05b49301190cee4",
+          "slug": "due-diligence",
+          "isDraft": true,
+          "canonicalUrl": null
+        },
+        {
+          "id": "6a9f1878f05b49301190cee2",
+          "slug": "deal-structure",
+          "isDraft": true,
+          "canonicalUrl": null
+        },
+        {
+          "id": "6a9f1878f05b49301190cee0",
+          "slug": "industry-comps",
+          "isDraft": true,
+          "canonicalUrl": null
+        },
+        {
+          "id": "6a9f1878f05b49301190cede",
+          "slug": "financial-modeling",
+          "isDraft": true,
+          "canonicalUrl": null
+        },
+        {
+          "id": "6a9f1878f05b49301190cedc",
+          "slug": "valuation",
+          "isDraft": true,
+          "canonicalUrl": null
+        },
+        {
+          "id": "6a9f1878f05b49301190ceda",
+          "slug": "corporate-development",
+          "isDraft": true,
+          "canonicalUrl": null
+        }
+      ]
+    },
+    {
+      "id": "6a9f1683bfb97f3c671ae853",
+      "label": "Verify draft resource catalogue",
+      "count": 6,
+      "allDraft": true,
+      "items": [
+        {
+          "id": "6a9f194e9421799357ab09bf",
+          "slug": "exit-readiness-checklist",
+          "isDraft": true,
+          "canonicalUrl": "https://www.mikeye.com/exit/articles/exit-readiness-checklist"
+        },
+        {
+          "id": "6a9f194e9421799357ab09bd",
+          "slug": "long-beach-surgical-case-study",
+          "isDraft": true,
+          "canonicalUrl": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study"
+        },
+        {
+          "id": "6a9f194e9421799357ab09bb",
+          "slug": "sourcing-journal-case-study",
+          "isDraft": true,
+          "canonicalUrl": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study"
+        },
+        {
+          "id": "6a9f194e9421799357ab09b9",
+          "slug": "buzzangle-case-study",
+          "isDraft": true,
+          "canonicalUrl": "https://www.mikeye.com/exit/articles/buzzangle-case-study"
+        },
+        {
+          "id": "6a9f194e9421799357ab09b7",
+          "slug": "decision-frames",
+          "isDraft": true,
+          "canonicalUrl": "https://www.mikeye.com/intelligence"
+        },
+        {
+          "id": "6a9f194e9421799357ab09b5",
+          "slug": "exit-valuation",
+          "isDraft": true,
+          "canonicalUrl": "https://www.mikeye.com/exit/valuation"
+        }
+      ]
+    }
+  ],
+  "schemas": [
+    {
+      "id": "6a9f168391744e4c67910a09",
+      "fields": [
+        {
+          "id": "89e4f3bf56d71e747e44207c3b92e3a3",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "PlainText",
+          "slug": "summary",
+          "displayName": "Summary"
+        },
+        {
+          "id": "47badf3a770577afcc6fa7bea38dd6a6",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "Link",
+          "slug": "canonical-url",
+          "displayName": "Canonical URL"
+        },
+        {
+          "id": "d8490e54592a8c37856316ca7e4e073b",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "Number",
+          "slug": "lifecycle-order",
+          "displayName": "Lifecycle order",
+          "validations": {
+            "format": "integer",
+            "allowNegative": true,
+            "precision": 1
+          }
+        },
+        {
+          "id": "0b91bac13ef1807e1349fcfc7b93b5e0",
+          "isEditable": true,
+          "isRequired": true,
+          "type": "PlainText",
+          "slug": "name",
+          "displayName": "Name",
+          "validations": {
+            "maxLength": 256
+          }
+        },
+        {
+          "id": "0f77e7ee5ac833139e922622ee6dcf12",
+          "isEditable": true,
+          "isRequired": true,
+          "type": "PlainText",
+          "slug": "slug",
+          "displayName": "Slug",
+          "validations": {
+            "maxLength": 256,
+            "pattern": {},
+            "messages": {
+              "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+              "maxLength": "Must be less than 256 characters"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "6a9f1683bfb97f3c671ae853",
+      "fields": [
+        {
+          "id": "c0114ae507fe3125c663eca08c6fb31b",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "PlainText",
+          "slug": "summary",
+          "displayName": "Summary"
+        },
+        {
+          "id": "1cb64d02b115b65725782a58919fce20",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "Option",
+          "slug": "resource-format",
+          "displayName": "Resource format",
+          "validations": {
+            "options": [
+              {
+                "name": "Handbook",
+                "id": "79840366be9ed5167d2ce9a8d92b04c7"
+              },
+              {
+                "name": "Checklist",
+                "id": "360de6e2a9ee62fdeb6f1d99cea98e78"
+              },
+              {
+                "name": "Model",
+                "id": "2ea5ec90df6f00dc1d3059351631f91e"
+              },
+              {
+                "name": "Case study",
+                "id": "f7744fc8581dcdb72acc554a19e50d01"
+              },
+              {
+                "name": "Framework",
+                "id": "1760c31255c4f5d1fd7ee31ba0472f5e"
+              },
+              {
+                "name": "Article",
+                "id": "563a39abe3766ad50038f53e885c1c59"
+              },
+              {
+                "name": "Tool",
+                "id": "1334f0e06adfe630225e49896dbec4ee"
+              }
+            ]
+          }
+        },
+        {
+          "id": "013dc0d726d7ab415cf13344d9d0902b",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "Reference",
+          "slug": "primary-topic",
+          "displayName": "Primary topic",
+          "validations": {
+            "collectionId": "6a9f168391744e4c67910a09"
+          }
+        },
+        {
+          "id": "fee91dd9305154a3cf9419022baf11d2",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "Link",
+          "slug": "canonical-url",
+          "displayName": "Canonical URL"
+        },
+        {
+          "id": "a401b650d23c190bd7e3d6398de906ed",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "RichText",
+          "slug": "methodology",
+          "displayName": "Methodology"
+        },
+        {
+          "id": "29f906731db7925d42ee1db4f4f01b52",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "PlainText",
+          "slug": "decision-answered",
+          "displayName": "Decision answered"
+        },
+        {
+          "id": "ddf8aeeefd23cb5229888a8038be1861",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "RichText",
+          "slug": "judgment-notes",
+          "displayName": "Judgment notes"
+        },
+        {
+          "id": "c3e2154129f5d60cf1982e1060db00de",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "RichText",
+          "slug": "source-notes",
+          "displayName": "Source notes"
+        },
+        {
+          "id": "c42eef468743b3d4a9649436bd3e220e",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "PlainText",
+          "slug": "version",
+          "displayName": "Version"
+        },
+        {
+          "id": "ee8cfc335863497f2a05829345cba356",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "DateTime",
+          "slug": "reviewed-date",
+          "displayName": "Reviewed date",
+          "validations": {
+            "format": "date-time"
+          }
+        },
+        {
+          "id": "fccbbf57423aef8aa2f2d09622c5e8fc",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "PlainText",
+          "slug": "author",
+          "displayName": "Author"
+        },
+        {
+          "id": "57d40e8c117740a6499897d01601c950",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "Link",
+          "slug": "download-url",
+          "displayName": "Download URL"
+        },
+        {
+          "id": "a79b35691d0be3d95095b01bace1eed6",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "PlainText",
+          "slug": "download-rights-note",
+          "displayName": "Download rights note"
+        },
+        {
+          "id": "885474422f6545252e09b497af729cde",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "RichText",
+          "slug": "change-log",
+          "displayName": "Change log"
+        },
+        {
+          "id": "1fb3b603a7b91ea0438f2ea8bc17df5e",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "Switch",
+          "slug": "featured",
+          "displayName": "Featured"
+        },
+        {
+          "id": "7631059b57b68dcaa57e2dab48630905",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "Option",
+          "slug": "editorial-state",
+          "displayName": "Editorial state",
+          "validations": {
+            "options": [
+              {
+                "name": "Planned",
+                "id": "38362697091b6ccf77dbdb7c53bc1804"
+              },
+              {
+                "name": "Draft",
+                "id": "64b0335585497bbf0fa954c711d5aa9b"
+              },
+              {
+                "name": "Verified existing resource",
+                "id": "4fa171d81283cc868bd25a437fdffe49"
+              },
+              {
+                "name": "Ready for publication",
+                "id": "c79727d3406a8cb682d2113ea8cf9ea0"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ebf8af054942e1fee8ad8ad3bc86d1d9",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "MultiReference",
+          "slug": "related-topics",
+          "displayName": "Related topics",
+          "validations": {
+            "collectionId": "6a9f168391744e4c67910a09"
+          }
+        },
+        {
+          "id": "ab7151bf7e56728090390d7682706b50",
+          "isEditable": true,
+          "isRequired": false,
+          "type": "MultiReference",
+          "slug": "related-resources",
+          "displayName": "Related resources",
+          "validations": {
+            "collectionId": "6a9f1683bfb97f3c671ae853"
+          }
+        },
+        {
+          "id": "638cfadd3c10fdce49be0eb39d89f155",
+          "isEditable": true,
+          "isRequired": true,
+          "type": "PlainText",
+          "slug": "name",
+          "displayName": "Name",
+          "validations": {
+            "maxLength": 256
+          }
+        },
+        {
+          "id": "49ce65bedd8042eb6371777bec1299e5",
+          "isEditable": true,
+          "isRequired": true,
+          "type": "PlainText",
+          "slug": "slug",
+          "displayName": "Slug",
+          "validations": {
+            "maxLength": 256,
+            "pattern": {},
+            "messages": {
+              "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+              "maxLength": "Must be less than 256 characters"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "portraitAssetId": "69c5c110700b43ddb283e090",
+  "typography": {
+    "intendedSerif": "EB Garamond",
+    "intendedMono": "DM Mono",
+    "nativeDraftSerif": "Georgia",
+    "nativeDraftMono": "Courier New",
+    "reason": "Preferred web fonts were unavailable through the native builder. No custom fonts installed; page-head external stylesheet write returned HTTP 406 and was not retried.",
+    "publicationGate": "Install approved brand fonts through supported font settings and review render before publishing."
+  },
+  "verification": {
+    "nativeElementCount": 246,
+    "resourceComponentInstances": 6,
+    "noHtmlEmbed": true,
+    "responsiveStyleWritesAccepted": true,
+    "responsiveBreakpoints": [
+      "medium",
+      "small",
+      "tiny"
+    ],
+    "focusStyleWritesAccepted": true,
+    "browserVisualQA": false
+  },
+  "publication": {
+    "performed": false,
+    "existingPagesModified": false,
+    "existingCmsModified": false,
+    "globalCodeModified": false,
+    "existingUserBranchesModified": false
+  }
+}

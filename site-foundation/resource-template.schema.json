@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#webpage",
+      "url": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+      "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+      "description": "{{wf {&quot;path&quot;:&quot;summary&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#resource"
+      },
+      "breadcrumb": {
+        "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#breadcrumbs"
+      }
+    },
+    {
+      "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#resource",
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "description": "{{wf {&quot;path&quot;:&quot;summary&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "learningResourceType": "Practical M&A guide",
+      "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "teaches": "{{wf {&quot;path&quot;:&quot;decision-answered&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+      "url": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+      "version": "{{wf {&quot;path&quot;:&quot;version&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+      "mainEntityOfPage": {
+        "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#webpage"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mikeye.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "M&A Library",
+          "item": "https://www.mikeye.com/m-and-a"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "item": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,611 @@
+<!-- =============================================== -->
+<!-- MikeYe.com — Exit Score Free Diagnostic       -->
+<!-- BODY EMBED — v3.2 (CTA-first ordering)        -->
+<!-- =============================================== -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap');
+.es-root { font-family: 'EB Garamond', Georgia, serif; background: #F7F5F0; color: #1A1A18; max-width: 780px; margin: 0 auto; padding: 72px 40px 80px; box-sizing: border-box; }
+.es-masthead { margin-bottom: 48px; padding-bottom: 36px; border-bottom: 0.5px solid #C8C4BA; }
+.es-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 16px; }
+.es-title { font-size: 2.4rem; font-weight: 400; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 16px 0; color: #1A1A18; }
+.es-subtitle { font-size: 1.05rem; color: #555550; line-height: 1.65; font-style: italic; max-width: 560px; margin: 0; }
+.es-meta { display: flex; gap: 24px; margin-top: 20px; flex-wrap: wrap; }
+.es-meta-item { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #AAAAAA; }
+.es-meta-item span { color: #888880; }
+.es-progress-wrap { margin-bottom: 40px; }
+.es-progress-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #AAAAAA; margin-bottom: 8px; }
+.es-progress-bar { width: 100%; height: 2px; background: #E0DDD6; }
+.es-progress-fill { height: 100%; background: #1A1A18; transition: width 0.3s ease; }
+.es-question { display: none; }
+.es-question.active { display: block; }
+.es-q-number { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #AAAAAA; margin-bottom: 12px; }
+.es-q-text { font-size: 1.4rem; font-weight: 400; line-height: 1.4; color: #1A1A18; margin-bottom: 32px; letter-spacing: -0.01em; }
+.es-options { display: flex; flex-direction: column; gap: 8px; }
+.es-option { display: flex; align-items: flex-start; gap: 14px; padding: 16px 20px; background: #FDFCF9; border: 0.5px solid #C8C4BA; cursor: pointer; transition: border-color 0.15s, background 0.15s; }
+.es-option:hover { border-color: #888880; background: #F7F5F0; }
+.es-option.selected { border-color: #1A1A18; background: #F2F0EB; }
+.es-option-marker { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.10em; color: #AAAAAA; margin-top: 2px; flex-shrink: 0; width: 16px; }
+.es-option.selected .es-option-marker { color: #1A1A18; }
+.es-option-text { font-size: 1.0rem; line-height: 1.55; color: #2A2A26; }
+.es-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 32px; }
+.es-btn { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; padding: 11px 24px; border: 0.5px solid; cursor: pointer; transition: background 0.15s, color 0.15s; -webkit-appearance: none; }
+.es-btn-primary { background: #1A1A18; color: #F7F5F0; border-color: #1A1A18; }
+.es-btn-primary:hover { background: #333330; }
+.es-btn-primary:disabled { opacity: 0.35; cursor: default; }
+.es-btn-ghost { background: transparent; color: #888880; border-color: #C8C4BA; }
+.es-btn-ghost:hover { color: #1A1A18; border-color: #888880; }
+.es-results { display: none; }
+.es-score-block { padding: 40px; background: #1A1A18; margin-bottom: 40px; text-align: center; }
+.es-score-number { font-size: 5rem; font-weight: 400; color: #F7F5F0; line-height: 1; letter-spacing: -0.03em; margin-bottom: 8px; }
+.es-score-denom { font-size: 1.5rem; color: #888880; }
+.es-score-band { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-top: 12px; }
+.es-score-band-label { color: #F7F5F0; font-size: 1.0rem; font-family: 'EB Garamond', serif; font-style: italic; margin-top: 6px; }
+.es-radar-wrap { margin-bottom: 40px; padding: 32px; background: #FDFCF9; border: 0.5px solid #C8C4BA; }
+.es-radar-title { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-bottom: 24px; }
+.es-dimension-bars { display: flex; flex-direction: column; gap: 14px; }
+.es-dim-row { display: grid; grid-template-columns: 160px 1fr 36px; gap: 12px; align-items: center; }
+.es-dim-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #888880; }
+.es-dim-bar-bg { height: 4px; background: #E0DDD6; }
+.es-dim-bar-fill { height: 100%; background: #1A1A18; transition: width 0.6s ease; }
+.es-dim-score { font-family: 'DM Mono', monospace; font-size: 9px; color: #888880; text-align: right; }
+.es-section-rule { display: flex; align-items: center; gap: 16px; margin: 40px 0 24px; }
+.es-section-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #c8a96e; font-weight: 700; white-space: nowrap; }
+.es-rule { flex: 1; height: 0.5px; background: #C8C4BA; }
+.es-finding { padding: 24px 28px; background: #FDFCF9; border: 0.5px solid #C8C4BA; border-left: 2px solid #1A1A18; margin-bottom: 12px; }
+.es-finding-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 8px; }
+.es-finding-text { font-size: 1.0rem; line-height: 1.7; color: #2A2A26; }
+.es-dim-block { padding: 24px 28px; background: #FDFCF9; border: 0.5px solid #C8C4BA; margin-bottom: 12px; }
+.es-dim-block.weakest { border-left: 2px solid #c8a96e; background: #F7F4EC; }
+.es-dim-block-eyebrow { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #c8a96e; font-weight: 700; margin-bottom: 8px; }
+.es-dim-block-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 10px; }
+.es-dim-block.weakest .es-dim-block-label { color: #1A1A18; }
+.es-dim-block-narrative { font-size: 1.0rem; line-height: 1.75; color: #2A2A26; margin-bottom: 12px; }
+.es-dim-block-rec { font-size: 0.95rem; line-height: 1.65; color: #555550; font-style: italic; padding-top: 10px; border-top: 0.5px solid #E0DDD6; }
+.es-dim-block-rec-label { font-style: normal; font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #888880; }
+.es-dim-block-case { font-size: 0.9rem; line-height: 1.65; color: #555550; font-style: italic; padding-top: 10px; margin-top: 10px; border-top: 0.5px solid #E0DDD6; }
+.es-dim-block-case a { font-style: normal; color: #1A1A18; text-decoration: none; border-bottom: 0.5px solid #c8a96e; padding-bottom: 1px; }
+.es-dim-block-case a:hover { border-bottom-color: #1A1A18; }
+.es-industry-text { font-size: 1.0rem; line-height: 1.75; color: #2A2A26; padding: 24px 28px; background: #FDFCF9; border: 0.5px solid #C8C4BA; }
+.es-delta-block { padding: 32px 36px; background: #F2F0EB; border: 0.5px solid #C8C4BA; margin-bottom: 32px; }
+.es-delta-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-bottom: 14px; }
+.es-delta-headline { font-size: 1.25rem; font-weight: 400; color: #1A1A18; line-height: 1.4; letter-spacing: -0.01em; margin-bottom: 14px; font-style: italic; }
+.es-delta-body { font-size: 1.0rem; line-height: 1.8; color: #2A2A26; margin-bottom: 14px; }
+.es-delta-body:last-child { margin-bottom: 0; }
+.es-email-block { padding: 28px 32px; background: #FDFCF9; border: 0.5px solid #C8C4BA; margin-bottom: 32px; }
+.es-email-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #888880; margin-bottom: 8px; }
+.es-email-headline { font-size: 1.15rem; font-weight: 400; color: #1A1A18; line-height: 1.4; letter-spacing: -0.01em; margin-bottom: 8px; }
+.es-email-sub { font-size: 0.95rem; color: #555550; font-style: italic; margin-bottom: 16px; line-height: 1.6; }
+.es-email-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.es-email-input { flex: 1; min-width: 200px; font-family: 'EB Garamond', Georgia, serif; font-size: 1.0rem; color: #1A1A18; background: #F7F5F0; border: 0.5px solid #C8C4BA; padding: 10px 14px; box-sizing: border-box; -webkit-appearance: none; }
+.es-email-input:focus { outline: none; border-color: #888880; }
+.es-email-input::placeholder { color: #AAAAAA; font-style: italic; }
+.es-email-btn { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; background: #1A1A18; color: #F7F5F0; border: 0.5px solid #1A1A18; padding: 10px 20px; cursor: pointer; white-space: nowrap; transition: background 0.15s; -webkit-appearance: none; }
+.es-email-btn:hover { background: #333330; }
+.es-email-confirm { display: none; font-size: 0.9rem; color: #555550; font-style: italic; margin-top: 10px; }
+.es-cta-block { padding: 36px 40px; background: #FDFCF9; border: 1px solid #c8a96e; margin-bottom: 32px; }
+.es-cta-credential { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; text-align: center; padding-bottom: 20px; margin-bottom: 24px; border-bottom: 0.5px solid #E0DDD6; }
+.es-cta-credential span { color: #1A1A18; }
+.es-cta-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #c8a96e; font-weight: 700; margin-bottom: 12px; }
+.es-cta-headline { font-size: 1.4rem; font-weight: 400; color: #1A1A18; margin-bottom: 10px; line-height: 1.4; letter-spacing: -0.01em; }
+.es-cta-sub { font-size: 1.0rem; color: #2A2A26; margin-bottom: 20px; line-height: 1.7; }
+.es-cta-btn { display: inline-block; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #1A1A18; background: #c8a96e; border: 0.5px solid #c8a96e; padding: 14px 30px; text-decoration: none; cursor: pointer; transition: background 0.15s; margin-bottom: 16px; }
+.es-cta-btn:hover { background: #b8975c; }
+.es-cta-guarantee { font-size: 0.88rem; color: #555550; font-style: italic; line-height: 1.6; padding-top: 16px; border-top: 0.5px solid #E0DDD6; }
+.es-cta-guarantee-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #888880; font-style: normal; display: block; margin-bottom: 4px; }
+.es-trust-headline { font-size: 1.6rem; font-weight: 400; color: #1A1A18; line-height: 1.35; letter-spacing: -0.01em; margin-bottom: 16px; }
+.es-trust-body { font-size: 1.05rem; line-height: 1.78; color: #2A2A26; margin-bottom: 20px; }
+.es-trust-action { padding: 24px 28px; background: #FDFCF9; border: 0.5px solid #C8C4BA; margin-bottom: 12px; }
+.es-trust-action-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 8px; }
+.es-trust-action-text { font-size: 1.0rem; line-height: 1.65; color: #2A2A26; margin-bottom: 8px; }
+.es-trust-action a { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase; color: #1A1A18; text-decoration: none; border-bottom: 0.5px solid #C8C4BA; padding-bottom: 1px; }
+.es-trust-action a:hover { border-bottom-color: #1A1A18; }
+.es-soft-cta { margin-top: 32px; font-size: 0.9rem; color: #888880; font-style: italic; text-align: center; }
+.es-soft-cta a { color: #888880; text-decoration: none; border-bottom: 0.5px solid #C8C4BA; }
+.es-footer { margin-top: 56px; padding-top: 28px; border-top: 0.5px solid #C8C4BA; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.es-footer a { font-family: 'EB Garamond', serif; font-size: 0.95rem; color: #888880; text-decoration: none; border-bottom: 0.5px solid transparent; transition: color 0.15s, border-color 0.15s; }
+.es-footer a:hover { color: #1A1A18; border-bottom-color: #888880; }
+@media (max-width: 580px) {
+.es-root { padding: 48px 24px 64px; }
+.es-title { font-size: 1.9rem; }
+.es-q-text { font-size: 1.2rem; }
+.es-score-number { font-size: 3.5rem; }
+.es-dim-row { grid-template-columns: 120px 1fr 28px; }
+.es-cta-block { padding: 24px; }
+.es-email-row { flex-direction: column; }
+}
+</style>
+<div class="es-root">
+<div class="es-masthead">
+<div class="es-label">Exit Desk · Free Assessment</div>
+<h1 class="es-title">How Will a Buyer Value Your Business?</h1>
+<p class="es-subtitle">8 questions. 90 seconds. Buyer-side veteran's lens on what we look for.</p>
+<p class="es-subtitle" style="font-style: normal; font-size: 0.95rem; color: #888880; margin-top: 14px;">Built on 25 years and 75+ transactions of M&A judgment — including the Rolling Stone and Dick Clark's New Year's Rockin' Eve acquisitions.</p>
+<div class="es-meta">
+<div class="es-meta-item">$0 to take<span> Buyer-Lens Audit™ from $199</span></div>
+<div class="es-meta-item">Email required <span>No</span></div>
+</div>
+</div>
+<div id="es-form">
+<div class="es-progress-wrap">
+<div class="es-progress-label">Question <span id="es-q-current">1</span> of 8</div>
+<div class="es-progress-bar"><div class="es-progress-fill" id="es-progress" style="width:12.5%"></div></div>
+</div>
+<div class="es-question active" id="es-q1">
+<div class="es-q-number">Question 1 of 8 · Revenue Quality</div>
+<div class="es-q-text">What is your approximate annual revenue?</div>
+<div class="es-options">
+<div class="es-option" data-q="1" data-v="a" onclick="selectOption(this)"><span class="es-option-marker">A</span><span class="es-option-text">Under $1M</span></div>
+<div class="es-option" data-q="1" data-v="b" onclick="selectOption(this)"><span class="es-option-marker">B</span><span class="es-option-text">$1M – $3M</span></div>
+<div class="es-option" data-q="1" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">$3M – $7M</span></div>
+<div class="es-option" data-q="1" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">$7M – $15M</span></div>
+<div class="es-option" data-q="1" data-v="e" onclick="selectOption(this)"><span class="es-option-marker">E</span><span class="es-option-text">$15M+</span></div>
+</div>
+<div class="es-nav"><span></span><button class="es-btn es-btn-primary" disabled="" id="es-next-1" onclick="nextQ(1)">Next →</button></div>
+</div>
+<div class="es-question" id="es-q2">
+<div class="es-q-number">Question 2 of 8 · Revenue Quality</div>
+<div class="es-q-text">How does most of your revenue come in?</div>
+<div class="es-options">
+<div class="es-option" data-q="2" data-v="a" onclick="selectOption(this)"><span class="es-option-marker">A</span><span class="es-option-text">Recurring contracts or retainers</span></div>
+<div class="es-option" data-q="2" data-v="b" onclick="selectOption(this)"><span class="es-option-marker">B</span><span class="es-option-text">Repeat customers without formal contracts</span></div>
+<div class="es-option" data-q="2" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Project-based or one-time engagements</span></div>
+<div class="es-option" data-q="2" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">Mixed model</span></div>
+</div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(2)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-2" onclick="nextQ(2)">Next →</button></div>
+</div>
+<div class="es-question" id="es-q3">
+<div class="es-q-number">Question 3 of 8 · Founder Dependence</div>
+<div class="es-q-text">If you stepped away completely for 6 months, what happens to revenue?</div>
+<div class="es-options">
+<div class="es-option" data-q="3" data-v="a" onclick="selectOption(this)"><span class="es-option-marker">A</span><span class="es-option-text">Continues largely unchanged</span></div>
+<div class="es-option" data-q="3" data-v="b" onclick="selectOption(this)"><span class="es-option-marker">B</span><span class="es-option-text">Declines slowly — some things depend on me</span></div>
+<div class="es-option" data-q="3" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Declines significantly — key relationships or decisions depend on me</span></div>
+<div class="es-option" data-q="3" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">Effectively stops — I am the business</span></div>
+</div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(3)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-3" onclick="nextQ(3)">Next →</button></div>
+</div>
+<div class="es-question" id="es-q4">
+<div class="es-q-number">Question 4 of 8 · Revenue Quality</div>
+<div class="es-q-text">How concentrated is your customer base?</div>
+<div class="es-options">
+<div class="es-option" data-q="4" data-v="a" onclick="selectOption(this)"><span class="es-option-marker">A</span><span class="es-option-text">No single customer exceeds 10% of revenue</span></div>
+<div class="es-option" data-q="4" data-v="b" onclick="selectOption(this)"><span class="es-option-marker">B</span><span class="es-option-text">Top customer is 10–25% of revenue</span></div>
+<div class="es-option" data-q="4" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Top customer exceeds 25% of revenue</span></div>
+<div class="es-option" data-q="4" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">I'm not sure</span></div>
+</div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(4)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-4" onclick="nextQ(4)">Next →</button></div>
+</div>
+<div class="es-question" id="es-q5">
+<div class="es-q-number">Question 5 of 8 · Founder Dependence</div>
+<div class="es-q-text">How would you describe your management team?</div>
+<div class="es-options">
+<div class="es-option" data-q="5" data-v="a" onclick="selectOption(this)"><span class="es-option-marker">A</span><span class="es-option-text">Strong team that operates independently</span></div>
+<div class="es-option" data-q="5" data-v="b" onclick="selectOption(this)"><span class="es-option-marker">B</span><span class="es-option-text">Capable team that handles daily ops but relies on me for key decisions</span></div>
+<div class="es-option" data-q="5" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">I have staff but no real management layer</span></div>
+<div class="es-option" data-q="5" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">I am the management team</span></div>
+</div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(5)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-5" onclick="nextQ(5)">Next →</button></div>
+</div>
+<div class="es-question" id="es-q6">
+<div class="es-q-number">Question 6 of 8 · Financial Health</div>
+<div class="es-q-text">What is happening with your margins?</div>
+<div class="es-options">
+<div class="es-option" data-q="6" data-v="a" onclick="selectOption(this)"><span class="es-option-marker">A</span><span class="es-option-text">Improving year over year</span></div>
+<div class="es-option" data-q="6" data-v="b" onclick="selectOption(this)"><span class="es-option-marker">B</span><span class="es-option-text">Stable and consistent</span></div>
+<div class="es-option" data-q="6" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Compressing — costs rising faster than revenue</span></div>
+<div class="es-option" data-q="6" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">I don't track this closely</span></div>
+</div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(6)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-6" onclick="nextQ(6)">Next →</button></div>
+</div>
+<div class="es-question" id="es-q7">
+<div class="es-q-number">Question 7 of 8 · Competitive Position</div>
+<div class="es-q-text">What makes this business hard to replicate?</div>
+<div class="es-options">
+<div class="es-option" data-q="7" data-v="a" onclick="selectOption(this)"><span class="es-option-marker">A</span><span class="es-option-text">Long-term customer relationships or brand reputation</span></div>
+<div class="es-option" data-q="7" data-v="b" onclick="selectOption(this)"><span class="es-option-marker">B</span><span class="es-option-text">Proprietary systems, licenses, or regulatory advantages</span></div>
+<div class="es-option" data-q="7" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Specialized team that would be hard to rebuild</span></div>
+<div class="es-option" data-q="7" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">Nothing meaningful — this is a competitive, replicable business</span></div>
+</div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(7)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-7" onclick="nextQ(7)">Next →</button></div>
+</div>
+<div class="es-question" id="es-q8">
+<div class="es-q-number">Question 8 of 8 · Timing Alignment</div>
+<div class="es-q-text">What's driving your interest in an exit?</div>
+<div class="es-options">
+<div class="es-option" data-q="8" data-v="a" onclick="selectOption(this)"><span class="es-option-marker">A</span><span class="es-option-text">Business is strong and timing feels right strategically</span></div>
+<div class="es-option" data-q="8" data-v="b" onclick="selectOption(this)"><span class="es-option-marker">B</span><span class="es-option-text">Ready for the next chapter personally</span></div>
+<div class="es-option" data-q="8" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Facing pressure — health, partnership issues, or market conditions</span></div>
+<div class="es-option" data-q="8" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">Just exploring — want to understand my options</span></div>
+</div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(8)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-8" onclick="showResults()">See My Score →</button></div>
+</div>
+</div>
+<div class="es-results" id="es-results">
+<div class="es-score-block">
+<div class="es-score-number" id="es-score-display">--</div>
+<div class="es-score-denom">/ 100</div>
+<div class="es-score-band" id="es-score-band">--</div>
+<div class="es-score-band-label" id="es-score-band-label">--</div>
+</div>
+<div class="es-radar-wrap">
+<div class="es-radar-title">Score by Dimension</div>
+<div class="es-dimension-bars">
+<div class="es-dim-row"><div class="es-dim-label">Revenue Quality</div><div class="es-dim-bar-bg"><div class="es-dim-bar-fill" id="bar-rq" style="width:0%"></div></div><div class="es-dim-score" id="score-rq">--</div></div>
+<div class="es-dim-row"><div class="es-dim-label">Founder Dependence</div><div class="es-dim-bar-bg"><div class="es-dim-bar-fill" id="bar-fd" style="width:0%"></div></div><div class="es-dim-score" id="score-fd">--</div></div>
+<div class="es-dim-row"><div class="es-dim-label">Financial Health</div><div class="es-dim-bar-bg"><div class="es-dim-bar-fill" id="bar-fh" style="width:0%"></div></div><div class="es-dim-score" id="score-fh">--</div></div>
+<div class="es-dim-row"><div class="es-dim-label">Competitive Position</div><div class="es-dim-bar-bg"><div class="es-dim-bar-fill" id="bar-cp" style="width:0%"></div></div><div class="es-dim-score" id="score-cp">--</div></div>
+<div class="es-dim-row"><div class="es-dim-label">Timing Alignment</div><div class="es-dim-bar-bg"><div class="es-dim-bar-fill" id="bar-ta" style="width:0%"></div></div><div class="es-dim-score" id="score-ta">--</div></div>
+</div>
+</div>
+<div class="es-section-rule"><span class="es-section-label">Top Findings</span><div class="es-rule"></div></div>
+<div id="es-findings"></div>
+<div class="es-section-rule"><span class="es-section-label">Full Breakdown</span><div class="es-rule"></div></div>
+<div id="es-dimension-breakdown"></div>
+<div class="es-section-rule"><span class="es-section-label">How Buyers in Your Range Frame This</span><div class="es-rule"></div></div>
+<div id="es-industry-framing"></div>
+<div id="es-path-high" style="display:none">
+<div class="es-cta-block">
+<div class="es-cta-credential">Built from 25 years and <span>75+ transactions</span> of M&A judgment — including the <span>Rolling Stone</span> and <span>Dick Clark's New Year's Rockin' Eve</span> acquisitions.</div>
+<div class="es-cta-label" id="es-cta-label">Buyer-Lens Audit™</div>
+<div class="es-cta-headline" id="es-cta-headline">See what a buyer would see — from a buyer's seat.</div>
+<div class="es-cta-sub" id="es-cta-sub">Your full Buyer-Lens Audit™, grounded in the same framework Mike has applied across 75+ transactions and $500K to $2B+ deals. Delivered within 24 hours as a branded PDF and a browser-viewable version.</div>
+<a class="es-cta-btn" href="/exit/checkout" id="es-checkout-link">Get Your Buyer-Lens Audit™ — <span id="es-cta-price">$499</span> →</a>
+<div class="es-cta-guarantee">
+<span class="es-cta-guarantee-label">Satisfaction Guarantee</span>
+If you believe the analysis doesn't reflect the information you provided, we'll regenerate the report at no cost. This is not a valuation or a professional opinion — it is structured M&A judgment applied to your inputs.</div>
+</div>
+<div class="es-email-block">
+<div class="es-email-label">Save Your Score</div>
+<div class="es-email-headline">Not ready? Email yourself the analysis to think on.</div>
+<div class="es-email-sub">We'll send your score, your biggest gap, and an honest read on what that score means from a buyer's perspective — so you can think on it before deciding what to do next.</div>
+<div class="es-email-row">
+<input class="es-email-input" id="es-email-high" placeholder="your@email.com" type="email"/>
+<button class="es-email-btn" onclick="saveScore('high')">Email Me My Results →</button>
+</div>
+<div class="es-email-confirm" id="es-email-confirm-high">Score saved. Check your inbox.</div>
+</div>
+<div class="es-delta-block">
+<div class="es-delta-label" id="es-delta-label">What the Buyer-Lens Audit™ Adds</div>
+<p class="es-delta-headline" id="es-delta-headline">The assessment above tells you where you stand. The full audit tells you how a serious buyer would act on that information.</p>
+<div id="es-delta-body-wrap"></div>
+</div>
+</div>
+<div id="es-path-low" style="display:none">
+<div class="es-section-rule"><span class="es-section-label">What To Do Next</span><div class="es-rule"></div></div>
+<p class="es-trust-headline">Your business isn't ready to sell yet — and that's actually good news.</p>
+<p class="es-trust-body">A score below 40 means there are foundational issues that buyers will surface immediately. Entering a sale process now would compress your valuation significantly — or kill the deal entirely. The better move is to fix the right things first, then sell from a position of strength.</p>
+<div class="es-section-rule"><span class="es-section-label">The 3 Things That Move the Needle Most</span><div class="es-rule"></div></div>
+<div id="es-trust-actions"></div>
+<div class="es-email-block">
+<div class="es-email-label">Free 30-Day Action Plan</div>
+<div class="es-email-sub">Want a free 30-day action plan for improving your exit readiness? We'll send it in three parts.</div>
+<div class="es-email-row">
+<input class="es-email-input" id="es-email-low" placeholder="your@email.com" type="email"/>
+<button class="es-email-btn" onclick="saveScore('low')">Send My Plan →</button>
+</div>
+<div class="es-email-confirm" id="es-email-confirm-low">You're in. First part arrives shortly.</div>
+</div>
+<p class="es-soft-cta">When you're ready to look at this again, the assessment will be here. — <a href="/exit/score">Retake the assessment →</a></p>
+</div>
+<div class="es-footer">
+<a href="/exit">Exit Desk Overview</a>
+<a href="/exit/sample">Sample Reports</a>
+<a href="/exit/articles">Articles & Case Studies</a>
+<a href="/">Home</a>
+</div>
+</div>
+</div>
+<script src="https://my-exitdesk.vercel.app/exit-score-content.js"></script>
+<script>
+(function() {
+
+var answers = {};
+var currentQ = 1;
+
+var weights = { rq: 0.25, fd: 0.25, fh: 0.15, cp: 0.15, ta: 0.20 };
+
+var scoring = {
+1: { a: 0,   b: 40,  c: 70,  d: 90,  e: 100 },
+2: { a: 100, b: 65,  c: 20,  d: 55 },
+3: { a: 100, b: 65,  c: 25,  d: 0  },
+4: { a: 100, b: 60,  c: 10,  d: 30 },
+5: { a: 100, b: 65,  c: 25,  d: 0  },
+6: { a: 100, b: 70,  c: 20,  d: 30 },
+7: { a: 80,  b: 100, c: 60,  d: 0  },
+8: { a: 100, b: 70,  c: 20,  d: 50 }
+};
+
+var caseStudyMap = {
+rq: { title: 'Long Beach Surgical — how a hidden revenue gap became the entire acquisition thesis', url: '/exit/articles/long-beach-surgical-case-study' },
+fd: { title: 'BuzzAngle Music — when founder relationships and contracts are the real asset', url: '/exit/articles/buzzangle-case-study' },
+fh: { title: 'Long Beach Surgical — why clean financials compressed the diligence timeline', url: '/exit/articles/long-beach-surgical-case-study' },
+cp: { title: 'Sourcing Journal — how narrow competitive positioning became the buyer\'s thesis', url: '/exit/articles/sourcing-journal-case-study' },
+ta: { title: 'Sourcing Journal — a founder who sold from strength at exactly the right moment', url: '/exit/articles/sourcing-journal-case-study' }
+};
+
+function calcDimensions() {
+var rq = ((scoring[1][answers[1]] || 0) * 0.3 + (scoring[2][answers[2]] || 0) * 0.4 + (scoring[4][answers[4]] || 0) * 0.3);
+var fd = ((scoring[3][answers[3]] || 0) * 0.5 + (scoring[5][answers[5]] || 0) * 0.5);
+var fh = scoring[6][answers[6]] || 0;
+var cp = scoring[7][answers[7]] || 0;
+var ta = scoring[8][answers[8]] || 0;
+return { rq: rq, fd: fd, fh: fh, cp: cp, ta: ta };
+}
+
+function calcTotal(dims) {
+return Math.round(dims.rq * weights.rq + dims.fd * weights.fd + dims.fh * weights.fh + dims.cp * weights.cp + dims.ta * weights.ta);
+}
+
+function getWeakestDim(dims) {
+var list = [
+{ key: 'fd', score: dims.fd, weight: weights.fd },
+{ key: 'rq', score: dims.rq, weight: weights.rq },
+{ key: 'ta', score: dims.ta, weight: weights.ta },
+{ key: 'cp', score: dims.cp, weight: weights.cp },
+{ key: 'fh', score: dims.fh, weight: weights.fh }
+];
+list.sort(function(a, b) { if (a.score !== b.score) return a.score - b.score; return b.weight - a.weight; });
+return list[0].key;
+}
+
+function getFindings(ans, dims) {
+var findings = [];
+if (ans[2] === 'c') findings.push({ label: 'Revenue Quality', text: 'Your revenue is primarily project-based. Buyers will discount this 30–40% versus recurring revenue of the same size — they can\'t underwrite forward cash flows from one-time engagements.' });
+else if (ans[2] === 'b') findings.push({ label: 'Revenue Quality', text: 'You have repeat customers but no formal contracts. A portion of your valuation will be discounted to reflect the risk that customers could leave without notice.' });
+else if (ans[2] === 'a') findings.push({ label: 'Revenue Quality', text: 'Recurring contract revenue is the most underwritable structure. Buyers can model it, finance against it, and assign it a premium multiple.' });
+if (ans[3] === 'd') findings.push({ label: 'Founder Dependence', text: 'Revenue would effectively stop if you stepped away. This is the single most common deal-killer across the $1M–$15M range — it either kills the deal or compresses price by 2–3x multiple turns.' });
+else if (ans[3] === 'c') findings.push({ label: 'Founder Dependence', text: 'Revenue would decline significantly without you. Expect earnout requirements, extended transition periods, and scrutiny on key relationships.' });
+if (ans[4] === 'c') findings.push({ label: 'Customer Concentration', text: 'Your top customer exceeds 25% of revenue. Expect demands for a retention agreement, possible escrow holdbacks, and a meaningful discount to your implied multiple.' });
+else if (ans[4] === 'b') findings.push({ label: 'Customer Concentration', text: 'Your top customer is 10–25% of revenue. Buyers will probe the relationship depth, contract status, and what happens if that customer leaves post-close.' });
+if (ans[5] === 'd') findings.push({ label: 'Operations', text: 'You are the management team. Without a management layer, the acquisition requires the buyer to install one — priced in as integration cost and risk.' });
+if (ans[6] === 'c') findings.push({ label: 'Financial Health', text: 'Margins are compressing. Buyers will model this forward. Without a clear explanation, they\'ll assume structural deterioration and price accordingly.' });
+else if (ans[6] === 'd') findings.push({ label: 'Financial Health', text: 'You don\'t track margins closely. Serious buyers will request 3 years of financials on the first call. This signals operational gaps that slow the process and compress valuation.' });
+if (ans[7] === 'd') findings.push({ label: 'Competitive Position', text: 'Nothing makes this business hard to replicate. Buyers will price this as a cash-flow acquisition — expect 2.5–3.5x SDE versus 4–6x for defensible businesses.' });
+if (ans[8] === 'c') findings.push({ label: 'Timing', text: 'You\'re considering an exit under pressure. Buyers sense urgency — it shifts negotiating leverage materially.' });
+else if (ans[8] === 'a') findings.push({ label: 'Timing', text: 'Selling from a position of strength is the single best negotiating posture. You have optionality — and sophisticated buyers know it.' });
+if (ans[1] === 'a') findings.push({ label: 'Scale', text: 'Businesses under $1M face a limited buyer universe. Individual buyers and micro-PE are the most likely acquirers at this scale.' });
+return findings.slice(0, 3);
+}
+
+function getDimensionBreakdown(ans, weakestKey) {
+var dimOrder = [
+{ key: 'rq', label: 'Revenue Quality',      qKey: 2 },
+{ key: 'fd', label: 'Founder Dependence',   qKey: 3 },
+{ key: 'fh', label: 'Financial Health',     qKey: 6 },
+{ key: 'cp', label: 'Competitive Position', qKey: 7 },
+{ key: 'ta', label: 'Timing Alignment',     qKey: 8 }
+];
+var blockSet = (ans[1] === 'a' && typeof dimensionBlocksLite !== 'undefined')
+? dimensionBlocksLite
+: (typeof dimensionBlocksFull !== 'undefined' ? dimensionBlocksFull
+: (typeof dimensionBlocks !== 'undefined' ? dimensionBlocks : null));
+var blocks = [];
+dimOrder.forEach(function(dim) {
+var answerKey = ans[dim.qKey];
+if (blockSet && blockSet[dim.key] && blockSet[dim.key][answerKey]) {
+var block = blockSet[dim.key][answerKey];
+blocks.push({ key: dim.key, label: dim.label, narrative: block.narrative, recommendation: block.recommendation, isWeakest: dim.key === weakestKey });
+}
+});
+return blocks;
+}
+
+function getIndustryFraming(ans) {
+if (typeof industryBlocks !== 'undefined' && industryBlocks[ans[1]]) return industryBlocks[ans[1]].text;
+return null;
+}
+
+function getTrustActions(dims) {
+return [
+{ label: 'Revenue Quality', score: dims.rq, article: '/exit/articles/how-buyers-evaluate-revenue-quality', fix: 'Your revenue structure is the first thing buyers evaluate. Shifting even a portion to recurring contracts or retainers materially improves underwritability and your implied multiple.' },
+{ label: 'Founder Dependence', score: dims.fd, article: '/exit/articles/founder-dependence-kills-deals', fix: 'Building a management layer that can operate without you is the highest-value pre-exit investment most owners never make. Start with documentation, then delegation, then a hire.' },
+{ label: 'Financial Health', score: dims.fh, article: '/exit/articles/exit-readiness-checklist', fix: 'Buyers will request 3 years of clean financials on day one of diligence. Getting your books in order 18–24 months before a process is the minimum lead time for meaningful cleanup.' },
+{ label: 'Competitive Position', score: dims.cp, article: '/exit/articles/what-buyers-actually-look-for', fix: 'Identifying and articulating your defensibility clearly changes how buyers frame the asset internally.' },
+{ label: 'Timing Alignment', score: dims.ta, article: '/exit/articles/when-to-sell-your-business', fix: 'The right moment to sell is when you have optionality — not when you need to.' }
+].sort(function(a, b) { return a.score - b.score; }).slice(0, 3);
+}
+
+function buildCheckoutUrl() {
+var dims = calcDimensions();
+var total = calcTotal(dims);
+var dimList = [
+{ label: 'revenue_quality', score: dims.rq },
+{ label: 'founder_dependence', score: dims.fd },
+{ label: 'financial_health', score: dims.fh },
+{ label: 'competitive_position', score: dims.cp },
+{ label: 'timing_alignment', score: dims.ta }
+].sort(function(a, b) { return a.score - b.score; });
+var params = new URLSearchParams();
+params.set('score', total);
+params.set('weakest', dimList[0].label);
+params.set('q1', answers[1] || '');
+params.set('q2', answers[2] || '');
+params.set('q3', answers[3] || '');
+params.set('q4', answers[4] || '');
+params.set('q5', answers[5] || '');
+params.set('q6', answers[6] || '');
+params.set('q7', answers[7] || '');
+params.set('q8', answers[8] || '');
+var url = '/exit/checkout?' + params.toString();
+return window.ExitDeskCampaign ? window.ExitDeskCampaign.decorate(url) : url;
+}
+
+function applyTierToCTA(q1) {
+var isLite = (q1 === 'a');
+var price = isLite ? '$199' : '$499';
+
+var priceEl = document.getElementById('es-cta-price');
+if (priceEl) priceEl.textContent = price;
+
+var labelEl = document.getElementById('es-cta-label');
+if (labelEl) labelEl.textContent = isLite ? 'Buyer-Lens Audit™ · Main Street Edition' : 'Buyer-Lens Audit™ · Full Report';
+
+var subEl = document.getElementById('es-cta-sub');
+if (subEl) {
+if (isLite) {
+subEl.innerHTML = 'Your Buyer-Lens Audit™ — Main Street Edition, calibrated for businesses under $1M in revenue and the individual SBA buyer universe. Grounded in the same framework Mike has applied across 75+ transactions and $500K to $2B+ deals. Delivered within 24 hours as a branded PDF and a browser-viewable version.';
+} else {
+subEl.innerHTML = 'Your full Buyer-Lens Audit™, calibrated for institutional buyers — PE platforms, strategic acquirers, search funds, family offices. Grounded in the same framework Mike has applied across 75+ transactions and $500K to $2B+ deals. Delivered within 24 hours as a branded PDF and a browser-viewable version.';
+}
+}
+
+var deltaLabelEl = document.getElementById('es-delta-label');
+var deltaHeadlineEl = document.getElementById('es-delta-headline');
+var deltaBodyWrap = document.getElementById('es-delta-body-wrap');
+
+if (isLite) {
+if (deltaLabelEl) deltaLabelEl.textContent = 'What the Main Street Edition Adds';
+if (deltaHeadlineEl) deltaHeadlineEl.textContent = 'The assessment tells you where you stand. The Main Street Edition tells you how an SBA buyer or individual acquirer would act on that information.';
+if (deltaBodyWrap) {
+deltaBodyWrap.innerHTML = '<p class="es-delta-body">The 8-question diagnostic scores what you can self-report. The Main Street Edition adds the three dimensions that require a buyer\'s judgment — buyer psychology, diligence pressure, and AI exposure — completing the six-dimension Buyer-Lens Audit™ framework. It maps your business against the actual sub-$1M buyer universe — individual SBA-backed buyers, ETA searchers, and micro-acquirers — and shows how each would frame your company differently. It identifies where SBA-buyer diligence will focus first: owner-add-back defensibility, transition risk, customer concentration, and seller-financing posture. It assesses your AI exposure concretely — what gets more valuable, what gets commoditized — because even small-business buyers in 2026 are pricing this in. And it ranks your pre-market action plan by valuation impact, with specific timelines for each action.</p><p class="es-delta-body">The 26-question depth produces analysis the 8-question diagnostic cannot: financial profile quality, documentation readiness, key-person exposure, diligence disclosure. Calibrated to your scale — not the same template watered down. Same buyer-lens framework, applied to the actual buyer universe at your size.</p>';
+}
+} else {
+if (deltaLabelEl) deltaLabelEl.textContent = 'What the Full Report Adds';
+if (deltaHeadlineEl) deltaHeadlineEl.textContent = 'The assessment above tells you where you stand. The full report tells you how a serious buyer would act on that information.';
+if (deltaBodyWrap) {
+deltaBodyWrap.innerHTML = '<p class="es-delta-body">The 8-question diagnostic scores what you can self-report. The Full Report adds the three dimensions that require a buyer\'s judgment — buyer psychology, diligence pressure, and AI exposure — completing the six-dimension Buyer-Lens Audit™ framework. It names the specific buyer types that would consider your business — strategic acquirers, PE platforms, search funds, or SBA-backed individuals — and shows how each would frame your company differently. It maps exactly where diligence pressure will focus first, before any buyer ever sits down with your books. It assesses your AI exposure concretely — what gets more valuable, what gets commoditized, what becomes defensible — because buyers in 2026 are pricing this into every transaction. And it ranks your pre-market action plan by valuation impact, with specific timelines for each action.</p><p class="es-delta-body">The 26-question depth produces analysis the 8-question diagnostic cannot: financial profile quality, documentation readiness, key person exposure beyond the founder, diligence disclosure. You\'ll finish the report knowing what a serious buyer would see, what they would pay, and what you can do in the next 6 to 18 months to change that number.</p>';
+}
+}
+}
+
+window.selectOption = function(el) {
+if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('score_start');
+var q = el.getAttribute('data-q');
+var v = el.getAttribute('data-v');
+document.querySelectorAll('[data-q="' + q + '"]').forEach(function(o) { o.classList.remove('selected'); });
+el.classList.add('selected');
+answers[parseInt(q)] = v;
+var nextBtn = document.getElementById('es-next-' + q);
+if (nextBtn) nextBtn.disabled = false;
+};
+
+window.nextQ = function(q) {
+if (!answers[q]) return;
+document.getElementById('es-q' + q).classList.remove('active');
+currentQ = q + 1;
+document.getElementById('es-q' + currentQ).classList.add('active');
+document.getElementById('es-q-current').textContent = currentQ;
+document.getElementById('es-progress').style.width = ((currentQ / 8) * 100) + '%';
+window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+window.prevQ = function(q) {
+document.getElementById('es-q' + q).classList.remove('active');
+currentQ = q - 1;
+document.getElementById('es-q' + currentQ).classList.add('active');
+document.getElementById('es-q-current').textContent = currentQ;
+document.getElementById('es-progress').style.width = ((currentQ / 8) * 100) + '%';
+window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+window.showResults = function() {
+if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('score_start');
+if (!answers[8]) return;
+var dims = calcDimensions();
+var total = calcTotal(dims);
+var weakestKey = getWeakestDim(dims);
+
+document.getElementById('es-form').style.display = 'none';
+document.getElementById('es-results').style.display = 'block';
+document.getElementById('es-score-display').textContent = total;
+
+var band, bandLabel;
+if (total >= 80) { band = '80–100'; bandLabel = 'Strong exit position'; }
+else if (total >= 60) { band = '60–79'; bandLabel = 'Solid foundation — specific gaps'; }
+else if (total >= 40) { band = '40–59'; bandLabel = 'Material issues to address'; }
+else { band = 'Below 40'; bandLabel = 'Foundational work needed first'; }
+document.getElementById('es-score-band').textContent = band;
+document.getElementById('es-score-band-label').textContent = bandLabel;
+
+setTimeout(function() {
+document.getElementById('bar-rq').style.width = dims.rq + '%';
+document.getElementById('bar-fd').style.width = dims.fd + '%';
+document.getElementById('bar-fh').style.width = dims.fh + '%';
+document.getElementById('bar-cp').style.width = dims.cp + '%';
+document.getElementById('bar-ta').style.width = dims.ta + '%';
+document.getElementById('score-rq').textContent = Math.round(dims.rq);
+document.getElementById('score-fd').textContent = Math.round(dims.fd);
+document.getElementById('score-fh').textContent = Math.round(dims.fh);
+document.getElementById('score-cp').textContent = Math.round(dims.cp);
+document.getElementById('score-ta').textContent = Math.round(dims.ta);
+}, 100);
+
+var findings = getFindings(answers, dims);
+var findingsHtml = '';
+findings.forEach(function(f) {
+findingsHtml += '<div class="es-finding"><div class="es-finding-label">' + f.label + '</div><div class="es-finding-text">' + f.text + '</div></div>';
+});
+document.getElementById('es-findings').innerHTML = findingsHtml;
+
+var breakdown = getDimensionBreakdown(answers, weakestKey);
+var breakdownHtml = '';
+breakdown.forEach(function(b) {
+var cls = b.isWeakest ? 'es-dim-block weakest' : 'es-dim-block';
+breakdownHtml += '<div class="' + cls + '">';
+if (b.isWeakest) breakdownHtml += '<div class="es-dim-block-eyebrow">Your Biggest Gap</div>';
+breakdownHtml += '<div class="es-dim-block-label">' + b.label + '</div>';
+breakdownHtml += '<div class="es-dim-block-narrative">' + b.narrative + '</div>';
+breakdownHtml += '<div class="es-dim-block-rec"><span class="es-dim-block-rec-label">What to do: </span>' + b.recommendation + '</div>';
+if (b.isWeakest && caseStudyMap[b.key]) {
+breakdownHtml += '<div class="es-dim-block-case">See this pattern in practice: <a href="' + caseStudyMap[b.key].url + '">' + caseStudyMap[b.key].title + ' →</a></div>';
+}
+breakdownHtml += '</div>';
+});
+document.getElementById('es-dimension-breakdown').innerHTML = breakdownHtml;
+
+var industryText = getIndustryFraming(answers);
+if (industryText) document.getElementById('es-industry-framing').innerHTML = '<div class="es-industry-text">' + industryText + '</div>';
+
+if (total >= 40) {
+document.getElementById('es-path-high').style.display = 'block';
+document.getElementById('es-checkout-link').href = buildCheckoutUrl();
+applyTierToCTA(answers[1]);
+} else {
+document.getElementById('es-path-low').style.display = 'block';
+var actions = getTrustActions(dims);
+var actionsHtml = '';
+actions.forEach(function(a, i) {
+actionsHtml += '<div class="es-trust-action"><div class="es-trust-action-label">Priority ' + (i+1) + ' — ' + a.label + '</div>';
+actionsHtml += '<div class="es-trust-action-text">' + a.fix + '</div>';
+actionsHtml += '<a href="' + a.article + '">Read: ' + a.label + ' →</a></div>';
+});
+document.getElementById('es-trust-actions').innerHTML = actionsHtml;
+}
+
+if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('score_complete');
+window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+window.saveScore = function(path) {
+var emailEl = document.getElementById('es-email-' + path);
+var confirmEl = document.getElementById('es-email-confirm-' + path);
+var email = emailEl ? emailEl.value.trim() : '';
+if (!email || !email.includes('@')) { emailEl.style.borderColor = '#9A3B2A'; return; }
+var dims = calcDimensions();
+var total = calcTotal(dims);
+var dimList = [
+{ label: 'Revenue Quality', score: dims.rq },
+{ label: 'Founder Dependence', score: dims.fd },
+{ label: 'Financial Health', score: dims.fh },
+{ label: 'Competitive Position', score: dims.cp },
+{ label: 'Timing Alignment', score: dims.ta }
+];
+var weakest = dimList.sort(function(a, b) { return a.score - b.score; })[0].label;
+var band = total >= 80 ? '80-100' : total >= 60 ? '60-79' : total >= 40 ? '40-59' : 'Below 40';
+fetch('https://my-exitdesk.vercel.app/api/subscribe', {
+method: 'POST',
+headers: { 'Content-Type': 'application/json' },
+body: JSON.stringify({ email: email, score: total, weakestDimension: weakest, scoreBand: band, exitPath: path })
+})
+.then(function(r) { if (!r.ok) { throw new Error('subscribe failed'); } return r.json(); })
+.then(function() { confirmEl.style.display = 'block'; emailEl.disabled = true; if (window.ExitDeskCampaign) window.ExitDeskCampaign.track(path === 'low' ? 'plan_signup' : 'score_save'); })
+.catch(function() { confirmEl.style.display = 'block'; confirmEl.textContent = 'Something went wrong — your results weren\'t sent. Please try again.'; });
+};
+
+})();
+</script>
+<!-- =============================================== -->
+<!-- END Exit Score Embed v3.2                      -->
+<!-- =============================================== -->
+<!-- Stalled Exit v0: attribution only; existing diagnostic and pricing remain authoritative. -->
+<script src="https://my-exitdesk.vercel.app/exit-campaign.js"></script>

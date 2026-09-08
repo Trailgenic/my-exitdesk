@@ -1,0 +1,83 @@
+{
+  "id": "workflow-diligence",
+  "slug": "before-you-buy-follow-the-work",
+  "name": "Before You Buy: Follow the Work",
+  "format": "Handbook",
+  "topic": "due-diligence",
+  "version": "0.2-draft",
+  "status": "draft",
+  "contentReviewedAt": null,
+  "publicationDate": null,
+  "summary": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy.",
+  "decision": "Can the business keep producing its results when the owner changes?",
+  "sourcePrinciples": [
+    "frame-before-detail",
+    "replicate-the-financials",
+    "transferability",
+    "control-and-alignment",
+    "unknowns-are-findings",
+    "survive-the-downside",
+    "buyer-keeps-synergy",
+    "ceiling-and-patience",
+    "trust-is-earned-in-diligence",
+    "decision-not-description"
+  ],
+  "sections": [
+    {
+      "heading": "Start here: follow one real sale",
+      "html": "<p>You do not need to map the whole company on the first day. Pick one important product or service. Ask the team to walk through a recent customer sale, from the first promise to the money arriving in the bank. Then ask for a second example where something went wrong.</p><p>A workflow is simply how work gets done: who starts it, what they need, which decisions they make, and who receives the result. Watching the work helps you see what a polished presentation leaves out.</p><p><strong>Leave this first conversation with:</strong> a short map of the work, the people and systems it depends on, and the questions that still need evidence. This is a starting point for diligence, not a substitute for the wider financial, commercial, legal, tax, people and technology review.</p>"
+    },
+    {
+      "heading": "Put the guide to work",
+      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx\">Download the editable Excel working pack</a> · XLSX · Draft 0.1</p><p>Open Start Here, then use Diligence Checklist, Follow One Sale and Issue Log. The workbook includes plain-language prompts, status dropdowns and blank working areas. Twenty rows are provided in each working tracker; copy the pack for another workstream.</p><p>The worked example is fictional and stays on the instruction tab. Your entries stay in your copy of the workbook; no macros or external workbook links are included.</p>"
+    },
+    {
+      "heading": "1. Say what you think you are buying",
+      "html": "<p>Complete this sentence before opening the data room: <strong>We are buying ___ because ___; the result depends on ___.</strong> Be specific. Is the value in repeat customers, a team, a licence, distribution, a brand, or a capability you would struggle to build?</p><p>Mike’s approach starts with the buyer’s own description of the business. Use the seller’s story as something to test. A scarce asset may justify more investigation, but it does not remove the need for a price ceiling or a survivable downside.</p><p><strong>Ask first:</strong> Who owns the company? Who can approve the sale? What permissions are needed? If the sellers cannot deliver control, establish a credible consent path before spending heavily on the process.</p>"
+    },
+    {
+      "heading": "2. Request a small, useful starting package",
+      "html": "<ul><li>A business overview or confidential information memorandum (CIM): what is sold, to whom, and why customers buy.</li><li>Financial statements, preferably audited, with an explanation of the accounting used.</li><li>The top ten customers and revenue by customer, product and service.</li><li>An employee list showing roles, responsibilities and compensation; use appropriate redactions when sharing.</li><li>The major contracts, licences and supplier agreements needed to operate the business.</li></ul><p>Mike’s deal-screen notes identify the first four as part of the information needed before a letter of intent (LOI). Having them is not the same as completing diligence. Expand the request list around the risks you find.</p>"
+    },
+    {
+      "heading": "3. Connect the sale to the financial results",
+      "html": "<p>For the sale you selected, request the customer agreement, invoice, delivery evidence, ledger entries and payment record. The general ledger is the detailed accounting record behind the financial statements. Follow the transaction through those records and explain any timing differences.</p><p>Mike’s standard is to reconstruct the financials. A quality-of-earnings review—work that tests how much reported profit is repeatable—can help. It does not turn unsupported numbers into verified cash flow.</p><ul><li>Was revenue recorded before the promised work was delivered?</li><li>Did discounts, refunds, returns or later credits change what was actually earned?</li><li>Were all costs needed to deliver the work recorded?</li><li>Will an expense the seller adds back really disappear after the sale, or will the buyer need a replacement?</li><li>What cash and maintenance spending are needed to keep this work going?</li></ul><p><strong>What changes the decision:</strong> recurring differences may change sustainable earnings, working-capital needs or price. An isolated mismatch needs an explanation; it is not, by itself, proof of fraud. Broaden the sample with the finance team when the first walkthrough exposes a pattern.</p>"
+    },
+    {
+      "heading": "4. Test whether the work can transfer",
+      "html": "<p>Ask the person who does the job to show it, then have a backup person explain how they would complete it. A written procedure is useful evidence. It is not proof that someone else can perform the work.</p><ul><li><strong>Start:</strong> What triggers the job? What information must arrive first?</li><li><strong>People:</strong> Who performs it? Who approves exceptions? Who can cover an absence?</li><li><strong>Tools:</strong> Which systems, supplier services and logins are necessary?</li><li><strong>Judgment:</strong> Which decisions rely on experience rather than a written rule?</li><li><strong>Exceptions:</strong> What went wrong recently? Who fixed it, and how?</li><li><strong>Result:</strong> What does good work look like? Show the delivery, quality or collection record.</li><li><strong>Handover:</strong> What would stop working if the owner left tomorrow? What transition support would fix that?</li></ul><p>Give each dependency a practical response: train a backup, retain a key person, obtain consent, replace a supplier, or revisit the price and deal terms. Owner dependence has different implications for a buyer taking over the owner’s job and a buyer expecting the business to run without them.</p>"
+    },
+    {
+      "heading": "5. Check what the business can actually reuse",
+      "html": "<p>If a workflow depends on customer data, contractor work, third-party software or licensed content, list the owner and the documents that describe permitted use. Separate the company’s own know-how from material it merely has access to.</p><p>For a possible AI application, ask what can be documented, shared and tested using authorised material. Keep customer records, confidential examples and proprietary decision rules out of a public demonstration unless sharing is permitted. Have the appropriate advisers resolve ownership and permission questions. A process map alone does not establish licensing rights or a licensing market.</p>"
+    },
+    {
+      "heading": "6. Turn findings into a decision",
+      "html": "<p>Use four actions, not a score that lets strengths cancel out a fatal problem:</p><ul><li><strong>Investigate:</strong> name the missing evidence and who will obtain it.</li><li><strong>Price:</strong> change the earnings, cash requirements or price assumptions supported by the finding.</li><li><strong>Protect:</strong> specify a workable transition action, consent or contractual protection with the right adviser.</li><li><strong>Walk:</strong> stop when the economics or a critical condition cannot be made acceptable.</li></ul><p>Test lower sales and lower margins together, including financing, operating cash and required investment. Under Mike’s approach, a deal that cannot survive that downside should not advance. Keep buyer-created synergies separate from the seller’s standalone value, and keep the private hard ceiling intact.</p><p>Track how the seller responds. Timely, consistent answers build confidence; unexplained delays and contradictions require more work. Assess a suspected misrepresentation by its nature, materiality, explanation and intent. Do not replace judgment with an automatic label.</p>"
+    },
+    {
+      "heading": "A worked example: the founder approves every exception",
+      "html": "<p><strong>Illustrative example, not a Mike Ye transaction.</strong> A service company has repeat customers and tidy written procedures. During a walkthrough, the team explains that the founder personally handles every unusual customer request. The backup employee can follow the normal process but cannot approve a change in price or delivery.</p><p>The issue is not simply that the documentation is incomplete. Customer retention depends on judgment and authority that have not transferred. Request recent exception records, identify the decisions involved, and test a backup person’s ability to handle them. Then decide whether a transition period, delegated approval limits and customer introductions would make the handover credible. If they would not, revisit the deal.</p>"
+    },
+    {
+      "heading": "Copy this working note",
+      "html": "<p>Use one note per important finding. Keep the answers short enough to discuss in a working meeting.</p><ul><li><strong>Work being tested:</strong> ___</li><li><strong>What management says happens:</strong> ___</li><li><strong>What the records and walkthrough show:</strong> ___</li><li><strong>What is still unknown:</strong> ___</li><li><strong>Effect on customers, cash, price or handover:</strong> ___</li><li><strong>Action — investigate, price, protect or walk:</strong> ___</li><li><strong>Owner and due date:</strong> ___</li><li><strong>Evidence needed to close the issue:</strong> ___</li><li><strong>Integration handoff and receiving owner:</strong> ___</li></ul><p><strong>You are ready for the next decision when</strong> the material findings have evidence, an owner and an agreed consequence. The remaining unknowns should be visible to the person approving the next commitment.</p>"
+    }
+  ],
+  "sourceNotes": "<p>Draft 0.2 · Prepared for Mike Ye’s editorial review. Adapted from Mike’s documented acquisition principles. The working notes, suggested cadence and illustrative examples are new editorial applications, not interview quotations.</p><p>Related reading: <a href=\"https://www.mikeye.com/intelligence\">Mike’s decision frameworks</a>. Mike’s selected transactions appear on <a href=\"https://www.mikeye.com/about\">About Mike</a>; <a href=\"https://www.mikeye.com/about/record\">PMC mastheads</a> document his title and tenure.</p>",
+  "download": {
+    "filename": "MikeYe-Diligence-Working-Pack.xlsx",
+    "repositoryPath": "public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+    "sha256": "3750261d781aee91aa7125ab512cd4308fe434be0ef95d22fe3645651927dfbc",
+    "bytes": 15187,
+    "sheets": [
+      "Start Here",
+      "Diligence Checklist",
+      "Follow One Sale",
+      "Issue Log"
+    ],
+    "version": "0.1-draft",
+    "downloadVerified": true
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "checkedAt": "2026-09-07",
+  "homepage": {
+    "pageId": "6a9f1608e824c600831d2eaf",
+    "headline": "The Deal Is Only the Beginning.",
+    "updatedElements": [
+      "2838016c-113e-9d3f-7cfb-994fd0fcd4a0",
+      "2838016c-113e-9d3f-7cfb-994fd0fcd4a2"
+    ]
+  },
+  "library": {
+    "pageId": "6a9f20d0a616017e7bdf9a95",
+    "path": "/m-and-a",
+    "draft": true,
+    "includeInSitemap": false,
+    "resourceListId": "e2507211-f97b-5cc2-9ad2-b6965c20cd99",
+    "topicListId": "3e2e4bcf-1ee1-646c-7dd4-1a7f57cf81e0",
+    "resourceCardInstanceId": "48d3420a-8951-e873-56a4-577d22685997"
+  },
+  "resourceTemplate": {
+    "pageId": "6a9f1684bfb97f3c671ae859",
+    "collectionId": "6a9f1683bfb97f3c671ae853",
+    "noindex": true
+  },
+  "topicTemplate": {
+    "pageId": "6a9f168391744e4c67910a0f",
+    "collectionId": "6a9f168391744e4c67910a09",
+    "noindex": true
+  },
+  "recordState": [
+    {
+      "label": "Confirm resource catalogue stays draft",
+      "count": 6,
+      "allDraft": true
+    },
+    {
+      "label": "Confirm topic catalogue stays draft",
+      "count": 10,
+      "allDraft": true
+    }
+  ],
+  "queryReadback": [
+    {
+      "label": "Read resource query configuration",
+      "action": "get_settings",
+      "result": [
+        {
+          "status": "success",
+          "message": "Settings retrieved",
+          "data": {
+            "type": "all_raw_settings",
+            "total_matches": 13,
+            "matches": [
+              {
+                "key": "domId",
+                "value": ""
+              },
+              {
+                "key": "tag",
+                "value": "div"
+              },
+              {
+                "key": "visibility",
+                "value": true
+              },
+              {
+                "key": "attributes",
+                "value": []
+              },
+              {
+                "key": "source",
+                "value": {
+                  "collectionId": "6a9f1683bfb97f3c671ae853"
+                }
+              },
+              {
+                "key": "queryMode",
+                "value": "dynamic"
+              },
+              {
+                "key": "filters",
+                "value": [
+                  {
+                    "fieldSlug": "canonical-url",
+                    "operator": "isSet"
+                  }
+                ]
+              },
+              {
+                "key": "filterMatch",
+                "value": "all"
+              },
+              {
+                "key": "sort",
+                "value": [
+                  {
+                    "fieldSlug": "name",
+                    "direction": "ascending"
+                  }
+                ]
+              },
+              {
+                "key": "limit",
+                "value": 100
+              },
+              {
+                "key": "offset",
+                "value": 0
+              },
+              {
+                "key": "pagination",
+                "value": null
+              },
+              {
+                "key": "curatedItemIds",
+                "value": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Read topic query configuration",
+      "action": "get_settings",
+      "result": [
+        {
+          "status": "success",
+          "message": "Settings retrieved",
+          "data": {
+            "type": "all_raw_settings",
+            "total_matches": 13,
+            "matches": [
+              {
+                "key": "domId",
+                "value": ""
+              },
+              {
+                "key": "tag",
+                "value": "div"
+              },
+              {
+                "key": "visibility",
+                "value": true
+              },
+              {
+                "key": "attributes",
+                "value": []
+              },
+              {
+                "key": "source",
+                "value": {
+                  "collectionId": "6a9f168391744e4c67910a09"
+                }
+              },
+              {
+                "key": "queryMode",
+                "value": "dynamic"
+              },
+              {
+                "key": "filters",
+                "value": []
+              },
+              {
+                "key": "filterMatch",
+                "value": "all"
+              },
+              {
+                "key": "sort",
+                "value": [
+                  {
+                    "fieldSlug": "lifecycle-order",
+                    "direction": "ascending"
+                  }
+                ]
+              },
+              {
+                "key": "limit",
+                "value": 100
+              },
+              {
+                "key": "offset",
+                "value": 0
+              },
+              {
+                "key": "pagination",
+                "value": null
+              },
+              {
+                "key": "curatedItemIds",
+                "value": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "canonicalLinkReadback": [
+    {
+      "label": "Read original-publication link binding",
+      "action": "get_settings",
+      "result": [
+        {
+          "status": "success",
+          "message": "Settings retrieved",
+          "data": {
+            "type": "all_raw_settings",
+            "total_matches": 5,
+            "matches": [
+              {
+                "key": "domId",
+                "value": "resource-canonical"
+              },
+              {
+                "key": "link",
+                "value": {
+                  "sourceType": "cms",
+                  "collectionId": "6a9f1683bfb97f3c671ae853",
+                  "collectionName": "M&A Resources",
+                  "fieldId": "fee91dd9305154a3cf9419022baf11d2",
+                  "fieldName": "Canonical URL",
+                  "fieldGroup": null,
+                  "fieldType": "url"
+                }
+              },
+              {
+                "key": "text",
+                "value": {
+                  "innerText": "Open the original resource"
+                }
+              },
+              {
+                "key": "visibility",
+                "value": true
+              },
+              {
+                "key": "attributes",
+                "value": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "resourceCardBindings": [
+    {
+      "label": "Bind shared card to current resource",
+      "action": "set_component_instance_prop_values",
+      "result": [
+        {
+          "propId": "8cc760bb-3937-23ff-52b3-58114b9345c2",
+          "value": {
+            "sourceType": "cms",
+            "collectionId": "6a9f1683bfb97f3c671ae853",
+            "fieldId": "1cb64d02b115b65725782a58919fce20"
+          },
+          "name": "Format"
+        },
+        {
+          "propId": "6fbe8c6c-9f65-f83b-f79f-73ce1ff4ac49",
+          "value": {
+            "sourceType": "cms",
+            "collectionId": "6a9f1683bfb97f3c671ae853",
+            "fieldId": "638cfadd3c10fdce49be0eb39d89f155"
+          },
+          "name": "Title"
+        },
+        {
+          "propId": "89afe9a9-0853-e4ac-52c1-8f7fea9a5f1f",
+          "value": {
+            "sourceType": "cms",
+            "collectionId": "6a9f1683bfb97f3c671ae853",
+            "fieldId": "c0114ae507fe3125c663eca08c6fb31b"
+          },
+          "name": "Summary"
+        },
+        {
+          "propId": "cbd21e6c-9b43-63ea-a797-ce16fb6e72a9",
+          "value": "Open the original resource",
+          "name": "Link label"
+        },
+        {
+          "propId": "3641f4d1-851e-3cf5-65eb-49a8738b71e8",
+          "value": {
+            "sourceType": "cms",
+            "collectionId": "6a9f1683bfb97f3c671ae853",
+            "fieldId": "fee91dd9305154a3cf9419022baf11d2"
+          },
+          "name": "Canonical resource URL"
+        }
+      ]
+    }
+  ],
+  "responsiveReadback": [
+    {
+      "label": "Verify mobile library grid",
+      "action": "get_variant_styles",
+      "result": [
+        {
+          "variant_id": "base",
+          "style": "my2-list",
+          "properties": {
+            "grid-template-columns": "1fr",
+            "grid-template-rows": "auto"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Verify narrow mobile headline",
+      "action": "get_variant_styles",
+      "result": [
+        {
+          "variant_id": "base",
+          "style": "my2-title",
+          "properties": {
+            "font-size": "33px"
+          }
+        }
+      ]
+    }
+  ],
+  "publication": {
+    "performed": false,
+    "browserVisualQA": false,
+    "brandFontsPending": true,
+    "originalFunnelsUntouched": true
+  }
+}

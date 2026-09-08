@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "text": "{\"label\":\"Complete old homepage snapshot\",\"action\":\"get_all_elements\",\"result\":[{\"status\":\"success\",\"message\":\"Elements tree loaded\",\"data\":{\"id\":{\"component\":\"69499e77d9c11f22288abc5d\",\"element\":\"69499e77d9c11f22288abc62\"},\"type\":\"Body\",\"children\":[{\"id\":{\"component\":\"69499e77d9c11f22288abc5d\",\"element\":\"e93a706e-a92b-f80d-147b-c66487668349\"},\"type\":\"Section\",\"settings\":{\"tag\":\"section\",\"visibility\":true},\"children\":[{\"id\":{\"component\":\"69499e77d9c11f22288abc5d\",\"element\":\"d31705f7-0c72-97dd-3dab-d77bdd505b85\"},\"type\":\"BlockContainer\",\"settings\":{\"tag\":\"div\",\"visibility\":true},\"children\":[{\"id\":{\"component\":\"69499e77d9c11f22288abc5d\",\"element\":\"3a42fa96-136d-3391-ffca-ddd3c1a9123d\"},\"type\":\"HtmlEmbed\",\"settings\":{\"visibility\":true}}]}]}]}}]}",
+      "type": "text"
+    }
+  ],
+  "isError": false
+}
