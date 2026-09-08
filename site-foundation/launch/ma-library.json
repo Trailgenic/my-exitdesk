@@ -1,0 +1,367 @@
+{
+  "version": "1.0",
+  "updated": "2026-09-08",
+  "entity": {
+    "id": "https://www.mikeye.com/#person",
+    "name": "Mike Ye",
+    "website": "https://www.mikeye.com/"
+  },
+  "scope": "Published M&A learning resources and working tools",
+  "topics": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#corporate-development",
+      "name": "Corporate development",
+      "description": "Acquisition strategy, strategic fit, and the discipline of deciding what not to buy.",
+      "termCode": "corporate-development",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#valuation",
+      "name": "Valuation",
+      "description": "Standalone value, normalized earnings, buyer context, and price discipline.",
+      "termCode": "valuation",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#financial-modeling",
+      "name": "Financial modeling",
+      "description": "Translate assumptions into cash flows, returns, and decision-ready models.",
+      "termCode": "financial-modeling",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#industry-comps",
+      "name": "Industry & transaction comps",
+      "description": "Select comparable companies and transactions with an explicit basis for comparison.",
+      "termCode": "industry-comps",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#deal-structure",
+      "name": "Deal structure & negotiation",
+      "description": "Understand control, consideration, contingent value, and allocation of risk.",
+      "termCode": "deal-structure",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#due-diligence",
+      "name": "Due diligence",
+      "description": "Test the business and the workflows that produce its results.",
+      "termCode": "due-diligence",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#synergies",
+      "name": "Synergies",
+      "description": "Separate buyer-specific upside from standalone value and the cost of delivery.",
+      "termCode": "synergies",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#integration",
+      "name": "Integration",
+      "description": "Preserve revenue-producing capabilities while realizing operational improvements.",
+      "termCode": "integration",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#divestitures",
+      "name": "Divestitures & carve-outs",
+      "description": "Define the perimeter, disentangle dependencies, and plan separation.",
+      "termCode": "divestitures",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.mikeye.com/m-and-a#strategic-finance",
+      "name": "Strategic finance",
+      "description": "Capital allocation, downside resilience, and decision-making under constraint.",
+      "termCode": "strategic-finance",
+      "inDefinedTermSet": {
+        "@id": "https://www.mikeye.com/m-and-a#ontology"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "id": "exit-valuation",
+      "name": "Business valuation scenarios",
+      "type": "Tool",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/exit/valuation",
+      "summary": "Explore the existing Exit Desk calculator and its indicative positioning scenarios.",
+      "decision": "How might buyer context and preparation affect an indicative valuation?",
+      "version": null,
+      "publicationDate": null,
+      "valuationDate": null,
+      "download": null
+    },
+    {
+      "id": "decision-frames",
+      "name": "The five decision frames",
+      "type": "Framework",
+      "topic": "corporate-development",
+      "url": "https://www.mikeye.com/intelligence",
+      "summary": "Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions.",
+      "decision": "Which frame clarifies the decision before analysis begins?",
+      "version": null,
+      "publicationDate": null,
+      "valuationDate": null,
+      "download": null
+    },
+    {
+      "id": "buzzangle-case-study",
+      "name": "BuzzAngle Music",
+      "type": "Case study",
+      "topic": "corporate-development",
+      "url": "https://www.mikeye.com/exit/articles/buzzangle-case-study",
+      "summary": "A strategic investment in music data, viewed through competitive position and capability.",
+      "decision": "When is a target worth more as a strategic capability than as a standalone business?",
+      "version": null,
+      "publicationDate": null,
+      "valuationDate": null,
+      "download": null
+    },
+    {
+      "id": "sourcing-journal-case-study",
+      "name": "Sourcing Journal",
+      "type": "Case study",
+      "topic": "deal-structure",
+      "url": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study",
+      "summary": "Founder clarity, partner alignment, and the timing of a capability acquisition.",
+      "decision": "How do seller alignment and timing affect the transaction?",
+      "version": null,
+      "publicationDate": null,
+      "valuationDate": null,
+      "download": null
+    },
+    {
+      "id": "long-beach-surgical-case-study",
+      "name": "Long Beach Outpatient Surgery",
+      "type": "Case study",
+      "topic": "integration",
+      "url": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study",
+      "summary": "A controlling investment and the operating work behind a multi-specialty expansion.",
+      "decision": "What operating changes are required to deliver the acquisition thesis?",
+      "version": null,
+      "publicationDate": null,
+      "valuationDate": null,
+      "download": null
+    },
+    {
+      "id": "exit-readiness-checklist",
+      "name": "Exit readiness checklist",
+      "type": "Checklist",
+      "topic": "due-diligence",
+      "url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
+      "summary": "An existing seller-preparation checklist, organized around what buyers will examine.",
+      "decision": "What should an owner prepare before a buyer begins diligence?",
+      "version": null,
+      "publicationDate": null,
+      "valuationDate": null,
+      "download": null
+    },
+    {
+      "id": "workflow-diligence",
+      "name": "Before You Buy: Follow the Work",
+      "type": "Handbook",
+      "topic": "due-diligence",
+      "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+      "summary": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy.",
+      "decision": "Can the business keep producing its results when the owner changes?",
+      "version": "1.0",
+      "publicationDate": "2026-09-08",
+      "valuationDate": null,
+      "download": {
+        "filename": "MikeYe-Diligence-Working-Pack.xlsx",
+        "repositoryPath": "public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+        "sha256": "3750261d781aee91aa7125ab512cd4308fe434be0ef95d22fe3645651927dfbc",
+        "bytes": 15187,
+        "sheets": [
+          "Start Here",
+          "Diligence Checklist",
+          "Follow One Sale",
+          "Issue Log"
+        ],
+        "version": "0.1-draft",
+        "downloadVerified": true
+      }
+    },
+    {
+      "id": "integration-continuity",
+      "name": "After the Deal: Keep the Business Working",
+      "type": "Handbook",
+      "topic": "integration",
+      "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+      "summary": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings.",
+      "decision": "What must keep working, what should change, and who is responsible for the handover?",
+      "version": "1.0",
+      "publicationDate": "2026-09-08",
+      "valuationDate": null,
+      "download": {
+        "filename": "MikeYe-Integration-Working-Pack.xlsx",
+        "repositoryPath": "public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+        "sha256": "26437d4e0830ffcda040523d103418f43393b9a79c31d83f1565dfb480d0b89c",
+        "bytes": 17836,
+        "sheets": [
+          "Start Here",
+          "Day 1",
+          "Change Tracker",
+          "Savings Tracker"
+        ],
+        "version": "0.1-draft",
+        "downloadVerified": true
+      }
+    },
+    {
+      "id": "gap-valuation-model",
+      "name": "Gap: valuing a retail business",
+      "type": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
+      "summary": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory.",
+      "decision": "Does the valuation hold if sales soften and the business has to discount more stock?",
+      "version": "1.2",
+      "publicationDate": "2026-09-08",
+      "valuationDate": "2026-09-04",
+      "download": {
+        "filename": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+        "bytes": 97991,
+        "sha256": "99c4f4eff548dde24d861b3bc5c9dd8fea7c091144d3f7fc9c55785d54c6a4fc",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
+      }
+    },
+    {
+      "id": "salesforce-valuation-model",
+      "name": "Salesforce: valuing a software business",
+      "type": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
+      "summary": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth.",
+      "decision": "How much growth can the business turn into cash for each share after the costs of delivering it?",
+      "version": "1.2",
+      "publicationDate": "2026-09-08",
+      "valuationDate": "2026-09-04",
+      "download": {
+        "filename": "Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+        "bytes": 89753,
+        "sha256": "094cee758940492f81e83b6ce100a6364060a03734a72158875bf0d1db36650b",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx"
+      }
+    },
+    {
+      "id": "ziff-davis-valuation-model",
+      "name": "Ziff Davis: valuing a digital media business",
+      "type": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
+      "summary": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued.",
+      "decision": "Which earnings can the current portfolio keep producing, and what makes those earnings vulnerable?",
+      "version": "1.2",
+      "publicationDate": "2026-09-08",
+      "valuationDate": "2026-09-04",
+      "download": {
+        "filename": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+        "bytes": 85802,
+        "sha256": "803ee3bd3afdf9047c0ff32cc64968216287732463d3f77a01bb9d943f66d420",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
+      }
+    },
+    {
+      "id": "surgery-partners-valuation-model",
+      "name": "Surgery Partners: valuing a healthcare-services business",
+      "type": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
+      "summary": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep.",
+      "decision": "What cash belongs to the buyer after operating needs, partner interests, and debt are taken into account?",
+      "version": "1.2",
+      "publicationDate": "2026-09-08",
+      "valuationDate": "2026-09-04",
+      "download": {
+        "filename": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+        "bytes": 90351,
+        "sha256": "1c0b8cf82a18f37314e9ad0eea9d1b0713069c3944ce0f468cb773763a5940df",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
+      }
+    },
+    {
+      "id": "nvidia-valuation-model",
+      "name": "NVIDIA: valuing an AI infrastructure business",
+      "type": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
+      "summary": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce.",
+      "decision": "What must remain true about demand, margins, and cash conversion for the valuation to hold?",
+      "version": "1.2",
+      "publicationDate": "2026-09-08",
+      "valuationDate": "2026-09-04",
+      "download": {
+        "filename": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+        "bytes": 90814,
+        "sha256": "4afbd3e6745250a16259b753805420e921a491dc4f4d869006a0f8639c377175",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
+      }
+    }
+  ],
+  "products": [
+    {
+      "name": "Exit Desk",
+      "url": "https://www.mikeye.com/exit",
+      "status": "available"
+    },
+    {
+      "name": "Acquisition Lens",
+      "status": "in development; not accepting purchases"
+    }
+  ]
+}

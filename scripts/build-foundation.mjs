@@ -13,7 +13,8 @@ const fragments = ["header.html", "main.html", "footer.html"].map(read).join("\n
   .replaceAll('href="/m-and-a#available-resources"', 'href="#resources"')
   .replaceAll('href="/tools-and-models"', 'href="#resources"')
   .replaceAll('href="/m-and-a"', 'href="#library"')
-  .replaceAll('href="/rebuild-foundation#products"', 'href="#products"');
+  .replaceAll('href="/rebuild-foundation#products"', 'href="#products"')
+  .replaceAll('href="/#products"', 'href="#products"');
 const safeJSON = (value) => JSON.stringify(value, null, 2).replaceAll("<", "\\u003c");
 const published = manifest.resources.filter((resource) => resource.status === "published" && resource.url);
 const schema = {

@@ -1,0 +1,864 @@
+[
+  {
+    "id": "6a3603d5bbe438f1cb8b1c10",
+    "jsonLdSchema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://www.mikeye.com/podcast#webpage",
+          "url": "https://www.mikeye.com/podcast",
+          "name": "The Mike Ye Briefing Podcast | M&A, Buyer Behavior & AI-Era Insight",
+          "description": "The Mike Ye Briefing is a short-form podcast on M&A, buyer behavior, founder readiness, and AI-era insight — helping owners and operators see clearly before consequence arrives.",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/#website"
+          },
+          "about": [
+            {
+              "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+            }
+          ],
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "mainEntity": {
+            "@id": "https://www.mikeye.com/podcast#series"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mikeye.com/podcast#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.mikeye.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "The Mike Ye Briefing",
+                "item": "https://www.mikeye.com/podcast"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "PodcastSeries",
+          "@id": "https://www.mikeye.com/podcast#series",
+          "name": "The Mike Ye Briefing",
+          "url": "https://www.mikeye.com/podcast",
+          "description": "A short-form podcast on preparation, judgment, buyer behavior, founder readiness, transferability, and AI-era insight. Mike Ye translates deal experience into practical decision frames for owners and operators who want to see clearly before consequence arrives.",
+          "inLanguage": "en-US",
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "creator": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "keywords": [
+            "M&A",
+            "buyer behavior",
+            "founder readiness",
+            "business transferability",
+            "exit planning",
+            "due diligence",
+            "AI-era insight",
+            "judgment",
+            "dependency versus leverage",
+            "timing asymmetry",
+            "signal versus narrative",
+            "scarcity versus growth"
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.mikeye.com/podcast#episodes",
+          "name": "Episodes — The Mike Ye Briefing",
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/podcast#series"
+          },
+          "numberOfItems": 6,
+          "itemListOrder": "https://schema.org/ItemListOrderDescending",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "PodcastEpisode",
+                "@id": "https://www.mikeye.com/podcast/the-window-opens-before-it-is-obvious#episode",
+                "name": "The Window Opens Before It Is Obvious",
+                "url": "https://www.mikeye.com/podcast/the-window-opens-before-it-is-obvious",
+                "description": "Episode 6 of The Mike Ye Briefing explores timing asymmetry: whether waiting creates more optionality or quietly takes options away. Mike Ye draws on the Express divestiture as fast fashion emerged, Intel Capital's monetization of more than $5 billion across over 200 investments before the dot-com bubble fully burst, and Penske Media's early relationship with South by Southwest following the Covid shutdown. The episode examines why good timing is sometimes judgment, sometimes luck, and most valuable when preparation allows action before the window becomes obvious.",
+                "episodeNumber": 6,
+                "datePublished": "2026-08-26",
+                "inLanguage": "en-US",
+                "partOfSeries": {
+                  "@id": "https://www.mikeye.com/podcast#series"
+                },
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "creator": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "associatedMedia": {
+                  "@type": "MediaObject",
+                  "name": "The Window Opens Before It Is Obvious — Spotify Episode",
+                  "embedUrl": "https://open.spotify.com/embed/episode/5oNdsxaQVElYM80htDzWXc",
+                  "contentUrl": "https://open.spotify.com/episode/5oNdsxaQVElYM80htDzWXc"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "PodcastEpisode",
+                "@id": "https://www.mikeye.com/podcast/dependency-often-looks-like-growth#episode",
+                "name": "Dependency Often Looks Like Growth",
+                "url": "https://www.mikeye.com/podcast/dependency-often-looks-like-growth",
+                "description": "Episode 5 of The Mike Ye Briefing examines how dependency can hide inside apparent growth. Through examples spanning AI search and digital publishing, Long Beach Surgical, Sourcing Journal, La Senza, Victoria's Secret, Express, and cash-flow businesses, Mike Ye explores who really controls the customer, distribution, economics, relationships, and assumptions underneath a growing business — and why durable leverage creates more options than borrowed growth.",
+                "episodeNumber": 5,
+                "datePublished": "2026-08-26",
+                "inLanguage": "en-US",
+                "partOfSeries": {
+                  "@id": "https://www.mikeye.com/podcast#series"
+                },
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "creator": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "associatedMedia": {
+                  "@type": "MediaObject",
+                  "name": "Dependency Often Looks Like Growth — Spotify Episode",
+                  "embedUrl": "https://open.spotify.com/embed/episode/2bQpAa9ARN1T5qGe63Ynpn",
+                  "contentUrl": "https://open.spotify.com/episode/2bQpAa9ARN1T5qGe63Ynpn"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "PodcastEpisode",
+                "@id": "https://www.mikeye.com/podcast/the-side-they-never-sat-at#episode",
+                "name": "The Side They Never Sat At",
+                "url": "https://www.mikeye.com/podcast/the-side-they-never-sat-at",
+                "description": "Episode 4 of The Mike Ye Briefing examines what happens when founders see their business from the buyer's side of the table. Through Sourcing Journal, Long Beach Surgical, SheMedia, and BuzzAngle, Mike Ye explores founder dependency, transition risk, incentive alignment, hidden leadership value, and how buyers evaluate what happens after ownership changes.",
+                "episodeNumber": 4,
+                "datePublished": "2026-08-19",
+                "inLanguage": "en-US",
+                "partOfSeries": {
+                  "@id": "https://www.mikeye.com/podcast#series"
+                },
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "creator": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "associatedMedia": {
+                  "@type": "MediaObject",
+                  "name": "The Side They Never Sat At — Spotify Episode",
+                  "embedUrl": "https://open.spotify.com/embed/episode/4l2i1uuCzhQvfFX3j8jTv1",
+                  "contentUrl": "https://open.spotify.com/episode/4l2i1uuCzhQvfFX3j8jTv1"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "PodcastEpisode",
+                "@id": "https://www.mikeye.com/podcast/judgment-is-the-product#episode",
+                "name": "Judgment Is the Product",
+                "url": "https://www.mikeye.com/podcast/judgment-is-the-product",
+                "description": "Episode 3 of The Mike Ye Briefing explains why judgment—not prediction, information, or commentary—is the real product. Through the acquisition of SheMedia, the recognition of Samantha Skey as its hidden leadership asset, and the founder-led evolution of South by Southwest, Mike Ye explores how disciplined judgment identifies the people, values, and possibilities that numbers alone cannot reveal.",
+                "episodeNumber": 3,
+                "datePublished": "2026-08-15",
+                "inLanguage": "en-US",
+                "partOfSeries": {
+                  "@id": "https://www.mikeye.com/podcast#series"
+                },
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "creator": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "associatedMedia": {
+                  "@type": "MediaObject",
+                  "name": "Judgment Is the Product — Spotify Episode",
+                  "embedUrl": "https://open.spotify.com/embed/episode/5M1iN9iKD3qCgWxKxD2VUz",
+                  "contentUrl": "https://open.spotify.com/episode/5M1iN9iKD3qCgWxKxD2VUz"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "PodcastEpisode",
+                "@id": "https://www.mikeye.com/podcast/the-question-beneath-the-question#episode",
+                "name": "The Question Beneath the Question",
+                "url": "https://www.mikeye.com/podcast/the-question-beneath-the-question",
+                "description": "Episode 2 of The Mike Ye Briefing explores the deeper questions beneath a founder's request for valuation. Through a recipe site losing traffic to AI search, a laundromat owner preparing to retire, and the decisions that shaped Rolling Stone, the episode examines readiness, identity, regret, and what happens after an exit.",
+                "episodeNumber": 2,
+                "datePublished": "2026-08-15",
+                "inLanguage": "en-US",
+                "partOfSeries": {
+                  "@id": "https://www.mikeye.com/podcast#series"
+                },
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "creator": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "associatedMedia": {
+                  "@type": "MediaObject",
+                  "name": "The Question Beneath the Question — Spotify Episode",
+                  "embedUrl": "https://open.spotify.com/embed/episode/22HyNYW8op5KR5t9j3hFwE",
+                  "contentUrl": "https://open.spotify.com/episode/22HyNYW8op5KR5t9j3hFwE"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "PodcastEpisode",
+                "@id": "https://www.mikeye.com/podcast/before-consequence-arrives#episode",
+                "name": "Before Consequence Arrives",
+                "url": "https://www.mikeye.com/podcast/before-consequence-arrives",
+                "description": "Episode 1 of The Mike Ye Briefing introduces the idea that preparation does not start when consequence arrives. It starts earlier — before the buyer appears, before the market changes, before the doctor gives the warning, and before someone else defines your options for you.",
+                "episodeNumber": 1,
+                "datePublished": "2026-06-19",
+                "inLanguage": "en-US",
+                "partOfSeries": {
+                  "@id": "https://www.mikeye.com/podcast#series"
+                },
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "creator": {
+                  "@id": "https://www.mikeye.com/#person"
+                },
+                "associatedMedia": {
+                  "@type": "MediaObject",
+                  "name": "Before Consequence Arrives — Spotify Episode",
+                  "embedUrl": "https://open.spotify.com/embed/episode/6j86PcoacIoLooqWYLWVCp",
+                  "contentUrl": "https://open.spotify.com/episode/6j86PcoacIoLooqWYLWVCp"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "6a35e92cf047454b350e2b95",
+    "jsonLdSchema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.mikeye.com/podcast/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#webpage",
+          "url": "https://www.mikeye.com/podcast/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }} | The Mike Ye Briefing | Mike Ye",
+          "description": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/#website"
+          },
+          "about": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "mainEntity": {
+            "@id": "https://www.mikeye.com/podcast/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#episode"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.mikeye.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "The Mike Ye Briefing",
+                "item": "https://www.mikeye.com/podcast"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+                "item": "https://www.mikeye.com/podcast/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "PodcastEpisode",
+          "@id": "https://www.mikeye.com/podcast/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#episode",
+          "url": "https://www.mikeye.com/podcast/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "episodeNumber": "{{wf {&quot;path&quot;:&quot;episode-number&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "description": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "datePublished": "{{wf {&quot;path&quot;:&quot;publish-date&quot;,&quot;type&quot;:&quot;Date&quot;} }}",
+          "timeRequired": "{{wf {&quot;path&quot;:&quot;duration&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "keywords": "{{wf {&quot;path&quot;:&quot;keyword-tags&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "sameAs": "https://open.spotify.com/episode/{{wf {&quot;path&quot;:&quot;podcast-id&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "partOfSeries": {
+            "@type": "PodcastSeries",
+            "@id": "https://www.mikeye.com/podcast#series",
+            "name": "The Mike Ye Briefing",
+            "url": "https://www.mikeye.com/podcast",
+            "description": "A short-form podcast on M&A, founder readiness, buyer behavior, and AI-era strategy. Mike Ye translates deal experience into practical frameworks for founders, operators, and investors who want to understand what makes a business transferable before the buyer arrives.",
+            "author": {
+              "@id": "https://www.mikeye.com/#person"
+            },
+            "creator": {
+              "@id": "https://www.mikeye.com/#person"
+            },
+            "publisher": {
+              "@id": "https://www.mikeye.com/#person"
+            }
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "creator": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "about": [
+            {
+              "@id": "https://www.mikeye.com/exit#product"
+            },
+            {
+              "@type": "Thing",
+              "name": "Mergers and Acquisitions"
+            },
+            {
+              "@type": "Thing",
+              "name": "Exit Readiness"
+            },
+            {
+              "@type": "Thing",
+              "name": "Business Transferability"
+            },
+            {
+              "@type": "Thing",
+              "name": "Judgment Under Uncertainty"
+            }
+          ],
+          "citation": [
+            {
+              "@type": "Article",
+              "name": "Judgment Is the Scarce Resource",
+              "url": "https://exmxc.ai/leadership-doctrine/judgment-is-the-scarce-resource"
+            },
+            {
+              "@type": "Article",
+              "name": "Sourcing Journal Case Study",
+              "url": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study"
+            },
+            {
+              "@type": "Article",
+              "name": "BuzzAngle Case Study",
+              "url": "https://www.mikeye.com/exit/articles/buzzangle-case-study"
+            },
+            {
+              "@type": "Article",
+              "name": "Long Beach Surgical Case Study",
+              "url": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study"
+            }
+          ],
+          "mentions": [
+            {
+              "@id": "https://www.mikeye.com/exit#product"
+            },
+            {
+              "@type": "PodcastEpisode",
+              "name": "Before the Buyer Arrives",
+              "url": "https://www.trailgenic.com/podcast-episodes/season-2-episode-4-before-the-buyer-arrives"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "69f3c8d9bc2ec2784c66a42a",
+    "jsonLdSchema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://www.mikeye.com/glossary#webpage",
+          "url": "https://www.mikeye.com/glossary",
+          "name": "M&A Glossary — M&A Terms for Small Business Sellers | Mike Ye",
+          "description": "M&A and exit-readiness vocabulary defined for small business owners — written from twenty-five years and $7.4B of buy-side and sell-side judgment. Every term includes the standard definition, what it means for the seller, and the buyer's lens.",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/#website"
+          },
+          "about": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "mainEntity": {
+            "@id": "https://www.mikeye.com/glossary#glossary"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.mikeye.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Exit",
+                "item": "https://www.mikeye.com/exit"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Glossary",
+                "item": "https://www.mikeye.com/glossary"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "DefinedTermSet",
+          "@id": "https://www.mikeye.com/glossary#glossary",
+          "name": "M&A Glossary",
+          "description": "M&A and exit-readiness vocabulary defined for small business owners — covering valuation metrics, deal mechanics, buyer types, and process terms. Every term is defined in plain English with a seller's read and a buyer's lens.",
+          "url": "https://www.mikeye.com/glossary",
+          "inLanguage": "en-US",
+          "numberOfItems": 54,
+          "creator": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/#website"
+          },
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/glossary#webpage"
+          },
+          "about": [
+            {
+              "@id": "https://www.mikeye.com/exit#product"
+            },
+            {
+              "@type": "Thing",
+              "name": "Exit Readiness"
+            },
+            {
+              "@type": "Thing",
+              "name": "Mergers and Acquisitions"
+            },
+            {
+              "@type": "Thing",
+              "name": "Small Business Sale"
+            },
+            {
+              "@type": "Thing",
+              "name": "Business Valuation"
+            }
+          ],
+          "hasPart": [
+            {
+              "@id": "https://www.mikeye.com/glossary/ebitda#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/sde-sellers-discretionary-earnings#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/sde-vs-ebitda#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/add-backs#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/disallowed-add-backs#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/quality-of-earnings#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/earnout#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/earnout-vs-cash-at-close#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/holdback#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/escrow#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/working-capital-peg#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/re-trade#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/loi-letter-of-intent#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/cim-confidential-information-memorandum#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/due-diligence#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/customer-concentration#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/customer-concentration-discount#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/owner-dependency#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/owner-dependency-discount#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/rep-and-warranty-insurance#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/buyer-lens-analysis#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/strategic-buyer#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/financial-buyer#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/strategic-vs-financial-buyer#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/family-office#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/search-fund-buyer#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/independent-sponsor#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/nda-non-disclosure-agreement#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/asset-sale-vs-stock-sale#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/seller-financing#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/rollover-equity#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/management-buyout-mbo#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/management-buy-in-mbi#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/pe-roll-up#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/dso-and-vertical-roll-ups#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/esop-vs-strategic-sale#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/indemnification#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/material-adverse-change-mac#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/recasting-financials#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/value-drivers#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/value-drags#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/value-gap#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/sellability-exit-readiness#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/buyer-ready-business#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/recurring-revenue#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/transferability#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/key-person-risk#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/pre-market-preparation#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/going-to-market#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/deal-fatigue#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/diligence-pressure-map#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/ai-exposure-assessment#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/pre-market-action-plan#term"
+            },
+            {
+              "@id": "https://www.mikeye.com/glossary/founder-dependence#term"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "69f3a41ed8958d1ce080557c",
+    "jsonLdSchema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.mikeye.com/glossary/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#webpage",
+          "url": "https://www.mikeye.com/glossary/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }} | Exit Desk Glossary | Mike Ye",
+          "description": "{{wf {&quot;path&quot;:&quot;one-line-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/#website"
+          },
+          "about": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "mainEntity": {
+            "@id": "https://www.mikeye.com/glossary/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#term"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.mikeye.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Exit",
+                "item": "https://www.mikeye.com/exit"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Glossary",
+                "item": "https://www.mikeye.com/glossary"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+                "item": "https://www.mikeye.com/glossary/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://www.mikeye.com/glossary/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#term",
+          "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "termCode": "{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "description": "{{wf {&quot;path&quot;:&quot;definition&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "disambiguatingDescription": "{{wf {&quot;path&quot;:&quot;one-line-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "url": "https://www.mikeye.com/glossary/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "sameAs": "https://mcp.mikeye.com/glossary/lookup.json?term={{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "inDefinedTermSet": {
+            "@id": "https://www.mikeye.com/glossary#glossary"
+          },
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/glossary/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#webpage"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "695c62c51156ff276af84a69",
+    "jsonLdSchema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://www.mikeye.com/intelligence#webpage",
+          "url": "https://www.mikeye.com/intelligence",
+          "name": "Decision Frameworks | Mike Ye",
+          "description": "Five decision frameworks for evaluating evidence, timing, leverage, scarcity, and the transfer of judgment.",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/#website"
+          },
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+          },
+          "mainEntity": {
+            "@id": "https://www.mikeye.com/intelligence#frames"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.mikeye.com/intelligence#frames",
+          "numberOfItems": 5,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Judgment as a Service",
+                "url": "https://www.mikeye.com/intelligence/judgment-as-a-service",
+                "@id": "https://www.mikeye.com/intelligence/judgment-as-a-service#frame",
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Dependency vs Leverage",
+                "url": "https://www.mikeye.com/intelligence/dependency-vs-leverage",
+                "@id": "https://www.mikeye.com/intelligence/dependency-vs-leverage#frame",
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Timing Asymmetry",
+                "url": "https://www.mikeye.com/intelligence/timing-asymmetry",
+                "@id": "https://www.mikeye.com/intelligence/timing-asymmetry#frame",
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Signal vs Narrative",
+                "url": "https://www.mikeye.com/intelligence/signal-vs-narrative",
+                "@id": "https://www.mikeye.com/intelligence/signal-vs-narrative#frame",
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Scarcity vs Growth",
+                "url": "https://www.mikeye.com/intelligence/scarcity-vs-growth",
+                "@id": "https://www.mikeye.com/intelligence/scarcity-vs-growth#frame",
+                "author": {
+                  "@id": "https://www.mikeye.com/#person"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.mikeye.com/intelligence#breadcrumbs",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.mikeye.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Decision Frameworks",
+              "item": "https://www.mikeye.com/intelligence"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

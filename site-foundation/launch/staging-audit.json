@@ -1,0 +1,175 @@
+{
+  "base": "https://mike-ye.webflow.io",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Mike Ye | M&A Valuation Models, Diligence & Integration",
+      "canonical": "https://www.mikeye.com",
+      "schemas": 3,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/m-and-a",
+      "status": 200,
+      "title": "Practical M&A Library: Valuation, Diligence & Integration | Mike Ye",
+      "canonical": "https://www.mikeye.com/m-and-a",
+      "schemas": 20,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/tools-and-models",
+      "status": 200,
+      "title": "M&A Valuation Models & Practical Tools | Mike Ye",
+      "canonical": "https://www.mikeye.com/tools-and-models",
+      "schemas": 13,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/ma-resources/before-you-buy-follow-the-work",
+      "status": 200,
+      "title": "Before You Buy: Follow the Work | Mike Ye",
+      "canonical": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+      "schemas": 5,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/ma-resources/after-the-deal-keep-the-business-working",
+      "status": 200,
+      "title": "After the Deal: Keep the Business Working | Mike Ye",
+      "canonical": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+      "schemas": 5,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/ma-resources/gap-retail-valuation-model",
+      "status": 200,
+      "title": "Gap: valuing a retail business | Mike Ye",
+      "canonical": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
+      "schemas": 5,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/ma-resources/salesforce-software-valuation-model",
+      "status": 200,
+      "title": "Salesforce: valuing a software business | Mike Ye",
+      "canonical": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
+      "schemas": 5,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/ma-resources/ziff-davis-media-valuation-model",
+      "status": 200,
+      "title": "Ziff Davis: valuing a digital media business | Mike Ye",
+      "canonical": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
+      "schemas": 5,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/ma-resources/surgery-partners-healthcare-valuation-model",
+      "status": 200,
+      "title": "Surgery Partners: valuing a healthcare-services business | Mike Ye",
+      "canonical": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
+      "schemas": 5,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/ma-resources/nvidia-ai-infrastructure-valuation-model",
+      "status": 200,
+      "title": "NVIDIA: valuing an AI infrastructure business | Mike Ye",
+      "canonical": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
+      "schemas": 5,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/intelligence",
+      "status": 200,
+      "title": "M&A Decision Frameworks | Mike Ye",
+      "canonical": "https://www.mikeye.com/intelligence",
+      "schemas": 5,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/glossary",
+      "status": 200,
+      "title": "Exit Desk Glossary \u2014 M&A Terms for Small Business Sellers | Mike Ye",
+      "canonical": "https://www.mikeye.com/glossary",
+      "schemas": 4,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/podcast",
+      "status": 200,
+      "title": "The Mike Ye Briefing Podcast | M&A, Buyer Behavior & AI-Era Insight",
+      "canonical": "https://www.mikeye.com/podcast",
+      "schemas": 5,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "title": "About Mike Ye \u2014 M&A Executive | 25+ Years in Acquisitions & Divestitures",
+      "canonical": "https://www.mikeye.com/about",
+      "schemas": 5,
+      "h1": 1,
+      "robots": [
+        "index, follow, max-image-preview:large"
+      ]
+    },
+    {
+      "path": "/about/record",
+      "status": 200,
+      "title": "Contemporaneous Record | Mike Ye",
+      "canonical": "https://www.mikeye.com/about/record",
+      "schemas": 6,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/exit",
+      "status": 200,
+      "title": "Exit Readiness Audit for Small Business Owners | Exit Desk",
+      "canonical": "https://www.mikeye.com/exit",
+      "schemas": 9,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/exit/score",
+      "status": 200,
+      "title": "Free Exit Readiness Assessment \u2014 Know Where You Stand | Mike Ye",
+      "canonical": "https://www.mikeye.com/exit/score",
+      "schemas": 4,
+      "h1": 1,
+      "robots": []
+    },
+    {
+      "path": "/exit/checkout",
+      "status": 200,
+      "title": "Get Your Buyer-Lens Audit\u2122 Report \u2014 from $199 | Exit Desk",
+      "canonical": "https://www.mikeye.com/exit/checkout",
+      "schemas": 2,
+      "h1": 1,
+      "robots": [
+        "noindex",
+        "noindex,follow"
+      ]
+    }
+  ],
+  "sitemapUrls": 109,
+  "errors": [],
+  "scope": "HTTP, rendered HTML, JSON-LD, metadata, landmarks, download links, sitemap. This is not a mobile visual review or a payment test."
+}
