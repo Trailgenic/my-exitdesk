@@ -29,11 +29,12 @@ for (const path of ["/", "/exit", "/exit/score", "/exit/valuation", "/exit/check
 assert.ok(manifest.preservedPages.filter((page) => ["/acquisition-lens", "/screen", "/checkout", "/intake", "/success"].includes(page.publishedPath)).every((page) => page.draft));
 assert.equal(new Set(manifest.topics.map((topic) => topic.slug)).size, 10);
 const publicResources = JSON.parse(read("generated/resource-index.json")).resources;
-assert.equal(publicResources.length, 6);
+assert.equal(publicResources.length, manifest.publication ? 13 : 6);
 for (const resource of publicResources) {
   assert.ok(manifest.topics.some((topic) => topic.slug === resource.topic));
   assert.equal(new URL(resource.url).origin, manifest.canonicalOrigin);
-  assert.ok(html.includes('href="' + resource.url + '"'));
+  const entry=manifest.resources.find(r=>r.id===resource.id);
+  if(!entry.proposedPath)assert.ok(html.includes('href="' + resource.url + '"'));
 }
 for (const name of ["generated/resource-index.json", "generated/resource-index.schema.json", "generated/llms-resources.txt"]) {
   assert.ok(!read(name).includes("/acquisition-lens"), "Unlaunched product leaked into index");
@@ -49,4 +50,4 @@ for (const [foreground, background] of [[colors.ink, colors.paper], [colors.mute
   const a = luminance(foreground), b = luminance(background);
   assert.ok((Math.max(a, b) + .05) / (Math.min(a, b) + .05) >= 4.5, "Insufficient text contrast");
 }
-console.log("Foundation checks passed: semantics, anchor integrity, draft boundaries, 50 preserved page records, 10 topics, 6 resource links, responsive rules, and text contrast.");
+console.log(`Foundation checks passed: semantics, anchors, 50 preserved page records, 10 topics, ${publicResources.length} published resources, responsive rules, and contrast.`);

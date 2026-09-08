@@ -68,6 +68,83 @@
         "name": "Exit readiness checklist",
         "description": "An existing seller-preparation checklist, organized around what buyers will examine."
       }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+        "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+        "name": "Before You Buy: Follow the Work",
+        "description": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+        "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+        "name": "After the Deal: Keep the Business Working",
+        "description": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
+        "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
+        "name": "Gap: valuing a retail business",
+        "description": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
+        "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
+        "name": "Salesforce: valuing a software business",
+        "description": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
+        "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
+        "name": "Ziff Davis: valuing a digital media business",
+        "description": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
+        "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
+        "name": "Surgery Partners: valuing a healthcare-services business",
+        "description": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
+        "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
+        "name": "NVIDIA: valuing an AI infrastructure business",
+        "description": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce."
+      }
     }
   ]
 }

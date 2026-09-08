@@ -37,4 +37,7 @@ for (const filename of ['home-head.html', 'library-head.html', 'tools-head.html'
 }
 assert(!fs.readFileSync(`${dir}/global-footer.html`, 'utf8').trim());
 assert(inventory.products.find(p => p.name === 'Acquisition Lens').status.includes('not accepting'));
+assert.deepEqual(JSON.parse(fs.readFileSync('public/ontology.json','utf8')),ontology);
+assert.deepEqual(JSON.parse(fs.readFileSync('public/datasets/ma-library.json','utf8')),inventory);
+assert(fs.readFileSync('public/llms.txt','utf8').includes('https://my-exitdesk.vercel.app/ontology.json'));
 console.log('Launch inventory verified: 13 resources, 10 topics, seven pinned workbook hashes, author identity, global/hub JSON-LD, and product availability.');

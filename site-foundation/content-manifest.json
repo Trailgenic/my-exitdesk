@@ -1,8 +1,8 @@
 {
-  "version": "1.4.1",
-  "updated": "2026-09-07",
+  "version": "2.0.0",
+  "updated": "2026-09-08",
   "canonicalOrigin": "https://www.mikeye.com",
-  "phase": "nvidia-model-placeholder",
+  "phase": "published-practical-ma-library",
   "positioning": {
     "headline": "The Deal Is Only the Beginning.",
     "supportingStatement": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
@@ -16,7 +16,10 @@
     "topicTemplatePageId": "6a9f168391744e4c67910a0f",
     "topicsCollectionId": "6a9f168391744e4c67910a09",
     "resourcesCollectionId": "6a9f1683bfb97f3c671ae853",
-    "toolsDraftPageId": "6a9f3a7d2148e9081ffed5ea"
+    "toolsDraftPageId": "6a9f3a7d2148e9081ffed5ea",
+    "homePageId": "69499e77d9c11f22288abc5d",
+    "libraryPageId": "6a9f20d0a616017e7bdf9a95",
+    "toolsPageId": "6a9f3a7d2148e9081ffed5ea"
   },
   "topics": [
     {
@@ -186,12 +189,12 @@
       "topic": "due-diligence",
       "summary": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy.",
       "decision": "Can the business keep producing its results when the owner changes?",
-      "status": "draft",
-      "version": "0.2-draft",
-      "contentReviewedAt": null,
-      "publicationDate": null,
-      "cmsStatus": "draft-content",
-      "url": null,
+      "status": "published",
+      "version": "1.0",
+      "contentReviewedAt": "2026-09-08",
+      "publicationDate": "2026-09-08",
+      "cmsStatus": "published",
+      "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
       "proposedPath": "/ma-resources/before-you-buy-follow-the-work",
       "sourceFile": "editorial/workflow-diligence.json",
       "sourcePrinciples": [
@@ -230,12 +233,12 @@
       "topic": "integration",
       "summary": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings.",
       "decision": "What must keep working, what should change, and who is responsible for the handover?",
-      "status": "draft",
-      "version": "0.2-draft",
-      "contentReviewedAt": null,
-      "publicationDate": null,
-      "cmsStatus": "draft-content",
-      "url": null,
+      "status": "published",
+      "version": "1.0",
+      "contentReviewedAt": "2026-09-08",
+      "publicationDate": "2026-09-08",
+      "cmsStatus": "published",
+      "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
       "proposedPath": "/ma-resources/after-the-deal-keep-the-business-working",
       "sourceFile": "editorial/integration-continuity.json",
       "sourcePrinciples": [
@@ -280,7 +283,7 @@
       "company": "Gap Inc.",
       "ticker": "NYSE: GAP",
       "industry": "Specialty retail",
-      "status": "draft",
+      "status": "published",
       "version": "1.2",
       "workbookStatus": "available",
       "download": {
@@ -294,10 +297,10 @@
         "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
-      "contentReviewedAt": null,
-      "publicationDate": null,
-      "cmsStatus": "draft-content",
-      "url": null,
+      "contentReviewedAt": "2026-09-08",
+      "publicationDate": "2026-09-08",
+      "cmsStatus": "published",
+      "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
       "proposedPath": "/ma-resources/gap-retail-valuation-model",
       "sourceFile": "editorial/company-models.json",
       "relatedResources": [
@@ -322,7 +325,7 @@
       "company": "Salesforce",
       "ticker": "NYSE: CRM",
       "industry": "Enterprise software",
-      "status": "draft",
+      "status": "published",
       "version": "1.2",
       "workbookStatus": "available",
       "download": {
@@ -336,10 +339,10 @@
         "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
-      "contentReviewedAt": null,
-      "publicationDate": null,
-      "cmsStatus": "draft-content",
-      "url": null,
+      "contentReviewedAt": "2026-09-08",
+      "publicationDate": "2026-09-08",
+      "cmsStatus": "published",
+      "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
       "proposedPath": "/ma-resources/salesforce-software-valuation-model",
       "sourceFile": "editorial/company-models.json",
       "relatedResources": [
@@ -364,7 +367,7 @@
       "company": "Ziff Davis",
       "ticker": "NASDAQ: ZD",
       "industry": "Digital media",
-      "status": "draft",
+      "status": "published",
       "version": "1.2",
       "workbookStatus": "available",
       "download": {
@@ -378,10 +381,10 @@
         "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
-      "contentReviewedAt": null,
-      "publicationDate": null,
-      "cmsStatus": "draft-content",
-      "url": null,
+      "contentReviewedAt": "2026-09-08",
+      "publicationDate": "2026-09-08",
+      "cmsStatus": "published",
+      "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
       "proposedPath": "/ma-resources/ziff-davis-media-valuation-model",
       "sourceFile": "editorial/company-models.json",
       "relatedResources": [
@@ -406,7 +409,7 @@
       "company": "Surgery Partners",
       "ticker": "NASDAQ: SGRY",
       "industry": "Healthcare services",
-      "status": "draft",
+      "status": "published",
       "version": "1.2",
       "workbookStatus": "available",
       "download": {
@@ -420,10 +423,10 @@
         "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
-      "contentReviewedAt": null,
-      "publicationDate": null,
-      "cmsStatus": "draft-content",
-      "url": null,
+      "contentReviewedAt": "2026-09-08",
+      "publicationDate": "2026-09-08",
+      "cmsStatus": "published",
+      "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
       "proposedPath": "/ma-resources/surgery-partners-healthcare-valuation-model",
       "sourceFile": "editorial/company-models.json",
       "relatedResources": [
@@ -449,7 +452,7 @@
       "company": "NVIDIA",
       "ticker": "NASDAQ: NVDA",
       "industry": "Semiconductors & AI infrastructure",
-      "status": "draft",
+      "status": "published",
       "version": "1.2",
       "workbookStatus": "available",
       "download": {
@@ -463,10 +466,10 @@
         "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
-      "contentReviewedAt": null,
-      "publicationDate": null,
-      "cmsStatus": "draft-content",
-      "url": null,
+      "contentReviewedAt": "2026-09-08",
+      "publicationDate": "2026-09-08",
+      "cmsStatus": "published",
+      "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
       "proposedPath": "/ma-resources/nvidia-ai-infrastructure-valuation-model",
       "sourceFile": "editorial/company-models.json",
       "relatedResources": [
@@ -1711,5 +1714,10 @@
       "label": "PMC masthead records",
       "supports": "Title and tenure at Penske Media Corporation"
     }
+  },
+  "publication": {
+    "date": "2026-09-08",
+    "verifiedAt": "2026-09-08T03:19:14.411Z",
+    "audit": "site-foundation/launch/production-audit.json"
   }
 }

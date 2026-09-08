@@ -18,8 +18,9 @@ for (const page of [home, html]) {
   for (const [, id] of page.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(id), "Missing anchor " + id);
 }
 const manifest = JSON.parse(read("content-manifest.json"));
+const released = Boolean(manifest.publication);
 for (const item of manifest.resources.filter((r) => r.status === "published")) assert.ok(html.includes('href="' + item.url + '"'));
-assert.equal((html.match(/<article class="my1-card">/g) || []).length, 6);
+assert.equal((html.match(/<article class="my1-card">/g) || []).length, released ? 13 : 6);
 assert.ok(html.includes("coverage is not yet complete"));
 assert.ok(!html.includes("Resource title"));
 assert.ok(!html.includes("/acquisition-lens"));
@@ -36,9 +37,9 @@ for (const book of handbooks) {
   assert.ok(html.includes('id="' + book.id + '"') && html.includes(book.name));
   assert.ok(html.includes("Illustrative example, not a Mike Ye transaction."));
   const entry = manifest.resources.find((r) => r.id === book.id);
-  assert.equal(entry.status, "draft");
-  assert.equal(entry.contentReviewedAt, null);
-  assert.equal(entry.url, null);
+  assert.equal(entry.status, released ? "published" : "draft");
+  assert.equal(entry.contentReviewedAt, released ? "2026-09-08" : null);
+  assert.equal(entry.url, released ? manifest.canonicalOrigin+entry.proposedPath : null);
   if (book.download) {
     const download = book.download;
     assert.equal(download.downloadVerified, true);
@@ -50,11 +51,11 @@ for (const book of handbooks) {
     assert.ok(html.includes("Put the guide to work"));
   }
   for (const name of ["generated/resource-index.json", "generated/resource-index.schema.json", "generated/llms-resources.txt"]) {
-    assert.ok(!read(name).includes(book.slug) && !read(name).includes(book.name), "Unpublished handbook leaked into public inventory");
+    assert.equal(read(name).includes(book.name), released, "Handbook inventory does not match publication state");
   }
 }
-console.log("Library checks passed: approved headline, six original publication links, semantic structure, anchors, draft boundaries, and truthful availability.");
-console.log("Editorial checks passed: deal/masthead distinction, documented judgment references, two complete draft guides, and exclusion from public resource inventories.");
+console.log("Library checks passed: approved headline, resource links, semantic structure, anchors, publication boundaries, and truthful availability.");
+console.log("Editorial checks passed: deal/masthead distinction, documented judgment, complete guides, and matching publication metadata.");
 assert.equal(models.length, 5);
 assert.equal(new Set(models.map(m => m.id)).size, 5);
 const tools = toolsHub();
@@ -65,11 +66,11 @@ for (const model of models) {
   const entry = manifest.resources.find(r => r.id === model.id);
   assert.ok(entry, "Model missing from canonical draft manifest");
   assert.equal(entry.workbookStatus, "available");
-  assert.equal(entry.status, "draft");
+  assert.equal(entry.status, released ? "published" : "draft");
   assert.deepEqual(entry.download, model.download);
-  assert.equal(entry.url, null);
+  assert.equal(entry.url, released ? manifest.canonicalOrigin+entry.proposedPath : null);
   assert.equal(entry.valuationDate, model.valuationDate);
-  assert.equal(entry.contentReviewedAt, null);
+  assert.equal(entry.contentReviewedAt, released ? "2026-09-08" : null);
   assert.ok(model.sourcePrinciples.every(id => doctrine.includes('id: "' + id + '"')));
   assert.ok(html.includes('id="' + model.id + '"'));
   const body = modelBody(model);
@@ -84,7 +85,7 @@ for (const model of models) {
   assert.ok(model.workbookSheets.includes("Checks") && model.workbookSheets.includes("Start Here"));
   assert.ok(tools.includes('/ma-resources/' + model.slug), "Hub omits model starting guide");
   for (const name of ["generated/resource-index.json", "generated/resource-index.schema.json", "generated/llms-resources.txt"]) {
-    assert.ok(!read(name).includes(model.slug) && !read(name).includes(model.name), "Pending model leaked into published inventory");
+    assert.equal(read(name).includes(model.name), released, "Model inventory does not match publication state");
   }
 }
-console.log("Model checks passed: five verified workbook downloads, matching file hashes, dated assumptions, source principles, working navigation, and public-index exclusion.");
+console.log("Model checks passed: five verified downloads, matching hashes, dated assumptions, source principles, navigation, and matching publication metadata.");

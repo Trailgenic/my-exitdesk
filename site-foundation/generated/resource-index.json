@@ -1,6 +1,6 @@
 {
-  "version": "1.4.1",
-  "scope": "selected-existing-resources",
+  "version": "2.0.0",
+  "scope": "published-ma-library",
   "replacesExistingRegistry": false,
   "resources": [
     {
@@ -50,6 +50,62 @@
       "topic": "due-diligence",
       "url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
       "summary": "An existing seller-preparation checklist, organized around what buyers will examine."
+    },
+    {
+      "id": "workflow-diligence",
+      "name": "Before You Buy: Follow the Work",
+      "format": "Handbook",
+      "topic": "due-diligence",
+      "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+      "summary": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy."
+    },
+    {
+      "id": "integration-continuity",
+      "name": "After the Deal: Keep the Business Working",
+      "format": "Handbook",
+      "topic": "integration",
+      "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+      "summary": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings."
+    },
+    {
+      "id": "gap-valuation-model",
+      "name": "Gap: valuing a retail business",
+      "format": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
+      "summary": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory."
+    },
+    {
+      "id": "salesforce-valuation-model",
+      "name": "Salesforce: valuing a software business",
+      "format": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
+      "summary": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth."
+    },
+    {
+      "id": "ziff-davis-valuation-model",
+      "name": "Ziff Davis: valuing a digital media business",
+      "format": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
+      "summary": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued."
+    },
+    {
+      "id": "surgery-partners-valuation-model",
+      "name": "Surgery Partners: valuing a healthcare-services business",
+      "format": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
+      "summary": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep."
+    },
+    {
+      "id": "nvidia-valuation-model",
+      "name": "NVIDIA: valuing an AI infrastructure business",
+      "format": "Model",
+      "topic": "valuation",
+      "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
+      "summary": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce."
     }
   ]
 }

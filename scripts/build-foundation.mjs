@@ -39,15 +39,15 @@ const preview = `<!doctype html>
 writeFileSync(resolve(output, "MikeYe-Phase1-Preview.html"), preview);
 writeFileSync(resolve(output, "resource-index.schema.json"), safeJSON(schema) + "\n");
 writeFileSync(resolve(output, "resource-index.json"), safeJSON({
-  version: manifest.version, scope: "selected-existing-resources",
+  version: manifest.version, scope: manifest.publication ? "published-ma-library" : "selected-existing-resources",
   replacesExistingRegistry: false,
   resources: published.map(({ id, name, format, topic, url, summary }) => ({ id, name, format, topic, url, summary }))
 }) + "\n");
 writeFileSync(resolve(output, "llms-resources.txt"), [
   "# Mike Ye — Selected M&A Resources",
   "",
-  "> Staged supplemental resource inventory. Not a replacement for the deployed llms.txt or full MCP registry.",
-  "> Entries refer to existing published resources; planned topics and unlaunched products are excluded.",
+  manifest.publication ? "> Published resource inventory for Mike Ye’s practical M&A library." : "> Staged supplemental resource inventory. Not a replacement for the deployed llms.txt or full MCP registry.",
+  "> Entries refer to published resources; planned topic pages and unlaunched products are excluded.",
   "",
   ...published.map((resource) => `- [${resource.name}](${resource.url}): ${resource.summary}`),
   "",

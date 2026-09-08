@@ -1,0 +1,39 @@
+{
+  "verifiedDownloads": [
+    {
+      "id": "workflow-diligence",
+      "bytes": 15187,
+      "sha256": "3750261d781aee91aa7125ab512cd4308fe434be0ef95d22fe3645651927dfbc"
+    },
+    {
+      "id": "integration-continuity",
+      "bytes": 17836,
+      "sha256": "26437d4e0830ffcda040523d103418f43393b9a79c31d83f1565dfb480d0b89c"
+    },
+    {
+      "id": "gap-valuation-model",
+      "bytes": 97991,
+      "sha256": "99c4f4eff548dde24d861b3bc5c9dd8fea7c091144d3f7fc9c55785d54c6a4fc"
+    },
+    {
+      "id": "salesforce-valuation-model",
+      "bytes": 89753,
+      "sha256": "094cee758940492f81e83b6ce100a6364060a03734a72158875bf0d1db36650b"
+    },
+    {
+      "id": "ziff-davis-valuation-model",
+      "bytes": 85802,
+      "sha256": "803ee3bd3afdf9047c0ff32cc64968216287732463d3f77a01bb9d943f66d420"
+    },
+    {
+      "id": "surgery-partners-valuation-model",
+      "bytes": 90351,
+      "sha256": "1c0b8cf82a18f37314e9ad0eea9d1b0713069c3944ce0f468cb773763a5940df"
+    },
+    {
+      "id": "nvidia-valuation-model",
+      "bytes": 90814,
+      "sha256": "4afbd3e6745250a16259b753805420e921a491dc4f4d869006a0f8639c377175"
+    }
+  ]
+}
