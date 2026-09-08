@@ -1,4 +1,4 @@
-/* Mike Ye | Native Exit Desk runtime v1.0.1. */
+/* Mike Ye | Native Exit Desk runtime v1.0.2. */
 (function(){ function boot(){ var root=document.querySelector('[data-native-funnel="score"]'); if(!root || root.dataset.runtimeReady==='true')return;
 
 root.querySelectorAll('[data-funnel-action]').forEach(function(control) {
@@ -367,6 +367,7 @@ document.getElementById('es-dimension-breakdown').innerHTML = breakdownHtml;
 var industryText = getIndustryFraming(answers);
 if (industryText) document.getElementById('es-industry-framing').innerHTML = '<div class="es-industry-text">' + industryText + '</div>';
 
+document.getElementById('es-path-high').style.display = 'none'; document.getElementById('es-path-low').style.display = 'none';
 if (total >= 40) {
 document.getElementById('es-path-high').style.display = 'block';
 document.getElementById('es-checkout-link').href = buildCheckoutUrl();

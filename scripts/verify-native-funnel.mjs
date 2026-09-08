@@ -44,6 +44,13 @@ for(const answers of cases){
   vm.runInContext(nativeJS,current.context);
   assert.equal(current.document.getElementById('es-score-display').textContent,old.document.getElementById('es-score-display').textContent);
 }
+const repeated=environment(nativeHTML,nativeJS);
+for(const [answers,expected] of [[cases[0],'high'],[cases[1],'low'],[cases[2],'high']]){
+  answers.forEach((a,i)=>repeated.window.selectOption(repeated.document.querySelector(`[data-q="${i+1}"][data-v="${a}"]`)));
+  repeated.window.showResults();
+  assert.equal(repeated.document.getElementById('es-path-'+expected).style.display,'block');
+  assert.equal(repeated.document.getElementById('es-path-'+(expected==='high'?'low':'high')).style.display,'none');
+}
 const checkoutHTML=read('site-foundation/native-funnel/checkout.html').replace(/<button\b/g,'<div').replace(/<\/button>/g,'</div>');
 const checkoutJS=read('public/exit-checkout-native-v1.js');
 for(const [query,price,visible] of [['?q1=a&score=0','$199',true],['?q1=b&score=100','$499',true],['','$499',false],['?score=NaN','$499',false],['?score=101','$499',false]]){
