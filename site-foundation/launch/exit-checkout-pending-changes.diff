@@ -1,0 +1,47 @@
+--- production
++++ pending-staging
+@@ -378,7 +378,27 @@
+     }
+   }
+ 
++  // Direct visitors choose their revenue tier; diagnostic visitors keep their existing path.
++  if (!/^[a-e]$/.test(q1 || '')) {
++    var choice = document.createElement('div');
++    choice.style.cssText = 'margin:24px 0;padding:20px;border:1px solid #C8C4BA';
++    choice.innerHTML = '<label for="ec-revenue-choice">What is your approximate annual revenue?</label><select id="ec-revenue-choice" style="display:block;width:100%;margin-top:12px;padding:12px;font-size:16px"><option value="">Select your revenue</option><option value="a">Under $1M — $199 Main Street Edition</option><option value="b">$1M or more — $499 Full Report</option></select>';
++    var payButton = document.getElementById('ec-pay-btn');
++    payButton.parentNode.insertBefore(choice, payButton);
++    payButton.disabled = true;
++    termPrice.textContent = 'From $199';
++    ctaPrice.textContent = 'Select revenue above';
++    mastheadLabel.textContent = 'Exit Desk · Buyer-Lens Audit';
++    calibration.textContent = '$199 for businesses under $1M in annual revenue. $499 for $1M+. Calibrated to your revenue scale.';
++    document.getElementById('ec-revenue-choice').addEventListener('change', function () {
++      if (!this.value) return;
++      params.set('q1', this.value);
++      window.location.search = params.toString();
++    });
++  }
++
+   window.startCheckout = function() {
++    if (!/^[a-e]$/.test(q1 || '')) return;
+     var btn = document.getElementById('ec-pay-btn');
+     var loading = document.getElementById('ec-loading');
+     var error = document.getElementById('ec-error');
+@@ -398,7 +418,8 @@
+       q6: params.get('q6') || undefined,
+       q7: params.get('q7') || undefined,
+       q8: params.get('q8') || undefined,
+-      ref: params.get('ref') || undefined
++      ref: params.get('ref') || (window.ExitDeskCampaign && window.ExitDeskCampaign.ref) || undefined,
++      se_token: params.get('se_token') || (window.ExitDeskCampaign && window.ExitDeskCampaign.token) || undefined
+     };
+ 
+     fetch('https://my-exitdesk.vercel.app/api/create-checkout-session', {
+@@ -425,4 +446,6 @@
+ </script>
+ <!-- =============================================== -->
+ <!-- END Exit Checkout Embed v2.0                   -->
+-<!-- =============================================== -->+<!-- =============================================== -->
++<!-- Stalled Exit v0: attribution only; existing diagnostic and pricing remain authoritative. -->
++<script src="https://my-exitdesk.vercel.app/exit-campaign.js"></script>

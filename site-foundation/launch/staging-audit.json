@@ -170,6 +170,10 @@
     }
   ],
   "sitemapUrls": 109,
-  "errors": [],
+  "errors": [
+    "/exit: pending Stalled Exit campaign loader would be released; preserve separately before this launch",
+    "/exit/score: pending Stalled Exit campaign loader would be released; preserve separately before this launch",
+    "/exit/checkout: pending Stalled Exit campaign loader would be released; preserve separately before this launch"
+  ],
   "scope": "HTTP, rendered HTML, JSON-LD, metadata, landmarks, download links, sitemap. This is not a mobile visual review or a payment test."
 }

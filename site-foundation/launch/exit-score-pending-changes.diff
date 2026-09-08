@@ -1,0 +1,52 @@
+--- production
++++ pending-staging
+@@ -426,7 +426,8 @@
+ params.set('q6', answers[6] || '');
+ params.set('q7', answers[7] || '');
+ params.set('q8', answers[8] || '');
+-return '/exit/checkout?' + params.toString();
++var url = '/exit/checkout?' + params.toString();
++return window.ExitDeskCampaign ? window.ExitDeskCampaign.decorate(url) : url;
+ }
+ 
+ function applyTierToCTA(q1) {
+@@ -468,6 +469,7 @@
+ }
+ 
+ window.selectOption = function(el) {
++if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('score_start');
+ var q = el.getAttribute('data-q');
+ var v = el.getAttribute('data-v');
+ document.querySelectorAll('[data-q="' + q + '"]').forEach(function(o) { o.classList.remove('selected'); });
+@@ -497,6 +499,7 @@
+ };
+ 
+ window.showResults = function() {
++if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('score_start');
+ if (!answers[8]) return;
+ var dims = calcDimensions();
+ var total = calcTotal(dims);
+@@ -569,6 +572,7 @@
+ document.getElementById('es-trust-actions').innerHTML = actionsHtml;
+ }
+ 
++if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('score_complete');
+ window.scrollTo({ top: 0, behavior: 'smooth' });
+ };
+ 
+@@ -594,7 +598,7 @@
+ body: JSON.stringify({ email: email, score: total, weakestDimension: weakest, scoreBand: band, exitPath: path })
+ })
+ .then(function(r) { if (!r.ok) { throw new Error('subscribe failed'); } return r.json(); })
+-.then(function() { confirmEl.style.display = 'block'; emailEl.disabled = true; })
++.then(function() { confirmEl.style.display = 'block'; emailEl.disabled = true; if (window.ExitDeskCampaign) window.ExitDeskCampaign.track(path === 'low' ? 'plan_signup' : 'score_save'); })
+ .catch(function() { confirmEl.style.display = 'block'; confirmEl.textContent = 'Something went wrong — your results weren\'t sent. Please try again.'; });
+ };
+ 
+@@ -602,4 +606,6 @@
+ </script>
+ <!-- =============================================== -->
+ <!-- END Exit Score Embed v3.2                      -->
+-<!-- =============================================== -->+<!-- =============================================== -->
++<!-- Stalled Exit v0: attribution only; existing diagnostic and pricing remain authoritative. -->
++<script src="https://my-exitdesk.vercel.app/exit-campaign.js"></script>

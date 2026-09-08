@@ -31,6 +31,8 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
 for path, status, html in results:
     soup = BeautifulSoup(html, "html.parser")
     scripts = soup.find_all("script", type="application/ld+json")
+    if soup.find("script", src="https://my-exitdesk.vercel.app/exit-campaign.js"):
+        errors.append(f"{path}: pending Stalled Exit campaign loader would be released; preserve separately before this launch")
     schemas = []
     try:
         for script in scripts:
