@@ -45,6 +45,7 @@ jobs:
       - run: npm run typecheck -- --incremental false
       - run: npm run test:acquisition
       - run: npm run verify:webmcp
+      - run: node scripts/verify-native-funnel.mjs
       - run: node scripts/build-foundation.mjs && node scripts/verify-foundation.mjs
       - run: node scripts/build-library-preview.mjs && node scripts/verify-library.mjs
       - run: node scripts/build-launch.mjs && node scripts/build-legacy-hub-schemas.mjs && node scripts/verify-launch-inventory.mjs
