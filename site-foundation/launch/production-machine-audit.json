@@ -1,0 +1,39 @@
+{
+  "publicOrigin": "https://my-exitdesk.vercel.app",
+  "resources": 13,
+  "topics": 10,
+  "files": [
+    {
+      "path": "/ontology.json",
+      "status": 200,
+      "bytes": 26288,
+      "sha256": "b6700a3455ba5e80229384681bee7233e12526c78ad951c9c3b08ce36990fca5",
+      "matchesSource": true,
+      "contentType": "application/ld+json; charset=utf-8"
+    },
+    {
+      "path": "/datasets/ma-library.json",
+      "status": 200,
+      "bytes": 15603,
+      "sha256": "42dfa3d0eec60d8c2ba232b8b5be5b121f7d68a884ae31ccd271b416e36ea17b",
+      "matchesSource": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "bytes": 5200,
+      "sha256": "3b1c50f94744f7d94dbf0ea0ddb1ab665c07d0ba360b1391bfbe13e2029928c2",
+      "matchesSource": true,
+      "contentType": "text/plain; charset=utf-8"
+    }
+  ],
+  "mcpDeploymentRun": 34182988273,
+  "mcpDeploymentSucceeded": true,
+  "mcpDirectVerification": "Cloudflare 403/error 1010; no security settings changed",
+  "globalDiscoveryLinksVerified": [
+    "https://my-exitdesk.vercel.app/ontology.json",
+    "https://my-exitdesk.vercel.app/datasets/ma-library.json",
+    "https://my-exitdesk.vercel.app/llms.txt"
+  ]
+}

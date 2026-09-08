@@ -19,12 +19,12 @@ Worker PR 11 was merged at `3e6b1d73f130332a8c3b85dd703d9ef4f5c418f3`. Cloudflar
 
 Direct verification requests to `mcp.mikeye.com` received Cloudflare 403 / error 1010. No security settings were changed. The available plugin search returned no accessible Cloudflare integration.
 
-The website repository now also generates public discovery copies at `/ontology.json`, `/datasets/ma-library.json`, and `/llms.txt` on `my-exitdesk.vercel.app`. They preserve all canonical MikeYe entity and methodology URLs. The global discovery links are prepared to point to these copies after deployment and readback verification. The root `www.mikeye.com/llms.txt` is separately managed and remains unchanged; its available file-management API requires Enterprise hosting.
+The website repository also generates public discovery copies at `/ontology.json`, `/datasets/ma-library.json`, and `/llms.txt` on `my-exitdesk.vercel.app`. All three returned HTTP 200 and matched the source bytes exactly after PR 103 deployed at `48b59d9`. The ontology uses `application/ld+json`. They preserve all canonical MikeYe entity and methodology URLs. Global discovery links now point to these public copies. The root `www.mikeye.com/llms.txt` is separately managed and remains unchanged; its available file-management API requires Enterprise hosting.
 
 ## Source of truth and continuation
 
 The canonical content manifest has been promoted only after a successful production audit. Its 13 resources now reflect actual publication; future builds no longer omit the seven new guides as drafts. The ontology and inventory remain generated from that manifest.
 
-Current production code merges: PR 100 (`126e518`), PR 101 (`714c755`), and PR 102 (`c549dcd`). Native controls, script versions and rollback IDs are documented in `native-funnel/README.md`. HTTP and download audit evidence is under `launch/production-*.json`.
+Current production code merges: PR 100 (`126e518`), PR 101 (`714c755`), PR 102 (`c549dcd`), and PR 103 (`48b59d9`). PR 103 passed GitHub Actions run `34183389101`; its production Vercel deployment also succeeded. Native controls, script versions and rollback IDs are documented in `native-funnel/README.md`. HTML, download and public machine-data audit evidence is under `launch/production-*.json`.
 
 Daily additions can proceed from this published foundation. Keep Acquisition Lens and the separate Stalled Exit campaign unlaunched until their own work is approved and verified.

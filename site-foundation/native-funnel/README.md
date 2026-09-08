@@ -19,4 +19,4 @@ Page and root IDs:
 | `/exit/score` | `69dd52862a901d4c7806e841` | `916e91b0-0cc8-e34d-163f-71bdc92b95d8` | `b398cefd-61b3-efa1-71d0-a0b422241bfd` |
 | `/exit/checkout` | `69dd8d6c2d638a0ee1ffc8f7` | `3b4943c2-f4d6-e785-d9c8-12527ae19bae` | `f1b53f39-7fba-d0a1-d18d-da5fbf034fff` |
 
-Rollback: hide the new root, show the original section, remove the page's native runtime registration and republish. Keep the separate Cashflow Routes bridge on `/exit`.
+Rollback: first restore the matching saved `launch/exit-production-embed.html`, `launch/exit-score-production-embed.html`, or `launch/exit-checkout-production-embed.html` into the legacy HtmlEmbed through its code setting. The retained draft embeds can contain unrelated campaign work. Then hide the new root, show the legacy section, remove the page's native runtime registration and republish. Keep the separate Cashflow Routes bridge on `/exit`.
