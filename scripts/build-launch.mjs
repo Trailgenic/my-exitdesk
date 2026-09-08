@@ -5,6 +5,7 @@ const dir='site-foundation/launch';fs.mkdirSync(dir,{recursive:true});
 const read=n=>JSON.parse(fs.readFileSync(`${dir}/${n}`,'utf8'));
 const write=(n,v)=>fs.writeFileSync(`${dir}/${n}`,typeof v==='string'?v:JSON.stringify(v,null,2)+'\n');
 const S='https://www.mikeye.com', M='https://mcp.mikeye.com', date='2026-09-08';
+const D='https://my-exitdesk.vercel.app';
 const manifest=JSON.parse(fs.readFileSync('site-foundation/content-manifest.json'));
 const prior=read('global-code-before.json').result.find(x=>x.location==='head').content;
 const before=JSON.parse(prior.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
@@ -65,3 +66,16 @@ for(const x of hubs){const id=x.label.split(' ')[0],p=x.label.split(' ')[1];let 
 write('existing-hub-updates.json',updates);
 write('llms.txt',`# Mike Ye — Practical M&A Library\n\n> M&A judgment made practical through valuation models, diligence and integration handbooks, transaction lessons, and decision frameworks.\n\nUpdated: ${date}\nCanonical identity: ${S}/#person\n\n## Authority and scope\n\nMike Ye is an M&A and corporate development executive with 25 years of experience across media, healthcare, retail, and technology. MikeYe.com is his public M&A knowledge and tool library. Exit Desk is its seller-facing application. Acquisition Lens is in development and is not accepting purchases.\n\n## Start here\n\n- [M&A Library](${S}/m-and-a): Deal lifecycle topics and practical resources.\n- [Tools & Models](${S}/tools-and-models): Five Excel valuation models, two working packs, and the existing valuation calculator.\n- [About Mike](${S}/about): Experience and selected transactions.\n- [PMC masthead records](${S}/about/record): Evidence of title and tenure at Penske Media; these records are not a list of Mike's deals.\n- [Decision Frameworks](${S}/intelligence): Mike's judgment frameworks.\n- [M&A Glossary](${S}/glossary): Practical definitions and buyer/seller implications.\n- [The Mike Ye Briefing](${S}/podcast): Podcast episodes.\n\n## Resources\n\n${resources.map(r=>`- [${r.name}](${r.url}): ${r.summary}${r.download?' Includes an Excel download.':''}`).join('\n')}\n\n## How to use the materials\n\nCite the relevant HTML guide for methodology and the versioned workbook for calculations. Company models use a September 4, 2026 valuation date; forecasts and scenario inputs are assumptions, not later reported results. Company examples do not imply Mike participated in their transactions. Hypothetical examples are labeled in the handbooks.\n\n## Machine access\n\n- [Resource inventory](${M}/datasets/ma-library.json)\n- [M&A ontology](${M}/ontology.json)\n- [MCP tool registry](${M}/.well-known/tool-registry.json)\n\n## Applied products\n\n- [Exit Desk](${S}/exit): Seller exit readiness.\n- [Free readiness diagnostic](${S}/exit/score)\n\n## Related entities\n\nMike also founded exmxc.ai and TrailGenic. Ella's canonical identity is at https://ellaentity.ai/ella; her flagship subject is longevity and human adaptation. Those are related entities, not substitutes for Mike's M&A authority.\n`);
 console.log('Built global, hub and per-resource schema, ontology, resource inventory and machine guide.');
+// Public discovery copies preserve MikeYe canonical IDs and methodology URLs.
+// The MCP service remains separate; these files require no agent/API access.
+fs.mkdirSync('public/datasets',{recursive:true});
+fs.copyFileSync(dir+'/ontology.json','public/ontology.json');
+fs.copyFileSync(dir+'/ma-library.json','public/datasets/ma-library.json');
+fs.writeFileSync('public/llms.txt',fs.readFileSync(dir+'/llms.txt','utf8')
+  .replaceAll(M+'/datasets/ma-library.json',D+'/datasets/ma-library.json')
+  .replaceAll(M+'/ontology.json',D+'/ontology.json'));
+const globalPath=dir+'/global-head.html';
+fs.writeFileSync(globalPath,fs.readFileSync(globalPath,'utf8')
+  .replaceAll(M+'/datasets/ma-library.json',D+'/datasets/ma-library.json')
+  .replaceAll(M+'/ontology.json',D+'/ontology.json')
+  .replaceAll(M+'/llms.txt',D+'/llms.txt'));

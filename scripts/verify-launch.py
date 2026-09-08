@@ -72,6 +72,22 @@ for path, status, html in results:
         expected = next(r["download"]["url"] for r in inventory["resources"] if urlparse(r["url"]).path == path)
         if not soup.find("a", href=expected):
             errors.append(f"{path}: expected workbook link missing")
+    if path in ["/exit", "/exit/score", "/exit/checkout"]:
+        native = soup.find("main", attrs={"data-native-funnel": True})
+        if not native:
+            errors.append(f"{path}: native funnel content missing")
+        if len(soup.find_all("main")) != 1:
+            errors.append(f"{path}: expected one native main landmark")
+        ids = [n["id"] for n in soup.find_all(id=True)]
+        if len(ids) != len(set(ids)):
+            errors.append(f"{path}: duplicate DOM IDs")
+        if native and native.find("script"):
+            errors.append(f"{path}: executable script remains inside page body content")
+        if path != "/exit":
+            kind = path.rsplit("/", 1)[1]
+            runtimes = [s for s in soup.find_all("script", src=True) if f"exit-{kind}-native-v1.js" in s["src"]]
+            if len(runtimes) != 1:
+                errors.append(f"{path}: expected one registered native runtime")
     reports.append({"path": path, "status": status, "title": soup.title.get_text() if soup.title else None, "canonical": actual, "schemas": len(schemas), "h1": len(soup.find_all("h1")), "robots": robots})
 
 _, _, sitemap = fetch("/sitemap.xml")
