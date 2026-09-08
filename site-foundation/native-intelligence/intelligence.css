@@ -1,0 +1,42 @@
+
+.mi2-root { max-width:1160px; margin-left:auto; margin-right:auto; padding-top:64px; padding-bottom:64px; color:#1A1A18; font-family:Arial,sans-serif; }
+.mi2-masthead { border-bottom:1px solid #CEC9BC; padding-bottom:36px; margin-bottom:32px; }
+.mi2-label { font-family:monospace; font-size:12px; letter-spacing:1px; text-transform:uppercase; color:#79602E; margin-bottom:18px; }
+.mi2-name { font-family:Georgia,serif; font-size:60px; font-weight:400; line-height:1.08; letter-spacing:-1px; margin-top:0; margin-bottom:24px; }
+.mi2-tagline { font-family:Georgia,serif; font-size:26px; line-height:1.45; max-width:780px; color:#44443D; }
+.mi2-body { font-size:17px; line-height:1.8; max-width:780px; margin-bottom:24px; color:#44443D; }
+.mi2-section-heading { font-family:Georgia,serif; font-size:36px; font-weight:400; line-height:1.2; margin-top:60px; margin-bottom:28px; }
+.mi2-frames { display:grid; grid-template-columns:1fr 1fr; column-gap:40px; row-gap:0; }
+.mi2-frame-card { display:block; padding-top:26px; padding-bottom:30px; border-top:1px solid #CEC9BC; color:#1A1A18; text-decoration:none; }
+.mi2-frame-card:hover { background-color:#F0EDE5; }
+.mi2-frame-card:focus { outline:2px solid #79602E; outline-offset:5px; }
+.mi2-frame-tag { font-family:monospace; color:#79602E; font-size:12px; line-height:1.6; margin-bottom:12px; }
+.mi2-frame-title { font-family:Georgia,serif; font-size:29px; line-height:1.2; font-weight:400; margin-top:0; margin-bottom:14px; }
+.mi2-frame-summary { font-size:16px; line-height:1.75; color:#44443D; margin-bottom:0; }
+.mi2-cases { display:grid; grid-template-columns:1fr 1fr 1fr; gap:28px; }
+.mi2-case-card { display:block; padding-top:24px; border-top:2px solid #79602E; text-decoration:none; color:#1A1A18; }
+.mi2-case-card:hover { background-color:#F0EDE5; }
+.mi2-case-card:focus { outline:2px solid #79602E; outline-offset:5px; }
+.mi2-case-frame { font-family:monospace; font-size:12px; line-height:1.7; color:#79602E; margin-bottom:12px; }
+.mi2-case-title { font-family:Georgia,serif; font-size:27px; font-weight:400; line-height:1.25; margin-top:0; margin-bottom:14px; }
+.mi2-case-thesis { font-size:16px; color:#44443D; line-height:1.75; }
+.mi2-offers { border:1px solid #CEC9BC; }
+.mi2-offer-row { display:block; padding:26px; border-bottom:1px solid #CEC9BC; text-decoration:none; color:#1A1A18; }
+.mi2-offer-row:hover { background-color:#F0EDE5; }
+.mi2-offer-row:focus { outline:2px solid #79602E; outline-offset:4px; }
+.mi2-offer-top { display:flex; justify-content:space-between; flex-wrap:wrap; gap:14px; margin-bottom:12px; }
+.mi2-offer-name { font-family:Georgia,serif; font-size:27px; line-height:1.2; }
+.mi2-offer-price { font-family:monospace; font-size:13px; color:#79602E; }
+.mi2-offer-desc { font-size:16px; line-height:1.75; color:#44443D; max-width:850px; }
+.mi2-cta-block { margin-top:44px; background-color:#1A1A18; color:#F7F5F0; padding:36px; border-left:3px solid #C8A96E; }
+.mi2-cta-text { font-size:19px; line-height:1.75; color:#F7F5F0; margin-bottom:22px; }
+.mi2-cta-link { color:#D3B57E; font-size:16px; text-decoration:underline; }
+.mi2-cta-link:focus { outline:2px solid #D3B57E; outline-offset:4px; }
+.mi2-footer { display:grid; grid-template-columns:1fr 1fr; gap:32px; border-top:1px solid #CEC9BC; margin-top:60px; padding-top:30px; }
+.mi2-nav-group-label { font-family:monospace; color:#79602E; font-size:12px; margin-bottom:16px; }
+.mi2-nav-links { display:flex; flex-direction:column; gap:12px; }
+.mi2-footer-link { color:#44443D; font-size:16px; text-decoration:underline; }
+.mi2-footer-link:focus { outline:2px solid #79602E; outline-offset:4px; }
+@media screen and (max-width:991px) { .mi2-cases { grid-template-columns:1fr; } .mi2-name { font-size:50px; } }
+@media screen and (max-width:767px) { .mi2-root { padding-top:40px; padding-bottom:40px; } .mi2-frames { grid-template-columns:1fr; } .mi2-footer { grid-template-columns:1fr; } .mi2-name { font-size:42px; } .mi2-tagline { font-size:24px; } .mi2-section-heading { font-size:30px; } .mi2-cta-block { padding:24px; } }
+@media screen and (max-width:479px) { .mi2-name { font-size:36px; } }
