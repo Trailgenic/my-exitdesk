@@ -18,7 +18,7 @@ function environment(html,script,search='',response={ok:true,json:async()=>({url
   const click=el=>{assert.ok(el);el.dispatchEvent(new Event('click',{bubbles:true}));};
   return {document,window,requests,context,click};
 }
-const nativeHTML = read('site-foundation/native-funnel/score.html').replace(/<button\b/g,'<div').replace(/<\/button>/g,'</div>');
+const nativeHTML = read('site-foundation/native-funnel/score.html').replace(/<button\b/g,'<div').replace(/<\/button>/g,'</div>').replace(/ disabled=""/g,'');
 const nativeJS=read('public/exit-score-native-v1.js');
 let seed=37;
 const cases=[['e','a','a','a','a','a','b','a'],['a','c','d','c','d','c','d','c'],['a','a','a','a','a','a','b','a']];
@@ -27,6 +27,7 @@ for(const answers of cases){
   const old=environment(baseline,content+'\n'+inline);
   const current=environment(nativeHTML,nativeJS);
   assert.equal(current.document.querySelector('[data-native-funnel]').dataset.runtimeReady,'true');
+  assert.equal(current.document.getElementById('es-next-1').disabled,true);
   current.click(current.document.querySelector('[data-funnel-action="nextQ"]'));
   assert.ok(current.document.getElementById('es-q1').classList.contains('active'));
   answers.forEach((a,i)=>{

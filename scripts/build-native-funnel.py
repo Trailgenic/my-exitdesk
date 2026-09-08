@@ -118,8 +118,9 @@ root.addEventListener('submit', function(event) {
   var form = event.target.closest('[data-score-email]');
   if (!form) return;
   event.preventDefault();
+  event.stopImmediatePropagation();
   window.saveScore(form.dataset.scoreEmail);
-});
+}, true);
 root.addEventListener('click', function(event) {
   var button = event.target.closest('[data-funnel-action]');
   if (!button || !root.contains(button) || button.disabled) return;
@@ -147,8 +148,11 @@ root.querySelectorAll('[data-funnel-action]').forEach(function(control) {
   while (control.firstChild) button.appendChild(control.firstChild);
   control.replaceWith(button);
 });
+root.querySelectorAll('[data-funnel-action="nextQ"], [data-funnel-action="showResults"]').forEach(function(button) {
+  button.disabled = true;
+});
 """
-    wrapped = "/* Mike Ye | Native Exit Desk runtime v1.0.0. */\n(function(){ function boot(){ var root=document.querySelector('[data-native-funnel=\""+name+"\"]'); if(!root || root.dataset.runtimeReady==='true')return;\n"+upgrade+inline+'\n'+bind+"\n} if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',boot,{once:true});}else{boot();} })();\n"
+    wrapped = "/* Mike Ye | Native Exit Desk runtime v1.0.1. */\n(function(){ function boot(){ var root=document.querySelector('[data-native-funnel=\""+name+"\"]'); if(!root || root.dataset.runtimeReady==='true')return;\n"+upgrade+inline+'\n'+bind+"\n} if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',boot,{once:true});}else{boot();} })();\n"
     (public / f'exit-{name}-native-v1.js').write_text(wrapped)
 
 extra = '''
@@ -158,6 +162,9 @@ extra = '''
 .ed-thesis-headline, .ed-case-title, .ed-path-title { margin-top:0; }
 .ed-root *, .es-root *, .ec-root * { box-sizing:border-box; }
 .funnel-runtime-notice { font-family:Georgia,serif; font-size:16px; line-height:1.6; }
+.es-meta-item span { margin-left:0.5em; }
+[data-score-email] { display:flex; flex-wrap:wrap; gap:8px; width:100%; }
+[data-score-email] input { flex:1; min-width:180px; }
 @media screen and (max-width: 767px) {
  .ed-thesis-grid { grid-template-columns:1fr !important; }
  .es-dim-row { grid-template-columns:110px minmax(0,1fr) 28px; }

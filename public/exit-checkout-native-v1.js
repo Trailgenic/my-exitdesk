@@ -1,4 +1,4 @@
-/* Mike Ye | Native Exit Desk runtime v1.0.0. */
+/* Mike Ye | Native Exit Desk runtime v1.0.1. */
 (function(){ function boot(){ var root=document.querySelector('[data-native-funnel="checkout"]'); if(!root || root.dataset.runtimeReady==='true')return;
 
 root.querySelectorAll('[data-funnel-action]').forEach(function(control) {
@@ -10,6 +10,9 @@ root.querySelectorAll('[data-funnel-action]').forEach(function(control) {
   button.type = 'button';
   while (control.firstChild) button.appendChild(control.firstChild);
   control.replaceWith(button);
+});
+root.querySelectorAll('[data-funnel-action="nextQ"], [data-funnel-action="showResults"]').forEach(function(button) {
+  button.disabled = true;
 });
 
 (function() {
@@ -127,8 +130,9 @@ root.addEventListener('submit', function(event) {
   var form = event.target.closest('[data-score-email]');
   if (!form) return;
   event.preventDefault();
+  event.stopImmediatePropagation();
   window.saveScore(form.dataset.scoreEmail);
-});
+}, true);
 root.addEventListener('click', function(event) {
   var button = event.target.closest('[data-funnel-action]');
   if (!button || !root.contains(button) || button.disabled) return;
