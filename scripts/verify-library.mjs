@@ -64,20 +64,27 @@ assert.match(html, /href="#tools-and-models">Tools &amp; Models/);
 for (const model of models) {
   const entry = manifest.resources.find(r => r.id === model.id);
   assert.ok(entry, "Model missing from canonical draft manifest");
-  assert.equal(entry.workbookStatus, "awaiting-delivery");
+  assert.equal(entry.workbookStatus, "available");
   assert.equal(entry.status, "draft");
-  assert.equal(entry.download, null);
+  assert.deepEqual(entry.download, model.download);
   assert.equal(entry.url, null);
-  assert.equal(entry.valuationDate, null);
+  assert.equal(entry.valuationDate, model.valuationDate);
   assert.equal(entry.contentReviewedAt, null);
   assert.ok(model.sourcePrinciples.every(id => doctrine.includes('id: "' + id + '"')));
   assert.ok(html.includes('id="' + model.id + '"'));
   const body = modelBody(model);
-  assert.match(body, /Workbook coming soon/);
-  assert.ok(!/href="[^"]*\.xlsx|download=|Download (Excel|model|workbook)/i.test(body), "Pending model advertises a download");
+  assert.match(body, /Download Excel model/);
+  assert.equal(model.download.downloadVerified, true);
+  assert.match(model.download.url, /^https:\/\/raw\.githubusercontent\.com\/Trailgenic\/my-exitdesk\/[a-f0-9]{40}\/public\/resources\/.+\.xlsx$/);
+  const bytes = readFileSync(resolve(model.download.repositoryPath));
+  assert.equal(bytes.length, model.download.bytes);
+  assert.equal(createHash("sha256").update(bytes).digest("hex"), model.download.sha256);
+  assert.ok(body.includes(model.download.url) && tools.includes(model.download.url));
+  assert.ok(!body.includes("coming soon") && !tools.includes("coming soon"));
+  assert.ok(model.workbookSheets.includes("Checks") && model.workbookSheets.includes("Start Here"));
   assert.ok(tools.includes('/ma-resources/' + model.slug), "Hub omits model starting guide");
   for (const name of ["generated/resource-index.json", "generated/resource-index.schema.json", "generated/llms-resources.txt"]) {
     assert.ok(!read(name).includes(model.slug) && !read(name).includes(model.name), "Pending model leaked into published inventory");
   }
 }
-console.log("Model checks passed: five coming-soon guides, no invented downloads or review dates, source principles, working navigation, and public-index exclusion.");
+console.log("Model checks passed: five verified workbook downloads, matching file hashes, dated assumptions, source principles, working navigation, and public-index exclusion.");

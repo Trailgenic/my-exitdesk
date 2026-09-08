@@ -1,6 +1,6 @@
 # Company model handoff
 
-Five starting guides are staged. The workbook build belongs to Claude. This checkpoint contains no company financials, valuation outputs, forecast assumptions, or workbook downloads for these five companies. Mike will request NVIDIA after Claude completes the original four.
+All five supplied workbooks have been repaired, reviewed, and approved by Mike for upload. Version 1.2 downloads are connected to the existing staged guides and Tools & Models hub. See PHASE-6-CHECKPOINT.md for download verification and release status.
 
 ## Stable mapping
 
@@ -12,7 +12,7 @@ Five starting guides are staged. The workbook build belongs to Claude. This chec
 | Surgery Partners | surgery-partners-valuation-model | /ma-resources/surgery-partners-healthcare-valuation-model |
 | NVIDIA | nvidia-valuation-model | /ma-resources/nvidia-ai-infrastructure-valuation-model |
 
-The hub route is `/tools-and-models`. Reuse the same CMS records and slugs when models arrive; do not create parallel pages. The existing resource template renders the starting guides now and can hold the completed methodology later.
+The hub route is `/tools-and-models`. The same CMS records and slugs now contain the completed workbook downloads and instructions. Future versions should update these records rather than create parallel pages.
 
 NVIDIA adds a semiconductor/AI infrastructure example alongside Salesforce's software example. Its model should address disclosed business mix, customer concentration, product transitions, supply commitments, inventory and prepayments, investment gains/assets, dilution, and a defensible fade from rapid growth. Do not invent separately disclosed software economics or present an acquisition-return illustration as a feasible takeover of NVIDIA. Apply the same source, methodology, and verification requirements below.
 
@@ -33,8 +33,9 @@ For each company: populated editable XLSX, methodology Markdown, source/adjustme
 
 ## Current behavior
 
-- Model records are draft pages with `workbookStatus: awaiting-delivery`, null `download`, null valuation and review dates, and no public canonical URL.
-- Guides provide original practical questions based on documented acquisition principles. They are not attributed as verbatim interviews or completed company analysis.
-- Company references were selected in the rebuild conversation on 2026-09-07. There are no copied proprietary financial tables.
-- Public resource JSON, schema, and llms inventory exclude every pending model, even though the private design-intent preview shows the guides.
-- Existing diligence and integration XLSX files remain usable and retain their immutable versioned links.
+- All five models have `workbookStatus: available`, immutable verified downloads, a 2026-09-04 valuation date, and version 1.2.
+- Each download returned HTTP 200 and matched the approved file's SHA-256 and byte count on 2026-09-08.
+- The guide instructions refer to the actual delivered worksheet names and company-specific issues. Source principles remain tied to Mike's saved acquisition doctrine.
+- Resource pages remain staged: public canonical URLs and editorial review dates are not invented. Workbook verification is recorded separately from publication.
+- Public resource JSON, schema, and llms inventory still exclude the unpublished guides. Promote those entries only as part of the coordinated public launch.
+- Existing diligence and integration working packs retain their versioned downloads.

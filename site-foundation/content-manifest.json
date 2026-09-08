@@ -281,10 +281,19 @@
       "ticker": "NYSE: GAP",
       "industry": "Specialty retail",
       "status": "draft",
-      "version": "0.1-draft",
-      "workbookStatus": "awaiting-delivery",
-      "download": null,
-      "valuationDate": null,
+      "version": "1.2",
+      "workbookStatus": "available",
+      "download": {
+        "filename": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+        "bytes": 97991,
+        "sha256": "99c4f4eff548dde24d861b3bc5c9dd8fea7c091144d3f7fc9c55785d54c6a4fc",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
+      },
+      "valuationDate": "2026-09-04",
       "contentReviewedAt": null,
       "publicationDate": null,
       "cmsStatus": "draft-content",
@@ -295,7 +304,8 @@
         "workflow-diligence",
         "integration-continuity"
       ],
-      "webflowItemId": "6a9f3af084946e9b265e5820"
+      "webflowItemId": "6a9f3af084946e9b265e5820",
+      "workbookVerifiedAt": "2026-09-08"
     },
     {
       "id": "salesforce-valuation-model",
@@ -313,10 +323,19 @@
       "ticker": "NYSE: CRM",
       "industry": "Enterprise software",
       "status": "draft",
-      "version": "0.1-draft",
-      "workbookStatus": "awaiting-delivery",
-      "download": null,
-      "valuationDate": null,
+      "version": "1.2",
+      "workbookStatus": "available",
+      "download": {
+        "filename": "Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+        "bytes": 89753,
+        "sha256": "094cee758940492f81e83b6ce100a6364060a03734a72158875bf0d1db36650b",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx"
+      },
+      "valuationDate": "2026-09-04",
       "contentReviewedAt": null,
       "publicationDate": null,
       "cmsStatus": "draft-content",
@@ -327,7 +346,8 @@
         "workflow-diligence",
         "integration-continuity"
       ],
-      "webflowItemId": "6a9f3af084946e9b265e5822"
+      "webflowItemId": "6a9f3af084946e9b265e5822",
+      "workbookVerifiedAt": "2026-09-08"
     },
     {
       "id": "ziff-davis-valuation-model",
@@ -345,10 +365,19 @@
       "ticker": "NASDAQ: ZD",
       "industry": "Digital media",
       "status": "draft",
-      "version": "0.1-draft",
-      "workbookStatus": "awaiting-delivery",
-      "download": null,
-      "valuationDate": null,
+      "version": "1.2",
+      "workbookStatus": "available",
+      "download": {
+        "filename": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+        "bytes": 85802,
+        "sha256": "803ee3bd3afdf9047c0ff32cc64968216287732463d3f77a01bb9d943f66d420",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
+      },
+      "valuationDate": "2026-09-04",
       "contentReviewedAt": null,
       "publicationDate": null,
       "cmsStatus": "draft-content",
@@ -359,7 +388,8 @@
         "workflow-diligence",
         "integration-continuity"
       ],
-      "webflowItemId": "6a9f3af084946e9b265e5824"
+      "webflowItemId": "6a9f3af084946e9b265e5824",
+      "workbookVerifiedAt": "2026-09-08"
     },
     {
       "id": "surgery-partners-valuation-model",
@@ -377,10 +407,19 @@
       "ticker": "NASDAQ: SGRY",
       "industry": "Healthcare services",
       "status": "draft",
-      "version": "0.1-draft",
-      "workbookStatus": "awaiting-delivery",
-      "download": null,
-      "valuationDate": null,
+      "version": "1.2",
+      "workbookStatus": "available",
+      "download": {
+        "filename": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+        "bytes": 90351,
+        "sha256": "1c0b8cf82a18f37314e9ad0eea9d1b0713069c3944ce0f468cb773763a5940df",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
+      },
+      "valuationDate": "2026-09-04",
       "contentReviewedAt": null,
       "publicationDate": null,
       "cmsStatus": "draft-content",
@@ -391,7 +430,8 @@
         "workflow-diligence",
         "integration-continuity"
       ],
-      "webflowItemId": "6a9f3af084946e9b265e5826"
+      "webflowItemId": "6a9f3af084946e9b265e5826",
+      "workbookVerifiedAt": "2026-09-08"
     },
     {
       "id": "nvidia-valuation-model",
@@ -410,10 +450,19 @@
       "ticker": "NASDAQ: NVDA",
       "industry": "Semiconductors & AI infrastructure",
       "status": "draft",
-      "version": "0.1-draft",
-      "workbookStatus": "awaiting-delivery",
-      "download": null,
-      "valuationDate": null,
+      "version": "1.2",
+      "workbookStatus": "available",
+      "download": {
+        "filename": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+        "repositoryPath": "public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+        "bytes": 90814,
+        "sha256": "4afbd3e6745250a16259b753805420e921a491dc4f4d869006a0f8639c377175",
+        "version": "1.2",
+        "verifiedAt": "2026-09-08",
+        "downloadVerified": true,
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
+      },
+      "valuationDate": "2026-09-04",
       "contentReviewedAt": null,
       "publicationDate": null,
       "cmsStatus": "draft-content",
@@ -424,7 +473,8 @@
         "workflow-diligence",
         "integration-continuity"
       ],
-      "webflowItemId": "6a9f3f2c598f07756d56ea73"
+      "webflowItemId": "6a9f3f2c598f07756d56ea73",
+      "workbookVerifiedAt": "2026-09-08"
     }
   ],
   "products": [
