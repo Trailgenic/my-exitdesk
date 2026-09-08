@@ -323,8 +323,7 @@ document.getElementById('es-score-display').textContent = total; document.getEle
 var band, bandLabel;
 if (total >= 80) { band = '80–100'; bandLabel = 'Strong exit position'; }
 else if (total >= 60) { band = '60–79'; bandLabel = 'Solid foundation — specific gaps'; }
-else document.getElementById('es-path-high').style.display = 'none'; document.getElementById('es-path-low').style.display = 'none';
-if (total >= 40) { band = '40–59'; bandLabel = 'Material issues to address'; }
+else if (total >= 40) { band = '40–59'; bandLabel = 'Material issues to address'; }
 else { band = 'Below 40'; bandLabel = 'Foundational work needed first'; }
 document.getElementById('es-score-band').textContent = band;
 document.getElementById('es-score-band-label').textContent = bandLabel;

@@ -108,7 +108,7 @@ for name, prefix, source in [
         inline = inline.replace("el.classList.add('selected');", "el.classList.add('selected'); el.setAttribute('aria-pressed','true');")
         inline = inline.replace("document.getElementById('es-q' + currentQ).classList.add('active');", "document.getElementById('es-q' + currentQ).classList.add('active'); document.getElementById('es-q' + currentQ + '-title').focus();")
         inline = inline.replace("document.getElementById('es-score-display').textContent = total;", "document.getElementById('es-score-display').textContent = total; document.getElementById('main-content').focus();")
-        inline = inline.replace("if (total >= 40) {", "document.getElementById('es-path-high').style.display = 'none'; document.getElementById('es-path-low').style.display = 'none';\nif (total >= 40) {")
+        inline = inline.replace("\nif (total >= 40) {", "\ndocument.getElementById('es-path-high').style.display = 'none'; document.getElementById('es-path-low').style.display = 'none';\nif (total >= 40) {")
     if name == 'checkout':
         inline = inline.replace("if (score) {", "if (score !== null && Number.isFinite(Number(score)) && Number(score) >= 0 && Number(score) <= 100) {")
         inline = inline.replace(".then(function(r) { return r.json(); })", ".then(function(r) { if (!r.ok) throw new Error('Checkout unavailable'); return r.json(); })")
