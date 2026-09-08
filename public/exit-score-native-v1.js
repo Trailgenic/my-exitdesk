@@ -1,4 +1,4 @@
-/* Mike Ye | Native Exit Desk runtime v1.0.1. */
+/* Mike Ye | Native Exit Desk runtime v1.0.2. */
 (function(){ function boot(){ var root=document.querySelector('[data-native-funnel="score"]'); if(!root || root.dataset.runtimeReady==='true')return;
 
 root.querySelectorAll('[data-funnel-action]').forEach(function(control) {
@@ -323,7 +323,8 @@ document.getElementById('es-score-display').textContent = total; document.getEle
 var band, bandLabel;
 if (total >= 80) { band = '80–100'; bandLabel = 'Strong exit position'; }
 else if (total >= 60) { band = '60–79'; bandLabel = 'Solid foundation — specific gaps'; }
-else if (total >= 40) { band = '40–59'; bandLabel = 'Material issues to address'; }
+else document.getElementById('es-path-high').style.display = 'none'; document.getElementById('es-path-low').style.display = 'none';
+if (total >= 40) { band = '40–59'; bandLabel = 'Material issues to address'; }
 else { band = 'Below 40'; bandLabel = 'Foundational work needed first'; }
 document.getElementById('es-score-band').textContent = band;
 document.getElementById('es-score-band-label').textContent = bandLabel;
@@ -367,6 +368,7 @@ document.getElementById('es-dimension-breakdown').innerHTML = breakdownHtml;
 var industryText = getIndustryFraming(answers);
 if (industryText) document.getElementById('es-industry-framing').innerHTML = '<div class="es-industry-text">' + industryText + '</div>';
 
+document.getElementById('es-path-high').style.display = 'none'; document.getElementById('es-path-low').style.display = 'none';
 if (total >= 40) {
 document.getElementById('es-path-high').style.display = 'block';
 document.getElementById('es-checkout-link').href = buildCheckoutUrl();
