@@ -398,7 +398,7 @@
       "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource",
       "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
       "name": "Before You Buy: Follow the Work",
-      "description": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy.",
+      "description": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences.",
       "author": {
         "@id": "https://www.mikeye.com/#person"
       },
@@ -413,21 +413,29 @@
         "@id": "https://www.mikeye.com/m-and-a#library"
       },
       "isAccessibleForFree": true,
-      "learningResourceType": "Practical handbook and Excel working pack",
+      "learningResourceType": "Practical M&A due diligence handbook and comprehensive Excel checklist",
       "teaches": "Can the business keep producing its results when the owner changes?",
       "datePublished": "2026-09-08",
-      "dateModified": "2026-09-08",
-      "version": "1.0",
+      "dateModified": "2026-09-09",
+      "version": "1.1",
       "mainEntityOfPage": {
         "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#webpage"
       },
+      "keywords": [
+        "M&A due diligence checklist",
+        "buy-side due diligence",
+        "workflow transferability",
+        "quality of earnings",
+        "deal risk",
+        "integration handoff"
+      ],
       "encoding": {
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#workbook",
-        "name": "MikeYe-Diligence-Working-Pack.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
+        "name": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "15187 bytes"
+        "contentSize": "40687 bytes"
       }
     },
     {
@@ -438,7 +446,7 @@
       "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource",
       "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
       "name": "After the Deal: Keep the Business Working",
-      "description": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings.",
+      "description": "A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies.",
       "author": {
         "@id": "https://www.mikeye.com/#person"
       },
@@ -453,21 +461,29 @@
         "@id": "https://www.mikeye.com/m-and-a#library"
       },
       "isAccessibleForFree": true,
-      "learningResourceType": "Practical handbook and Excel working pack",
+      "learningResourceType": "Practical post-deal integration handbook and comprehensive Excel checklist",
       "teaches": "What must keep working, what should change, and who is responsible for the handover?",
       "datePublished": "2026-09-08",
-      "dateModified": "2026-09-08",
-      "version": "1.0",
+      "dateModified": "2026-09-09",
+      "version": "1.1",
       "mainEntityOfPage": {
         "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#webpage"
       },
+      "keywords": [
+        "post-deal integration checklist",
+        "Day 1 readiness",
+        "workflow integration",
+        "synergy tracking",
+        "revenue continuity",
+        "integration risk"
+      ],
       "encoding": {
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#workbook",
-        "name": "MikeYe-Integration-Working-Pack.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Integration-Working-Pack-v0.1.xlsx",
+        "name": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "17836 bytes"
+        "contentSize": "39886 bytes"
       }
     },
     {

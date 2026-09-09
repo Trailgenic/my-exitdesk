@@ -2,7 +2,7 @@
 
 > M&A judgment made practical through valuation models, diligence and integration handbooks, transaction lessons, and decision frameworks.
 
-Updated: 2026-09-08
+Updated: 2026-09-09
 Canonical identity: https://www.mikeye.com/#person
 
 ## Authority and scope
@@ -12,7 +12,7 @@ Mike Ye is an M&A and corporate development executive with 25 years of experienc
 ## Start here
 
 - [M&A Library](https://www.mikeye.com/m-and-a): Deal lifecycle topics and practical resources.
-- [Tools & Models](https://www.mikeye.com/tools-and-models): Five Excel valuation models, two working packs, and the existing valuation calculator.
+- [Tools & Models](https://www.mikeye.com/tools-and-models): Five Excel valuation models, a 112-item M&A due diligence checklist, a 104-action post-deal integration checklist, and the existing valuation calculator.
 - [About Mike](https://www.mikeye.com/about): Experience and selected transactions.
 - [PMC masthead records](https://www.mikeye.com/about/record): Evidence of title and tenure at Penske Media; these records are not a list of Mike's deals.
 - [Decision Frameworks](https://www.mikeye.com/intelligence): Mike's judgment frameworks.
@@ -27,8 +27,8 @@ Mike Ye is an M&A and corporate development executive with 25 years of experienc
 - [Sourcing Journal](https://www.mikeye.com/exit/articles/sourcing-journal-case-study): Founder clarity, partner alignment, and the timing of a capability acquisition.
 - [Long Beach Outpatient Surgery](https://www.mikeye.com/exit/articles/long-beach-surgical-case-study): A controlling investment and the operating work behind a multi-specialty expansion.
 - [Exit readiness checklist](https://www.mikeye.com/exit/articles/exit-readiness-checklist): An existing seller-preparation checklist, organized around what buyers will examine.
-- [Before You Buy: Follow the Work](https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work): A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy. Includes an Excel download.
-- [After the Deal: Keep the Business Working](https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working): A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings. Includes an Excel download.
+- [Before You Buy: Follow the Work](https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work): A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences. Includes an Excel download.
+- [After the Deal: Keep the Business Working](https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working): A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies. Includes an Excel download.
 - [Gap: valuing a retail business](https://www.mikeye.com/ma-resources/gap-retail-valuation-model): Start with what customers buy, what the retailer keeps, and how much cash sits in inventory. Includes an Excel download.
 - [Salesforce: valuing a software business](https://www.mikeye.com/ma-resources/salesforce-software-valuation-model): Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth. Includes an Excel download.
 - [Ziff Davis: valuing a digital media business](https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model): Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued. Includes an Excel download.

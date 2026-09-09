@@ -4,11 +4,11 @@
   "name": "Before You Buy: Follow the Work",
   "format": "Handbook",
   "topic": "due-diligence",
-  "version": "0.2-draft",
-  "status": "draft",
-  "contentReviewedAt": null,
-  "publicationDate": null,
-  "summary": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy.",
+  "version": "1.1",
+  "status": "published",
+  "contentReviewedAt": "2026-09-09",
+  "publicationDate": "2026-09-08",
+  "summary": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences.",
   "decision": "Can the business keep producing its results when the owner changes?",
   "sourcePrinciples": [
     "frame-before-detail",
@@ -29,7 +29,7 @@
     },
     {
       "heading": "Put the guide to work",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx\">Download the editable Excel working pack</a> · XLSX · Draft 0.1</p><p>Open Start Here, then use Diligence Checklist, Follow One Sale and Issue Log. The workbook includes plain-language prompts, status dropdowns and blank working areas. Twenty rows are provided in each working tracker; copy the pack for another workstream.</p><p>The worked example is fictional and stays on the instruction tab. Your entries stay in your copy of the workbook; no macros or external workbook links are included.</p>"
+      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx\">Download the comprehensive M&amp;A due diligence checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 112 diligence items across the full deal process, plus an editable workflow-transferability map, issue and decision log, live status fields, and a source register. Filter the checklist by phase, workstream, priority, or decision impact and adapt it to the transaction.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p>"
     },
     {
       "heading": "1. Say what you think you are buying",
@@ -64,20 +64,21 @@
       "html": "<p>Use one note per important finding. Keep the answers short enough to discuss in a working meeting.</p><ul><li><strong>Work being tested:</strong> ___</li><li><strong>What management says happens:</strong> ___</li><li><strong>What the records and walkthrough show:</strong> ___</li><li><strong>What is still unknown:</strong> ___</li><li><strong>Effect on customers, cash, price or handover:</strong> ___</li><li><strong>Action — investigate, price, protect or walk:</strong> ___</li><li><strong>Owner and due date:</strong> ___</li><li><strong>Evidence needed to close the issue:</strong> ___</li><li><strong>Integration handoff and receiving owner:</strong> ___</li></ul><p><strong>You are ready for the next decision when</strong> the material findings have evidence, an owner and an agreed consequence. The remaining unknowns should be visible to the person approving the next commitment.</p>"
     }
   ],
-  "sourceNotes": "<p>Draft 0.2 · Prepared for Mike Ye’s editorial review. Adapted from Mike’s documented acquisition principles. The working notes, suggested cadence and illustrative examples are new editorial applications, not interview quotations.</p><p>Related reading: <a href=\"https://www.mikeye.com/intelligence\">Mike’s decision frameworks</a>. Mike’s selected transactions appear on <a href=\"https://www.mikeye.com/about\">About Mike</a>; <a href=\"https://www.mikeye.com/about/record\">PMC mastheads</a> document his title and tenure.</p>",
+  "sourceNotes": "<p>Version 1.1 · Updated September 9, 2026. Adapted from Mike’s documented acquisition principles. The working notes, suggested cadence and illustrative examples are new editorial applications, not interview quotations.</p><p>Related reading: <a href=\"https://www.mikeye.com/intelligence\">Mike’s decision frameworks</a>. Mike’s selected transactions appear on <a href=\"https://www.mikeye.com/about\">About Mike</a>; <a href=\"https://www.mikeye.com/about/record\">PMC mastheads</a> document his title and tenure.</p>",
   "download": {
-    "filename": "MikeYe-Diligence-Working-Pack.xlsx",
-    "repositoryPath": "public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/335b47a0dfac53743a8c29db3ec2afae2d2ee854/public/resources/MikeYe-Diligence-Working-Pack-v0.1.xlsx",
-    "sha256": "3750261d781aee91aa7125ab512cd4308fe434be0ef95d22fe3645651927dfbc",
-    "bytes": 15187,
+    "filename": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+    "repositoryPath": "public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+    "sha256": "881c50d4981d6e162ad586570c7c7a94b1095cd481ca3ac03a25f896c368a7c1",
+    "bytes": 40687,
     "sheets": [
-      "Start Here",
-      "Diligence Checklist",
-      "Follow One Sale",
-      "Issue Log"
+      "Dashboard",
+      "Checklist",
+      "Workflow Map",
+      "Issue Log",
+      "Sources"
     ],
-    "version": "0.1-draft",
+    "version": "1.0",
     "downloadVerified": true
   }
 }

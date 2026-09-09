@@ -30,3 +30,5 @@ Current production code merges: PR 100 (`126e518`), PR 101 (`714c755`), PR 102 (
 Daily additions can proceed from this published foundation. Keep Acquisition Lens and the separate Stalled Exit campaign unlaunched until their own work is approved and verified.
 
 The next major editorial phase is recorded in `FUTURE-UPDATES.md`: an end-to-end M&A deal workflow checklist, a comprehensive due diligence checklist, and a comprehensive post-deal integration checklist. Each resource will combine credible research with Mike's documented judgment and will require Mike's review and approval before it becomes canonical or is published.
+
+On September 9, 2026, Mike approved the comprehensive 112-item due diligence checklist and 104-action post-deal integration checklist. Both versioned workbooks, their handbook download blocks, hub references, CMS metadata, JSON-LD, `llms.txt`, ontology, and resource inventory were promoted together. The end-to-end M&A deal workflow checklist remains the next major editorial deliverable.

@@ -1,6 +1,8 @@
 # MikeYe.com — Future updates
 
-The first site-wide ontology is published so people, search engines, and AI systems can discover the full M&A lifecycle. The next phase will deepen three core resources with Mike Ye's operating judgment.
+The first site-wide ontology is published so people, search engines, and AI systems can discover the full M&A lifecycle. The next phase deepens three core resources with Mike Ye's operating judgment.
+
+Status as of September 9, 2026: the comprehensive 112-item M&A due diligence checklist and 104-action post-deal integration checklist are approved and published. The end-to-end M&A deal workflow checklist remains the next major resource.
 
 ## 1. End-to-end M&A deal workflow checklist
 
@@ -14,7 +16,7 @@ Development process:
 4. Submit the complete draft to Mike for review and experiential corrections.
 5. Revise and obtain Mike's approval before treating it as canonical or publishing it.
 
-## 2. Comprehensive M&A due diligence checklist
+## 2. Comprehensive M&A due diligence checklist — published
 
 Create a full diligence checklist covering financial, commercial, operational, customer, management, human resources, legal, tax, technology, cybersecurity, data, intellectual property, regulatory, environmental, insurance, financing, and transaction-specific diligence.
 
@@ -22,7 +24,7 @@ The checklist must emphasize how the company actually operates: workflows, decis
 
 Development follows the same research, judgment integration, Mike review, revision, and approval process described above.
 
-## 3. Comprehensive post-deal integration checklist
+## 3. Comprehensive post-deal integration checklist — published
 
 Create a practical integration checklist spanning pre-close planning, integration thesis, governance, Day 1, communications, customer and revenue continuity, organization and talent, operating workflows, systems, data, finance, controls, legal entities, vendors, culture, synergies, TSA management, risk escalation, and 30/60/90/100-day execution.
 
@@ -37,4 +39,3 @@ Development follows the same research, judgment integration, Mike review, revisi
 - Grounded in Mike's judgment rather than generic generated advice.
 - Structured for human use, search retrieval, AI citation, and later machine-readable workflows.
 - Published only after Mike reviews and edits the complete draft.
-
