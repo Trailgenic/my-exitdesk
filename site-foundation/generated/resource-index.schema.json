@@ -74,10 +74,10 @@
       "position": 7,
       "item": {
         "@type": "CreativeWork",
-        "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
-        "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
-        "name": "Before You Buy: Follow the Work",
-        "description": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy."
+        "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+        "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+        "name": "The M&A Deal Workflow: From Mandate to Value",
+        "description": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review."
       }
     },
     {
@@ -85,15 +85,26 @@
       "position": 8,
       "item": {
         "@type": "CreativeWork",
-        "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
-        "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
-        "name": "After the Deal: Keep the Business Working",
-        "description": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings."
+        "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+        "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+        "name": "Before You Buy: Follow the Work",
+        "description": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences."
       }
     },
     {
       "@type": "ListItem",
       "position": 9,
+      "item": {
+        "@type": "CreativeWork",
+        "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+        "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+        "name": "After the Deal: Keep the Business Working",
+        "description": "A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
@@ -104,7 +115,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 11,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
@@ -115,7 +126,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 11,
+      "position": 12,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
@@ -126,7 +137,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 12,
+      "position": 13,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
@@ -137,7 +148,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 14,
       "item": {
         "@type": "CreativeWork",
         "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",

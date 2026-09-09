@@ -6,14 +6,14 @@ const dir = 'site-foundation/launch';
 const read = name => JSON.parse(fs.readFileSync(`${dir}/${name}`, 'utf8'));
 const inventory = read('ma-library.json');
 const ontology = read('ontology.json');
-assert.equal(inventory.resources.length, 13);
+assert.equal(inventory.resources.length, 14);
 assert.equal(inventory.topics.length, 10);
 const topicIds = new Set(inventory.topics.map(t => t['@id']));
 assert.equal(topicIds.size, 10);
 assert(!JSON.stringify(ontology).includes('#undefined'));
 assert.equal(ontology['@graph'].filter(n => n['@type'] === 'Person').length, 1);
 assert(!ontology['@graph'].some(n => n['@type'] === 'SoftwareApplication'));
-assert.equal(inventory.resources.filter(r => r.download).length, 7);
+assert.equal(inventory.resources.filter(r => r.download).length, 8);
 for (const resource of inventory.resources) {
   assert(resource.url.startsWith('https://www.mikeye.com/'));
   assert(topicIds.has(`https://www.mikeye.com/m-and-a#${resource.topic}`));
@@ -40,4 +40,4 @@ assert(inventory.products.find(p => p.name === 'Acquisition Lens').status.includ
 assert.deepEqual(JSON.parse(fs.readFileSync('public/ontology.json','utf8')),ontology);
 assert.deepEqual(JSON.parse(fs.readFileSync('public/datasets/ma-library.json','utf8')),inventory);
 assert(fs.readFileSync('public/llms.txt','utf8').includes('https://my-exitdesk.vercel.app/ontology.json'));
-console.log('Launch inventory verified: 13 resources, 10 topics, seven pinned workbook hashes, author identity, global/hub JSON-LD, and product availability.');
+console.log('Launch inventory verified: 14 resources, 10 topics, eight pinned workbook hashes, author identity, global/hub JSON-LD, and product availability.');

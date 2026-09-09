@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "canonicalOrigin": "https://www.mikeye.com",
   "phase": "published-practical-ma-library",
   "positioning": {
@@ -183,6 +183,54 @@
       "contentReviewedAt": null
     },
     {
+      "id": "deal-workflow",
+      "name": "The M&A Deal Workflow: From Mandate to Value",
+      "format": "Checklist",
+      "topic": "corporate-development",
+      "summary": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review.",
+      "decision": "What must happen—and who must decide—before the buyer commits more capital, time, or operating risk?",
+      "status": "published",
+      "version": "1.0",
+      "contentReviewedAt": "2026-09-09",
+      "publicationDate": "2026-09-09",
+      "cmsStatus": "ready-for-publication",
+      "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+      "proposedPath": "/ma-resources/ma-deal-workflow-checklist",
+      "sourceFile": "editorial/deal-workflow.json",
+      "sourcePrinciples": [
+        "frame-before-detail",
+        "decision-not-description",
+        "control-and-alignment",
+        "replicate-the-financials",
+        "buyer-keeps-synergy",
+        "ceiling-and-patience",
+        "survive-the-downside",
+        "unknowns-are-findings",
+        "protect-revenue-integrate-cost",
+        "transferability"
+      ],
+      "relatedResources": [
+        "workflow-diligence",
+        "integration-continuity"
+      ],
+      "download": {
+        "filename": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "sha256": "5a0dd8cb5462ad202c7206fee97fa28cd6918af7545a54b1c49a57f8f7c96c4c",
+        "bytes": 43228,
+        "sheets": [
+          "Dashboard",
+          "Deal Workflow",
+          "Stage Gates",
+          "Deal Team",
+          "Decision Log"
+        ],
+        "repositoryPath": "public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "version": "1.0",
+        "downloadVerified": true
+      }
+    },
+    {
       "id": "workflow-diligence",
       "name": "Before You Buy: Follow the Work",
       "format": "Handbook",
@@ -190,7 +238,7 @@
       "summary": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences.",
       "decision": "Can the business keep producing its results when the owner changes?",
       "status": "published",
-      "version": "1.1",
+      "version": "1.2",
       "contentReviewedAt": "2026-09-09",
       "publicationDate": "2026-09-08",
       "cmsStatus": "published",
@@ -212,17 +260,16 @@
       "webflowItemId": "6a9f2af7de5d336681b4b4ce",
       "download": {
         "filename": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-        "repositoryPath": "public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-        "sha256": "881c50d4981d6e162ad586570c7c7a94b1095cd481ca3ac03a25f896c368a7c1",
-        "bytes": 40687,
+        "sha256": "d227c49a9757f8864f2694ef3ef79fd3080ad364ab3dac3ed86fc6525cd2779d",
+        "bytes": 37249,
         "sheets": [
           "Dashboard",
           "Checklist",
           "Workflow Map",
-          "Issue Log",
-          "Sources"
+          "Issue Log"
         ],
+        "repositoryPath": "public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
         "version": "1.0",
         "downloadVerified": true
       }
@@ -235,7 +282,7 @@
       "summary": "A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies.",
       "decision": "What must keep working, what should change, and who is responsible for the handover?",
       "status": "published",
-      "version": "1.1",
+      "version": "1.2",
       "contentReviewedAt": "2026-09-09",
       "publicationDate": "2026-09-08",
       "cmsStatus": "published",
@@ -255,19 +302,18 @@
       "webflowItemId": "6a9f2af7de5d336681b4b4d0",
       "download": {
         "filename": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-        "repositoryPath": "public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-        "sha256": "39f27c176224761501c1d1d056cee208bcd8b30824f986e79ce76da9645a5244",
-        "bytes": 39886,
+        "sha256": "3cafb39141059a656d5145f5b23875f9eb8700490eafc199d42056e38d8da608",
+        "bytes": 36674,
         "sheets": [
           "Dashboard",
           "Integration Plan",
           "Day 1 Readiness",
           "Workflow Decisions",
           "Synergies",
-          "Risks & Decisions",
-          "Sources"
+          "Risks & Decisions"
         ],
+        "repositoryPath": "public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
         "version": "1.0",
         "downloadVerified": true
       }

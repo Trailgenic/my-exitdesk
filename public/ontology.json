@@ -395,6 +395,54 @@
         "CreativeWork",
         "LearningResource"
       ],
+      "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource",
+      "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+      "name": "The M&A Deal Workflow: From Mandate to Value",
+      "description": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "about": {
+        "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+      },
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "isAccessibleForFree": true,
+      "learningResourceType": "End-to-end M&A deal workflow and Excel checklist",
+      "teaches": "What must happen—and who must decide—before the buyer commits more capital, time, or operating risk?",
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-09-09",
+      "version": "1.0",
+      "mainEntityOfPage": {
+        "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#webpage"
+      },
+      "keywords": [
+        "M&A deal workflow",
+        "M&A process checklist",
+        "corporate development process",
+        "M&A decision gates",
+        "buy-side M&A checklist",
+        "post-close review"
+      ],
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#workbook",
+        "name": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "43228 bytes"
+      }
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
       "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource",
       "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
       "name": "Before You Buy: Follow the Work",
@@ -417,7 +465,7 @@
       "teaches": "Can the business keep producing its results when the owner changes?",
       "datePublished": "2026-09-08",
       "dateModified": "2026-09-09",
-      "version": "1.1",
+      "version": "1.2",
       "mainEntityOfPage": {
         "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#webpage"
       },
@@ -433,9 +481,9 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#workbook",
         "name": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "40687 bytes"
+        "contentSize": "37249 bytes"
       }
     },
     {
@@ -465,7 +513,7 @@
       "teaches": "What must keep working, what should change, and who is responsible for the handover?",
       "datePublished": "2026-09-08",
       "dateModified": "2026-09-09",
-      "version": "1.1",
+      "version": "1.2",
       "mainEntityOfPage": {
         "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#webpage"
       },
@@ -481,9 +529,9 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#workbook",
         "name": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "39886 bytes"
+        "contentSize": "36674 bytes"
       }
     },
     {

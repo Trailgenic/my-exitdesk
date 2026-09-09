@@ -4,7 +4,7 @@
   "name": "Before You Buy: Follow the Work",
   "format": "Handbook",
   "topic": "due-diligence",
-  "version": "1.1",
+  "version": "1.2",
   "status": "published",
   "contentReviewedAt": "2026-09-09",
   "publicationDate": "2026-09-08",
@@ -29,7 +29,7 @@
     },
     {
       "heading": "Put the guide to work",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx\">Download the comprehensive M&amp;A due diligence checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 112 diligence items across the full deal process, plus an editable workflow-transferability map, issue and decision log, live status fields, and a source register. Filter the checklist by phase, workstream, priority, or decision impact and adapt it to the transaction.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p>"
+      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx\">Download the comprehensive M&amp;A due diligence checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 112 diligence items across the full deal process, plus an editable workflow-transferability map, issue and decision log, live status fields, and a decision-ready working table. Filter the checklist by phase, workstream, priority, or decision impact and adapt it to the transaction.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p>"
     },
     {
       "heading": "1. Say what you think you are buying",
@@ -64,20 +64,19 @@
       "html": "<p>Use one note per important finding. Keep the answers short enough to discuss in a working meeting.</p><ul><li><strong>Work being tested:</strong> ___</li><li><strong>What management says happens:</strong> ___</li><li><strong>What the records and walkthrough show:</strong> ___</li><li><strong>What is still unknown:</strong> ___</li><li><strong>Effect on customers, cash, price or handover:</strong> ___</li><li><strong>Action — investigate, price, protect or walk:</strong> ___</li><li><strong>Owner and due date:</strong> ___</li><li><strong>Evidence needed to close the issue:</strong> ___</li><li><strong>Integration handoff and receiving owner:</strong> ___</li></ul><p><strong>You are ready for the next decision when</strong> the material findings have evidence, an owner and an agreed consequence. The remaining unknowns should be visible to the person approving the next commitment.</p>"
     }
   ],
-  "sourceNotes": "<p>Version 1.1 · Updated September 9, 2026. Adapted from Mike’s documented acquisition principles. The working notes, suggested cadence and illustrative examples are new editorial applications, not interview quotations.</p><p>Related reading: <a href=\"https://www.mikeye.com/intelligence\">Mike’s decision frameworks</a>. Mike’s selected transactions appear on <a href=\"https://www.mikeye.com/about\">About Mike</a>; <a href=\"https://www.mikeye.com/about/record\">PMC mastheads</a> document his title and tenure.</p>",
+  "sourceNotes": "",
   "download": {
     "filename": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-    "repositoryPath": "public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/85b934b73ea4b30afee5fd441dea754461e5cfb6/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-    "sha256": "881c50d4981d6e162ad586570c7c7a94b1095cd481ca3ac03a25f896c368a7c1",
-    "bytes": 40687,
+    "sha256": "d227c49a9757f8864f2694ef3ef79fd3080ad364ab3dac3ed86fc6525cd2779d",
+    "bytes": 37249,
     "sheets": [
       "Dashboard",
       "Checklist",
       "Workflow Map",
-      "Issue Log",
-      "Sources"
+      "Issue Log"
     ],
+    "repositoryPath": "public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
     "version": "1.0",
     "downloadVerified": true
   }

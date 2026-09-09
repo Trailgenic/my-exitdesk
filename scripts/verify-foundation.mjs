@@ -29,7 +29,7 @@ for (const path of ["/", "/exit", "/exit/score", "/exit/valuation", "/exit/check
 assert.ok(manifest.preservedPages.filter((page) => ["/acquisition-lens", "/screen", "/checkout", "/intake", "/success"].includes(page.publishedPath)).every((page) => page.draft));
 assert.equal(new Set(manifest.topics.map((topic) => topic.slug)).size, 10);
 const publicResources = JSON.parse(read("generated/resource-index.json")).resources;
-assert.equal(publicResources.length, manifest.publication ? 13 : 6);
+assert.equal(publicResources.length, manifest.publication ? 14 : 6);
 for (const resource of publicResources) {
   assert.ok(manifest.topics.some((topic) => topic.slug === resource.topic));
   assert.equal(new URL(resource.url).origin, manifest.canonicalOrigin);

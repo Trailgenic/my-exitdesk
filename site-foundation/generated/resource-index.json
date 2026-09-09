@@ -52,12 +52,20 @@
       "summary": "An existing seller-preparation checklist, organized around what buyers will examine."
     },
     {
+      "id": "deal-workflow",
+      "name": "The M&A Deal Workflow: From Mandate to Value",
+      "format": "Checklist",
+      "topic": "corporate-development",
+      "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+      "summary": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review."
+    },
+    {
       "id": "workflow-diligence",
       "name": "Before You Buy: Follow the Work",
       "format": "Handbook",
       "topic": "due-diligence",
       "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
-      "summary": "A practical diligence guide: follow a sale, test the handover, and decide what needs to change before you buy."
+      "summary": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences."
     },
     {
       "id": "integration-continuity",
@@ -65,7 +73,7 @@
       "format": "Handbook",
       "topic": "integration",
       "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
-      "summary": "A practical integration guide: protect customer work, plan the handover, and test changes before relying on the savings."
+      "summary": "A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies."
     },
     {
       "id": "gap-valuation-model",
