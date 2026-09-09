@@ -72,6 +72,7 @@ const workflow = {
     "transferability"
   ],
   relatedResources: ["workflow-diligence", "integration-continuity"],
+  webflowItemId: "6aa1f03acc577a948c9c5169",
   download: files.workflow
 };
 
