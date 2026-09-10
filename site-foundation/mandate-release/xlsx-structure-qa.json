@@ -1,0 +1,112 @@
+{
+  "bytes": 86183,
+  "sha256": "76a89f6d0d40419817f5124b45c26651b8836d5e028bda6bb7cb471c1296b7ea",
+  "checks": {
+    "sixExpectedTabs": true,
+    "noCachedErrors": true,
+    "noMacros": true,
+    "noExternalWorkbookLinks": true,
+    "targetTableIncludesReviewedRevision": true,
+    "screenTableIncludesBasisFields": true,
+    "identifyingColumnsAndHeadersFrozen": true
+  },
+  "sheets": [
+    {
+      "name": "Dashboard",
+      "pane": {
+        "ySplit": "12",
+        "topLeftCell": "A13",
+        "activePane": "bottomLeft",
+        "state": "frozen"
+      },
+      "validations": 0,
+      "formulaCount": 175
+    },
+    {
+      "name": "Mandate",
+      "pane": {
+        "ySplit": "6",
+        "topLeftCell": "A7",
+        "activePane": "bottomLeft",
+        "state": "frozen"
+      },
+      "validations": 3,
+      "formulaCount": 9
+    },
+    {
+      "name": "Routes",
+      "pane": {
+        "xSplit": "3",
+        "ySplit": "6",
+        "topLeftCell": "D7",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      },
+      "validations": 1,
+      "formulaCount": 4
+    },
+    {
+      "name": "Targets",
+      "pane": {
+        "xSplit": "4",
+        "ySplit": "6",
+        "topLeftCell": "E7",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      },
+      "validations": 5,
+      "formulaCount": 132
+    },
+    {
+      "name": "Screen",
+      "pane": {
+        "xSplit": "4",
+        "ySplit": "6",
+        "topLeftCell": "E7",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      },
+      "validations": 2,
+      "formulaCount": 360
+    },
+    {
+      "name": "Guide",
+      "pane": {
+        "ySplit": "6",
+        "topLeftCell": "A7",
+        "activePane": "bottomLeft",
+        "state": "frozen"
+      },
+      "validations": 0,
+      "formulaCount": 0
+    }
+  ],
+  "tables": [
+    {
+      "name": "MandateTargets",
+      "ref": "C6:AH18",
+      "autoFilter": true
+    },
+    {
+      "name": "MandateEvidence",
+      "ref": "C6:Q78",
+      "autoFilter": true
+    }
+  ],
+  "formulaCount": 680,
+  "cachedErrors": [],
+  "visualReview": {
+    "sheetsReviewed": [
+      "Dashboard",
+      "Mandate",
+      "Routes",
+      "Targets",
+      "Screen",
+      "Guide"
+    ],
+    "result": "All six sheets visually reviewed. No clipped labels, figures or required content."
+  },
+  "limits": [
+    "Desktop Excel unavailable; native UI sorting not exercised. Full-record reorder was tested in the calculation engine."
+  ]
+}

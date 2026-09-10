@@ -1,0 +1,338 @@
+{
+  "tests": [
+    {
+      "name": "Fictional example cannot meet evidence gates",
+      "passed": true,
+      "actual": "Investigate"
+    },
+    {
+      "name": "Review queue remains useful with assumptions",
+      "passed": true,
+      "actual": [
+        "T01",
+        "T04"
+      ]
+    },
+    {
+      "name": "Zero verified criteria is displayed explicitly",
+      "passed": true,
+      "actual": "0 / 6"
+    },
+    {
+      "name": "Budget above mandate holds target",
+      "passed": true,
+      "actual": "Hold: capital envelope"
+    },
+    {
+      "name": "Veto outranks other findings and priority",
+      "passed": true,
+      "actual": "Walk"
+    },
+    {
+      "name": "Verified current target and criterion evidence reaches screen only",
+      "passed": true,
+      "actual": [
+        "Meets screen",
+        "Draft"
+      ]
+    },
+    {
+      "name": "Changed required criterion automatically reopens reviewed evidence",
+      "passed": true,
+      "actual": "Open: reassess basis"
+    },
+    {
+      "name": "Changed evidence test automatically reopens reviewed evidence",
+      "passed": true,
+      "actual": "Open: reassess basis"
+    },
+    {
+      "name": "Missing reviewed criterion basis never qualifies",
+      "passed": true,
+      "actual": "Open: reassess basis"
+    },
+    {
+      "name": "Mismatched reviewed mandate revision never qualifies",
+      "passed": true,
+      "actual": "Open: reassess basis"
+    },
+    {
+      "name": "Eligible shortlist retrieves the target ID and rationale",
+      "passed": true,
+      "actual": "T01"
+    },
+    {
+      "name": "Fatal veto cannot be overridden by eligible rank",
+      "passed": true,
+      "actual": "Walk: add pass rationale"
+    },
+    {
+      "name": "Walk judgment excludes otherwise complete target",
+      "passed": true,
+      "actual": "Walk: add pass rationale"
+    },
+    {
+      "name": "Required failure overrides verified passes",
+      "passed": true,
+      "actual": "Hold: criterion fails"
+    },
+    {
+      "name": "Unknown is never treated as clearance",
+      "passed": true,
+      "actual": "Investigate"
+    },
+    {
+      "name": "Conflicting evidence is open",
+      "passed": true,
+      "actual": 1
+    },
+    {
+      "name": "Verified label without source remains open",
+      "passed": true,
+      "actual": "Missing evidence"
+    },
+    {
+      "name": "Verified label without finding remains open",
+      "passed": true,
+      "actual": "Missing evidence"
+    },
+    {
+      "name": "Evidence age exactly at limit is permitted",
+      "passed": true,
+      "actual": "Verified"
+    },
+    {
+      "name": "Evidence beyond age limit reopens screen",
+      "passed": true,
+      "actual": "Stale evidence"
+    },
+    {
+      "name": "Future evidence date is rejected",
+      "passed": true,
+      "actual": "Future evidence date"
+    },
+    {
+      "name": "Missing capital is not zero",
+      "passed": true,
+      "actual": "Missing / invalid capital or time"
+    },
+    {
+      "name": "Explicit zero cash is retained in eligible shortlist",
+      "passed": true,
+      "actual": 0
+    },
+    {
+      "name": "Capital and timing exactly on boundaries are permitted",
+      "passed": true,
+      "actual": "Meets screen"
+    },
+    {
+      "name": "Capital just above envelope holds",
+      "passed": true,
+      "actual": "Hold: capital envelope"
+    },
+    {
+      "name": "Timing just beyond limit holds",
+      "passed": true,
+      "actual": "Hold: timing limit"
+    },
+    {
+      "name": "Unknown seller control prevents eligibility",
+      "passed": true,
+      "actual": "Investigate control"
+    },
+    {
+      "name": "Missing seller control is early hold",
+      "passed": true,
+      "actual": "Hold: missing control"
+    },
+    {
+      "name": "Consent path without exception approval remains held",
+      "passed": true,
+      "actual": "Hold: missing control"
+    },
+    {
+      "name": "Approved credible path stays conditional and outside eligible shortlist",
+      "passed": true,
+      "actual": "Conditional consent review"
+    },
+    {
+      "name": "Unknown seller willingness requires investigation",
+      "passed": true,
+      "actual": "Investigate"
+    },
+    {
+      "name": "Seller not ready is explicit hold",
+      "passed": true,
+      "actual": "Hold: seller not ready"
+    },
+    {
+      "name": "Evidence without named owner cannot qualify",
+      "passed": true,
+      "actual": "Investigate"
+    },
+    {
+      "name": "Owner without next action cannot qualify",
+      "passed": true,
+      "actual": "Investigate"
+    },
+    {
+      "name": "Missing due date remains incomplete",
+      "passed": true,
+      "actual": "Investigate"
+    },
+    {
+      "name": "Overdue action remains visible",
+      "passed": true,
+      "actual": "Overdue"
+    },
+    {
+      "name": "Duplicate priorities are unranked, never tie-broken arbitrarily",
+      "passed": true,
+      "actual": 2
+    },
+    {
+      "name": "Zero priority is invalid",
+      "passed": true,
+      "actual": "Invalid priority"
+    },
+    {
+      "name": "Fractional priority is invalid",
+      "passed": true,
+      "actual": "Invalid priority"
+    },
+    {
+      "name": "Editing priority updates the review order",
+      "passed": true,
+      "actual": [
+        "T02",
+        "T01"
+      ]
+    },
+    {
+      "name": "Duplicate IDs prevent eligibility and evidence lookup",
+      "passed": true,
+      "actual": "Invalid target ID"
+    },
+    {
+      "name": "Duplicate criterion pair never double counts a pass",
+      "passed": true,
+      "actual": [
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Missing required target criterion remains open",
+      "passed": true,
+      "actual": 1
+    },
+    {
+      "name": "Optional criterion preserves finding without a required veto",
+      "passed": true,
+      "actual": "Meets screen"
+    },
+    {
+      "name": "Zero required criteria invalidates mandate",
+      "passed": true,
+      "actual": "Missing / invalid definition"
+    },
+    {
+      "name": "Approval label without prerequisites is not approval recorded",
+      "passed": true,
+      "actual": "Missing approval prerequisites"
+    },
+    {
+      "name": "Complete mandate decision is recorded separately",
+      "passed": true,
+      "actual": "Approval recorded"
+    },
+    {
+      "name": "Future approval is rejected",
+      "passed": true,
+      "actual": "Missing approval prerequisites"
+    },
+    {
+      "name": "Non-buy route changes dashboard instruction",
+      "passed": true,
+      "actual": "Selected route is not Buy. Revisit acquisition work"
+    },
+    {
+      "name": "Incrementing mandate revision reopens both approval and screening",
+      "passed": true,
+      "actual": [
+        "Missing approval prerequisites",
+        "Investigate"
+      ]
+    },
+    {
+      "name": "Renewing target-level review alone leaves required evidence open",
+      "passed": true,
+      "actual": "Investigate"
+    },
+    {
+      "name": "Renewed target and criterion review does not renew mandate approval",
+      "passed": true,
+      "actual": [
+        "Meets screen",
+        "Missing approval prerequisites"
+      ]
+    },
+    {
+      "name": "Matching renewed approval revision restores recorded decision",
+      "passed": true,
+      "actual": "Approval recorded"
+    },
+    {
+      "name": "Missing common cash funding horizon blocks comparisons",
+      "passed": true,
+      "actual": "Missing / invalid definition"
+    },
+    {
+      "name": "Full target record reorder preserves ID-based evidence and reviewed revision",
+      "passed": true,
+      "actual": [
+        "Meets screen",
+        "T01"
+      ]
+    },
+    {
+      "name": "Full screen record reorder preserves keyed criteria and reviewed basis",
+      "passed": true,
+      "actual": "Meets screen"
+    },
+    {
+      "name": "Using next reserved target slot extends eligible shortlist",
+      "passed": true,
+      "actual": [
+        "Meets screen",
+        "T05"
+      ]
+    },
+    {
+      "name": "Eligible shortlist reacts to changed priority",
+      "passed": true,
+      "actual": [
+        "T05",
+        "T01"
+      ]
+    },
+    {
+      "name": "Final fictional examples and draft authority restored",
+      "passed": true,
+      "actual": [
+        "Investigate",
+        "Draft"
+      ]
+    }
+  ],
+  "passed": 59,
+  "failed": 0,
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "inspection": "{\"kind\":\"table\",\"sheet\":\"Targets\",\"address\":\"W6:AG10\",\"rows\":5,\"cols\":11,\"values\":[[\"Record status\",\"Evidence status\",\"Required met\",\"Required fail\",\"Required open / invalid\",\"Capital / time\",\"Control finding\",\"Screen result\",\"Review order\",\"Shortlist rank\",\"Action timing\"],[\"Recorded\",\"Assumption\",0,0,6,\"Within limits\",\"Control stated\",\"Investigate\",1,\"\",\"Scheduled\"],[\"Recorded\",\"Assumption\",0,0,6,\"Hold: capital envelope\",\"Investigate control\",\"Hold: capital envelope\",2,\"\",\"Scheduled\"],[\"Recorded\",\"Assumption\",0,0,6,\"Within limits\",\"Hold: missing control\",\"Hold: missing control\",3,\"\",\"Scheduled\"],[\"Recorded\",\"Assumption\",0,1,5,\"Within limits\",\"Control stated\",\"Walk\",4,\"\",\"Scheduled\"]]}",
+  "limitations": [
+    "Recalculated with artifact-tool; desktop Excel unavailable",
+    "12 target slots and six criteria; capacity extension beyond reserved slots not supported without formula review",
+    "No valuation, financing or approval decision is calculated"
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "version": "1.0",
+  "tabs": [
+    "Dashboard",
+    "Mandate",
+    "Routes",
+    "Targets",
+    "Screen",
+    "Guide"
+  ],
+  "units": {
+    "capital": "USD millions of incremental cash needed over common funding horizon",
+    "timing": "elapsed months from fixed review date",
+    "evidenceAge": "calendar days"
+  },
+  "mandate": [
+    {
+      "field": "Mandate name",
+      "cell": "Mandate!D7",
+      "example": "Assumption: capability expansion",
+      "definition": "Give this mandate a stable title."
+    },
+    {
+      "field": "Business problem",
+      "cell": "Mandate!D8",
+      "example": "Assumption: customers need an adjacent workflow",
+      "definition": "Name the problem before choosing an acquisition."
+    },
+    {
+      "field": "Capability gap",
+      "cell": "Mandate!D9",
+      "example": "Assumption: workflow software and specialist team",
+      "definition": "Specify the missing capability, assets and people."
+    },
+    {
+      "field": "Market gap",
+      "cell": "Mandate!D10",
+      "example": "Assumption: limited access to an adjacent customer segment",
+      "definition": "Name the market or channel that is not served today."
+    },
+    {
+      "field": "Success measure",
+      "cell": "Mandate!D11",
+      "example": "Assumption: deploy workflow to existing customers within 12 months",
+      "definition": "State a measurable business outcome."
+    },
+    {
+      "field": "Geographic perimeter",
+      "cell": "Mandate!D12",
+      "example": "Assumption: United States",
+      "definition": "Define allowed markets and operating locations."
+    },
+    {
+      "field": "Business-model perimeter",
+      "cell": "Mandate!D13",
+      "example": "Assumption: recurring B2B workflow revenue",
+      "definition": "Name the economic model that fits the mandate."
+    },
+    {
+      "field": "Excluded exposures",
+      "cell": "Mandate!D14",
+      "example": "Assumption: nontransferable license; platform dependence without continuity",
+      "definition": "List deal breakers and unacceptable dependencies."
+    },
+    {
+      "field": "Cash funding envelope (USD m)",
+      "cell": "Mandate!D15",
+      "example": 25,
+      "definition": "Buyer plus financing cash over the common funding horizon. Include cash consideration, debt repayment, fees, integration and incremental operating investment. Exclude noncash stock / rollover and undrawn facilities."
+    },
+    {
+      "field": "Maximum months to capability",
+      "cell": "Mandate!D16",
+      "example": 12,
+      "definition": "Elapsed months from the review date until the capability can be used."
+    },
+    {
+      "field": "Review date",
+      "cell": "Mandate!D17",
+      "example": "2026-09-10T00:00:00.000Z",
+      "definition": "Fixed date. Update deliberately as the screen is refreshed."
+    },
+    {
+      "field": "Maximum evidence age (days)",
+      "cell": "Mandate!D18",
+      "example": 90,
+      "definition": "Calendar days. Evidence older than this remains open until refreshed."
+    },
+    {
+      "field": "Executive sponsor",
+      "cell": "Mandate!D19",
+      "example": null,
+      "definition": "Enter the person accountable for the business outcome."
+    },
+    {
+      "field": "Decision authority",
+      "cell": "Mandate!D20",
+      "example": null,
+      "definition": "Enter the person or committee authorized to approve the mandate."
+    },
+    {
+      "field": "Mandate decision",
+      "cell": "Mandate!D21",
+      "example": "Draft",
+      "definition": "Record the human decision. A target screen never grants approval."
+    },
+    {
+      "field": "Approval record / reference",
+      "cell": "Mandate!D22",
+      "example": null,
+      "definition": "Link or identify the dated decision and any conditions."
+    },
+    {
+      "field": "Approval date",
+      "cell": "Mandate!D23",
+      "example": null,
+      "definition": "Date must be on or before the review date."
+    },
+    {
+      "field": "Selected route",
+      "cell": "Mandate!D24",
+      "example": "Buy",
+      "definition": "Build, Buy, Partner or Do nothing. Review all alternatives on Routes."
+    },
+    {
+      "field": "Why this route",
+      "cell": "Mandate!D25",
+      "example": "Assumption: speed and capability ownership justify testing Buy",
+      "definition": "Explain why the chosen route is preferable after reviewing alternatives."
+    },
+    {
+      "field": "Next irreversible commitment",
+      "cell": "Mandate!D26",
+      "example": "Assumption: paid diligence or exclusivity requires separate authorization",
+      "definition": "State the next commitment and required decision, not a permission to act."
+    }
+  ],
+  "criteria": [
+    {
+      "id": "C01",
+      "row": 34,
+      "definition": "Closes the capability gap"
+    },
+    {
+      "id": "C02",
+      "row": 35,
+      "definition": "Fits market and business perimeter"
+    },
+    {
+      "id": "C03",
+      "row": 36,
+      "definition": "Revenue and earnings support the thesis"
+    },
+    {
+      "id": "C04",
+      "row": 37,
+      "definition": "Capability and revenue transfer"
+    },
+    {
+      "id": "C05",
+      "row": 38,
+      "definition": "Integration is feasible"
+    },
+    {
+      "id": "C06",
+      "row": 39,
+      "definition": "Stays within strategic guardrails"
+    }
+  ],
+  "targetColumns": {
+    "C": "Target ID",
+    "D": "Target / asset",
+    "E": "Priority",
+    "F": "Fit rationale",
+    "G": "Cash need (USD m)",
+    "H": "Months to capability",
+    "I": "Seller willingness",
+    "J": "Seller control",
+    "K": "Scarce / imperative basis",
+    "L": "Credible consent path",
+    "M": "Exception approval record",
+    "N": "Fatal veto?",
+    "O": "Judgment",
+    "P": "Pass rationale",
+    "Q": "Named owner",
+    "R": "Next action",
+    "S": "Due date",
+    "T": "Evidence label",
+    "U": "Source / evidence reference",
+    "V": "Evidence date",
+    "W": "Record status",
+    "X": "Evidence status",
+    "Y": "Required met",
+    "Z": "Required fail",
+    "AA": "Required open / invalid",
+    "AB": "Capital / time",
+    "AC": "Control finding",
+    "AD": "Screen result",
+    "AE": "Review order",
+    "AF": "Shortlist rank",
+    "AG": "Action timing"
+  },
+  "revision": {
+    "current": "Mandate!D27",
+    "approved": "Mandate!D31",
+    "fundingHorizon": "Mandate!D32",
+    "targetReviewed": "Targets!AH7:AH18",
+    "screenReviewed": "Screen!O7:O78",
+    "reviewedBasis": "Screen!P7:P78",
+    "currentBasis": "Screen!Q7:Q78",
+    "discipline": "Users increment revision after material mandate changes. Arbitrary edits do not auto-increment."
+  },
+  "targetRows": [
+    7,
+    18
+  ],
+  "screenRows": [
+    7,
+    78
+  ],
+  "screenColumns": {
+    "C": "Target ID",
+    "D": "Criterion ID",
+    "E": "Finding",
+    "F": "Evidence label",
+    "G": "Source/reference",
+    "H": "Evidence date",
+    "I": "Finding explanation",
+    "J": "Next validation",
+    "K": "Target status",
+    "L": "Required?",
+    "M": "Evidence status",
+    "N": "Criterion result"
+  },
+  "dashboard": {
+    "reviewQueue": "C13:I24",
+    "eligibleShortlist": "C30:I41",
+    "mandateApproval": "H6",
+    "decision": "E9",
+    "unranked": "E26"
+  },
+  "exampleResults": [
+    [
+      "T01",
+      "Assumption: workflow asset A",
+      1,
+      "Assumption: supplies the missing workflow and specialist team",
+      23,
+      9,
+      "Open",
+      "Confirmed",
+      null,
+      null,
+      null,
+      "No",
+      "Investigate",
+      null,
+      null,
+      "Validate ownership, customer retention and transferability",
+      "2026-09-25T00:00:00.000Z",
+      "Assumption",
+      "Fictional example. Replace with cap table, seller response and cost/timing analysis",
+      "2026-09-10T00:00:00.000Z",
+      "Recorded",
+      "Assumption",
+      0,
+      0,
+      6,
+      "Within limits",
+      "Control stated",
+      "Investigate",
+      1,
+      "",
+      "Scheduled"
+    ],
+    [
+      "T02",
+      "Assumption: channel asset B",
+      2,
+      "Assumption: adds adjacent customers but requires additional product work",
+      28,
+      10,
+      "Unknown",
+      "Unknown",
+      null,
+      null,
+      null,
+      "No",
+      "Investigate",
+      null,
+      null,
+      "Resolve capital needs and seller willingness",
+      "2026-09-25T00:00:00.000Z",
+      "Assumption",
+      "Fictional example. Capital need includes integration and operating funding",
+      "2026-09-10T00:00:00.000Z",
+      "Recorded",
+      "Assumption",
+      0,
+      0,
+      6,
+      "Hold: capital envelope",
+      "Investigate control",
+      "Hold: capital envelope",
+      2,
+      "",
+      "Scheduled"
+    ],
+    [
+      "T03",
+      "Assumption: scarce asset C",
+      3,
+      "Assumption: scarce capability, with fragmented ownership",
+      20,
+      11,
+      "Open",
+      "Missing",
+      "Assumption: scarce workflow capability",
+      "Assumption: obtain voting commitments from required holders",
+      null,
+      "No",
+      "Protect",
+      null,
+      null,
+      "Test required votes and credible path before exception review",
+      "2026-09-25T00:00:00.000Z",
+      "Assumption",
+      "Fictional example. No consent or approval has been obtained",
+      "2026-09-10T00:00:00.000Z",
+      "Recorded",
+      "Assumption",
+      0,
+      0,
+      6,
+      "Within limits",
+      "Hold: missing control",
+      "Hold: missing control",
+      3,
+      "",
+      "Scheduled"
+    ],
+    [
+      "T04",
+      "Assumption: restricted asset D",
+      4,
+      "Assumption: attractive capability depends on a nontransferable license",
+      15,
+      8,
+      "Open",
+      "Confirmed",
+      null,
+      null,
+      null,
+      "Yes",
+      "Walk",
+      "Assumption: core license cannot transfer under the proposed acquisition",
+      null,
+      "Document the veto and retain re-entry conditions",
+      "2026-09-25T00:00:00.000Z",
+      "Assumption",
+      "Fictional example. Validate license terms before relying on the finding",
+      "2026-09-10T00:00:00.000Z",
+      "Recorded",
+      "Assumption",
+      0,
+      1,
+      5,
+      "Within limits",
+      "Control stated",
+      "Walk",
+      4,
+      "",
+      "Scheduled"
+    ]
+  ],
+  "guide": [
+    [
+      "Start with the business need",
+      "On Mandate, replace the fictional gap, outcome, perimeter and exclusions. Define why a capability is needed before choosing Buy."
+    ],
+    [
+      "Compare four routes",
+      "On Routes, compare Build, Buy, Partner and Do nothing. Include execution dependencies and the cost of delay or inaction. Cost/time limits are screens, not an automatic winner."
+    ],
+    [
+      "Cash funding basis",
+      "USD millions of incremental cash required from buyer plus financing over the common funding horizon in Mandate D32. Include cash consideration, debt repayment, fees, integration and incremental operating investment. Exclude noncash stock / rollover and undrawn facilities. The envelope is a screening limit, not proof of financing."
+    ],
+    [
+      "Timing basis",
+      "Months run from the fixed review date to usable capability. Do nothing has zero months to the decision to defer; it does not close the capability gap."
+    ],
+    [
+      "Mandate approval and revision",
+      "After any material mandate change, increment D27, reassess targets and renew approval. Enter the approved revision in D31. Approval recorded requires matching revisions, sponsor, authority, record and valid date. Arbitrary edits do not automatically increment the revision; the user must do this."
+    ],
+    [
+      "Criteria and reviewed basis",
+      "Six editable criteria have stable IDs, required flags and evidence tests. At least one must be required. Screen compares the reviewed basis in P with current basis Q; changed required criteria reopen. After reassessment copy Q to P as values and record the current revision in O."
+    ],
+    [
+      "Target records",
+      "Use 12 target slots T01–T12. Replace fictional names and facts. Keep IDs unique and stable across Targets and Screen. Record the reviewed mandate revision in Targets AH after reassessing target-level evidence. If you rename an ID, update every linked screen row."
+    ],
+    [
+      "User priority",
+      "Enter a unique positive whole number per active target. Lower means earlier review. Priorities do not need to be consecutive. Duplicate, blank, zero, negative or fractional priorities are excluded from the ranked queue and counted as unranked."
+    ],
+    [
+      "Evidence before eligibility",
+      "Screen holds one row per target and criterion. Meets requires Verified evidence, a source/reference, a dated finding and a current evidence date. Assumption, Unverified, Conflicting, Unknown and missing evidence remain Open."
+    ],
+    [
+      "Evidence age",
+      "A date after the review date is invalid. Evidence age equal to the entered maximum is allowed; older evidence is stale. Refresh the review date and evidence deliberately. No TODAY() formulas."
+    ],
+    [
+      "A negative finding",
+      "A required Fails finding holds the target even when the underlying claim is unverified. Confirm or refute it before advancement; the label does not establish that the claim is fact."
+    ],
+    [
+      "Optional criteria",
+      "A criterion marked No remains in the evidence register as Optional finding. It is excluded from required gate counts. Its risks still need human review."
+    ],
+    [
+      "Seller willingness",
+      "Open means evidence of a willingness to consider a transaction, not a commitment to sell. Not now holds the screen. Unknown remains Investigate."
+    ],
+    [
+      "Seller control",
+      "Identify who can deliver the required vote and assets. Missing control is an early hold. Unknown control requires investigation. The evidence reference on Targets should support the capital/time, willingness, control and veto assessments."
+    ],
+    [
+      "Consent-path exception",
+      "Missing control can become Conditional consent review only with a scarce or strategically imperative basis, a credible consent path, a documented exception approval and verified current evidence. It stays outside the eligible shortlist until control is confirmed."
+    ],
+    [
+      "Fatal veto and judgment",
+      "A Yes veto or Walk judgment always returns Walk, regardless of priority or other findings. Record an explicit pass rationale. Investigate, Price and Protect identify how to handle risk; they cannot override a failed hard gate."
+    ],
+    [
+      "Screen eligibility",
+      "Meets screen requires valid record and priority, defined mandate, capital/time within limits, no recorded required failure or unresolved required pair, verified target evidence, seller Open, no veto, stated confirmed control, and owner/action/due date."
+    ],
+    [
+      "Rank is not approval",
+      "The review queue includes held and Walk targets so the reasons remain visible. The separate eligible shortlist includes only Meets screen. Both follow your priority, not a weighted score. Mandate approval is shown separately."
+    ],
+    [
+      "Accountability",
+      "Enter a named owner, a next action and a real due date for each target before shortlist eligibility. An overdue date remains visible on Targets. Completion and outreach are not recorded by this workbook."
+    ],
+    [
+      "Sort and edit safely",
+      "Use the full Targets or Screen table filter/sort. Keep complete rows together. Evidence joins use IDs, so notes stay with their target. Do not sort a single column, overwrite formula columns or add rows beyond the 12-target / 72-screen capacity without extending and checking formulas."
+    ],
+    [
+      "Adding a target",
+      "Fill an unused target slot, assign a unique priority and complete its six Screen rows, including reviewed revision and basis. The dashboard updates automatically. A missing required pair stays open; duplicate pairs are invalid."
+    ],
+    [
+      "Assumption examples",
+      "All names, numbers, dates, motives and findings in the sample are fictional Assumption examples. They are not a transaction recommendation or claims about real businesses. Delete or replace them before real use."
+    ],
+    [
+      "What this does not assess",
+      "No valuation, financing commitment, debt-service coverage, tax/legal conclusion, formal diligence clearance or transaction approval is produced. Obtain the required advice and approvals for an actual process."
+    ],
+    [
+      "Acquisition Lens handoff",
+      "Use this workbook to define the mandate and shortlist. Use Acquisition Lens to examine an individual opportunity, then diligence, valuation, synergy and LOI tools as the decision develops."
+    ],
+    [
+      "Publication",
+      "MikeYe.com · Acquisition Mandate & Target Screen · v1.0 · https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen"
+    ]
+  ]
+}
