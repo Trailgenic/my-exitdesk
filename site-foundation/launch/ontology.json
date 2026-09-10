@@ -967,6 +967,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
         }
       ]
     },
@@ -1039,6 +1042,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
         }
       ]
     },
@@ -1105,6 +1111,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
         }
       ]
     },
@@ -1242,6 +1251,71 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource",
+      "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench",
+      "name": "Public Company Comps Workbench",
+      "description": "Build public-company peer groups across 12 sectors, normalize EBITDA, review exclusions and outliers, and translate selected trading multiples into an implied valuation range.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": {
+        "@id": "https://www.mikeye.com/m-and-a#industry-comps"
+      },
+      "learningResourceType": "Public-company trading comps template with Excel workbook",
+      "teaches": "Which public companies are genuinely comparable, and what valuation range does the reviewed peer evidence support?",
+      "version": "1.0",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "mainEntityOfPage": {
+        "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#webpage"
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#workbook",
+        "name": "MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/a10eafcef6e045b4bc275073cf5053997ba92005/public/resources/MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "119891 bytes"
+      },
+      "keywords": [
+        "public company comps",
+        "trading comparables",
+        "peer selection",
+        "EBITDA normalization",
+        "valuation multiples",
+        "12 sectors"
+      ],
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
         }
       ]
     }

@@ -470,7 +470,8 @@
       "loi-economics-risk-allocator",
       "acquisition-mandate-target-screen",
       "carve-out-perimeter-tsa-planner",
-      "capital-allocation-deal-affordability"
+      "capital-allocation-deal-affordability",
+      "public-company-comps-workbench"
     ],
     "download": {
       "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
@@ -524,7 +525,8 @@
       "integration-continuity",
       "acquisition-mandate-target-screen",
       "carve-out-perimeter-tsa-planner",
-      "capital-allocation-deal-affordability"
+      "capital-allocation-deal-affordability",
+      "public-company-comps-workbench"
     ],
     "webflowItemId": "6aa2095323a4984befe0ccef",
     "download": {
@@ -580,7 +582,8 @@
       "workflow-diligence",
       "synergy-value-bridge",
       "loi-economics-risk-allocator",
-      "capital-allocation-deal-affordability"
+      "capital-allocation-deal-affordability",
+      "public-company-comps-workbench"
     ],
     "download": {
       "filename": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
@@ -687,7 +690,8 @@
       "loi-economics-risk-allocator",
       "synergy-value-bridge",
       "carve-out-perimeter-tsa-planner",
-      "deal-workflow"
+      "deal-workflow",
+      "public-company-comps-workbench"
     ],
     "download": {
       "filename": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
@@ -703,6 +707,52 @@
         "Financing",
         "Capacity",
         "Alternatives",
+        "Guide"
+      ],
+      "downloadVerified": true,
+      "verifiedAt": "2026-09-10"
+    },
+    "cmsStatus": "published",
+    "contentReviewedAt": "2026-09-10",
+    "publicationDate": "2026-09-10"
+  },
+  {
+    "id": "public-company-comps-workbench",
+    "name": "Public Company Comps Workbench",
+    "slug": "public-company-comps-workbench",
+    "format": "Tool",
+    "topic": "industry-comps",
+    "summary": "Build public-company peer groups across 12 sectors, normalize EBITDA, review exclusions and outliers, and translate selected trading multiples into an implied valuation range.",
+    "decision": "Which public companies are genuinely comparable, and what valuation range does the reviewed peer evidence support?",
+    "version": "1.0",
+    "updated": "2026-09-10",
+    "status": "published",
+    "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench",
+    "proposedPath": "/ma-resources/public-company-comps-workbench",
+    "sourceFile": "editorial/public-company-comps-workbench.json",
+    "sourcePrinciples": [
+      "frame-before-detail",
+      "buyer-keeps-synergy",
+      "unknowns-are-findings",
+      "decision-not-description"
+    ],
+    "relatedResources": [
+      "capital-allocation-deal-affordability",
+      "acquisition-mandate-target-screen",
+      "synergy-value-bridge",
+      "loi-economics-risk-allocator"
+    ],
+    "download": {
+      "filename": "MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
+      "repositoryPath": "public/resources/MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/a10eafcef6e045b4bc275073cf5053997ba92005/public/resources/MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
+      "version": "1.0",
+      "bytes": 119891,
+      "sha256": "54b31ceca2721933cf4b78242bd377b7b97658e5313965703343836f2f72a802",
+      "sheets": [
+        "Dashboard",
+        "Controls",
+        "Peer data",
         "Guide"
       ],
       "downloadVerified": true,

@@ -1,0 +1,106 @@
+{
+  "tests": [
+    {
+      "name": "Core count",
+      "passed": true
+    },
+    {
+      "name": "Median",
+      "passed": true
+    },
+    {
+      "name": "Q1",
+      "passed": true
+    },
+    {
+      "name": "Q3",
+      "passed": true
+    },
+    {
+      "name": "Outlier flag",
+      "passed": true
+    },
+    {
+      "name": "Low EV",
+      "passed": true
+    },
+    {
+      "name": "High equity",
+      "passed": true
+    },
+    {
+      "name": "Exclusion updates count",
+      "passed": true
+    },
+    {
+      "name": "Negative EBITDA NM",
+      "passed": true
+    },
+    {
+      "name": "Negative excluded",
+      "passed": true
+    },
+    {
+      "name": "Both duplicate IDs excluded",
+      "passed": true
+    },
+    {
+      "name": "Wrong market date excluded",
+      "passed": true
+    },
+    {
+      "name": "Metric selector recalculates",
+      "passed": true
+    },
+    {
+      "name": "Missing adjustment is missing",
+      "passed": true
+    },
+    {
+      "name": "Missing net debt blocks valuation",
+      "passed": true
+    },
+    {
+      "name": "Explicit zero net debt works",
+      "passed": true
+    },
+    {
+      "name": "Secondary excluded from core",
+      "passed": true
+    },
+    {
+      "name": "Secondary retained in all eligible",
+      "passed": true
+    },
+    {
+      "name": "Negative equity remains visible",
+      "passed": true
+    },
+    {
+      "name": "Currency mismatch excluded",
+      "passed": true
+    },
+    {
+      "name": "Last capacity row included",
+      "passed": true
+    },
+    {
+      "name": "Last row formula copied",
+      "passed": true
+    },
+    {
+      "name": "Sector change clears peers",
+      "passed": true
+    },
+    {
+      "name": "Blank template has no peers",
+      "passed": true
+    },
+    {
+      "name": "Blank template has no valuation",
+      "passed": true
+    }
+  ],
+  "engine": "Artifact Tool recalculation; Excel desktop not available",
+  "licensedDataIncluded": false
+}

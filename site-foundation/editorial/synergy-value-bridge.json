@@ -27,7 +27,8 @@
     "loi-economics-risk-allocator",
     "acquisition-mandate-target-screen",
     "carve-out-perimeter-tsa-planner",
-    "capital-allocation-deal-affordability"
+    "capital-allocation-deal-affordability",
+    "public-company-comps-workbench"
   ],
   "sections": [
     {
@@ -89,6 +90,10 @@
     {
       "heading": "Set the capital limit before committing",
       "html": "<p>Use the <a href=\"/ma-resources/capital-allocation-deal-affordability\">Capital Allocation &amp; Deal Affordability Tool</a> to compare buying with the alternatives, test financing and downside cash demands, and separate the affordable price from the buyer's private hard walk-away price.</p>"
+    },
+    {
+      "heading": "Review the public-company valuation reference",
+      "html": "<p>Use the <a href=\"/ma-resources/public-company-comps-workbench\">Public Company Comps Workbench</a> to select comparable public companies, review financial definitions and exclusions, and support a trading-multiple range across 12 sectors.</p>"
     }
   ],
   "sourceNotes": "",

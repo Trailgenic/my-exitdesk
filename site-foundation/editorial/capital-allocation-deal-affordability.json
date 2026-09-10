@@ -27,7 +27,8 @@
     "loi-economics-risk-allocator",
     "synergy-value-bridge",
     "carve-out-perimeter-tsa-planner",
-    "deal-workflow"
+    "deal-workflow",
+    "public-company-comps-workbench"
   ],
   "sections": [
     {
@@ -93,6 +94,10 @@
     {
       "heading": "Version",
       "html": "<p>Version 1.0. Updated September 10, 2026. Editable Excel workbook. Entries stay in your downloaded copy.</p>"
+    },
+    {
+      "heading": "Review the public-company valuation reference",
+      "html": "<p>Use the <a href=\"/ma-resources/public-company-comps-workbench\">Public Company Comps Workbench</a> to select comparable public companies, review financial definitions and exclusions, and support a trading-multiple range across 12 sectors.</p>"
     }
   ],
   "download": {
