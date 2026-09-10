@@ -1,0 +1,314 @@
+{
+  "tabs": [
+    "Dashboard",
+    "Controls",
+    "Deal cash flow",
+    "Financing",
+    "Capacity",
+    "Alternatives",
+    "Guide"
+  ],
+  "units": "USD millions",
+  "controls": [
+    [
+      "Business",
+      "Assumption: capability acquisition"
+    ],
+    [
+      "Review date",
+      "2026-09-10T00:00:00.000Z"
+    ],
+    [
+      "Case number",
+      1
+    ],
+    [
+      "Case name",
+      null
+    ],
+    [
+      "Financing option number",
+      2
+    ],
+    [
+      "Decision owner",
+      null
+    ],
+    [
+      "Evidence label",
+      "Assumption"
+    ],
+    [
+      "Evidence / approval record",
+      "Assumption: illustrative inputs"
+    ],
+    [
+      "Alternatives comparable and mutually exclusive?",
+      "No"
+    ],
+    [
+      "Required outcome / timing confirmed?",
+      "Pending"
+    ],
+    [
+      "Cash tax rate",
+      0.25
+    ],
+    [
+      "Annual unlevered hurdle",
+      0.15
+    ],
+    [
+      "Proposed enterprise value",
+      35
+    ],
+    [
+      "All transaction and financing fees at close",
+      1
+    ],
+    [
+      "Additional investment at close",
+      2
+    ],
+    [
+      "Share of buyer synergy PV allowed in price",
+      0.5
+    ],
+    [
+      "Strategic enterprise value ceiling",
+      38
+    ],
+    [
+      "Buyer cash at close",
+      25
+    ],
+    [
+      "Restricted cash",
+      2
+    ],
+    [
+      "Minimum unrestricted cash reserve",
+      5
+    ],
+    [
+      "Other cash commitments at close",
+      3
+    ],
+    [
+      "Existing debt at close",
+      15
+    ],
+    [
+      "Existing debt annual interest rate",
+      0.06
+    ],
+    [
+      "Maximum gross debt / EBITDA",
+      3
+    ],
+    [
+      "Minimum EBITDA / cash interest",
+      3
+    ],
+    [
+      "Maximum new investor ownership",
+      0.2
+    ],
+    [
+      "Required outcome",
+      "Assumption: acquire distribution capability"
+    ],
+    [
+      "Main open action",
+      "Replace assumptions, confirm funding and run Downside"
+    ]
+  ],
+  "annualGroups": [
+    {
+      "label": "Target revenue",
+      "activeRow": 40,
+      "baseRow": 41,
+      "downsideRow": 42,
+      "upsideRow": 43
+    },
+    {
+      "label": "Target EBITDA margin",
+      "activeRow": 44,
+      "baseRow": 45,
+      "downsideRow": 46,
+      "upsideRow": 47
+    },
+    {
+      "label": "Target depreciation and amortization",
+      "activeRow": 48,
+      "baseRow": 49,
+      "downsideRow": 50,
+      "upsideRow": 51
+    },
+    {
+      "label": "Target capital expenditure",
+      "activeRow": 52,
+      "baseRow": 53,
+      "downsideRow": 54,
+      "upsideRow": 55
+    },
+    {
+      "label": "Increase in target working capital",
+      "activeRow": 56,
+      "baseRow": 57,
+      "downsideRow": 58,
+      "upsideRow": 59
+    },
+    {
+      "label": "Target follow-on investment",
+      "activeRow": 60,
+      "baseRow": 61,
+      "downsideRow": 62,
+      "upsideRow": 63
+    },
+    {
+      "label": "Net buyer synergy cash flow",
+      "activeRow": 64,
+      "baseRow": 65,
+      "downsideRow": 66,
+      "upsideRow": 67
+    },
+    {
+      "label": "Buyer standalone EBITDA",
+      "activeRow": 68,
+      "baseRow": 69,
+      "downsideRow": 70,
+      "upsideRow": 71
+    },
+    {
+      "label": "Buyer cash flow before debt service",
+      "activeRow": 72,
+      "baseRow": 73,
+      "downsideRow": 74,
+      "upsideRow": 75
+    },
+    {
+      "label": "Existing debt principal repaid",
+      "activeRow": 76,
+      "baseRow": 77,
+      "downsideRow": 78,
+      "upsideRow": 79
+    },
+    {
+      "label": "Build operating cash flow after investment",
+      "activeRow": 80,
+      "baseRow": 81,
+      "downsideRow": 82,
+      "upsideRow": 83
+    },
+    {
+      "label": "Partner operating cash flow after investment",
+      "activeRow": 84,
+      "baseRow": 85,
+      "downsideRow": 86,
+      "upsideRow": 87
+    },
+    {
+      "label": "Do nothing incremental operating cash flow",
+      "activeRow": 88,
+      "baseRow": 89,
+      "downsideRow": 90,
+      "upsideRow": 91
+    },
+    {
+      "label": "Exit EBITDA multiple (Year 5 only)",
+      "activeRow": 92,
+      "baseRow": 93,
+      "downsideRow": 94,
+      "upsideRow": 95
+    }
+  ],
+  "dashboard": {
+    "hardWalk": "D7",
+    "priceStatus": "D8",
+    "affordable": "D10",
+    "standalone": "D11",
+    "synergy": "D12",
+    "opportunity": "D13",
+    "adjustedReturn": "D14"
+  },
+  "capacity": {
+    "modeledDebt": "D34",
+    "committedDebt": "D35",
+    "buyerCash": "D36",
+    "affordableEV": "D37",
+    "status": "D38",
+    "proposedFunding": "D50",
+    "hardWalk": "D58"
+  },
+  "guide": [
+    [
+      "First 10–15 minutes",
+      "Set the proposed enterprise value, cash reserve, return hurdle and strategic ceiling. Review the annual assumptions, choose financing and compare Buy / Build / Partner / Do nothing. Select Downside before using the hard walk-away."
+    ],
+    [
+      "Price basis",
+      "Every price is debt-free, cash-free enterprise value with normalized working capital. Convert actual seller equity proceeds separately for debt, cash, debt-like items and the agreed working-capital mechanism."
+    ],
+    [
+      "Cases and timing",
+      "One active case updates the same five-year build. Initial cash flows occur at close and annual cash flows at year-end. Base and Upside show active-case figures only. Downside must stress buyer and target together, including target revenue and margin."
+    ],
+    [
+      "Available capital",
+      "Buyer cash available = total buyer cash less restricted cash, the minimum unrestricted reserve and other commitments at close. Future buyer cash already deducts taxes, capex, working capital and all non-deal investment, but excludes existing interest and principal."
+    ],
+    [
+      "Target standalone cash flow",
+      "EBITDA less D&A gives EBIT. Tax is applied only to positive EBIT. Add D&A to NOPAT, then deduct capex, the increase in working capital and follow-on investment. Initial additional investment is separate. No interest tax shield or loss tax benefit is assumed."
+    ],
+    [
+      "Buyer-created synergy",
+      "Enter incremental after-tax cash flow net of realization cost once, excluding it from target standalone and buyer baseline inputs. Economic NPV includes all synergy cash. Price includes the allowed share of each positive annual cash flow and the full negative cash burden. No synergy terminal value or EBITDA add-back supports borrowing."
+    ],
+    [
+      "Debt capacity",
+      "For every year, solve new debt allowed by maximum opening gross debt / annual EBITDA and minimum annual EBITDA / cash interest. Use the minimum across years, capped at the committed borrowing limit. A negative underlying ratio capacity means even zero new debt fails the stated constraints."
+    ],
+    [
+      "Debt and cash timing",
+      "Interest uses opening balances. New debt repays the entered original-principal percentage annually and all remaining principal in Year 5. Existing debt follows its entered schedule. No refinancing or terminal-sale proceeds fund liquidity. Affordable EV is the minimum close and annual reserve-derived price bound at the selected committed debt and equity amounts."
+    ],
+    [
+      "Proposed financing",
+      "At each date, the price bound equals available buyer cash plus selected debt and equity, less close fees and investment, plus cumulative operating cash after all debt service. The minimum across close and Years 1–5 is affordable EV. The actual proposed-price cash roll-forward retains residual buyer cash. Changing the selected financing changes the bound; this is not global debt optimization."
+    ],
+    [
+      "Equity ownership",
+      "Common equity dilution = new gross proceeds / (pre-issue buyer equity value + new gross proceeds). Fees are paid separately at close. Zero equity does not require a pre-issue value. This is ownership dilution, not EPS dilution."
+    ],
+    [
+      "Return-supported price",
+      "Standalone ceiling = PV of standalone cash and terminal EV less fees and initial investment. Add the allowed share of each positive annual synergy cash flow and the full PV of each negative annual flow. Terminal EV is Year 5 standalone EBITDA, floored at zero, times the selected exit multiple. Discount year-end cash at the annual unlevered hurdle."
+    ],
+    [
+      "Opportunity cost",
+      "Use comparable, mutually exclusive choices with the same budget, horizon, hurdle and baseline. Confirm feasibility and timing for each. The maximum positive feasible nonbuy NPV is deducted from the acquisition return-supported price only after comparability is confirmed. The zero floor preserves the option to retain capital."
+    ],
+    [
+      "Hard walk-away",
+      "The minimum of affordable EV, opportunity-adjusted return-supported EV and strategic EV ceiling is the active-case ceiling. The hard walk-away appears only in Downside after owner, Verified evidence, approval record, confirmed required outcome and financing conditions. Nonpositive ceilings do not authorize a positive purchase price."
+    ],
+    [
+      "IRR and payback",
+      "Unlevered project IRR includes close EV, fees and investment, annual economic cash flow, and the Year 5 terminal sale. It displays n.a. for missing inputs, a nonnegative initial flow or negative future total flows. Operating payback is the first whole year cumulative operating cash recovers the initial outlay; terminal sale is excluded."
+    ],
+    [
+      "ROIC",
+      "Year 1 standalone ROIC = Year 1 standalone NOPAT / (enterprise value + close investment + Year 1 follow-on investment). This acquisition-cost proxy excludes fees and buyer synergies and does not represent purchase-accounting invested capital or a mature run rate."
+    ],
+    [
+      "Evidence and revisions",
+      "All populated examples are Assumption. Replace them and record the decision owner, evidence / approval record and required outcome. Re-review financing commitments, alternative feasibility and the Verified label whenever material assumptions change. Labels do not update themselves."
+    ],
+    [
+      "Limits that change the decision",
+      "Annual cash tests can miss an intra-year shortage. Model actual monthly liquidity, debt documents, fees, taxes and seller equity adjustments before execution. Rates are fixed, new debt matures in Year 5 and only common equity is modeled. This is a first-pass allocation and affordability tool, not a full deal model."
+    ]
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "tests": [
+    {
+      "name": "Base requires Downside before hard walk-away",
+      "passed": true,
+      "actual": "Select Downside"
+    },
+    {
+      "name": "Initial illustrative evidence does not produce reviewed price",
+      "passed": true,
+      "actual": "Open funding commitments"
+    },
+    {
+      "name": "Base target UFCF independently reconciles",
+      "passed": true,
+      "actual": 1.75
+    },
+    {
+      "name": "Base tax independently reconciles",
+      "passed": true,
+      "actual": 1.25
+    },
+    {
+      "name": "Buyer available cash subtracts restrictions reserve and commitments once",
+      "passed": true,
+      "actual": 15
+    },
+    {
+      "name": "Ownership dilution uses pre-issue plus new gross equity",
+      "passed": true,
+      "actual": 0.058823529411764705
+    },
+    {
+      "name": "Blank unselected Downside input leaves Base available",
+      "passed": true,
+      "actual": 38.511775708659414
+    },
+    {
+      "name": "Selected blank driver is unavailable not zero",
+      "passed": true,
+      "actual": "Invalid active inputs"
+    },
+    {
+      "name": "Complete Downside prerequisites produce numeric hard ceiling",
+      "passed": true,
+      "actual": 12.091670961289667
+    },
+    {
+      "name": "Above-ceiling proposed price is held",
+      "passed": true,
+      "actual": "Hold: above walk-away"
+    },
+    {
+      "name": "Fixed selected financing ceiling ties to every cash date",
+      "passed": true,
+      "actual": {
+        "actual": 28.627499999999998,
+        "expected": 28.627499999999998
+      }
+    },
+    {
+      "name": "Affordable price touches close or annual reserve boundary",
+      "passed": true,
+      "actual": [
+        0.3725000000000023,
+        1.7763568394002505e-15,
+        1.331500000000002,
+        3.3895000000000035,
+        8.071500000000004,
+        0.2775000000000052
+      ]
+    },
+    {
+      "name": "Price above affordability breaches liquidity",
+      "passed": true,
+      "actual": "Breach: proposed funding"
+    },
+    {
+      "name": "Missing required outcome prevents hard walk-away",
+      "passed": true,
+      "actual": "Open evidence / inputs"
+    },
+    {
+      "name": "Buy explicitly infeasible prevents reviewed price",
+      "passed": true,
+      "actual": "Open evidence / inputs"
+    },
+    {
+      "name": "Opportunity-adjusted price waits for comparable alternatives",
+      "passed": true,
+      "actual": "Open evidence / inputs"
+    },
+    {
+      "name": "Alternative without feasibility owner reopens comparison",
+      "passed": true,
+      "actual": "Open alternative review"
+    },
+    {
+      "name": "Uncommitted debt cannot establish affordable price",
+      "passed": true,
+      "actual": ""
+    },
+    {
+      "name": "Uncommitted equity cannot establish affordable price",
+      "passed": true,
+      "actual": ""
+    },
+    {
+      "name": "Missing selected borrowing is not treated as zero",
+      "passed": true,
+      "actual": "Invalid selected terms"
+    },
+    {
+      "name": "Unselected missing financing rate does not block selected terms",
+      "passed": true,
+      "actual": "Inputs entered"
+    },
+    {
+      "name": "Zero equity does not require pre-issue valuation",
+      "passed": true,
+      "actual": 0
+    },
+    {
+      "name": "Positive equity with missing valuation unavailable",
+      "passed": true,
+      "actual": "Invalid selected terms"
+    },
+    {
+      "name": "Zero debt and zero rate do not divide by zero",
+      "passed": true,
+      "actual": 0
+    },
+    {
+      "name": "Zero-interest loan still repays original principal",
+      "passed": true,
+      "actual": 4.799999999999999
+    },
+    {
+      "name": "Bullet debt repays full amount in final year",
+      "passed": true,
+      "actual": 12
+    },
+    {
+      "name": "Late follow-on investment lowers affordable price",
+      "passed": true,
+      "actual": {
+        "before": 28.627499999999998,
+        "after": 18.905
+      }
+    },
+    {
+      "name": "Terminal sale does not support affordability or operating payback",
+      "passed": true,
+      "actual": {
+        "capacity": 29,
+        "payback": "Not in 5 years"
+      }
+    },
+    {
+      "name": "Terminal sale changes project IRR",
+      "passed": true,
+      "actual": 0.43586235047880384
+    },
+    {
+      "name": "One additional reserve dollar reduces affordability dollar for dollar",
+      "passed": true,
+      "actual": 27.627499999999998
+    },
+    {
+      "name": "Fees reduce cash and return ceilings once",
+      "passed": true,
+      "actual": {
+        "cash": 27.627499999999998,
+        "ret": 10.336580687200794
+      }
+    },
+    {
+      "name": "Zero positive synergy share gives standalone price",
+      "passed": true,
+      "actual": 11.336580687200794
+    },
+    {
+      "name": "Zero share preserves full negative synergy burden",
+      "passed": true,
+      "actual": -1.7391304347826089
+    },
+    {
+      "name": "Negative EBIT receives no cash tax benefit",
+      "passed": true,
+      "actual": 0
+    },
+    {
+      "name": "Nonconventional project flows produce n.a. IRR",
+      "passed": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Zero combined EBITDA with existing debt yields no capacity",
+      "passed": true,
+      "actual": "Hold: zero-debt capacity"
+    },
+    {
+      "name": "Existing opening leverage breach prevents ceiling",
+      "passed": true,
+      "actual": "Hold: zero-debt capacity"
+    },
+    {
+      "name": "Existing debt over-repayment is invalid",
+      "passed": true,
+      "actual": "Invalid debt / inputs"
+    },
+    {
+      "name": "Selected borrowing above commitment prevents affordable price",
+      "passed": true,
+      "actual": "Breach: proposed funding"
+    },
+    {
+      "name": "Dilution above entered limit prevents affordable price",
+      "passed": true,
+      "actual": ""
+    },
+    {
+      "name": "Base never presents hard ceiling as Downside-safe",
+      "passed": true,
+      "actual": "Select Downside"
+    },
+    {
+      "name": "All blank inputs leave model open",
+      "passed": true,
+      "actual": {
+        "core": "Invalid core inputs",
+        "affordable": ""
+      }
+    },
+    {
+      "name": "Original Assumption example restored",
+      "passed": true,
+      "actual": "Select Downside"
+    }
+  ],
+  "passed": 43,
+  "failed": 0,
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "inspection": "{\"kind\":\"table\",\"sheet\":\"Capacity\",\"address\":\"C34:D59\",\"rows\":26,\"cols\":2,\"values\":[[\"Modeled new-debt capacity\",39],[\"Committed new-debt capacity\",0],[\"Buyer cash available at close\",15],[\"Affordable EV at selected financing\",\"\"],[\"Capacity prerequisites\",\"Capacity calculated\"],[null,null],[null,null],[\"Proposed new debt at start\",null],[\"Proposed new debt principal repaid\",null],[\"Proposed new debt at end\",null],[\"Proposed new debt cash interest\",null],[\"Unrestricted cash balance\",-1],[\"Cash reserve headroom\",-6],[\"Opening gross debt / annual EBITDA\",null],[\"Annual EBITDA / cash interest\",null],[null,null],[\"Proposed funding and liquidity\",\"Breach: proposed funding\"],[null,null],[\"Standalone return-supported EV\",35.511775708659414],[\"Allowed buyer synergy premium\",2.1575302932115337],[\"Return-supported EV before opportunity cost\",37.66930600187095],[\"Comparable alternative opportunity cost\",\"\"],[\"Opportunity-adjusted return-supported EV\",\"\"],[\"Active-case enterprise value ceiling\",\"\"],[\"Hard walk-away enterprise value\",\"Select Downside\"],[\"Proposed price versus hard walk-away\",\"Open hard walk-away\"]]}",
+  "bytes": 54196,
+  "sha256": "cdf044eb840ad6d5f277881354dc364528d8a0e4d78a7d47fa80b3dfe9946c33",
+  "visualReview": {
+    "sheets": [
+      "Dashboard",
+      "Controls",
+      "Deal cash flow",
+      "Financing",
+      "Capacity",
+      "Alternatives",
+      "Guide"
+    ],
+    "previews": [
+      "dashboard",
+      "controls",
+      "target-assumptions",
+      "buyer-alternative-assumptions",
+      "deal-cash-flow",
+      "returns",
+      "financing",
+      "debt-capacity",
+      "affordability",
+      "alternatives",
+      "opportunity-cost",
+      "guide-1",
+      "guide-2"
+    ],
+    "reviewed": true,
+    "findings": "All seven sheets reviewed. No clipped financial outputs, controls or Guide text. Focused input styling and terminal-value formatting corrected."
+  },
+  "sample": {
+    "core": "Inputs entered",
+    "active": "Inputs entered",
+    "returns": [
+      [
+        38.511775708659414
+      ],
+      [
+        4.315060586423067
+      ],
+      [
+        4.8268362950824795
+      ],
+      [
+        0.18194726185258775
+      ],
+      [
+        "Not in 5 years"
+      ],
+      [
+        0.09868421052631579
+      ]
+    ],
+    "capacity": [
+      [
+        39
+      ],
+      [
+        0
+      ],
+      [
+        15
+      ],
+      [
+        ""
+      ],
+      [
+        "Capacity calculated"
+      ]
+    ],
+    "reviewedDownside": {
+      "returnPV": 14.336580687200794,
+      "synergyPV": 1.5101805481777468,
+      "affordableEV": 28.627499999999998,
+      "hardWalk": 12.091670961289667,
+      "proposed": "Hold: above walk-away"
+    }
+  },
+  "limitations": [
+    "Recalculated with artifact-tool; desktop Excel unavailable",
+    "Five annual periods do not test intra-year liquidity troughs",
+    "Debt-free cash-free enterprise value with normalized working capital",
+    "Fixed cash interest and final Year 5 new-debt balloon; no refinancing or sale proceeds in debt capacity",
+    "Manual re-review of evidence, commitments and feasibility after input changes"
+  ]
+}

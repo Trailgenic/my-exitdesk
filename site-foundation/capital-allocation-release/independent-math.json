@@ -1,0 +1,220 @@
+{
+  "tests": [
+    {
+      "name": "Year 1 UFCF",
+      "actual": -0.7125000000000004,
+      "expected": -0.7125000000000004,
+      "passed": true
+    },
+    {
+      "name": "Year 1 opening gross leverage",
+      "actual": 1.9217081850533806,
+      "expected": 1.9217081850533806,
+      "passed": true
+    },
+    {
+      "name": "Year 1 cash interest coverage",
+      "actual": 7.553763440860216,
+      "expected": 7.553763440860216,
+      "passed": true
+    },
+    {
+      "name": "Year 1 unrestricted cash",
+      "actual": -1.3725,
+      "expected": -1.3725,
+      "passed": true
+    },
+    {
+      "name": "Year 2 UFCF",
+      "actual": 0.4874999999999998,
+      "expected": 0.4874999999999996,
+      "passed": true
+    },
+    {
+      "name": "Year 2 opening gross leverage",
+      "actual": 1.7224199288256226,
+      "expected": 1.7224199288256226,
+      "passed": true
+    },
+    {
+      "name": "Year 2 cash interest coverage",
+      "actual": 8.484299516908212,
+      "expected": 8.484299516908214,
+      "passed": true
+    },
+    {
+      "name": "Year 2 unrestricted cash",
+      "actual": -0.040999999999999925,
+      "expected": -0.040999999999999925,
+      "passed": true
+    },
+    {
+      "name": "Year 3 UFCF",
+      "actual": 0.8100000000000005,
+      "expected": 0.8100000000000003,
+      "passed": true
+    },
+    {
+      "name": "Year 3 opening gross leverage",
+      "actual": 1.4779005524861877,
+      "expected": 1.4779005524861877,
+      "passed": true
+    },
+    {
+      "name": "Year 3 cash interest coverage",
+      "actual": 9.97245179063361,
+      "expected": 9.97245179063361,
+      "passed": true
+    },
+    {
+      "name": "Year 3 unrestricted cash",
+      "actual": 2.0170000000000012,
+      "expected": 2.017000000000001,
+      "passed": true
+    },
+    {
+      "name": "Year 4 UFCF",
+      "actual": 1.9299999999999995,
+      "expected": 1.9299999999999995,
+      "passed": true
+    },
+    {
+      "name": "Year 4 opening gross leverage",
+      "actual": 1.1892583120204605,
+      "expected": 1.1892583120204603,
+      "passed": true
+    },
+    {
+      "name": "Year 4 cash interest coverage",
+      "actual": 12.532051282051283,
+      "expected": 12.532051282051285,
+      "passed": true
+    },
+    {
+      "name": "Year 4 unrestricted cash",
+      "actual": 6.699000000000002,
+      "expected": 6.699000000000002,
+      "passed": true
+    },
+    {
+      "name": "Year 5 UFCF",
+      "actual": 2.05,
+      "expected": 2.05,
+      "passed": true
+    },
+    {
+      "name": "Year 5 opening gross leverage",
+      "actual": 0.9999999999999999,
+      "expected": 0.9999999999999999,
+      "passed": true
+    },
+    {
+      "name": "Year 5 cash interest coverage",
+      "actual": 15.13409961685824,
+      "expected": 15.13409961685824,
+      "passed": true
+    },
+    {
+      "name": "Year 5 unrestricted cash",
+      "actual": -1.094999999999997,
+      "expected": -1.094999999999997,
+      "passed": true
+    },
+    {
+      "name": "Standalone discounted value",
+      "actual": 14.336580687200794,
+      "expected": 14.336580687200794,
+      "passed": true
+    },
+    {
+      "name": "Buyer synergy discounted value",
+      "actual": 1.5101805481777468,
+      "expected": 1.5101805481777468,
+      "passed": true
+    },
+    {
+      "name": "Fixed-financing affordable price",
+      "actual": 28.627499999999998,
+      "expected": 28.627499999999998,
+      "passed": true
+    },
+    {
+      "name": "Economic NPV",
+      "actual": -22.15323876462146,
+      "expected": -22.15323876462146,
+      "passed": true
+    },
+    {
+      "name": "Year 1 ROIC proxy",
+      "actual": 0.05865384615384615,
+      "expected": 0.05865384615384615,
+      "passed": true
+    },
+    {
+      "name": "IRR sign-pattern policy",
+      "actual": "n.a.",
+      "expected": "n.a.",
+      "passed": true
+    },
+    {
+      "name": "Opportunity cost",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "Hard ceiling equals lowest bound",
+      "actual": 12.091670961289667,
+      "expected": 12.091670961289667,
+      "passed": true
+    },
+    {
+      "name": "Year 5 ratio breach blocks affordable ceiling",
+      "actual": "",
+      "expected": "",
+      "passed": true
+    },
+    {
+      "name": "Year 5 ratio breach blocks reviewed ceiling",
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "Existing-debt breach with zero new debt blocks affordability",
+      "actual": "",
+      "expected": "",
+      "passed": true
+    },
+    {
+      "name": "Base IRR independently solved by bisection",
+      "actual": 0.18194726185258775,
+      "expected": 0.18194726182061272,
+      "passed": true
+    },
+    {
+      "name": "Base cannot produce reviewed downside ceiling",
+      "actual": "Select Downside",
+      "expected": "Select Downside",
+      "passed": true
+    }
+  ],
+  "passed": 33,
+  "failed": 0,
+  "cashBounds": [
+    29,
+    28.627499999999998,
+    29.959000000000003,
+    32.017,
+    36.699,
+    28.905
+  ],
+  "annualCash": [
+    -1.3725,
+    -0.040999999999999925,
+    2.017000000000001,
+    6.699000000000002,
+    -1.094999999999997
+  ],
+  "limitation": "Imported and recalculated using artifact-tool; independent arithmetic is JavaScript. No workbook was exported or modified on disk."
+}
