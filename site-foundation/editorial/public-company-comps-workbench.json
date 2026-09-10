@@ -4,9 +4,9 @@
   "slug": "public-company-comps-workbench",
   "format": "Tool",
   "topic": "industry-comps",
-  "summary": "Build public-company peer groups across 12 sectors, normalize EBITDA, review exclusions and outliers, and translate selected trading multiples into an implied valuation range.",
+  "summary": "Review 254 public companies across 12 sectors, with Capital IQ financials, trading multiples, peer-group summary statistics and comparability notes.",
   "decision": "Which public companies are genuinely comparable, and what valuation range does the reviewed peer evidence support?",
-  "version": "1.0",
+  "version": "1.1",
   "updated": "2026-09-10",
   "status": "published",
   "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench",
@@ -26,57 +26,49 @@
   ],
   "sections": [
     {
-      "heading": "Start with the basis for comparison",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/a10eafcef6e045b4bc275073cf5053997ba92005/public/resources/MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx\">Download the Public Company Comps Workbench template</a> · Excel · Version 1.0 · common currency, millions</p><p>A list of companies becomes useful only when the analyst can explain why each name belongs. This workbench combines the peer decision with the valuation arithmetic: business and revenue mix, geography, customer or platform exposure, size, growth, margin, financial definitions, and a written inclusion or exclusion rationale.</p><p>The public download is a blank, formula-driven Excel template. It covers public-company trading comparables only. Precedent M&amp;A analysis is outside this release. It contains no licensed Capital IQ company data and has no live provider connection.</p>"
+      "heading": "Download the populated public-company comps",
+      "html": "<p><a href=\"https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa237da499a6768b19b5e74_CapitalIQ-Public-Comps-12-Sectors.xlsx\">Download the 12-sector public-company comps workbook</a> · Excel · 254 companies · Prices as of September 8, 2026</p><p>This is the populated workbook assembled by Claude from Mike's Capital IQ export. It includes company-level trading data, calculated multiples, peer-group summary statistics, business descriptions and comparability notes across all 12 sectors. The figures and summaries are retained from the supplied workbook.</p><p>Precedent M&amp;A is excluded. The earlier blank template has been replaced by this populated workbook.</p>"
     },
     {
-      "heading": "Use the 12 sectors as a starting universe",
-      "html": "<ol><li>Media &amp; Publishing</li><li>Marketing &amp; Advertising</li><li>Events &amp; Exhibitions</li><li>Software &amp; SaaS</li><li>IT Services &amp; Managed Services</li><li>Business &amp; Professional Services</li><li>Healthcare Services</li><li>Consumer Products &amp; Brands</li><li>Food &amp; Beverage</li><li>Retail &amp; Restaurants</li><li>Industrial &amp; Commercial Services</li><li>Distribution &amp; Logistics</li></ol><p>Select a sector number and enter an exact peer-group label on Controls. Use narrower groups where the economics differ. A software reseller, a recurring software vendor, and a consulting business may serve similar customers while requiring different peer sets.</p><p>Revenue size, EBITDA margin and implied NTM revenue growth help challenge the grouping. Explain material differences in the rationale field. The sector label does not establish comparability by itself.</p>"
+      "heading": "What is in the workbook",
+      "html": "<p><strong>Trading_Comps:</strong> company names, tickers, geography, currency, market-data dates, enterprise value, LTM and NTM financials, valuation multiples, business descriptions and inclusion notes.</p><p><strong>Peer_Group_Summary:</strong> metric-specific company counts, minimum, 25th percentile, median, 75th percentile and maximum multiples. The file contains 36 distinct peer-group labels.</p><p><strong>Exclusions_Review:</strong> excluded or borderline names and the original review notes.</p><p><strong>Read_Me and Sources:</strong> the original source description, dates, definitions, limitations and record references.</p>"
     },
     {
-      "heading": "Bring in permitted data and keep it traceable",
-      "html": "<p>Keep the original export separately. Paste values by field name into the amber input columns A:Y on Peer data, rows 10–309. The template has capacity for 300 company records. Rows beyond 309 are outside the calculations.</p><p>An authorized Capital IQ export can supply enterprise value, reported financials, dates, currency, ticker and business descriptions. Map those fields into the template rather than pasting the entire source sheet across calculated columns. Enter one stable record ID per company and preserve each row's rationale when refreshing. Duplicate record IDs are excluded from the statistics.</p><ul><li><strong>A:F:</strong> record identity, sector, peer group, company, exchange and ticker, and country.</li><li><strong>G:L:</strong> peer tier, use decision, basis review, rationale, business and revenue mix, and customer or platform exposure.</li><li><strong>M:P:</strong> common currency, market-data date, LTM period end, and NTM period end.</li><li><strong>Q:W:</strong> enterprise value, LTM revenue, reported LTM EBITDA, signed EBITDA adjustment, LTM EBIT, NTM revenue, and NTM EBITDA.</li><li><strong>X:Y:</strong> source, as-of date and definitions, plus the adjustment rationale.</li><li><strong>Z:AL:</strong> formulas for normalized EBITDA, margins, growth, multiples, eligibility, statistics inputs, and outlier review.</li></ul><p>Use data only within the rights granted by its source. Downloading this template does not grant rights to redistribute a provider's dataset. Nothing entered into the downloaded workbook is sent to this website.</p>"
+      "heading": "The 12 sectors",
+      "html": "<ol><li>Media &amp; Publishing</li><li>Marketing &amp; Advertising</li><li>Events &amp; Exhibitions</li><li>Software &amp; SaaS</li><li>IT Services &amp; Managed Services</li><li>Business &amp; Professional Services</li><li>Healthcare Services</li><li>Consumer Products &amp; Brands</li><li>Food &amp; Beverage</li><li>Retail &amp; Restaurants</li><li>Industrial &amp; Commercial Services</li><li>Distribution &amp; Logistics</li></ol>"
     },
     {
-      "heading": "Normalize before calculating the range",
-      "html": "<p>Use one valuation date, one currency and amounts in millions for each comparison. Confirm that the enterprise-value numerator and financial denominator use the same currency and a consistent accounting basis. Currency conversion alone does not reconcile business mix, leases, stock compensation or acquisition effects.</p><p>Use the actual financial period end, not a filing or earnings-release date. State the LTM and NTM definitions on Controls. Forward periods require review of the estimate horizon and the source's definition. The automated screen requires market dates to match the selected valuation date and forward periods to end after that date. It does not calendarize forecasts.</p><p>Normalized LTM EBITDA equals reported LTM EBITDA plus the signed adjustment. Enter an explicit zero when no adjustment is required. For a nonzero adjustment, document the amount, affected period, reason and source. Supply the other financial inputs on the reviewed common basis.</p><p>Enterprise value is a reviewed input. Reconcile it to common equity value plus net debt, preferred stock, minority interests and other claims, using the stated treatment of cash, investments and leases. This version does not reconstruct a provider's enterprise-value bridge.</p>"
+      "heading": "Read the snapshot on its stated basis",
+      "html": "<p>The workbook labels prices as of September 8, 2026 close, Quick Comps data as of September 9, and extraction on September 10. It is a dated snapshot, with stored values and summary statistics. Editing a company input does not recalculate the stored summaries, and the workbook does not refresh market data.</p><p>LTM and NTM coverage varies by company. Blank and NM entries remain as supplied. Some company IDs, fiscal-year ends and consensus estimates are missing. The source review notes may include earlier collection notes that were not subsequently reconciled.</p><p>Most rows are denominated in USD, with some profile-sourced GBP and CAD rows identified in the currency column. Confirm matching currencies, accounting definitions and financial periods before using a multiple. Currency-neutral ratios do not, by themselves, establish business comparability.</p><p>Preserve the distinction between reported and calculated multiples. The supplied workbook does not include the EPS inputs needed to independently reproduce its P/E figures. Its original source and usage notes remain in the download.</p>"
     },
     {
-      "heading": "Make inclusion a recorded decision",
-      "html": "<p>Assign each candidate a tier: Core, Secondary, Adjacent, Watchlist or Excluded. Core peers support the selected range. Secondary peers provide a broader reference. Adjacent, Watchlist and Excluded rows remain visible but do not enter the statistics.</p><p>For a row to enter the statistics, its sector and peer group must match the Controls selection, its record ID must be unique, and Use? and Basis reviewed? must both be Yes. Required identity, rationale, business description, exposure and source fields must be populated. The selected multiple must also be meaningful.</p><p>Review size, sustainable growth, margin, recurring revenue, concentration, geographic exposure and capital intensity before marking the basis reviewed. The formula can check required fields; the analyst establishes whether the underlying businesses and definitions are comparable.</p><p>Keep exclusions visible and specific. An inconvenient multiple is not, by itself, a reason to remove a company.</p>"
+      "heading": "Use the peer evidence in the deal decision",
+      "html": "<p>Start with business model, revenue mix, size, growth, margins, customer exposure and geography. Use the peer-group ranges as evidence for a valuation judgment, and explain why the target should sit above, below or within the observed range.</p><p>Use the <a href=\"/ma-resources/acquisition-mandate-target-screen\">Acquisition Mandate &amp; Target Screen</a> to confirm why the target belongs in the search. Keep buyer-created benefits separate using the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a>.</p><p>Carry the selected market reference into the <a href=\"/ma-resources/capital-allocation-deal-affordability\">Capital Allocation &amp; Deal Affordability Tool</a> and the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a>. A public trading range does not establish the buyer's affordable price or private walk-away ceiling.</p>"
     },
     {
-      "heading": "Read the multiples and outliers",
-      "html": "<p>The metric selector supports EV/LTM Revenue, EV/LTM EBITDA, EV/LTM EBIT, EV/NTM Revenue and EV/NTM EBITDA. The selected metric drives the valid-peer counts and quartiles. Missing inputs return blank. A nonpositive enterprise value or denominator returns NM and does not enter the statistics. P/E and sector-specific operating multiples are outside version 1.0.</p><p>The Dashboard shows Core statistics alongside all eligible peers, meaning Core plus Secondary. The 25th percentile, median and 75th percentile use Excel's inclusive quartile convention and require at least three valid observations. That minimum is a template rule, not evidence that three peers are sufficient for a valuation conclusion.</p><p>With at least five valid Core observations, the workbook flags multiples below Q1 minus 1.5 times the interquartile range or above Q3 plus 1.5 times that range. The flag prompts review. It never automatically excludes a peer or changes its rationale.</p>"
-    },
-    {
-      "heading": "Select a range the target can support",
-      "html": "<p>Enter a low and high multiple, the matching target financial metric, the target's signed net debt, other claims and diluted shares. Write the reason for the range and confirm the target basis. At least three eligible Core peers and complete target inputs are required before the valuation output appears.</p><p>Enterprise value equals the selected multiple times the matching target metric. Equity value subtracts signed net debt and other claims. Per-share value divides equity value by diluted shares. Enter zero explicitly where there is no net debt or other claim. A net cash position is negative net debt. Negative implied equity remains visible.</p><p>The quartiles are evidence for the decision. They do not automatically determine the selected range. Explain the target's size, growth, margin, revenue quality, liquidity and accounting differences before choosing a premium or discount. There is no automatic control premium, marketability discount or buyer-synergy addition.</p>"
-    },
-    {
-      "heading": "Carry the market reference into the deal decision",
-      "html": "<p>Use the <a href=\"/ma-resources/acquisition-mandate-target-screen\">Acquisition Mandate &amp; Target Screen</a> to confirm why the target belongs in the search. Use the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a> to assess buyer-created benefits separately.</p><p>Bring the reviewed market reference into the <a href=\"/ma-resources/capital-allocation-deal-affordability\">Capital Allocation &amp; Deal Affordability Tool</a> to test the buyer's funding and private price ceiling. Use the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a> to carry the chosen economics into the proposed terms.</p><p>A trading-comps range does not establish what a particular buyer can afford or what a seller will accept. Keep the market reference, the target's standalone economics, and buyer-specific value separately visible.</p>"
-    },
-    {
-      "heading": "Version and refresh",
-      "html": "<p>Version 1.0. Updated September 10, 2026. Four tabs: Dashboard, Controls, Peer data and Guide. Replace inputs and re-review dates, definitions, adjustments, peer choices and range rationale at each refresh. Keep Excel calculation set to Automatic. The template does not retrieve market data or refresh an export.</p>"
+      "heading": "Version",
+      "html": "<p>Version 1.1, September 10, 2026. Replaces the blank template with Claude's supplied 254-company workbook. Company figures and peer summaries are unchanged. The precedent M&amp;A tab was removed and the cover's peer-group count was corrected from 37 to 36.</p>"
     }
   ],
   "download": {
-    "filename": "MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
-    "repositoryPath": "public/resources/MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/a10eafcef6e045b4bc275073cf5053997ba92005/public/resources/MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
-    "version": "1.0",
-    "bytes": 119891,
-    "sha256": "54b31ceca2721933cf4b78242bd377b7b97658e5313965703343836f2f72a802",
+    "filename": "CapitalIQ-Public-Comps-12-Sectors.xlsx",
+    "url": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa237da499a6768b19b5e74_CapitalIQ-Public-Comps-12-Sectors.xlsx",
+    "version": "1.1",
+    "bytes": 158149,
+    "sha256": "f328be5a962ef87a4ed52d3d08f25016e7b17f239cb4175e8f2e9debc8b92cd6",
     "sheets": [
-      "Dashboard",
-      "Controls",
-      "Peer data",
-      "Guide"
+      "Read_Me",
+      "Trading_Comps",
+      "Peer_Group_Summary",
+      "Exclusions_Review",
+      "Sources"
     ],
     "downloadVerified": true,
-    "verifiedAt": "2026-09-10"
+    "verifiedAt": "2026-09-10",
+    "pricingDate": "2026-09-08",
+    "extractionDate": "2026-09-10",
+    "companyCount": 254,
+    "sectorCount": 12
   },
   "cmsStatus": "published",
   "contentReviewedAt": "2026-09-10",

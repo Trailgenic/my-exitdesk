@@ -1265,7 +1265,7 @@
       "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource",
       "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench",
       "name": "Public Company Comps Workbench",
-      "description": "Build public-company peer groups across 12 sectors, normalize EBITDA, review exclusions and outliers, and translate selected trading multiples into an implied valuation range.",
+      "description": "Review 254 public companies across 12 sectors, with Capital IQ financials, trading multiples, peer-group summary statistics and comparability notes.",
       "author": {
         "@id": "https://www.mikeye.com/#person"
       },
@@ -1280,9 +1280,9 @@
       "about": {
         "@id": "https://www.mikeye.com/m-and-a#industry-comps"
       },
-      "learningResourceType": "Public-company trading comps template with Excel workbook",
+      "learningResourceType": "Populated public-company trading comps workbook",
       "teaches": "Which public companies are genuinely comparable, and what valuation range does the reviewed peer evidence support?",
-      "version": "1.0",
+      "version": "1.1",
       "datePublished": "2026-09-10",
       "dateModified": "2026-09-10",
       "mainEntityOfPage": {
@@ -1291,10 +1291,10 @@
       "encoding": {
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#workbook",
-        "name": "MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/a10eafcef6e045b4bc275073cf5053997ba92005/public/resources/MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
+        "name": "CapitalIQ-Public-Comps-12-Sectors.xlsx",
+        "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa237da499a6768b19b5e74_CapitalIQ-Public-Comps-12-Sectors.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "119891 bytes"
+        "contentSize": "158149 bytes"
       },
       "keywords": [
         "public company comps",

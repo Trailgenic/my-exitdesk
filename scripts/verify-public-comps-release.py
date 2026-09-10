@@ -88,7 +88,7 @@ encoding = resource_node.get('encoding', {})
 check('MediaObject matches verified workbook',
       encoding.get('@type') == 'MediaObject'
       and encoding.get('contentUrl') == capital_record['download']['url']
-      and encoding.get('name') == capital_record['download']['url'].rsplit('/', 1)[-1]
+      and encoding.get('name') == capital_record['download']['filename']
       and encoding.get('encodingFormat') == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
       and ('contentSize' not in encoding or encoding['contentSize'] == str(capital_record['download']['bytes'])+' bytes'))
 check('Resource breadcrumbs include canonical guide',any(n.get('@type')=='BreadcrumbList' and any(x.get('item')==resource_url for x in n.get('itemListElement',[])) for n in resource_nodes))

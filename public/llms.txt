@@ -46,7 +46,7 @@ Mike Ye is an M&A and corporate development executive with 25 years of experienc
 
 - [Capital Allocation & Deal Affordability Tool](https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability): Compare buying, building, partnering, and doing nothing; test funding and downside constraints; and set the buyer's private hard price ceiling. Includes a formula-driven Excel download.
 
-- [Public Company Comps Workbench](https://www.mikeye.com/ma-resources/public-company-comps-workbench): Build public-company peer groups across 12 sectors, normalize EBITDA, review exclusions and outliers, and translate selected trading multiples into an implied valuation range. Includes a formula-driven Excel download.
+- [Public Company Comps Workbench](https://www.mikeye.com/ma-resources/public-company-comps-workbench): Review 254 public companies across 12 sectors, with Capital IQ financials, trading multiples, peer-group summary statistics and comparability notes. Includes the populated, dated Excel snapshot.
 
 ## Transaction path
 

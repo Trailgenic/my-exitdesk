@@ -10,6 +10,7 @@ const commit=process.argv[2];
 if(!/^[a-f0-9]{40}$/.test(commit||''))throw Error('Pass the verified workbook asset commit.');
 const published=process.argv.includes('--published');
 const book=read(`${ROOT}/editorial/${ID}.json`);
+if(book.version!=='1.0')throw Error('The blank-template release is superseded. Use the populated-comps publication workflow.');
 const filename='MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx';
 const repositoryPath='public/resources/'+filename;
 const bytes=fs.readFileSync(repositoryPath);

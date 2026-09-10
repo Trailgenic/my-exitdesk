@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1",
   "updated": "2026-09-10",
   "entity": {
     "id": "https://www.mikeye.com/#person",
@@ -655,9 +655,9 @@
       "type": "Tool",
       "topic": "industry-comps",
       "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench",
-      "summary": "Build public-company peer groups across 12 sectors, normalize EBITDA, review exclusions and outliers, and translate selected trading multiples into an implied valuation range.",
+      "summary": "Review 254 public companies across 12 sectors, with Capital IQ financials, trading multiples, peer-group summary statistics and comparability notes.",
       "decision": "Which public companies are genuinely comparable, and what valuation range does the reviewed peer evidence support?",
-      "version": "1.0",
+      "version": "1.1",
       "publicationDate": "2026-09-10",
       "status": "published",
       "relatedResources": [
@@ -673,20 +673,24 @@
         "decision-not-description"
       ],
       "download": {
-        "filename": "MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
-        "repositoryPath": "public/resources/MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/a10eafcef6e045b4bc275073cf5053997ba92005/public/resources/MikeYe-Public-Company-Comps-Workbench-v1.0.xlsx",
-        "version": "1.0",
-        "bytes": 119891,
-        "sha256": "54b31ceca2721933cf4b78242bd377b7b97658e5313965703343836f2f72a802",
+        "filename": "CapitalIQ-Public-Comps-12-Sectors.xlsx",
+        "url": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa237da499a6768b19b5e74_CapitalIQ-Public-Comps-12-Sectors.xlsx",
+        "version": "1.1",
+        "bytes": 158149,
+        "sha256": "f328be5a962ef87a4ed52d3d08f25016e7b17f239cb4175e8f2e9debc8b92cd6",
         "sheets": [
-          "Dashboard",
-          "Controls",
-          "Peer data",
-          "Guide"
+          "Read_Me",
+          "Trading_Comps",
+          "Peer_Group_Summary",
+          "Exclusions_Review",
+          "Sources"
         ],
         "downloadVerified": true,
-        "verifiedAt": "2026-09-10"
+        "verifiedAt": "2026-09-10",
+        "pricingDate": "2026-09-08",
+        "extractionDate": "2026-09-10",
+        "companyCount": 254,
+        "sectorCount": 12
       },
       "contentReviewedAt": "2026-09-10"
     }
