@@ -188,7 +188,7 @@
       "format": "Checklist",
       "topic": "corporate-development",
       "summary": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review.",
-      "decision": "What must happen—and who must decide—before the buyer commits more capital, time, or operating risk?",
+      "decision": "What must happen\u2014and who must decide\u2014before the buyer commits more capital, time, or operating risk?",
       "status": "published",
       "version": "1.0",
       "contentReviewedAt": "2026-09-09",
@@ -553,7 +553,7 @@
       "format": "Tool",
       "topic": "synergies",
       "summary": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
-      "decision": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
+      "decision": "What value can the buyer create, what will it cost, and how much\u2014if any\u2014should be reflected in the purchase price?",
       "version": "1.0",
       "updated": "2026-09-10",
       "status": "published",
@@ -663,7 +663,7 @@
       "format": "Tool",
       "topic": "corporate-development",
       "summary": "Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership.",
-      "decision": "Why buy instead of build, partner, or do nothing—and which targets satisfy the mandate?",
+      "decision": "Why buy instead of build, partner, or do nothing\u2014and which targets satisfy the mandate?",
       "version": "1.0",
       "updated": "2026-09-10",
       "status": "published",
@@ -899,7 +899,7 @@
       "parentId": "6a8efcb46686b1a4a8b26c76",
       "publishedPath": "/about/record",
       "seo": {
-        "description": "Selected archival mastheads and publication records documenting Mike Ye’s role as Vice President, Strategic Planning & Acquisitions at Penske Media Corporation across multiple publications and years.",
+        "description": "Selected archival mastheads and publication records documenting Mike Ye\u2019s role as Vice President, Strategic Planning & Acquisitions at Penske Media Corporation across multiple publications and years.",
         "title": "Contemporaneous Record | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -965,7 +965,7 @@
       "isBranch": false,
       "lastUpdated": "2026-08-17T20:02:01.642Z",
       "openGraph": {
-        "description": "Connect the client’s business-sale assumptions to the personal plan before the outcome is locked.",
+        "description": "Connect the client\u2019s business-sale assumptions to the personal plan before the outcome is locked.",
         "descriptionCopied": false,
         "imageAssetId": null,
         "imageUrl": null,
@@ -1015,7 +1015,7 @@
       "isBranch": false,
       "lastUpdated": "2026-08-17T20:02:32.140Z",
       "openGraph": {
-        "description": "The owner’s advisory team works best when roles, boundaries, and handoffs are explicit.",
+        "description": "The owner\u2019s advisory team works best when roles, boundaries, and handoffs are explicit.",
         "descriptionCopied": false,
         "imageAssetId": null,
         "imageUrl": null,
@@ -1044,17 +1044,17 @@
         "descriptionCopied": false,
         "imageAssetId": null,
         "imageUrl": null,
-        "title": "Someone Offered to Buy Your Business. Here’s What to Do Next.",
+        "title": "Someone Offered to Buy Your Business. Here\u2019s What to Do Next.",
         "titleCopied": false
       },
       "publishedPath": "/received-offer-to-buy-my-business",
       "seo": {
         "description": "A practical first-response guide for business owners who receive an unsolicited acquisition offer: protect leverage, assess the buyer, test price and terms, and prepare for diligence.",
-        "title": "I Received an Offer to Buy My Business—What Should I Do? | Exit Desk"
+        "title": "I Received an Offer to Buy My Business\u2014What Should I Do? | Exit Desk"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "received-offer-to-buy-my-business",
-      "title": "I Received an Offer to Buy My Business—What Should I Do?"
+      "title": "I Received an Offer to Buy My Business\u2014What Should I Do?"
     },
     {
       "archived": false,
@@ -1068,7 +1068,7 @@
         "description": "Your confidential buyer-side IC memo is being validated, underwritten, reasoned, and prepared for private delivery.",
         "imageAssetId": null,
         "imageUrl": null,
-        "title": "Acquisition Lens — Underwriting in Motion"
+        "title": "Acquisition Lens \u2014 Underwriting in Motion"
       },
       "publishedPath": "/success",
       "seo": {
@@ -1091,12 +1091,12 @@
         "description": "A structured buyer-side packet for acquisition underwriting and decision support.",
         "imageAssetId": null,
         "imageUrl": null,
-        "title": "Acquisition Lens — Confidential Buyer Intake"
+        "title": "Acquisition Lens \u2014 Confidential Buyer Intake"
       },
       "publishedPath": "/intake",
       "seo": {
         "description": "Provide the buyer mandate, target facts, proposed terms, evidence posture, and decision questions for a confidential Acquisition Lens IC memo.",
-        "title": "Acquisition Lens Paid Intake — Confidential Buyer Packet | Mike Ye"
+        "title": "Acquisition Lens Paid Intake \u2014 Confidential Buyer Packet | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "intake",
@@ -1114,12 +1114,12 @@
         "description": "Move from first-pass posture to a confidential buyer-side underwriting memorandum.",
         "imageAssetId": null,
         "imageUrl": null,
-        "title": "Acquisition Lens — Full Buyer-Side IC Memo"
+        "title": "Acquisition Lens \u2014 Full Buyer-Side IC Memo"
       },
       "publishedPath": "/checkout",
       "seo": {
         "description": "Purchase one confidential buyer-side Acquisition Lens IC memo covering standalone value, downside survivability, diligence priorities, and the next decision.",
-        "title": "Acquisition Lens Full IC Memo — Secure Checkout | Mike Ye"
+        "title": "Acquisition Lens Full IC Memo \u2014 Secure Checkout | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "checkout",
@@ -1138,7 +1138,7 @@
         "descriptionCopied": false,
         "imageAssetId": null,
         "imageUrl": null,
-        "title": "Acquisition Lens — Worth the Next Conversation?",
+        "title": "Acquisition Lens \u2014 Worth the Next Conversation?",
         "titleCopied": false
       },
       "publishedPath": "/screen",
@@ -1148,7 +1148,7 @@
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "screen",
-      "title": "Acquisition Lens — Free First Look"
+      "title": "Acquisition Lens \u2014 Free First Look"
     },
     {
       "archived": false,
@@ -1191,7 +1191,7 @@
       },
       "publishedPath": "/podcast",
       "seo": {
-        "description": "The Mike Ye Briefing is a short-form podcast on M&A, buyer behavior, founder readiness, and AI-era insight — helping owners and operators see clearly before consequence arrives.",
+        "description": "The Mike Ye Briefing is a short-form podcast on M&A, buyer behavior, founder readiness, and AI-era insight \u2014 helping owners and operators see clearly before consequence arrives.",
         "title": "The Mike Ye Briefing Podcast | M&A, Buyer Behavior & AI-Era Insight"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1239,7 +1239,7 @@
       "parentId": "697d0cc5d2dce96d1755c31d",
       "publishedPath": "/exit/valuation",
       "seo": {
-        "description": "Estimate a small business valuation range using revenue, earnings, industry, and buyer assumptions—then see the factors that could raise or reduce what buyers may pay.",
+        "description": "Estimate a small business valuation range using revenue, earnings, industry, and buyer assumptions\u2014then see the factors that could raise or reduce what buyers may pay.",
         "title": "Free Small Business Valuation Calculator | Exit Desk"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1263,8 +1263,8 @@
       "parentId": "69e1711c7271a60bf7bb3821",
       "publishedPath": "/exit/sample/fitwire-daily",
       "seo": {
-        "description": "A real Exit Desk report for a fictional digital trade media company — $1M–$3M revenue, 100,000 subscribers, founder-anchored brand, AI content exposure. See exactly what the $499 deliverable looks like.",
-        "title": "Exit Desk Sample Report — FitWire Daily | Digital Trade Media Exit Readiness"
+        "description": "A real Exit Desk report for a fictional digital trade media company \u2014 $1M\u2013$3M revenue, 100,000 subscribers, founder-anchored brand, AI content exposure. See exactly what the $499 deliverable looks like.",
+        "title": "Exit Desk Sample Report \u2014 FitWire Daily | Digital Trade Media Exit Readiness"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "fitwire-daily",
@@ -1286,8 +1286,8 @@
       },
       "publishedPath": "/glossary",
       "seo": {
-        "description": "M&A and exit-readiness vocabulary defined for small business owners — written from twenty-five years and $7.4B of buy-side and sell-side judgment. Every term includes the standard definition, what it means for the seller, and the buyer's lens.",
-        "title": "Exit Desk Glossary — M&A Terms for Small Business Sellers | Mike Ye"
+        "description": "M&A and exit-readiness vocabulary defined for small business owners \u2014 written from twenty-five years and $7.4B of buy-side and sell-side judgment. Every term includes the standard definition, what it means for the seller, and the buyer's lens.",
+        "title": "Exit Desk Glossary \u2014 M&A Terms for Small Business Sellers | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "glossary",
@@ -1311,7 +1311,7 @@
       "publishedPath": "/glossary",
       "seo": {
         "description": "{{wf {&quot;path&quot;:&quot;one-line-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}",
-        "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}— Exit Desk Glossary | Mike Ye"
+        "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}\u2014 Exit Desk Glossary | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "detail_glossary",
@@ -1334,7 +1334,7 @@
       "parentId": "697d0cc5d2dce96d1755c31d",
       "publishedPath": "/exit/story",
       "seo": {
-        "description": "The origin story of Exit Desk by Mike Ye — built from 25 years of institutional M&A experience to help first-time founders prepare for the most important transaction of their lives.",
+        "description": "The origin story of Exit Desk by Mike Ye \u2014 built from 25 years of institutional M&A experience to help first-time founders prepare for the most important transaction of their lives.",
         "title": "Why I Built Exit Desk | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1359,7 +1359,7 @@
       "publishedPath": "/exit/sample/apex-landscape",
       "seo": {
         "description": "A fictional Exit Desk report for a sub-$1M commercial landscape company in DFW. See the $499 deliverable for Main Street sellers and SBA buyers.",
-        "title": "Exit Desk Sample — Apex Landscape Group | Sub-$1M Main Street Report"
+        "title": "Exit Desk Sample \u2014 Apex Landscape Group | Sub-$1M Main Street Report"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "apex-landscape",
@@ -1384,8 +1384,8 @@
       "parentId": "697d0cc5d2dce96d1755c31d",
       "publishedPath": "/exit/partners",
       "seo": {
-        "description": "Business brokers, M&A advisors, CPAs, estate-planning attorneys, and wealth advisors: give owner-clients a buyer-lens readiness resource 1–5 years before a sale. $100 per converted client.",
-        "title": "Exit Desk Partner Program — $100 Per Converted Client"
+        "description": "Business brokers, M&A advisors, CPAs, estate-planning attorneys, and wealth advisors: give owner-clients a buyer-lens readiness resource 1\u20135 years before a sale. $100 per converted client.",
+        "title": "Exit Desk Partner Program \u2014 $100 Per Converted Client"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "partners",
@@ -1408,7 +1408,7 @@
       "parentId": "69e1419db393770e8b5fe592",
       "publishedPath": "/exit/articles/exit-readiness-checklist",
       "seo": {
-        "description": "The five dimensions every serious buyer evaluates — and the specific actions that move each one before you go to market. A practical pre-sale checklist from 25 years on the buy side.",
+        "description": "The five dimensions every serious buyer evaluates \u2014 and the specific actions that move each one before you go to market. A practical pre-sale checklist from 25 years on the buy side.",
         "title": "Exit Readiness Checklist for Small Business Owners | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1432,8 +1432,8 @@
       "parentId": "69e1711c7271a60bf7bb3821",
       "publishedPath": "/exit/sample/meridian-advisory",
       "seo": {
-        "description": "A real Exit Desk report for a fictional HR consulting firm — $3M–$7M revenue, Southeast US, improving margins, two senior consultants carrying the client base. See exactly what the $499 deliverable looks like.",
-        "title": "Exit Desk Sample Report — Meridian Advisory Group | Mike Ye"
+        "description": "A real Exit Desk report for a fictional HR consulting firm \u2014 $3M\u2013$7M revenue, Southeast US, improving margins, two senior consultants carrying the client base. See exactly what the $499 deliverable looks like.",
+        "title": "Exit Desk Sample Report \u2014 Meridian Advisory Group | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "meridian-advisory",
@@ -1456,8 +1456,8 @@
       "parentId": "69e1711c7271a60bf7bb3821",
       "publishedPath": "/exit/sample/pinnacle-hvac",
       "seo": {
-        "description": "A real Exit Desk report for a fictional HVAC company — $3M–$7M revenue, Phoenix market, 22 years operating, high founder dependency. See exactly what the $499 deliverable looks like.",
-        "title": "Exit Desk Sample Report — Pinnacle HVAC Services | Mike Ye"
+        "description": "A real Exit Desk report for a fictional HVAC company \u2014 $3M\u2013$7M revenue, Phoenix market, 22 years operating, high founder dependency. See exactly what the $499 deliverable looks like.",
+        "title": "Exit Desk Sample Report \u2014 Pinnacle HVAC Services | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "pinnacle-hvac",
@@ -1504,7 +1504,7 @@
       "parentId": "69e1419db393770e8b5fe592",
       "publishedPath": "/exit/articles/ai-impact-on-business-valuation",
       "seo": {
-        "description": "Buyers are already pricing AI exposure into every acquisition in every industry. Here is what that means for your business specifically — and whether it is working for you or against you.",
+        "description": "Buyers are already pricing AI exposure into every acquisition in every industry. Here is what that means for your business specifically \u2014 and whether it is working for you or against you.",
         "title": "How AI Is Affecting Small Business Valuation | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1552,7 +1552,7 @@
       "parentId": "69e1419db393770e8b5fe592",
       "publishedPath": "/exit/articles/how-buyers-evaluate-revenue-quality",
       "seo": {
-        "description": "Two businesses with identical revenue can have dramatically different valuations. Here is exactly how a buyer reads your revenue structure — and what the difference means for your multiple.",
+        "description": "Two businesses with identical revenue can have dramatically different valuations. Here is exactly how a buyer reads your revenue structure \u2014 and what the difference means for your multiple.",
         "title": "How Buyers Evaluate Revenue Quality in Small Businesses | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1576,7 +1576,7 @@
       "parentId": "69e1419db393770e8b5fe592",
       "publishedPath": "/exit/articles/when-to-sell-your-business",
       "seo": {
-        "description": "Selling too early costs you. Waiting too long costs you more. The framework for knowing which side of the line you're on — and what actually changes the calculus.",
+        "description": "Selling too early costs you. Waiting too long costs you more. The framework for knowing which side of the line you're on \u2014 and what actually changes the calculus.",
         "title": "When Is the Right Time to Sell Your Business | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1600,7 +1600,7 @@
       "parentId": "69e1419db393770e8b5fe592",
       "publishedPath": "/exit/articles/business-valuation-multiples-explained",
       "seo": {
-        "description": "What multiples actually mean, how they are calculated, why the same business trades at different multiples with different buyers — and what you can do to move yours before going to market.",
+        "description": "What multiples actually mean, how they are calculated, why the same business trades at different multiples with different buyers \u2014 and what you can do to move yours before going to market.",
         "title": "Business Valuation Multiples Explained | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1624,7 +1624,7 @@
       "parentId": "69e1419db393770e8b5fe592",
       "publishedPath": "/exit/articles/founder-dependence-kills-deals",
       "seo": {
-        "description": "The single most common reason small business deals fall apart or reprice in the $1M–$20M range — and the specific steps that fix it before you walk into any process.",
+        "description": "The single most common reason small business deals fall apart or reprice in the $1M\u2013$20M range \u2014 and the specific steps that fix it before you walk into any process.",
         "title": "Founder Dependence Kills Deals | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1648,7 +1648,7 @@
       "parentId": "69e1419db393770e8b5fe592",
       "publishedPath": "/exit/articles/what-buyers-actually-look-for",
       "seo": {
-        "description": "Not what brokers tell you. What institutional and strategic buyers actually evaluate when they look at a business in the $1M–$20M range — and what makes them walk away before the first offer.",
+        "description": "Not what brokers tell you. What institutional and strategic buyers actually evaluate when they look at a business in the $1M\u2013$20M range \u2014 and what makes them walk away before the first offer.",
         "title": "What Buyers Actually Look For in a Small Business | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1696,7 +1696,7 @@
       "parentId": "69e1419db393770e8b5fe592",
       "publishedPath": "/exit/articles/sourcing-journal-case-study",
       "seo": {
-        "description": "How a founder-built trade publication sold from a position of strength — and what the hardest part of the deal had nothing to do with the buyer. A case study in founder clarity, partner alignment, and knowing the ceiling of your market.",
+        "description": "How a founder-built trade publication sold from a position of strength \u2014 and what the hardest part of the deal had nothing to do with the buyer. A case study in founder clarity, partner alignment, and knowing the ceiling of your market.",
         "title": "Sourcing Journal: What the Buyer Was Looking For That the Founder Already Knew | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1736,7 +1736,7 @@
       "isBranch": false,
       "lastUpdated": "2026-08-17T20:07:17.517Z",
       "openGraph": {
-        "description": "What buyers actually look for. Where deals get complicated. Case studies and frameworks from 25 years on the buy side — built for owners thinking about selling.",
+        "description": "What buyers actually look for. Where deals get complicated. Case studies and frameworks from 25 years on the buy side \u2014 built for owners thinking about selling.",
         "descriptionCopied": false,
         "imageAssetId": null,
         "imageUrl": null,
@@ -1770,8 +1770,8 @@
       "parentId": "697d0cc5d2dce96d1755c31d",
       "publishedPath": "/exit/desk",
       "seo": {
-        "description": "Complete your Buyer-Lens Audit™ intake. Your responses drive the depth and specificity of your buyer-lens analysis. Delivered in 24 hours.",
-        "title": "Buyer-Lens Audit™ — Full Intake | Exit Desk"
+        "description": "Complete your Buyer-Lens Audit\u2122 intake. Your responses drive the depth and specificity of your buyer-lens analysis. Delivered in 24 hours.",
+        "title": "Buyer-Lens Audit\u2122 \u2014 Full Intake | Exit Desk"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "desk",
@@ -1794,8 +1794,8 @@
       "parentId": "697d0cc5d2dce96d1755c31d",
       "publishedPath": "/exit/success",
       "seo": {
-        "description": "Your Buyer-Lens Audit™ is being prepared and will be delivered to your inbox within 24 hours. Here's what to expect.",
-        "title": "Your Buyer-Lens Audit™ Is Being Prepared | Exit Desk"
+        "description": "Your Buyer-Lens Audit\u2122 is being prepared and will be delivered to your inbox within 24 hours. Here's what to expect.",
+        "title": "Your Buyer-Lens Audit\u2122 Is Being Prepared | Exit Desk"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "success",
@@ -1817,7 +1817,7 @@
       },
       "publishedPath": "/exit",
       "seo": {
-        "description": "See your business through a buyer’s eyes before you sell. Exit Desk delivers a buyer-lens exit-readiness analysis with indicative valuation scenarios, risks, and next actions.",
+        "description": "See your business through a buyer\u2019s eyes before you sell. Exit Desk delivers a buyer-lens exit-readiness analysis with indicative valuation scenarios, risks, and next actions.",
         "title": "Exit Readiness Audit for Small Business Owners | Exit Desk"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1841,8 +1841,8 @@
       "parentId": "697d0cc5d2dce96d1755c31d",
       "publishedPath": "/exit/checkout",
       "seo": {
-        "description": "One-time payment, no subscription. Buyer-Lens Audit™ delivered to your inbox in 24 hours. $199 for businesses under $1M revenue, $499 for $1M+. Calibrated to scale.",
-        "title": "Get Your Buyer-Lens Audit™ Report — from $199 | Exit Desk"
+        "description": "One-time payment, no subscription. Buyer-Lens Audit\u2122 delivered to your inbox in 24 hours. $199 for businesses under $1M revenue, $499 for $1M+. Calibrated to scale.",
+        "title": "Get Your Buyer-Lens Audit\u2122 Report \u2014 from $199 | Exit Desk"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "checkout",
@@ -1865,8 +1865,8 @@
       "parentId": "697d0cc5d2dce96d1755c31d",
       "publishedPath": "/exit/score",
       "seo": {
-        "description": "Answer 8 questions and get your scored exit readiness in 90 seconds. Free diagnostic from 25 years and $7.4B of M&A judgment. Optional Buyer-Lens Audit™ from $199.",
-        "title": "Free Exit Readiness Assessment — Know Where You Stand | Mike Ye"
+        "description": "Answer 8 questions and get your scored exit readiness in 90 seconds. Free diagnostic from 25 years and $7.4B of M&A judgment. Optional Buyer-Lens Audit\u2122 from $199.",
+        "title": "Free Exit Readiness Assessment \u2014 Know Where You Stand | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "score",
@@ -1885,13 +1885,13 @@
         "descriptionCopied": false,
         "imageAssetId": "69c5c110700b43ddb283e090",
         "imageUrl": null,
-        "title": "About Mike Ye — M&A Executive & Corporate Development Leader",
+        "title": "About Mike Ye \u2014 M&A Executive & Corporate Development Leader",
         "titleCopied": false
       },
       "publishedPath": "/about",
       "seo": {
         "description": "Mike Ye is an M&A and corporate development executive with 25+ years leading acquisitions, divestitures, and portfolio strategy at Penske Media Corporation, L Brands, and Intel Capital. Creator of Exit Desk. Founder of exmxc.ai. ",
-        "title": "About Mike Ye — M&A Executive | 25+ Years in Acquisitions & Divestitures"
+        "title": "About Mike Ye \u2014 M&A Executive | 25+ Years in Acquisitions & Divestitures"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "slug": "about",
@@ -1915,7 +1915,7 @@
       },
       "publishedPath": "/ella",
       "seo": {
-        "description": "Ella is Mike Ye’s co-cognitive longitudinal intelligence entity. Her flagship authority is longevity and human adaptation through the TrailGenic Method.",
+        "description": "Ella is Mike Ye\u2019s co-cognitive longitudinal intelligence entity. Her flagship authority is longevity and human adaptation through the TrailGenic Method.",
         "title": "Ella | Co-Cognitive Longitudinal Intelligence | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -1939,7 +1939,7 @@
       "parentId": "69654946b6df1b33027f5383",
       "publishedPath": "/intelligence/scarcity-vs-growth",
       "seo": {
-        "description": "Traditional growth metrics miss the most important driver of enterprise value: scarcity. Mike Ye explains how capacity constraints shaped his acquisitions of Billboard, SXSW, and New Year’s Rockin’ Eve—and how he applies the same Scarcity vs Growth lens to allocate capital in AI infrastructure leaders like NVIDIA, TSMC, Micron, and SK Hynix.",
+        "description": "Traditional growth metrics miss the most important driver of enterprise value: scarcity. Mike Ye explains how capacity constraints shaped his acquisitions of Billboard, SXSW, and New Year\u2019s Rockin\u2019 Eve\u2014and how he applies the same Scarcity vs Growth lens to allocate capital in AI infrastructure leaders like NVIDIA, TSMC, Micron, and SK Hynix.",
         "title": "Scarcity vs Growth: How I Allocate Capital Using Capacity Constraints | Mike Ye"
       },
       "siteId": "69499e76d9c11f22288abc28",
@@ -2081,8 +2081,8 @@
       },
       "publishedPath": "/",
       "seo": {
-        "description": "Mike Ye — 25 years on the buy side of $500K to $2B+ deals at Penske Media, Surgical Care Affiliates, L Brands, Intel Capital. Creator of Exit Desk.",
-        "title": "Mike Ye — M&A Executive · 25 Years on the Buy Side · 75+ Deals"
+        "description": "Mike Ye \u2014 25 years on the buy side of $500K to $2B+ deals at Penske Media, Surgical Care Affiliates, L Brands, Intel Capital. Creator of Exit Desk.",
+        "title": "Mike Ye \u2014 M&A Executive \u00b7 25 Years on the Buy Side \u00b7 75+ Deals"
       },
       "siteId": "69499e76d9c11f22288abc28",
       "title": "Mike Ye"
@@ -2095,7 +2095,7 @@
   "careerEvidence": {
     "selectedDeals": {
       "url": "https://www.mikeye.com/about",
-      "label": "View Mike’s deal list"
+      "label": "View Mike\u2019s deal list"
     },
     "pmcMastheads": {
       "url": "https://www.mikeye.com/about/record",
@@ -2105,12 +2105,15 @@
   },
   "publication": {
     "date": "2026-09-10",
-    "status": "published-live-verification-in-progress",
+    "status": "published-live-verified",
     "domains": [
       "www.mikeye.com",
       "mikeye.com"
     ],
-    "audit": "site-foundation/public-comps-release/production-audit.json"
+    "audit": "site-foundation/public-comps-release/production-audit.json",
+    "verifiedAt": "2026-09-10T04:42:30.254486+00:00",
+    "passedChecks": 120,
+    "failedChecks": 0
   },
   "transactionPath": {
     "version": "1.0",
@@ -2124,7 +2127,7 @@
         "decision": "Why acquire instead of build, partner, or do nothing?",
         "evidence": "A defined business need, capital envelope, risk limits, executive sponsor, and decision authority.",
         "judgment": "Frame before detail. The target must serve the mandate.",
-        "gates": "Gate 0 · Mandate approved",
+        "gates": "Gate 0 \u00b7 Mandate approved",
         "resource": "Acquisition Mandate & Target Screen",
         "url": "/ma-resources/acquisition-mandate-target-screen"
       },
@@ -2134,7 +2137,7 @@
         "decision": "What must be true, and which targets fit and can actually be bought?",
         "evidence": "Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test.",
         "judgment": "Underwrite rather than admire. Strategic appeal does not establish transactability.",
-        "gates": "Gates 1–2 · Thesis and target approved",
+        "gates": "Gates 1\u20132 \u00b7 Thesis and target approved",
         "resource": "Acquisition Mandate & Target Screen",
         "url": "/ma-resources/acquisition-mandate-target-screen"
       },
@@ -2144,7 +2147,7 @@
         "decision": "Do access, standalone economics, financing, and downside support a bid?",
         "evidence": "Minimum information package, reconstructed financials, valuation range, financing case, and private price ceiling.",
         "judgment": "Replicate the financials. Keep buyer-created synergy separate from standalone value.",
-        "gates": "Gates 3–4 · Access and economics approved",
+        "gates": "Gates 3\u20134 \u00b7 Access and economics approved",
         "resource": "Valuation models and working tools",
         "url": "/tools-and-models"
       },
@@ -2154,7 +2157,7 @@
         "decision": "Are core terms clear, and can the team test the conditions behind the thesis?",
         "evidence": "Approved LOI, evidence requests, workflow tests, accountable workstream owners, and a live issue log.",
         "judgment": "Unknowns are findings. Give each material issue a consequence: Investigate, Price, Protect, or Walk.",
-        "gates": "Gates 5–6 · Exclusivity approved and diligence launched",
+        "gates": "Gates 5\u20136 \u00b7 Exclusivity approved and diligence launched",
         "resource": "LOI Economics & Risk Allocator",
         "url": "/ma-resources/loi-economics-risk-allocator"
       },
@@ -2164,7 +2167,7 @@
         "decision": "Does the deal still work on the facts and terms now in front of the buyer?",
         "evidence": "Revised valuation and synergy case, combined downside, final economics, protections, closing conditions, and integration owners.",
         "judgment": "Re-establish the price ceiling before signing. Prior spending does not justify the next commitment.",
-        "gates": "Gates 7–8 · Re-underwriting and signing approved",
+        "gates": "Gates 7\u20138 \u00b7 Re-underwriting and signing approved",
         "resource": "Synergy Underwriting & Value Bridge",
         "url": "/ma-resources/synergy-underwriting-value-bridge"
       },
@@ -2174,7 +2177,7 @@
         "decision": "Can funds and control transfer while the business keeps working?",
         "evidence": "Funds flow, required consents and clearances, closing checklist, and customer, cash, people, and system readiness.",
         "judgment": "Protect revenue while integrating cost. Do not confuse signing with operating readiness.",
-        "gates": "Gates 9–10 · Closing approved and Day 1 stable",
+        "gates": "Gates 9\u201310 \u00b7 Closing approved and Day 1 stable",
         "resource": "After the Deal: Keep the Business Working",
         "url": "/ma-resources/after-the-deal-keep-the-business-working"
       },
@@ -2184,7 +2187,7 @@
         "decision": "Has the buyer delivered the underwritten value, and what should change next time?",
         "evidence": "30/60/100-day reviews, realized cash benefits and costs, workflow decisions, revised forecasts, and residual action owners.",
         "judgment": "Compare results with the original thesis. A synergy belongs in the results only when the operating work delivers it.",
-        "gates": "Gates 11–12 · Value delivery confirmed and program closed",
+        "gates": "Gates 11\u201312 \u00b7 Value delivery confirmed and program closed",
         "resource": "Synergy Underwriting & Value Bridge",
         "url": "/ma-resources/synergy-underwriting-value-bridge"
       }
