@@ -1824,12 +1824,14 @@
   },
   "publication": {
     "date": "2026-09-10",
-    "status": "published-live-verification-in-progress",
+    "status": "published-and-verified",
     "domains": [
       "www.mikeye.com",
       "mikeye.com"
     ],
-    "audit": "site-foundation/synergy-release/production-audit.json"
+    "audit": "site-foundation/synergy-release/production-audit.json",
+    "verifiedAt": "2026-09-10T00:54:06.791480+00:00",
+    "checksPassed": 82
   },
   "transactionPath": {
     "version": "1.0",
