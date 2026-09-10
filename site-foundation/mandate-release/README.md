@@ -51,3 +51,7 @@ Desktop Excel and a separate mobile browser viewport are unavailable. Workbook c
 ## Workbook release
 
 Final workbook: 86,183 bytes; SHA-256 `76a89f6d0d40419817f5124b45c26651b8836d5e028bda6bb7cb471c1296b7ea`. Pinned asset commit: `00d7d6fd497644cadf65fa347c8420da058fffca`. All 59 focused calculation and workflow checks passed with no formula-error matches. Every sheet was rendered and visually reviewed. Two native filter tables and frozen panes were verified in the exported file. No macros or external workbook links exist. Full-record reordering was checked in the calculation engine; native Excel UI sorting was unavailable. The discovery worker passed 80 smoke checks.
+
+## Final live verification
+
+Published to `www.mikeye.com`, `mikeye.com`, and staging. All 105 live release checks passed at 2026-09-10T02:54:31.029209+00:00. The audit confirms 17 resources, eleven workbook downloads with matching pinned hashes, seven preserved transaction stages, ten knowledge pillars, reciprocal guide links, valid canonical URLs and JSON-LD, resolved resource list references, sitemap inclusion, synchronized Vercel/MCP inventories, and live MCP access. Main content commit: `fee54dd95f6e3db736d7ea8efe9b52d83357dbdc`; worker commit: `63d361f5cd52263065a7706533648c1815a0c7c8`. Both deployments succeeded.

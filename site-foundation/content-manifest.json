@@ -1938,12 +1938,14 @@
   },
   "publication": {
     "date": "2026-09-10",
-    "status": "published-live-verification-in-progress",
+    "status": "published-and-verified",
     "domains": [
       "www.mikeye.com",
       "mikeye.com"
     ],
-    "audit": "site-foundation/mandate-release/production-audit.json"
+    "audit": "site-foundation/mandate-release/production-audit.json",
+    "verifiedAt": "2026-09-10T02:54:31.029209+00:00",
+    "checksPassed": 105
   },
   "transactionPath": {
     "version": "1.0",
