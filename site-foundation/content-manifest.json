@@ -1880,12 +1880,15 @@
   },
   "publication": {
     "date": "2026-09-10",
-    "status": "published-live-verification-in-progress",
+    "status": "published-and-verified",
     "domains": [
       "www.mikeye.com",
       "mikeye.com"
     ],
-    "audit": "site-foundation/loi-release/production-audit.json"
+    "audit": "site-foundation/loi-release/production-audit.json",
+    "verifiedAt": "2026-09-10T02:04:13.691580+00:00",
+    "checksPassed": 93,
+    "templateMediaChecksPassed": 16
   },
   "transactionPath": {
     "version": "1.0",

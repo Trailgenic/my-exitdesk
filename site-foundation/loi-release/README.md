@@ -20,6 +20,8 @@ Current canonical sources:
 
 The release generator requires the verified workbook asset commit. It preserves existing resources and updates the resource inventory, ontology, machine guide, native page schemas, reciprocal editorial links, and roadmap. Do not run older broad launch generators without adapting them to the latest manifest.
 
+The shared resource template now binds `MediaObject` to three dedicated CMS fields: `schema-media-url`, `schema-media-name`, and `schema-media-format`. Populate them on every new resource and when changing its download. Workbook resources use the pinned file URL, exact filename, and XLSX MIME type; other resources use the canonical HTML URL, title, and `text/html`. `resource-template-media.json` records field IDs, all sixteen values, and the native schema. The original template is preserved in `resource-template-schema-before.json`. Optional workbook byte sizes remain in the full per-item schema, page inventories, and ontology; the shared template omits size because HTML representations do not have a fixed file size. The CMS `structured-data-json` field is a full record for reuse; Webflow does not render that field automatically as page schema.
+
 ## Workbook
 
 The six tabs are Dashboard, Assumptions, Economics, Contingencies, Conditions, and Guide. The first pass is designed for 10–15 minutes. A single Base/Downside selector controls active assumptions and contingent-payment inputs. The template supports six contingent-payment slots and fourteen condition slots.
@@ -53,3 +55,7 @@ Desktop Excel was unavailable; calculation checks used artifact-tool. Native pag
 - Workbook size: 47,265 bytes
 
 The governing content came from Mike’s saved acquisition doctrine, reasoning system, and locked roadmap. A separate raw interview transcript was not available; no new interview quotations or transaction facts were invented.
+
+## Final live audit
+
+Published to both production domains and staging. All 93 release checks passed, including all ten pinned workbook download hashes and synchronized Vercel/MCP discovery. A focused follow-up confirmed correct native MediaObject metadata on all sixteen affected CMS pages (16/16 on staging and 16/16 on production). Audit timestamps and the scope of the follow-up are recorded in `production-audit.json`; the per-page results are in `media-audit-production.json`.

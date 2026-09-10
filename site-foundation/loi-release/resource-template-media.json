@@ -1,0 +1,245 @@
+{
+  "collectionId": "6a9f1683bfb97f3c671ae853",
+  "templatePageId": "6a9f1684bfb97f3c671ae859",
+  "fields": [
+    {
+      "id": "f296b921d07a58e738f1522529bbae63",
+      "slug": "schema-media-url",
+      "type": "Link"
+    },
+    {
+      "id": "2b400e297bd033ff143c3522402a1431",
+      "slug": "schema-media-name",
+      "type": "PlainText"
+    },
+    {
+      "id": "0087d641c735df06ac15573fc1b4b6f4",
+      "slug": "schema-media-format",
+      "type": "PlainText"
+    }
+  ],
+  "items": [
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx"
+      },
+      "id": "6aa2095323a4984befe0ccef",
+      "slug": "loi-economics-risk-allocator"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx"
+      },
+      "id": "6aa1fa5ccae8df99de4384f1",
+      "slug": "synergy-underwriting-value-bridge"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx"
+      },
+      "id": "6aa1f03acc577a948c9c5169",
+      "slug": "ma-deal-workflow-checklist"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
+      },
+      "id": "6a9f3f2c598f07756d56ea73",
+      "slug": "nvidia-ai-infrastructure-valuation-model"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
+      },
+      "id": "6a9f3af084946e9b265e5826",
+      "slug": "surgery-partners-healthcare-valuation-model"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
+      },
+      "id": "6a9f3af084946e9b265e5824",
+      "slug": "ziff-davis-media-valuation-model"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx"
+      },
+      "id": "6a9f3af084946e9b265e5822",
+      "slug": "salesforce-software-valuation-model"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
+      },
+      "id": "6a9f3af084946e9b265e5820",
+      "slug": "gap-retail-valuation-model"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx"
+      },
+      "id": "6a9f2af7de5d336681b4b4d0",
+      "slug": "after-the-deal-keep-the-business-working"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "schema-media-name": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+        "schema-media-url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx"
+      },
+      "id": "6a9f2af7de5d336681b4b4ce",
+      "slug": "before-you-buy-follow-the-work"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "text/html",
+        "schema-media-name": "Exit readiness checklist",
+        "schema-media-url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist"
+      },
+      "id": "6a9f194e9421799357ab09bf",
+      "slug": "exit-readiness-checklist"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "text/html",
+        "schema-media-name": "Long Beach Outpatient Surgery",
+        "schema-media-url": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study"
+      },
+      "id": "6a9f194e9421799357ab09bd",
+      "slug": "long-beach-surgical-case-study"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "text/html",
+        "schema-media-name": "Sourcing Journal",
+        "schema-media-url": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study"
+      },
+      "id": "6a9f194e9421799357ab09bb",
+      "slug": "sourcing-journal-case-study"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "text/html",
+        "schema-media-name": "BuzzAngle Music",
+        "schema-media-url": "https://www.mikeye.com/exit/articles/buzzangle-case-study"
+      },
+      "id": "6a9f194e9421799357ab09b9",
+      "slug": "buzzangle-case-study"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "text/html",
+        "schema-media-name": "The five decision frames",
+        "schema-media-url": "https://www.mikeye.com/intelligence"
+      },
+      "id": "6a9f194e9421799357ab09b7",
+      "slug": "decision-frames"
+    },
+    {
+      "fieldData": {
+        "schema-media-format": "text/html",
+        "schema-media-name": "Business valuation scenarios",
+        "schema-media-url": "https://www.mikeye.com/exit/valuation"
+      },
+      "id": "6a9f194e9421799357ab09b5",
+      "slug": "exit-valuation"
+    }
+  ],
+  "jsonLdSchema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#webpage",
+        "@type": "WebPage",
+        "breadcrumb": {
+          "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#breadcrumbs"
+        },
+        "description": "{{wf {&quot;path&quot;:&quot;summary&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+        "isPartOf": {
+          "@id": "https://www.mikeye.com/#website"
+        },
+        "mainEntity": {
+          "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#resource"
+        },
+        "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+        "url": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}"
+      },
+      {
+        "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#resource",
+        "@type": [
+          "CreativeWork",
+          "LearningResource"
+        ],
+        "author": {
+          "@id": "https://www.mikeye.com/#person"
+        },
+        "description": "{{wf {&quot;path&quot;:&quot;summary&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+        "encoding": {
+          "@type": "MediaObject",
+          "contentUrl": "{{wf {&quot;path&quot;:&quot;schema-media-url&quot;,&quot;type&quot;:&quot;Link&quot;} }}",
+          "encodingFormat": "{{wf {&quot;path&quot;:&quot;schema-media-format&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+          "name": "{{wf {&quot;path&quot;:&quot;schema-media-name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}"
+        },
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "isPartOf": {
+          "@id": "https://www.mikeye.com/m-and-a#library"
+        },
+        "learningResourceType": "Practical M&A guide",
+        "mainEntityOfPage": {
+          "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#webpage"
+        },
+        "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+        "publisher": {
+          "@id": "https://www.mikeye.com/#person"
+        },
+        "teaches": "{{wf {&quot;path&quot;:&quot;decision-answered&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+        "url": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+        "version": "{{wf {&quot;path&quot;:&quot;version&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}"
+      },
+      {
+        "@id": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}#breadcrumbs",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "item": "https://www.mikeye.com/",
+            "name": "Home",
+            "position": 1
+          },
+          {
+            "@type": "ListItem",
+            "item": "https://www.mikeye.com/m-and-a",
+            "name": "M&A Library",
+            "position": 2
+          },
+          {
+            "@type": "ListItem",
+            "item": "https://www.mikeye.com/ma-resources/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+            "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+            "position": 3
+          }
+        ]
+      }
+    ]
+  }
+}

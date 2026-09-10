@@ -1,0 +1,168 @@
+{
+  "verifiedAt": "2026-09-10T02:03:34.027667+00:00",
+  "host": "https://mike-ye.webflow.io",
+  "checks": [
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/loi-economics-risk-allocator",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/synergy-underwriting-value-bridge",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/ma-deal-workflow-checklist",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/nvidia-ai-infrastructure-valuation-model",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/surgery-partners-healthcare-valuation-model",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/ziff-davis-media-valuation-model",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/salesforce-software-valuation-model",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "Salesforce_CRM_Valuation_Model-v1.2.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/gap-retail-valuation-model",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/after-the-deal-keep-the-business-working",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/before-you-buy-follow-the-work",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/exit-readiness-checklist",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
+        "encodingFormat": "text/html",
+        "name": "Exit readiness checklist"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/long-beach-surgical-case-study",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study",
+        "encodingFormat": "text/html",
+        "name": "Long Beach Outpatient Surgery"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/sourcing-journal-case-study",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study",
+        "encodingFormat": "text/html",
+        "name": "Sourcing Journal"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/buzzangle-case-study",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://www.mikeye.com/exit/articles/buzzangle-case-study",
+        "encodingFormat": "text/html",
+        "name": "BuzzAngle Music"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/decision-frames",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://www.mikeye.com/intelligence",
+        "encodingFormat": "text/html",
+        "name": "The five decision frames"
+      }
+    },
+    {
+      "url": "https://mike-ye.webflow.io/ma-resources/exit-valuation",
+      "passed": true,
+      "media": {
+        "@type": "MediaObject",
+        "contentUrl": "https://www.mikeye.com/exit/valuation",
+        "encodingFormat": "text/html",
+        "name": "Business valuation scenarios"
+      }
+    }
+  ],
+  "passed": 16,
+  "failed": 0
+}

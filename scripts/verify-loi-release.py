@@ -57,6 +57,28 @@ for rid in ['deal-workflow','workflow-diligence','integration-continuity','syner
 visible = html.unescape(re.sub('<[^>]+>',' ',re.sub(r'<script\b.*?</script>','',resource_html,flags=re.S)))
 check('No public production notes',not re.search(r'AI.generated|unvalidated|source register|editorial.review|source IDs',visible,re.I))
 check('Methodology workbook link',inventory['resources'][next(i for i,r in enumerate(inventory['resources']) if r['id']=='loi-economics-risk-allocator')]['download']['url'] in resource_html)
+def graph_nodes(markup):
+    result=[]
+    for raw in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',markup,re.S):
+        obj=json.loads(raw);result.extend(obj.get('@graph',[obj]))
+    return result
+resource_nodes=graph_nodes(resource_html)
+resource_node=next((n for n in resource_nodes if n.get('@id')==resource_url+'#resource'),{})
+loi_record=next(r for r in inventory['resources'] if r['id']=='loi-economics-risk-allocator')
+check('Resource is CreativeWork and LearningResource',all(t in resource_node.get('@type',[]) for t in ['CreativeWork','LearningResource']))
+encoding = resource_node.get('encoding', {})
+check('MediaObject matches verified workbook',
+      encoding.get('@type') == 'MediaObject'
+      and encoding.get('contentUrl') == loi_record['download']['url']
+      and encoding.get('name') == loi_record['download']['url'].rsplit('/', 1)[-1]
+      and encoding.get('encodingFormat') == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+      and ('contentSize' not in encoding or encoding['contentSize'] == str(loi_record['download']['bytes'])+' bytes'))
+check('Resource breadcrumbs include canonical guide',any(n.get('@type')=='BreadcrumbList' and any(x.get('item')==resource_url for x in n.get('itemListElement',[])) for n in resource_nodes))
+for url,suffix,count in [('https://www.mikeye.com/m-and-a','#resources',16),('https://www.mikeye.com/tools-and-models','#tools',11)]:
+    nodes=graph_nodes(by_url[url]['body'].decode());node=next((n for n in nodes if n.get('@id')==url+suffix),{})
+    check('Resource ItemList count: '+url,node.get('numberOfItems')==count and len(node.get('itemListElement',[]))==count)
+stage_block=library_html.split('id="stage-loi-diligence"',1)[-1].split('id="stage-',1)[0]
+check('Native LOI stage links economics guide','id="stage-loi-diligence"' in library_html and '/ma-resources/loi-economics-risk-allocator' in stage_block)
 
 books = [r for r in inventory['resources'] if r.get('download')]
 with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
