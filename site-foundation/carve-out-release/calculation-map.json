@@ -1,0 +1,136 @@
+{
+  "tabs": [
+    "Dashboard",
+    "Workflows",
+    "Perimeter",
+    "Dependencies",
+    "TSA",
+    "Costs",
+    "Guide"
+  ],
+  "units": "USD thousands",
+  "controls": [
+    [
+      "Business",
+      "Assumption: workflow business"
+    ],
+    [
+      "Review date",
+      "2026-09-10T00:00:00.000Z"
+    ],
+    [
+      "Closing / Day 1 date",
+      "2026-10-01T00:00:00.000Z"
+    ],
+    [
+      "Currency and scale",
+      "USD thousands"
+    ],
+    [
+      "Scope reviewed?",
+      "No"
+    ],
+    [
+      "Scope review owner",
+      null
+    ],
+    [
+      "Scope review record",
+      null
+    ],
+    [
+      "Scope review date",
+      null
+    ],
+    [
+      "Current plan revision",
+      1
+    ]
+  ],
+  "guide": [
+    [
+      "First 10–15 minutes",
+      "Set the business, fixed review date and closing date on Dashboard. Name the critical workflows, then map the assets, dependencies and temporary seller services needed to keep them running. Leave incomplete evidence open."
+    ],
+    [
+      "Perimeter",
+      "Record legal entities, people, contracts, customers, vendors, systems, data, IP, facilities, shared services and critical workflows. An Included label alone does not establish transfer rights. Shared and Excluded items may still create dependencies."
+    ],
+    [
+      "Workflow coverage",
+      "Each active workflow needs a positive expected count of required dependency links and a dated completeness review. Count all required components before marking the map complete. Counts detect missing or extra rows, but cannot identify an omitted real-world dependency by themselves."
+    ],
+    [
+      "Stable identifiers",
+      "Use unique workflow, perimeter, dependency, service and cost IDs. Dependencies join one workflow to one perimeter record and optionally one TSA. The same TSA may serve several assets or workflows. Keep only one workflow–perimeter pair. Split a perimeter item into distinct assets when separate dependencies need separate tests."
+    ],
+    [
+      "Continuity routes",
+      "Owned requires a Confirmed, Included perimeter asset. TSA requires confirmed rights and an evidenced service available on Day 1. Replace requires confirmed rights or a documented non-required consent and a tested replacement. Unresolved always stays open."
+    ],
+    [
+      "Day 1 readiness",
+      "A workflow is Day 1 ready only after scope and mapping review, all required dependencies, named ownership and a dated evidenced end-to-end test. A Passed label without Verified evidence does not qualify. Optional dependencies remain visible for judgment but do not enter the expected required count."
+    ],
+    [
+      "TSA terms and economics",
+      "Specify scope and service level, provider, both owners, fixed monthly fee, positive whole-month term, start, notice days and exit milestone. Contract end is EDATE(start, months) minus one day. Full monthly fee applies for each contract month. Zero fee is allowed explicitly. This estimate excludes variable fees, taxes, escalation, extensions and early-termination rights."
+    ],
+    [
+      "TSA dates",
+      "A service must cover the closing date, including both boundaries. Notice deadline is contract end less calendar notice days. Planned exit after contract end is flagged. A passed notice deadline calls for review, not an assumed extension. Enter actual negotiated dates in the agreement and reconcile this month-based planning convention before relying on it."
+    ],
+    [
+      "TSA exit",
+      "Exit evidenced requires a separately passed, evidenced replacement test dated between service start and contract end, on or before the review date. Record acceptance against the exit milestone and confirm operational handoff. A Day 1 service test or elapsed term never proves independence. Planned exit does not reduce full-term fees."
+    ],
+    [
+      "Costs and overlap",
+      "Buyer standalone and seller stranded are gross annual run rates. Buyer and seller separation are one-time estimates. TSA fees are counted only from the service table. Do not sum annual and one-time outputs. Identify each economic scope once, review overlap manually and avoid re-entering TSA fees as separation cost. Duplicate labels within the same type and bearer are rejected; differently worded economic duplicates require review."
+    ],
+    [
+      "Evidence and assumptions",
+      "All fictional examples are Assumption. Replace them with actual records and change the evidence label only after checking the entire row. Verified requires a reference and a valid date. Future dates remain open. "
+    ],
+    [
+      "Revisions and reattestation",
+      "Increment Dashboard D14 after material scope, closing date, dependency, service, cost or acceptance-test changes. Reassess affected rows, record their reviewed revision and renew the scope review in D15. Changes do not increment revision automatically. A revision mismatch reopens evidence-based readiness."
+    ],
+    [
+      "Action discipline",
+      "Named owners, next actions and due dates support follow-up. A due date alone is not a completion test. Use filters to review open records, compare dates with the fixed review date and update actions after testing."
+    ],
+    [
+      "Capacity and sorting",
+      "10 workflows, 22 perimeter assets, 40 dependency links, 10 TSA services and 20 costs. Use the reserved rows and full-table sorts, keeping all input columns together. Formulas use bounded ranges; extending beyond these rows requires extending formulas, validations, tables and Dashboard references."
+    ],
+    [
+      "Cost interpretation",
+      "Entered subtotals include structurally valid Assumption estimates. Invalid rows are excluded and counted; missing real-world costs are not inferred. These views are not purchase-price adjustments, standalone EBITDA, a cash calendar or a full deal model."
+    ],
+    [
+      "Decision at closing",
+      "Critical workflows ready is a planning conclusion for the documented scope. Review open noncritical dependencies, contractual conditions, economics and the separation risks before deciding. Keep legal closing approvals and the operating go/no-go record outside this checklist."
+    ]
+  ],
+  "capacity": {
+    "workflows": 10,
+    "perimeter": 22,
+    "dependencies": 40,
+    "tsa": 10,
+    "costs": 20
+  },
+  "dashboard": {
+    "scope": "D16",
+    "day1": "G8",
+    "exit": "G11",
+    "costs": "D20:D26"
+  },
+  "statusColumns": {
+    "Workflows": "V",
+    "Perimeter": "R",
+    "Dependencies": "U",
+    "TSA": "AE / E21:E30",
+    "Costs": "P:R"
+  }
+}

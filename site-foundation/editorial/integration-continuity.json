@@ -72,6 +72,10 @@
     {
       "heading": "Make the structure visible before committing",
       "html": "<p>Use the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a> to separate seller consideration from closing funding, test stock and contingent payments, and give unresolved financing, approval, consent, and exclusivity conditions an owner.</p>"
+    },
+    {
+      "heading": "Define the separation before relying on it",
+      "html": "<p>Use the <a href=\"/ma-resources/carve-out-perimeter-tsa-planner\">Carve-Out Perimeter &amp; TSA Planner</a> to define what transfers, map seller dependencies, separate Day 1 continuity from independent operations, and give temporary services a priced scope, owner, and exit plan.</p>"
     }
   ],
   "sourceNotes": "",
@@ -94,6 +98,7 @@
   },
   "relatedResources": [
     "synergy-value-bridge",
-    "loi-economics-risk-allocator"
+    "loi-economics-risk-allocator",
+    "carve-out-perimeter-tsa-planner"
   ]
 }

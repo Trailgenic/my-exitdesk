@@ -74,6 +74,10 @@
     {
       "heading": "Keep the mandate visible as the facts change",
       "html": "<p>Use the <a href=\"/ma-resources/acquisition-mandate-target-screen\">Acquisition Mandate &amp; Target Screen</a> to record why buying serves the business need, compare alternatives, and preserve the requirements, evidence, and pass rationale behind the target shortlist. Revisit the mandate when diligence changes what the buyer would actually obtain.</p>"
+    },
+    {
+      "heading": "Define the separation before relying on it",
+      "html": "<p>Use the <a href=\"/ma-resources/carve-out-perimeter-tsa-planner\">Carve-Out Perimeter &amp; TSA Planner</a> to define what transfers, map seller dependencies, separate Day 1 continuity from independent operations, and give temporary services a priced scope, owner, and exit plan.</p>"
     }
   ],
   "sourceNotes": "",
@@ -95,6 +99,7 @@
   "relatedResources": [
     "synergy-value-bridge",
     "loi-economics-risk-allocator",
-    "acquisition-mandate-target-screen"
+    "acquisition-mandate-target-screen",
+    "carve-out-perimeter-tsa-planner"
   ]
 }

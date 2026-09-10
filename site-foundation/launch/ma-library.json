@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "updated": "2026-09-10",
   "entity": {
     "id": "https://www.mikeye.com/#person",
@@ -218,7 +218,8 @@
       "relatedResources": [
         "synergy-value-bridge",
         "loi-economics-risk-allocator",
-        "acquisition-mandate-target-screen"
+        "acquisition-mandate-target-screen",
+        "carve-out-perimeter-tsa-planner"
       ]
     },
     {
@@ -250,7 +251,8 @@
       "relatedResources": [
         "synergy-value-bridge",
         "loi-economics-risk-allocator",
-        "acquisition-mandate-target-screen"
+        "acquisition-mandate-target-screen",
+        "carve-out-perimeter-tsa-planner"
       ]
     },
     {
@@ -283,7 +285,8 @@
       },
       "relatedResources": [
         "synergy-value-bridge",
-        "loi-economics-risk-allocator"
+        "loi-economics-risk-allocator",
+        "carve-out-perimeter-tsa-planner"
       ]
     },
     {
@@ -302,7 +305,8 @@
         "workflow-diligence",
         "integration-continuity",
         "loi-economics-risk-allocator",
-        "acquisition-mandate-target-screen"
+        "acquisition-mandate-target-screen",
+        "carve-out-perimeter-tsa-planner"
       ],
       "sourcePrinciples": [
         "buyer-keeps-synergy",
@@ -458,7 +462,8 @@
         "workflow-diligence",
         "synergy-value-bridge",
         "integration-continuity",
-        "acquisition-mandate-target-screen"
+        "acquisition-mandate-target-screen",
+        "carve-out-perimeter-tsa-planner"
       ],
       "sourcePrinciples": [
         "loi-fixes-core-economics",
@@ -531,6 +536,54 @@
           "Routes",
           "Targets",
           "Screen",
+          "Guide"
+        ],
+        "downloadVerified": true,
+        "verifiedAt": "2026-09-10"
+      },
+      "contentReviewedAt": "2026-09-10"
+    },
+    {
+      "id": "carve-out-perimeter-tsa-planner",
+      "name": "Carve-Out Perimeter & TSA Planner",
+      "type": "Tool",
+      "topic": "divestitures",
+      "url": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner",
+      "summary": "Define what transfers, map seller dependencies, plan temporary services and their exit, and separate Day 1 readiness from independent operations.",
+      "decision": "What is being sold, what remains entangled, and how will the business operate independently?",
+      "version": "1.0",
+      "publicationDate": "2026-09-10",
+      "status": "published",
+      "relatedResources": [
+        "deal-workflow",
+        "workflow-diligence",
+        "integration-continuity",
+        "loi-economics-risk-allocator",
+        "synergy-value-bridge"
+      ],
+      "sourcePrinciples": [
+        "frame-before-detail",
+        "transferability",
+        "unknowns-are-findings",
+        "veto-versus-compounding-risk",
+        "protect-revenue-integrate-cost",
+        "buyer-keeps-synergy",
+        "decision-not-description"
+      ],
+      "download": {
+        "filename": "MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+        "repositoryPath": "public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/18d505122f8b4ebb69e974f3056a41ec80e56b0b/public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+        "version": "1.0",
+        "bytes": 74465,
+        "sha256": "ac112844a858a5e81b1211702e3b87c76d05981b7a2c554d2f60da26f80269d7",
+        "sheets": [
+          "Dashboard",
+          "Workflows",
+          "Perimeter",
+          "Dependencies",
+          "TSA",
+          "Costs",
           "Guide"
         ],
         "downloadVerified": true,

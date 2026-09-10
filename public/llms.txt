@@ -12,7 +12,7 @@ Mike Ye is an M&A and corporate development executive with 25 years of experienc
 ## Start here
 
 - [M&A Library](https://www.mikeye.com/m-and-a): Seven ordered transaction stages, ten M&A knowledge pillars, and practical resources.
-- [Tools & Models](https://www.mikeye.com/tools-and-models): Five Excel valuation models, a 156-action end-to-end deal workflow, a 112-item M&A due diligence checklist, a 104-action post-deal integration checklist, a Synergy Underwriting & Value Bridge tool, an LOI Economics & Risk Allocator, an Acquisition Mandate & Target Screen, and the existing valuation calculator.
+- [Tools & Models](https://www.mikeye.com/tools-and-models): Five Excel valuation models, a 156-action end-to-end deal workflow, a 112-item M&A due diligence checklist, a 104-action post-deal integration checklist, a Synergy Underwriting & Value Bridge tool, an LOI Economics & Risk Allocator, an Acquisition Mandate & Target Screen, a Carve-Out Perimeter & TSA Planner, and the existing valuation calculator.
 - [About Mike](https://www.mikeye.com/about): Experience and selected transactions.
 - [PMC masthead records](https://www.mikeye.com/about/record): Evidence of title and tenure at Penske Media; these records are not a list of Mike's deals.
 - [Decision Frameworks](https://www.mikeye.com/intelligence): Mike's judgment frameworks.
@@ -41,6 +41,8 @@ Mike Ye is an M&A and corporate development executive with 25 years of experienc
 - [LOI Economics & Risk Allocator](https://www.mikeye.com/ma-resources/loi-economics-risk-allocator): See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal. Includes a formula-driven Excel download.
 
 - [Acquisition Mandate & Target Screen](https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen): Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership. Includes a formula-driven Excel download.
+
+- [Carve-Out Perimeter & TSA Planner](https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner): Define what transfers, map seller dependencies, plan temporary services and their exit, and separate Day 1 readiness from independent operations. Includes a formula-driven Excel download.
 
 ## Transaction path
 

@@ -568,6 +568,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
         }
       ]
     },
@@ -627,6 +630,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
         }
       ]
     },
@@ -683,6 +689,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
         }
       ]
     },
@@ -949,6 +958,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
         }
       ]
     },
@@ -1015,6 +1027,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
         }
       ]
     },
@@ -1078,6 +1093,72 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource",
+      "url": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner",
+      "name": "Carve-Out Perimeter & TSA Planner",
+      "description": "Define what transfers, map seller dependencies, plan temporary services and their exit, and separate Day 1 readiness from independent operations.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": {
+        "@id": "https://www.mikeye.com/m-and-a#divestitures"
+      },
+      "learningResourceType": "Carve-out perimeter, TSA, and operating readiness tool with Excel workbook",
+      "teaches": "What is being sold, what remains entangled, and how will the business operate independently?",
+      "version": "1.0",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "mainEntityOfPage": {
+        "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#webpage"
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#workbook",
+        "name": "MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/18d505122f8b4ebb69e974f3056a41ec80e56b0b/public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "74465 bytes"
+      },
+      "keywords": [
+        "carve-out perimeter",
+        "transition services agreement",
+        "TSA exit",
+        "Day 1 readiness",
+        "standalone costs",
+        "stranded costs",
+        "separation costs"
+      ],
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
         }
       ]
     }

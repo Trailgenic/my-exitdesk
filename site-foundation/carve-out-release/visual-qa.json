@@ -1,0 +1,10 @@
+{
+  "status": "Reviewed",
+  "workbook": "All seven tabs visually reviewed across 16 rendered regions; Dashboard and TSA exit view also reviewed by parent.",
+  "staging": "Native guide hero, method text and Tools card reviewed in browser; single h1, no horizontal overflow.",
+  "production": "Production guide opened in browser; hero, download link and cost-method section inspected. One h1, no horizontal overflow.",
+  "limitations": [
+    "Desktop Excel unavailable; calculations use artifact-tool.",
+    "Separate mobile viewport unavailable; existing responsive native template and card styles reused."
+  ]
+}
