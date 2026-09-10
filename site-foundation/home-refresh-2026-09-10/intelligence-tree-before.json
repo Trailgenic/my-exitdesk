@@ -1,0 +1,2274 @@
+{
+  "id": {
+    "component": "695c62c51156ff276af84a69",
+    "element": "695c62c51156ff276af84a6f"
+  },
+  "type": "Body",
+  "children": [
+    {
+      "id": {
+        "component": "695c62c51156ff276af84a69",
+        "element": "282388d4-b4b8-470b-09a3-29557ab42402"
+      },
+      "type": "Block",
+      "styleNames": [
+        "my1-root"
+      ],
+      "settings": {
+        "tag": "div",
+        "visibility": true,
+        "block": {
+          "tag": "div"
+        }
+      },
+      "children": [
+        {
+          "id": {
+            "component": "695c62c51156ff276af84a69",
+            "element": "282388d4-b4b8-470b-09a3-29557ab42370"
+          },
+          "type": "Block",
+          "styleNames": [
+            "my1-header"
+          ],
+          "settings": {
+            "tag": "header",
+            "visibility": true,
+            "block": {
+              "tag": "header"
+            }
+          },
+          "children": [
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab42362"
+              },
+              "type": "Link",
+              "styleNames": [
+                "my1-brand"
+              ],
+              "attributes": {
+                "href": "/"
+              },
+              "settings": {
+                "visibility": true,
+                "link": {
+                  "linkType": "url",
+                  "href": "/"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab4235d"
+                  },
+                  "type": "String",
+                  "textContent": "Mike Ye"
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42361"
+                  },
+                  "type": "Span",
+                  "styleNames": [
+                    "my1-brand-note"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4235e"
+                      },
+                      "type": "String",
+                      "textContent": "M"
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4235f"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42360"
+                      },
+                      "type": "String",
+                      "textContent": "A · Corporate Development · Strategic Finance"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab4236f"
+              },
+              "type": "Block",
+              "styleNames": [
+                "my1-nav"
+              ],
+              "attributes": {
+                "aria-label": "Primary"
+              },
+              "settings": {
+                "tag": "nav",
+                "visibility": true,
+                "block": {
+                  "tag": "nav"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42366"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "attributes": {
+                    "href": "/m-and-a"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/m-and-a"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42363"
+                      },
+                      "type": "String",
+                      "textContent": "M"
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42364"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42365"
+                      },
+                      "type": "String",
+                      "textContent": "A Library"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab4236a"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "attributes": {
+                    "href": "/tools-and-models"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/tools-and-models"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42367"
+                      },
+                      "type": "String",
+                      "textContent": "Tools "
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42368"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42369"
+                      },
+                      "type": "String",
+                      "textContent": " Models"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab4236c"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "attributes": {
+                    "href": "/about"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/about"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4236b"
+                      },
+                      "type": "String",
+                      "textContent": "About Mike"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab4236e"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "attributes": {
+                    "href": "/#products"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/#products"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4236d"
+                      },
+                      "type": "String",
+                      "textContent": "Applied Products"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": {
+            "component": "695c62c51156ff276af84a69",
+            "element": "282388d4-b4b8-470b-09a3-29557ab42401"
+          },
+          "type": "Block",
+          "styleNames": [
+            "mi2-root"
+          ],
+          "attributes": {
+            "id": "main-content"
+          },
+          "settings": {
+            "tag": "main",
+            "visibility": true,
+            "block": {
+              "tag": "main"
+            }
+          },
+          "children": [
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab42379"
+              },
+              "type": "Block",
+              "styleNames": [
+                "mi2-masthead"
+              ],
+              "settings": {
+                "tag": "div",
+                "visibility": true,
+                "block": {
+                  "tag": "div"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42372"
+                  },
+                  "type": "Block",
+                  "styleNames": [
+                    "mi2-label"
+                  ],
+                  "settings": {
+                    "tag": "div",
+                    "visibility": true,
+                    "block": {
+                      "tag": "div"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42371"
+                      },
+                      "type": "String",
+                      "textContent": "Intelligence · Decision Frameworks"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42376"
+                  },
+                  "type": "Heading",
+                  "styleNames": [
+                    "mi2-name"
+                  ],
+                  "settings": {
+                    "tag": "h1",
+                    "visibility": true,
+                    "headingLevel": 1
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42373"
+                      },
+                      "type": "String",
+                      "textContent": "M"
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42374"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42375"
+                      },
+                      "type": "String",
+                      "textContent": "A Decision Frameworks"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42378"
+                  },
+                  "type": "Paragraph",
+                  "styleNames": [
+                    "mi2-tagline"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42377"
+                      },
+                      "type": "String",
+                      "textContent": "How Mike Ye thinks about capital, risk, and exits — institutional judgment expressed as reusable structure."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab4237e"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "mi2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab4237a"
+                  },
+                  "type": "String",
+                  "textContent": "Twenty-five years and "
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab4237c"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4237b"
+                      },
+                      "type": "String",
+                      "textContent": "$7.4 billion in cumulative transaction value"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab4237d"
+                  },
+                  "type": "String",
+                  "textContent": " across 75+ acquisitions, divestitures, and portfolio exits in media, healthcare services, retail, and technology — including Rolling Stone, Billboard, SXSW Festival, the Golden Globes, and the Express divestiture at L Brands. The frameworks below are how that judgment is structured."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab42382"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "mi2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab4237f"
+                  },
+                  "type": "String",
+                  "textContent": "Decisions cannot be reduced to answers. They must be expressed as frames. These five appear repeatedly across every serious domain — M"
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42380"
+                  },
+                  "type": "String",
+                  "textContent": "&"
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42381"
+                  },
+                  "type": "String",
+                  "textContent": "A, capital allocation, competitive strategy, and exit planning. They are stable, reusable, and intentionally constrained."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab42384"
+              },
+              "type": "Heading",
+              "styleNames": [
+                "mi2-section-heading"
+              ],
+              "settings": {
+                "tag": "h2",
+                "visibility": true,
+                "headingLevel": 2
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42383"
+                  },
+                  "type": "String",
+                  "textContent": "The Five Frames"
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab423a8"
+              },
+              "type": "Block",
+              "styleNames": [
+                "mi2-frames"
+              ],
+              "settings": {
+                "tag": "div",
+                "visibility": true,
+                "block": {
+                  "tag": "div"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab4238b"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-frame-card"
+                  ],
+                  "attributes": {
+                    "href": "/intelligence/judgment-as-a-service"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/intelligence/judgment-as-a-service"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42386"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-frame-tag"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab42385"
+                          },
+                          "type": "String",
+                          "textContent": "Root Frame"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42388"
+                      },
+                      "type": "Heading",
+                      "styleNames": [
+                        "mi2-frame-title"
+                      ],
+                      "settings": {
+                        "tag": "h3",
+                        "visibility": true,
+                        "headingLevel": 3
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab42387"
+                          },
+                          "type": "String",
+                          "textContent": "Judgment-as-a-Service"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4238a"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-frame-summary"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab42389"
+                          },
+                          "type": "String",
+                          "textContent": "The structured externalization of how decisions are made when consequences are real. The advantage is knowing what to ignore, when to wait, and when to act."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42392"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-frame-card"
+                  ],
+                  "attributes": {
+                    "href": "/intelligence/dependency-vs-leverage"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/intelligence/dependency-vs-leverage"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4238d"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-frame-tag"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab4238c"
+                          },
+                          "type": "String",
+                          "textContent": "Sub-Frame · Structural"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4238f"
+                      },
+                      "type": "Heading",
+                      "styleNames": [
+                        "mi2-frame-title"
+                      ],
+                      "settings": {
+                        "tag": "h3",
+                        "visibility": true,
+                        "headingLevel": 3
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab4238e"
+                          },
+                          "type": "String",
+                          "textContent": "Dependency vs. Leverage"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42391"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-frame-summary"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab42390"
+                          },
+                          "type": "String",
+                          "textContent": "Who actually owns the downside? Evaluates whether outcomes are bounded leverage or asymmetric dependence on systems that can change unilaterally."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab42399"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-frame-card"
+                  ],
+                  "attributes": {
+                    "href": "/intelligence/timing-asymmetry"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/intelligence/timing-asymmetry"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42394"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-frame-tag"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab42393"
+                          },
+                          "type": "String",
+                          "textContent": "Sub-Frame · Temporal"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42396"
+                      },
+                      "type": "Heading",
+                      "styleNames": [
+                        "mi2-frame-title"
+                      ],
+                      "settings": {
+                        "tag": "h3",
+                        "visibility": true,
+                        "headingLevel": 3
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab42395"
+                          },
+                          "type": "String",
+                          "textContent": "Timing Asymmetry"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab42398"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-frame-summary"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab42397"
+                          },
+                          "type": "String",
+                          "textContent": "When does acting early create advantage, and when does waiting create leverage? Premature action often locks in disadvantage; patience can let asymmetry compound quietly."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423a0"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-frame-card"
+                  ],
+                  "attributes": {
+                    "href": "/intelligence/signal-vs-narrative"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/intelligence/signal-vs-narrative"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4239b"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-frame-tag"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab4239a"
+                          },
+                          "type": "String",
+                          "textContent": "Sub-Frame · Epistemic"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4239d"
+                      },
+                      "type": "Heading",
+                      "styleNames": [
+                        "mi2-frame-title"
+                      ],
+                      "settings": {
+                        "tag": "h3",
+                        "visibility": true,
+                        "headingLevel": 3
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab4239c"
+                          },
+                          "type": "String",
+                          "textContent": "Signal vs. Narrative"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab4239f"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-frame-summary"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab4239e"
+                          },
+                          "type": "String",
+                          "textContent": "What information reflects underlying reality, and what exists primarily to persuade? Narratives often intensify precisely when signal is weak."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423a7"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-frame-card"
+                  ],
+                  "attributes": {
+                    "href": "/intelligence/scarcity-vs-growth"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/intelligence/scarcity-vs-growth"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423a2"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-frame-tag"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423a1"
+                          },
+                          "type": "String",
+                          "textContent": "Sub-Frame · Allocative"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423a4"
+                      },
+                      "type": "Heading",
+                      "styleNames": [
+                        "mi2-frame-title"
+                      ],
+                      "settings": {
+                        "tag": "h3",
+                        "visibility": true,
+                        "headingLevel": 3
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423a3"
+                          },
+                          "type": "String",
+                          "textContent": "Scarcity vs. Growth"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423a6"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-frame-summary"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423a5"
+                          },
+                          "type": "String",
+                          "textContent": "Capital allocation grounded in capacity constraints. Growth reflects activity. Scarcity reflects control. Control determines outcomes."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab423aa"
+              },
+              "type": "Heading",
+              "styleNames": [
+                "mi2-section-heading"
+              ],
+              "settings": {
+                "tag": "h2",
+                "visibility": true,
+                "headingLevel": 2
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423a9"
+                  },
+                  "type": "String",
+                  "textContent": "Doctrine Applied — Real Transactions"
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab423ac"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "mi2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423ab"
+                  },
+                  "type": "String",
+                  "textContent": "These aren't theoretical. Each frame has been applied to real transactions — from both sides of the table."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab423c2"
+              },
+              "type": "Block",
+              "styleNames": [
+                "mi2-cases"
+              ],
+              "settings": {
+                "tag": "div",
+                "visibility": true,
+                "block": {
+                  "tag": "div"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423b3"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-case-card"
+                  ],
+                  "attributes": {
+                    "href": "/exit/articles/buzzangle-case-study"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/exit/articles/buzzangle-case-study"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423ae"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-case-frame"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423ad"
+                          },
+                          "type": "String",
+                          "textContent": "Timing Asymmetry · Strategic Wedge"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423b0"
+                      },
+                      "type": "Heading",
+                      "styleNames": [
+                        "mi2-case-title"
+                      ],
+                      "settings": {
+                        "tag": "h3",
+                        "visibility": true,
+                        "headingLevel": 3
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423af"
+                          },
+                          "type": "String",
+                          "textContent": "BuzzAngle Music"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423b2"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-case-thesis"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423b1"
+                          },
+                          "type": "String",
+                          "textContent": "Evaluated not as a standalone business, but as a strategic instrument that, combined with Rolling Stone's editorial authority, could challenge Billboard's chart dominance. The wedge contributed to the eventual Billboard acquisition."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423ba"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-case-card"
+                  ],
+                  "attributes": {
+                    "href": "/exit/articles/sourcing-journal-case-study"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/exit/articles/sourcing-journal-case-study"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423b5"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-case-frame"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423b4"
+                          },
+                          "type": "String",
+                          "textContent": "Timing Asymmetry · Capability Acquisition"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423b7"
+                      },
+                      "type": "Heading",
+                      "styleNames": [
+                        "mi2-case-title"
+                      ],
+                      "settings": {
+                        "tag": "h3",
+                        "visibility": true,
+                        "headingLevel": 3
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423b6"
+                          },
+                          "type": "String",
+                          "textContent": "Sourcing Journal"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423b9"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-case-thesis"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423b8"
+                          },
+                          "type": "String",
+                          "textContent": "Not a content play. A capability acquisition timed before the supply chain conversation reached mainstream visibility. Eight years of supply chain authority bought before consensus priced it."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423c1"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-case-card"
+                  ],
+                  "attributes": {
+                    "href": "/exit/articles/long-beach-surgical-case-study"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/exit/articles/long-beach-surgical-case-study"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423bc"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-case-frame"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423bb"
+                          },
+                          "type": "String",
+                          "textContent": "Dependency vs. Leverage · Conversion"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423be"
+                      },
+                      "type": "Heading",
+                      "styleNames": [
+                        "mi2-case-title"
+                      ],
+                      "settings": {
+                        "tag": "h3",
+                        "visibility": true,
+                        "headingLevel": 3
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423bd"
+                          },
+                          "type": "String",
+                          "textContent": "Long Beach Outpatient Surgery"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423c0"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-case-thesis"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423bf"
+                          },
+                          "type": "String",
+                          "textContent": "A single-specialty surgery center dependent on one referral pattern was restructured into a multi-specialty facility with diversified physician equity — converting a dependency-shaped asset into a leverage-shaped one before the eventual SCA Health affiliation and Optum acquisition."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab423c4"
+              },
+              "type": "Heading",
+              "styleNames": [
+                "mi2-section-heading"
+              ],
+              "settings": {
+                "tag": "h2",
+                "visibility": true,
+                "headingLevel": 2
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423c3"
+                  },
+                  "type": "String",
+                  "textContent": "Doctrine Productized — Exit Desk"
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab423c6"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "mi2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423c5"
+                  },
+                  "type": "String",
+                  "textContent": "The same buyer-lens discipline behind $7.4B in cumulative institutional transactions, productized for Main Street founders preparing to sell. Two tiers, calibrated to where you are in the process."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab423d9"
+              },
+              "type": "Block",
+              "styleNames": [
+                "mi2-offers"
+              ],
+              "settings": {
+                "tag": "div",
+                "visibility": true,
+                "block": {
+                  "tag": "div"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423cf"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-offer-row"
+                  ],
+                  "attributes": {
+                    "href": "/exit/score"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/exit/score"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423cc"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-offer-top"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423c8"
+                          },
+                          "type": "Span",
+                          "styleNames": [
+                            "mi2-offer-name"
+                          ],
+                          "settings": {
+                            "visibility": true
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423c7"
+                              },
+                              "type": "String",
+                              "textContent": "Exit Desk Score"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423c9"
+                          },
+                          "type": "String",
+                          "textContent": " "
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423cb"
+                          },
+                          "type": "Span",
+                          "styleNames": [
+                            "mi2-offer-price"
+                          ],
+                          "settings": {
+                            "visibility": true
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423ca"
+                              },
+                              "type": "String",
+                              "textContent": "Free · 2 minutes"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423ce"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-offer-desc"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423cd"
+                          },
+                          "type": "String",
+                          "textContent": "An 8-question diagnostic that scores your readiness across the dimensions buyers actually evaluate. No payment, no signup friction."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423d8"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-offer-row"
+                  ],
+                  "attributes": {
+                    "href": "/exit"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/exit"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423d5"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-offer-top"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423d1"
+                          },
+                          "type": "Span",
+                          "styleNames": [
+                            "mi2-offer-name"
+                          ],
+                          "settings": {
+                            "visibility": true
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423d0"
+                              },
+                              "type": "String",
+                              "textContent": "Buyer-Lens Audit™"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423d2"
+                          },
+                          "type": "String",
+                          "textContent": " "
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423d4"
+                          },
+                          "type": "Span",
+                          "styleNames": [
+                            "mi2-offer-price"
+                          ],
+                          "settings": {
+                            "visibility": true
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423d3"
+                              },
+                              "type": "String",
+                              "textContent": "From $199 · 24 hours"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423d7"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "mi2-offer-desc"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423d6"
+                          },
+                          "type": "String",
+                          "textContent": "Full buyer-lens exit readiness analysis calibrated to your scale. Buyer-lens positioning memo, diligence pressure map, AI exposure assessment, and ranked pre-market action plan. $199 Main Street Edition for businesses under $1M revenue, $499 Full Report for $1M+."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab423e1"
+              },
+              "type": "Block",
+              "styleNames": [
+                "mi2-cta-block"
+              ],
+              "settings": {
+                "tag": "div",
+                "visibility": true,
+                "block": {
+                  "tag": "div"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423de"
+                  },
+                  "type": "Paragraph",
+                  "styleNames": [
+                    "mi2-cta-text"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423db"
+                      },
+                      "type": "Strong",
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423da"
+                          },
+                          "type": "String",
+                          "textContent": "Want to see what a buyer would think about your business?"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423dc"
+                      },
+                      "type": "",
+                      "settings": {
+                        "visibility": true
+                      }
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423dd"
+                      },
+                      "type": "String",
+                      "textContent": "Start with the free Exit Score. Two minutes, no payment, immediate result."
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423e0"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "mi2-cta-link"
+                  ],
+                  "attributes": {
+                    "href": "/exit/score"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/exit/score"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423df"
+                      },
+                      "type": "String",
+                      "textContent": "Start the Exit Score →"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "695c62c51156ff276af84a69",
+                "element": "282388d4-b4b8-470b-09a3-29557ab42400"
+              },
+              "type": "Block",
+              "styleNames": [
+                "mi2-footer"
+              ],
+              "settings": {
+                "tag": "div",
+                "visibility": true,
+                "block": {
+                  "tag": "div"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423ef"
+                  },
+                  "type": "Block",
+                  "settings": {
+                    "tag": "div",
+                    "visibility": true,
+                    "block": {
+                      "tag": "div"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423e3"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-nav-group-label"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423e2"
+                          },
+                          "type": "String",
+                          "textContent": "Decision Frames"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423ee"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-nav-links"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423e5"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "/intelligence/judgment-as-a-service"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "/intelligence/judgment-as-a-service"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423e4"
+                              },
+                              "type": "String",
+                              "textContent": "Judgment-as-a-Service"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423e7"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "/intelligence/dependency-vs-leverage"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "/intelligence/dependency-vs-leverage"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423e6"
+                              },
+                              "type": "String",
+                              "textContent": "Dependency vs. Leverage"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423e9"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "/intelligence/timing-asymmetry"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "/intelligence/timing-asymmetry"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423e8"
+                              },
+                              "type": "String",
+                              "textContent": "Timing Asymmetry"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423eb"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "/intelligence/signal-vs-narrative"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "/intelligence/signal-vs-narrative"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423ea"
+                              },
+                              "type": "String",
+                              "textContent": "Signal vs. Narrative"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423ed"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "/intelligence/scarcity-vs-growth"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "/intelligence/scarcity-vs-growth"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423ec"
+                              },
+                              "type": "String",
+                              "textContent": "Scarcity vs. Growth"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "695c62c51156ff276af84a69",
+                    "element": "282388d4-b4b8-470b-09a3-29557ab423ff"
+                  },
+                  "type": "Block",
+                  "settings": {
+                    "tag": "div",
+                    "visibility": true,
+                    "block": {
+                      "tag": "div"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423f1"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-nav-group-label"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423f0"
+                          },
+                          "type": "String",
+                          "textContent": "Navigation"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "695c62c51156ff276af84a69",
+                        "element": "282388d4-b4b8-470b-09a3-29557ab423fe"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "mi2-nav-links"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423f3"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "/exit"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "/exit"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423f2"
+                              },
+                              "type": "String",
+                              "textContent": "Exit Desk"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423f7"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "/exit/articles"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "/exit/articles"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423f4"
+                              },
+                              "type": "String",
+                              "textContent": "Articles "
+                            },
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423f5"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423f6"
+                              },
+                              "type": "String",
+                              "textContent": " Case Studies"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423f9"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "/about"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "/about"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423f8"
+                              },
+                              "type": "String",
+                              "textContent": "About Mike Ye"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423fb"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "rel": "noopener",
+                            "href": "https://www.exmxc.ai/leadership-doctrine/judgment-is-the-last-scarce-asset"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.exmxc.ai/leadership-doctrine/judgment-is-the-last-scarce-asset"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423fa"
+                              },
+                              "type": "String",
+                              "textContent": "Institutional Doctrine (exmxc.ai)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "695c62c51156ff276af84a69",
+                            "element": "282388d4-b4b8-470b-09a3-29557ab423fd"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "mi2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "/"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "/"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "695c62c51156ff276af84a69",
+                                "element": "282388d4-b4b8-470b-09a3-29557ab423fc"
+                              },
+                              "type": "String",
+                              "textContent": "Home"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": {
+        "component": "695c62c51156ff276af84a69",
+        "element": "8c471626-36a1-cf63-4d93-8ae96196d54e"
+      },
+      "type": "HtmlEmbed",
+      "settings": {
+        "visibility": false
+      }
+    }
+  ]
+}

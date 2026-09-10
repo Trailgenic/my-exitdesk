@@ -1,0 +1,1313 @@
+[
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-09-07T22:28:13.940Z",
+    "draft": false,
+    "id": "6a9f3a7d2148e9081ffed5ea",
+    "isBranch": false,
+    "lastUpdated": "2026-09-10T03:55:04.801Z",
+    "openGraph": {
+      "imageAssetId": null,
+      "imageUrl": null
+    },
+    "publishedPath": "/tools-and-models",
+    "seo": {
+      "description": "Excel tools for deal workflow, LOI economics, synergy underwriting, due diligence, and integration, plus five company valuation models and practical guides.",
+      "title": "M&A Valuation Models & Practical Tools | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "tools-and-models",
+    "title": "Tools & Models"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-09-07T20:38:40.581Z",
+    "draft": false,
+    "id": "6a9f20d0a616017e7bdf9a95",
+    "isBranch": false,
+    "lastUpdated": "2026-09-10T03:55:04.801Z",
+    "openGraph": {
+      "imageAssetId": null,
+      "imageUrl": null
+    },
+    "publishedPath": "/m-and-a",
+    "seo": {
+      "description": "Seven transaction stages and ten M&A knowledge pillars, with practical tools for deal workflow, LOI economics, synergies, diligence, integration, and valuation.",
+      "title": "Practical M&A Library: Deal Workflow, Valuation & Synergies | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "m-and-a",
+    "title": "M&A Library"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "collectionId": "6a9f1683bfb97f3c671ae853",
+    "createdOn": "2026-09-07T19:54:44.005Z",
+    "draft": false,
+    "id": "6a9f1684bfb97f3c671ae859",
+    "isBranch": false,
+    "lastUpdated": "2026-09-10T02:01:31.115Z",
+    "openGraph": {
+      "imageAssetId": null,
+      "imageUrl": null
+    },
+    "publishedPath": "/ma-resources",
+    "seo": {
+      "description": "{{wf {&quot;path&quot;:&quot;summary&quot;,&quot;type&quot;:&quot;PlainText&quot;} }}",
+      "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;} }} | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "detail_ma-resources",
+    "title": "M&A Resources Template"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "collectionId": "6a9f168391744e4c67910a09",
+    "createdOn": "2026-09-07T19:54:43.550Z",
+    "draft": false,
+    "id": "6a9f168391744e4c67910a0f",
+    "isBranch": false,
+    "lastUpdated": "2026-09-07T20:46:43.335Z",
+    "openGraph": {
+      "imageAssetId": null,
+      "imageUrl": null
+    },
+    "publishedPath": "/ma-topics",
+    "seo": {},
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "detail_ma-topics",
+    "title": "M&A Topics Template"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-09-07T19:52:40.139Z",
+    "draft": true,
+    "id": "6a9f1608e824c600831d2eaf",
+    "isBranch": false,
+    "lastUpdated": "2026-09-07T21:20:54.983Z",
+    "openGraph": {
+      "imageAssetId": null,
+      "imageUrl": null
+    },
+    "publishedPath": "/rebuild-foundation",
+    "seo": {
+      "description": "Unpublished preview of the reusable MikeYe M&A authority-site foundation.",
+      "title": "MikeYe Rebuild — Phase 1 Preview"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "rebuild-foundation",
+    "title": "MikeYe Rebuild — Phase 1 Foundation"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-26T14:51:31.064Z",
+    "draft": false,
+    "id": "6a8efd73d3e763c01e80309e",
+    "isBranch": false,
+    "lastUpdated": "2026-08-26T15:38:29.466Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "6a8efcb46686b1a4a8b26c76",
+    "publishedPath": "/about/record",
+    "seo": {
+      "description": "Selected archival mastheads and publication records documenting Mike Ye’s role as Vice President, Strategic Planning & Acquisitions at Penske Media Corporation across multiple publications and years.",
+      "title": "Contemporaneous Record | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "record",
+    "title": "Record"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-17T18:33:29.985Z",
+    "draft": false,
+    "id": "6a8353f9f2c97e8d6ac6f9ea",
+    "isBranch": false,
+    "lastUpdated": "2026-08-17T20:02:53.398Z",
+    "openGraph": {
+      "description": "A structured pre-market resource for owners who are not ready to launch a sale process yet.",
+      "descriptionCopied": false,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Pre-Market Exit Readiness for Brokers & M&A Advisors",
+      "titleCopied": false
+    },
+    "publishedPath": "/exit-readiness-for-business-brokers",
+    "seo": {
+      "description": "A buyer-lens readiness resource for brokers and M&A advisors whose future sellers need stronger evidence, positioning, and diligence preparation before launch.",
+      "title": "Pre-Market Exit Readiness for Business Brokers & M&A Advisors | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "exit-readiness-for-business-brokers",
+    "title": "Exit Readiness for Business Brokers"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-17T18:33:29.701Z",
+    "draft": false,
+    "id": "6a8353f945ee3da774a985bd",
+    "isBranch": false,
+    "lastUpdated": "2026-08-17T20:02:20.794Z",
+    "openGraph": {
+      "description": "Clarify ownership and estate-planning decisions before a business sale becomes a live process.",
+      "descriptionCopied": false,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Exit Planning Coordination for Estate Attorneys",
+      "titleCopied": false
+    },
+    "publishedPath": "/exit-planning-for-estate-attorneys",
+    "seo": {
+      "description": "A coordination guide for estate-planning attorneys helping business owners align ownership, trusts, gifting, succession documents, and sale timing.",
+      "title": "Exit Planning Coordination for Estate Attorneys | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "exit-planning-for-estate-attorneys",
+    "title": "Exit Planning for Estate Attorneys"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-17T18:33:29.372Z",
+    "draft": false,
+    "id": "6a8353f90177aafea5d90d1c",
+    "isBranch": false,
+    "lastUpdated": "2026-08-17T20:02:01.642Z",
+    "openGraph": {
+      "description": "Connect the client’s business-sale assumptions to the personal plan before the outcome is locked.",
+      "descriptionCopied": false,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Exit Readiness for Financial Advisors & Wealth Managers",
+      "titleCopied": false
+    },
+    "publishedPath": "/exit-readiness-for-financial-advisors",
+    "seo": {
+      "description": "A practical resource for advisors helping business owners connect sale readiness, personal liquidity, retirement income, portfolio risk, and post-close planning.",
+      "title": "Exit Readiness for Financial Advisors & Wealth Managers | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "exit-readiness-for-financial-advisors",
+    "title": "Exit Readiness for Financial Advisors"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-17T18:33:29.048Z",
+    "draft": false,
+    "id": "6a8353f95cb5f8e32c40b68e",
+    "isBranch": false,
+    "lastUpdated": "2026-08-17T20:01:04.579Z",
+    "openGraph": {
+      "description": "Help business-owner clients connect clean financial evidence with the questions buyers will ask.",
+      "descriptionCopied": false,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Exit Planning Resources for CPAs",
+      "titleCopied": false
+    },
+    "publishedPath": "/exit-planning-resources-for-cpas",
+    "seo": {
+      "description": "A buyer-lens resource for CPAs helping small business owners prepare financials, normalize earnings, coordinate tax planning, and get ready for buyer diligence.",
+      "title": "Exit Planning Resources for CPAs Serving Business Owners | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "exit-planning-resources-for-cpas",
+    "title": "Exit Planning Resources for CPAs"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-17T18:33:28.672Z",
+    "draft": false,
+    "id": "6a8353f871d4c4c98c1ca562",
+    "isBranch": false,
+    "lastUpdated": "2026-08-17T20:02:32.140Z",
+    "openGraph": {
+      "description": "The owner’s advisory team works best when roles, boundaries, and handoffs are explicit.",
+      "descriptionCopied": false,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Who Owns What Before You Sell a Business?",
+      "titleCopied": false
+    },
+    "publishedPath": "/who-owns-what-before-selling-business",
+    "seo": {
+      "description": "A practical role map for CPAs, financial advisors, estate attorneys, M&A counsel, valuation specialists, and brokers helping an owner prepare for a business sale.",
+      "title": "Who Owns What Before You Sell a Business? | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "who-owns-what-before-selling-business",
+    "title": "Who Owns What Before You Sell a Business?"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-17T17:42:42.228Z",
+    "draft": false,
+    "id": "6a834812b562da443f5f2f65",
+    "isBranch": false,
+    "lastUpdated": "2026-08-17T20:02:14.324Z",
+    "openGraph": {
+      "description": "Protect leverage, evaluate the buyer and terms, and avoid the early mistakes that can weaken an otherwise promising deal.",
+      "descriptionCopied": false,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Someone Offered to Buy Your Business. Here’s What to Do Next.",
+      "titleCopied": false
+    },
+    "publishedPath": "/received-offer-to-buy-my-business",
+    "seo": {
+      "description": "A practical first-response guide for business owners who receive an unsolicited acquisition offer: protect leverage, assess the buyer, test price and terms, and prepare for diligence.",
+      "title": "I Received an Offer to Buy My Business—What Should I Do? | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "received-offer-to-buy-my-business",
+    "title": "I Received an Offer to Buy My Business—What Should I Do?"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-10T23:17:53.850Z",
+    "draft": true,
+    "id": "6a7a5c213624c08de4f3cdfd",
+    "isBranch": false,
+    "lastUpdated": "2026-08-14T21:18:09.380Z",
+    "openGraph": {
+      "description": "Your confidential buyer-side IC memo is being validated, underwritten, reasoned, and prepared for private delivery.",
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Acquisition Lens — Underwriting in Motion"
+    },
+    "publishedPath": "/success",
+    "seo": {
+      "description": "Your confidential Acquisition Lens buyer-side underwriting case has been accepted for processing and private PDF delivery.",
+      "title": "Acquisition Lens Submission Received | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "success",
+    "title": "Acquisition Lens Success"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-10T23:17:52.943Z",
+    "draft": true,
+    "id": "6a7a5c2067bf1e104a29b7b0",
+    "isBranch": false,
+    "lastUpdated": "2026-08-14T21:21:09.680Z",
+    "openGraph": {
+      "description": "A structured buyer-side packet for acquisition underwriting and decision support.",
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Acquisition Lens — Confidential Buyer Intake"
+    },
+    "publishedPath": "/intake",
+    "seo": {
+      "description": "Provide the buyer mandate, target facts, proposed terms, evidence posture, and decision questions for a confidential Acquisition Lens IC memo.",
+      "title": "Acquisition Lens Paid Intake — Confidential Buyer Packet | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "intake",
+    "title": "Acquisition Lens Paid Intake"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-10T23:17:52.201Z",
+    "draft": true,
+    "id": "6a7a5c2067bf1e104a29b70d",
+    "isBranch": false,
+    "lastUpdated": "2026-08-14T21:18:09.373Z",
+    "openGraph": {
+      "description": "Move from first-pass posture to a confidential buyer-side underwriting memorandum.",
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Acquisition Lens — Full Buyer-Side IC Memo"
+    },
+    "publishedPath": "/checkout",
+    "seo": {
+      "description": "Purchase one confidential buyer-side Acquisition Lens IC memo covering standalone value, downside survivability, diligence priorities, and the next decision.",
+      "title": "Acquisition Lens Full IC Memo — Secure Checkout | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "checkout",
+    "title": "Acquisition Lens Checkout"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-10T23:17:51.680Z",
+    "draft": true,
+    "id": "6a7a5c1f68f77dcea99f0856",
+    "isBranch": false,
+    "lastUpdated": "2026-09-05T03:20:41.709Z",
+    "openGraph": {
+      "description": "Explore a fictional deal or screen your own opportunity. Get a focused diligence agenda from the information available.",
+      "descriptionCopied": false,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Acquisition Lens — Worth the Next Conversation?",
+      "titleCopied": false
+    },
+    "publishedPath": "/screen",
+    "seo": {
+      "description": "Start with a free buyer screen, then explore Ella's deeper company and acquisition assessment.",
+      "title": "Free Acquisition First Look | Acquisition Lens"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "screen",
+    "title": "Acquisition Lens — Free First Look"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-08-10T23:17:50.879Z",
+    "draft": true,
+    "id": "6a7a5c1eb5772871ed6cfe7e",
+    "isBranch": false,
+    "lastUpdated": "2026-09-05T03:20:41.515Z",
+    "openGraph": {
+      "description": "A substantive AI buyer assessment grounded in Mike Ye's acquisition judgment.",
+      "descriptionCopied": false,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Acquisition Lens | Ella's Buyer Assessment",
+      "titleCopied": false
+    },
+    "publishedPath": "/acquisition-lens",
+    "seo": {
+      "description": "Assess the company, competitors, industry and acquisition with Ella, using Mike Ye's established M&A judgment.",
+      "title": "Acquisition Lens | Ella's Buyer Assessment | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "acquisition-lens",
+    "title": "Acquisition Lens"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-06-20T03:07:01.677Z",
+    "draft": false,
+    "id": "6a3603d5bbe438f1cb8b1c10",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T01:37:10.396Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "publishedPath": "/podcast",
+    "seo": {
+      "description": "The Mike Ye Briefing is a short-form podcast on M&A, buyer behavior, founder readiness, and AI-era insight — helping owners and operators see clearly before consequence arrives.",
+      "title": "The Mike Ye Briefing Podcast | M&A, Buyer Behavior & AI-Era Insight"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "podcast",
+    "title": "Podcast"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "collectionId": "6a35e92cf047454b350e2b8d",
+    "createdOn": "2026-06-20T01:13:16.804Z",
+    "draft": false,
+    "id": "6a35e92cf047454b350e2b95",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T01:37:10.494Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "publishedPath": "/podcast",
+    "seo": {
+      "description": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}",
+      "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "detail_podcast",
+    "title": "Podcasts Template"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-05-13T03:11:53.966Z",
+    "draft": false,
+    "id": "6a03ebf98de9f86ee274b9f6",
+    "isBranch": false,
+    "lastUpdated": "2026-09-07T16:25:13.224Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "697d0cc5d2dce96d1755c31d",
+    "publishedPath": "/exit/valuation",
+    "seo": {
+      "description": "Estimate a small business valuation range using revenue, earnings, industry, and buyer assumptions—then see the factors that could raise or reduce what buyers may pay.",
+      "title": "Free Small Business Valuation Calculator | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "valuation",
+    "title": "Valuation"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-05-11T21:16:26.629Z",
+    "draft": false,
+    "id": "6a02472ab518cec248b1b728",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:34:11.268Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1711c7271a60bf7bb3821",
+    "publishedPath": "/exit/sample/fitwire-daily",
+    "seo": {
+      "description": "A real Exit Desk report for a fictional digital trade media company — $1M–$3M revenue, 100,000 subscribers, founder-anchored brand, AI content exposure. See exactly what the $499 deliverable looks like.",
+      "title": "Exit Desk Sample Report — FitWire Daily | Digital Trade Media Exit Readiness"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "fitwire-daily",
+    "title": "Fitwire Daily"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-30T21:25:45.404Z",
+    "draft": false,
+    "id": "69f3c8d9bc2ec2784c66a42a",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T01:37:10.580Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "publishedPath": "/glossary",
+    "seo": {
+      "description": "M&A and exit-readiness vocabulary defined for small business owners — written from twenty-five years and $7.4B of buy-side and sell-side judgment. Every term includes the standard definition, what it means for the seller, and the buyer's lens.",
+      "title": "Exit Desk Glossary — M&A Terms for Small Business Sellers | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "glossary",
+    "title": "Glossary"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "collectionId": "69f3a41dd8958d1ce080556d",
+    "createdOn": "2026-04-30T18:49:02.391Z",
+    "draft": false,
+    "id": "69f3a41ed8958d1ce080557c",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T01:37:10.720Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "publishedPath": "/glossary",
+    "seo": {
+      "description": "{{wf {&quot;path&quot;:&quot;one-line-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}",
+      "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}— Exit Desk Glossary | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "detail_glossary",
+    "title": "Glossaries Template"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-25T04:25:33.374Z",
+    "draft": false,
+    "id": "69ec423dac88dee888216974",
+    "isBranch": false,
+    "lastUpdated": "2026-06-20T03:32:15.377Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "697d0cc5d2dce96d1755c31d",
+    "publishedPath": "/exit/story",
+    "seo": {
+      "description": "The origin story of Exit Desk by Mike Ye — built from 25 years of institutional M&A experience to help first-time founders prepare for the most important transaction of their lives.",
+      "title": "Why I Built Exit Desk | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "story",
+    "title": "Story"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-24T23:51:34.785Z",
+    "draft": false,
+    "id": "69ec020632e275437329f691",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:33:18.800Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1711c7271a60bf7bb3821",
+    "publishedPath": "/exit/sample/apex-landscape",
+    "seo": {
+      "description": "A fictional Exit Desk report for a sub-$1M commercial landscape company in DFW. See the $499 deliverable for Main Street sellers and SBA buyers.",
+      "title": "Exit Desk Sample — Apex Landscape Group | Sub-$1M Main Street Report"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "apex-landscape",
+    "title": "Apex Landscape - Exit Sample Report"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-21T03:08:54.915Z",
+    "draft": false,
+    "id": "69e6ea467414e1bd42791cb4",
+    "isBranch": false,
+    "lastUpdated": "2026-09-07T16:25:03.080Z",
+    "openGraph": {
+      "description": "A no-conflict pre-market resource for brokers, M&A advisors, CPAs, estate attorneys, and wealth advisors. Clear roles, two-way referrals, and $100 per converted client.",
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Exit Desk Partner Program for Business-Owner Advisors",
+      "titleCopied": true
+    },
+    "parentId": "697d0cc5d2dce96d1755c31d",
+    "publishedPath": "/exit/partners",
+    "seo": {
+      "description": "Business brokers, M&A advisors, CPAs, estate-planning attorneys, and wealth advisors: give owner-clients a buyer-lens readiness resource 1–5 years before a sale. $100 per converted client.",
+      "title": "Exit Desk Partner Program — $100 Per Converted Client"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "partners",
+    "title": "Partners"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T23:56:35.186Z",
+    "draft": false,
+    "id": "69e17733ab70f4deb1d22d83",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:39:48.732Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/exit-readiness-checklist",
+    "seo": {
+      "description": "The five dimensions every serious buyer evaluates — and the specific actions that move each one before you go to market. A practical pre-sale checklist from 25 years on the buy side.",
+      "title": "Exit Readiness Checklist for Small Business Owners | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "exit-readiness-checklist",
+    "title": "Exit Readiness Checklist for Small Business Owners"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T23:39:13.399Z",
+    "draft": false,
+    "id": "69e17321021f4a71ffb86655",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:32:43.074Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1711c7271a60bf7bb3821",
+    "publishedPath": "/exit/sample/meridian-advisory",
+    "seo": {
+      "description": "A real Exit Desk report for a fictional HR consulting firm — $3M–$7M revenue, Southeast US, improving margins, two senior consultants carrying the client base. See exactly what the $499 deliverable looks like.",
+      "title": "Exit Desk Sample Report — Meridian Advisory Group | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "meridian-advisory",
+    "title": "Meridian Advisory Group - Exit Desk Sample Report"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T23:33:18.717Z",
+    "draft": false,
+    "id": "69e171be7271a60bf7bb4570",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:32:08.764Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1711c7271a60bf7bb3821",
+    "publishedPath": "/exit/sample/pinnacle-hvac",
+    "seo": {
+      "description": "A real Exit Desk report for a fictional HVAC company — $3M–$7M revenue, Phoenix market, 22 years operating, high founder dependency. See exactly what the $499 deliverable looks like.",
+      "title": "Exit Desk Sample Report — Pinnacle HVAC Services | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "pinnacle-hvac",
+    "title": "Pinnacle HVAC - Exit Desk Sample Report"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T23:28:18.973Z",
+    "draft": false,
+    "id": "69e17092e85188b594675125",
+    "isBranch": false,
+    "lastUpdated": "2026-09-07T16:25:03.088Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "697d0cc5d2dce96d1755c31d",
+    "publishedPath": "/exit/sample",
+    "seo": {
+      "description": "Explore four sample Buyer-Lens Audits for fictional businesses across revenue scales. $199 under $1M annual revenue; $499 at $1M+. Delivered within 24 hours.",
+      "title": "Exit Desk Sample Reports | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "sample",
+    "title": "Sample"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T22:13:56.678Z",
+    "draft": false,
+    "id": "69e15f24bbdcc89cb52fa55c",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:39:07.939Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/ai-impact-on-business-valuation",
+    "seo": {
+      "description": "Buyers are already pricing AI exposure into every acquisition in every industry. Here is what that means for your business specifically — and whether it is working for you or against you.",
+      "title": "How AI Is Affecting Small Business Valuation | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "ai-impact-on-business-valuation",
+    "title": "How AI Is Affecting Small Business Valuation"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T22:11:17.225Z",
+    "draft": false,
+    "id": "69e15e85e77ddebe5597b089",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:38:24.795Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/what-cpas-miss-about-exit-planning",
+    "seo": {
+      "description": "Your CPA is optimizing for tax efficiency. Buyers are optimizing for something else entirely. The gap between those two frameworks is where most small business exits go wrong.",
+      "title": "What CPAs Miss About Exit Planning | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "what-cpas-miss-about-exit-planning",
+    "title": "What CPAs Miss About Exit Planning"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T22:07:09.305Z",
+    "draft": false,
+    "id": "69e15d8d200f5da2c090932a",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:37:46.020Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/how-buyers-evaluate-revenue-quality",
+    "seo": {
+      "description": "Two businesses with identical revenue can have dramatically different valuations. Here is exactly how a buyer reads your revenue structure — and what the difference means for your multiple.",
+      "title": "How Buyers Evaluate Revenue Quality in Small Businesses | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "how-buyers-evaluate-revenue-quality",
+    "title": "How Buyers Evaluate Revenue Quality in Small Businesses"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T22:03:23.790Z",
+    "draft": false,
+    "id": "69e15cabfadda8f1dddb0481",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:37:02.207Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/when-to-sell-your-business",
+    "seo": {
+      "description": "Selling too early costs you. Waiting too long costs you more. The framework for knowing which side of the line you're on — and what actually changes the calculus.",
+      "title": "When Is the Right Time to Sell Your Business | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "when-to-sell-your-business",
+    "title": "When Is the Right Time to Sell Your Business"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T21:59:00.173Z",
+    "draft": false,
+    "id": "69e15ba4e425a281ac77dc30",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:36:01.834Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/business-valuation-multiples-explained",
+    "seo": {
+      "description": "What multiples actually mean, how they are calculated, why the same business trades at different multiples with different buyers — and what you can do to move yours before going to market.",
+      "title": "Business Valuation Multiples Explained | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "business-valuation-multiples-explained",
+    "title": "Business Valuation Multiples Explained"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T21:56:33.642Z",
+    "draft": false,
+    "id": "69e15b11b716ebc452c0f3b2",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:35:19.738Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/founder-dependence-kills-deals",
+    "seo": {
+      "description": "The single most common reason small business deals fall apart or reprice in the $1M–$20M range — and the specific steps that fix it before you walk into any process.",
+      "title": "Founder Dependence Kills Deals | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "founder-dependence-kills-deals",
+    "title": "Founder Dependence Kills Deals"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T21:50:37.116Z",
+    "draft": false,
+    "id": "69e159ad6fbfb28b4a5b7510",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:21:52.712Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/what-buyers-actually-look-for",
+    "seo": {
+      "description": "Not what brokers tell you. What institutional and strategic buyers actually evaluate when they look at a business in the $1M–$20M range — and what makes them walk away before the first offer.",
+      "title": "What Buyers Actually Look For in a Small Business | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "what-buyers-actually-look-for",
+    "title": "What Buyers Actually Look"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T21:08:02.005Z",
+    "draft": false,
+    "id": "69e14fb23a4774d5ed29cb7d",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:27:57.058Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/long-beach-surgical-case-study",
+    "seo": {
+      "description": "How a GI-focused outpatient surgery center was acquired, rebranded as a multi-specialty facility, and tripled in value over eight years. A case study in hidden rate leverage, physician equity strategy, and value creation by design.",
+      "title": "Long Beach Surgical Center: How a Controlling Stake, a Rebrand, and the Right Physicians Tripled the Value | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "long-beach-surgical-case-study",
+    "title": "Long Beach Surgical Center Case Study"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T20:40:22.839Z",
+    "draft": false,
+    "id": "69e149365aa99a2a9770daf3",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:22:59.178Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/sourcing-journal-case-study",
+    "seo": {
+      "description": "How a founder-built trade publication sold from a position of strength — and what the hardest part of the deal had nothing to do with the buyer. A case study in founder clarity, partner alignment, and knowing the ceiling of your market.",
+      "title": "Sourcing Journal: What the Buyer Was Looking For That the Founder Already Knew | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "sourcing-journal-case-study",
+    "title": "Sourcing Journal Case Study"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T20:11:50.965Z",
+    "draft": false,
+    "id": "69e142868a339b0708f6eb37",
+    "isBranch": false,
+    "lastUpdated": "2026-06-05T21:26:06.604Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69e1419db393770e8b5fe592",
+    "publishedPath": "/exit/articles/buzzangle-case-study",
+    "seo": {
+      "description": "How a strategic investment in a music data startup became the competitive wedge that contributed to one of the most significant acquisitions in music media history. A case study in competitive position, founder dependency, and asymmetric value.",
+      "title": "BuzzAngle Music: The Chess Move That Changed Music Media | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "buzzangle-case-study",
+    "title": "BuzzAngle Case Study"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-16T20:01:11.164Z",
+    "draft": false,
+    "id": "69e140078f4d8163d96c944b",
+    "isBranch": false,
+    "lastUpdated": "2026-08-17T20:07:17.517Z",
+    "openGraph": {
+      "description": "What buyers actually look for. Where deals get complicated. Case studies and frameworks from 25 years on the buy side — built for owners thinking about selling.",
+      "descriptionCopied": false,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Exit Readiness Articles & Case Studies | Mike Ye",
+      "titleCopied": false
+    },
+    "parentId": "697d0cc5d2dce96d1755c31d",
+    "publishedPath": "/exit/articles",
+    "seo": {
+      "description": "M&A insights for small business owners thinking about selling. Case studies, buyer psychology, and exit readiness frameworks from 25 years on the buy side of the table.",
+      "title": "Exit Readiness Articles & Case Studies | Mike Ye | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "articles",
+    "title": "Articles"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-14T18:20:25.400Z",
+    "draft": false,
+    "id": "69de85695c65bce47bd5c8cf",
+    "isBranch": false,
+    "lastUpdated": "2026-07-17T02:06:24.216Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "697d0cc5d2dce96d1755c31d",
+    "publishedPath": "/exit/desk",
+    "seo": {
+      "description": "Complete your Buyer-Lens Audit™ intake. Your responses drive the depth and specificity of your buyer-lens analysis. Delivered in 24 hours.",
+      "title": "Buyer-Lens Audit™ — Full Intake | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "desk",
+    "title": "Desk"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-14T18:14:36.055Z",
+    "draft": false,
+    "id": "69de840cc7515d01b551e7b0",
+    "isBranch": false,
+    "lastUpdated": "2026-05-04T00:57:14.052Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "697d0cc5d2dce96d1755c31d",
+    "publishedPath": "/exit/success",
+    "seo": {
+      "description": "Your Buyer-Lens Audit™ is being prepared and will be delivered to your inbox within 24 hours. Here's what to expect.",
+      "title": "Your Buyer-Lens Audit™ Is Being Prepared | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "success",
+    "title": "Success"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-14T16:26:54.414Z",
+    "draft": false,
+    "id": "69de6ace18d3213207024cd4",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T02:57:27.317Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "publishedPath": "/exit",
+    "seo": {
+      "description": "See your business through a buyer’s eyes before you sell. Exit Desk delivers a buyer-lens exit-readiness analysis with indicative valuation scenarios, risks, and next actions.",
+      "title": "Exit Readiness Audit for Small Business Owners | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "exit",
+    "title": "Exit"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-14T00:42:20.200Z",
+    "draft": false,
+    "id": "69dd8d6c2d638a0ee1ffc8f7",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T02:57:37.452Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "697d0cc5d2dce96d1755c31d",
+    "publishedPath": "/exit/checkout",
+    "seo": {
+      "description": "One-time payment, no subscription. Buyer-Lens Audit™ delivered to your inbox in 24 hours. $199 for businesses under $1M revenue, $499 for $1M+. Calibrated to scale.",
+      "title": "Get Your Buyer-Lens Audit™ Report — from $199 | Exit Desk"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "checkout",
+    "title": "Checkout"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-13T20:31:02.791Z",
+    "draft": false,
+    "id": "69dd52862a901d4c7806e841",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T02:57:27.323Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "697d0cc5d2dce96d1755c31d",
+    "publishedPath": "/exit/score",
+    "seo": {
+      "description": "Answer 8 questions and get your scored exit readiness in 90 seconds. Free diagnostic from 25 years and $7.4B of M&A judgment. Optional Buyer-Lens Audit™ from $199.",
+      "title": "Free Exit Readiness Assessment — Know Where You Stand | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "score",
+    "title": "Score"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-04-12T18:58:23.768Z",
+    "draft": false,
+    "id": "69dbeb4f5968ee0aaeef2645",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T03:57:27.480Z",
+    "openGraph": {
+      "description": "Former VP of Strategic Planning & Acquisitions at Penske Media Corporation. 25+ years leading M&A transactions with combined value exceeding $7.4B.",
+      "descriptionCopied": false,
+      "imageAssetId": "69c5c110700b43ddb283e090",
+      "imageUrl": null,
+      "title": "About Mike Ye — M&A Executive & Corporate Development Leader",
+      "titleCopied": false
+    },
+    "publishedPath": "/about",
+    "seo": {
+      "description": "Mike Ye is an M&A and corporate development executive with 25+ years leading acquisitions, divestitures, and portfolio strategy at Penske Media Corporation, L Brands, and Intel Capital. Creator of Exit Desk. Founder of exmxc.ai. ",
+      "title": "About Mike Ye — M&A Executive | 25+ Years in Acquisitions & Divestitures"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "about",
+    "title": "About"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-03-28T22:34:13.808Z",
+    "draft": false,
+    "id": "69c85765531df7a662f45c58",
+    "isBranch": false,
+    "lastUpdated": "2026-09-04T23:08:09.235Z",
+    "openGraph": {
+      "description": "Mike Ye and Ella work in co-cognition: human judgment with longitudinal pattern interpretation, led by longevity and human adaptation.",
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "title": "Ella | Co-Cognitive Longitudinal Intelligence | Mike Ye",
+      "titleCopied": true
+    },
+    "publishedPath": "/ella",
+    "seo": {
+      "description": "Ella is Mike Ye’s co-cognitive longitudinal intelligence entity. Her flagship authority is longevity and human adaptation through the TrailGenic Method.",
+      "title": "Ella | Co-Cognitive Longitudinal Intelligence | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "ella",
+    "title": "Ella"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-02-12T23:20:14.425Z",
+    "draft": false,
+    "id": "698e602e380898f97debce87",
+    "isBranch": false,
+    "lastUpdated": "2026-04-27T17:38:01.061Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69654946b6df1b33027f5383",
+    "publishedPath": "/intelligence/scarcity-vs-growth",
+    "seo": {
+      "description": "Traditional growth metrics miss the most important driver of enterprise value: scarcity. Mike Ye explains how capacity constraints shaped his acquisitions of Billboard, SXSW, and New Year’s Rockin’ Eve—and how he applies the same Scarcity vs Growth lens to allocate capital in AI infrastructure leaders like NVIDIA, TSMC, Micron, and SK Hynix.",
+      "title": "Scarcity vs Growth: How I Allocate Capital Using Capacity Constraints | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "scarcity-vs-growth",
+    "title": "Scarcity vs Growth: How I Allocate Capital Using Capacity Constraints | Mike Ye"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-01-12T23:15:58.961Z",
+    "draft": false,
+    "id": "696580ae149d78100bef1a3a",
+    "isBranch": false,
+    "lastUpdated": "2026-04-27T17:36:46.482Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69654946b6df1b33027f5383",
+    "publishedPath": "/intelligence/signal-vs-narrative",
+    "seo": {
+      "description": "Signal vs. Narrative is a decision frame for distinguishing durable signals from persuasive narratives when perception and reality diverge.\n",
+      "title": "Signal vs. Narrative | Decision Frame"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "signal-vs-narrative",
+    "title": "Signal vs Narrative"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-01-12T23:08:54.417Z",
+    "draft": false,
+    "id": "69657f064d17f8d420ba51b2",
+    "isBranch": false,
+    "lastUpdated": "2026-06-20T03:29:41.577Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69654946b6df1b33027f5383",
+    "publishedPath": "/intelligence/timing-asymmetry",
+    "seo": {
+      "description": "Timing Asymmetry is a decision frame for evaluating when action creates advantage, when waiting preserves leverage, and how uncertainty collapses over time.\n",
+      "title": "Timing Asymmetry | Decision Frame"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "timing-asymmetry",
+    "title": "Timing Asymmetry"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-01-12T20:43:40.163Z",
+    "draft": false,
+    "id": "69655cfc02183fed571b76a9",
+    "isBranch": false,
+    "lastUpdated": "2026-06-20T03:29:13.489Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69654946b6df1b33027f5383",
+    "publishedPath": "/intelligence/dependency-vs-leverage",
+    "seo": {
+      "description": "Dependency vs. Leverage is a decision frame for evaluating who controls downside, exit optionality, and structural power.\n",
+      "title": "Dependency vs. Leverage | Decision Frame"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "dependency-vs-leverage",
+    "title": "Dependency vs Leverage"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-01-12T19:20:30.371Z",
+    "draft": false,
+    "id": "6965497ebb31cd01722af8fb",
+    "isBranch": false,
+    "lastUpdated": "2026-06-20T03:38:48.931Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "parentId": "69654946b6df1b33027f5383",
+    "publishedPath": "/intelligence/judgment-as-a-service",
+    "seo": {
+      "description": "Structuring how decisions are seen before options, advice, or action.\n",
+      "title": "Decision Framing"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "judgment-as-a-service",
+    "title": "Judgment as a Service"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2026-01-06T01:17:57.979Z",
+    "draft": false,
+    "id": "695c62c51156ff276af84a69",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T03:41:18.406Z",
+    "openGraph": {
+      "descriptionCopied": true,
+      "imageAssetId": null,
+      "imageUrl": null,
+      "titleCopied": true
+    },
+    "publishedPath": "/intelligence",
+    "seo": {
+      "description": "Mike Ye's five decision frameworks for judgment, leverage, timing, evidence, and scarcity, grounded in 25 years of M&A experience.",
+      "title": "M&A Decision Frameworks | Mike Ye"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "slug": "intelligence",
+    "title": "Intelligence"
+  },
+  {
+    "archived": false,
+    "canBranch": true,
+    "createdOn": "2025-12-22T19:39:35.864Z",
+    "draft": false,
+    "id": "69499e77d9c11f22288abc5d",
+    "isBranch": false,
+    "lastUpdated": "2026-09-08T02:29:05.443Z",
+    "openGraph": {
+      "description": "Practical M&A judgment, valuation models, diligence and integration tools.",
+      "descriptionCopied": true,
+      "imageAssetId": "69c5c110700b43ddb283e090",
+      "imageUrl": null,
+      "title": "The Deal Is Only the Beginning. | Mike Ye",
+      "titleCopied": true
+    },
+    "publishedPath": "/",
+    "seo": {
+      "description": "Practical M&A judgment from 25 years of experience. Explore company valuation models, diligence and integration handbooks, and transaction lessons.",
+      "title": "Mike Ye | M&A Valuation Models, Diligence & Integration"
+    },
+    "siteId": "69499e76d9c11f22288abc28",
+    "title": "Mike Ye"
+  }
+]

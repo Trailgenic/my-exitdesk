@@ -1,0 +1,4107 @@
+{
+  "id": {
+    "component": "69dbeb4f5968ee0aaeef2645",
+    "element": "69dbeb4f5968ee0aaeef264b"
+  },
+  "type": "Body",
+  "children": [
+    {
+      "id": {
+        "component": "69dbeb4f5968ee0aaeef2645",
+        "element": "80450ec1-f4f5-dabf-4389-5e076af000cc"
+      },
+      "type": "Block",
+      "styleNames": [
+        "my1-root"
+      ],
+      "settings": {
+        "tag": "div",
+        "visibility": true,
+        "block": {
+          "tag": "div"
+        }
+      },
+      "children": [
+        {
+          "id": {
+            "component": "69dbeb4f5968ee0aaeef2645",
+            "element": "80450ec1-f4f5-dabf-4389-5e076aefff87"
+          },
+          "type": "Block",
+          "styleNames": [
+            "my1-header"
+          ],
+          "settings": {
+            "tag": "header",
+            "visibility": true,
+            "block": {
+              "tag": "header"
+            }
+          },
+          "children": [
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aefff79"
+              },
+              "type": "Link",
+              "styleNames": [
+                "my1-brand"
+              ],
+              "attributes": {
+                "href": "https://www.mikeye.com/"
+              },
+              "settings": {
+                "visibility": true,
+                "link": {
+                  "linkType": "url",
+                  "href": "https://www.mikeye.com/"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff74"
+                  },
+                  "type": "String",
+                  "textContent": "Mike Ye"
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff78"
+                  },
+                  "type": "Span",
+                  "styleNames": [
+                    "my1-brand-note"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff75"
+                      },
+                      "type": "String",
+                      "textContent": "M"
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff76"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff77"
+                      },
+                      "type": "String",
+                      "textContent": "A · Corporate Development · Strategic Finance"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aefff86"
+              },
+              "type": "Block",
+              "styleNames": [
+                "my1-nav"
+              ],
+              "attributes": {
+                "aria-label": "Primary"
+              },
+              "settings": {
+                "tag": "nav",
+                "visibility": true,
+                "block": {
+                  "tag": "nav"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff7d"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "attributes": {
+                    "href": "/m-and-a"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/m-and-a"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff7a"
+                      },
+                      "type": "String",
+                      "textContent": "M"
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff7b"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff7c"
+                      },
+                      "type": "String",
+                      "textContent": "A Library"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff81"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "attributes": {
+                    "href": "/tools-and-models"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/tools-and-models"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff7e"
+                      },
+                      "type": "String",
+                      "textContent": "Tools "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff7f"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff80"
+                      },
+                      "type": "String",
+                      "textContent": " Models"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff83"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "attributes": {
+                    "href": "https://www.mikeye.com/about"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "https://www.mikeye.com/about"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff82"
+                      },
+                      "type": "String",
+                      "textContent": "About Mike"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff85"
+                  },
+                  "type": "Link",
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "attributes": {
+                    "href": "/#products"
+                  },
+                  "settings": {
+                    "visibility": true,
+                    "link": {
+                      "linkType": "url",
+                      "href": "/#products"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff84"
+                      },
+                      "type": "String",
+                      "textContent": "Applied Products"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": {
+            "component": "69dbeb4f5968ee0aaeef2645",
+            "element": "80450ec1-f4f5-dabf-4389-5e076aefff89"
+          },
+          "type": "Link",
+          "styleNames": [
+            "my1-skip"
+          ],
+          "attributes": {
+            "href": "#main-content"
+          },
+          "settings": {
+            "visibility": true
+          },
+          "children": [
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aefff88"
+              },
+              "type": "String",
+              "textContent": "Skip to content"
+            }
+          ]
+        },
+        {
+          "id": {
+            "component": "69dbeb4f5968ee0aaeef2645",
+            "element": "80450ec1-f4f5-dabf-4389-5e076af000cb"
+          },
+          "type": "Block",
+          "styleNames": [
+            "ma2-main"
+          ],
+          "attributes": {
+            "id": "main-content"
+          },
+          "settings": {
+            "tag": "main",
+            "visibility": true,
+            "block": {
+              "tag": "main"
+            }
+          },
+          "children": [
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aefff95"
+              },
+              "type": "Block",
+              "styleNames": [
+                "ma2-masthead"
+              ],
+              "settings": {
+                "tag": "div",
+                "visibility": true,
+                "block": {
+                  "tag": "div"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff92"
+                  },
+                  "type": "Block",
+                  "settings": {
+                    "tag": "div",
+                    "visibility": true,
+                    "block": {
+                      "tag": "div"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff8d"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "ma2-label"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076aefff8a"
+                          },
+                          "type": "String",
+                          "textContent": "M"
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076aefff8b"
+                          },
+                          "type": "String",
+                          "textContent": "&"
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076aefff8c"
+                          },
+                          "type": "String",
+                          "textContent": "A Executive · Corporate Development · 25+ Years"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff8f"
+                      },
+                      "type": "Heading",
+                      "styleNames": [
+                        "ma2-name"
+                      ],
+                      "settings": {
+                        "tag": "h1",
+                        "visibility": true,
+                        "headingLevel": 1
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076aefff8e"
+                          },
+                          "type": "String",
+                          "textContent": "About Mike Ye"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff91"
+                      },
+                      "type": "Paragraph",
+                      "styleNames": [
+                        "ma2-tagline"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076aefff90"
+                          },
+                          "type": "String",
+                          "textContent": "25 years buying, selling, and restructuring businesses across media, technology, retail, healthcare, and asset management."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "6107cd03-4c58-3c5c-4e2f-6130379d36cd"
+                  },
+                  "type": "Image",
+                  "styleNames": [
+                    "ma2-photo"
+                  ],
+                  "settings": {
+                    "visibility": true,
+                    "assetId": "69c5c110700b43ddb283e090",
+                    "altText": "Mike Ye — M&A Executive"
+                  }
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aefff99"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "ma2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff96"
+                  },
+                  "type": "String",
+                  "textContent": "Mike Ye is an M"
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff97"
+                  },
+                  "type": "String",
+                  "textContent": "&"
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff98"
+                  },
+                  "type": "String",
+                  "textContent": "A and corporate development executive who has spent more than two decades leading acquisitions, divestitures, strategic investments, and capital restructuring across media, technology, retail, healthcare, and asset management."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aefffc1"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "ma2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff9a"
+                  },
+                  "type": "String",
+                  "textContent": "As "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff9e"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff9b"
+                      },
+                      "type": "String",
+                      "textContent": "Vice President of Strategic Planning "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff9c"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefff9d"
+                      },
+                      "type": "String",
+                      "textContent": " Acquisitions at Penske Media Corporation"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefff9f"
+                  },
+                  "type": "String",
+                  "textContent": ", he led end-to-end execution of enterprise transactions — sourcing, diligence, valuation, structuring, negotiation, and integration — across a portfolio that included "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffa1"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffa0"
+                      },
+                      "type": "String",
+                      "textContent": "Rolling Stone"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffa2"
+                  },
+                  "type": "String",
+                  "textContent": ", "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffa4"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffa3"
+                      },
+                      "type": "String",
+                      "textContent": "Billboard"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffa5"
+                  },
+                  "type": "String",
+                  "textContent": ", "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffa7"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffa6"
+                      },
+                      "type": "String",
+                      "textContent": "SXSW Festival"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffa8"
+                  },
+                  "type": "String",
+                  "textContent": ", "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffaa"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffa9"
+                      },
+                      "type": "String",
+                      "textContent": "the Golden Globes"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffab"
+                  },
+                  "type": "String",
+                  "textContent": ", "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffad"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffac"
+                      },
+                      "type": "String",
+                      "textContent": "New Year's Rockin' Eve"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffae"
+                  },
+                  "type": "String",
+                  "textContent": ", "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffb0"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffaf"
+                      },
+                      "type": "String",
+                      "textContent": "The Hollywood Reporter"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffb1"
+                  },
+                  "type": "String",
+                  "textContent": ", and "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffb3"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffb2"
+                      },
+                      "type": "String",
+                      "textContent": "Robb Report"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffb4"
+                  },
+                  "type": "String",
+                  "textContent": ". He also led the strategic divestitures of "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffb6"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffb5"
+                      },
+                      "type": "String",
+                      "textContent": "BGR"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffb7"
+                  },
+                  "type": "String",
+                  "textContent": " and "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffb9"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffb8"
+                      },
+                      "type": "String",
+                      "textContent": "TVLine"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffba"
+                  },
+                  "type": "String",
+                  "textContent": ", and the acquisitions of "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffbc"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffbb"
+                      },
+                      "type": "String",
+                      "textContent": "BuzzAngle Music"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffbd"
+                  },
+                  "type": "String",
+                  "textContent": " and "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffbf"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffbe"
+                      },
+                      "type": "String",
+                      "textContent": "Sourcing Journal"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffc0"
+                  },
+                  "type": "String",
+                  "textContent": "."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aefffce"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "ma2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffc2"
+                  },
+                  "type": "String",
+                  "textContent": "Between L Brands and Penske, he served as "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffc4"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffc3"
+                      },
+                      "type": "String",
+                      "textContent": "Director of Financial Operations at Surgical Care Affiliates"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffc5"
+                  },
+                  "type": "String",
+                  "textContent": ", where he oversaw P"
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffc6"
+                  },
+                  "type": "String",
+                  "textContent": "&"
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffc7"
+                  },
+                  "type": "String",
+                  "textContent": "L for a portfolio of ambulatory surgical centers and led the controlling-stake acquisition and multi-specialty expansion of "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffc9"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffc8"
+                      },
+                      "type": "String",
+                      "textContent": "Long Beach Outpatient Surgery"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffca"
+                  },
+                  "type": "String",
+                  "textContent": " — an asset later affiliated with SCA and ultimately part of SCA's "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffcc"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffcb"
+                      },
+                      "type": "String",
+                      "textContent": "$2.3B acquisition by Optum / UnitedHealth Group"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffcd"
+                  },
+                  "type": "String",
+                  "textContent": "."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aefffe4"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "ma2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffcf"
+                  },
+                  "type": "String",
+                  "textContent": "Prior to Penske, he served as "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffd3"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffd0"
+                      },
+                      "type": "String",
+                      "textContent": "Director of Corporate Development "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffd1"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffd2"
+                      },
+                      "type": "String",
+                      "textContent": " Finance at L Brands"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffd4"
+                  },
+                  "type": "String",
+                  "textContent": ", where he led the "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffd6"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffd5"
+                      },
+                      "type": "String",
+                      "textContent": "$778M divestiture of Express"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffd7"
+                  },
+                  "type": "String",
+                  "textContent": ", supported the "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffd9"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffd8"
+                      },
+                      "type": "String",
+                      "textContent": "$628M acquisition of La Senza"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffda"
+                  },
+                  "type": "String",
+                  "textContent": ", and helped execute a "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffdc"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffdb"
+                      },
+                      "type": "String",
+                      "textContent": "$2.5B capital restructuring"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffdd"
+                  },
+                  "type": "String",
+                  "textContent": ". At "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffdf"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffde"
+                      },
+                      "type": "String",
+                      "textContent": "Intel Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffe0"
+                  },
+                  "type": "String",
+                  "textContent": ", he managed the portfolio exit program during a period when the fund monetized "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffe2"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffe1"
+                      },
+                      "type": "String",
+                      "textContent": "$5B+ across 500+ companies"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffe3"
+                  },
+                  "type": "String",
+                  "textContent": "."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aefffec"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "ma2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffe5"
+                  },
+                  "type": "String",
+                  "textContent": "He holds an "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffe7"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffe6"
+                      },
+                      "type": "String",
+                      "textContent": "MBA in Strategic Finance from Cornell University's Johnson Graduate School of Management"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffe8"
+                  },
+                  "type": "String",
+                  "textContent": " and a "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffea"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffe9"
+                      },
+                      "type": "String",
+                      "textContent": "BA in Economics from UCLA"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffeb"
+                  },
+                  "type": "String",
+                  "textContent": ". He is fluent in Mandarin."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aeffff4"
+              },
+              "type": "Paragraph",
+              "styleNames": [
+                "ma2-body"
+              ],
+              "settings": {
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffed"
+                  },
+                  "type": "String",
+                  "textContent": "He is now the founder of "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aefffef"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aefffee"
+                      },
+                      "type": "String",
+                      "textContent": "exmxc.ai"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aeffff0"
+                  },
+                  "type": "String",
+                  "textContent": ", an intelligence institution focused on how AI systems reshape institutional positioning, capital allocation, and competitive strategy — and "
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aeffff2"
+                  },
+                  "type": "Strong",
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aeffff1"
+                      },
+                      "type": "String",
+                      "textContent": "TrailGenic"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aeffff3"
+                  },
+                  "type": "String",
+                  "textContent": ", an AI-native longevity methodology platform."
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076aeffff6"
+              },
+              "type": "Heading",
+              "styleNames": [
+                "ma2-section-title"
+              ],
+              "settings": {
+                "tag": "h2",
+                "visibility": true,
+                "headingLevel": 2
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076aeffff5"
+                  },
+                  "type": "String",
+                  "textContent": "Selected Transactions"
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076af00036"
+              },
+              "type": "List",
+              "styleNames": [
+                "ma2-ledger"
+              ],
+              "settings": {
+                "tag": "ul",
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00003"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076aeffff8"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-cat"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076aeffff7"
+                          },
+                          "type": "String",
+                          "textContent": "Buy-Side (Media)"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00002"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "ma2-ledger-detail"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076aeffff9"
+                          },
+                          "type": "String",
+                          "textContent": "Rolling Stone, Billboard, SXSW Festival, the Golden Globes / Dick Clark Productions, The Hollywood Reporter, Robb Report, Life Is Beautiful Festival, BuzzAngle Music, Sourcing Journal, SheKnows Media"
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00001"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-figure"
+                          ],
+                          "settings": {
+                            "tag": "figure",
+                            "visibility": true,
+                            "block": {
+                              "tag": "figure"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "47b285b6-7142-bcec-f345-166ac3386413"
+                              },
+                              "type": "Image",
+                              "styleNames": [
+                                "ma2-evidence-image"
+                              ],
+                              "settings": {
+                                "visibility": true,
+                                "assetId": "69f917f2d65b708c454de20b",
+                                "altText": "Mike Ye at the ACG Los Angeles Annual Awards Ceremony, 2018, Walt Disney Concert Hall, with VIP Award Winner badge from Penske Media Corp."
+                              }
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00000"
+                              },
+                              "type": "DOM",
+                              "styleNames": [
+                                "ma2-figure-caption"
+                              ],
+                              "attributes": {
+                                "class": "ma2-figure-caption"
+                              },
+                              "settings": {
+                                "tag": "figcaption",
+                                "visibility": true,
+                                "dom": {
+                                  "tag": "figcaption"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": {
+                                    "component": "69dbeb4f5968ee0aaeef2645",
+                                    "element": "80450ec1-f4f5-dabf-4389-5e076aeffffc"
+                                  },
+                                  "type": "String",
+                                  "textContent": "ACG Los Angeles — 2018 M"
+                                },
+                                {
+                                  "id": {
+                                    "component": "69dbeb4f5968ee0aaeef2645",
+                                    "element": "80450ec1-f4f5-dabf-4389-5e076aeffffd"
+                                  },
+                                  "type": "String",
+                                  "textContent": "&"
+                                },
+                                {
+                                  "id": {
+                                    "component": "69dbeb4f5968ee0aaeef2645",
+                                    "element": "80450ec1-f4f5-dabf-4389-5e076aeffffe"
+                                  },
+                                  "type": "String",
+                                  "textContent": "A Deal of the Year, Penske Media's acquisition of Rolling Stone."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00009"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00005"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-cat"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00004"
+                          },
+                          "type": "String",
+                          "textContent": "Strategic Investments (Media)"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00006"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00008"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-detail"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00007"
+                          },
+                          "type": "String",
+                          "textContent": "Vox Media, LDJ Productions, Music Business Worldwide, SXSW Innovations Fund"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af0000f"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0000b"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-cat"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0000a"
+                          },
+                          "type": "String",
+                          "textContent": "Sell-Side (Media)"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0000c"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0000e"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-detail"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0000d"
+                          },
+                          "type": "String",
+                          "textContent": "BGR, TVLine, HollywoodLife"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00015"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00011"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-cat"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00010"
+                          },
+                          "type": "String",
+                          "textContent": "Buy-Side (Healthcare)"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00012"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00014"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-detail"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00013"
+                          },
+                          "type": "String",
+                          "textContent": "Long Beach Outpatient Surgery — controlling stake acquisition, multi-specialty expansion, affiliated with Surgical Care Affiliates (subsequently acquired by Optum / UnitedHealth Group for $2.3B)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af0001b"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00017"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-cat"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00016"
+                          },
+                          "type": "String",
+                          "textContent": "Buy-Side (Retail)"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00018"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0001a"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-detail"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00019"
+                          },
+                          "type": "String",
+                          "textContent": "La Senza — $628M acquisition (L Brands)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00021"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0001d"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-cat"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0001c"
+                          },
+                          "type": "String",
+                          "textContent": "Sell-Side (Retail)"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0001e"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00020"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-detail"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0001f"
+                          },
+                          "type": "String",
+                          "textContent": "Express — $778M divestiture (L Brands)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00027"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00023"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-cat"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00022"
+                          },
+                          "type": "String",
+                          "textContent": "Capital Restructuring"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00024"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00026"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-detail"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00025"
+                          },
+                          "type": "String",
+                          "textContent": "$2.5B recapitalization — L Brands"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af0002d"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00029"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-cat"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00028"
+                          },
+                          "type": "String",
+                          "textContent": "Portfolio Exits"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0002a"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0002c"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-detail"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0002b"
+                          },
+                          "type": "String",
+                          "textContent": "Intel Capital exit program — $5B+ monetized across 500+ companies"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00035"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0002f"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-cat"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0002e"
+                          },
+                          "type": "String",
+                          "textContent": "Quantitative Capital"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00030"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00034"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-ledger-detail"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00031"
+                          },
+                          "type": "String",
+                          "textContent": "Mellon Capital Management — Vanguard Russell 2000 Value Fund, S"
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00032"
+                          },
+                          "type": "String",
+                          "textContent": "&"
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00033"
+                          },
+                          "type": "String",
+                          "textContent": "P 500 Index Plus Fund"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076af00038"
+              },
+              "type": "Heading",
+              "styleNames": [
+                "ma2-section-title"
+              ],
+              "settings": {
+                "tag": "h2",
+                "visibility": true,
+                "headingLevel": 2
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00037"
+                  },
+                  "type": "String",
+                  "textContent": "Career"
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076af0007b"
+              },
+              "type": "List",
+              "styleNames": [
+                "ma2-career"
+              ],
+              "settings": {
+                "tag": "ul",
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00044"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0003a"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-career-period"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00039"
+                          },
+                          "type": "String",
+                          "textContent": "2016 – 2025"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00043"
+                      },
+                      "type": "Block",
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0003e"
+                          },
+                          "type": "Heading",
+                          "styleNames": [
+                            "ma2-career-role"
+                          ],
+                          "settings": {
+                            "tag": "h3",
+                            "visibility": true,
+                            "headingLevel": 3
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0003b"
+                              },
+                              "type": "String",
+                              "textContent": "Vice President, Strategic Planning "
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0003c"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0003d"
+                              },
+                              "type": "String",
+                              "textContent": " Acquisitions"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00040"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-org"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0003f"
+                              },
+                              "type": "String",
+                              "textContent": "Penske Media Corporation — Los Angeles, CA"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00042"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-desc"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00041"
+                              },
+                              "type": "String",
+                              "textContent": "Led acquisitions, divestitures, and strategic investments across global media and experiential platforms. Transaction record includes Rolling Stone, Billboard, SXSW Festival, the Golden Globes, BuzzAngle Music, and Sourcing Journal."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00052"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00046"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-career-period"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00045"
+                          },
+                          "type": "String",
+                          "textContent": "2014 – 2016"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00051"
+                      },
+                      "type": "Block",
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00048"
+                          },
+                          "type": "Heading",
+                          "styleNames": [
+                            "ma2-career-role"
+                          ],
+                          "settings": {
+                            "tag": "h3",
+                            "visibility": true,
+                            "headingLevel": 3
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00047"
+                              },
+                              "type": "String",
+                              "textContent": "Director, Financial Operations"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0004a"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-org"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00049"
+                              },
+                              "type": "String",
+                              "textContent": "Surgical Care Affiliates — Los Angeles, CA"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00050"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-desc"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0004b"
+                              },
+                              "type": "String",
+                              "textContent": "Oversaw financial operations for 10+ ambulatory surgical centers. P"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0004c"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0004d"
+                              },
+                              "type": "String",
+                              "textContent": "L management, expansion support, and M"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0004e"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0004f"
+                              },
+                              "type": "String",
+                              "textContent": "A modeling. Led controlling stake acquisition and multi-specialty expansion of Long Beach Outpatient Surgery."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00060"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00054"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-career-period"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00053"
+                          },
+                          "type": "String",
+                          "textContent": "2006 – 2013"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0005f"
+                      },
+                      "type": "Block",
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00058"
+                          },
+                          "type": "Heading",
+                          "styleNames": [
+                            "ma2-career-role"
+                          ],
+                          "settings": {
+                            "tag": "h3",
+                            "visibility": true,
+                            "headingLevel": 3
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00055"
+                              },
+                              "type": "String",
+                              "textContent": "Director, Corporate Development "
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00056"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00057"
+                              },
+                              "type": "String",
+                              "textContent": " Finance"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0005a"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-org"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00059"
+                              },
+                              "type": "String",
+                              "textContent": "L Brands (Limited Brands) — New York, NY"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0005e"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-desc"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0005b"
+                              },
+                              "type": "String",
+                              "textContent": "Corporate development, strategic finance, and FP"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0005c"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0005d"
+                              },
+                              "type": "String",
+                              "textContent": "A. Led $778M divestiture of Express, supported $628M acquisition of La Senza and $2.5B capital restructuring."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af0006c"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00062"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-career-period"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00061"
+                          },
+                          "type": "String",
+                          "textContent": "Earlier"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0006b"
+                      },
+                      "type": "Block",
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00066"
+                          },
+                          "type": "Heading",
+                          "styleNames": [
+                            "ma2-career-role"
+                          ],
+                          "settings": {
+                            "tag": "h3",
+                            "visibility": true,
+                            "headingLevel": 3
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00063"
+                              },
+                              "type": "String",
+                              "textContent": "Senior Associate, Exits "
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00064"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00065"
+                              },
+                              "type": "String",
+                              "textContent": " Strategic Investments"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00068"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-org"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00067"
+                              },
+                              "type": "String",
+                              "textContent": "Intel Capital"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0006a"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-desc"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00069"
+                              },
+                              "type": "String",
+                              "textContent": "Portfolio exit program across 500+ companies."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af0007a"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0006e"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-career-period"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0006d"
+                          },
+                          "type": "String",
+                          "textContent": "Earlier"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00079"
+                      },
+                      "type": "Block",
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00072"
+                          },
+                          "type": "Heading",
+                          "styleNames": [
+                            "ma2-career-role"
+                          ],
+                          "settings": {
+                            "tag": "h3",
+                            "visibility": true,
+                            "headingLevel": 3
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0006f"
+                              },
+                              "type": "String",
+                              "textContent": "Portfolio Manager, Global Index "
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00070"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00071"
+                              },
+                              "type": "String",
+                              "textContent": " Hedge Strategies"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00074"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-org"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00073"
+                              },
+                              "type": "String",
+                              "textContent": "Mellon Capital Management"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00078"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-career-desc"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00075"
+                              },
+                              "type": "String",
+                              "textContent": "Index fund management including Vanguard Russell 2000 Value Fund and S"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00076"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00077"
+                              },
+                              "type": "String",
+                              "textContent": "P 500 Index Plus Fund."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076af0007d"
+              },
+              "type": "Heading",
+              "styleNames": [
+                "ma2-section-title"
+              ],
+              "settings": {
+                "tag": "h2",
+                "visibility": true,
+                "headingLevel": 2
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af0007c"
+                  },
+                  "type": "String",
+                  "textContent": "Education"
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076af0008a"
+              },
+              "type": "List",
+              "styleNames": [
+                "ma2-edu"
+              ],
+              "settings": {
+                "tag": "ul",
+                "visibility": true
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00083"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0007f"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-edu-degree"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0007e"
+                          },
+                          "type": "String",
+                          "textContent": "MBA, Strategic Finance"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00080"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00082"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-edu-school"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00081"
+                          },
+                          "type": "String",
+                          "textContent": "Cornell University — Johnson Graduate School of Management"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00089"
+                  },
+                  "type": "ListItem",
+                  "styleNames": [
+                    "ma2-row"
+                  ],
+                  "settings": {
+                    "visibility": true
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00085"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-edu-degree"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00084"
+                          },
+                          "type": "String",
+                          "textContent": "BA, Economics"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00086"
+                      },
+                      "type": "String",
+                      "textContent": " "
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00088"
+                      },
+                      "type": "Span",
+                      "styleNames": [
+                        "ma2-edu-school"
+                      ],
+                      "settings": {
+                        "visibility": true
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00087"
+                          },
+                          "type": "String",
+                          "textContent": "University of California, Los Angeles (UCLA)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076af00099"
+              },
+              "type": "Block",
+              "styleNames": [
+                "ma2-cta-block"
+              ],
+              "settings": {
+                "tag": "div",
+                "visibility": true,
+                "block": {
+                  "tag": "div"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af0008e"
+                  },
+                  "type": "Block",
+                  "styleNames": [
+                    "ma2-cta-label"
+                  ],
+                  "settings": {
+                    "tag": "div",
+                    "visibility": true,
+                    "block": {
+                      "tag": "div"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0008b"
+                      },
+                      "type": "String",
+                      "textContent": "Applied M"
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0008c"
+                      },
+                      "type": "String",
+                      "textContent": "&"
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0008d"
+                      },
+                      "type": "String",
+                      "textContent": "A"
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af00098"
+                  },
+                  "type": "Block",
+                  "styleNames": [
+                    "ma2-cta-grid"
+                  ],
+                  "settings": {
+                    "tag": "div",
+                    "visibility": true,
+                    "block": {
+                      "tag": "div"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af00097"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "ma2-cta-item"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00090"
+                          },
+                          "type": "Heading",
+                          "styleNames": [
+                            "ma2-cta-name"
+                          ],
+                          "settings": {
+                            "tag": "h3",
+                            "visibility": true,
+                            "headingLevel": 3
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0008f"
+                              },
+                              "type": "String",
+                              "textContent": "Exit Desk"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00092"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-cta-price"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00091"
+                              },
+                              "type": "String",
+                              "textContent": "$199 – $499 flat fee"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00094"
+                          },
+                          "type": "Block",
+                          "styleNames": [
+                            "ma2-cta-desc"
+                          ],
+                          "settings": {
+                            "tag": "div",
+                            "visibility": true,
+                            "block": {
+                              "tag": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00093"
+                              },
+                              "type": "String",
+                              "textContent": "Buyer-lens exit analysis for business owners preparing to sell. See what a serious buyer would see — calibrated to your scale, from Main Street to lower-middle market — before you walk into any process."
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af00096"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-cta-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/exit"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af00095"
+                              },
+                              "type": "String",
+                              "textContent": "Learn more →"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": {
+                "component": "69dbeb4f5968ee0aaeef2645",
+                "element": "80450ec1-f4f5-dabf-4389-5e076af000ca"
+              },
+              "type": "Block",
+              "styleNames": [
+                "ma2-footer"
+              ],
+              "attributes": {
+                "aria-label": "About and further reading"
+              },
+              "settings": {
+                "tag": "nav",
+                "visibility": true,
+                "block": {
+                  "tag": "nav"
+                }
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af000af"
+                  },
+                  "type": "Block",
+                  "settings": {
+                    "tag": "div",
+                    "visibility": true,
+                    "block": {
+                      "tag": "div"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af0009d"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "ma2-nav-group-label"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0009a"
+                          },
+                          "type": "String",
+                          "textContent": "Profile "
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0009b"
+                          },
+                          "type": "String",
+                          "textContent": "&"
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0009c"
+                          },
+                          "type": "String",
+                          "textContent": " Network"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af000ae"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "ma2-nav-links"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af0009f"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "rel": "noopener",
+                            "href": "https://www.mikeye.com/"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af0009e"
+                              },
+                              "type": "String",
+                              "textContent": "Home"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000a1"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "rel": "noopener",
+                            "href": "https://www.mikeye.com/about"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/about"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000a0"
+                              },
+                              "type": "String",
+                              "textContent": "About Mike Ye"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000a3"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "rel": "noopener",
+                            "href": "https://www.mikeye.com/about/record"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/about/record"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000a2"
+                              },
+                              "type": "String",
+                              "textContent": "PMC mastheads — role and tenure evidence"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000a5"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "rel": "noopener",
+                            "href": "https://www.mikeye.com/exit/story"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/exit/story"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000a4"
+                              },
+                              "type": "String",
+                              "textContent": "Why I Built Exit Desk"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000a7"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "rel": "noopener",
+                            "href": "https://www.mikeye.com/intelligence"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/intelligence"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000a6"
+                              },
+                              "type": "String",
+                              "textContent": "Intelligence Hub"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000a9"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/podcast/"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/podcast/"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000a8"
+                              },
+                              "type": "String",
+                              "textContent": "The Mike Ye Briefing Podcast"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000ab"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "rel": "noopener me",
+                            "href": "https://www.exmxc.ai/about-us/mike-ye"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.exmxc.ai/about-us/mike-ye"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000aa"
+                              },
+                              "type": "String",
+                              "textContent": "Profile at exmxc.ai"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000ad"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "rel": "noopener me",
+                            "href": "https://www.linkedin.com/in/michaelye73/"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.linkedin.com/in/michaelye73/"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000ac"
+                              },
+                              "type": "String",
+                              "textContent": "LinkedIn"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af000bb"
+                  },
+                  "type": "Block",
+                  "settings": {
+                    "tag": "div",
+                    "visibility": true,
+                    "block": {
+                      "tag": "div"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af000b1"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "ma2-nav-group-label"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000b0"
+                          },
+                          "type": "String",
+                          "textContent": "Advisory"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af000ba"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "ma2-nav-links"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000b3"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/exit"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000b2"
+                              },
+                              "type": "String",
+                              "textContent": "Exit Desk"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000b7"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit/articles"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/exit/articles"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000b4"
+                              },
+                              "type": "String",
+                              "textContent": "Articles "
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000b5"
+                              },
+                              "type": "String",
+                              "textContent": "&"
+                            },
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000b6"
+                              },
+                              "type": "String",
+                              "textContent": " Case Studies"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000b9"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit/sample"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/exit/sample"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000b8"
+                              },
+                              "type": "String",
+                              "textContent": "Sample Reports"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": {
+                    "component": "69dbeb4f5968ee0aaeef2645",
+                    "element": "80450ec1-f4f5-dabf-4389-5e076af000c9"
+                  },
+                  "type": "Block",
+                  "settings": {
+                    "tag": "div",
+                    "visibility": true,
+                    "block": {
+                      "tag": "div"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af000bd"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "ma2-nav-group-label"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000bc"
+                          },
+                          "type": "String",
+                          "textContent": "Decision Frames"
+                        }
+                      ]
+                    },
+                    {
+                      "id": {
+                        "component": "69dbeb4f5968ee0aaeef2645",
+                        "element": "80450ec1-f4f5-dabf-4389-5e076af000c8"
+                      },
+                      "type": "Block",
+                      "styleNames": [
+                        "ma2-nav-links"
+                      ],
+                      "settings": {
+                        "tag": "div",
+                        "visibility": true,
+                        "block": {
+                          "tag": "div"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000bf"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/intelligence/judgment-as-a-service"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/intelligence/judgment-as-a-service"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000be"
+                              },
+                              "type": "String",
+                              "textContent": "Judgment-as-a-Service"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000c1"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/intelligence/dependency-vs-leverage"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/intelligence/dependency-vs-leverage"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000c0"
+                              },
+                              "type": "String",
+                              "textContent": "Dependency vs. Leverage"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000c3"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/intelligence/timing-asymmetry"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/intelligence/timing-asymmetry"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000c2"
+                              },
+                              "type": "String",
+                              "textContent": "Timing Asymmetry"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000c5"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/intelligence/signal-vs-narrative"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/intelligence/signal-vs-narrative"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000c4"
+                              },
+                              "type": "String",
+                              "textContent": "Signal vs. Narrative"
+                            }
+                          ]
+                        },
+                        {
+                          "id": {
+                            "component": "69dbeb4f5968ee0aaeef2645",
+                            "element": "80450ec1-f4f5-dabf-4389-5e076af000c7"
+                          },
+                          "type": "Link",
+                          "styleNames": [
+                            "ma2-footer-link"
+                          ],
+                          "attributes": {
+                            "href": "https://www.mikeye.com/intelligence/scarcity-vs-growth"
+                          },
+                          "settings": {
+                            "visibility": true,
+                            "link": {
+                              "linkType": "url",
+                              "href": "https://www.mikeye.com/intelligence/scarcity-vs-growth"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69dbeb4f5968ee0aaeef2645",
+                                "element": "80450ec1-f4f5-dabf-4389-5e076af000c6"
+                              },
+                              "type": "String",
+                              "textContent": "Scarcity vs. Growth"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": {
+        "component": "69dbeb4f5968ee0aaeef2645",
+        "element": "d4caf896-8cd1-114e-4bc2-fe12f091cc12"
+      },
+      "type": "Section",
+      "settings": {
+        "tag": "section",
+        "visibility": false
+      },
+      "children": [
+        {
+          "id": {
+            "component": "69dbeb4f5968ee0aaeef2645",
+            "element": "d0578307-1ae0-1022-c766-7237856134a7"
+          },
+          "type": "HtmlEmbed",
+          "settings": {
+            "visibility": true
+          }
+        }
+      ]
+    }
+  ]
+}

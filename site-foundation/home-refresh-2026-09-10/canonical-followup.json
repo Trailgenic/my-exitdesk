@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://www.mikeye.com/",
+    "canonical": [
+      "https://www.mikeye.com/"
+    ],
+    "location": "https://www.mikeye.com/"
+  },
+  {
+    "url": "https://mikeye.com/",
+    "canonical": [
+      "https://www.mikeye.com/"
+    ],
+    "location": "https://www.mikeye.com/"
+  },
+  {
+    "url": "https://www.mikeye.com/about",
+    "canonical": [
+      "https://www.mikeye.com/about"
+    ],
+    "location": "https://www.mikeye.com/about"
+  }
+]

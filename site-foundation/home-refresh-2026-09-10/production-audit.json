@@ -1,0 +1,246 @@
+{
+  "verifiedAt": "2026-09-10T04:14:48.356748+00:00",
+  "passed": 55,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "HTTP 200 https://www.mikeye.com/",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/",
+      "passed": true,
+      "followup": "Fresh browser check confirms one correct canonical; root URL comparison normalizes the optional trailing slash."
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://mikeye.com/",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://mikeye.com/",
+      "passed": true,
+      "followup": "Fresh browser check confirms one correct canonical; root URL comparison normalizes the optional trailing slash."
+    },
+    {
+      "check": "JSON-LD https://mikeye.com/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/about",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/about",
+      "passed": true,
+      "followup": "Fresh browser check confirms one correct canonical; root URL comparison normalizes the optional trailing slash."
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/about",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/intelligence",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/intelligence",
+      "passed": true
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/intelligence",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/m-and-a",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/m-and-a",
+      "passed": true
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/m-and-a",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/tools-and-models",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/tools-and-models",
+      "passed": true
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/tools-and-models",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+      "passed": true
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
+      "passed": true
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability",
+      "passed": true
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+      "passed": true
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
+      "passed": true
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200 https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner",
+      "passed": true
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner",
+      "passed": true
+    },
+    {
+      "check": "JSON-LD https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner",
+      "passed": true
+    },
+    {
+      "check": "Homepage featured link deal-workflow",
+      "passed": true
+    },
+    {
+      "check": "Homepage featured link acquisition-mandate-target-screen",
+      "passed": true
+    },
+    {
+      "check": "Homepage featured link capital-allocation-deal-affordability",
+      "passed": true
+    },
+    {
+      "check": "Homepage featured link synergy-value-bridge",
+      "passed": true
+    },
+    {
+      "check": "Homepage featured link loi-economics-risk-allocator",
+      "passed": true
+    },
+    {
+      "check": "Homepage featured link carve-out-perimeter-tsa-planner",
+      "passed": true
+    },
+    {
+      "check": "No obsolete model availability claim",
+      "passed": true
+    },
+    {
+      "check": "No obsolete signature-lens label",
+      "passed": true
+    },
+    {
+      "check": "All-resource entry",
+      "passed": true
+    },
+    {
+      "check": "All-tools entry",
+      "passed": true
+    },
+    {
+      "check": "Homepage featured schema",
+      "passed": true
+    },
+    {
+      "check": "Related library navigation https://www.mikeye.com/about",
+      "passed": true
+    },
+    {
+      "check": "Related library navigation https://www.mikeye.com/intelligence",
+      "passed": true
+    },
+    {
+      "check": "Search description /",
+      "passed": true
+    },
+    {
+      "check": "Search description /m-and-a",
+      "passed": true
+    },
+    {
+      "check": "Search description /tools-and-models",
+      "passed": true
+    },
+    {
+      "check": "Tools scope refreshed",
+      "passed": true
+    },
+    {
+      "check": "Seven transaction stages retained",
+      "passed": true
+    },
+    {
+      "check": "Ten knowledge pillars retained",
+      "passed": true
+    }
+  ],
+  "visualQA": "Staging and production homepage feature cards inspected; one h1, no horizontal overflow. Existing responsive styles retained.",
+  "initialFindings": [
+    {
+      "check": "Canonical https://www.mikeye.com/",
+      "passed": false
+    },
+    {
+      "check": "Canonical https://mikeye.com/",
+      "passed": false
+    },
+    {
+      "check": "Canonical https://www.mikeye.com/about",
+      "passed": false
+    }
+  ],
+  "completedAt": "2026-09-10T04:16:55.901515+00:00"
+}

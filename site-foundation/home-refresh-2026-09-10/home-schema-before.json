@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.mikeye.com/#webpage",
+      "@type": "WebPage",
+      "about": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "description": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
+      "hasPart": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#library"
+        },
+        {
+          "@id": "https://www.mikeye.com/tools-and-models#tools"
+        }
+      ],
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/#website"
+      },
+      "name": "The Deal Is Only the Beginning. | Mike Ye",
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "url": "https://www.mikeye.com/"
+    }
+  ]
+}

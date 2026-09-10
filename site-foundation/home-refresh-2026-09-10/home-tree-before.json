@@ -1,0 +1,4662 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "3a42fa96-136d-3391-ffca-ddd3c1a9123d"
+              },
+              "settings": {
+                "visibility": true
+              },
+              "type": "HtmlEmbed"
+            }
+          ],
+          "id": {
+            "component": "69499e77d9c11f22288abc5d",
+            "element": "d31705f7-0c72-97dd-3dab-d77bdd505b85"
+          },
+          "settings": {
+            "tag": "div",
+            "visibility": true
+          },
+          "type": "BlockContainer"
+        }
+      ],
+      "id": {
+        "component": "69499e77d9c11f22288abc5d",
+        "element": "e93a706e-a92b-f80d-147b-c66487668349"
+      },
+      "settings": {
+        "tag": "section",
+        "visibility": false
+      },
+      "type": "Section"
+    },
+    {
+      "children": [
+        {
+          "attributes": {
+            "href": "#main-content"
+          },
+          "children": [
+            {
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ade"
+              },
+              "textContent": "Skip to content",
+              "type": "String"
+            }
+          ],
+          "id": {
+            "component": "69499e77d9c11f22288abc5d",
+            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5adf"
+          },
+          "settings": {
+            "visibility": true
+          },
+          "styleNames": [
+            "my1-skip"
+          ],
+          "type": "Link"
+        },
+        {
+          "children": [
+            {
+              "attributes": {
+                "href": "https://www.mikeye.com/"
+              },
+              "children": [
+                {
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae0"
+                  },
+                  "textContent": "Mike Ye",
+                  "type": "String"
+                },
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae1"
+                      },
+                      "textContent": "M",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae2"
+                      },
+                      "textContent": "&",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae3"
+                      },
+                      "textContent": "A · Corporate Development · Strategic Finance",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae4"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-brand-note"
+                  ],
+                  "type": "Span"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae5"
+              },
+              "settings": {
+                "link": {
+                  "href": "https://www.mikeye.com/",
+                  "linkType": "url"
+                },
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-brand"
+              ],
+              "type": "Link"
+            },
+            {
+              "attributes": {
+                "aria-label": "Primary"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "href": "/m-and-a"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae6"
+                      },
+                      "textContent": "M",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae7"
+                      },
+                      "textContent": "&",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae8"
+                      },
+                      "textContent": "A Library",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ae9"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "/m-and-a",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "type": "Link"
+                },
+                {
+                  "attributes": {
+                    "href": "/tools-and-models"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5aea"
+                      },
+                      "textContent": "Tools ",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5aeb"
+                      },
+                      "textContent": "&",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5aec"
+                      },
+                      "textContent": " Models",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5aed"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "/tools-and-models",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "type": "Link"
+                },
+                {
+                  "attributes": {
+                    "href": "https://www.mikeye.com/about"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5aee"
+                      },
+                      "textContent": "About Mike",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5aef"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "https://www.mikeye.com/about",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "type": "Link"
+                },
+                {
+                  "attributes": {
+                    "href": "/#products"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af0"
+                      },
+                      "textContent": "Applied Products",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af1"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "/#products",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "type": "Link"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af2"
+              },
+              "settings": {
+                "block": {
+                  "tag": "nav"
+                },
+                "tag": "nav",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-nav"
+              ],
+              "type": "Block"
+            }
+          ],
+          "id": {
+            "component": "69499e77d9c11f22288abc5d",
+            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af3"
+          },
+          "settings": {
+            "block": {
+              "tag": "header"
+            },
+            "tag": "header",
+            "visibility": true
+          },
+          "styleNames": [
+            "my1-header"
+          ],
+          "type": "Block"
+        },
+        {
+          "attributes": {
+            "id": "main-content",
+            "tabindex": "-1"
+          },
+          "children": [
+            {
+              "attributes": {
+                "aria-labelledby": "my1-title"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af4"
+                          },
+                          "textContent": "The practical M",
+                          "type": "String"
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af5"
+                          },
+                          "textContent": "&",
+                          "type": "String"
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af6"
+                          },
+                          "textContent": "A operating library",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af7"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-eyebrow"
+                      ],
+                      "type": "Paragraph"
+                    },
+                    {
+                      "attributes": {
+                        "id": "my1-title"
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af8"
+                          },
+                          "textContent": "The Deal Is Only the Beginning.",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5af9"
+                      },
+                      "settings": {
+                        "headingLevel": 1,
+                        "tag": "h1",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-title"
+                      ],
+                      "type": "Heading"
+                    },
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5afa"
+                          },
+                          "textContent": "M",
+                          "type": "String"
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5afb"
+                          },
+                          "textContent": "&",
+                          "type": "String"
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5afc"
+                          },
+                          "textContent": "A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5afd"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-lead"
+                      ],
+                      "type": "Paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5afe"
+                          },
+                          "textContent": "Transaction lessons and decision frameworks from Mike Ye’s experience across media, healthcare services, retail, and technology.",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5aff"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-copy"
+                      ],
+                      "type": "Paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "attributes": {
+                            "href": "#resources"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b00"
+                              },
+                              "textContent": "Explore the resources",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b01"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-button"
+                          ],
+                          "type": "Link"
+                        },
+                        {
+                          "attributes": {
+                            "href": "https://www.mikeye.com/about"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b02"
+                              },
+                              "textContent": "View Mike’s deal list →",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b03"
+                          },
+                          "settings": {
+                            "link": {
+                              "href": "https://www.mikeye.com/about",
+                              "linkType": "url"
+                            },
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-text-link"
+                          ],
+                          "type": "Link"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b04"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-actions"
+                      ],
+                      "type": "Block"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b05"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "type": "Block"
+                },
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "7db8df4b-286a-46b2-473b-d73430fce6b3"
+                      },
+                      "settings": {
+                        "altText": "Mike Ye",
+                        "assetId": "69c5c110700b43ddb283e090",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-portrait-image"
+                      ],
+                      "type": "Image"
+                    },
+                    {
+                      "attributes": {
+                        "class": "my1-caption"
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b08"
+                          },
+                          "textContent": "Mike Ye",
+                          "type": "String"
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b09"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "type": ""
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b0a"
+                          },
+                          "textContent": "25+ years across the deal lifecycle",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b0c"
+                      },
+                      "settings": {
+                        "dom": {
+                          "tag": "figcaption"
+                        },
+                        "tag": "figcaption",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-caption"
+                      ],
+                      "type": "DOM"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b0d"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "figure"
+                    },
+                    "tag": "figure",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-portrait"
+                  ],
+                  "type": "Block"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b0e"
+              },
+              "settings": {
+                "tag": "section",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-hero"
+              ],
+              "type": "Section"
+            },
+            {
+              "attributes": {
+                "aria-label": "Transaction experience"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b0f"
+                          },
+                          "textContent": "75+",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b10"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-proof-value"
+                      ],
+                      "type": "Strong"
+                    },
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b11"
+                          },
+                          "textContent": "Transactions",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b12"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-small"
+                      ],
+                      "type": "Span"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b13"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "type": "Block"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b14"
+                          },
+                          "textContent": "$500K–$2B+",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b15"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-proof-value"
+                      ],
+                      "type": "Strong"
+                    },
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b16"
+                          },
+                          "textContent": "Deal range",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b17"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-small"
+                      ],
+                      "type": "Span"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b18"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "type": "Block"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b19"
+                          },
+                          "textContent": "Four sectors",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b1a"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-proof-value"
+                      ],
+                      "type": "Strong"
+                    },
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b1b"
+                          },
+                          "textContent": "Media · Healthcare · Retail · Technology",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b1c"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-small"
+                      ],
+                      "type": "Span"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b1d"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "type": "Block"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b1e"
+              },
+              "settings": {
+                "tag": "section",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-proof"
+              ],
+              "type": "Section"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b1f"
+                      },
+                      "textContent": "Career evidence: ",
+                      "type": "String"
+                    },
+                    {
+                      "attributes": {
+                        "href": "https://www.mikeye.com/about/record"
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b20"
+                          },
+                          "textContent": "PMC masthead records",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b21"
+                      },
+                      "settings": {
+                        "link": {
+                          "href": "https://www.mikeye.com/about/record",
+                          "linkType": "url"
+                        },
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-text-link"
+                      ],
+                      "type": "Link"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b22"
+                      },
+                      "textContent": " document Mike’s title and tenure at Penske Media Corporation. His selected deals are listed on ",
+                      "type": "String"
+                    },
+                    {
+                      "attributes": {
+                        "href": "https://www.mikeye.com/about"
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b23"
+                          },
+                          "textContent": "About Mike",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b24"
+                      },
+                      "settings": {
+                        "link": {
+                          "href": "https://www.mikeye.com/about",
+                          "linkType": "url"
+                        },
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-text-link"
+                      ],
+                      "type": "Link"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b25"
+                      },
+                      "textContent": ".",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b26"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-small"
+                  ],
+                  "type": "Paragraph"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b27"
+              },
+              "settings": {
+                "block": {
+                  "tag": "aside"
+                },
+                "tag": "aside",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-evidence"
+              ],
+              "type": "Block"
+            },
+            {
+              "attributes": {
+                "aria-labelledby": "my1-library-title",
+                "id": "library"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b28"
+                          },
+                          "textContent": "01 / The deal lifecycle",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b29"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-eyebrow"
+                      ],
+                      "type": "Paragraph"
+                    },
+                    {
+                      "attributes": {
+                        "id": "my1-library-title"
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b2a"
+                          },
+                          "textContent": "From the acquisition thesis",
+                          "type": "String"
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b2b"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "type": ""
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b2c"
+                          },
+                          "textContent": "to the operating reality.",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b2d"
+                      },
+                      "settings": {
+                        "headingLevel": 2,
+                        "tag": "h2",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-section-title"
+                      ],
+                      "type": "Heading"
+                    },
+                    {
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b2e"
+                          },
+                          "textContent": "Explore the deal lifecycle, then use the valuation models, diligence handbook, and integration working pack to put the analysis to work.",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b2f"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-copy"
+                      ],
+                      "type": "Paragraph"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b30"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-section-intro"
+                  ],
+                  "type": "Block"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b31"
+                              },
+                              "textContent": "01",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b32"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b33"
+                              },
+                              "textContent": "Corporate development",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b34"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b35"
+                              },
+                              "textContent": "Acquisition strategy, strategic fit, and the discipline of deciding what not to buy.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b36"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b37"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b38"
+                              },
+                              "textContent": "02",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b39"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b3a"
+                              },
+                              "textContent": "Valuation",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b3b"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b3c"
+                              },
+                              "textContent": "Standalone value, normalized earnings, buyer context, and price discipline.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b3d"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b3e"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b3f"
+                              },
+                              "textContent": "03",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b40"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b41"
+                              },
+                              "textContent": "Financial modeling",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b42"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b43"
+                              },
+                              "textContent": "Translate assumptions into cash flows, returns, and decision-ready models.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b44"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b45"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b46"
+                              },
+                              "textContent": "04",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b47"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b48"
+                              },
+                              "textContent": "Industry ",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b49"
+                              },
+                              "textContent": "&",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b4a"
+                              },
+                              "textContent": " transaction comps",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b4b"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b4c"
+                              },
+                              "textContent": "Select comparable companies and transactions with an explicit basis for comparison.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b4d"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b4e"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b4f"
+                              },
+                              "textContent": "05",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b50"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b51"
+                              },
+                              "textContent": "Deal structure ",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b52"
+                              },
+                              "textContent": "&",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b53"
+                              },
+                              "textContent": " negotiation",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b54"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b55"
+                              },
+                              "textContent": "Understand control, consideration, contingent value, and allocation of risk.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b56"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b57"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b58"
+                              },
+                              "textContent": "06",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b59"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b5a"
+                              },
+                              "textContent": "Due diligence",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b5b"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b5c"
+                              },
+                              "textContent": "Test the business and the workflows that produce its results.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b5d"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b5e"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b5f"
+                              },
+                              "textContent": "07",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b60"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b61"
+                              },
+                              "textContent": "Synergies",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b62"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b63"
+                              },
+                              "textContent": "Separate buyer-specific upside from standalone value and the cost of delivery.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b64"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b65"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b66"
+                              },
+                              "textContent": "08",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b67"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b68"
+                              },
+                              "textContent": "Integration",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b69"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b6a"
+                              },
+                              "textContent": "Preserve revenue-producing capabilities while realizing operational improvements.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b6b"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b6c"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b6d"
+                              },
+                              "textContent": "09",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b6e"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b6f"
+                              },
+                              "textContent": "Divestitures ",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b70"
+                              },
+                              "textContent": "&",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b71"
+                              },
+                              "textContent": " carve-outs",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b72"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b73"
+                              },
+                              "textContent": "Define the perimeter, disentangle dependencies, and plan separation.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b74"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b75"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b76"
+                              },
+                              "textContent": "10",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b77"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-index"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b78"
+                              },
+                              "textContent": "Strategic finance",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b79"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-topic-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b7a"
+                              },
+                              "textContent": "Capital allocation, downside resilience, and decision-making under constraint.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b7b"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b7c"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-topic"
+                      ],
+                      "type": "Block"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b7d"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-topic-grid"
+                  ],
+                  "type": "Block"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b7e"
+              },
+              "settings": {
+                "tag": "section",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-section"
+              ],
+              "type": "Section"
+            },
+            {
+              "attributes": {
+                "aria-labelledby": "my1-resource-title",
+                "id": "resources"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b7f"
+                              },
+                              "textContent": "02 / Available now",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b80"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "attributes": {
+                            "id": "my1-resource-title"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b81"
+                              },
+                              "textContent": "Start with the work.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b82"
+                          },
+                          "settings": {
+                            "headingLevel": 2,
+                            "tag": "h2",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-section-title"
+                          ],
+                          "type": "Heading"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b83"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "type": "Block"
+                    },
+                    {
+                      "attributes": {
+                        "href": "https://www.mikeye.com/glossary"
+                      },
+                      "children": [
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b84"
+                          },
+                          "textContent": "M",
+                          "type": "String"
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b85"
+                          },
+                          "textContent": "&",
+                          "type": "String"
+                        },
+                        {
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b86"
+                          },
+                          "textContent": "A glossary →",
+                          "type": "String"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b87"
+                      },
+                      "settings": {
+                        "link": {
+                          "href": "https://www.mikeye.com/glossary",
+                          "linkType": "url"
+                        },
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-text-link"
+                      ],
+                      "type": "Link"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b88"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-section-heading"
+                  ],
+                  "type": "Block"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b89"
+                              },
+                              "textContent": "Tool",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b8a"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b8b"
+                              },
+                              "textContent": "Business valuation scenarios",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b8c"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b8d"
+                              },
+                              "textContent": "Explore the existing Exit Desk calculator and its indicative positioning scenarios.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b8e"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit/valuation"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b8f"
+                              },
+                              "textContent": "Explore Business valuation scenarios →",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b90"
+                          },
+                          "settings": {
+                            "link": {
+                              "href": "https://www.mikeye.com/exit/valuation",
+                              "linkType": "url"
+                            },
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-text-link"
+                          ],
+                          "type": "Link"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b91"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-card"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b92"
+                              },
+                              "textContent": "Framework",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b93"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b94"
+                              },
+                              "textContent": "The five decision frames",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b95"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b96"
+                              },
+                              "textContent": "Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b97"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "attributes": {
+                            "href": "https://www.mikeye.com/intelligence"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b98"
+                              },
+                              "textContent": "Explore The five decision frames →",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b99"
+                          },
+                          "settings": {
+                            "link": {
+                              "href": "https://www.mikeye.com/intelligence",
+                              "linkType": "url"
+                            },
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-text-link"
+                          ],
+                          "type": "Link"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b9a"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-card"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b9b"
+                              },
+                              "textContent": "Case study",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b9c"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b9d"
+                              },
+                              "textContent": "BuzzAngle Music",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b9e"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5b9f"
+                              },
+                              "textContent": "A strategic investment in music data, viewed through competitive position and capability.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba0"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit/articles/buzzangle-case-study"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba1"
+                              },
+                              "textContent": "Explore BuzzAngle Music →",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba2"
+                          },
+                          "settings": {
+                            "link": {
+                              "href": "https://www.mikeye.com/exit/articles/buzzangle-case-study",
+                              "linkType": "url"
+                            },
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-text-link"
+                          ],
+                          "type": "Link"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba3"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-card"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba4"
+                              },
+                              "textContent": "Case study",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba5"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba6"
+                              },
+                              "textContent": "Sourcing Journal",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba7"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba8"
+                              },
+                              "textContent": "Founder clarity, partner alignment, and the timing of a capability acquisition.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5ba9"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5baa"
+                              },
+                              "textContent": "Explore Sourcing Journal →",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bab"
+                          },
+                          "settings": {
+                            "link": {
+                              "href": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study",
+                              "linkType": "url"
+                            },
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-text-link"
+                          ],
+                          "type": "Link"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bac"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-card"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bad"
+                              },
+                              "textContent": "Case study",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bae"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5baf"
+                              },
+                              "textContent": "Long Beach Outpatient Surgery",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb0"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb1"
+                              },
+                              "textContent": "A controlling investment and the operating work behind a multi-specialty expansion.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb2"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb3"
+                              },
+                              "textContent": "Explore Long Beach Outpatient Surgery →",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb4"
+                          },
+                          "settings": {
+                            "link": {
+                              "href": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study",
+                              "linkType": "url"
+                            },
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-text-link"
+                          ],
+                          "type": "Link"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb5"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-card"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb6"
+                              },
+                              "textContent": "Checklist",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb7"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb8"
+                              },
+                              "textContent": "Exit readiness checklist",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bb9"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bba"
+                              },
+                              "textContent": "An existing seller-preparation checklist, organized around what buyers will examine.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bbb"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit/articles/exit-readiness-checklist"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bbc"
+                              },
+                              "textContent": "Explore Exit readiness checklist →",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bbd"
+                          },
+                          "settings": {
+                            "link": {
+                              "href": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
+                              "linkType": "url"
+                            },
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-text-link"
+                          ],
+                          "type": "Link"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bbe"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-card"
+                      ],
+                      "type": "Block"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bbf"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-resource-grid"
+                  ],
+                  "type": "Block"
+                },
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc0"
+                      },
+                      "textContent": "Public-media, retail, technology, and healthcare Excel models will be added after the original files and accompanying methodology are verified.",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc1"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-resource-note"
+                  ],
+                  "type": "Paragraph"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc2"
+              },
+              "settings": {
+                "tag": "section",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-section"
+              ],
+              "type": "Section"
+            },
+            {
+              "attributes": {
+                "aria-labelledby": "my1-workflow-title",
+                "id": "workflows"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc3"
+                      },
+                      "textContent": "03 / A signature lens · Framework in development",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc4"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-eyebrow-light"
+                  ],
+                  "type": "Paragraph"
+                },
+                {
+                  "attributes": {
+                    "id": "my1-workflow-title"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc5"
+                      },
+                      "textContent": "The numbers are the output.",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc6"
+                      },
+                      "settings": {
+                        "visibility": true
+                      },
+                      "type": ""
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc7"
+                      },
+                      "textContent": "Understand the workflows.",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc8"
+                  },
+                  "settings": {
+                    "headingLevel": 2,
+                    "tag": "h2",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-workflow-title"
+                  ],
+                  "type": "Heading"
+                },
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bc9"
+                      },
+                      "textContent": "A buyer acquires the people, decisions, systems, and relationships that repeatedly produce the financial results.",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bca"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-workflow-lead"
+                  ],
+                  "type": "Paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bcb"
+                              },
+                              "textContent": "Diligence",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bcc"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-step"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bcd"
+                              },
+                              "textContent": "Test transferability.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bce"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-workflow-subtitle"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bcf"
+                              },
+                              "textContent": "Follow one customer order from promise to payment. Ask who does the work, what happens when it goes wrong, and whether someone else can take over.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd0"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-workflow-copy"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd1"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd2"
+                              },
+                              "textContent": "Integration",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd3"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-step"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd4"
+                              },
+                              "textContent": "Make continuity explicit.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd5"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-workflow-subtitle"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd6"
+                              },
+                              "textContent": "Protect the work that keeps customers buying. For each change, name the person responsible, test it, and agree what would make the team pause.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd7"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-workflow-copy"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd8"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bd9"
+                              },
+                              "textContent": "AI readiness",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bda"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-step"
+                          ],
+                          "type": "Span"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bdb"
+                              },
+                              "textContent": "Separate knowledge from rights.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bdc"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-workflow-subtitle"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bdd"
+                              },
+                              "textContent": "Record whose data, tools, and know-how the work depends on. Check what can be shared before treating a documented workflow as something the business can license.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bde"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-workflow-copy"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bdf"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "div"
+                        },
+                        "tag": "div",
+                        "visibility": true
+                      },
+                      "type": "Block"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be0"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-workflow-grid"
+                  ],
+                  "type": "Block"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be1"
+              },
+              "settings": {
+                "tag": "section",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-workflow"
+              ],
+              "type": "Section"
+            },
+            {
+              "attributes": {
+                "aria-labelledby": "my1-next-title"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be2"
+                      },
+                      "textContent": "04 / Building the operating library",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be3"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-eyebrow"
+                  ],
+                  "type": "Paragraph"
+                },
+                {
+                  "attributes": {
+                    "id": "my1-next-title"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be4"
+                      },
+                      "textContent": "Two pillars. One continuous process.",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be5"
+                  },
+                  "settings": {
+                    "headingLevel": 2,
+                    "tag": "h2",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-section-title"
+                  ],
+                  "type": "Heading"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be6"
+                              },
+                              "textContent": "Due diligence · Handbook ",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be7"
+                              },
+                              "textContent": "&",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be8"
+                              },
+                              "textContent": " working pack",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5be9"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bea"
+                              },
+                              "textContent": "Reconstruct how the business works.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5beb"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bec"
+                              },
+                              "textContent": "Handbooks, request lists, issue logs, and workflow assessments that connect evidence to the acquisition decision.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bed"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bee"
+                              },
+                              "textContent": "Financial ",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bef"
+                              },
+                              "textContent": "&",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf0"
+                              },
+                              "textContent": " commercial diligence · Operational workflows · Key-person dependence · Technology, data ",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf1"
+                              },
+                              "textContent": "&",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf2"
+                              },
+                              "textContent": " rights",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf3"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "href": "/ma-resources/before-you-buy-follow-the-work"
+                              },
+                              "children": [
+                                {
+                                  "id": {
+                                    "component": "69499e77d9c11f22288abc5d",
+                                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf4"
+                                  },
+                                  "textContent": "Open the diligence handbook →",
+                                  "type": "String"
+                                }
+                              ],
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf5"
+                              },
+                              "settings": {
+                                "link": {
+                                  "href": "/ma-resources/before-you-buy-follow-the-work",
+                                  "linkType": "url"
+                                },
+                                "visibility": true
+                              },
+                              "styleNames": [
+                                "my1-text-link"
+                              ],
+                              "type": "Link"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf6"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf7"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-pillar"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf8"
+                              },
+                              "textContent": "Integration · Handbook ",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bf9"
+                              },
+                              "textContent": "&",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bfa"
+                              },
+                              "textContent": " working pack",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bfb"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bfc"
+                              },
+                              "textContent": "Carry the thesis through the handover.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bfd"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bfe"
+                              },
+                              "textContent": "Pre-close planning, Day 1 readiness, first-100-days workstreams, and trackers that connect diligence findings to accountable actions.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5bff"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c00"
+                              },
+                              "textContent": "Revenue continuity · Workflow ownership · Systems cutover · Synergy realization · Separation ",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c01"
+                              },
+                              "textContent": "&",
+                              "type": "String"
+                            },
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c02"
+                              },
+                              "textContent": " TSAs",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c03"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "href": "/ma-resources/after-the-deal-keep-the-business-working"
+                              },
+                              "children": [
+                                {
+                                  "id": {
+                                    "component": "69499e77d9c11f22288abc5d",
+                                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c04"
+                                  },
+                                  "textContent": "Open the integration handbook →",
+                                  "type": "String"
+                                }
+                              ],
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c05"
+                              },
+                              "settings": {
+                                "link": {
+                                  "href": "/ma-resources/after-the-deal-keep-the-business-working",
+                                  "linkType": "url"
+                                },
+                                "visibility": true
+                              },
+                              "styleNames": [
+                                "my1-text-link"
+                              ],
+                              "type": "Link"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c06"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c07"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-pillar"
+                      ],
+                      "type": "Block"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c08"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-pillar-grid"
+                  ],
+                  "type": "Block"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c09"
+              },
+              "settings": {
+                "tag": "section",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-section"
+              ],
+              "type": "Section"
+            },
+            {
+              "attributes": {
+                "id": "models"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c0a"
+                      },
+                      "textContent": "Tools ",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c0b"
+                      },
+                      "textContent": "&",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c0c"
+                      },
+                      "textContent": " Models",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c0d"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-eyebrow"
+                  ],
+                  "type": "Paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c0e"
+                      },
+                      "textContent": "Change an assumption. Follow the value.",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c0f"
+                  },
+                  "settings": {
+                    "headingLevel": 2,
+                    "tag": "h2",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-section-title"
+                  ],
+                  "type": "Heading"
+                },
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c10"
+                      },
+                      "textContent": "Download working Excel models for Gap, Salesforce, Ziff Davis, Surgery Partners, and NVIDIA. Compare trading multiples, discounted cash flow, transaction assumptions, sum-of-the-parts, and buyer affordability.",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c11"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-copy"
+                  ],
+                  "type": "Paragraph"
+                },
+                {
+                  "attributes": {
+                    "href": "/tools-and-models#company-models"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c12"
+                      },
+                      "textContent": "Explore the five company models",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c13"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "/tools-and-models#company-models",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-button"
+                  ],
+                  "type": "Link"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c14"
+              },
+              "settings": {
+                "tag": "section",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-section"
+              ],
+              "type": "Section"
+            },
+            {
+              "attributes": {
+                "aria-labelledby": "my1-products-title",
+                "id": "products"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c15"
+                      },
+                      "textContent": "05 / Applied M",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c16"
+                      },
+                      "textContent": "&",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c17"
+                      },
+                      "textContent": "A products",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c18"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-eyebrow"
+                  ],
+                  "type": "Paragraph"
+                },
+                {
+                  "attributes": {
+                    "id": "my1-products-title"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c19"
+                      },
+                      "textContent": "The judgment, applied to your side of the table.",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c1a"
+                  },
+                  "settings": {
+                    "headingLevel": 2,
+                    "tag": "h2",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-section-title"
+                  ],
+                  "type": "Heading"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c1b"
+                              },
+                              "textContent": "For sellers",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c1c"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c1d"
+                              },
+                              "textContent": "Exit Desk",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c1e"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c1f"
+                              },
+                              "textContent": "See the business through a buyer’s eyes before going to market. Start with the existing valuation calculator or free readiness diagnostic.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c20"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "attributes": {
+                            "href": "https://www.mikeye.com/exit"
+                          },
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c21"
+                              },
+                              "textContent": "Explore Exit Desk →",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c22"
+                          },
+                          "settings": {
+                            "link": {
+                              "href": "https://www.mikeye.com/exit",
+                              "linkType": "url"
+                            },
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-text-link"
+                          ],
+                          "type": "Link"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c23"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-product"
+                      ],
+                      "type": "Block"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c24"
+                              },
+                              "textContent": "For buyers · Not yet launched",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c25"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-eyebrow"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c26"
+                              },
+                              "textContent": "Acquisition Lens",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c27"
+                          },
+                          "settings": {
+                            "headingLevel": 3,
+                            "tag": "h3",
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-card-title"
+                          ],
+                          "type": "Heading"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c28"
+                              },
+                              "textContent": "Buyer-side screening, underwriting, and a structured acquisition assessment. The product remains in development and is not accepting purchases.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c29"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-copy"
+                          ],
+                          "type": "Paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "id": {
+                                "component": "69499e77d9c11f22288abc5d",
+                                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c2a"
+                              },
+                              "textContent": "Built around price discipline, downside resilience, and the evidence required to proceed.",
+                              "type": "String"
+                            }
+                          ],
+                          "id": {
+                            "component": "69499e77d9c11f22288abc5d",
+                            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c2b"
+                          },
+                          "settings": {
+                            "visibility": true
+                          },
+                          "styleNames": [
+                            "my1-small"
+                          ],
+                          "type": "Paragraph"
+                        }
+                      ],
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c2c"
+                      },
+                      "settings": {
+                        "block": {
+                          "tag": "article"
+                        },
+                        "tag": "article",
+                        "visibility": true
+                      },
+                      "styleNames": [
+                        "my1-product-buyer"
+                      ],
+                      "type": "Block"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c2d"
+                  },
+                  "settings": {
+                    "block": {
+                      "tag": "div"
+                    },
+                    "tag": "div",
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-pillar-grid"
+                  ],
+                  "type": "Block"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c2e"
+              },
+              "settings": {
+                "tag": "section",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-section"
+              ],
+              "type": "Section"
+            }
+          ],
+          "id": {
+            "component": "69499e77d9c11f22288abc5d",
+            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c2f"
+          },
+          "settings": {
+            "block": {
+              "tag": "main"
+            },
+            "tag": "main",
+            "visibility": true
+          },
+          "styleNames": [
+            "my1-main"
+          ],
+          "type": "Block"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "attributes": {
+                    "href": "https://www.mikeye.com/about"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c30"
+                      },
+                      "textContent": "Mike Ye",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c31"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "https://www.mikeye.com/about",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-footer-brand"
+                  ],
+                  "type": "Link"
+                },
+                {
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c32"
+                      },
+                      "textContent": "M",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c33"
+                      },
+                      "textContent": "&",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c34"
+                      },
+                      "textContent": "A judgment across the full deal lifecycle.",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c35"
+                  },
+                  "settings": {
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-small"
+                  ],
+                  "type": "Paragraph"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c36"
+              },
+              "settings": {
+                "block": {
+                  "tag": "div"
+                },
+                "tag": "div",
+                "visibility": true
+              },
+              "type": "Block"
+            },
+            {
+              "attributes": {
+                "aria-label": "Further reading"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "href": "https://www.mikeye.com/intelligence"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c37"
+                      },
+                      "textContent": "Decision frameworks",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c38"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "https://www.mikeye.com/intelligence",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "type": "Link"
+                },
+                {
+                  "attributes": {
+                    "href": "https://www.mikeye.com/podcast"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c39"
+                      },
+                      "textContent": "The Mike Ye Briefing",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c3a"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "https://www.mikeye.com/podcast",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "type": "Link"
+                },
+                {
+                  "attributes": {
+                    "href": "https://www.mikeye.com/glossary"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c3b"
+                      },
+                      "textContent": "M",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c3c"
+                      },
+                      "textContent": "&",
+                      "type": "String"
+                    },
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c3d"
+                      },
+                      "textContent": "A glossary",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c3e"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "https://www.mikeye.com/glossary",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "type": "Link"
+                },
+                {
+                  "attributes": {
+                    "href": "https://mcp.mikeye.com/.well-known/tool-registry.json"
+                  },
+                  "children": [
+                    {
+                      "id": {
+                        "component": "69499e77d9c11f22288abc5d",
+                        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c3f"
+                      },
+                      "textContent": "Machine-readable access",
+                      "type": "String"
+                    }
+                  ],
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c40"
+                  },
+                  "settings": {
+                    "link": {
+                      "href": "https://mcp.mikeye.com/.well-known/tool-registry.json",
+                      "linkType": "url"
+                    },
+                    "visibility": true
+                  },
+                  "styleNames": [
+                    "my1-nav-link"
+                  ],
+                  "type": "Link"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c41"
+              },
+              "settings": {
+                "block": {
+                  "tag": "nav"
+                },
+                "tag": "nav",
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-footer-links"
+              ],
+              "type": "Block"
+            },
+            {
+              "children": [
+                {
+                  "id": {
+                    "component": "69499e77d9c11f22288abc5d",
+                    "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c42"
+                  },
+                  "textContent": "Educational resources and decision frameworks. Transaction-specific conclusions require appropriate professional review.",
+                  "type": "String"
+                }
+              ],
+              "id": {
+                "component": "69499e77d9c11f22288abc5d",
+                "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c43"
+              },
+              "settings": {
+                "visibility": true
+              },
+              "styleNames": [
+                "my1-disclaimer"
+              ],
+              "type": "Paragraph"
+            }
+          ],
+          "id": {
+            "component": "69499e77d9c11f22288abc5d",
+            "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c44"
+          },
+          "settings": {
+            "block": {
+              "tag": "footer"
+            },
+            "tag": "footer",
+            "visibility": true
+          },
+          "styleNames": [
+            "my1-footer"
+          ],
+          "type": "Block"
+        }
+      ],
+      "id": {
+        "component": "69499e77d9c11f22288abc5d",
+        "element": "9a0da8b3-d44e-81e5-b851-4fc5450b5c45"
+      },
+      "settings": {
+        "block": {
+          "tag": "div"
+        },
+        "tag": "div",
+        "visibility": true
+      },
+      "styleNames": [
+        "my1-root"
+      ],
+      "type": "Block"
+    }
+  ],
+  "id": {
+    "component": "69499e77d9c11f22288abc5d",
+    "element": "69499e77d9c11f22288abc62"
+  },
+  "type": "Body"
+}
