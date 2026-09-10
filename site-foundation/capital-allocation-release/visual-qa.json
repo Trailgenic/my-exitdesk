@@ -1,0 +1,10 @@
+{
+  "status": "Reviewed",
+  "workbook": "All seven tabs visually reviewed across 13 rendered regions; Dashboard, Financing and Capacity also reviewed by parent.",
+  "staging": "Native guide hero, return definitions and Tools card reviewed in browser; one h1 and no horizontal overflow.",
+  "production": "Production guide hero and pinned download inspected in browser; one h1 and no horizontal overflow. Native new resource card inspected in live M&A Library; all seven stage IDs present.",
+  "limitations": [
+    "Desktop Excel unavailable; calculations use artifact-tool with independent arithmetic checks.",
+    "Separate mobile viewport unavailable; existing responsive native template and card styles reused."
+  ]
+}

@@ -5,7 +5,10 @@
   "hero_artifact": {
     "role": "Editable capital allocation and affordability workbook",
     "path": "public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
-    "entry_sheet": "Dashboard"
+    "entry_sheet": "Dashboard",
+    "bytes": 54196,
+    "sha256": "cdf044eb840ad6d5f277881354dc364528d8a0e4d78a7d47fa80b3dfe9946c33",
+    "asset_commit": "38b4a618cd3a4803f8fc1013c67e77938f7b4538"
   },
   "companion_artifact": {
     "role": "Methodology and usage guide",
@@ -13,5 +16,15 @@
     "source": "site-foundation/editorial/capital-allocation-deal-affordability.json"
   },
   "source_authority": "Mike supplied resource brief and acquisition doctrine; fictional Assumption inputs",
-  "status": "validation-in-progress"
+  "status": "published-and-verified",
+  "validation": {
+    "builder_checks_passed": 43,
+    "independent_checks_passed": 33,
+    "worker_smoke_passed": 89,
+    "formula_errors": 0,
+    "visual_regions": 13,
+    "production_checks_passed": 117,
+    "production_checks_failed": 0,
+    "verified_at": "2026-09-10T03:59:00.597032+00:00"
+  }
 }

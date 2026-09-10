@@ -44,3 +44,9 @@ Desktop Excel and a separate mobile browser viewport are unavailable. Calculatio
 ## Calculation review
 
 The builder completed 43 focused calculation and boundary checks; a separate imported-workbook review passed 33 independent checks, including bisection of project IRR and reconstruction of all annual cash and ratio schedules. Negative annual synergy cash-flow PV is retained in full; the seller-share input applies only to positive annual synergy PV. Transaction and financing fees are one shared Controls estimate across funding choices.
+
+## Published asset and deployment
+
+Workbook: 54,196 bytes, SHA-256 `cdf044eb840ad6d5f277881354dc364528d8a0e4d78a7d47fa80b3dfe9946c33`. Immutable asset commit: `38b4a618cd3a4803f8fc1013c67e77938f7b4538`. Content commit: `764fdd1058fb9535d0f35c716adbf8f6ea6ab5ea`. MCP commit: `553e098586ff79a8200129841abbf8c0080be36f`. Worker smoke: 89 passed, zero failed. Both deployments succeeded. Webflow published both root and www custom domains after a transient rate limit. All seven workbook tabs were reviewed across 13 rendered regions.
+
+Final production audit: **117 passed, zero failed**, verified 2026-09-10T03:59:00.597032+00:00. The inventory contains 19 resources, 13 workbook downloads and 14 Tools entries. All seven primary transaction-stage destinations and ten knowledge pillars are preserved. Actual HTML links, canonical routes, native JSON-LD, pinned download bytes and hashes, related-resource links, machine inventories and live MCP retrieval passed.
