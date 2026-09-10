@@ -1,0 +1,78 @@
+{
+  "passed": 18,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "URL loads: https://www.mikeye.com/ma-resources/public-company-comps-workbench",
+      "passed": true
+    },
+    {
+      "check": "Guide has populated link and no blank template download: https://www.mikeye.com/ma-resources/public-company-comps-workbench",
+      "passed": true
+    },
+    {
+      "check": "MediaObject uses populated workbook: https://www.mikeye.com/ma-resources/public-company-comps-workbench",
+      "passed": true
+    },
+    {
+      "check": "URL loads: https://mikeye.com/ma-resources/public-company-comps-workbench",
+      "passed": true
+    },
+    {
+      "check": "Guide has populated link and no blank template download: https://mikeye.com/ma-resources/public-company-comps-workbench",
+      "passed": true
+    },
+    {
+      "check": "MediaObject uses populated workbook: https://mikeye.com/ma-resources/public-company-comps-workbench",
+      "passed": true
+    },
+    {
+      "check": "URL loads: https://www.mikeye.com/m-and-a",
+      "passed": true
+    },
+    {
+      "check": "Index links populated workbench: https://www.mikeye.com/m-and-a",
+      "passed": true
+    },
+    {
+      "check": "MediaObject uses populated workbook: https://www.mikeye.com/m-and-a",
+      "passed": true
+    },
+    {
+      "check": "URL loads: https://www.mikeye.com/tools-and-models",
+      "passed": true
+    },
+    {
+      "check": "Index links populated workbench: https://www.mikeye.com/tools-and-models",
+      "passed": true
+    },
+    {
+      "check": "MediaObject uses populated workbook: https://www.mikeye.com/tools-and-models",
+      "passed": true
+    },
+    {
+      "check": "URL loads: https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa237da499a6768b19b5e74_CapitalIQ-Public-Comps-12-Sectors.xlsx",
+      "passed": true
+    },
+    {
+      "check": "Populated download SHA256 and size",
+      "passed": true
+    },
+    {
+      "check": "URL loads: https://mcp.mikeye.com/datasets/ma-library.json",
+      "passed": true
+    },
+    {
+      "check": "Populated inventory metadata: https://mcp.mikeye.com/datasets/ma-library.json",
+      "passed": true
+    },
+    {
+      "check": "URL loads: https://my-exitdesk.vercel.app/datasets/ma-library.json",
+      "passed": true
+    },
+    {
+      "check": "Populated inventory metadata: https://my-exitdesk.vercel.app/datasets/ma-library.json",
+      "passed": true
+    }
+  ]
+}

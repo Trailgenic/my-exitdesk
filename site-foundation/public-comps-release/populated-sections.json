@@ -1,7 +1,7 @@
 [
   {
     "heading": "Download the populated public-company comps",
-    "html": "<p><a href=\"https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa237da499a6768b19b5e74_CapitalIQ-Public-Comps-12-Sectors.xlsx\">Download the 12-sector public-company comps workbook</a> · Excel · 254 companies · Prices as of September 8, 2026</p><p>This is the populated workbook assembled by Claude from Mike's Capital IQ export. It includes company-level trading data, calculated multiples, peer-group summary statistics, business descriptions and comparability notes across all 12 sectors. The figures and summaries are retained from the supplied workbook.</p><p>Precedent M&amp;A is excluded. The earlier blank template has been replaced by this populated workbook.</p>"
+    "html": "<p><a href=\"https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa237da499a6768b19b5e74_CapitalIQ-Public-Comps-12-Sectors.xlsx\">Download the 12-sector public-company comps workbook</a> \u00b7 Excel \u00b7 254 companies \u00b7 Prices as of September 8, 2026</p><p>This populated workbook contains company data sourced from Capital IQ. It includes company-level trading data, calculated multiples, peer-group summary statistics, business descriptions and comparability notes across all 12 sectors. The figures and summaries are retained from the supplied workbook.</p><p>Precedent M&amp;A is excluded.</p>"
   },
   {
     "heading": "What is in the workbook",
@@ -21,6 +21,6 @@
   },
   {
     "heading": "Version",
-    "html": "<p>Version 1.1, September 10, 2026. Replaces the blank template with Claude's supplied 254-company workbook. Company figures and peer summaries are unchanged. The precedent M&amp;A tab was removed and the cover's peer-group count was corrected from 37 to 36.</p>"
+    "html": "<p>Version 1.1, September 10, 2026. Populated workbook of 254 public companies across 12 sectors. Prices dated September 8, 2026. Company figures and peer summaries are retained as supplied. Precedent M&amp;A is excluded.</p>"
   }
 ]
