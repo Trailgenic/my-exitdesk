@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#webpage",
+      "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+      "name": "Synergy Underwriting & Value Bridge",
+      "description": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+      }
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource",
+      "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+      "name": "Synergy Underwriting & Value Bridge",
+      "description": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": {
+        "@id": "https://www.mikeye.com/m-and-a#synergies"
+      },
+      "learningResourceType": "Synergy underwriting tool and Excel workbook",
+      "teaches": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
+      "version": "1.0",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "mainEntityOfPage": {
+        "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#webpage"
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#workbook",
+        "name": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "135876 bytes"
+      },
+      "keywords": [
+        "M&A synergies",
+        "synergy underwriting",
+        "buyer-created value",
+        "synergy realization",
+        "purchase price ceiling"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mikeye.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "M&A Library",
+          "item": "https://www.mikeye.com/m-and-a"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Synergy Underwriting & Value Bridge",
+          "item": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge"
+        }
+      ]
+    }
+  ]
+}

@@ -106,7 +106,8 @@
     ],
     "relatedResources": [
       "workflow-diligence",
-      "integration-continuity"
+      "integration-continuity",
+      "synergy-value-bridge"
     ],
     "webflowItemId": "6aa1f03acc577a948c9c5169",
     "download": {
@@ -137,7 +138,7 @@
     "version": "1.2",
     "contentReviewedAt": "2026-09-09",
     "publicationDate": "2026-09-08",
-    "cmsStatus": "ready-for-publication",
+    "cmsStatus": "published",
     "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
     "proposedPath": "/ma-resources/before-you-buy-follow-the-work",
     "sourceFile": "editorial/workflow-diligence.json",
@@ -168,7 +169,10 @@
       "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
       "version": "1.0",
       "downloadVerified": true
-    }
+    },
+    "relatedResources": [
+      "synergy-value-bridge"
+    ]
   },
   {
     "id": "integration-continuity",
@@ -181,7 +185,7 @@
     "version": "1.2",
     "contentReviewedAt": "2026-09-09",
     "publicationDate": "2026-09-08",
-    "cmsStatus": "ready-for-publication",
+    "cmsStatus": "published",
     "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
     "proposedPath": "/ma-resources/after-the-deal-keep-the-business-working",
     "sourceFile": "editorial/integration-continuity.json",
@@ -212,7 +216,10 @@
       "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
       "version": "1.0",
       "downloadVerified": true
-    }
+    },
+    "relatedResources": [
+      "synergy-value-bridge"
+    ]
   },
   {
     "id": "gap-valuation-model",
@@ -245,7 +252,7 @@
     "valuationDate": "2026-09-04",
     "contentReviewedAt": "2026-09-08",
     "publicationDate": "2026-09-08",
-    "cmsStatus": "ready-for-publication",
+    "cmsStatus": "published",
     "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
     "proposedPath": "/ma-resources/gap-retail-valuation-model",
     "sourceFile": "editorial/company-models.json",
@@ -287,7 +294,7 @@
     "valuationDate": "2026-09-04",
     "contentReviewedAt": "2026-09-08",
     "publicationDate": "2026-09-08",
-    "cmsStatus": "ready-for-publication",
+    "cmsStatus": "published",
     "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
     "proposedPath": "/ma-resources/salesforce-software-valuation-model",
     "sourceFile": "editorial/company-models.json",
@@ -329,7 +336,7 @@
     "valuationDate": "2026-09-04",
     "contentReviewedAt": "2026-09-08",
     "publicationDate": "2026-09-08",
-    "cmsStatus": "ready-for-publication",
+    "cmsStatus": "published",
     "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
     "proposedPath": "/ma-resources/ziff-davis-media-valuation-model",
     "sourceFile": "editorial/company-models.json",
@@ -371,7 +378,7 @@
     "valuationDate": "2026-09-04",
     "contentReviewedAt": "2026-09-08",
     "publicationDate": "2026-09-08",
-    "cmsStatus": "ready-for-publication",
+    "cmsStatus": "published",
     "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
     "proposedPath": "/ma-resources/surgery-partners-healthcare-valuation-model",
     "sourceFile": "editorial/company-models.json",
@@ -414,7 +421,7 @@
     "valuationDate": "2026-09-04",
     "contentReviewedAt": "2026-09-08",
     "publicationDate": "2026-09-08",
-    "cmsStatus": "ready-for-publication",
+    "cmsStatus": "published",
     "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
     "proposedPath": "/ma-resources/nvidia-ai-infrastructure-valuation-model",
     "sourceFile": "editorial/company-models.json",
@@ -424,5 +431,54 @@
     ],
     "webflowItemId": "6a9f3f2c598f07756d56ea73",
     "workbookVerifiedAt": "2026-09-08"
+  },
+  {
+    "id": "synergy-value-bridge",
+    "name": "Synergy Underwriting & Value Bridge",
+    "slug": "synergy-underwriting-value-bridge",
+    "format": "Tool",
+    "topic": "synergies",
+    "summary": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
+    "decision": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
+    "version": "1.0",
+    "updated": "2026-09-10",
+    "status": "published",
+    "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+    "proposedPath": "/ma-resources/synergy-underwriting-value-bridge",
+    "sourceFile": "editorial/synergy-value-bridge.json",
+    "sourcePrinciples": [
+      "buyer-keeps-synergy",
+      "protect-revenue-integrate-cost",
+      "unknowns-are-findings",
+      "survive-the-downside",
+      "ceiling-and-patience",
+      "decision-not-description"
+    ],
+    "relatedResources": [
+      "deal-workflow",
+      "workflow-diligence",
+      "integration-continuity"
+    ],
+    "download": {
+      "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+      "repositoryPath": "public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+      "version": "1.0",
+      "bytes": 135876,
+      "sha256": "f42cd99478f77a8f0664383dd81476dac4218cd5d575e1169c2341353ede48f1",
+      "sheets": [
+        "Dashboard",
+        "Assumptions",
+        "Cash Flow",
+        "Initiatives",
+        "Delivery",
+        "Guide"
+      ],
+      "downloadVerified": true
+    },
+    "webflowItemId": "6aa1fa5ccae8df99de4384f1",
+    "contentReviewedAt": "2026-09-10",
+    "publicationDate": "2026-09-10",
+    "cmsStatus": "published"
   }
 ]

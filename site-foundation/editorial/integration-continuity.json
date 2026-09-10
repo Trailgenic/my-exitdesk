@@ -64,6 +64,10 @@
     {
       "heading": "Run a short weekly working meeting",
       "html": "<p>This suggested cadence is a practical way to apply the principles. Review customer and revenue problems first, then cash, people and systems, then the planned improvements. Ask what changed since last week, what needs a decision, and who will act by when.</p><p>Mark work complete when it has been demonstrated, the receiving owner accepts it and the result can be checked. A green status box is not evidence. Keep unresolved decisions visible and carry them into the next meeting.</p><p><strong>A useful first-100-days plan</strong> is a sequence of these owned decisions and tested changes. It is not a requirement to force every customer, team and system onto the same timetable.</p>"
+    },
+    {
+      "heading": "Underwrite the synergy before counting it",
+      "html": "<p>Use the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a> to separate standalone value from buyer-created cash benefits, price delivery costs and risk, set the amount shared with the seller, and assign operating owners.</p>"
     }
   ],
   "sourceNotes": "",
@@ -83,5 +87,8 @@
     "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
     "version": "1.0",
     "downloadVerified": true
-  }
+  },
+  "relatedResources": [
+    "synergy-value-bridge"
+  ]
 }

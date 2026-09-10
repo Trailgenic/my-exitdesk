@@ -27,7 +27,8 @@
   ],
   "relatedResources": [
     "workflow-diligence",
-    "integration-continuity"
+    "integration-continuity",
+    "synergy-value-bridge"
   ],
   "download": {
     "filename": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
@@ -86,6 +87,10 @@
     {
       "heading": "Use the deeper workbooks when the workflow points there",
       "html": "<p>The deal workflow is the spine. Use <a href=\"/ma-resources/before-you-buy-follow-the-work\">Before You Buy: Follow the Work</a> for the detailed diligence questions and workflow-transferability map. Use <a href=\"/ma-resources/after-the-deal-keep-the-business-working\">After the Deal: Keep the Business Working</a> for Day 1, workflow decisions, synergies, and integration risks.</p>"
+    },
+    {
+      "heading": "Underwrite the synergy before counting it",
+      "html": "<p>Use the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a> to separate standalone value from buyer-created cash benefits, price delivery costs and risk, set the amount shared with the seller, and assign operating owners.</p>"
     }
   ],
   "sourceNotes": ""

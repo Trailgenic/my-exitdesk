@@ -160,7 +160,7 @@
     {
       "@type": "DefinedTermSet",
       "@id": "https://www.mikeye.com/m-and-a#ontology",
-      "name": "Mike Ye M&A deal lifecycle",
+      "name": "Mike Ye M&A knowledge pillars",
       "hasDefinedTerm": [
         {
           "@type": "DefinedTerm",
@@ -260,6 +260,128 @@
           "termCode": "strategic-finance",
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.mikeye.com/m-and-a#transaction-path",
+      "name": "Mike Ye M&A transaction path",
+      "description": "Seven ordered transaction stages; the ten M&A knowledge pillars are a separate subject taxonomy.",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": 7,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.mikeye.com/m-and-a#stage-mandate",
+            "name": "Mandate",
+            "description": "Why acquire instead of build, partner, or do nothing? Evidence: A defined business need, capital envelope, risk limits, executive sponsor, and decision authority. Judgment: Frame before detail. The target must serve the mandate. Decision gates: Gate 0 · Mandate approved.",
+            "isPartOf": {
+              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            },
+            "hasPart": {
+              "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.mikeye.com/m-and-a#stage-thesis-targets",
+            "name": "Thesis & Targets",
+            "description": "What must be true, and which targets fit and can actually be bought? Evidence: Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test. Judgment: Underwrite rather than admire. Strategic appeal does not establish transactability. Decision gates: Gates 1–2 · Thesis and target approved.",
+            "isPartOf": {
+              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            },
+            "hasPart": {
+              "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.mikeye.com/m-and-a#stage-first-look-underwriting",
+            "name": "First Look & Underwriting",
+            "description": "Do access, standalone economics, financing, and downside support a bid? Evidence: Minimum information package, reconstructed financials, valuation range, financing case, and private price ceiling. Judgment: Replicate the financials. Keep buyer-created synergy separate from standalone value. Decision gates: Gates 3–4 · Access and economics approved.",
+            "isPartOf": {
+              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            },
+            "hasPart": {
+              "@id": "https://www.mikeye.com/tools-and-models#webpage"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.mikeye.com/m-and-a#stage-loi-diligence",
+            "name": "LOI & Diligence",
+            "description": "Are core terms clear, and can the team test the conditions behind the thesis? Evidence: Approved LOI, evidence requests, workflow tests, accountable workstream owners, and a live issue log. Judgment: Unknowns are findings. Give each material issue a consequence: Investigate, Price, Protect, or Walk. Decision gates: Gates 5–6 · Exclusivity approved and diligence launched.",
+            "isPartOf": {
+              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            },
+            "hasPart": {
+              "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.mikeye.com/m-and-a#stage-re-underwrite-sign",
+            "name": "Re-underwrite & Sign",
+            "description": "Does the deal still work on the facts and terms now in front of the buyer? Evidence: Revised valuation and synergy case, combined downside, final economics, protections, closing conditions, and integration owners. Judgment: Re-establish the price ceiling before signing. Prior spending does not justify the next commitment. Decision gates: Gates 7–8 · Re-underwriting and signing approved.",
+            "isPartOf": {
+              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            },
+            "hasPart": {
+              "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.mikeye.com/m-and-a#stage-close-day-one",
+            "name": "Close & Day 1",
+            "description": "Can funds and control transfer while the business keeps working? Evidence: Funds flow, required consents and clearances, closing checklist, and customer, cash, people, and system readiness. Judgment: Protect revenue while integrating cost. Do not confuse signing with operating readiness. Decision gates: Gates 9–10 · Closing approved and Day 1 stable.",
+            "isPartOf": {
+              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            },
+            "hasPart": {
+              "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "CreativeWork",
+            "@id": "https://www.mikeye.com/m-and-a#stage-value-delivery-review",
+            "name": "Value Delivery & Review",
+            "description": "Has the buyer delivered the underwritten value, and what should change next time? Evidence: 30/60/100-day reviews, realized cash benefits and costs, workflow decisions, revised forecasts, and residual action owners. Judgment: Compare results with the original thesis. A synergy belongs in the results only when the operating work delivers it. Decision gates: Gates 11–12 · Value delivery confirmed and program closed.",
+            "isPartOf": {
+              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            },
+            "hasPart": {
+              "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+            }
           }
         }
       ]
@@ -436,7 +558,12 @@
         "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "43228 bytes"
-      }
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        }
+      ]
     },
     {
       "@type": [
@@ -484,7 +611,12 @@
         "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "37249 bytes"
-      }
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        }
+      ]
     },
     {
       "@type": [
@@ -532,7 +664,12 @@
         "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "36674 bytes"
-      }
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        }
+      ]
     },
     {
       "@type": [
@@ -733,6 +870,66 @@
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "90814 bytes"
       }
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource",
+      "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+      "name": "Synergy Underwriting & Value Bridge",
+      "description": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "about": {
+        "@id": "https://www.mikeye.com/m-and-a#synergies"
+      },
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "isAccessibleForFree": true,
+      "learningResourceType": "Synergy underwriting tool and formula-driven Excel workbook",
+      "teaches": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "version": "1.0",
+      "creativeWorkStatus": "Published",
+      "mainEntityOfPage": {
+        "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#webpage"
+      },
+      "keywords": [
+        "M&A synergies",
+        "synergy underwriting",
+        "synergy value bridge",
+        "buyer-created value",
+        "synergy execution risk",
+        "post-close value delivery"
+      ],
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#workbook",
+        "name": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "135876 bytes"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        }
+      ]
     }
   ]
 }

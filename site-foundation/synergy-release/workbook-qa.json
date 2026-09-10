@@ -1,0 +1,310 @@
+{
+  "sampleNPV": 1079.656168982944,
+  "downside": -492.05872094077256,
+  "assertions": [
+    {
+      "name": "Base NPV is numeric",
+      "passed": true,
+      "actual": 1079.656168982944
+    },
+    {
+      "name": "Independent ramp and cash model agrees",
+      "passed": true,
+      "actual": 1079.6561689829837
+    },
+    {
+      "name": "Missing private ceiling withholds supported price",
+      "passed": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Zero seller share offers standalone EV",
+      "passed": true,
+      "actual": 20000
+    },
+    {
+      "name": "Positive seller sharing flows to supported price",
+      "passed": true,
+      "actual": 20269.914042245735
+    },
+    {
+      "name": "Downside reduces synergy NPV",
+      "passed": true,
+      "actual": -492.05872094077256
+    },
+    {
+      "name": "Later-year assumption updates build",
+      "passed": true,
+      "actual": 975.5900836441531
+    },
+    {
+      "name": "Blank unselected case does not block Base",
+      "passed": true,
+      "actual": 1079.656168982944
+    },
+    {
+      "name": "Selecting missing case withholds forecast",
+      "passed": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Blank economic input remains unpriced",
+      "passed": true,
+      "actual": "Unpriced inputs"
+    },
+    {
+      "name": "Explicit zero accepted",
+      "passed": true,
+      "actual": "Complete"
+    },
+    {
+      "name": "Duplicate ID rejected",
+      "passed": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Start outside horizon gives no revenue benefit",
+      "passed": true,
+      "actual": 0
+    },
+    {
+      "name": "Zero ramp gives full first-year cost capture",
+      "passed": true,
+      "actual": 1
+    },
+    {
+      "name": "Fourth initiative flows into aggregate",
+      "passed": true,
+      "actual": 2329.1887452183855
+    },
+    {
+      "name": "Resolved finding cannot hide missing owner",
+      "passed": true,
+      "actual": "Missing owner / action / evidence"
+    },
+    {
+      "name": "One reported actual cannot establish net cash",
+      "passed": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Actual net cash deducts cost and exposes overrun",
+      "passed": true,
+      "actual": [
+        -400,
+        -20
+      ]
+    },
+    {
+      "name": "Zero actual accepted",
+      "passed": true,
+      "actual": 0
+    },
+    {
+      "name": "Negative synergy reduces zero-share offer",
+      "passed": true,
+      "actual": 3536.5382283903964
+    },
+    {
+      "name": "Usable tax shield increases NPV",
+      "passed": true,
+      "actual": 1234.7305737448492
+    },
+    {
+      "name": "ID join survives input row reorder",
+      "passed": true,
+      "actual": "Cross-sell existing customers"
+    },
+    {
+      "name": "Private hard ceiling constrains bid",
+      "passed": true,
+      "actual": [
+        19000,
+        "Above supported price"
+      ]
+    },
+    {
+      "name": "Buyer retained value at proposed EV uses economic value",
+      "passed": true,
+      "actual": 1079.6561689829432
+    },
+    {
+      "name": "Final Base restored",
+      "passed": true,
+      "actual": 1079.656168982944
+    },
+    {
+      "name": "Cash and sensitivity checks reconcile",
+      "passed": true,
+      "actual": [
+        -4.547473508864641e-13,
+        4.547473508864641e-13
+      ]
+    }
+  ],
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "dashboard": [
+    [
+      "Standalone enterprise value",
+      null,
+      null,
+      20000,
+      null,
+      "Pricing status",
+      null,
+      null
+    ],
+    [
+      "Net buyer-created synergy NPV",
+      null,
+      null,
+      1079.656168982944,
+      null,
+      "Missing affordability ceiling",
+      null,
+      null
+    ],
+    [
+      "Maximum economics-supported EV",
+      null,
+      null,
+      21079.656168982943,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Seller share of positive net synergy",
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Offer supported by seller-sharing policy",
+      null,
+      null,
+      20000,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Private affordability ceiling",
+      null,
+      null,
+      "n.a.",
+      null,
+      "Unpriced initiatives",
+      null,
+      0
+    ],
+    [
+      "Maximum supported purchase price (EV)",
+      null,
+      null,
+      "n.a.",
+      null,
+      "Open handoffs",
+      null,
+      3
+    ],
+    [
+      "Buyer-retained net synergy value",
+      null,
+      null,
+      1079.656168982944,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "cash": [
+    [
+      "Gross synergy before probability",
+      0,
+      524.5833333333334,
+      1311.6666666666667,
+      1430,
+      1430,
+      1430,
+      null
+    ],
+    [
+      "Risk-adjusted synergy before dis-synergies",
+      0,
+      452.6666666666667,
+      1025.3333333333335,
+      1108,
+      1108,
+      1108,
+      null
+    ],
+    [
+      "Dis-synergies",
+      0,
+      160,
+      160,
+      160,
+      160,
+      160,
+      null
+    ],
+    [
+      "Cash tax expense / (benefit)",
+      0,
+      101.25,
+      216.33333333333334,
+      237,
+      237,
+      237,
+      null
+    ],
+    [
+      "Implementation cash, after tax",
+      670,
+      0,
+      0,
+      0,
+      0,
+      0,
+      null
+    ],
+    [
+      "Capital and working capital",
+      300,
+      0,
+      0,
+      0,
+      0,
+      0,
+      null
+    ],
+    [
+      "Net incremental cash",
+      -970,
+      191.41666666666666,
+      649,
+      711,
+      711,
+      711,
+      null
+    ],
+    [
+      "Discounted incremental cash",
+      -970,
+      170.90773809523807,
+      517.3788265306122,
+      506.07575619533515,
+      451.85335374583485,
+      403.44049441592404,
+      1079.656168982944
+    ]
+  ]
+}

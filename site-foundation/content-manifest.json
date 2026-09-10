@@ -1,8 +1,8 @@
 {
-  "version": "2.0.0",
-  "updated": "2026-09-09",
+  "version": "2.1.0",
+  "updated": "2026-09-10",
   "canonicalOrigin": "https://www.mikeye.com",
-  "phase": "published-practical-ma-library",
+  "phase": "transaction-path-and-synergy-value-bridge",
   "positioning": {
     "headline": "The Deal Is Only the Beginning.",
     "supportingStatement": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
@@ -211,7 +211,8 @@
       ],
       "relatedResources": [
         "workflow-diligence",
-        "integration-continuity"
+        "integration-continuity",
+        "synergy-value-bridge"
       ],
       "webflowItemId": "6aa1f03acc577a948c9c5169",
       "download": {
@@ -273,7 +274,10 @@
         "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
         "version": "1.0",
         "downloadVerified": true
-      }
+      },
+      "relatedResources": [
+        "synergy-value-bridge"
+      ]
     },
     {
       "id": "integration-continuity",
@@ -317,7 +321,10 @@
         "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
         "version": "1.0",
         "downloadVerified": true
-      }
+      },
+      "relatedResources": [
+        "synergy-value-bridge"
+      ]
     },
     {
       "id": "gap-valuation-model",
@@ -529,6 +536,55 @@
       ],
       "webflowItemId": "6a9f3f2c598f07756d56ea73",
       "workbookVerifiedAt": "2026-09-08"
+    },
+    {
+      "id": "synergy-value-bridge",
+      "name": "Synergy Underwriting & Value Bridge",
+      "slug": "synergy-underwriting-value-bridge",
+      "format": "Tool",
+      "topic": "synergies",
+      "summary": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
+      "decision": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
+      "version": "1.0",
+      "updated": "2026-09-10",
+      "status": "published",
+      "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+      "proposedPath": "/ma-resources/synergy-underwriting-value-bridge",
+      "sourceFile": "editorial/synergy-value-bridge.json",
+      "sourcePrinciples": [
+        "buyer-keeps-synergy",
+        "protect-revenue-integrate-cost",
+        "unknowns-are-findings",
+        "survive-the-downside",
+        "ceiling-and-patience",
+        "decision-not-description"
+      ],
+      "relatedResources": [
+        "deal-workflow",
+        "workflow-diligence",
+        "integration-continuity"
+      ],
+      "download": {
+        "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "repositoryPath": "public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "version": "1.0",
+        "bytes": 135876,
+        "sha256": "f42cd99478f77a8f0664383dd81476dac4218cd5d575e1169c2341353ede48f1",
+        "sheets": [
+          "Dashboard",
+          "Assumptions",
+          "Cash Flow",
+          "Initiatives",
+          "Delivery",
+          "Guide"
+        ],
+        "downloadVerified": true
+      },
+      "webflowItemId": "6aa1fa5ccae8df99de4384f1",
+      "contentReviewedAt": "2026-09-10",
+      "publicationDate": "2026-09-10",
+      "cmsStatus": "published"
     }
   ],
   "products": [
@@ -1767,8 +1823,151 @@
     }
   },
   "publication": {
-    "date": "2026-09-08",
-    "verifiedAt": "2026-09-08T03:19:14.411Z",
-    "audit": "site-foundation/launch/production-audit.json"
-  }
+    "date": "2026-09-10",
+    "status": "published-live-verification-in-progress",
+    "domains": [
+      "www.mikeye.com",
+      "mikeye.com"
+    ],
+    "audit": "site-foundation/synergy-release/production-audit.json"
+  },
+  "transactionPath": {
+    "version": "1.0",
+    "updated": "2026-09-10",
+    "heading": "Follow the transaction path",
+    "pillarHeading": "Explore the work of M&A",
+    "stages": [
+      {
+        "id": "mandate",
+        "name": "Mandate",
+        "decision": "Why acquire instead of build, partner, or do nothing?",
+        "evidence": "A defined business need, capital envelope, risk limits, executive sponsor, and decision authority.",
+        "judgment": "Frame before detail. The target must serve the mandate.",
+        "gates": "Gate 0 · Mandate approved",
+        "resource": "The M&A Deal Workflow",
+        "url": "/ma-resources/ma-deal-workflow-checklist"
+      },
+      {
+        "id": "thesis-targets",
+        "name": "Thesis & Targets",
+        "decision": "What must be true, and which targets fit and can actually be bought?",
+        "evidence": "Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test.",
+        "judgment": "Underwrite rather than admire. Strategic appeal does not establish transactability.",
+        "gates": "Gates 1–2 · Thesis and target approved",
+        "resource": "The M&A Deal Workflow",
+        "url": "/ma-resources/ma-deal-workflow-checklist"
+      },
+      {
+        "id": "first-look-underwriting",
+        "name": "First Look & Underwriting",
+        "decision": "Do access, standalone economics, financing, and downside support a bid?",
+        "evidence": "Minimum information package, reconstructed financials, valuation range, financing case, and private price ceiling.",
+        "judgment": "Replicate the financials. Keep buyer-created synergy separate from standalone value.",
+        "gates": "Gates 3–4 · Access and economics approved",
+        "resource": "Valuation models and working tools",
+        "url": "/tools-and-models"
+      },
+      {
+        "id": "loi-diligence",
+        "name": "LOI & Diligence",
+        "decision": "Are core terms clear, and can the team test the conditions behind the thesis?",
+        "evidence": "Approved LOI, evidence requests, workflow tests, accountable workstream owners, and a live issue log.",
+        "judgment": "Unknowns are findings. Give each material issue a consequence: Investigate, Price, Protect, or Walk.",
+        "gates": "Gates 5–6 · Exclusivity approved and diligence launched",
+        "resource": "Before You Buy: Follow the Work",
+        "url": "/ma-resources/before-you-buy-follow-the-work"
+      },
+      {
+        "id": "re-underwrite-sign",
+        "name": "Re-underwrite & Sign",
+        "decision": "Does the deal still work on the facts and terms now in front of the buyer?",
+        "evidence": "Revised valuation and synergy case, combined downside, final economics, protections, closing conditions, and integration owners.",
+        "judgment": "Re-establish the price ceiling before signing. Prior spending does not justify the next commitment.",
+        "gates": "Gates 7–8 · Re-underwriting and signing approved",
+        "resource": "Synergy Underwriting & Value Bridge",
+        "url": "/ma-resources/synergy-underwriting-value-bridge"
+      },
+      {
+        "id": "close-day-one",
+        "name": "Close & Day 1",
+        "decision": "Can funds and control transfer while the business keeps working?",
+        "evidence": "Funds flow, required consents and clearances, closing checklist, and customer, cash, people, and system readiness.",
+        "judgment": "Protect revenue while integrating cost. Do not confuse signing with operating readiness.",
+        "gates": "Gates 9–10 · Closing approved and Day 1 stable",
+        "resource": "After the Deal: Keep the Business Working",
+        "url": "/ma-resources/after-the-deal-keep-the-business-working"
+      },
+      {
+        "id": "value-delivery-review",
+        "name": "Value Delivery & Review",
+        "decision": "Has the buyer delivered the underwritten value, and what should change next time?",
+        "evidence": "30/60/100-day reviews, realized cash benefits and costs, workflow decisions, revised forecasts, and residual action owners.",
+        "judgment": "Compare results with the original thesis. A synergy belongs in the results only when the operating work delivers it.",
+        "gates": "Gates 11–12 · Value delivery confirmed and program closed",
+        "resource": "Synergy Underwriting & Value Bridge",
+        "url": "/ma-resources/synergy-underwriting-value-bridge"
+      }
+    ]
+  },
+  "resourceRoadmap": [
+    {
+      "topic": "corporate-development",
+      "resource": "Acquisition Mandate & Target Screen",
+      "status": "planned"
+    },
+    {
+      "topic": "valuation",
+      "resource": "Valuation Triangulation Tool",
+      "status": "planned"
+    },
+    {
+      "topic": "financial-modeling",
+      "resource": "Build the Deal Model",
+      "status": "planned"
+    },
+    {
+      "topic": "industry-comps",
+      "resource": "Capital IQ Comps Workbench",
+      "status": "planned"
+    },
+    {
+      "topic": "deal-structure",
+      "resource": "LOI Economics & Risk Allocator",
+      "status": "next"
+    },
+    {
+      "topic": "due-diligence",
+      "resource": "Before You Buy: Follow the Work",
+      "status": "published"
+    },
+    {
+      "topic": "synergies",
+      "resource": "Synergy Underwriting & Value Bridge",
+      "status": "published"
+    },
+    {
+      "topic": "integration",
+      "resource": "After the Deal: Keep the Business Working",
+      "status": "published"
+    },
+    {
+      "topic": "divestitures",
+      "resource": "Carve-Out Perimeter & TSA Planner",
+      "status": "planned"
+    },
+    {
+      "topic": "strategic-finance",
+      "resource": "Capital Allocation & Deal Affordability Tool",
+      "status": "planned"
+    }
+  ],
+  "buildPriority": [
+    "loi-economics-risk-allocator",
+    "capital-iq-comps-workbench",
+    "acquisition-mandate-target-screen",
+    "carve-out-perimeter-tsa-planner",
+    "capital-allocation-deal-affordability",
+    "build-the-deal-model",
+    "valuation-triangulation"
+  ]
 }

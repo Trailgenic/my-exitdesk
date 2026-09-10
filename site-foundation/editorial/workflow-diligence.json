@@ -62,6 +62,10 @@
     {
       "heading": "Copy this working note",
       "html": "<p>Use one note per important finding. Keep the answers short enough to discuss in a working meeting.</p><ul><li><strong>Work being tested:</strong> ___</li><li><strong>What management says happens:</strong> ___</li><li><strong>What the records and walkthrough show:</strong> ___</li><li><strong>What is still unknown:</strong> ___</li><li><strong>Effect on customers, cash, price or handover:</strong> ___</li><li><strong>Action — investigate, price, protect or walk:</strong> ___</li><li><strong>Owner and due date:</strong> ___</li><li><strong>Evidence needed to close the issue:</strong> ___</li><li><strong>Integration handoff and receiving owner:</strong> ___</li></ul><p><strong>You are ready for the next decision when</strong> the material findings have evidence, an owner and an agreed consequence. The remaining unknowns should be visible to the person approving the next commitment.</p>"
+    },
+    {
+      "heading": "Underwrite the synergy before counting it",
+      "html": "<p>Use the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a> to separate standalone value from buyer-created cash benefits, price delivery costs and risk, set the amount shared with the seller, and assign operating owners.</p>"
     }
   ],
   "sourceNotes": "",
@@ -79,5 +83,8 @@
     "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
     "version": "1.0",
     "downloadVerified": true
-  }
+  },
+  "relatedResources": [
+    "synergy-value-bridge"
+  ]
 }
