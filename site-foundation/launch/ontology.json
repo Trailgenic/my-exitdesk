@@ -332,7 +332,7 @@
               "@id": "https://www.mikeye.com/m-and-a#transaction-path"
             },
             "hasPart": {
-              "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+              "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
             }
           }
         },
@@ -562,6 +562,9 @@
       "citation": [
         {
           "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
         }
       ]
     },
@@ -615,6 +618,9 @@
       "citation": [
         {
           "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
         }
       ]
     },
@@ -668,6 +674,9 @@
       "citation": [
         {
           "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
         }
       ]
     },
@@ -925,6 +934,72 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource",
+      "url": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
+      "name": "LOI Economics & Risk Allocator",
+      "description": "See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": {
+        "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+      },
+      "learningResourceType": "LOI economics and risk allocation tool with Excel workbook",
+      "teaches": "How does the proposed structure change economics, control, and risk?",
+      "version": "1.0",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "mainEntityOfPage": {
+        "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#webpage"
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#workbook",
+        "name": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "47265 bytes"
+      },
+      "keywords": [
+        "LOI economics",
+        "M&A deal structure",
+        "enterprise to equity value",
+        "seller rollover",
+        "earnout",
+        "closing funding",
+        "risk allocation"
+      ],
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"

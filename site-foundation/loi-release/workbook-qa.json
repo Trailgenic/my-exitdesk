@@ -1,0 +1,372 @@
+{
+  "base": {
+    "14": 16400,
+    "19": 10400,
+    "21": 80,
+    "22": 80,
+    "23": 4000,
+    "25": 16400,
+    "28": 8900,
+    "29": 9900,
+    "30": 446.4285714285714,
+    "33": 4000,
+    "34": 1960,
+    "35": 1600.7653061224487,
+    "36": 18360,
+    "37": 17947.19387755102,
+    "38": 20400,
+    "39": 21447.19387755102,
+    "40": 23900,
+    "41": -900,
+    "48": 14400,
+    "51": 17000,
+    "52": 2600,
+    "53": 8000,
+    "54": 4500,
+    "55": 12500,
+    "58": 9,
+    "59": 51,
+    "60": 0,
+    "61": 90,
+    "62": 54,
+    "63": 350,
+    "64": 210
+  },
+  "downside": {
+    "14": 16000,
+    "19": 10000,
+    "21": 80,
+    "22": 80,
+    "23": 2800,
+    "25": 14800,
+    "28": 8500,
+    "29": 9500,
+    "30": 446.4285714285714,
+    "33": 4000,
+    "34": 3250,
+    "35": 2657.8443877551017,
+    "36": 18050,
+    "37": 17404.272959183672,
+    "38": 18800,
+    "39": 20904.272959183672,
+    "40": 22300,
+    "41": 700,
+    "48": 14300,
+    "51": 13000,
+    "52": -1300,
+    "53": 6000,
+    "54": 4500,
+    "55": 10500,
+    "58": 9,
+    "59": 51,
+    "60": 30,
+    "61": 90,
+    "62": 54,
+    "63": 810,
+    "64": 486
+  },
+  "tests": [
+    {
+      "name": "Independent fixed equity bridge",
+      "pass": true,
+      "actual": 16400
+    },
+    {
+      "name": "Cash stock rollover allocation",
+      "pass": true,
+      "actual": [
+        10400,
+        16400
+      ]
+    },
+    {
+      "name": "Escrow restricted while holdback deferred",
+      "pass": true,
+      "actual": [
+        8900,
+        9900
+      ]
+    },
+    {
+      "name": "Contingent expected and maximum separate",
+      "pass": true,
+      "actual": [
+        4000,
+        1960
+      ]
+    },
+    {
+      "name": "Independent buyer PV cost",
+      "pass": true,
+      "actual": 17947.19387755102
+    },
+    {
+      "name": "Close sources and uses no plug",
+      "pass": true,
+      "actual": [
+        14400,
+        2600
+      ]
+    },
+    {
+      "name": "Continuing principal exposure excludes funded escrow",
+      "pass": true,
+      "actual": 12500
+    },
+    {
+      "name": "Downside NWC stock funding and expiry change",
+      "pass": true,
+      "actual": {
+        "14": 16000,
+        "19": 10000,
+        "21": 80,
+        "22": 80,
+        "23": 2800,
+        "25": 14800,
+        "28": 8500,
+        "29": 9500,
+        "30": 446.4285714285714,
+        "33": 4000,
+        "34": 3250,
+        "35": 2657.8443877551017,
+        "36": 18050,
+        "37": 17404.272959183672,
+        "38": 18800,
+        "39": 20904.272959183672,
+        "40": 22300,
+        "41": 700,
+        "48": 14300,
+        "51": 13000,
+        "52": -1300,
+        "53": 6000,
+        "54": 4500,
+        "55": 10500,
+        "58": 9,
+        "59": 51,
+        "60": 30,
+        "61": 90,
+        "62": 54,
+        "63": 810,
+        "64": 486
+      }
+    },
+    {
+      "name": "Unselected missing NWC does not block Base",
+      "pass": true,
+      "actual": 16400
+    },
+    {
+      "name": "Selected missing NWC withholds price",
+      "pass": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Blank excess cash is unknown",
+      "pass": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Zero excess cash is accepted",
+      "pass": true,
+      "actual": 15900
+    },
+    {
+      "name": "Escrow and holdback cannot exceed fixed cash",
+      "pass": true,
+      "actual": "Invalid escrow / holdback cap"
+    },
+    {
+      "name": "Negative residual consideration withheld",
+      "pass": true,
+      "actual": "Invalid consideration allocation"
+    },
+    {
+      "name": "Debt reclassification preserves equity but changes cash uses",
+      "pass": true,
+      "actual": [
+        16400,
+        11400
+      ]
+    },
+    {
+      "name": "Fixed value protects amount by changing shares",
+      "pass": true,
+      "actual": [
+        160,
+        4000
+      ]
+    },
+    {
+      "name": "Fixed shares preserves count and changes delivered value",
+      "pass": true,
+      "actual": [
+        80,
+        2000
+      ]
+    },
+    {
+      "name": "Zero stock price withholds invalid share math",
+      "pass": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Zero probability preserves maximum obligation",
+      "pass": true,
+      "actual": [
+        4000,
+        400
+      ]
+    },
+    {
+      "name": "Payout above cap is rejected",
+      "pass": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Unselected missing contingency accepted",
+      "pass": true,
+      "actual": 1960
+    },
+    {
+      "name": "Selected missing contingency is unknown",
+      "pass": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Third contingency slot extends aggregate",
+      "pass": true,
+      "actual": [
+        4600,
+        2260
+      ]
+    },
+    {
+      "name": "Immediate holdback has no discount",
+      "pass": true,
+      "actual": 500
+    },
+    {
+      "name": "Zero discount equates PV and nominal cost",
+      "pass": true,
+      "actual": 18360
+    },
+    {
+      "name": "Zero financing sources produces real gap",
+      "pass": true,
+      "actual": -14400
+    },
+    {
+      "name": "Closing status cannot hide missing owner and resolution",
+      "pass": true,
+      "actual": "Missing owner / evidence / resolution"
+    },
+    {
+      "name": "Owner alone cannot close condition",
+      "pass": true,
+      "actual": "Missing owner / evidence / resolution"
+    },
+    {
+      "name": "Complete condition closes only its own row",
+      "pass": true,
+      "actual": [
+        "Closed",
+        9
+      ]
+    },
+    {
+      "name": "Walk decision remains visible",
+      "pass": true,
+      "actual": 1
+    },
+    {
+      "name": "Private ceiling compares unweighted EV basis",
+      "pass": true,
+      "actual": -900
+    },
+    {
+      "name": "Missing ceiling does not fabricate decision headroom",
+      "pass": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Negative NWC peg and delivered NWC remain valid",
+      "pass": true,
+      "actual": [
+        -100,
+        16400
+      ]
+    },
+    {
+      "name": "Zero stock needs no fabricated share prices",
+      "pass": true,
+      "actual": [
+        0,
+        16400
+      ]
+    },
+    {
+      "name": "Fixed value does not require unused reference price",
+      "pass": true,
+      "actual": 16400
+    },
+    {
+      "name": "Review before proposed exclusivity starts is valid",
+      "pass": true,
+      "actual": [
+        0,
+        51
+      ]
+    },
+    {
+      "name": "Completed prerequisites reach authorized review only",
+      "pass": true,
+      "actual": "Ready for authorized review"
+    },
+    {
+      "name": "Missing contingency definition stays a finding after conditions close",
+      "pass": true,
+      "actual": "Open conditions / authority"
+    },
+    {
+      "name": "Nonzero rollover requires issuer for readiness",
+      "pass": true,
+      "actual": "Open conditions / authority"
+    },
+    {
+      "name": "Zero rollover does not require unused issuer or rights",
+      "pass": true,
+      "actual": "Ready for authorized review"
+    },
+    {
+      "name": "Unused condition slot extends decision gate",
+      "pass": true,
+      "actual": [
+        1,
+        "Open conditions / authority"
+      ]
+    },
+    {
+      "name": "Condition full-row reorder preserves open count",
+      "pass": true,
+      "actual": 10
+    },
+    {
+      "name": "Final Base economics restored",
+      "pass": true,
+      "actual": 17947.19387755102
+    },
+    {
+      "name": "Independent allocation reconciliations",
+      "pass": true,
+      "actual": [
+        0,
+        0
+      ]
+    }
+  ],
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "limits": [
+    "Recalculated with artifact-tool; desktop Excel unavailable",
+    "No debt service, taxes, interest, uncapped liability quantification, collars or ownership percentage"
+  ]
+}

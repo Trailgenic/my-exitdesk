@@ -12,7 +12,7 @@ Mike Ye is an M&A and corporate development executive with 25 years of experienc
 ## Start here
 
 - [M&A Library](https://www.mikeye.com/m-and-a): Seven ordered transaction stages, ten M&A knowledge pillars, and practical resources.
-- [Tools & Models](https://www.mikeye.com/tools-and-models): Five Excel valuation models, a 156-action end-to-end deal workflow, a 112-item M&A due diligence checklist, a 104-action post-deal integration checklist, a Synergy Underwriting & Value Bridge tool, and the existing valuation calculator.
+- [Tools & Models](https://www.mikeye.com/tools-and-models): Five Excel valuation models, a 156-action end-to-end deal workflow, a 112-item M&A due diligence checklist, a 104-action post-deal integration checklist, a Synergy Underwriting & Value Bridge tool, an LOI Economics & Risk Allocator, and the existing valuation calculator.
 - [About Mike](https://www.mikeye.com/about): Experience and selected transactions.
 - [PMC masthead records](https://www.mikeye.com/about/record): Evidence of title and tenure at Penske Media; these records are not a list of Mike's deals.
 - [Decision Frameworks](https://www.mikeye.com/intelligence): Mike's judgment frameworks.
@@ -38,12 +38,14 @@ Mike Ye is an M&A and corporate development executive with 25 years of experienc
 
 - [Synergy Underwriting & Value Bridge](https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge): Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan. Includes a formula-driven Excel download.
 
+- [LOI Economics & Risk Allocator](https://www.mikeye.com/ma-resources/loi-economics-risk-allocator): See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal. Includes a formula-driven Excel download.
+
 ## Transaction path
 
 1. Mandate: Why acquire instead of build, partner, or do nothing? Resource: [The M&A Deal Workflow](https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist).
 2. Thesis & Targets: What must be true, and which targets fit and can actually be bought? Resource: [The M&A Deal Workflow](https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist).
 3. First Look & Underwriting: Do access, standalone economics, financing, and downside support a bid? Resource: [Valuation models and working tools](https://www.mikeye.com/tools-and-models).
-4. LOI & Diligence: Are core terms clear, and can the team test the conditions behind the thesis? Resource: [Before You Buy: Follow the Work](https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work).
+4. LOI & Diligence: Are core terms clear, and can the team test the conditions behind the thesis? Resource: [LOI Economics & Risk Allocator](https://www.mikeye.com/ma-resources/loi-economics-risk-allocator).
 5. Re-underwrite & Sign: Does the deal still work on the facts and terms now in front of the buyer? Resource: [Synergy Underwriting & Value Bridge](https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge).
 6. Close & Day 1: Can funds and control transfer while the business keeps working? Resource: [After the Deal: Keep the Business Working](https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working).
 7. Value Delivery & Review: Has the buyer delivered the underwritten value, and what should change next time? Resource: [Synergy Underwriting & Value Bridge](https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge).

@@ -23,7 +23,8 @@
   "relatedResources": [
     "deal-workflow",
     "workflow-diligence",
-    "integration-continuity"
+    "integration-continuity",
+    "loi-economics-risk-allocator"
   ],
   "sections": [
     {
@@ -69,6 +70,10 @@
     {
       "heading": "Version",
       "html": "<p>Version 1.0. Updated September 10, 2026. Editable Excel workbook with formulas, scenario assumptions, sensitivity analysis, checks, and a realization tracker. Entries stay in your downloaded copy.</p>"
+    },
+    {
+      "heading": "Make the structure visible before committing",
+      "html": "<p>Use the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a> to separate seller consideration from closing funding, test stock and contingent payments, and give unresolved financing, approval, consent, and exclusivity conditions an owner.</p>"
     }
   ],
   "sourceNotes": "",

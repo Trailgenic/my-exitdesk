@@ -28,7 +28,8 @@
   "relatedResources": [
     "workflow-diligence",
     "integration-continuity",
-    "synergy-value-bridge"
+    "synergy-value-bridge",
+    "loi-economics-risk-allocator"
   ],
   "download": {
     "filename": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
@@ -91,6 +92,10 @@
     {
       "heading": "Underwrite the synergy before counting it",
       "html": "<p>Use the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a> to separate standalone value from buyer-created cash benefits, price delivery costs and risk, set the amount shared with the seller, and assign operating owners.</p>"
+    },
+    {
+      "heading": "Make the structure visible before committing",
+      "html": "<p>Use the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a> to separate seller consideration from closing funding, test stock and contingent payments, and give unresolved financing, approval, consent, and exclusivity conditions an owner.</p>"
     }
   ],
   "sourceNotes": ""

@@ -1,6 +1,6 @@
 # MikeYe.com resource roadmap
 
-Updated September 10, 2026. The transaction-path architecture and Synergy Underwriting & Value Bridge are published. The next major build is LOI Economics & Risk Allocator. Build one major resource at a time. The architecture below preserves Mike’s locked specification.
+Updated September 10, 2026. The transaction-path architecture and Synergy Underwriting & Value Bridge are published. LOI Economics & Risk Allocator is published. The next major build is Capital IQ Comps Workbench. Build one major resource at a time. The architecture below preserves Mike’s locked specification.
 
 
 Use this locked resource architecture:
@@ -153,7 +153,7 @@ Decision:
 
 > What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?
 
-This is the next major resource to build.
+Published September 10, 2026. Preserve the existing workbook and methodology.
 
 Include:
 

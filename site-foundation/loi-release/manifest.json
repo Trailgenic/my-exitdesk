@@ -1,0 +1,86 @@
+{
+  "manifest_version": "1.0",
+  "skill": "merger-model-builder",
+  "artifact_mode": "workbook",
+  "output_dir": "site-foundation/loi-release",
+  "first_read": {
+    "path": "public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+    "role": "primary human deliverable",
+    "why": "Editable LOI economics and risk-allocation template with Dashboard first."
+  },
+  "primary_human_deliverable": "public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+  "human_deliverables": [
+    {
+      "path": "public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+      "role": "human_deliverable",
+      "artifact_type": "xlsx",
+      "description": "LOI economics and risk-allocation workbook",
+      "user_visible_default": true,
+      "contains_new_analysis": true
+    }
+  ],
+  "companion_deliverables": [
+    {
+      "path": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
+      "role": "companion_deliverable",
+      "artifact_type": "html",
+      "description": "Native crawlable methodology",
+      "user_visible_default": true,
+      "contains_new_analysis": false
+    }
+  ],
+  "support_artifacts": [
+    {
+      "path": "workbook-qa.json",
+      "role": "support_artifact",
+      "artifact_type": "json",
+      "description": "44 calculation checks",
+      "support_reason": "Calculation and release audit",
+      "user_visible_default": false,
+      "contains_new_analysis": false,
+      "user_requested_machine_readable": false
+    },
+    {
+      "path": "calculation-map.json",
+      "role": "support_artifact",
+      "artifact_type": "json",
+      "description": "Inputs, output formulas, and model boundaries",
+      "support_reason": "Calculation and release audit",
+      "user_visible_default": false,
+      "contains_new_analysis": false,
+      "user_requested_machine_readable": false
+    },
+    {
+      "path": "xlsx-structure-qa.json",
+      "role": "support_artifact",
+      "artifact_type": "json",
+      "description": "Native exported features",
+      "support_reason": "Calculation and release audit",
+      "user_visible_default": false,
+      "contains_new_analysis": false,
+      "user_requested_machine_readable": false
+    },
+    {
+      "path": "production-audit.json",
+      "role": "support_artifact",
+      "artifact_type": "json",
+      "description": "Live release verification",
+      "support_reason": "Calculation and release audit",
+      "user_visible_default": false,
+      "contains_new_analysis": false,
+      "user_requested_machine_readable": false
+    }
+  ],
+  "agent_artifacts": [],
+  "support_artifacts_user_visible_default": false,
+  "blocked_or_partial_status": {
+    "status": "complete",
+    "reason": "Reusable template with illustrative Assumption inputs; no transaction approval implied.",
+    "missing_inputs": []
+  },
+  "final_response_guidance": {
+    "lead_with": "primary_human_deliverable",
+    "mention_support_artifacts": "only_briefly_unless_requested"
+  },
+  "discipline_note": "Workbook and native methodology are the user-facing deliverables."
+}

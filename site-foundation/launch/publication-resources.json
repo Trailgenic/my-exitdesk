@@ -107,7 +107,8 @@
     "relatedResources": [
       "workflow-diligence",
       "integration-continuity",
-      "synergy-value-bridge"
+      "synergy-value-bridge",
+      "loi-economics-risk-allocator"
     ],
     "webflowItemId": "6aa1f03acc577a948c9c5169",
     "download": {
@@ -171,7 +172,8 @@
       "downloadVerified": true
     },
     "relatedResources": [
-      "synergy-value-bridge"
+      "synergy-value-bridge",
+      "loi-economics-risk-allocator"
     ]
   },
   {
@@ -218,7 +220,8 @@
       "downloadVerified": true
     },
     "relatedResources": [
-      "synergy-value-bridge"
+      "synergy-value-bridge",
+      "loi-economics-risk-allocator"
     ]
   },
   {
@@ -457,7 +460,8 @@
     "relatedResources": [
       "deal-workflow",
       "workflow-diligence",
-      "integration-continuity"
+      "integration-continuity",
+      "loi-economics-risk-allocator"
     ],
     "download": {
       "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
@@ -480,5 +484,57 @@
     "contentReviewedAt": "2026-09-10",
     "publicationDate": "2026-09-10",
     "cmsStatus": "published"
+  },
+  {
+    "id": "loi-economics-risk-allocator",
+    "name": "LOI Economics & Risk Allocator",
+    "slug": "loi-economics-risk-allocator",
+    "format": "Tool",
+    "topic": "deal-structure",
+    "summary": "See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal.",
+    "decision": "How does the proposed structure change economics, control, and risk?",
+    "version": "1.0",
+    "updated": "2026-09-10",
+    "status": "published",
+    "url": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
+    "proposedPath": "/ma-resources/loi-economics-risk-allocator",
+    "sourceFile": "editorial/loi-economics-risk-allocator.json",
+    "sourcePrinciples": [
+      "loi-fixes-core-economics",
+      "structure-liability-deliberately",
+      "use-contingency-for-alignment",
+      "control-and-alignment",
+      "ceiling-and-patience",
+      "unknowns-are-findings",
+      "buyer-keeps-synergy"
+    ],
+    "relatedResources": [
+      "deal-workflow",
+      "workflow-diligence",
+      "synergy-value-bridge",
+      "integration-continuity"
+    ],
+    "webflowItemId": "6aa2095323a4984befe0ccef",
+    "download": {
+      "filename": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+      "repositoryPath": "public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+      "version": "1.0",
+      "bytes": 47265,
+      "sha256": "a6adad0cf1d79beae2e61391bb629269744efa7e4155fa8b7f3f8f6b6e71a8eb",
+      "sheets": [
+        "Dashboard",
+        "Assumptions",
+        "Economics",
+        "Contingencies",
+        "Conditions",
+        "Guide"
+      ],
+      "downloadVerified": true,
+      "verifiedAt": "2026-09-10"
+    },
+    "cmsStatus": "published",
+    "contentReviewedAt": "2026-09-10",
+    "publicationDate": "2026-09-10"
   }
 ]

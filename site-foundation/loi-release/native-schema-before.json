@@ -1,0 +1,1623 @@
+[
+  {
+    "effectiveLocaleId": "69f3a41de5b105723d8fe43d",
+    "id": "6a9f20d0a616017e7bdf9a95",
+    "isInherited": false,
+    "jsonLdSchema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#webpage",
+          "@type": "CollectionPage",
+          "about": [
+            {
+              "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#valuation"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#financial-modeling"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#industry-comps"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#synergies"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#integration"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#divestitures"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
+            }
+          ],
+          "dateModified": "2026-09-10",
+          "description": "Seven transaction stages, thirteen decision gates, and ten M&A knowledge pillars with practical working tools.",
+          "hasPart": [
+            {
+              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            }
+          ],
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/#website"
+          },
+          "keywords": [
+            "M&A resources",
+            "M&A due diligence checklist",
+            "post-deal integration checklist",
+            "valuation models",
+            "corporate development",
+            "workflow transferability"
+          ],
+          "mainEntity": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "name": "M&A Library | Mike Ye",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "url": "https://www.mikeye.com/m-and-a"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#library",
+          "@type": "Collection",
+          "creator": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "hasPart": [
+            {
+              "@id": "https://www.mikeye.com/exit/valuation#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/intelligence#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/exit/articles/buzzangle-case-study#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/exit/articles/exit-readiness-checklist#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource"
+            },
+            {
+              "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+            }
+          ],
+          "name": "Mike Ye Practical M&A Library",
+          "url": "https://www.mikeye.com/m-and-a"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#ontology",
+          "@type": "DefinedTermSet",
+          "description": "The subject structure used to organize the practical M&A library.",
+          "hasDefinedTerm": [
+            {
+              "@id": "https://www.mikeye.com/m-and-a#corporate-development",
+              "@type": "DefinedTerm",
+              "description": "Acquisition strategy, strategic fit, and the discipline of deciding what not to buy.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Corporate development",
+              "termCode": "corporate-development"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#valuation",
+              "@type": "DefinedTerm",
+              "description": "Standalone value, normalized earnings, buyer context, and price discipline.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Valuation",
+              "termCode": "valuation"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#financial-modeling",
+              "@type": "DefinedTerm",
+              "description": "Translate assumptions into cash flows, returns, and decision-ready models.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Financial modeling",
+              "termCode": "financial-modeling"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#industry-comps",
+              "@type": "DefinedTerm",
+              "description": "Select comparable companies and transactions with an explicit basis for comparison.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Industry & transaction comps",
+              "termCode": "industry-comps"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#deal-structure",
+              "@type": "DefinedTerm",
+              "description": "Understand control, consideration, contingent value, and allocation of risk.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Deal structure & negotiation",
+              "termCode": "deal-structure"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#due-diligence",
+              "@type": "DefinedTerm",
+              "description": "Test the business and the workflows that produce its results.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Due diligence",
+              "termCode": "due-diligence"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#synergies",
+              "@type": "DefinedTerm",
+              "description": "Separate buyer-specific upside from standalone value and the cost of delivery.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Synergies",
+              "termCode": "synergies"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#integration",
+              "@type": "DefinedTerm",
+              "description": "Preserve revenue-producing capabilities while realizing operational improvements.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Integration",
+              "termCode": "integration"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#divestitures",
+              "@type": "DefinedTerm",
+              "description": "Define the perimeter, disentangle dependencies, and plan separation.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Divestitures & carve-outs",
+              "termCode": "divestitures"
+            },
+            {
+              "@id": "https://www.mikeye.com/m-and-a#strategic-finance",
+              "@type": "DefinedTerm",
+              "description": "Capital allocation, downside resilience, and decision-making under constraint.",
+              "inDefinedTermSet": {
+                "@id": "https://www.mikeye.com/m-and-a#ontology"
+              },
+              "name": "Strategic finance",
+              "termCode": "strategic-finance"
+            }
+          ],
+          "name": "Mike Ye M&A knowledge pillars"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#resources",
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/exit/valuation#resource",
+                "name": "Business valuation scenarios",
+                "url": "https://www.mikeye.com/exit/valuation"
+              },
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/intelligence#resource",
+                "name": "The five decision frames",
+                "url": "https://www.mikeye.com/intelligence"
+              },
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/exit/articles/buzzangle-case-study#resource",
+                "name": "BuzzAngle Music",
+                "url": "https://www.mikeye.com/exit/articles/buzzangle-case-study"
+              },
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study#resource",
+                "name": "Sourcing Journal",
+                "url": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study"
+              },
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study#resource",
+                "name": "Long Beach Outpatient Surgery",
+                "url": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study"
+              },
+              "position": 5
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/exit/articles/exit-readiness-checklist#resource",
+                "name": "Exit readiness checklist",
+                "url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist"
+              },
+              "position": 6
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource",
+                "name": "The M&A Deal Workflow: From Mandate to Value",
+                "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist"
+              },
+              "position": 7
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource",
+                "name": "Before You Buy: Follow the Work",
+                "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work"
+              },
+              "position": 8
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource",
+                "name": "After the Deal: Keep the Business Working",
+                "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working"
+              },
+              "position": 9
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource",
+                "name": "Gap: valuing a retail business",
+                "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model"
+              },
+              "position": 10
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource",
+                "name": "Salesforce: valuing a software business",
+                "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model"
+              },
+              "position": 11
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource",
+                "name": "Ziff Davis: valuing a digital media business",
+                "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model"
+              },
+              "position": 12
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource",
+                "name": "Surgery Partners: valuing a healthcare-services business",
+                "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model"
+              },
+              "position": 13
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource",
+                "name": "NVIDIA: valuing an AI infrastructure business",
+                "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model"
+              },
+              "position": 14
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource",
+                "name": "Synergy Underwriting & Value Bridge",
+                "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge"
+              },
+              "position": 15
+            }
+          ],
+          "numberOfItems": 15
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#breadcrumbs",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://www.mikeye.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://www.mikeye.com/m-and-a",
+              "name": "M&A Library",
+              "position": 2
+            }
+          ]
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/valuation#resource",
+          "@type": "CreativeWork",
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "description": "Explore the existing Exit Desk calculator and its indicative positioning scenarios.",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "name": "Business valuation scenarios",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "url": "https://www.mikeye.com/exit/valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/intelligence#resource",
+          "@type": "CreativeWork",
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "description": "Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions.",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "name": "The five decision frames",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "url": "https://www.mikeye.com/intelligence"
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/articles/buzzangle-case-study#resource",
+          "@type": "CreativeWork",
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "description": "A strategic investment in music data, viewed through competitive position and capability.",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "name": "BuzzAngle Music",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "url": "https://www.mikeye.com/exit/articles/buzzangle-case-study"
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study#resource",
+          "@type": "CreativeWork",
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "description": "Founder clarity, partner alignment, and the timing of a capability acquisition.",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "name": "Sourcing Journal",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "url": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study"
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study#resource",
+          "@type": "CreativeWork",
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#integration"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "description": "A controlling investment and the operating work behind a multi-specialty expansion.",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "name": "Long Beach Outpatient Surgery",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "url": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study"
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/articles/exit-readiness-checklist#resource",
+          "@type": "CreativeWork",
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "description": "An existing seller-preparation checklist, organized around what buyers will examine.",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "name": "Exit readiness checklist",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-09",
+          "datePublished": "2026-09-09",
+          "description": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#workbook",
+            "@type": "MediaObject",
+            "contentSize": "43228 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "keywords": [
+            "M&A deal workflow",
+            "M&A process checklist",
+            "corporate development process",
+            "M&A decision gates",
+            "buy-side M&A checklist",
+            "post-close review"
+          ],
+          "learningResourceType": "End-to-end M&A deal workflow and Excel checklist",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#webpage"
+          },
+          "name": "The M&A Deal Workflow: From Mandate to Value",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What must happen—and who must decide—before the buyer commits more capital, time, or operating risk?",
+          "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+          "version": "1.0"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-09",
+          "datePublished": "2026-09-08",
+          "description": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#workbook",
+            "@type": "MediaObject",
+            "contentSize": "37249 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "keywords": [
+            "M&A due diligence checklist",
+            "buy-side due diligence",
+            "workflow transferability",
+            "quality of earnings",
+            "deal risk",
+            "integration handoff"
+          ],
+          "learningResourceType": "Practical M&A due diligence handbook and comprehensive Excel checklist",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#webpage"
+          },
+          "name": "Before You Buy: Follow the Work",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "Can the business keep producing its results when the owner changes?",
+          "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#integration"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-09",
+          "datePublished": "2026-09-08",
+          "description": "A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#workbook",
+            "@type": "MediaObject",
+            "contentSize": "36674 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "keywords": [
+            "post-deal integration checklist",
+            "Day 1 readiness",
+            "workflow integration",
+            "synergy tracking",
+            "revenue continuity",
+            "integration risk"
+          ],
+          "learningResourceType": "Practical post-deal integration handbook and comprehensive Excel checklist",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#webpage"
+          },
+          "name": "After the Deal: Keep the Business Working",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What must keep working, what should change, and who is responsible for the handover?",
+          "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "97991 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#webpage"
+          },
+          "name": "Gap: valuing a retail business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "Does the valuation hold if sales soften and the business has to discount more stock?",
+          "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "89753 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Salesforce_CRM_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#webpage"
+          },
+          "name": "Salesforce: valuing a software business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "How much growth can the business turn into cash for each share after the costs of delivering it?",
+          "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "85802 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#webpage"
+          },
+          "name": "Ziff Davis: valuing a digital media business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "Which earnings can the current portfolio keep producing, and what makes those earnings vulnerable?",
+          "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "90351 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#webpage"
+          },
+          "name": "Surgery Partners: valuing a healthcare-services business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What cash belongs to the buyer after operating needs, partner interests, and debt are taken into account?",
+          "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "90814 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#webpage"
+          },
+          "name": "NVIDIA: valuing an AI infrastructure business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What must remain true about demand, margins, and cash conversion for the valuation to hold?",
+          "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#synergies"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-10",
+          "datePublished": "2026-09-10",
+          "description": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#workbook",
+            "@type": "MediaObject",
+            "contentSize": "135876 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "keywords": [
+            "M&A synergies",
+            "synergy underwriting",
+            "buyer-created value",
+            "synergy realization",
+            "purchase price ceiling"
+          ],
+          "learningResourceType": "Synergy underwriting tool and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#webpage"
+          },
+          "name": "Synergy Underwriting & Value Bridge",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
+          "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+          "version": "1.0"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#transaction-path",
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/m-and-a#stage-mandate",
+                "@type": "LearningResource",
+                "citation": {
+                  "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+                },
+                "description": "Evidence: A defined business need, capital envelope, risk limits, executive sponsor, and decision authority. Mike's judgment: Frame before detail. The target must serve the mandate. Gate 0 · Mandate approved",
+                "isBasedOn": {
+                  "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+                },
+                "name": "Mandate",
+                "teaches": "Why acquire instead of build, partner, or do nothing?",
+                "url": "https://www.mikeye.com/m-and-a#stage-mandate"
+              },
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/m-and-a#stage-thesis-targets",
+                "@type": "LearningResource",
+                "citation": {
+                  "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+                },
+                "description": "Evidence: Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test. Mike's judgment: Underwrite rather than admire. Strategic appeal does not establish transactability. Gates 1–2 · Thesis and target approved",
+                "isBasedOn": {
+                  "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+                },
+                "name": "Thesis & Targets",
+                "teaches": "What must be true, and which targets fit and can actually be bought?",
+                "url": "https://www.mikeye.com/m-and-a#stage-thesis-targets"
+              },
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/m-and-a#stage-first-look-underwriting",
+                "@type": "LearningResource",
+                "citation": {
+                  "@id": "https://www.mikeye.com/tools-and-models#webpage"
+                },
+                "description": "Evidence: Minimum information package, reconstructed financials, valuation range, financing case, and private price ceiling. Mike's judgment: Replicate the financials. Keep buyer-created synergy separate from standalone value. Gates 3–4 · Access and economics approved",
+                "isBasedOn": {
+                  "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+                },
+                "name": "First Look & Underwriting",
+                "teaches": "Do access, standalone economics, financing, and downside support a bid?",
+                "url": "https://www.mikeye.com/m-and-a#stage-first-look-underwriting"
+              },
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/m-and-a#stage-loi-diligence",
+                "@type": "LearningResource",
+                "citation": {
+                  "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+                },
+                "description": "Evidence: Approved LOI, evidence requests, workflow tests, accountable workstream owners, and a live issue log. Mike's judgment: Unknowns are findings. Give each material issue a consequence: Investigate, Price, Protect, or Walk. Gates 5–6 · Exclusivity approved and diligence launched",
+                "isBasedOn": {
+                  "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+                },
+                "name": "LOI & Diligence",
+                "teaches": "Are core terms clear, and can the team test the conditions behind the thesis?",
+                "url": "https://www.mikeye.com/m-and-a#stage-loi-diligence"
+              },
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/m-and-a#stage-re-underwrite-sign",
+                "@type": "LearningResource",
+                "citation": {
+                  "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+                },
+                "description": "Evidence: Revised valuation and synergy case, combined downside, final economics, protections, closing conditions, and integration owners. Mike's judgment: Re-establish the price ceiling before signing. Prior spending does not justify the next commitment. Gates 7–8 · Re-underwriting and signing approved",
+                "isBasedOn": {
+                  "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+                },
+                "name": "Re-underwrite & Sign",
+                "teaches": "Does the deal still work on the facts and terms now in front of the buyer?",
+                "url": "https://www.mikeye.com/m-and-a#stage-re-underwrite-sign"
+              },
+              "position": 5
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/m-and-a#stage-close-day-one",
+                "@type": "LearningResource",
+                "citation": {
+                  "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+                },
+                "description": "Evidence: Funds flow, required consents and clearances, closing checklist, and customer, cash, people, and system readiness. Mike's judgment: Protect revenue while integrating cost. Do not confuse signing with operating readiness. Gates 9–10 · Closing approved and Day 1 stable",
+                "isBasedOn": {
+                  "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+                },
+                "name": "Close & Day 1",
+                "teaches": "Can funds and control transfer while the business keeps working?",
+                "url": "https://www.mikeye.com/m-and-a#stage-close-day-one"
+              },
+              "position": 6
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/m-and-a#stage-value-delivery-review",
+                "@type": "LearningResource",
+                "citation": {
+                  "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+                },
+                "description": "Evidence: 30/60/100-day reviews, realized cash benefits and costs, workflow decisions, revised forecasts, and residual action owners. Mike's judgment: Compare results with the original thesis. A synergy belongs in the results only when the operating work delivers it. Gates 11–12 · Value delivery confirmed and program closed",
+                "isBasedOn": {
+                  "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+                },
+                "name": "Value Delivery & Review",
+                "teaches": "Has the buyer delivered the underwritten value, and what should change next time?",
+                "url": "https://www.mikeye.com/m-and-a#stage-value-delivery-review"
+              },
+              "position": 7
+            }
+          ],
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "name": "Follow the transaction path",
+          "numberOfItems": 7
+        }
+      ]
+    },
+    "lastUpdated": "2026-09-10T00:46:21.377Z",
+    "localeId": "69f3a41de5b105723d8fe43d",
+    "publishedPath": "/m-and-a",
+    "rawJsonLdSchema": null,
+    "siteId": "69499e76d9c11f22288abc28"
+  },
+  {
+    "effectiveLocaleId": "69f3a41de5b105723d8fe43d",
+    "id": "6a9f3a7d2148e9081ffed5ea",
+    "isInherited": false,
+    "jsonLdSchema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@id": "https://www.mikeye.com/tools-and-models#webpage",
+          "@type": "CollectionPage",
+          "dateModified": "2026-09-10",
+          "description": "Five downloadable company valuation models, an Exit Desk valuation calculator, and comprehensive M&A due diligence and post-deal integration checklists.",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/#website"
+          },
+          "keywords": [
+            "M&A valuation models",
+            "M&A due diligence checklist",
+            "post-deal integration checklist",
+            "Excel valuation models",
+            "Day 1 readiness"
+          ],
+          "mainEntity": {
+            "@id": "https://www.mikeye.com/tools-and-models#tools"
+          },
+          "name": "M&A Valuation Models & Practical Tools | Mike Ye",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "url": "https://www.mikeye.com/tools-and-models"
+        },
+        {
+          "@id": "https://www.mikeye.com/tools-and-models#tools",
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/exit/valuation#resource",
+                "name": "Business valuation scenarios",
+                "url": "https://www.mikeye.com/exit/valuation"
+              },
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource",
+                "name": "The M&A Deal Workflow: From Mandate to Value",
+                "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist"
+              },
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource",
+                "name": "Before You Buy: Follow the Work",
+                "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work"
+              },
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource",
+                "name": "After the Deal: Keep the Business Working",
+                "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working"
+              },
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource",
+                "name": "Gap: valuing a retail business",
+                "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model"
+              },
+              "position": 5
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource",
+                "name": "Salesforce: valuing a software business",
+                "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model"
+              },
+              "position": 6
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource",
+                "name": "Ziff Davis: valuing a digital media business",
+                "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model"
+              },
+              "position": 7
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource",
+                "name": "Surgery Partners: valuing a healthcare-services business",
+                "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model"
+              },
+              "position": 8
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource",
+                "name": "NVIDIA: valuing an AI infrastructure business",
+                "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model"
+              },
+              "position": 9
+            },
+            {
+              "@type": "ListItem",
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource",
+                "name": "Synergy Underwriting & Value Bridge",
+                "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge"
+              },
+              "position": 10
+            }
+          ],
+          "numberOfItems": 10
+        },
+        {
+          "@id": "https://www.mikeye.com/tools-and-models#breadcrumbs",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://www.mikeye.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://www.mikeye.com/tools-and-models",
+              "name": "Tools & Models",
+              "position": 2
+            }
+          ]
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/valuation#resource",
+          "@type": "CreativeWork",
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "description": "Explore the existing Exit Desk calculator and its indicative positioning scenarios.",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "name": "Business valuation scenarios",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "url": "https://www.mikeye.com/exit/valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-09",
+          "datePublished": "2026-09-09",
+          "description": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#workbook",
+            "@type": "MediaObject",
+            "contentSize": "43228 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "keywords": [
+            "M&A deal workflow",
+            "M&A process checklist",
+            "corporate development process",
+            "M&A decision gates",
+            "buy-side M&A checklist",
+            "post-close review"
+          ],
+          "learningResourceType": "End-to-end M&A deal workflow and Excel checklist",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#webpage"
+          },
+          "name": "The M&A Deal Workflow: From Mandate to Value",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What must happen—and who must decide—before the buyer commits more capital, time, or operating risk?",
+          "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+          "version": "1.0"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-09",
+          "datePublished": "2026-09-08",
+          "description": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#workbook",
+            "@type": "MediaObject",
+            "contentSize": "37249 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "keywords": [
+            "M&A due diligence checklist",
+            "buy-side due diligence",
+            "workflow transferability",
+            "quality of earnings",
+            "deal risk",
+            "integration handoff"
+          ],
+          "learningResourceType": "Practical M&A due diligence handbook and comprehensive Excel checklist",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#webpage"
+          },
+          "name": "Before You Buy: Follow the Work",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "Can the business keep producing its results when the owner changes?",
+          "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#integration"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-09",
+          "datePublished": "2026-09-08",
+          "description": "A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#workbook",
+            "@type": "MediaObject",
+            "contentSize": "36674 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "keywords": [
+            "post-deal integration checklist",
+            "Day 1 readiness",
+            "workflow integration",
+            "synergy tracking",
+            "revenue continuity",
+            "integration risk"
+          ],
+          "learningResourceType": "Practical post-deal integration handbook and comprehensive Excel checklist",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#webpage"
+          },
+          "name": "After the Deal: Keep the Business Working",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What must keep working, what should change, and who is responsible for the handover?",
+          "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "97991 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#webpage"
+          },
+          "name": "Gap: valuing a retail business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "Does the valuation hold if sales soften and the business has to discount more stock?",
+          "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "89753 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Salesforce_CRM_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#webpage"
+          },
+          "name": "Salesforce: valuing a software business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "How much growth can the business turn into cash for each share after the costs of delivering it?",
+          "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "85802 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#webpage"
+          },
+          "name": "Ziff Davis: valuing a digital media business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "Which earnings can the current portfolio keep producing, and what makes those earnings vulnerable?",
+          "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "90351 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#webpage"
+          },
+          "name": "Surgery Partners: valuing a healthcare-services business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What cash belongs to the buyer after operating needs, partner interests, and debt are taken into account?",
+          "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#valuation"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-08",
+          "datePublished": "2026-09-08",
+          "description": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#workbook",
+            "@type": "MediaObject",
+            "contentSize": "90814 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "learningResourceType": "Valuation model and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#webpage"
+          },
+          "name": "NVIDIA: valuing an AI infrastructure business",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What must remain true about demand, margins, and cash conversion for the valuation to hold?",
+          "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
+          "version": "1.2"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource",
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "about": {
+            "@id": "https://www.mikeye.com/m-and-a#synergies"
+          },
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "dateModified": "2026-09-10",
+          "datePublished": "2026-09-10",
+          "description": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
+          "encoding": {
+            "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#workbook",
+            "@type": "MediaObject",
+            "contentSize": "135876 bytes",
+            "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx"
+          },
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          "keywords": [
+            "M&A synergies",
+            "synergy underwriting",
+            "buyer-created value",
+            "synergy realization",
+            "purchase price ceiling"
+          ],
+          "learningResourceType": "Synergy underwriting tool and Excel workbook",
+          "mainEntityOfPage": {
+            "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#webpage"
+          },
+          "name": "Synergy Underwriting & Value Bridge",
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "teaches": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
+          "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+          "version": "1.0"
+        }
+      ]
+    },
+    "lastUpdated": "2026-09-10T00:40:28.614Z",
+    "localeId": "69f3a41de5b105723d8fe43d",
+    "publishedPath": "/tools-and-models",
+    "rawJsonLdSchema": null,
+    "siteId": "69499e76d9c11f22288abc28"
+  }
+]

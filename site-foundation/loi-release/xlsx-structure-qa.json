@@ -1,0 +1,49 @@
+{
+  "sha256": "a6adad0cf1d79beae2e61391bb629269744efa7e4155fa8b7f3f8f6b6e71a8eb",
+  "bytes": 47265,
+  "worksheets": 6,
+  "formulas": 173,
+  "cachedErrors": 0,
+  "externalLinks": [],
+  "macros": [],
+  "tables": [
+    "xl/tables/table1.xml"
+  ],
+  "panes": {
+    "xl/worksheets/sheet1.xml": [],
+    "xl/worksheets/sheet2.xml": [
+      {
+        "ySplit": "6",
+        "topLeftCell": "A7",
+        "activePane": "bottomLeft",
+        "state": "frozen"
+      }
+    ],
+    "xl/worksheets/sheet3.xml": [
+      {
+        "ySplit": "6",
+        "topLeftCell": "A7",
+        "activePane": "bottomLeft",
+        "state": "frozen"
+      }
+    ],
+    "xl/worksheets/sheet4.xml": [
+      {
+        "ySplit": "6",
+        "topLeftCell": "A7",
+        "activePane": "bottomLeft",
+        "state": "frozen"
+      }
+    ],
+    "xl/worksheets/sheet5.xml": [
+      {
+        "xSplit": "4",
+        "ySplit": "6",
+        "topLeftCell": "E7",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      }
+    ],
+    "xl/worksheets/sheet6.xml": []
+  }
+}

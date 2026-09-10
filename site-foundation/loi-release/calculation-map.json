@@ -1,0 +1,232 @@
+{
+  "title": "LOI Economics & Risk Allocator",
+  "version": "1.0",
+  "units": "USD thousands except USD/share, dates, years and thousands of shares",
+  "selector": "Dashboard!H4",
+  "inputs": {
+    "Headline enterprise value": {
+      "cell": "Assumptions!D7",
+      "meaning": "Debt-free business value at the agreed NWC peg."
+    },
+    "Debt repaid at close": {
+      "cell": "Assumptions!D8",
+      "meaning": "Deducted from seller equity and funded at close."
+    },
+    "Debt retained / assumed": {
+      "cell": "Assumptions!D9",
+      "meaning": "Deducted from seller equity; retained debt is not a close cash use."
+    },
+    "Eligible excess cash": {
+      "cell": "Assumptions!D10",
+      "meaning": "Cash transferred and credited to seller; not reused as a funding source here."
+    },
+    "Working-capital peg": {
+      "cell": "Assumptions!D11",
+      "meaning": "Normalized delivered NWC, excluding cash and debt already bridged."
+    },
+    "Stock reference allocation": {
+      "cell": "Assumptions!D12",
+      "meaning": "Fixed equity allocated to buyer shares at the reference price."
+    },
+    "Seller rollover amount": {
+      "cell": "Assumptions!D13",
+      "meaning": "Noncash reinvestment; separate from buyer stock."
+    },
+    "Funded escrow": {
+      "cell": "Assumptions!D14",
+      "meaning": "Part of fixed cash; funded at close, restricted from seller."
+    },
+    "Unfunded holdback": {
+      "cell": "Assumptions!D15",
+      "meaning": "Part of fixed cash; paid later, without modeled interest."
+    },
+    "Annual discount rate": {
+      "cell": "Assumptions!D16",
+      "meaning": "Discount expected contingent cash and deferred holdback."
+    },
+    "Reference share price (USD)": {
+      "cell": "Assumptions!D17",
+      "meaning": "Used to lock shares under Fixed shares mode."
+    },
+    "Rollover issuer": {
+      "cell": "Assumptions!D18",
+      "meaning": "Name the entity in which seller retains or receives an interest."
+    },
+    "Required cash into business": {
+      "cell": "Assumptions!D19",
+      "meaning": "Additional close cash use, separate from eligible excess cash."
+    },
+    "Private EV ceiling": {
+      "cell": "Assumptions!D20",
+      "meaning": "Same basis as EV including NWC and maximum entered contingencies."
+    },
+    "Review date": {
+      "cell": "Assumptions!D21",
+      "meaning": "Fixed as-of date. Update deliberately; no moving TODAY() assumption."
+    },
+    "Exclusivity start": {
+      "cell": "Assumptions!D22",
+      "meaning": "Calendar date; elapsed/remaining days exclude the starting day."
+    },
+    "Exclusivity end": {
+      "cell": "Assumptions!D23",
+      "meaning": "Negotiated end date; extension is a new decision."
+    },
+    "Buyer incremental daily cost": {
+      "cell": "Assumptions!D24",
+      "meaning": "Process cost per calendar day, separate from close fees and purchase price."
+    },
+    "Seller incremental daily cost": {
+      "cell": "Assumptions!D25",
+      "meaning": "Seller process cost per day; opportunity cost is described in Conditions."
+    },
+    "Stock pricing mode": {
+      "cell": "Assumptions!D26",
+      "meaning": "Fixed shares locks the reference share count; Fixed value locks value."
+    },
+    "Decision authority": {
+      "cell": "Assumptions!D27",
+      "meaning": "Enter the named person authorized to approve price and open risks."
+    },
+    "Holdback payment years": {
+      "cell": "Assumptions!D28",
+      "meaning": "Years from close; contractual nominal amount remains due."
+    },
+    "Rollover rights / control": {
+      "cell": "Assumptions!D29",
+      "meaning": "Record governance, dilution, distributions and exit terms; amount is not voting control."
+    }
+  },
+  "scenarioDrivers": {
+    "Delivered NWC": {
+      "active": "Assumptions!F33",
+      "base": "Assumptions!F34",
+      "downside": "Assumptions!F35"
+    },
+    "Closing share price (USD)": {
+      "active": "Assumptions!F36",
+      "base": "Assumptions!F37",
+      "downside": "Assumptions!F38"
+    },
+    "Buyer cash available": {
+      "active": "Assumptions!F39",
+      "base": "Assumptions!F40",
+      "downside": "Assumptions!F41"
+    },
+    "New debt drawn at close": {
+      "active": "Assumptions!F42",
+      "base": "Assumptions!F43",
+      "downside": "Assumptions!F44"
+    },
+    "Fees paid at close": {
+      "active": "Assumptions!F45",
+      "base": "Assumptions!F46",
+      "downside": "Assumptions!F47"
+    },
+    "Expected close date": {
+      "active": "Assumptions!F48",
+      "base": "Assumptions!F49",
+      "downside": "Assumptions!F50"
+    }
+  },
+  "outputMap": {
+    "Headline enterprise value": {
+      "dashboard": "Dashboard!D7",
+      "build": "Economics!D7"
+    },
+    "Agreed fixed equity": {
+      "dashboard": "Dashboard!D8",
+      "build": "Economics!D14"
+    },
+    "Closing stock value": {
+      "dashboard": "Dashboard!D9",
+      "build": "Economics!D23"
+    },
+    "Delivered fixed equity": {
+      "dashboard": "Dashboard!D10",
+      "build": "Economics!D25"
+    },
+    "Buyer PV equity cost": {
+      "dashboard": "Dashboard!D11",
+      "build": "Economics!D37"
+    },
+    "Buyer PV enterprise equivalent": {
+      "dashboard": "Dashboard!D12",
+      "build": "Economics!D39"
+    },
+    "EV + maximum contingent cash": {
+      "dashboard": "Dashboard!D13",
+      "build": "Economics!D40"
+    },
+    "Headroom to private EV ceiling": {
+      "dashboard": "Dashboard!D14",
+      "build": "Economics!D41"
+    }
+  },
+  "guide": [
+    [
+      "The decision",
+      "Separate headline valuation, delivered consideration, closing liquidity and continuing obligations. Agree core economics before exclusivity consumes leverage. This is an economics and decision tool, not a legal-document generator."
+    ],
+    [
+      "Assumptions and unknowns",
+      "Every example is an Assumption. Replace numeric examples and text placeholders with actual terms and evidence. Blue numeric inputs on amber cells are editable. Blank means unknown; zero is an explicit zero. Missing required numbers withhold dependent outputs. NWC peg and delivered NWC may be negative."
+    ],
+    [
+      "Enterprise to equity",
+      "Agreed fixed equity = headline debt-free enterprise value − debt repaid − debt retained + eligible excess cash + (delivered NWC − peg). Retained debt still reduces seller equity; classifying debt changes close funding, not the enterprise economics."
+    ],
+    [
+      "Cash, stock and rollover",
+      "Stock reference allocation and rollover are carved out of agreed fixed equity. The residual is fixed cash. NWC true-up therefore changes cash in this template. The parties may negotiate another allocation; revise the model if they do. Rollover is a separate noncash interest, not buyer stock."
+    ],
+    [
+      "Fixed shares versus fixed value",
+      "Fixed shares locks thousands of shares = reference stock allocation / reference USD share price. Closing value varies with the selected closing share price. Fixed value preserves allocation and changes shares. Zero stock needs no share prices; Fixed value needs only a closing price. No collars, exchange-ratio limits, dilution, dividends, fractional-share cash or equity-award treatment are modeled."
+    ],
+    [
+      "Escrow and holdback",
+      "Both are subsets of fixed cash. Funded escrow is a close cash use but is not cash released to seller. Unfunded holdback remains a deferred nominal obligation and is discounted only in buyer PV equity cost. Neither increases nominal price. No assumed claims or recoveries are netted against price. Escrow does not guarantee recovery."
+    ],
+    [
+      "Rollover and control",
+      "Enter the issuer and rights/control notes. A dollar rollover does not establish voting rights, board control or percentage ownership. Confirm capitalization, distribution priority, dilution, transfer and exit rights in Conditions. No ownership percentage is calculated."
+    ],
+    [
+      "Contingent consideration",
+      "Use six slots for distinct cash commitments. Expected payment = probability × payout if triggered. Expected PV discounts that payment from its entered years after close. Sum contractual caps separately without probability weighting. Payments must not overlap; linked or mutually exclusive obligations require an agreed combined cap."
+    ],
+    [
+      "Effective purchase price",
+      "Expected nominal equity cost = delivered fixed equity + expected contingent cash. Buyer PV equity cost = delivered fixed equity − nominal holdback + holdback PV + expected contingent PV. Escrow is valued at funding, rollover at entered amount, and stock at the selected close price. This is buyer cost, not seller net proceeds or fair-value accounting."
+    ],
+    [
+      "Enterprise-equivalent basis",
+      "Add repaid and retained debt to equity cost and subtract eligible excess cash. The result includes the selected NWC adjustment. The private ceiling uses EV plus maximum contingent cash on this same basis, at the entered stock price. It is not an absolute maximum transaction cost: stock appreciation, interest and unmodeled liabilities can add exposure."
+    ],
+    [
+      "Sources and uses",
+      "Close uses = fixed cash minus holdback + repaid debt + close fees + required business cash. Funded escrow is already in fixed cash. Sources = buyer cash available + committed new debt assumed drawn at close; exclude undrawn facility capacity. Excess target cash is credited in price and is not also treated as funding. Do not reuse it unless the actual flow of funds is separately modeled."
+    ],
+    [
+      "Remaining debt and cash exposure",
+      "Post-close debt is retained debt plus new borrowing. Deferred cash ceiling is holdback plus maximum contingent payments. Their sum is a principal exposure subtotal, not extra purchase price. This tool does not model debt service, covenants, operating downside, taxes, fees on future payments or uncapped indemnities."
+    ],
+    [
+      "Exclusivity",
+      "Use fixed review, start, end and expected-close dates. Calendar-day differences exclude the starting day. Elapsed exclusivity stops at expiry; remaining days cannot be negative. Future daily process costs continue to expected close and are separate from fees and price. Do not count the same cost twice. Seller lost alternatives and buyer distraction require judgment."
+    ],
+    [
+      "Conditions and decision authority",
+      "Fourteen condition slots support buyer/seller/shared bearer, Investigate/Price/Protect/Walk, named owner, evidence, action, resolution, due date and consequence. Closed requires all fields. Formula checks cannot verify whether evidence is true or sufficient; authorized review remains necessary. Required No excludes a row; never use it to hide an unresolved requirement."
+    ],
+    [
+      "Use and extend",
+      "Replace the largest assumptions, review the bridge, assign condition owners, then switch to Downside. Six contingency slots and fourteen condition slots are supported. Fill an unused slot rather than inserting beyond the ranges. More slots require extending formulas and rechecking aggregates. Sort the entire Conditions table so each risk stays with its evidence and owner."
+    ],
+    [
+      "Boundaries",
+      "This is not a definitive agreement, tax model, purchase-price allocation, fairness opinion or financing commitment. Confirm asset-versus-equity structure, liabilities, accounting definitions and approvals with the relevant advisers. Buyer-specific synergies can inform a private ceiling; they do not automatically belong to the seller."
+    ]
+  ]
+}

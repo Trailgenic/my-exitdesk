@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "2.2.0",
   "updated": "2026-09-10",
   "entity": {
     "id": "https://www.mikeye.com/#person",
@@ -216,7 +216,8 @@
         "downloadVerified": true
       },
       "relatedResources": [
-        "synergy-value-bridge"
+        "synergy-value-bridge",
+        "loi-economics-risk-allocator"
       ]
     },
     {
@@ -246,7 +247,8 @@
         "downloadVerified": true
       },
       "relatedResources": [
-        "synergy-value-bridge"
+        "synergy-value-bridge",
+        "loi-economics-risk-allocator"
       ]
     },
     {
@@ -278,7 +280,8 @@
         "downloadVerified": true
       },
       "relatedResources": [
-        "synergy-value-bridge"
+        "synergy-value-bridge",
+        "loi-economics-risk-allocator"
       ]
     },
     {
@@ -295,7 +298,8 @@
       "relatedResources": [
         "deal-workflow",
         "workflow-diligence",
-        "integration-continuity"
+        "integration-continuity",
+        "loi-economics-risk-allocator"
       ],
       "sourcePrinciples": [
         "buyer-keeps-synergy",
@@ -434,6 +438,52 @@
         "downloadVerified": true,
         "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
       }
+    },
+    {
+      "id": "loi-economics-risk-allocator",
+      "name": "LOI Economics & Risk Allocator",
+      "type": "Tool",
+      "topic": "deal-structure",
+      "url": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
+      "summary": "See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal.",
+      "decision": "How does the proposed structure change economics, control, and risk?",
+      "version": "1.0",
+      "publicationDate": "2026-09-10",
+      "status": "published",
+      "relatedResources": [
+        "deal-workflow",
+        "workflow-diligence",
+        "synergy-value-bridge",
+        "integration-continuity"
+      ],
+      "sourcePrinciples": [
+        "loi-fixes-core-economics",
+        "structure-liability-deliberately",
+        "use-contingency-for-alignment",
+        "control-and-alignment",
+        "ceiling-and-patience",
+        "unknowns-are-findings",
+        "buyer-keeps-synergy"
+      ],
+      "download": {
+        "filename": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "repositoryPath": "public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "version": "1.0",
+        "bytes": 47265,
+        "sha256": "a6adad0cf1d79beae2e61391bb629269744efa7e4155fa8b7f3f8f6b6e71a8eb",
+        "sheets": [
+          "Dashboard",
+          "Assumptions",
+          "Economics",
+          "Contingencies",
+          "Conditions",
+          "Guide"
+        ],
+        "downloadVerified": true,
+        "verifiedAt": "2026-09-10"
+      },
+      "contentReviewedAt": "2026-09-10"
     }
   ],
   "products": [
@@ -461,7 +511,7 @@
         "judgment": "Frame before detail. The target must serve the mandate.",
         "gates": "Gate 0 · Mandate approved",
         "resource": "The M&A Deal Workflow",
-        "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist"
+        "url": "/ma-resources/ma-deal-workflow-checklist"
       },
       {
         "id": "thesis-targets",
@@ -471,7 +521,7 @@
         "judgment": "Underwrite rather than admire. Strategic appeal does not establish transactability.",
         "gates": "Gates 1–2 · Thesis and target approved",
         "resource": "The M&A Deal Workflow",
-        "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist"
+        "url": "/ma-resources/ma-deal-workflow-checklist"
       },
       {
         "id": "first-look-underwriting",
@@ -481,7 +531,7 @@
         "judgment": "Replicate the financials. Keep buyer-created synergy separate from standalone value.",
         "gates": "Gates 3–4 · Access and economics approved",
         "resource": "Valuation models and working tools",
-        "url": "https://www.mikeye.com/tools-and-models"
+        "url": "/tools-and-models"
       },
       {
         "id": "loi-diligence",
@@ -490,8 +540,8 @@
         "evidence": "Approved LOI, evidence requests, workflow tests, accountable workstream owners, and a live issue log.",
         "judgment": "Unknowns are findings. Give each material issue a consequence: Investigate, Price, Protect, or Walk.",
         "gates": "Gates 5–6 · Exclusivity approved and diligence launched",
-        "resource": "Before You Buy: Follow the Work",
-        "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work"
+        "resource": "LOI Economics & Risk Allocator",
+        "url": "/ma-resources/loi-economics-risk-allocator"
       },
       {
         "id": "re-underwrite-sign",
@@ -501,7 +551,7 @@
         "judgment": "Re-establish the price ceiling before signing. Prior spending does not justify the next commitment.",
         "gates": "Gates 7–8 · Re-underwriting and signing approved",
         "resource": "Synergy Underwriting & Value Bridge",
-        "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge"
+        "url": "/ma-resources/synergy-underwriting-value-bridge"
       },
       {
         "id": "close-day-one",
@@ -511,7 +561,7 @@
         "judgment": "Protect revenue while integrating cost. Do not confuse signing with operating readiness.",
         "gates": "Gates 9–10 · Closing approved and Day 1 stable",
         "resource": "After the Deal: Keep the Business Working",
-        "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working"
+        "url": "/ma-resources/after-the-deal-keep-the-business-working"
       },
       {
         "id": "value-delivery-review",
@@ -521,9 +571,8 @@
         "judgment": "Compare results with the original thesis. A synergy belongs in the results only when the operating work delivers it.",
         "gates": "Gates 11–12 · Value delivery confirmed and program closed",
         "resource": "Synergy Underwriting & Value Bridge",
-        "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge"
+        "url": "/ma-resources/synergy-underwriting-value-bridge"
       }
-    ],
-    "url": "https://www.mikeye.com/m-and-a#transaction-path"
+    ]
   }
 }

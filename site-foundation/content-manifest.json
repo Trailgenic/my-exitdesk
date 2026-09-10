@@ -1,8 +1,8 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "updated": "2026-09-10",
   "canonicalOrigin": "https://www.mikeye.com",
-  "phase": "transaction-path-and-synergy-value-bridge",
+  "phase": "loi-economics-risk-allocator",
   "positioning": {
     "headline": "The Deal Is Only the Beginning.",
     "supportingStatement": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
@@ -212,7 +212,8 @@
       "relatedResources": [
         "workflow-diligence",
         "integration-continuity",
-        "synergy-value-bridge"
+        "synergy-value-bridge",
+        "loi-economics-risk-allocator"
       ],
       "webflowItemId": "6aa1f03acc577a948c9c5169",
       "download": {
@@ -276,7 +277,8 @@
         "downloadVerified": true
       },
       "relatedResources": [
-        "synergy-value-bridge"
+        "synergy-value-bridge",
+        "loi-economics-risk-allocator"
       ]
     },
     {
@@ -323,7 +325,8 @@
         "downloadVerified": true
       },
       "relatedResources": [
-        "synergy-value-bridge"
+        "synergy-value-bridge",
+        "loi-economics-risk-allocator"
       ]
     },
     {
@@ -562,7 +565,8 @@
       "relatedResources": [
         "deal-workflow",
         "workflow-diligence",
-        "integration-continuity"
+        "integration-continuity",
+        "loi-economics-risk-allocator"
       ],
       "download": {
         "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
@@ -585,6 +589,58 @@
       "contentReviewedAt": "2026-09-10",
       "publicationDate": "2026-09-10",
       "cmsStatus": "published"
+    },
+    {
+      "id": "loi-economics-risk-allocator",
+      "name": "LOI Economics & Risk Allocator",
+      "slug": "loi-economics-risk-allocator",
+      "format": "Tool",
+      "topic": "deal-structure",
+      "summary": "See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal.",
+      "decision": "How does the proposed structure change economics, control, and risk?",
+      "version": "1.0",
+      "updated": "2026-09-10",
+      "status": "published",
+      "url": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
+      "proposedPath": "/ma-resources/loi-economics-risk-allocator",
+      "sourceFile": "editorial/loi-economics-risk-allocator.json",
+      "sourcePrinciples": [
+        "loi-fixes-core-economics",
+        "structure-liability-deliberately",
+        "use-contingency-for-alignment",
+        "control-and-alignment",
+        "ceiling-and-patience",
+        "unknowns-are-findings",
+        "buyer-keeps-synergy"
+      ],
+      "relatedResources": [
+        "deal-workflow",
+        "workflow-diligence",
+        "synergy-value-bridge",
+        "integration-continuity"
+      ],
+      "webflowItemId": "6aa2095323a4984befe0ccef",
+      "download": {
+        "filename": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "repositoryPath": "public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "version": "1.0",
+        "bytes": 47265,
+        "sha256": "a6adad0cf1d79beae2e61391bb629269744efa7e4155fa8b7f3f8f6b6e71a8eb",
+        "sheets": [
+          "Dashboard",
+          "Assumptions",
+          "Economics",
+          "Contingencies",
+          "Conditions",
+          "Guide"
+        ],
+        "downloadVerified": true,
+        "verifiedAt": "2026-09-10"
+      },
+      "cmsStatus": "published",
+      "contentReviewedAt": "2026-09-10",
+      "publicationDate": "2026-09-10"
     }
   ],
   "products": [
@@ -1824,14 +1880,12 @@
   },
   "publication": {
     "date": "2026-09-10",
-    "status": "published-and-verified",
+    "status": "published-live-verification-in-progress",
     "domains": [
       "www.mikeye.com",
       "mikeye.com"
     ],
-    "audit": "site-foundation/synergy-release/production-audit.json",
-    "verifiedAt": "2026-09-10T00:54:06.791480+00:00",
-    "checksPassed": 82
+    "audit": "site-foundation/loi-release/production-audit.json"
   },
   "transactionPath": {
     "version": "1.0",
@@ -1876,8 +1930,8 @@
         "evidence": "Approved LOI, evidence requests, workflow tests, accountable workstream owners, and a live issue log.",
         "judgment": "Unknowns are findings. Give each material issue a consequence: Investigate, Price, Protect, or Walk.",
         "gates": "Gates 5–6 · Exclusivity approved and diligence launched",
-        "resource": "Before You Buy: Follow the Work",
-        "url": "/ma-resources/before-you-buy-follow-the-work"
+        "resource": "LOI Economics & Risk Allocator",
+        "url": "/ma-resources/loi-economics-risk-allocator"
       },
       {
         "id": "re-underwrite-sign",
@@ -1930,12 +1984,12 @@
     {
       "topic": "industry-comps",
       "resource": "Capital IQ Comps Workbench",
-      "status": "planned"
+      "status": "next"
     },
     {
       "topic": "deal-structure",
       "resource": "LOI Economics & Risk Allocator",
-      "status": "next"
+      "status": "published"
     },
     {
       "topic": "due-diligence",
@@ -1964,7 +2018,6 @@
     }
   ],
   "buildPriority": [
-    "loi-economics-risk-allocator",
     "capital-iq-comps-workbench",
     "acquisition-mandate-target-screen",
     "carve-out-perimeter-tsa-planner",
