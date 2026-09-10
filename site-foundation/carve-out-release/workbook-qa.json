@@ -1,0 +1,287 @@
+{
+  "tests": [
+    {
+      "name": "Assumption examples never ready",
+      "passed": true,
+      "actual": "Open: scope review"
+    },
+    {
+      "name": "Shared service fees counted once across dependencies",
+      "passed": true,
+      "actual": 105
+    },
+    {
+      "name": "Separate gross annual and one-time cost views",
+      "passed": true,
+      "actual": [
+        [
+          240
+        ],
+        [
+          120
+        ],
+        [
+          100
+        ],
+        [
+          40
+        ]
+      ]
+    },
+    {
+      "name": "Complete documented prerequisites produce Day 1 conclusion",
+      "passed": true,
+      "actual": "Critical workflows ready"
+    },
+    {
+      "name": "Day 1 readiness does not prove exit",
+      "passed": true,
+      "actual": "Open: TSA exits"
+    },
+    {
+      "name": "One unknown dependency reopens workflow",
+      "passed": true,
+      "actual": "Open: dependencies"
+    },
+    {
+      "name": "End-to-end failure holds despite passing components",
+      "passed": true,
+      "actual": "Hold: workflow test failed"
+    },
+    {
+      "name": "Missing declared dependency prevents readiness",
+      "passed": true,
+      "actual": "Open: dependency mapping"
+    },
+    {
+      "name": "Unresolved route never ready",
+      "passed": true,
+      "actual": "Open: continuity route"
+    },
+    {
+      "name": "Owned route cannot use shared asset as transferred",
+      "passed": true,
+      "actual": "Open: rights / service"
+    },
+    {
+      "name": "Pending consent prevents ready rights",
+      "passed": true,
+      "actual": "Open: rights / service"
+    },
+    {
+      "name": "Passed dependency without evidence stays open",
+      "passed": true,
+      "actual": "Open: dependency test"
+    },
+    {
+      "name": "Missing workflow owner prevents readiness",
+      "passed": true,
+      "actual": "Open: dependency mapping"
+    },
+    {
+      "name": "Missing seller service owner prevents Day 1",
+      "passed": true,
+      "actual": "Open: Day 1 service"
+    },
+    {
+      "name": "Future test evidence is open",
+      "passed": true,
+      "actual": "Open: dependency test"
+    },
+    {
+      "name": "Revision change reopens scope and row evidence",
+      "passed": true,
+      "actual": "Open: scope review"
+    },
+    {
+      "name": "TSA starts after Day 1 leaves coverage open",
+      "passed": true,
+      "actual": "Open: Day 1 coverage"
+    },
+    {
+      "name": "Contract end date includes final Day 1 boundary",
+      "passed": true,
+      "actual": "Covers Day 1"
+    },
+    {
+      "name": "Day after contract end fails coverage",
+      "passed": true,
+      "actual": "Open: Day 1 coverage"
+    },
+    {
+      "name": "Explicit zero fee preserved with terms",
+      "passed": true,
+      "actual": 0
+    },
+    {
+      "name": "Blank fee unavailable and counted",
+      "passed": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Fractional contract month rejected",
+      "passed": true,
+      "actual": "Invalid terms"
+    },
+    {
+      "name": "Negative fee rejected",
+      "passed": true,
+      "actual": "Invalid terms"
+    },
+    {
+      "name": "Planned exit after contract end flagged without extending fees",
+      "passed": true,
+      "actual": "Beyond base term"
+    },
+    {
+      "name": "Notice deadline equality remains within boundary",
+      "passed": true,
+      "actual": "Within base term"
+    },
+    {
+      "name": "Day after notice deadline requests review",
+      "passed": true,
+      "actual": "Review: notice deadline passed"
+    },
+    {
+      "name": "Future replacement test cannot evidence exit",
+      "passed": true,
+      "actual": "Open: TSA exit"
+    },
+    {
+      "name": "Separate evidenced replacement qualifies exit only",
+      "passed": true,
+      "actual": "Exit evidenced"
+    },
+    {
+      "name": "Replacement exit before service start rejected",
+      "passed": true,
+      "actual": "Open: TSA exit"
+    },
+    {
+      "name": "Orphan perimeter ID rejected",
+      "passed": true,
+      "actual": "Invalid link"
+    },
+    {
+      "name": "Duplicate dependency IDs reject both rows",
+      "passed": true,
+      "actual": "Invalid link"
+    },
+    {
+      "name": "Duplicate workflow asset pair rejected",
+      "passed": true,
+      "actual": "Invalid link"
+    },
+    {
+      "name": "Orphan service ID rejected",
+      "passed": true,
+      "actual": "Invalid link"
+    },
+    {
+      "name": "Blank cost excluded and flagged",
+      "passed": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "Explicit zero cost retained",
+      "passed": true,
+      "actual": 0
+    },
+    {
+      "name": "Overlap review excludes unresolved estimate",
+      "passed": true,
+      "actual": "n.a."
+    },
+    {
+      "name": "TSA cannot be duplicated in non-TSA costs",
+      "passed": true,
+      "actual": "Invalid cost"
+    },
+    {
+      "name": "Perimeter record reorder preserves ID-linked readiness",
+      "passed": true,
+      "actual": "Day 1 ready"
+    },
+    {
+      "name": "Unnamed service with fee is invalid and counted",
+      "passed": true,
+      "actual": "Invalid terms"
+    },
+    {
+      "name": "Unnamed cost with amount is invalid and counted",
+      "passed": true,
+      "actual": "Invalid cost"
+    },
+    {
+      "name": "Unnamed workflow with other inputs prevents conclusion",
+      "passed": true,
+      "actual": "Open: coverage / records"
+    },
+    {
+      "name": "Unnamed perimeter record stays invalid",
+      "passed": true,
+      "actual": "Invalid record"
+    },
+    {
+      "name": "Negative non-TSA cost rejected",
+      "passed": true,
+      "actual": "Invalid cost"
+    },
+    {
+      "name": "Optional flag cannot silently erase expected dependency",
+      "passed": true,
+      "actual": "Open: dependency mapping"
+    },
+    {
+      "name": "Last reserved cost slot flows into subtotal",
+      "passed": true,
+      "actual": 300
+    },
+    {
+      "name": "Both separately evidenced exits produce aggregate result",
+      "passed": true,
+      "actual": "Entered TSA exits evidenced"
+    },
+    {
+      "name": "Unnamed partial service prevents all-exits conclusion",
+      "passed": true,
+      "actual": "Open: TSA exits"
+    },
+    {
+      "name": "Empty records never produce ready conclusion",
+      "passed": true,
+      "actual": "Open: coverage / records"
+    },
+    {
+      "name": "Final assumption state restored",
+      "passed": true,
+      "actual": "Open: scope review"
+    }
+  ],
+  "passed": 49,
+  "failed": 0,
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "inspection": "{\"kind\":\"table\",\"sheet\":\"Dashboard\",\"address\":\"C19:G26\",\"rows\":8,\"cols\":5,\"values\":[[\"Cost view (USD thousands)\",\"Entered subtotal\",null,null,null],[\"Buyer standalone / year\",240,null,\"Subtotals cover valid entered estimates only.\",null],[\"Seller stranded / year\",120,null,\"Assumptions are included and remain unverified.\",null],[\"Buyer separation / one time\",100,null,\"Do not add annual run rates to one-time totals.\",null],[\"Seller separation / one time\",40,null,\"TSA fees are counted once per service.\",null],[\"TSA fees / full base term\",105,null,\"No TSA entered does not establish independence.\",null],[\"Invalid cost / fee records\",0,null,null,null],[\"Cost records awaiting verification\",6,null,null,null]]}",
+  "bytes": 74465,
+  "sha256": "ac112844a858a5e81b1211702e3b87c76d05981b7a2c554d2f60da26f80269d7",
+  "limitations": [
+    "Recalculated with artifact-tool; desktop Excel unavailable",
+    "Fixed capacity 10 workflows,22 perimeter assets,40 dependencies,10 TSA services,20 costs",
+    "TSA full-month fixed-fee term only; no variable fees, proration, extensions or early-termination economics",
+    "Completeness and material plan revisions require manual reattestation",
+    "Cost subtotals include structurally valid assumptions and exclude invalid rows; semantic overlap requires review"
+  ],
+  "exportAudit": {
+    "sheets": 7,
+    "tables": 5,
+    "validationRules": 21,
+    "formulas": 488,
+    "cachedErrors": []
+  },
+  "visualReview": {
+    "allSevenTabsReviewed": true,
+    "renderedRanges": 16,
+    "result": "Legible headers, dates, status and cost views. Wide operating tables retain frozen identifiers and filters."
+  }
+}
