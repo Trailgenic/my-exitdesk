@@ -1,0 +1,120 @@
+{
+  "id": "capital-allocation-deal-affordability",
+  "name": "Capital Allocation & Deal Affordability Tool",
+  "slug": "capital-allocation-deal-affordability",
+  "format": "Tool",
+  "topic": "strategic-finance",
+  "summary": "Compare buying, building, partnering, and doing nothing; test funding and downside constraints; and set the buyer's private hard price ceiling.",
+  "decision": "Is the acquisition the best use of capital, and what is the buyer's hard price ceiling?",
+  "version": "1.0",
+  "updated": "2026-09-10",
+  "status": "published",
+  "url": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability",
+  "proposedPath": "/ma-resources/capital-allocation-deal-affordability",
+  "sourceFile": "editorial/capital-allocation-deal-affordability.json",
+  "sourcePrinciples": [
+    "frame-before-detail",
+    "bankability-shapes-market",
+    "buyer-keeps-synergy",
+    "survive-the-downside",
+    "ceiling-and-patience",
+    "match-return-metric-to-buyer",
+    "unknowns-are-findings",
+    "decision-not-description"
+  ],
+  "relatedResources": [
+    "acquisition-mandate-target-screen",
+    "loi-economics-risk-allocator",
+    "synergy-value-bridge",
+    "carve-out-perimeter-tsa-planner",
+    "deal-workflow"
+  ],
+  "sections": [
+    {
+      "heading": "The decision this tool answers",
+      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/38b4a618cd3a4803f8fc1013c67e77938f7b4538/public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx\">Download the Capital Allocation &amp; Deal Affordability workbook</a> · Excel · Version 1.0 · USD millions</p><p>An acquisition competes for capital with building internally, partnering, and preserving the option to do nothing. The decision is larger than whether the buyer can assemble enough money to close.</p><p>This tool asks: <strong>Is the acquisition the best use of capital, and what is the buyer's hard price ceiling?</strong> It connects the alternatives to a five-year cash-flow view, financing choices, operating headroom, and a private walk-away price.</p>"
+    },
+    {
+      "heading": "When to use it",
+      "html": "<p>Use it after the mandate and an initial operating case are defined, before bidding or agreeing core economics. Revisit it when diligence changes the forecast, financing terms move, separation costs emerge, or competitive pressure starts to pull the price upward.</p><p>Start with a 15-minute first pass: enter the proposed price, available buyer capital, financing terms, and the largest cash demands. Look at which condition limits the deal. A complete investment decision needs the supporting forecast and evidence behind those inputs.</p>"
+    },
+    {
+      "heading": "What to bring",
+      "html": "<p>Bring the buyer's unrestricted cash, minimum liquidity reserve, existing debt and debt service, other capital commitments, and expected cash generation. Bring the target's normalized revenue and margins, capital expenditure, working-capital needs, tax assumptions, required follow-on investment, transaction costs, and any supported buyer-specific synergies.</p><p>Bring financing amounts and terms that distinguish a modeled borrowing limit from an actual commitment. For equity financing, bring the valuation basis used to calculate ownership dilution. For the alternatives, bring the capability delivered, timing, upfront and later cash requirements, annual cash benefits, and the basis for any residual value.</p>"
+    },
+    {
+      "heading": "Use one price definition",
+      "html": "<p>All monetary inputs and outputs are in USD millions. The acquisition price in this workbook is debt-free, cash-free enterprise value with normalized working capital. It is the price for the operating business. It is not the cash amount paid to shareholders after adjusting for target debt, cash, and other closing items.</p><p>Reconcile the negotiated enterprise-to-equity bridge and closing funds flow in the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a> and the transaction model. An equity-price quote should not be pasted into this tool as enterprise value without that reconciliation.</p>"
+    },
+    {
+      "heading": "Compare buy, build, partner, and do nothing",
+      "html": "<p>Compare the four routes against the same business need and the same five-year horizon. Buying a capability immediately and building a different capability three years later are not automatically equivalent alternatives.</p><p>Record what each route delivers, whether it meets the required outcome, and what remains uncertain. Compare incremental cash flows using a common hurdle rate, including the cash required after the initial commitment. Explain the consequences of doing nothing; preserving capital may still leave an operating gap or a lost opportunity.</p><p>Before deducting an alternative's value from the acquisition price ceiling, confirm that the alternatives are comparable and mutually exclusive. A complementary project that can proceed alongside the acquisition is a separate capital commitment, not automatically the opportunity cost of buying.</p>"
+    },
+    {
+      "heading": "Distinguish three price limits",
+      "html": "<ul><li><strong>Affordable price:</strong> the amount the buyer can fund under the selected financing plan while respecting the modeled leverage, coverage, and liquidity constraints.</li><li><strong>Return-supported price:</strong> the price supported by the operating cash flows and residual value at the entered hurdle rate, after the other investment costs.</li><li><strong>Hard walk-away price:</strong> the lowest applicable constraint after the downside and opportunity-cost reviews, including the buyer's own strategic price cap.</li></ul><p>More borrowing capacity does not make the business more valuable. A high modeled return does not supply cash for closing. A strategic cap preserves discipline when the auction becomes competitive.</p><p>The Base and Upside cases show their own conditional price limits. Select Downside to calculate the hard walk-away price. Revisit the limit whenever the facts change.</p><p>A reviewed hard walk-away also requires a named owner, a populated evidence and approval record, Verified evidence, a confirmed required outcome, feasible buying, reviewed comparable alternatives, and confirmed funding. Those labels require renewed review after a material assumption changes.</p>"
+    },
+    {
+      "heading": "Count the capital that is actually available",
+      "html": "<p>Begin with unrestricted buyer cash, then preserve the minimum operating reserve and deduct other committed uses of capital. Include transaction fees, initial additional investment, and the cash needed after close.</p><p>Keep cash already on the balance sheet separate from future cash generation. Keep new borrowing separate from existing debt. An undrawn facility is not cash on hand, and a financing indication is not an executed funding commitment.</p><p>Review the full five-year period. A deal can fund at close and still run short when working capital grows, a replacement system is required, or debt becomes due.</p>"
+    },
+    {
+      "heading": "Compare the financing choices",
+      "html": "<p>The financing table supports three editable choices. Compare the new debt amount, cash interest rate, repayment schedule, external equity, and commitment status on the same operating case.</p><p>Leverage tests opening gross debt against each year's forecast combined buyer and target EBITDA. The modeled new-debt capacity is the lowest amount allowed by the annual leverage and interest-coverage tests, capped by the committed borrowing limit. Interest coverage tests earnings against cash interest. These are planning constraints, not a reading of a lender's covenant definitions or proof that financing is available.</p><p>Equity can preserve borrowing capacity, but it changes ownership. The dilution view measures the ownership issued to new capital against the entered pre-issue equity value. It does not calculate earnings-per-share accretion or dilution, purchase accounting, or future share-price performance.</p><p>More debt can increase closing funds while increasing later debt service. The affordable-price result is conditional on the selected financing plan; it is not an optimization across every possible capital structure. Compare the available plans and review the binding period before choosing how much to borrow.</p><p>Enter transaction and financing fees once in the shared Controls estimate. Update that estimate when comparing plans with different fees; the three financing choices do not carry separate fee inputs.</p>"
+    },
+    {
+      "heading": "Make the downside survivable",
+      "html": "<p>Stress revenue and margin together. Carry the resulting earnings and cash flow through interest, principal repayment, other obligations, capital expenditure, working capital, and follow-on investment.</p><p>Check the weakest period, not just the closing leverage ratio. A year-five refinancing assumption should not quietly rescue an otherwise unfundable balloon payment. Name the contractual repayment and the source of cash that would meet it.</p><p>Mike's governing rule is that a deal which cannot survive the combined downside should not advance. A stronger Base case does not cancel an unresolved liquidity deficit or a financing condition.</p><p>The liquidity screen uses closing and annual end-period cash balances. It does not reveal an intra-year seasonal cash shortfall. Terminal sale proceeds used in the return calculation are excluded from this operating survivability test. Use a monthly cash forecast when payroll, seasonality, capital spending, or debt timing can create a gap within a year.</p>"
+    },
+    {
+      "heading": "Keep buyer-created synergy separate",
+      "html": "<p>Build the target's standalone cash flows first. Then show supported buyer-specific synergy cash separately, after the costs and investment required to deliver it. Use the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a> to establish those assumptions.</p><p>The workbook presents a standalone price reference separately from any private buyer benefit. Synergies may help the buyer judge affordability and its private ceiling; they do not automatically belong to the seller. Avoid counting the same benefit in both the target forecast and the synergy line, or counting its implementation cost twice.</p><p>The price ceiling includes only the entered share of each positive annual discounted synergy cash flow. Each negative annual discounted synergy cash flow reduces the ceiling in full, even when total synergy NPV is positive. Economic NPV includes all net synergy cash. No synergy terminal value or EBITDA add-back increases modeled borrowing capacity.</p>"
+    },
+    {
+      "heading": "Read the return measures on their stated basis",
+      "html": "<p><strong>Net present value (NPV)</strong> expresses the modeled cash flows and residual value in today's money at the entered hurdle rate, less the investment required. It helps compare the value created by the alternatives when their scope and timing are comparable.</p><p><strong>Internal rate of return (IRR)</strong> here is the unlevered acquisition or project IRR: the discount rate at which the operating investment cash flows, including residual value, have zero NPV. It is not the leveraged return earned by sponsor equity. Read it together with the dollar value created and the size of the investment. A small project can have a high percentage return while creating little total value.</p><p><strong>Return on invested capital (ROIC)</strong> is a Year 1 standalone proxy: standalone NOPAT divided by enterprise value plus initial additional investment and Year 1 follow-on investment. It excludes transaction fees and buyer synergies. This acquisition-cost basis differs from purchase-accounting invested capital and a mature run rate.</p><p><strong>Payback</strong> shows the first whole year in which cumulative operating cash flows recover the initial investment. Initial outflows occur at close and annual cash flows at year-end. Keep terminal sale proceeds separate. An assumed sale at the end of year five is not evidence that the operations paid back within five years.</p><p>Mike emphasizes payback for strategic buyers and IRR for financial sponsors. A sponsor needs a separate equity cash-flow model to calculate its leveraged IRR. Read these project returns alongside the funding, cash timing, and downside on which they depend.</p>"
+    },
+    {
+      "heading": "Make opportunity cost explicit",
+      "html": "<p>A positive acquisition NPV does not establish that buying is the best choice. Compare it with the best feasible alternative that meets the same need. The workbook shows that comparison and, when comparability is confirmed, the effect on the price the buyer can justify.</p><p>The opportunity-cost adjustment is not an extra cash payment to the seller or lender. It is value the buyer gives up by selecting one route instead of another. Do not also enter the same forgone value as a cash expense.</p><p>If the alternatives have materially different scale, timing, risk, or capability, resolve that difference before using a numerical ranking as the decision.</p>"
+    },
+    {
+      "heading": "Use the seven workbook tabs",
+      "html": "<ol><li><strong>Dashboard:</strong> read the active case, limiting condition, price headroom, and next decision.</li><li><strong>Controls:</strong> set the buyer, transaction, operating cases, hurdle, and review inputs.</li><li><strong>Deal cash flow:</strong> follow the selected case through standalone cash generation, synergies, investment, and returns.</li><li><strong>Financing:</strong> compare three funding choices and select the plan to test.</li><li><strong>Capacity:</strong> inspect leverage, coverage, debt service, liquidity, and the price limits.</li><li><strong>Alternatives:</strong> compare buying with building, partnering, and doing nothing.</li><li><strong>Guide:</strong> check the definitions and calculation boundaries before relying on a result.</li></ol><p>Replace fictional inputs labeled Assumption with the transaction's supported inputs. Missing inputs should remain visible. Review evidence and financing status separately from whether the arithmetic calculates.</p>"
+    },
+    {
+      "heading": "Common mistakes",
+      "html": "<ul><li>Using the maximum financing amount as the offer price.</li><li>Spending the buyer's operating reserve or counting an undrawn facility twice.</li><li>Ignoring follow-on investment, other capital commitments, or a debt maturity.</li><li>Calling an Upside result a survivable downside.</li><li>Using buyer-created synergy to increase the seller's standalone value.</li><li>Comparing alternatives that deliver different outcomes without explaining the difference.</li><li>Letting terminal value hide weak operating payback.</li><li>Using ownership dilution as though it were earnings-per-share dilution.</li></ul>"
+    },
+    {
+      "heading": "Carry the result into the next decision",
+      "html": "<p>Use the <a href=\"/ma-resources/acquisition-mandate-target-screen\">Acquisition Mandate &amp; Target Screen</a> to confirm why buying serves the business need. Carry separation and temporary-service cash requirements from the <a href=\"/ma-resources/carve-out-perimeter-tsa-planner\">Carve-Out Perimeter &amp; TSA Planner</a> into the appropriate forecast period.</p><p>Before the next commitment, name what needs to change: <strong>Investigate</strong> an unsupported cash flow, <strong>Price</strong> a supported cost or weaker forecast, <strong>Protect</strong> a funding or transition condition, or <strong>Walk</strong> when the required outcome or downside cannot be made acceptable. Record the owner and next action in the <a href=\"/ma-resources/ma-deal-workflow-checklist\">M&amp;A Deal Workflow</a>.</p><p>The workbook is a capital-allocation and affordability screen. It does not replace a transaction-specific integrated deal model, financing commitment, valuation conclusion, or approval process.</p>"
+    },
+    {
+      "heading": "Version",
+      "html": "<p>Version 1.0. Updated September 10, 2026. Editable Excel workbook. Entries stay in your downloaded copy.</p>"
+    }
+  ],
+  "download": {
+    "filename": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+    "repositoryPath": "public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/38b4a618cd3a4803f8fc1013c67e77938f7b4538/public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+    "version": "1.0",
+    "bytes": 54196,
+    "sha256": "cdf044eb840ad6d5f277881354dc364528d8a0e4d78a7d47fa80b3dfe9946c33",
+    "sheets": [
+      "Dashboard",
+      "Controls",
+      "Deal cash flow",
+      "Financing",
+      "Capacity",
+      "Alternatives",
+      "Guide"
+    ],
+    "downloadVerified": true,
+    "verifiedAt": "2026-09-10"
+  },
+  "cmsStatus": "published",
+  "contentReviewedAt": "2026-09-10",
+  "publicationDate": "2026-09-10"
+}

@@ -26,7 +26,8 @@
     "workflow-diligence",
     "integration-continuity",
     "loi-economics-risk-allocator",
-    "synergy-value-bridge"
+    "synergy-value-bridge",
+    "capital-allocation-deal-affordability"
   ],
   "sections": [
     {
@@ -88,6 +89,10 @@
     {
       "heading": "Version",
       "html": "<p>Version 1.0. Updated September 10, 2026. Editable Excel workbook. Entries stay in your downloaded copy.</p>"
+    },
+    {
+      "heading": "Set the capital limit before committing",
+      "html": "<p>Use the <a href=\"/ma-resources/capital-allocation-deal-affordability\">Capital Allocation &amp; Deal Affordability Tool</a> to compare buying with the alternatives, test financing and downside cash demands, and separate the affordable price from the buyer's private hard walk-away price.</p>"
     }
   ],
   "download": {

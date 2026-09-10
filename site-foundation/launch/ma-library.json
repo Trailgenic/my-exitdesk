@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0",
+  "version": "2.5.0",
   "updated": "2026-09-10",
   "entity": {
     "id": "https://www.mikeye.com/#person",
@@ -219,7 +219,8 @@
         "synergy-value-bridge",
         "loi-economics-risk-allocator",
         "acquisition-mandate-target-screen",
-        "carve-out-perimeter-tsa-planner"
+        "carve-out-perimeter-tsa-planner",
+        "capital-allocation-deal-affordability"
       ]
     },
     {
@@ -306,7 +307,8 @@
         "integration-continuity",
         "loi-economics-risk-allocator",
         "acquisition-mandate-target-screen",
-        "carve-out-perimeter-tsa-planner"
+        "carve-out-perimeter-tsa-planner",
+        "capital-allocation-deal-affordability"
       ],
       "sourcePrinciples": [
         "buyer-keeps-synergy",
@@ -463,7 +465,8 @@
         "synergy-value-bridge",
         "integration-continuity",
         "acquisition-mandate-target-screen",
-        "carve-out-perimeter-tsa-planner"
+        "carve-out-perimeter-tsa-planner",
+        "capital-allocation-deal-affordability"
       ],
       "sourcePrinciples": [
         "loi-fixes-core-economics",
@@ -509,7 +512,8 @@
         "deal-workflow",
         "workflow-diligence",
         "synergy-value-bridge",
-        "loi-economics-risk-allocator"
+        "loi-economics-risk-allocator",
+        "capital-allocation-deal-affordability"
       ],
       "sourcePrinciples": [
         "frame-before-detail",
@@ -559,7 +563,8 @@
         "workflow-diligence",
         "integration-continuity",
         "loi-economics-risk-allocator",
-        "synergy-value-bridge"
+        "synergy-value-bridge",
+        "capital-allocation-deal-affordability"
       ],
       "sourcePrinciples": [
         "frame-before-detail",
@@ -584,6 +589,55 @@
           "Dependencies",
           "TSA",
           "Costs",
+          "Guide"
+        ],
+        "downloadVerified": true,
+        "verifiedAt": "2026-09-10"
+      },
+      "contentReviewedAt": "2026-09-10"
+    },
+    {
+      "id": "capital-allocation-deal-affordability",
+      "name": "Capital Allocation & Deal Affordability Tool",
+      "type": "Tool",
+      "topic": "strategic-finance",
+      "url": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability",
+      "summary": "Compare buying, building, partnering, and doing nothing; test funding and downside constraints; and set the buyer's private hard price ceiling.",
+      "decision": "Is the acquisition the best use of capital, and what is the buyer's hard price ceiling?",
+      "version": "1.0",
+      "publicationDate": "2026-09-10",
+      "status": "published",
+      "relatedResources": [
+        "acquisition-mandate-target-screen",
+        "loi-economics-risk-allocator",
+        "synergy-value-bridge",
+        "carve-out-perimeter-tsa-planner",
+        "deal-workflow"
+      ],
+      "sourcePrinciples": [
+        "frame-before-detail",
+        "bankability-shapes-market",
+        "buyer-keeps-synergy",
+        "survive-the-downside",
+        "ceiling-and-patience",
+        "match-return-metric-to-buyer",
+        "unknowns-are-findings",
+        "decision-not-description"
+      ],
+      "download": {
+        "filename": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+        "repositoryPath": "public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/38b4a618cd3a4803f8fc1013c67e77938f7b4538/public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+        "version": "1.0",
+        "bytes": 54196,
+        "sha256": "cdf044eb840ad6d5f277881354dc364528d8a0e4d78a7d47fa80b3dfe9946c33",
+        "sheets": [
+          "Dashboard",
+          "Controls",
+          "Deal cash flow",
+          "Financing",
+          "Capacity",
+          "Alternatives",
           "Guide"
         ],
         "downloadVerified": true,

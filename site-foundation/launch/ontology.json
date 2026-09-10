@@ -571,6 +571,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
         }
       ]
     },
@@ -961,6 +964,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
         }
       ]
     },
@@ -1030,6 +1036,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
         }
       ]
     },
@@ -1093,6 +1102,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
         }
       ]
     },
@@ -1159,6 +1171,77 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource",
+      "url": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability",
+      "name": "Capital Allocation & Deal Affordability Tool",
+      "description": "Compare buying, building, partnering, and doing nothing; test funding and downside constraints; and set the buyer's private hard price ceiling.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": {
+        "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
+      },
+      "learningResourceType": "Capital allocation, acquisition affordability, and price ceiling tool with Excel workbook",
+      "teaches": "Is the acquisition the best use of capital, and what is the buyer's hard price ceiling?",
+      "version": "1.0",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "mainEntityOfPage": {
+        "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#webpage"
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#workbook",
+        "name": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/38b4a618cd3a4803f8fc1013c67e77938f7b4538/public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "54196 bytes"
+      },
+      "keywords": [
+        "capital allocation",
+        "deal affordability",
+        "acquisition financing",
+        "downside survivability",
+        "opportunity cost",
+        "ROIC",
+        "IRR",
+        "payback",
+        "walk-away price"
+      ],
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
         }
       ]
     }

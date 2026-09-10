@@ -26,7 +26,8 @@
     "integration-continuity",
     "loi-economics-risk-allocator",
     "acquisition-mandate-target-screen",
-    "carve-out-perimeter-tsa-planner"
+    "carve-out-perimeter-tsa-planner",
+    "capital-allocation-deal-affordability"
   ],
   "sections": [
     {
@@ -84,6 +85,10 @@
     {
       "heading": "Define the separation before relying on it",
       "html": "<p>Use the <a href=\"/ma-resources/carve-out-perimeter-tsa-planner\">Carve-Out Perimeter &amp; TSA Planner</a> to define what transfers, map seller dependencies, separate Day 1 continuity from independent operations, and give temporary services a priced scope, owner, and exit plan.</p>"
+    },
+    {
+      "heading": "Set the capital limit before committing",
+      "html": "<p>Use the <a href=\"/ma-resources/capital-allocation-deal-affordability\">Capital Allocation &amp; Deal Affordability Tool</a> to compare buying with the alternatives, test financing and downside cash demands, and separate the affordable price from the buyer's private hard walk-away price.</p>"
     }
   ],
   "sourceNotes": "",

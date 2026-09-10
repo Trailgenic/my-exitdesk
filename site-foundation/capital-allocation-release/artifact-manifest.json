@@ -1,0 +1,17 @@
+{
+  "task": "Capital Allocation & Deal Affordability Tool",
+  "output_depth": "full_tool",
+  "first_read": "Dashboard",
+  "hero_artifact": {
+    "role": "Editable capital allocation and affordability workbook",
+    "path": "public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+    "entry_sheet": "Dashboard"
+  },
+  "companion_artifact": {
+    "role": "Methodology and usage guide",
+    "url": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability",
+    "source": "site-foundation/editorial/capital-allocation-deal-affordability.json"
+  },
+  "source_authority": "Mike supplied resource brief and acquisition doctrine; fictional Assumption inputs",
+  "status": "validation-in-progress"
+}
