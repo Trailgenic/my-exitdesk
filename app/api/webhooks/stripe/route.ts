@@ -1,11 +1,13 @@
 import { NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
+import { recordPurchase, isSuppressed } from "@/lib/stalled/runtime";
 
 export const runtime = "nodejs";
 
 async function tagSubscriberPurchased(email: string): Promise<void> {
   const apiKey = process.env.CONVERTKIT_API_KEY;
   if (!apiKey || !email) return;
+  try { if (await isSuppressed(email)) return; } catch { return; }
 
   await fetch("https://api.convertkit.com/v3/tags/18944004/subscribe", {
     method: "POST",
@@ -71,6 +73,8 @@ export async function POST(request: Request) {
   // Handle Stripe Checkout session (Module 4 flow)
   if (event.type === "checkout.session.completed") {
     const session = event.data.object;
+    try { await recordPurchase(session); }
+    catch { console.error('Stalled Exit purchase attribution requires Stripe export reconciliation'); }
     const email =
       session.customer_details?.email ?? session.metadata?.email ?? "";
 

@@ -4,3 +4,7 @@ node_modules/
 .env.local
 *.log
 *.tsbuildinfo
+
+# Private pilot evidence, contacts, drafts, exports, and credentials
+.stalled-private/
+*.eml
