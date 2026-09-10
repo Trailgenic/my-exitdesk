@@ -1,0 +1,2326 @@
+{
+  "transactionComponent": {
+    "id": {
+      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+      "element": "f1739b60-3609-0899-892e-9db64afdb4c4"
+    },
+    "type": "Section",
+    "styleNames": [
+      "my1-section"
+    ],
+    "attributes": {
+      "id": "transaction-path"
+    },
+    "settings": {
+      "tag": "section",
+      "visibility": true
+    },
+    "children": [
+      {
+        "id": {
+          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+          "element": "f1739b60-3609-0899-892e-9db64afdb4c5"
+        },
+        "type": "Paragraph",
+        "styleNames": [
+          "my1-eyebrow"
+        ],
+        "settings": {
+          "visibility": true
+        },
+        "children": [
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb4c6"
+            },
+            "type": "String",
+            "textContent": "Seven stages. Thirteen decision gates."
+          }
+        ]
+      },
+      {
+        "id": {
+          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+          "element": "f1739b60-3609-0899-892e-9db64afdb4c7"
+        },
+        "type": "Heading",
+        "styleNames": [
+          "my1-section-title"
+        ],
+        "settings": {
+          "tag": "h2",
+          "visibility": true,
+          "headingLevel": 2
+        },
+        "children": [
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb4c8"
+            },
+            "type": "String",
+            "textContent": "Follow the transaction path"
+          }
+        ]
+      },
+      {
+        "id": {
+          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+          "element": "f1739b60-3609-0899-892e-9db64afdb4c9"
+        },
+        "type": "Paragraph",
+        "styleNames": [
+          "my1-copy"
+        ],
+        "settings": {
+          "visibility": true
+        },
+        "children": [
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb4ca"
+            },
+            "type": "String",
+            "textContent": "Start at the next decision. Each stage names the evidence, governing judgment, and tool that help the deal move forward. Advance, hold and rework, or walk when the facts change."
+          }
+        ]
+      },
+      {
+        "id": {
+          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+          "element": "f1739b60-3609-0899-892e-9db64afdb4cb"
+        },
+        "type": "Block",
+        "styleNames": [
+          "my6-stage-grid"
+        ],
+        "settings": {
+          "tag": "div",
+          "visibility": true,
+          "block": {
+            "tag": "div"
+          }
+        },
+        "children": [
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb4cc"
+            },
+            "type": "Block",
+            "styleNames": [
+              "my6-stage"
+            ],
+            "attributes": {
+              "id": "stage-mandate"
+            },
+            "settings": {
+              "tag": "article",
+              "visibility": true,
+              "block": {
+                "tag": "article"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4cd"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-number"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4ce"
+                    },
+                    "type": "String",
+                    "textContent": "01 / 07"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4cf"
+                },
+                "type": "Heading",
+                "styleNames": [
+                  "my6-stage-title"
+                ],
+                "settings": {
+                  "tag": "h3",
+                  "visibility": true,
+                  "headingLevel": 3
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4d0"
+                    },
+                    "type": "String",
+                    "textContent": "Mandate"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4d1"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4d2"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "fd81895e-1705-5301-63b3-ef12f40abf88"
+                        },
+                        "type": "String",
+                        "textContent": "Decision. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4d4"
+                    },
+                    "type": "String",
+                    "textContent": "Why acquire instead of build, partner, or do nothing?"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4d5"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4d6"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "39ae5571-291c-6a73-270e-5a0be6631f4e"
+                        },
+                        "type": "String",
+                        "textContent": "Advance with. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4d8"
+                    },
+                    "type": "String",
+                    "textContent": "A defined business need, capital envelope, risk limits, executive sponsor, and decision authority."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4d9"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4da"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "132c3e1a-dc22-3c0a-d418-931ed7ec6360"
+                        },
+                        "type": "String",
+                        "textContent": "Mike’s judgment. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4dc"
+                    },
+                    "type": "String",
+                    "textContent": "Frame before detail. The target must serve the mandate."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4dd"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-gate"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4de"
+                    },
+                    "type": "String",
+                    "textContent": "Gate 0 · Mandate approved"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4df"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "my1-text-link"
+                ],
+                "attributes": {
+                  "href": "/ma-resources/ma-deal-workflow-checklist"
+                },
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "url",
+                    "href": "/ma-resources/ma-deal-workflow-checklist"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4e0"
+                    },
+                    "type": "String",
+                    "textContent": "The M"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4e1"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4e2"
+                    },
+                    "type": "String",
+                    "textContent": "A Deal Workflow"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb4e3"
+            },
+            "type": "Block",
+            "styleNames": [
+              "my6-stage"
+            ],
+            "attributes": {
+              "id": "stage-thesis-targets"
+            },
+            "settings": {
+              "tag": "article",
+              "visibility": true,
+              "block": {
+                "tag": "article"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4e4"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-number"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4e5"
+                    },
+                    "type": "String",
+                    "textContent": "02 / 07"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4e6"
+                },
+                "type": "Heading",
+                "styleNames": [
+                  "my6-stage-title"
+                ],
+                "settings": {
+                  "tag": "h3",
+                  "visibility": true,
+                  "headingLevel": 3
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4e7"
+                    },
+                    "type": "String",
+                    "textContent": "Thesis "
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4e8"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4e9"
+                    },
+                    "type": "String",
+                    "textContent": " Targets"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4ea"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4eb"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "ca82653b-d005-0552-c3c2-fd7341f3f25f"
+                        },
+                        "type": "String",
+                        "textContent": "Decision. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4ed"
+                    },
+                    "type": "String",
+                    "textContent": "What must be true, and which targets fit and can actually be bought?"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4ee"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4ef"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "4997ba9f-7196-5fbb-53a0-c4ced01b3ea5"
+                        },
+                        "type": "String",
+                        "textContent": "Advance with. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4f1"
+                    },
+                    "type": "String",
+                    "textContent": "Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4f2"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4f3"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "2e30eca7-ad88-c9fc-08d3-a7d187857110"
+                        },
+                        "type": "String",
+                        "textContent": "Mike’s judgment. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4f5"
+                    },
+                    "type": "String",
+                    "textContent": "Underwrite rather than admire. Strategic appeal does not establish transactability."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4f6"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-gate"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4f7"
+                    },
+                    "type": "String",
+                    "textContent": "Gates 1–2 · Thesis and target approved"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4f8"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "my1-text-link"
+                ],
+                "attributes": {
+                  "href": "/ma-resources/ma-deal-workflow-checklist"
+                },
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "url",
+                    "href": "/ma-resources/ma-deal-workflow-checklist"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4f9"
+                    },
+                    "type": "String",
+                    "textContent": "The M"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4fa"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4fb"
+                    },
+                    "type": "String",
+                    "textContent": "A Deal Workflow"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb4fc"
+            },
+            "type": "Block",
+            "styleNames": [
+              "my6-stage"
+            ],
+            "attributes": {
+              "id": "stage-first-look-underwriting"
+            },
+            "settings": {
+              "tag": "article",
+              "visibility": true,
+              "block": {
+                "tag": "article"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4fd"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-number"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb4fe"
+                    },
+                    "type": "String",
+                    "textContent": "03 / 07"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb4ff"
+                },
+                "type": "Heading",
+                "styleNames": [
+                  "my6-stage-title"
+                ],
+                "settings": {
+                  "tag": "h3",
+                  "visibility": true,
+                  "headingLevel": 3
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb500"
+                    },
+                    "type": "String",
+                    "textContent": "First Look "
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb501"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb502"
+                    },
+                    "type": "String",
+                    "textContent": " Underwriting"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb503"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb504"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "47cffcdb-eea2-daaf-97d9-e227e5e8d094"
+                        },
+                        "type": "String",
+                        "textContent": "Decision. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb506"
+                    },
+                    "type": "String",
+                    "textContent": "Do access, standalone economics, financing, and downside support a bid?"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb507"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb508"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "ccb0e233-bbd7-8864-3042-2c1e704e52d0"
+                        },
+                        "type": "String",
+                        "textContent": "Advance with. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb50a"
+                    },
+                    "type": "String",
+                    "textContent": "Minimum information package, reconstructed financials, valuation range, financing case, and private price ceiling."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb50b"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb50c"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "689db5c7-81fb-4333-0da9-25de7b9ab807"
+                        },
+                        "type": "String",
+                        "textContent": "Mike’s judgment. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb50e"
+                    },
+                    "type": "String",
+                    "textContent": "Replicate the financials. Keep buyer-created synergy separate from standalone value."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb50f"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-gate"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb510"
+                    },
+                    "type": "String",
+                    "textContent": "Gates 3–4 · Access and economics approved"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb511"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "my1-text-link"
+                ],
+                "attributes": {
+                  "href": "/tools-and-models"
+                },
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "url",
+                    "href": "/tools-and-models"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb512"
+                    },
+                    "type": "String",
+                    "textContent": "Valuation models and working tools"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb513"
+            },
+            "type": "Block",
+            "styleNames": [
+              "my6-stage"
+            ],
+            "attributes": {
+              "id": "stage-loi-diligence"
+            },
+            "settings": {
+              "tag": "article",
+              "visibility": true,
+              "block": {
+                "tag": "article"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb514"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-number"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb515"
+                    },
+                    "type": "String",
+                    "textContent": "04 / 07"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb516"
+                },
+                "type": "Heading",
+                "styleNames": [
+                  "my6-stage-title"
+                ],
+                "settings": {
+                  "tag": "h3",
+                  "visibility": true,
+                  "headingLevel": 3
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb517"
+                    },
+                    "type": "String",
+                    "textContent": "LOI "
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb518"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb519"
+                    },
+                    "type": "String",
+                    "textContent": " Diligence"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb51a"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb51b"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "797a7241-b06c-5bd0-57a6-ade236eb6b45"
+                        },
+                        "type": "String",
+                        "textContent": "Decision. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb51d"
+                    },
+                    "type": "String",
+                    "textContent": "Are core terms clear, and can the team test the conditions behind the thesis?"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb51e"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb51f"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "bd2493f9-2261-e22e-55ac-3a8d4f49509f"
+                        },
+                        "type": "String",
+                        "textContent": "Advance with. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb521"
+                    },
+                    "type": "String",
+                    "textContent": "Approved LOI, evidence requests, workflow tests, accountable workstream owners, and a live issue log."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb522"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb523"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "044b1e51-abee-d8ed-f26a-8156ee0b3891"
+                        },
+                        "type": "String",
+                        "textContent": "Mike’s judgment. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb525"
+                    },
+                    "type": "String",
+                    "textContent": "Unknowns are findings. Give each material issue a consequence: Investigate, Price, Protect, or Walk."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb526"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-gate"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb527"
+                    },
+                    "type": "String",
+                    "textContent": "Gates 5–6 · Exclusivity approved and diligence launched"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb528"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "my1-text-link"
+                ],
+                "attributes": {
+                  "href": "/ma-resources/before-you-buy-follow-the-work"
+                },
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "url",
+                    "href": "/ma-resources/loi-economics-risk-allocator"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb529"
+                    },
+                    "type": "String",
+                    "textContent": "LOI Economics & Risk Allocator"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb52a"
+            },
+            "type": "Block",
+            "styleNames": [
+              "my6-stage"
+            ],
+            "attributes": {
+              "id": "stage-re-underwrite-sign"
+            },
+            "settings": {
+              "tag": "article",
+              "visibility": true,
+              "block": {
+                "tag": "article"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb52b"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-number"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb52c"
+                    },
+                    "type": "String",
+                    "textContent": "05 / 07"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb52d"
+                },
+                "type": "Heading",
+                "styleNames": [
+                  "my6-stage-title"
+                ],
+                "settings": {
+                  "tag": "h3",
+                  "visibility": true,
+                  "headingLevel": 3
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb52e"
+                    },
+                    "type": "String",
+                    "textContent": "Re-underwrite "
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb52f"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb530"
+                    },
+                    "type": "String",
+                    "textContent": " Sign"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb531"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb532"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "f50b9384-8c94-3af3-05bb-0f0b80736c2c"
+                        },
+                        "type": "String",
+                        "textContent": "Decision. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb534"
+                    },
+                    "type": "String",
+                    "textContent": "Does the deal still work on the facts and terms now in front of the buyer?"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb535"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb536"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "d84786d5-b752-889a-5bd2-53089fcb25f3"
+                        },
+                        "type": "String",
+                        "textContent": "Advance with. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb538"
+                    },
+                    "type": "String",
+                    "textContent": "Revised valuation and synergy case, combined downside, final economics, protections, closing conditions, and integration owners."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb539"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb53a"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "e9e6fe12-59ea-976a-3feb-f46b8fc666a2"
+                        },
+                        "type": "String",
+                        "textContent": "Mike’s judgment. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb53c"
+                    },
+                    "type": "String",
+                    "textContent": "Re-establish the price ceiling before signing. Prior spending does not justify the next commitment."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb53d"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-gate"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb53e"
+                    },
+                    "type": "String",
+                    "textContent": "Gates 7–8 · Re-underwriting and signing approved"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb53f"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "my1-text-link"
+                ],
+                "attributes": {
+                  "href": "/ma-resources/synergy-underwriting-value-bridge"
+                },
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "url",
+                    "href": "/ma-resources/synergy-underwriting-value-bridge"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb540"
+                    },
+                    "type": "String",
+                    "textContent": "Synergy Underwriting "
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb541"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb542"
+                    },
+                    "type": "String",
+                    "textContent": " Value Bridge"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb543"
+            },
+            "type": "Block",
+            "styleNames": [
+              "my6-stage"
+            ],
+            "attributes": {
+              "id": "stage-close-day-one"
+            },
+            "settings": {
+              "tag": "article",
+              "visibility": true,
+              "block": {
+                "tag": "article"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb544"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-number"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb545"
+                    },
+                    "type": "String",
+                    "textContent": "06 / 07"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb546"
+                },
+                "type": "Heading",
+                "styleNames": [
+                  "my6-stage-title"
+                ],
+                "settings": {
+                  "tag": "h3",
+                  "visibility": true,
+                  "headingLevel": 3
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb547"
+                    },
+                    "type": "String",
+                    "textContent": "Close "
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb548"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb549"
+                    },
+                    "type": "String",
+                    "textContent": " Day 1"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb54a"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb54b"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "85eb4469-c9a9-ce32-d5d5-2e3f0d35716c"
+                        },
+                        "type": "String",
+                        "textContent": "Decision. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb54d"
+                    },
+                    "type": "String",
+                    "textContent": "Can funds and control transfer while the business keeps working?"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb54e"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb54f"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "c5528bf9-a6c0-8bb4-35bd-84bc9dca0a18"
+                        },
+                        "type": "String",
+                        "textContent": "Advance with. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb551"
+                    },
+                    "type": "String",
+                    "textContent": "Funds flow, required consents and clearances, closing checklist, and customer, cash, people, and system readiness."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb552"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb553"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "1554c4a3-1b99-4f54-3535-d3e7e6453daf"
+                        },
+                        "type": "String",
+                        "textContent": "Mike’s judgment. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb555"
+                    },
+                    "type": "String",
+                    "textContent": "Protect revenue while integrating cost. Do not confuse signing with operating readiness."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb556"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-gate"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb557"
+                    },
+                    "type": "String",
+                    "textContent": "Gates 9–10 · Closing approved and Day 1 stable"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb558"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "my1-text-link"
+                ],
+                "attributes": {
+                  "href": "/ma-resources/after-the-deal-keep-the-business-working"
+                },
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "url",
+                    "href": "/ma-resources/after-the-deal-keep-the-business-working"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb559"
+                    },
+                    "type": "String",
+                    "textContent": "After the Deal: Keep the Business Working"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb55a"
+            },
+            "type": "Block",
+            "styleNames": [
+              "my6-stage"
+            ],
+            "attributes": {
+              "id": "stage-value-delivery-review"
+            },
+            "settings": {
+              "tag": "article",
+              "visibility": true,
+              "block": {
+                "tag": "article"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb55b"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-number"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb55c"
+                    },
+                    "type": "String",
+                    "textContent": "07 / 07"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb55d"
+                },
+                "type": "Heading",
+                "styleNames": [
+                  "my6-stage-title"
+                ],
+                "settings": {
+                  "tag": "h3",
+                  "visibility": true,
+                  "headingLevel": 3
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb55e"
+                    },
+                    "type": "String",
+                    "textContent": "Value Delivery "
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb55f"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb560"
+                    },
+                    "type": "String",
+                    "textContent": " Review"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb561"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb562"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "5ef6762e-daf7-01b6-6b11-19f12fcc10cf"
+                        },
+                        "type": "String",
+                        "textContent": "Decision. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb564"
+                    },
+                    "type": "String",
+                    "textContent": "Has the buyer delivered the underwritten value, and what should change next time?"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb565"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb566"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "55c09825-4dcc-a518-08fd-821560a1e6e4"
+                        },
+                        "type": "String",
+                        "textContent": "Advance with. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb568"
+                    },
+                    "type": "String",
+                    "textContent": "30/60/100-day reviews, realized cash benefits and costs, workflow decisions, revised forecasts, and residual action owners."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb569"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-copy"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb56a"
+                    },
+                    "type": "Strong",
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                          "element": "ab20a08a-2107-c72e-59fa-9029a6c82a74"
+                        },
+                        "type": "String",
+                        "textContent": "Mike’s judgment. "
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb56c"
+                    },
+                    "type": "String",
+                    "textContent": "Compare results with the original thesis. A synergy belongs in the results only when the operating work delivers it."
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb56d"
+                },
+                "type": "Paragraph",
+                "styleNames": [
+                  "my6-stage-gate"
+                ],
+                "settings": {
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb56e"
+                    },
+                    "type": "String",
+                    "textContent": "Gates 11–12 · Value delivery confirmed and program closed"
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                  "element": "f1739b60-3609-0899-892e-9db64afdb56f"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "my1-text-link"
+                ],
+                "attributes": {
+                  "href": "/ma-resources/synergy-underwriting-value-bridge"
+                },
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "url",
+                    "href": "/ma-resources/synergy-underwriting-value-bridge"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb570"
+                    },
+                    "type": "String",
+                    "textContent": "Synergy Underwriting "
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb571"
+                    },
+                    "type": "String",
+                    "textContent": "&"
+                  },
+                  {
+                    "id": {
+                      "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+                      "element": "f1739b60-3609-0899-892e-9db64afdb572"
+                    },
+                    "type": "String",
+                    "textContent": " Value Bridge"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": {
+          "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+          "element": "f1739b60-3609-0899-892e-9db64afdb573"
+        },
+        "type": "Paragraph",
+        "styleNames": [
+          "my6-stage-note"
+        ],
+        "settings": {
+          "visibility": true
+        },
+        "children": [
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb574"
+            },
+            "type": "String",
+            "textContent": "Gate numbers match the Stage Gates tab in the 156-action M"
+          },
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb575"
+            },
+            "type": "String",
+            "textContent": "&"
+          },
+          {
+            "id": {
+              "component": "f1739b60-3609-0899-892e-9db64afdb4c4",
+              "element": "f1739b60-3609-0899-892e-9db64afdb576"
+            },
+            "type": "String",
+            "textContent": "A Deal Workflow. Decisions need an owner, evidence, conditions, and visible unresolved questions."
+          }
+        ]
+      }
+    ]
+  },
+  "resourceCardParent": {
+    "label": "Confirm tools card container",
+    "action": "query_elements",
+    "result": [
+      {
+        "status": "success",
+        "message": "Query results",
+        "data": [
+          {
+            "total_matches": 1,
+            "matches": [
+              {
+                "id": {
+                  "component": "6a9f3a7d2148e9081ffed5ea",
+                  "element": "52deabaa-bc4a-e7e9-165a-0730a7e82892"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "my2-list"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "6a9f3a7d2148e9081ffed5ea",
+                      "element": "fc065b2b-60e2-2dcc-be72-9ce3ae2ea5b3"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "my5-tool-card"
+                    ],
+                    "settings": {
+                      "tag": "article",
+                      "visibility": true,
+                      "block": {
+                        "tag": "article"
+                      }
+                    },
+                    "hasMoreChildren": true
+                  },
+                  {
+                    "id": {
+                      "component": "6a9f3a7d2148e9081ffed5ea",
+                      "element": "52deabaa-bc4a-e7e9-165a-0730a7e82879"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "my5-tool-card"
+                    ],
+                    "settings": {
+                      "tag": "article",
+                      "visibility": true,
+                      "block": {
+                        "tag": "article"
+                      }
+                    },
+                    "hasMoreChildren": true
+                  },
+                  {
+                    "id": {
+                      "component": "6a9f3a7d2148e9081ffed5ea",
+                      "element": "52deabaa-bc4a-e7e9-165a-0730a7e82885"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "my5-tool-card"
+                    ],
+                    "settings": {
+                      "tag": "article",
+                      "visibility": true,
+                      "block": {
+                        "tag": "article"
+                      }
+                    },
+                    "hasMoreChildren": true
+                  },
+                  {
+                    "id": {
+                      "component": "6a9f3a7d2148e9081ffed5ea",
+                      "element": "52deabaa-bc4a-e7e9-165a-0730a7e82891"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "my5-tool-card"
+                    ],
+                    "settings": {
+                      "tag": "article",
+                      "visibility": true,
+                      "block": {
+                        "tag": "article"
+                      }
+                    },
+                    "hasMoreChildren": true
+                  },
+                  {
+                    "id": {
+                      "component": "6a9f3a7d2148e9081ffed5ea",
+                      "element": "b1bb9ba7-4baa-b31e-6ef0-d5fccc7cd95f"
+                    },
+                    "type": "ComponentInstance",
+                    "instanceDetails": {
+                      "type": "ComponentInstance",
+                      "id": "8cca3d98-0cb0-3861-2fc6-9f22d7ff87f2",
+                      "name": "MY Resource Card v1",
+                      "props": [
+                        {
+                          "propId": "8cc760bb-3937-23ff-52b3-58114b9345c2",
+                          "value": "Excel tool",
+                          "hasOverride": true,
+                          "name": "Format"
+                        },
+                        {
+                          "propId": "6fbe8c6c-9f65-f83b-f79f-73ce1ff4ac49",
+                          "value": "Synergy Underwriting & Value Bridge",
+                          "hasOverride": true,
+                          "name": "Title"
+                        },
+                        {
+                          "propId": "89afe9a9-0853-e4ac-52c1-8f7fea9a5f1f",
+                          "value": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
+                          "hasOverride": true,
+                          "name": "Summary"
+                        },
+                        {
+                          "propId": "cbd21e6c-9b43-63ea-a797-ce16fb6e72a9",
+                          "value": "Open the guide and workbook",
+                          "hasOverride": true,
+                          "name": "Link label"
+                        },
+                        {
+                          "propId": "3641f4d1-851e-3cf5-65eb-49a8738b71e8",
+                          "value": {
+                            "mode": "url",
+                            "to": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge"
+                          },
+                          "hasOverride": true,
+                          "name": "Canonical resource URL"
+                        }
+                      ],
+                      "slots": []
+                    }
+                  },
+                  {
+                    "id": {
+                      "component": "6a9f3a7d2148e9081ffed5ea",
+                      "element": "3a4f5838-a31c-e3ce-6644-61009a2e8433"
+                    },
+                    "type": "ComponentInstance",
+                    "instanceDetails": {
+                      "type": "ComponentInstance",
+                      "id": "8cca3d98-0cb0-3861-2fc6-9f22d7ff87f2",
+                      "name": "MY Resource Card v1",
+                      "props": [
+                        {
+                          "propId": "8cc760bb-3937-23ff-52b3-58114b9345c2",
+                          "value": "Excel tool",
+                          "hasOverride": true,
+                          "name": "Format"
+                        },
+                        {
+                          "propId": "6fbe8c6c-9f65-f83b-f79f-73ce1ff4ac49",
+                          "value": "LOI Economics & Risk Allocator",
+                          "hasOverride": true,
+                          "name": "Title"
+                        },
+                        {
+                          "propId": "89afe9a9-0853-e4ac-52c1-8f7fea9a5f1f",
+                          "value": "See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal.",
+                          "hasOverride": true,
+                          "name": "Summary"
+                        },
+                        {
+                          "propId": "cbd21e6c-9b43-63ea-a797-ce16fb6e72a9",
+                          "value": "Open the guide and workbook",
+                          "hasOverride": true,
+                          "name": "Link label"
+                        },
+                        {
+                          "propId": "3641f4d1-851e-3cf5-65eb-49a8738b71e8",
+                          "value": {
+                            "mode": "url",
+                            "to": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator"
+                          },
+                          "hasOverride": true,
+                          "name": "Canonical resource URL"
+                        }
+                      ],
+                      "slots": []
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "relatedItems": [
+    {
+      "id": "6aa2095323a4984befe0ccef",
+      "fieldData": {
+        "methodology": "<h2>The decision this tool answers</h2><p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx\">Download the LOI Economics &amp; Risk Allocator workbook</a> · Excel · Version 1.0 · USD thousands</p><p>A headline price leaves important questions unanswered. How much reaches the seller at close? How much remains invested or depends on a future result? Which debt stays in the business? What cash must the buyer provide, and what must happen before either side commits?</p><p>This workbook turns a proposed letter of intent (LOI) into an inspectable economic bridge and a working list of conditions. Use it to understand the bargain before negotiating the details. It is an economics and decision tool, not a legal-document generator.</p><h2>When to use it</h2><p>Use it before agreeing core terms or exclusivity, when diligence changes the economics, and before final signing approval. It supports Gates 4–5 and 7–8 in <a href=\"/ma-resources/ma-deal-workflow-checklist\">The M&amp;A Deal Workflow</a>.</p><p>Start with a 10–15 minute first pass. The useful result is a price bridge you can explain, a visible funding need, and the few unresolved conditions that could change the decision.</p><h2>What to bring</h2><p>Bring the proposed enterprise value, debt schedule, eligible excess cash, working-capital definition and peg, cash and equity consideration, and any deferred or contingent payments. Identify which debt is repaid at close and which debt remains with the acquired business.</p><p>Also bring the committed debt expected to be drawn at close, available buyer cash, fees, additional operating cash, exclusivity dates, approval authority, and material consent requirements. For stock and rollover, identify the issuer, valuation basis, economic rights, and who controls the relevant decisions. An ownership percentage alone does not establish voting control.</p><p>Use USD thousands for monetary amounts. Follow the workbook’s separate units for share prices and shares. The filled example inputs are labeled Assumption. Replace them with the proposed deal terms. An explicit zero means the item was assessed as zero; a blank leaves the question open.</p><h2>Your first 15 minutes</h2><ol><li><strong>Define the price basis.</strong> Enter enterprise value, debt, eligible excess cash, and the working-capital peg. Check that the headline excludes the separately modeled contingent additions.</li><li><strong>Allocate the fixed equity consideration.</strong> Specify stock and seller rollover, then review the residual cash amount. Separate funded escrow from an unfunded holdback.</li><li><strong>Model the future payments.</strong> For each earnout or other contingent payment, enter the cap, payout if the condition occurs, probability, and timing. Review both expected value and the full entered obligation.</li><li><strong>Check the cash.</strong> Compare closing uses with independently entered funding sources. Borrowing that has not been committed belongs among the open conditions.</li><li><strong>Read the Downside case.</strong> Test the working-capital shortfall, stock movement, financing availability, added fees, and timing. Assign each unresolved issue an owner and an action before moving forward.</li></ol><p>Downside is a buyer exposure case. Future payments can rise while funding becomes harder to obtain. Set the assumptions to test the structure’s weak points, rather than assuming every payment falls when the business performs poorly.</p><h2>From enterprise value to seller consideration</h2><p><strong>Fixed seller equity consideration</strong> starts with headline enterprise value, subtracts total debt, adds eligible excess cash, and adds or subtracts the working-capital adjustment. The adjustment is closing working capital less the agreed peg. A shortfall reduces seller consideration under this convention.</p><p>The workbook deducts both repaid and retained debt when converting debt-free enterprise value to equity value. Their cash treatment then differs: repaid debt is a closing use of cash; retained debt remains a liability of the acquired business. Reclassifying the same debt should change closing funding, not quietly increase the seller’s equity price.</p><p>Keep the definitions consistent. Do not count cash or debt again inside working capital. The parties must agree which balances qualify, which accounting policies apply, and how the closing statement is prepared. The template’s convention must be reconciled with the actual transaction terms.</p><h2>Cash, stock, and rollover change the bargain</h2><p><strong>Cash</strong> provides immediate liquidity only to the extent it reaches the seller. A funded escrow is cash paid into a separate account at close. An unfunded holdback is an amount the buyer retains for later payment. Both are portions of fixed cash consideration in this workbook, so neither is added to the purchase price a second time.</p><p><strong>Stock</strong> requires a pricing mechanism. With fixed shares, the delivered value changes as the stock price changes. With fixed value, the share count changes to deliver the stated allocation. Review the issuer, valuation date, restrictions, and any collar separately. A lower quoted price can reduce the value the seller receives without reducing the buyer’s fixed cash payment.</p><p><strong>Rollover</strong> leaves part of the seller’s consideration invested. It reduces the cash paid out, but it is still economic consideration. Identify the entity, security, distribution priority, future funding obligations, dilution exposure, and decision rights. Do not add ownership percentages in different entities or assume that a minority economic interest carries operating control.</p><h2>Contingent value and payment risk</h2><p>An earnout ties additional consideration to a future result. Other contingent payments can depend on a milestone or condition. The workbook shows an expected payment from the entered probability and payout if the condition occurs, its discounted value, and the aggregate caps. These are different views of the same obligation and must not be added together.</p><p>Expected value helps compare structures. It is not the amount the buyer can be required to pay. A low probability does not remove the need to fund a payment if the condition occurs. The cap view assumes all entered contingent caps are paid and uses the selected stock price. It is not an absolute ceiling on every possible deal cost.</p><p>Mike’s preference is to use earnouts when the continuing seller can influence the result. State the metric, accounting definitions, measurement period, operating authority, and the action required to deliver it. If revenue and EBITDA both matter, make the trade-off explicit. Moving revenue or costs between entities can change an earnout without improving the acquired business.</p><p>Escrow is not guaranteed recovery for a buyer, and a holdback is not cash already received by a seller. The actual release, claim, priority, and payment terms require agreement. This model does not assume that a possible claim reduces purchase price.</p><h2>Price, closing funding, and future exposure</h2><p>The economic enterprise-value equivalent adds debt back to delivered equity consideration and subtracts eligible excess cash. It includes the selected working-capital adjustment. The expected present-value view discounts the unfunded holdback and expected contingent additions. Funded escrow remains a full buyer cash outflow at close. The cap view retains the full nominal holdback and all entered contingent caps. These views are comparison measures, not an accounting fair-value calculation.</p><p>Closing cash uses separately include the fixed cash funded at close, debt repaid, fees, and additional operating cash the buyer must inject. Funded escrow consumes cash at close. An unfunded holdback and future contingent payments remain future cash needs. Retained debt remains debt exposure. The workbook conservatively funds closing uses from buyer cash and committed new debt. Eligible target cash stays in the acquired business and is not treated as an available closing source. Enter only the additional operating cash required beyond cash already retained. A structure that uses acquired cash at close needs a separately reconciled funds-flow schedule.</p><p>A funding gap is shown against separately entered sources. It is not erased with an automatic buyer-equity plug. New debt means committed funding expected to be drawn at close, not unused facility capacity. The private price ceiling is another independent input. Keep its basis consistent with the workbook’s enterprise-value comparison, including the working-capital adjustment.</p><p>Use the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a> to evaluate buyer-created benefits and any deliberate seller sharing. Do not insert the same synergy into standalone value and consideration again.</p><h2>Give conditions an owner and a consequence</h2><p>Record the financing condition, required approvals, seller authority, key consents, and material operating dependencies. For each item, name who bears the risk, the evidence needed, the responsible owner, the due date, and the agreed resolution. A status marked complete does not substitute for those prerequisites.</p><p>Use <strong>Investigate, Price, Protect, or Walk</strong>. Investigate a missing fact. Change price when the economics change. Seek a specific protection when an identified risk can be allocated. Walk when control cannot transfer, funding is unavailable, or the remaining downside breaks the mandate.</p><p>Exclusivity commits time and restricts alternatives. Use explicit start, end, and review dates. Identify the evidence and milestones expected during that period. The workbook’s elapsed days, remaining days, and entered daily process cost make time visible; they do not value every lost opportunity or determine whether an exclusivity provision is enforceable.</p><h2>Mike’s governing judgment</h2><p>Use the LOI to fix core economics: valuation, cash-free debt-free treatment, timing, exclusivity, and the principal structural assumptions. Do not negotiate every definitive-agreement provision before the buyer has tested the business.</p><p>Resolve a specific material risk early when it can change the willingness to proceed. Keep the private hard ceiling intact as terms move. Seller alignment, financing certainty, and transferability deserve as much attention as the headline price. Prior diligence spending does not justify an uneconomic commitment.</p><h2>Common mistakes</h2><ul><li>Comparing the seller’s equity cheque with an enterprise-value ceiling.</li><li>Adding escrow or holdback to a price that already includes it.</li><li>Subtracting retained debt twice, or forgetting debt that stays in the business.</li><li>Counting target cash as both a funding source and a separate distribution.</li><li>Treating a probability-weighted earnout as the maximum future payment.</li><li>Calling stock and rollover cash equivalents without examining the issuer and rights.</li><li>Hiding a financing shortfall in a balancing input.</li><li>Granting more exclusivity without clear evidence milestones.</li><li>Marking a condition complete while its owner, evidence, or resolution remains missing.</li></ul><h2>What the result establishes</h2><p>The result explains what the entered terms imply for seller consideration, closing funding, future payments, and unresolved conditions. It makes the economic effects of a proposed structure visible before the next commitment.</p><p>It does not establish market value, debt capacity, enforceability, tax treatment, purchase accounting, indemnity recovery, or a complete acquisition return. It does not model stock collars, complex security waterfalls, or all future operating and financing obligations. A balanced funding schedule does not prove that the combined business can survive weaker revenue and margins.</p><h2>Carry the output into diligence and signing</h2><p>Send the assumptions that could change price or structure to <a href=\"/ma-resources/before-you-buy-follow-the-work\">Before You Buy: Follow the Work</a>. Reconcile debt, cash, working capital, accounting definitions, and consent requirements with the evidence.</p><p>Before signing, update the economics and preserve the approved version. Give the agreement and financing teams the specific terms and open questions to resolve. Carry operating obligations and earnout dependencies into <a href=\"/ma-resources/after-the-deal-keep-the-business-working\">After the Deal: Keep the Business Working</a>, with receiving owners and Day 1 actions.</p><h2>Version</h2><p>Version 1.0. Updated September 10, 2026. Editable Excel workbook with a Dashboard, Base and Downside assumptions, consideration and funding calculations, contingent-payment analysis, and a conditions register. Entries stay in your downloaded copy.</p>",
+        "related-resources": [
+          "6aa1f03acc577a948c9c5169",
+          "6a9f2af7de5d336681b4b4ce",
+          "6aa1fa5ccae8df99de4384f1",
+          "6a9f2af7de5d336681b4b4d0"
+        ]
+      }
+    },
+    {
+      "id": "6aa1fa5ccae8df99de4384f1",
+      "fieldData": {
+        "methodology": "<h2>The decision this tool answers</h2><p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx\">Download the Synergy Underwriting &amp; Value Bridge workbook</a> · Excel · Version 1.0 · USD thousands</p><p>A synergy is a change the buyer expects to create by combining businesses. It has value only after the cost, time, investment, disruption, and execution risk of making that change are accounted for.</p><p>This workbook separates the target’s standalone value from the buyer’s incremental cash benefit. It then makes the amount shared with the seller an explicit decision. A larger affordability case does not automatically justify a larger offer.</p><h2>When to use it</h2><p>Use it during first-look underwriting to challenge the claimed upside, before the LOI to establish price discipline, after diligence to revise the case, and after close to track delivery. It supports Gates 4, 7–8, and 11–12 in <a href=\"/ma-resources/ma-deal-workflow-checklist\">The M&amp;A Deal Workflow</a>.</p><p>The workbook is designed for a 10–15 minute first pass with a few material initiatives. That first pass should expose the decisions and missing evidence that deserve more work.</p><h2>What to bring</h2><p>Use USD thousands throughout the workbook and a consistent valuation date. Start with standalone enterprise value, an independently determined affordability limit, a private hard price ceiling, and the proposed enterprise value. Bring an initiative-level estimate of incremental revenue or cost savings, contribution margin on new revenue, cash tax assumptions, timing, probability, dis-synergies, implementation cost, and required capital.</p><p>For each initiative, name the operating owner, required integration action, workflow dependency, customer disruption risk, and evidence still needed. Enter an explicit zero when a cost or risk has been assessed as zero. Leaving the input blank means the question remains open.</p><h2>Your first 15 minutes</h2><ol><li><strong>Frame the deal.</strong> Enter standalone enterprise value, proposed price, affordability limit, and private ceiling in USD thousands. The filled example inputs are labeled Assumption. Replace them before using the result for a transaction.</li><li><strong>Enter the few initiatives that matter.</strong> Describe the operating change before entering its benefit. Revenue synergy needs a contribution margin. Cost synergy needs an expense that can actually be removed.</li><li><strong>Price the delivery work.</strong> Enter dis-synergies, one-time implementation spend, capital needs, timing, and accountable owners. Do not reduce committed costs just because the benefit is uncertain.</li><li><strong>Review the value bridge.</strong> Compare gross benefit, risk-adjusted benefit, net cash value, seller sharing, and the supported offer. Read the missing-input and unresolved-question flags.</li><li><strong>Switch to Downside.</strong> Test weaker capture, delay, disruption, and cost overruns. Carry any broken condition into Investigate, Price, Protect, or Walk.</li></ol><h2>From operating change to cash value</h2><p><strong>Revenue synergy:</strong> incremental revenue × contribution margin. Use the margin on the incremental work after its delivery costs, not the target’s headline EBITDA margin by default. Deduct cannibalization and avoid counting revenue that was already in the standalone forecast.</p><p><strong>Cost synergy:</strong> removable recurring expense after replacement cost and service-level requirements. A budget transfer between entities is not a consolidated saving. Retention costs, vendor exit fees, overlapping systems, and stranded costs can change the answer.</p><p><strong>Risk-adjusted benefit:</strong> apply the initiative’s probability and the selected capture profile to the revenue contribution and cost savings. Model disruption and other dis-synergies separately. Benefits that rely on the same workflow can fail together; the Downside case is where the combined failure should be tested.</p><p><strong>Net cash value:</strong> subtract cash tax, dis-synergies, one-time implementation costs, and capital requirements, then discount the resulting incremental cash flows. The version 1.0 workbook uses five end-of-year operating periods, with implementation and capital funded at close and no terminal value. It does not assume that a stated run-rate saving continues forever.</p><h2>The purchase-price bridge</h2><p>Keep every amount on an enterprise-value basis. <strong>Standalone value</strong> excludes buyer-specific improvements. <strong>Buyer-created value</strong> is the net present value of the incremental synergy cash flows after costs and risks.</p><p><strong>Economic value ceiling</strong> equals standalone enterprise value plus net synergy value. Negative synergy value reduces the ceiling. <strong>Seller sharing</strong> is an explicit percentage of positive net buyer-created value; a zero sharing assumption does not make a negative synergy case disappear.</p><p>The supported offer is also constrained by the buyer’s independent affordability limit and private hard ceiling. These are inputs requiring their own financing, liquidity, and return analysis. This workbook does not derive debt capacity or prove that the combined business can survive the downside.</p><p>Debt, cash, working-capital adjustments, and other closing items must be handled separately in the enterprise-to-equity bridge and sources and uses. Do not compare an equity cheque directly with an enterprise-value ceiling.</p><h2>Mike’s governing judgment</h2><blockquote>The buyer may consider synergies when deciding affordability. That does not mean the seller automatically owns them.</blockquote><p>The buyer funds the work, owns the execution risk, and normally keeps the value created by that work. Sharing some value can be a conscious negotiating decision. It should never happen simply because someone added a synergy line to the valuation model.</p><p>Protect revenue while integrating cost. Before combining a sales team, changing a customer system, retiring a platform, or removing a role, show how the revenue-producing workflow will continue to function. An operating owner and a tested action are more useful than a larger synergy target.</p><h2>Common mistakes</h2><ul><li>Adding a revenue target directly to EBITDA without a contribution margin.</li><li>Counting growth in both the standalone forecast and the synergy case.</li><li>Discounting uncertain benefits while quietly assuming away required costs.</li><li>Using a full run rate in Year 1 despite a delayed launch or slow customer migration.</li><li>Counting the same headcount, vendor, platform, or customer benefit twice.</li><li>Assuming immediate tax relief without testing whether it can be used.</li><li>Treating a calculated ceiling as permission to bid that amount.</li><li>Claiming delivery from a lower budget before cash expense has actually left the combined business.</li></ul><h2>What the result establishes</h2><p>The result shows what the stated assumptions imply, which inputs remain unresolved, how downside changes the case, and how much value remains with the buyer at the proposed price. It makes the calculation inspectable and the operating commitments visible.</p><p>It does not establish a market price, certify a synergy, validate a probability, calculate a complete acquisition return, or replace financing and combined-business cash-flow analysis. The five-year horizon omits value and obligations outside that period. Material future commitments must be assessed before relying on a price ceiling.</p><h2>Carry the output into the next stage</h2><p>Send each open evidence question to <a href=\"/ma-resources/before-you-buy-follow-the-work\">Before You Buy: Follow the Work</a>. Classify the consequence as Investigate, Price, Protect, or Walk. If diligence changes an input, revise the ceiling before the next approval.</p><p>At signing, preserve the approved case and give every initiative an operating owner. Use the Delivery tab to record actual benefits and costs against stable initiative IDs. Carry the action into <a href=\"/ma-resources/after-the-deal-keep-the-business-working\">After the Deal: Keep the Business Working</a>, including the decision to Preserve, Protect, Standardize, Combine, or Retire the affected workflow.</p><p>Review cash results at 30, 60, and 100 days, then at an appropriate operating cadence. When delivery falls short, change the action or the forecast. Do not rewrite the original thesis to make the variance disappear.</p><h2>Version</h2><p>Version 1.0. Updated September 10, 2026. Editable Excel workbook with formulas, scenario assumptions, sensitivity analysis, checks, and a realization tracker. Entries stay in your downloaded copy.</p><h2>Make the structure visible before committing</h2><p>Use the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a> to separate seller consideration from closing funding, test stock and contingent payments, and give unresolved financing, approval, consent, and exclusivity conditions an owner.</p>",
+        "related-resources": [
+          "6aa1f03acc577a948c9c5169",
+          "6a9f2af7de5d336681b4b4ce",
+          "6a9f2af7de5d336681b4b4d0",
+          "6aa2095323a4984befe0ccef"
+        ]
+      }
+    },
+    {
+      "id": "6aa1f03acc577a948c9c5169",
+      "fieldData": {
+        "methodology": "<h2>Start with the commitment in front of you</h2><p>Open the workflow at the phase you are actually in. Do not complete every row before acting. Identify the next commitment of money, time, access, exclusivity, reputation, or operating control—and the evidence required before making it.</p><p><strong>Your first useful output:</strong> the current decision gate, the few actions that can change the answer, and one accountable owner for each.</p><h2>Put the workflow to work</h2><p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx\">Download the comprehensive M&amp;A deal workflow checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 156 actions across 14 phases, 13 decision gates, a deal-team ownership map, and a decision log. Filter the workflow by phase, gate, workstream, priority, or unresolved consequence.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p><h2>1. Frame the deal before studying the target</h2><p>State why acquisition is better than building, partnering, or doing nothing. Define what the buyer needs, what must be true, what cannot be accepted, and who has authority to advance the work.</p><p>Mike’s rule is simple: frame before detail. A target should be tested against the buyer’s mandate; the seller’s story should not become the mandate by default.</p><h2>2. Use gates to stop momentum from becoming approval</h2><p>Each gate asks whether the evidence supports the next commitment. The answer can be advance, hold and rework, or walk. Holding a gate is not indecision when a named fact can resolve the issue.</p><p>Do not let prior spending, a competitive process, or executive enthusiasm lower the evidence standard. Update the private price ceiling and walk conditions before the next bid or approval.</p><h2>3. Give every material issue a consequence</h2><p>Classify unresolved matters as <strong>Investigate, Price, Protect, or Walk</strong>. The label is useful only when it changes the work:</p><ul><li><strong>Investigate:</strong> name the missing evidence and the owner obtaining it.</li><li><strong>Price:</strong> change standalone value, required investment, financing, or return assumptions.</li><li><strong>Protect:</strong> address the issue through structure, contract, consent, retention, control, or integration.</li><li><strong>Walk:</strong> stop when the downside, transfer failure, ceiling breach, or integrity issue breaks the thesis.</li></ul><h2>4. Keep standalone value separate from buyer-created upside</h2><p>Rebuild historical economics, bridge earnings to cash, and test combined revenue decline and margin pressure. Keep buyer-created synergy in the buyer’s affordability case—not in the seller’s standalone value.</p><p>A strategic buyer may focus on payback; a financial buyer may focus on IRR. The return measure should match who commits the capital, while the downside must remain financeable and survivable.</p><h2>5. Carry evidence forward instead of restarting at each phase</h2><p>A finding is not complete when it appears in a diligence memo. Send it to price, the agreement, a closing condition, Day 1 readiness, or the integration plan. Name the receiving owner and the evidence that closes it.</p><p>The decision log preserves what the team believed, which limits it accepted, and what should trigger a new decision.</p><h2>6. Protect the work that produces the value</h2><p>Before changing systems, roles, vendors, or processes, identify the workflows that produce revenue, margin, compliance, and customer trust. Decide what to preserve, protect, combine, standardize, or retire.</p><p>Protect revenue while integrating cost. Test changes and exceptions before making the new process the only way the business can operate.</p><h2>7. Review the acquisition against the original thesis</h2><p>After close, compare actual revenue, margin, cash, investment, synergies, and dis-synergies with what was underwritten. Record which diligence findings were predictive, missed, or overstated.</p><p>Do not close the deal program until residual actions have operating owners. Use the lessons to change the next target screen, LOI, valuation, diligence plan, and integration sequence.</p><h2>Use the deeper workbooks when the workflow points there</h2><p>The deal workflow is the spine. Use <a href=\"/ma-resources/before-you-buy-follow-the-work\">Before You Buy: Follow the Work</a> for the detailed diligence questions and workflow-transferability map. Use <a href=\"/ma-resources/after-the-deal-keep-the-business-working\">After the Deal: Keep the Business Working</a> for Day 1, workflow decisions, synergies, and integration risks.</p><h2>Underwrite the synergy before counting it</h2><p>Use the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a> to separate standalone value from buyer-created cash benefits, price delivery costs and risk, set the amount shared with the seller, and assign operating owners.</p><h2>Make the structure visible before committing</h2><p>Use the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a> to separate seller consideration from closing funding, test stock and contingent payments, and give unresolved financing, approval, consent, and exclusivity conditions an owner.</p>",
+        "related-resources": [
+          "6a9f2af7de5d336681b4b4ce",
+          "6a9f2af7de5d336681b4b4d0",
+          "6aa1fa5ccae8df99de4384f1",
+          "6aa2095323a4984befe0ccef"
+        ]
+      }
+    },
+    {
+      "id": "6a9f2af7de5d336681b4b4ce",
+      "fieldData": {
+        "methodology": "<h2>Start here: follow one real sale</h2><p>You do not need to map the whole company on the first day. Pick one important product or service. Ask the team to walk through a recent customer sale, from the first promise to the money arriving in the bank. Then ask for a second example where something went wrong.</p><p>A workflow is simply how work gets done: who starts it, what they need, which decisions they make, and who receives the result. Watching the work helps you see what a polished presentation leaves out.</p><p><strong>Leave this first conversation with:</strong> a short map of the work, the people and systems it depends on, and the questions that still need evidence. This is a starting point for diligence, not a substitute for the wider financial, commercial, legal, tax, people and technology review.</p><h2>Put the guide to work</h2><p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx\">Download the comprehensive M&amp;A due diligence checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 112 diligence items across the full deal process, plus an editable workflow-transferability map, issue and decision log, live status fields, and a decision-ready working table. Filter the checklist by phase, workstream, priority, or decision impact and adapt it to the transaction.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p><h2>1. Say what you think you are buying</h2><p>Complete this sentence before opening the data room: <strong>We are buying ___ because ___; the result depends on ___.</strong> Be specific. Is the value in repeat customers, a team, a licence, distribution, a brand, or a capability you would struggle to build?</p><p>Mike’s approach starts with the buyer’s own description of the business. Use the seller’s story as something to test. A scarce asset may justify more investigation, but it does not remove the need for a price ceiling or a survivable downside.</p><p><strong>Ask first:</strong> Who owns the company? Who can approve the sale? What permissions are needed? If the sellers cannot deliver control, establish a credible consent path before spending heavily on the process.</p><h2>2. Request a small, useful starting package</h2><ul><li>A business overview or confidential information memorandum (CIM): what is sold, to whom, and why customers buy.</li><li>Financial statements, preferably audited, with an explanation of the accounting used.</li><li>The top ten customers and revenue by customer, product and service.</li><li>An employee list showing roles, responsibilities and compensation; use appropriate redactions when sharing.</li><li>The major contracts, licences and supplier agreements needed to operate the business.</li></ul><p>Mike’s deal-screen notes identify the first four as part of the information needed before a letter of intent (LOI). Having them is not the same as completing diligence. Expand the request list around the risks you find.</p><h2>3. Connect the sale to the financial results</h2><p>For the sale you selected, request the customer agreement, invoice, delivery evidence, ledger entries and payment record. The general ledger is the detailed accounting record behind the financial statements. Follow the transaction through those records and explain any timing differences.</p><p>Mike’s standard is to reconstruct the financials. A quality-of-earnings review—work that tests how much reported profit is repeatable—can help. It does not turn unsupported numbers into verified cash flow.</p><ul><li>Was revenue recorded before the promised work was delivered?</li><li>Did discounts, refunds, returns or later credits change what was actually earned?</li><li>Were all costs needed to deliver the work recorded?</li><li>Will an expense the seller adds back really disappear after the sale, or will the buyer need a replacement?</li><li>What cash and maintenance spending are needed to keep this work going?</li></ul><p><strong>What changes the decision:</strong> recurring differences may change sustainable earnings, working-capital needs or price. An isolated mismatch needs an explanation; it is not, by itself, proof of fraud. Broaden the sample with the finance team when the first walkthrough exposes a pattern.</p><h2>4. Test whether the work can transfer</h2><p>Ask the person who does the job to show it, then have a backup person explain how they would complete it. A written procedure is useful evidence. It is not proof that someone else can perform the work.</p><ul><li><strong>Start:</strong> What triggers the job? What information must arrive first?</li><li><strong>People:</strong> Who performs it? Who approves exceptions? Who can cover an absence?</li><li><strong>Tools:</strong> Which systems, supplier services and logins are necessary?</li><li><strong>Judgment:</strong> Which decisions rely on experience rather than a written rule?</li><li><strong>Exceptions:</strong> What went wrong recently? Who fixed it, and how?</li><li><strong>Result:</strong> What does good work look like? Show the delivery, quality or collection record.</li><li><strong>Handover:</strong> What would stop working if the owner left tomorrow? What transition support would fix that?</li></ul><p>Give each dependency a practical response: train a backup, retain a key person, obtain consent, replace a supplier, or revisit the price and deal terms. Owner dependence has different implications for a buyer taking over the owner’s job and a buyer expecting the business to run without them.</p><h2>5. Check what the business can actually reuse</h2><p>If a workflow depends on customer data, contractor work, third-party software or licensed content, list the owner and the documents that describe permitted use. Separate the company’s own know-how from material it merely has access to.</p><p>For a possible AI application, ask what can be documented, shared and tested using authorised material. Keep customer records, confidential examples and proprietary decision rules out of a public demonstration unless sharing is permitted. Have the appropriate advisers resolve ownership and permission questions. A process map alone does not establish licensing rights or a licensing market.</p><h2>6. Turn findings into a decision</h2><p>Use four actions, not a score that lets strengths cancel out a fatal problem:</p><ul><li><strong>Investigate:</strong> name the missing evidence and who will obtain it.</li><li><strong>Price:</strong> change the earnings, cash requirements or price assumptions supported by the finding.</li><li><strong>Protect:</strong> specify a workable transition action, consent or contractual protection with the right adviser.</li><li><strong>Walk:</strong> stop when the economics or a critical condition cannot be made acceptable.</li></ul><p>Test lower sales and lower margins together, including financing, operating cash and required investment. Under Mike’s approach, a deal that cannot survive that downside should not advance. Keep buyer-created synergies separate from the seller’s standalone value, and keep the private hard ceiling intact.</p><p>Track how the seller responds. Timely, consistent answers build confidence; unexplained delays and contradictions require more work. Assess a suspected misrepresentation by its nature, materiality, explanation and intent. Do not replace judgment with an automatic label.</p><h2>A worked example: the founder approves every exception</h2><p><strong>Illustrative example, not a Mike Ye transaction.</strong> A service company has repeat customers and tidy written procedures. During a walkthrough, the team explains that the founder personally handles every unusual customer request. The backup employee can follow the normal process but cannot approve a change in price or delivery.</p><p>The issue is not simply that the documentation is incomplete. Customer retention depends on judgment and authority that have not transferred. Request recent exception records, identify the decisions involved, and test a backup person’s ability to handle them. Then decide whether a transition period, delegated approval limits and customer introductions would make the handover credible. If they would not, revisit the deal.</p><h2>Copy this working note</h2><p>Use one note per important finding. Keep the answers short enough to discuss in a working meeting.</p><ul><li><strong>Work being tested:</strong> ___</li><li><strong>What management says happens:</strong> ___</li><li><strong>What the records and walkthrough show:</strong> ___</li><li><strong>What is still unknown:</strong> ___</li><li><strong>Effect on customers, cash, price or handover:</strong> ___</li><li><strong>Action — investigate, price, protect or walk:</strong> ___</li><li><strong>Owner and due date:</strong> ___</li><li><strong>Evidence needed to close the issue:</strong> ___</li><li><strong>Integration handoff and receiving owner:</strong> ___</li></ul><p><strong>You are ready for the next decision when</strong> the material findings have evidence, an owner and an agreed consequence. The remaining unknowns should be visible to the person approving the next commitment.</p><h2>Underwrite the synergy before counting it</h2><p>Use the <a href=\"/ma-resources/synergy-underwriting-value-bridge\">Synergy Underwriting &amp; Value Bridge</a> to separate standalone value from buyer-created cash benefits, price delivery costs and risk, set the amount shared with the seller, and assign operating owners.</p><h2>Make the structure visible before committing</h2><p>Use the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a> to separate seller consideration from closing funding, test stock and contingent payments, and give unresolved financing, approval, consent, and exclusivity conditions an owner.</p>",
+        "related-resources": [
+          "6aa1fa5ccae8df99de4384f1",
+          "6aa2095323a4984befe0ccef"
+        ]
+      }
+    }
+  ]
+}

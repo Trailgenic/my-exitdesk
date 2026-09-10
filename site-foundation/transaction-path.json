@@ -11,8 +11,8 @@
       "evidence": "A defined business need, capital envelope, risk limits, executive sponsor, and decision authority.",
       "judgment": "Frame before detail. The target must serve the mandate.",
       "gates": "Gate 0 · Mandate approved",
-      "resource": "The M&A Deal Workflow",
-      "url": "/ma-resources/ma-deal-workflow-checklist"
+      "resource": "Acquisition Mandate & Target Screen",
+      "url": "/ma-resources/acquisition-mandate-target-screen"
     },
     {
       "id": "thesis-targets",
@@ -21,8 +21,8 @@
       "evidence": "Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test.",
       "judgment": "Underwrite rather than admire. Strategic appeal does not establish transactability.",
       "gates": "Gates 1–2 · Thesis and target approved",
-      "resource": "The M&A Deal Workflow",
-      "url": "/ma-resources/ma-deal-workflow-checklist"
+      "resource": "Acquisition Mandate & Target Screen",
+      "url": "/ma-resources/acquisition-mandate-target-screen"
     },
     {
       "id": "first-look-underwriting",

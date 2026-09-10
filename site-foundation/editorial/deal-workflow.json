@@ -29,7 +29,8 @@
     "workflow-diligence",
     "integration-continuity",
     "synergy-value-bridge",
-    "loi-economics-risk-allocator"
+    "loi-economics-risk-allocator",
+    "acquisition-mandate-target-screen"
   ],
   "download": {
     "filename": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
@@ -96,6 +97,10 @@
     {
       "heading": "Make the structure visible before committing",
       "html": "<p>Use the <a href=\"/ma-resources/loi-economics-risk-allocator\">LOI Economics &amp; Risk Allocator</a> to separate seller consideration from closing funding, test stock and contingent payments, and give unresolved financing, approval, consent, and exclusivity conditions an owner.</p>"
+    },
+    {
+      "heading": "Keep the mandate visible as the facts change",
+      "html": "<p>Use the <a href=\"/ma-resources/acquisition-mandate-target-screen\">Acquisition Mandate &amp; Target Screen</a> to record why buying serves the business need, compare alternatives, and preserve the requirements, evidence, and pass rationale behind the target shortlist. Revisit the mandate when diligence changes what the buyer would actually obtain.</p>"
     }
   ],
   "sourceNotes": ""

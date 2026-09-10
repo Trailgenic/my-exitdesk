@@ -25,7 +25,8 @@
     "deal-workflow",
     "workflow-diligence",
     "synergy-value-bridge",
-    "integration-continuity"
+    "integration-continuity",
+    "acquisition-mandate-target-screen"
   ],
   "sections": [
     {
@@ -83,6 +84,10 @@
     {
       "heading": "Version",
       "html": "<p>Version 1.0. Updated September 10, 2026. Editable Excel workbook with a Dashboard, Base and Downside assumptions, consideration and funding calculations, contingent-payment analysis, and a conditions register. Entries stay in your downloaded copy.</p>"
+    },
+    {
+      "heading": "Keep the mandate visible as the facts change",
+      "html": "<p>Use the <a href=\"/ma-resources/acquisition-mandate-target-screen\">Acquisition Mandate &amp; Target Screen</a> to record why buying serves the business need, compare alternatives, and preserve the requirements, evidence, and pass rationale behind the target shortlist. Revisit the mandate when diligence changes what the buyer would actually obtain.</p>"
     }
   ],
   "sourceNotes": "",

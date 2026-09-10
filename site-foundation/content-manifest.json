@@ -1,8 +1,8 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "updated": "2026-09-10",
   "canonicalOrigin": "https://www.mikeye.com",
-  "phase": "loi-economics-risk-allocator",
+  "phase": "acquisition-mandate-target-screen",
   "positioning": {
     "headline": "The Deal Is Only the Beginning.",
     "supportingStatement": "M&A frameworks, valuation models, and practical tools built from 25 years of acquiring businesses, integrating operations, and creating value.",
@@ -213,7 +213,8 @@
         "workflow-diligence",
         "integration-continuity",
         "synergy-value-bridge",
-        "loi-economics-risk-allocator"
+        "loi-economics-risk-allocator",
+        "acquisition-mandate-target-screen"
       ],
       "webflowItemId": "6aa1f03acc577a948c9c5169",
       "download": {
@@ -278,7 +279,8 @@
       },
       "relatedResources": [
         "synergy-value-bridge",
-        "loi-economics-risk-allocator"
+        "loi-economics-risk-allocator",
+        "acquisition-mandate-target-screen"
       ]
     },
     {
@@ -566,7 +568,8 @@
         "deal-workflow",
         "workflow-diligence",
         "integration-continuity",
-        "loi-economics-risk-allocator"
+        "loi-economics-risk-allocator",
+        "acquisition-mandate-target-screen"
       ],
       "download": {
         "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
@@ -617,7 +620,8 @@
         "deal-workflow",
         "workflow-diligence",
         "synergy-value-bridge",
-        "integration-continuity"
+        "integration-continuity",
+        "acquisition-mandate-target-screen"
       ],
       "webflowItemId": "6aa2095323a4984befe0ccef",
       "download": {
@@ -633,6 +637,60 @@
           "Economics",
           "Contingencies",
           "Conditions",
+          "Guide"
+        ],
+        "downloadVerified": true,
+        "verifiedAt": "2026-09-10"
+      },
+      "cmsStatus": "published",
+      "contentReviewedAt": "2026-09-10",
+      "publicationDate": "2026-09-10"
+    },
+    {
+      "id": "acquisition-mandate-target-screen",
+      "name": "Acquisition Mandate & Target Screen",
+      "slug": "acquisition-mandate-target-screen",
+      "format": "Tool",
+      "topic": "corporate-development",
+      "summary": "Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership.",
+      "decision": "Why buy instead of build, partner, or do nothing—and which targets satisfy the mandate?",
+      "version": "1.0",
+      "updated": "2026-09-10",
+      "status": "published",
+      "url": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
+      "proposedPath": "/ma-resources/acquisition-mandate-target-screen",
+      "sourceFile": "editorial/acquisition-mandate-target-screen.json",
+      "sourcePrinciples": [
+        "frame-before-detail",
+        "underwrite-not-admire",
+        "transferability",
+        "motivation-is-data",
+        "veto-versus-compounding-risk",
+        "unknowns-are-findings",
+        "control-and-alignment",
+        "ceiling-and-patience",
+        "survive-the-downside",
+        "decision-not-description"
+      ],
+      "relatedResources": [
+        "deal-workflow",
+        "workflow-diligence",
+        "synergy-value-bridge",
+        "loi-economics-risk-allocator"
+      ],
+      "download": {
+        "filename": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "repositoryPath": "public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/00d7d6fd497644cadf65fa347c8420da058fffca/public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "version": "1.0",
+        "bytes": 86183,
+        "sha256": "76a89f6d0d40419817f5124b45c26651b8836d5e028bda6bb7cb471c1296b7ea",
+        "sheets": [
+          "Dashboard",
+          "Mandate",
+          "Routes",
+          "Targets",
+          "Screen",
           "Guide"
         ],
         "downloadVerified": true,
@@ -1880,15 +1938,12 @@
   },
   "publication": {
     "date": "2026-09-10",
-    "status": "published-and-verified",
+    "status": "published-live-verification-in-progress",
     "domains": [
       "www.mikeye.com",
       "mikeye.com"
     ],
-    "audit": "site-foundation/loi-release/production-audit.json",
-    "verifiedAt": "2026-09-10T02:04:13.691580+00:00",
-    "checksPassed": 93,
-    "templateMediaChecksPassed": 16
+    "audit": "site-foundation/mandate-release/production-audit.json"
   },
   "transactionPath": {
     "version": "1.0",
@@ -1903,8 +1958,8 @@
         "evidence": "A defined business need, capital envelope, risk limits, executive sponsor, and decision authority.",
         "judgment": "Frame before detail. The target must serve the mandate.",
         "gates": "Gate 0 · Mandate approved",
-        "resource": "The M&A Deal Workflow",
-        "url": "/ma-resources/ma-deal-workflow-checklist"
+        "resource": "Acquisition Mandate & Target Screen",
+        "url": "/ma-resources/acquisition-mandate-target-screen"
       },
       {
         "id": "thesis-targets",
@@ -1913,8 +1968,8 @@
         "evidence": "Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test.",
         "judgment": "Underwrite rather than admire. Strategic appeal does not establish transactability.",
         "gates": "Gates 1–2 · Thesis and target approved",
-        "resource": "The M&A Deal Workflow",
-        "url": "/ma-resources/ma-deal-workflow-checklist"
+        "resource": "Acquisition Mandate & Target Screen",
+        "url": "/ma-resources/acquisition-mandate-target-screen"
       },
       {
         "id": "first-look-underwriting",
@@ -1972,7 +2027,7 @@
     {
       "topic": "corporate-development",
       "resource": "Acquisition Mandate & Target Screen",
-      "status": "planned"
+      "status": "published"
     },
     {
       "topic": "valuation",
@@ -2022,7 +2077,6 @@
   ],
   "buildPriority": [
     "capital-iq-comps-workbench",
-    "acquisition-mandate-target-screen",
     "carve-out-perimeter-tsa-planner",
     "capital-allocation-deal-affordability",
     "build-the-deal-model",

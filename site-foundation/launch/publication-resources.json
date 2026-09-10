@@ -108,7 +108,8 @@
       "workflow-diligence",
       "integration-continuity",
       "synergy-value-bridge",
-      "loi-economics-risk-allocator"
+      "loi-economics-risk-allocator",
+      "acquisition-mandate-target-screen"
     ],
     "webflowItemId": "6aa1f03acc577a948c9c5169",
     "download": {
@@ -173,7 +174,8 @@
     },
     "relatedResources": [
       "synergy-value-bridge",
-      "loi-economics-risk-allocator"
+      "loi-economics-risk-allocator",
+      "acquisition-mandate-target-screen"
     ]
   },
   {
@@ -461,7 +463,8 @@
       "deal-workflow",
       "workflow-diligence",
       "integration-continuity",
-      "loi-economics-risk-allocator"
+      "loi-economics-risk-allocator",
+      "acquisition-mandate-target-screen"
     ],
     "download": {
       "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
@@ -512,7 +515,8 @@
       "deal-workflow",
       "workflow-diligence",
       "synergy-value-bridge",
-      "integration-continuity"
+      "integration-continuity",
+      "acquisition-mandate-target-screen"
     ],
     "webflowItemId": "6aa2095323a4984befe0ccef",
     "download": {
@@ -528,6 +532,60 @@
         "Economics",
         "Contingencies",
         "Conditions",
+        "Guide"
+      ],
+      "downloadVerified": true,
+      "verifiedAt": "2026-09-10"
+    },
+    "cmsStatus": "published",
+    "contentReviewedAt": "2026-09-10",
+    "publicationDate": "2026-09-10"
+  },
+  {
+    "id": "acquisition-mandate-target-screen",
+    "name": "Acquisition Mandate & Target Screen",
+    "slug": "acquisition-mandate-target-screen",
+    "format": "Tool",
+    "topic": "corporate-development",
+    "summary": "Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership.",
+    "decision": "Why buy instead of build, partner, or do nothing—and which targets satisfy the mandate?",
+    "version": "1.0",
+    "updated": "2026-09-10",
+    "status": "published",
+    "url": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
+    "proposedPath": "/ma-resources/acquisition-mandate-target-screen",
+    "sourceFile": "editorial/acquisition-mandate-target-screen.json",
+    "sourcePrinciples": [
+      "frame-before-detail",
+      "underwrite-not-admire",
+      "transferability",
+      "motivation-is-data",
+      "veto-versus-compounding-risk",
+      "unknowns-are-findings",
+      "control-and-alignment",
+      "ceiling-and-patience",
+      "survive-the-downside",
+      "decision-not-description"
+    ],
+    "relatedResources": [
+      "deal-workflow",
+      "workflow-diligence",
+      "synergy-value-bridge",
+      "loi-economics-risk-allocator"
+    ],
+    "download": {
+      "filename": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+      "repositoryPath": "public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+      "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/00d7d6fd497644cadf65fa347c8420da058fffca/public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+      "version": "1.0",
+      "bytes": 86183,
+      "sha256": "76a89f6d0d40419817f5124b45c26651b8836d5e028bda6bb7cb471c1296b7ea",
+      "sheets": [
+        "Dashboard",
+        "Mandate",
+        "Routes",
+        "Targets",
+        "Screen",
         "Guide"
       ],
       "downloadVerified": true,

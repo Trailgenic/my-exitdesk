@@ -1,6 +1,6 @@
 # MikeYe.com resource roadmap
 
-Updated September 10, 2026. The transaction-path architecture and Synergy Underwriting & Value Bridge are published. LOI Economics & Risk Allocator is published. The next major build is Capital IQ Comps Workbench. Build one major resource at a time. The architecture below preserves Mike’s locked specification.
+Updated September 10, 2026. The transaction-path architecture, Synergy Underwriting & Value Bridge, and LOI Economics & Risk Allocator are published. Mike authorized building Acquisition Mandate & Target Screen while Claude gathers Capital IQ data. Acquisition Mandate & Target Screen is now published. Return to Capital IQ Comps Workbench when the data is available; its locked scope is unchanged. The architecture below preserves Mike’s locked specification.
 
 
 Use this locked resource architecture:
@@ -277,4 +277,3 @@ Proceed in this order:
 9. Valuation Triangulation Tool
 
 Build one major resource carefully before moving to the next. Preserve a clean canonical manifest so later chats can continue without reconstructing the project.
-

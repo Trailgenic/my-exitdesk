@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "updated": "2026-09-10",
   "entity": {
     "id": "https://www.mikeye.com/#person",
@@ -217,7 +217,8 @@
       },
       "relatedResources": [
         "synergy-value-bridge",
-        "loi-economics-risk-allocator"
+        "loi-economics-risk-allocator",
+        "acquisition-mandate-target-screen"
       ]
     },
     {
@@ -248,7 +249,8 @@
       },
       "relatedResources": [
         "synergy-value-bridge",
-        "loi-economics-risk-allocator"
+        "loi-economics-risk-allocator",
+        "acquisition-mandate-target-screen"
       ]
     },
     {
@@ -299,7 +301,8 @@
         "deal-workflow",
         "workflow-diligence",
         "integration-continuity",
-        "loi-economics-risk-allocator"
+        "loi-economics-risk-allocator",
+        "acquisition-mandate-target-screen"
       ],
       "sourcePrinciples": [
         "buyer-keeps-synergy",
@@ -454,7 +457,8 @@
         "deal-workflow",
         "workflow-diligence",
         "synergy-value-bridge",
-        "integration-continuity"
+        "integration-continuity",
+        "acquisition-mandate-target-screen"
       ],
       "sourcePrinciples": [
         "loi-fixes-core-economics",
@@ -478,6 +482,55 @@
           "Economics",
           "Contingencies",
           "Conditions",
+          "Guide"
+        ],
+        "downloadVerified": true,
+        "verifiedAt": "2026-09-10"
+      },
+      "contentReviewedAt": "2026-09-10"
+    },
+    {
+      "id": "acquisition-mandate-target-screen",
+      "name": "Acquisition Mandate & Target Screen",
+      "type": "Tool",
+      "topic": "corporate-development",
+      "url": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
+      "summary": "Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership.",
+      "decision": "Why buy instead of build, partner, or do nothing—and which targets satisfy the mandate?",
+      "version": "1.0",
+      "publicationDate": "2026-09-10",
+      "status": "published",
+      "relatedResources": [
+        "deal-workflow",
+        "workflow-diligence",
+        "synergy-value-bridge",
+        "loi-economics-risk-allocator"
+      ],
+      "sourcePrinciples": [
+        "frame-before-detail",
+        "underwrite-not-admire",
+        "transferability",
+        "motivation-is-data",
+        "veto-versus-compounding-risk",
+        "unknowns-are-findings",
+        "control-and-alignment",
+        "ceiling-and-patience",
+        "survive-the-downside",
+        "decision-not-description"
+      ],
+      "download": {
+        "filename": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "repositoryPath": "public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/00d7d6fd497644cadf65fa347c8420da058fffca/public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "version": "1.0",
+        "bytes": 86183,
+        "sha256": "76a89f6d0d40419817f5124b45c26651b8836d5e028bda6bb7cb471c1296b7ea",
+        "sheets": [
+          "Dashboard",
+          "Mandate",
+          "Routes",
+          "Targets",
+          "Screen",
           "Guide"
         ],
         "downloadVerified": true,
@@ -510,8 +563,8 @@
         "evidence": "A defined business need, capital envelope, risk limits, executive sponsor, and decision authority.",
         "judgment": "Frame before detail. The target must serve the mandate.",
         "gates": "Gate 0 · Mandate approved",
-        "resource": "The M&A Deal Workflow",
-        "url": "/ma-resources/ma-deal-workflow-checklist"
+        "resource": "Acquisition Mandate & Target Screen",
+        "url": "/ma-resources/acquisition-mandate-target-screen"
       },
       {
         "id": "thesis-targets",
@@ -520,8 +573,8 @@
         "evidence": "Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test.",
         "judgment": "Underwrite rather than admire. Strategic appeal does not establish transactability.",
         "gates": "Gates 1–2 · Thesis and target approved",
-        "resource": "The M&A Deal Workflow",
-        "url": "/ma-resources/ma-deal-workflow-checklist"
+        "resource": "Acquisition Mandate & Target Screen",
+        "url": "/ma-resources/acquisition-mandate-target-screen"
       },
       {
         "id": "first-look-underwriting",

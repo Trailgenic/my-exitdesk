@@ -284,7 +284,7 @@
               "@id": "https://www.mikeye.com/m-and-a#transaction-path"
             },
             "hasPart": {
-              "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+              "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
             }
           }
         },
@@ -300,7 +300,7 @@
               "@id": "https://www.mikeye.com/m-and-a#transaction-path"
             },
             "hasPart": {
-              "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+              "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
             }
           }
         },
@@ -565,6 +565,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
         }
       ]
     },
@@ -621,6 +624,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
         }
       ]
     },
@@ -940,6 +946,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
         }
       ]
     },
@@ -1003,6 +1012,72 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource",
+      "url": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
+      "name": "Acquisition Mandate & Target Screen",
+      "description": "Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": {
+        "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+      },
+      "learningResourceType": "Acquisition mandate and target screening tool with Excel workbook",
+      "teaches": "Why buy instead of build, partner, or do nothing—and which targets satisfy the mandate?",
+      "version": "1.0",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "mainEntityOfPage": {
+        "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#webpage"
+      },
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#workbook",
+        "name": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/00d7d6fd497644cadf65fa347c8420da058fffca/public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "86183 bytes"
+      },
+      "keywords": [
+        "acquisition mandate",
+        "target screening",
+        "build buy partner",
+        "corporate development",
+        "transactability",
+        "evidence quality",
+        "target prioritization"
+      ],
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
         }
       ]
     }
