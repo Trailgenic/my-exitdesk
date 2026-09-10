@@ -44,3 +44,11 @@ Desktop Excel and a separate mobile browser viewport are unavailable. Formula an
 Final workbook: 74,465 bytes; SHA-256 `ac112844a858a5e81b1211702e3b87c76d05981b7a2c554d2f60da26f80269d7`. Asset commit: `18d505122f8b4ebb69e974f3056a41ec80e56b0b`. All 49 focused input-change and boundary checks passed, with zero formula or cached export errors. Seven tabs, five native tables, 21 validation rules and 488 formulas. All seven tabs visually reviewed across 16 rendered regions.
 
 Capacity: 10 workflows, 22 perimeter records, 40 dependency links, 10 TSA services, 20 non-TSA costs. USD thousands. TSA estimate uses fixed monthly fee times full whole-month base term; no proration, variable fees, taxes, escalation, extension or early-termination economics. Scope completeness, semantic cost overlap and revision increments require manual review.
+
+## Final live verification
+
+Published to www.mikeye.com, mikeye.com, and staging. All 113 live checks passed with zero failures at 2026-09-10T03:28:10.528642+00:00. Verified eighteen resources, twelve workbook downloads with exact byte lengths and hashes, seven preserved primary transaction stages, ten knowledge pillars, five reciprocal related guides, native resource card links, canonical URLs, JSON-LD and MediaObject metadata, sitemap inclusion, synchronized inventories and ontology, and live MCP data access. Native resource index graphs measure 31,661 and 17,181 compact JSON characters.
+
+Main content commit: `49928babec60db5b41e453b16eb4e51ce49035e4`. Worker commit: `8cb2c5dd072fed3229e5c5e9833045b7f5ef565d`. Both deployment systems confirmed success. Worker smoke suite passed 85 checks.
+
+Next: Capital IQ Comps Workbench when Claude's authorized data is ready; otherwise the remaining planned resources are Capital Allocation & Deal Affordability, Build the Deal Model, and Valuation Triangulation. No other major resource was started in this phase.
