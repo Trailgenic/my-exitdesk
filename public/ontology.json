@@ -42,44 +42,34 @@
       ],
       "knowsAbout": [
         {
-          "@id": "https://www.mikeye.com/m-and-a#corporate-development",
-          "name": "Corporate development"
+          "@id": "https://www.mikeye.com/m-and-a#corporate-development"
         },
         {
-          "@id": "https://www.mikeye.com/m-and-a#valuation",
-          "name": "Valuation"
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
         },
         {
-          "@id": "https://www.mikeye.com/m-and-a#financial-modeling",
-          "name": "Financial modeling"
+          "@id": "https://www.mikeye.com/m-and-a#financial-modeling"
         },
         {
-          "@id": "https://www.mikeye.com/m-and-a#industry-comps",
-          "name": "Industry & transaction comps"
+          "@id": "https://www.mikeye.com/m-and-a#industry-comps"
         },
         {
-          "@id": "https://www.mikeye.com/m-and-a#deal-structure",
-          "name": "Deal structure & negotiation"
+          "@id": "https://www.mikeye.com/m-and-a#deal-structure"
         },
         {
-          "@id": "https://www.mikeye.com/m-and-a#due-diligence",
-          "name": "Due diligence"
+          "@id": "https://www.mikeye.com/m-and-a#due-diligence"
         },
         {
-          "@id": "https://www.mikeye.com/m-and-a#synergies",
-          "name": "Synergies"
+          "@id": "https://www.mikeye.com/m-and-a#synergies"
         },
         {
-          "@id": "https://www.mikeye.com/m-and-a#integration",
-          "name": "Integration"
+          "@id": "https://www.mikeye.com/m-and-a#integration"
         },
         {
-          "@id": "https://www.mikeye.com/m-and-a#divestitures",
-          "name": "Divestitures & carve-outs"
+          "@id": "https://www.mikeye.com/m-and-a#divestitures"
         },
         {
-          "@id": "https://www.mikeye.com/m-and-a#strategic-finance",
-          "name": "Strategic finance"
+          "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
         }
       ],
       "subjectOf": [
@@ -166,8 +156,12 @@
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#corporate-development",
           "name": "Corporate development",
-          "description": "Acquisition strategy, strategic fit, and the discipline of deciding what not to buy.",
+          "description": "Set the acquisition mandate, prioritize targets, and carry evidence from sourcing through investment approval and operating ownership.",
           "termCode": "corporate-development",
+          "url": "https://www.mikeye.com/ma-topics/corporate-development",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/corporate-development#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -176,8 +170,12 @@
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#valuation",
           "name": "Valuation",
-          "description": "Standalone value, normalized earnings, buyer context, and price discipline.",
+          "description": "Build a defensible valuation range, separate standalone economics from buyer-created value, and connect evidence to price discipline.",
           "termCode": "valuation",
+          "url": "https://www.mikeye.com/ma-topics/valuation",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/valuation#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -186,8 +184,12 @@
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#financial-modeling",
           "name": "Financial modeling",
-          "description": "Translate assumptions into cash flows, returns, and decision-ready models.",
+          "description": "Turn operating assumptions into cash flows, valuation ranges, and acquisition decisions using five downloadable company models.",
           "termCode": "financial-modeling",
+          "url": "https://www.mikeye.com/ma-topics/financial-modeling",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/financial-modeling#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -195,9 +197,13 @@
         {
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#industry-comps",
-          "name": "Industry & transaction comps",
-          "description": "Select comparable companies and transactions with an explicit basis for comparison.",
+          "name": "Comparable-company analysis",
+          "description": "Choose comparable public companies, review trading multiples and financial definitions, and support a valuation range.",
           "termCode": "industry-comps",
+          "url": "https://www.mikeye.com/ma-topics/industry-comps",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/industry-comps#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -206,8 +212,12 @@
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#deal-structure",
           "name": "Deal structure & negotiation",
-          "description": "Understand control, consideration, contingent value, and allocation of risk.",
+          "description": "Separate price from funding, compare forms of consideration, and assign unresolved risks before committing to acquisition terms.",
           "termCode": "deal-structure",
+          "url": "https://www.mikeye.com/ma-topics/deal-structure",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/deal-structure#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -216,8 +226,12 @@
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#due-diligence",
           "name": "Due diligence",
-          "description": "Test the business and the workflows that produce its results.",
+          "description": "Test earnings, transferability, and operating dependencies with a 112-item diligence checklist that connects findings to deal consequences.",
           "termCode": "due-diligence",
+          "url": "https://www.mikeye.com/ma-topics/due-diligence",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/due-diligence#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -226,8 +240,12 @@
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#synergies",
           "name": "Synergies",
-          "description": "Separate buyer-specific upside from standalone value and the cost of delivery.",
+          "description": "Turn synergy claims into risk-adjusted cash benefits, separate buyer-created value, and assign the operating work required to deliver it.",
           "termCode": "synergies",
+          "url": "https://www.mikeye.com/ma-topics/synergies",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/synergies#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -236,8 +254,12 @@
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#integration",
           "name": "Integration",
-          "description": "Preserve revenue-producing capabilities while realizing operational improvements.",
+          "description": "Protect business continuity, assign operating decisions, and track acquisition value with a 104-action post-deal integration checklist.",
           "termCode": "integration",
+          "url": "https://www.mikeye.com/ma-topics/integration",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/integration#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -246,8 +268,12 @@
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#divestitures",
           "name": "Divestitures & carve-outs",
-          "description": "Define the perimeter, disentangle dependencies, and plan separation.",
+          "description": "Define what transfers, expose seller dependencies, and plan the path from Day 1 continuity to independent operations.",
           "termCode": "divestitures",
+          "url": "https://www.mikeye.com/ma-topics/divestitures",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/divestitures#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -256,8 +282,12 @@
           "@type": "DefinedTerm",
           "@id": "https://www.mikeye.com/m-and-a#strategic-finance",
           "name": "Strategic finance",
-          "description": "Capital allocation, downside resilience, and decision-making under constraint.",
+          "description": "Compare buying with alternatives, test liquidity and downside constraints, and set a private acquisition price ceiling.",
           "termCode": "strategic-finance",
+          "url": "https://www.mikeye.com/ma-topics/strategic-finance",
+          "subjectOf": {
+            "@id": "https://www.mikeye.com/ma-topics/strategic-finance#webpage"
+          },
           "inDefinedTermSet": {
             "@id": "https://www.mikeye.com/m-and-a#ontology"
           }
@@ -267,709 +297,337 @@
     {
       "@type": "ItemList",
       "@id": "https://www.mikeye.com/m-and-a#transaction-path",
-      "name": "Mike Ye M&A transaction path",
-      "description": "Seven ordered transaction stages; the ten M&A knowledge pillars are a separate subject taxonomy.",
-      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "name": "M&A transaction path",
       "numberOfItems": 7,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@type": "CreativeWork",
+            "@type": "LearningResource",
             "@id": "https://www.mikeye.com/m-and-a#stage-mandate",
             "name": "Mandate",
-            "description": "Why acquire instead of build, partner, or do nothing? Evidence: A defined business need, capital envelope, risk limits, executive sponsor, and decision authority. Judgment: Frame before detail. The target must serve the mandate. Decision gates: Gate 0 · Mandate approved.",
-            "isPartOf": {
-              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            "url": "https://www.mikeye.com/m-and-a#stage-mandate",
+            "description": "Why acquire instead of build, partner, or do nothing?",
+            "teaches": "A defined business need, capital envelope, risk limits, executive sponsor, and decision authority.",
+            "educationalLevel": "Gate 0 · Mandate approved",
+            "author": {
+              "@id": "https://www.mikeye.com/#person"
             },
-            "hasPart": {
-              "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
-            }
+            "citation": [
+              {
+                "url": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen"
+              }
+            ]
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@type": "CreativeWork",
+            "@type": "LearningResource",
             "@id": "https://www.mikeye.com/m-and-a#stage-thesis-targets",
             "name": "Thesis & Targets",
-            "description": "What must be true, and which targets fit and can actually be bought? Evidence: Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test. Judgment: Underwrite rather than admire. Strategic appeal does not establish transactability. Decision gates: Gates 1–2 · Thesis and target approved.",
-            "isPartOf": {
-              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            "url": "https://www.mikeye.com/m-and-a#stage-thesis-targets",
+            "description": "What must be true, and which targets fit and can actually be bought?",
+            "teaches": "Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test.",
+            "educationalLevel": "Gates 1–2 · Thesis and target approved",
+            "author": {
+              "@id": "https://www.mikeye.com/#person"
             },
-            "hasPart": {
-              "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
-            }
+            "citation": [
+              {
+                "url": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel"
+              }
+            ]
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@type": "CreativeWork",
+            "@type": "LearningResource",
             "@id": "https://www.mikeye.com/m-and-a#stage-first-look-underwriting",
             "name": "First Look & Underwriting",
-            "description": "Do access, standalone economics, financing, and downside support a bid? Evidence: Minimum information package, reconstructed financials, valuation range, financing case, and private price ceiling. Judgment: Replicate the financials. Keep buyer-created synergy separate from standalone value. Decision gates: Gates 3–4 · Access and economics approved.",
-            "isPartOf": {
-              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            "url": "https://www.mikeye.com/m-and-a#stage-first-look-underwriting",
+            "description": "Do access, standalone economics, financing, and downside support a bid?",
+            "teaches": "Minimum information package, reconstructed financials, valuation range, financing case, and private price ceiling.",
+            "educationalLevel": "Gates 3–4 · Access and economics approved",
+            "author": {
+              "@id": "https://www.mikeye.com/#person"
             },
-            "hasPart": {
-              "@id": "https://www.mikeye.com/tools-and-models#webpage"
-            }
+            "citation": [
+              {
+                "url": "https://www.mikeye.com/tools-and-models"
+              },
+              {
+                "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench"
+              },
+              {
+                "url": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability"
+              }
+            ]
           }
         },
         {
           "@type": "ListItem",
           "position": 4,
           "item": {
-            "@type": "CreativeWork",
+            "@type": "LearningResource",
             "@id": "https://www.mikeye.com/m-and-a#stage-loi-diligence",
             "name": "LOI & Diligence",
-            "description": "Are core terms clear, and can the team test the conditions behind the thesis? Evidence: Approved LOI, evidence requests, workflow tests, accountable workstream owners, and a live issue log. Judgment: Unknowns are findings. Give each material issue a consequence: Investigate, Price, Protect, or Walk. Decision gates: Gates 5–6 · Exclusivity approved and diligence launched.",
-            "isPartOf": {
-              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            "url": "https://www.mikeye.com/m-and-a#stage-loi-diligence",
+            "description": "Are core terms clear, and can the team test the conditions behind the thesis?",
+            "teaches": "Approved LOI, evidence requests, workflow tests, accountable workstream owners, and a live issue log.",
+            "educationalLevel": "Gates 5–6 · Exclusivity approved and diligence launched",
+            "author": {
+              "@id": "https://www.mikeye.com/#person"
             },
-            "hasPart": {
-              "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
-            }
+            "citation": [
+              {
+                "url": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator"
+              },
+              {
+                "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work"
+              }
+            ]
           }
         },
         {
           "@type": "ListItem",
           "position": 5,
           "item": {
-            "@type": "CreativeWork",
+            "@type": "LearningResource",
             "@id": "https://www.mikeye.com/m-and-a#stage-re-underwrite-sign",
             "name": "Re-underwrite & Sign",
-            "description": "Does the deal still work on the facts and terms now in front of the buyer? Evidence: Revised valuation and synergy case, combined downside, final economics, protections, closing conditions, and integration owners. Judgment: Re-establish the price ceiling before signing. Prior spending does not justify the next commitment. Decision gates: Gates 7–8 · Re-underwriting and signing approved.",
-            "isPartOf": {
-              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            "url": "https://www.mikeye.com/m-and-a#stage-re-underwrite-sign",
+            "description": "Does the deal still work on the facts and terms now in front of the buyer?",
+            "teaches": "Revised valuation and synergy case, combined downside, final economics, protections, closing conditions, and integration owners.",
+            "educationalLevel": "Gates 7–8 · Re-underwriting and signing approved",
+            "author": {
+              "@id": "https://www.mikeye.com/#person"
             },
-            "hasPart": {
-              "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
-            }
+            "citation": [
+              {
+                "url": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo"
+              }
+            ]
           }
         },
         {
           "@type": "ListItem",
           "position": 6,
           "item": {
-            "@type": "CreativeWork",
+            "@type": "LearningResource",
             "@id": "https://www.mikeye.com/m-and-a#stage-close-day-one",
             "name": "Close & Day 1",
-            "description": "Can funds and control transfer while the business keeps working? Evidence: Funds flow, required consents and clearances, closing checklist, and customer, cash, people, and system readiness. Judgment: Protect revenue while integrating cost. Do not confuse signing with operating readiness. Decision gates: Gates 9–10 · Closing approved and Day 1 stable.",
-            "isPartOf": {
-              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            "url": "https://www.mikeye.com/m-and-a#stage-close-day-one",
+            "description": "Can funds and control transfer while the business keeps working?",
+            "teaches": "Funds flow, required consents and clearances, closing checklist, and customer, cash, people, and system readiness.",
+            "educationalLevel": "Gates 9–10 · Closing approved and Day 1 stable",
+            "author": {
+              "@id": "https://www.mikeye.com/#person"
             },
-            "hasPart": {
-              "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
-            }
+            "citation": [
+              {
+                "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working"
+              },
+              {
+                "url": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner"
+              }
+            ]
           }
         },
         {
           "@type": "ListItem",
           "position": 7,
           "item": {
-            "@type": "CreativeWork",
+            "@type": "LearningResource",
             "@id": "https://www.mikeye.com/m-and-a#stage-value-delivery-review",
             "name": "Value Delivery & Review",
-            "description": "Has the buyer delivered the underwritten value, and what should change next time? Evidence: 30/60/100-day reviews, realized cash benefits and costs, workflow decisions, revised forecasts, and residual action owners. Judgment: Compare results with the original thesis. A synergy belongs in the results only when the operating work delivers it. Decision gates: Gates 11–12 · Value delivery confirmed and program closed.",
-            "isPartOf": {
-              "@id": "https://www.mikeye.com/m-and-a#transaction-path"
+            "url": "https://www.mikeye.com/m-and-a#stage-value-delivery-review",
+            "description": "Has the buyer delivered the underwritten value, and what should change next time?",
+            "teaches": "30/60/100-day reviews, realized cash benefits and costs, workflow decisions, revised forecasts, and residual action owners.",
+            "educationalLevel": "Gates 11–12 · Value delivery confirmed and program closed",
+            "author": {
+              "@id": "https://www.mikeye.com/#person"
             },
-            "hasPart": {
-              "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
-            }
+            "citation": [
+              {
+                "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge"
+              },
+              {
+                "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working"
+              },
+              {
+                "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist"
+              }
+            ]
           }
         }
       ]
     },
     {
-      "@type": "CreativeWork",
-      "@id": "https://www.mikeye.com/exit/valuation#resource",
-      "url": "https://www.mikeye.com/exit/valuation",
-      "name": "Business valuation scenarios",
-      "description": "Explore the existing Exit Desk calculator and its indicative positioning scenarios.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#valuation"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://www.mikeye.com/intelligence#resource",
-      "url": "https://www.mikeye.com/intelligence",
-      "name": "The five decision frames",
-      "description": "Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#corporate-development"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://www.mikeye.com/exit/articles/buzzangle-case-study#resource",
-      "url": "https://www.mikeye.com/exit/articles/buzzangle-case-study",
-      "name": "BuzzAngle Music",
-      "description": "A strategic investment in music data, viewed through competitive position and capability.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#corporate-development"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study#resource",
-      "url": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study",
-      "name": "Sourcing Journal",
-      "description": "Founder clarity, partner alignment, and the timing of a capability acquisition.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#deal-structure"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study#resource",
-      "url": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study",
-      "name": "Long Beach Outpatient Surgery",
-      "description": "A controlling investment and the operating work behind a multi-specialty expansion.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#integration"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://www.mikeye.com/exit/articles/exit-readiness-checklist#resource",
-      "url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
-      "name": "Exit readiness checklist",
-      "description": "An existing seller-preparation checklist, organized around what buyers will examine.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#due-diligence"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource",
-      "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
-      "name": "The M&A Deal Workflow: From Mandate to Value",
-      "description": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#corporate-development"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true,
-      "learningResourceType": "End-to-end M&A deal workflow and Excel checklist",
-      "teaches": "What must happen—and who must decide—before the buyer commits more capital, time, or operating risk?",
-      "datePublished": "2026-09-09",
-      "dateModified": "2026-09-09",
-      "version": "1.0",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#webpage"
-      },
-      "keywords": [
-        "M&A deal workflow",
-        "M&A process checklist",
-        "corporate development process",
-        "M&A decision gates",
-        "buy-side M&A checklist",
-        "post-close review"
-      ],
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#workbook",
-        "name": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "43228 bytes"
-      },
-      "citation": [
+      "@type": "Collection",
+      "@id": "https://www.mikeye.com/m-and-a#library",
+      "name": "Mike Ye M&A Library",
+      "url": "https://www.mikeye.com/m-and-a",
+      "hasPart": [
         {
-          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
-        },
-        {
-          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
-        }
-      ]
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource",
-      "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
-      "name": "Before You Buy: Follow the Work",
-      "description": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#due-diligence"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true,
-      "learningResourceType": "Practical M&A due diligence handbook and comprehensive Excel checklist",
-      "teaches": "Can the business keep producing its results when the owner changes?",
-      "datePublished": "2026-09-08",
-      "dateModified": "2026-09-09",
-      "version": "1.2",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#webpage"
-      },
-      "keywords": [
-        "M&A due diligence checklist",
-        "buy-side due diligence",
-        "workflow transferability",
-        "quality of earnings",
-        "deal risk",
-        "integration handoff"
-      ],
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#workbook",
-        "name": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "37249 bytes"
-      },
-      "citation": [
-        {
-          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
-        }
-      ]
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource",
-      "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
-      "name": "After the Deal: Keep the Business Working",
-      "description": "A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#integration"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true,
-      "learningResourceType": "Practical post-deal integration handbook and comprehensive Excel checklist",
-      "teaches": "What must keep working, what should change, and who is responsible for the handover?",
-      "datePublished": "2026-09-08",
-      "dateModified": "2026-09-09",
-      "version": "1.2",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#webpage"
-      },
-      "keywords": [
-        "post-deal integration checklist",
-        "Day 1 readiness",
-        "workflow integration",
-        "synergy tracking",
-        "revenue continuity",
-        "integration risk"
-      ],
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#workbook",
-        "name": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "36674 bytes"
-      },
-      "citation": [
-        {
-          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
-        },
-        {
           "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
-        }
-      ]
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource",
-      "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
-      "name": "Gap: valuing a retail business",
-      "description": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#valuation"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true,
-      "learningResourceType": "Valuation model and Excel workbook",
-      "teaches": "Does the valuation hold if sales soften and the business has to discount more stock?",
-      "datePublished": "2026-09-08",
-      "dateModified": "2026-09-08",
-      "version": "1.2",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#webpage"
-      },
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#workbook",
-        "name": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "97991 bytes"
-      }
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource",
-      "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
-      "name": "Salesforce: valuing a software business",
-      "description": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#valuation"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true,
-      "learningResourceType": "Valuation model and Excel workbook",
-      "teaches": "How much growth can the business turn into cash for each share after the costs of delivering it?",
-      "datePublished": "2026-09-08",
-      "dateModified": "2026-09-08",
-      "version": "1.2",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#webpage"
-      },
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#workbook",
-        "name": "Salesforce_CRM_Valuation_Model-v1.2.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "89753 bytes"
-      }
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource",
-      "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
-      "name": "Ziff Davis: valuing a digital media business",
-      "description": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#valuation"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true,
-      "learningResourceType": "Valuation model and Excel workbook",
-      "teaches": "Which earnings can the current portfolio keep producing, and what makes those earnings vulnerable?",
-      "datePublished": "2026-09-08",
-      "dateModified": "2026-09-08",
-      "version": "1.2",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#webpage"
-      },
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#workbook",
-        "name": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "85802 bytes"
-      }
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource",
-      "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
-      "name": "Surgery Partners: valuing a healthcare-services business",
-      "description": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#valuation"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true,
-      "learningResourceType": "Valuation model and Excel workbook",
-      "teaches": "What cash belongs to the buyer after operating needs, partner interests, and debt are taken into account?",
-      "datePublished": "2026-09-08",
-      "dateModified": "2026-09-08",
-      "version": "1.2",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#webpage"
-      },
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#workbook",
-        "name": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "90351 bytes"
-      }
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource",
-      "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
-      "name": "NVIDIA: valuing an AI infrastructure business",
-      "description": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#valuation"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true,
-      "learningResourceType": "Valuation model and Excel workbook",
-      "teaches": "What must remain true about demand, margins, and cash conversion for the valuation to hold?",
-      "datePublished": "2026-09-08",
-      "dateModified": "2026-09-08",
-      "version": "1.2",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#webpage"
-      },
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#workbook",
-        "name": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "90814 bytes"
-      }
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource",
-      "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
-      "name": "Synergy Underwriting & Value Bridge",
-      "description": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#synergies"
-      },
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "isAccessibleForFree": true,
-      "learningResourceType": "Synergy underwriting tool and formula-driven Excel workbook",
-      "teaches": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
-      "datePublished": "2026-09-10",
-      "dateModified": "2026-09-10",
-      "version": "1.0",
-      "creativeWorkStatus": "Published",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#webpage"
-      },
-      "keywords": [
-        "M&A synergies",
-        "synergy underwriting",
-        "synergy value bridge",
-        "buyer-created value",
-        "synergy execution risk",
-        "post-close value delivery"
-      ],
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#workbook",
-        "name": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "135876 bytes"
-      },
-      "citation": [
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
         {
           "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+          "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/articles/exit-readiness-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/articles/buzzangle-case-study#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/intelligence#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/exit/valuation#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource",
+      "url": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel",
+      "name": "Acquisition Target Pipeline & Deal Funnel",
+      "description": "Manage acquisition targets from thesis through close with explicit next decisions, seller and control signals, evidence quality, private price discipline, and a durable pass-and-reopen record.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#industry-comps"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#synergies"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#integration"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
+        }
+      ],
+      "learningResourceType": "Tool",
+      "teaches": "Where should the Corp Dev team spend its next increment of attention, and what must happen before each target advances?",
+      "dateModified": "2026-09-10",
+      "version": "1.0",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#download-1.0",
+        "name": "MikeYe-Acquisition-Target-Pipeline-Deal-Funnel-v1.0.xlsx",
+        "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa3118be7d8bb3bee10243f_MikeYe-Acquisition-Target-Pipeline-Deal-Funnel-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "58035 bytes",
+        "sha256": "5dcf16183de7b72f4e55a2e5b980da8a1fb5a29290df286a4f5555cf023fa702"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
         }
       ]
     },
@@ -978,10 +636,10 @@
         "CreativeWork",
         "LearningResource"
       ],
-      "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource",
-      "url": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
-      "name": "LOI Economics & Risk Allocator",
-      "description": "See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal.",
+      "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource",
+      "url": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo",
+      "name": "M&A Investment Committee Memo: From Analysis to Approval",
+      "description": "Turn mandate, valuation, diligence, deal structure, synergies, affordability, downside, and integration into one decision-ready M&A approval memo—with a worked NVIDIA–Hugging Face example.",
       "author": {
         "@id": "https://www.mikeye.com/#person"
       },
@@ -993,112 +651,57 @@
       "isPartOf": {
         "@id": "https://www.mikeye.com/m-and-a#library"
       },
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#deal-structure"
-      },
-      "learningResourceType": "LOI economics and risk allocation tool with Excel workbook",
-      "teaches": "How does the proposed structure change economics, control, and risk?",
-      "version": "1.0",
-      "datePublished": "2026-09-10",
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#financial-modeling"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#industry-comps"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#synergies"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#integration"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
+        }
+      ],
+      "learningResourceType": "Handbook",
+      "teaches": "Should the buyer make the next commitment of capital, time, exclusivity, reputation, or operating risk—and under what conditions?",
       "dateModified": "2026-09-10",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#webpage"
-      },
+      "version": "1.0",
       "encoding": {
         "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#workbook",
-        "name": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "47265 bytes"
+        "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#download-1.0",
+        "name": "MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/ddf955a7705481a558bc45b9658c107a806a76be/public/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md",
+        "encodingFormat": "text/markdown",
+        "contentSize": "6620 bytes",
+        "sha256": "17e1ef976f485a2ea143d5927871e9d54636399c3d76ce19287092ade5427ebf"
       },
-      "keywords": [
-        "LOI economics",
-        "M&A deal structure",
-        "enterprise to equity value",
-        "seller rollover",
-        "earnout",
-        "closing funding",
-        "risk allocation"
-      ],
       "citation": [
         {
           "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
-        },
-        {
-          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
-        },
-        {
-          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
-        },
-        {
-          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
-        },
-        {
-          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
-        },
-        {
           "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
-        }
-      ]
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource",
-      "url": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
-      "name": "Acquisition Mandate & Target Screen",
-      "description": "Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "isAccessibleForFree": true,
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#corporate-development"
-      },
-      "learningResourceType": "Acquisition mandate and target screening tool with Excel workbook",
-      "teaches": "Why buy instead of build, partner, or do nothing—and which targets satisfy the mandate?",
-      "version": "1.0",
-      "datePublished": "2026-09-10",
-      "dateModified": "2026-09-10",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#webpage"
-      },
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#workbook",
-        "name": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/00d7d6fd497644cadf65fa347c8420da058fffca/public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "86183 bytes"
-      },
-      "keywords": [
-        "acquisition mandate",
-        "target screening",
-        "build buy partner",
-        "corporate development",
-        "transactability",
-        "evidence quality",
-        "target prioritization"
-      ],
-      "citation": [
-        {
-          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
@@ -1111,78 +714,74 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
-        },
-        {
-          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
-        }
-      ]
-    },
-    {
-      "@type": [
-        "CreativeWork",
-        "LearningResource"
-      ],
-      "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource",
-      "url": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner",
-      "name": "Carve-Out Perimeter & TSA Planner",
-      "description": "Define what transfers, map seller dependencies, plan temporary services and their exit, and separate Day 1 readiness from independent operations.",
-      "author": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "publisher": {
-        "@id": "https://www.mikeye.com/#person"
-      },
-      "inLanguage": "en-US",
-      "isAccessibleForFree": true,
-      "isPartOf": {
-        "@id": "https://www.mikeye.com/m-and-a#library"
-      },
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#divestitures"
-      },
-      "learningResourceType": "Carve-out perimeter, TSA, and operating readiness tool with Excel workbook",
-      "teaches": "What is being sold, what remains entangled, and how will the business operate independently?",
-      "version": "1.0",
-      "datePublished": "2026-09-10",
-      "dateModified": "2026-09-10",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#webpage"
-      },
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#workbook",
-        "name": "MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
-        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/18d505122f8b4ebb69e974f3056a41ec80e56b0b/public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "74465 bytes"
-      },
-      "keywords": [
-        "carve-out perimeter",
-        "transition services agreement",
-        "TSA exit",
-        "Day 1 readiness",
-        "standalone costs",
-        "stranded costs",
-        "separation costs"
-      ],
-      "citation": [
-        {
-          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
-        },
-        {
-          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource",
+      "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench",
+      "name": "Public Company Comps Workbench",
+      "description": "Build a reviewed peer valuation with a reusable Excel template and populated Capital IQ reference comps covering 254 companies across 12 sectors.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#industry-comps"
+        }
+      ],
+      "learningResourceType": "Tool",
+      "teaches": "Which public companies are genuinely comparable, and what valuation range does the reviewed peer evidence support?",
+      "dateModified": "2026-09-10",
+      "version": "1.1",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#download-1.1",
+        "name": "MikeYe-Public-Company-Comps-Workbench-v1.1.xlsx",
+        "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa32541fc85292130a74dcc_MikeYe-Public-Company-Comps-Workbench-v1.1.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "261769 bytes",
+        "sha256": "4d36c17be218e059909cee694e8fda603bcac131c49afedb10566dad109ecfc9"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
         }
       ]
     },
@@ -1206,36 +805,36 @@
       "isPartOf": {
         "@id": "https://www.mikeye.com/m-and-a#library"
       },
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
-      },
-      "learningResourceType": "Capital allocation, acquisition affordability, and price ceiling tool with Excel workbook",
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#synergies"
+        }
+      ],
+      "learningResourceType": "Tool",
       "teaches": "Is the acquisition the best use of capital, and what is the buyer's hard price ceiling?",
-      "version": "1.0",
-      "datePublished": "2026-09-10",
       "dateModified": "2026-09-10",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#webpage"
-      },
+      "version": "1.0",
       "encoding": {
         "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#workbook",
+        "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#download-1.0",
         "name": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
         "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/38b4a618cd3a4803f8fc1013c67e77938f7b4538/public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "54196 bytes"
+        "contentSize": "54196 bytes",
+        "sha256": "cdf044eb840ad6d5f277881354dc364528d8a0e4d78a7d47fa80b3dfe9946c33"
       },
-      "keywords": [
-        "capital allocation",
-        "deal affordability",
-        "acquisition financing",
-        "downside survivability",
-        "opportunity cost",
-        "ROIC",
-        "IRR",
-        "payback",
-        "walk-away price"
-      ],
       "citation": [
         {
           "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
@@ -1254,6 +853,12 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
         }
       ]
     },
@@ -1262,10 +867,10 @@
         "CreativeWork",
         "LearningResource"
       ],
-      "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource",
-      "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench",
-      "name": "Public Company Comps Workbench",
-      "description": "Review 254 public companies across 12 sectors, with Capital IQ financials, trading multiples, peer-group summary statistics and comparability notes.",
+      "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource",
+      "url": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner",
+      "name": "Carve-Out Perimeter & TSA Planner",
+      "description": "Define what transfers, map seller dependencies, plan temporary services and their exit, and separate Day 1 readiness from independent operations.",
       "author": {
         "@id": "https://www.mikeye.com/#person"
       },
@@ -1277,47 +882,930 @@
       "isPartOf": {
         "@id": "https://www.mikeye.com/m-and-a#library"
       },
-      "about": {
-        "@id": "https://www.mikeye.com/m-and-a#industry-comps"
-      },
-      "learningResourceType": "Populated public-company trading comps workbook",
-      "teaches": "Which public companies are genuinely comparable, and what valuation range does the reviewed peer evidence support?",
-      "version": "1.1",
-      "datePublished": "2026-09-10",
-      "dateModified": "2026-09-10",
-      "mainEntityOfPage": {
-        "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#webpage"
-      },
-      "encoding": {
-        "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#workbook",
-        "name": "CapitalIQ-Public-Comps-12-Sectors.xlsx",
-        "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa237da499a6768b19b5e74_CapitalIQ-Public-Comps-12-Sectors.xlsx",
-        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "158149 bytes"
-      },
-      "keywords": [
-        "public company comps",
-        "trading comparables",
-        "peer selection",
-        "EBITDA normalization",
-        "valuation multiples",
-        "12 sectors"
-      ],
-      "citation": [
+      "about": [
         {
-          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+          "@id": "https://www.mikeye.com/m-and-a#divestitures"
         },
         {
-          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+          "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#integration"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+        }
+      ],
+      "learningResourceType": "Tool",
+      "teaches": "What is being sold, what remains entangled, and how will the business operate independently?",
+      "dateModified": "2026-09-10",
+      "version": "1.0",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#download-1.0",
+        "name": "MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/18d505122f8b4ebb69e974f3056a41ec80e56b0b/public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "74465 bytes",
+        "sha256": "ac112844a858a5e81b1211702e3b87c76d05981b7a2c554d2f60da26f80269d7"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource",
+      "url": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
+      "name": "Acquisition Mandate & Target Screen",
+      "description": "Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#synergies"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
+        }
+      ],
+      "learningResourceType": "Tool",
+      "teaches": "Why buy instead of build, partner, or do nothing—and which targets satisfy the mandate?",
+      "dateModified": "2026-09-10",
+      "version": "1.0",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#download-1.0",
+        "name": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/00d7d6fd497644cadf65fa347c8420da058fffca/public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "86183 bytes",
+        "sha256": "76a89f6d0d40419817f5124b45c26651b8836d5e028bda6bb7cb471c1296b7ea"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
         }
       ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource",
+      "url": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
+      "name": "LOI Economics & Risk Allocator",
+      "description": "See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#synergies"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#integration"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
+        }
+      ],
+      "learningResourceType": "Tool",
+      "teaches": "How does the proposed structure change economics, control, and risk?",
+      "dateModified": "2026-09-10",
+      "version": "1.0",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#download-1.0",
+        "name": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "47265 bytes",
+        "sha256": "a6adad0cf1d79beae2e61391bb629269744efa7e4155fa8b7f3f8f6b6e71a8eb"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource",
+      "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
+      "name": "Synergy Underwriting & Value Bridge",
+      "description": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#synergies"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#integration"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#strategic-finance"
+        }
+      ],
+      "learningResourceType": "Tool",
+      "teaches": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
+      "dateModified": "2026-09-10",
+      "version": "1.0",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#download-1.0",
+        "name": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "135876 bytes",
+        "sha256": "f42cd99478f77a8f0664383dd81476dac4218cd5d575e1169c2341353ede48f1"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource",
+      "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
+      "name": "The M&A Deal Workflow: From Mandate to Value",
+      "description": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+        }
+      ],
+      "learningResourceType": "Checklist",
+      "teaches": "What must happen—and who must decide—before the buyer commits more capital, time, or operating risk?",
+      "dateModified": "2026-09-10",
+      "version": "1.0",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#download-1.0",
+        "name": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "43228 bytes",
+        "sha256": "5a0dd8cb5462ad202c7206fee97fa28cd6918af7545a54b1c49a57f8f7c96c4c"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource",
+      "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
+      "name": "NVIDIA: valuing an AI infrastructure business",
+      "description": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#financial-modeling"
+        }
+      ],
+      "learningResourceType": "Model",
+      "teaches": "What must remain true about demand, margins, and cash conversion for the valuation to hold?",
+      "dateModified": "2026-09-10",
+      "version": "1.2",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#download-1.2",
+        "name": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "90814 bytes",
+        "sha256": "4afbd3e6745250a16259b753805420e921a491dc4f4d869006a0f8639c377175"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource",
+      "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
+      "name": "Surgery Partners: valuing a healthcare-services business",
+      "description": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#financial-modeling"
+        }
+      ],
+      "learningResourceType": "Model",
+      "teaches": "What cash belongs to the buyer after operating needs, partner interests, and debt are taken into account?",
+      "dateModified": "2026-09-10",
+      "version": "1.2",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#download-1.2",
+        "name": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "90351 bytes",
+        "sha256": "1c0b8cf82a18f37314e9ad0eea9d1b0713069c3944ce0f468cb773763a5940df"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource",
+      "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
+      "name": "Ziff Davis: valuing a digital media business",
+      "description": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#financial-modeling"
+        }
+      ],
+      "learningResourceType": "Model",
+      "teaches": "Which earnings can the current portfolio keep producing, and what makes those earnings vulnerable?",
+      "dateModified": "2026-09-10",
+      "version": "1.2",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#download-1.2",
+        "name": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "85802 bytes",
+        "sha256": "803ee3bd3afdf9047c0ff32cc64968216287732463d3f77a01bb9d943f66d420"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource",
+      "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
+      "name": "Salesforce: valuing a software business",
+      "description": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#financial-modeling"
+        }
+      ],
+      "learningResourceType": "Model",
+      "teaches": "How much growth can the business turn into cash for each share after the costs of delivering it?",
+      "dateModified": "2026-09-10",
+      "version": "1.2",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#download-1.2",
+        "name": "Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "89753 bytes",
+        "sha256": "094cee758940492f81e83b6ce100a6364060a03734a72158875bf0d1db36650b"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource",
+      "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
+      "name": "Gap: valuing a retail business",
+      "description": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        },
+        {
+          "@id": "https://www.mikeye.com/m-and-a#financial-modeling"
+        }
+      ],
+      "learningResourceType": "Model",
+      "teaches": "Does the valuation hold if sales soften and the business has to discount more stock?",
+      "dateModified": "2026-09-10",
+      "version": "1.2",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#download-1.2",
+        "name": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "97991 bytes",
+        "sha256": "99c4f4eff548dde24d861b3bc5c9dd8fea7c091144d3f7fc9c55785d54c6a4fc"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource",
+      "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
+      "name": "After the Deal: Keep the Business Working",
+      "description": "A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#integration"
+        }
+      ],
+      "learningResourceType": "Handbook",
+      "teaches": "What must keep working, what should change, and who is responsible for the handover?",
+      "dateModified": "2026-09-10",
+      "version": "1.2",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#download-1.2",
+        "name": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "36674 bytes",
+        "sha256": "3cafb39141059a656d5145f5b23875f9eb8700490eafc199d42056e38d8da608"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource",
+      "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
+      "name": "Before You Buy: Follow the Work",
+      "description": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+        }
+      ],
+      "learningResourceType": "Handbook",
+      "teaches": "Can the business keep producing its results when the owner changes?",
+      "dateModified": "2026-09-10",
+      "version": "1.2",
+      "encoding": {
+        "@type": "MediaObject",
+        "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#download-1.2",
+        "name": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+        "contentUrl": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "37249 bytes",
+        "sha256": "d227c49a9757f8864f2694ef3ef79fd3080ad364ab3dac3ed86fc6525cd2779d"
+      },
+      "citation": [
+        {
+          "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#resource"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.mikeye.com/exit/articles/exit-readiness-checklist#resource",
+      "url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
+      "name": "Exit readiness checklist",
+      "description": "An existing seller-preparation checklist, organized around what buyers will examine.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#due-diligence"
+        }
+      ],
+      "learningResourceType": "Checklist",
+      "teaches": "What should an owner prepare before a buyer begins diligence?",
+      "dateModified": "2026-09-10"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study#resource",
+      "url": "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study",
+      "name": "Long Beach Outpatient Surgery",
+      "description": "A controlling investment and the operating work behind a multi-specialty expansion.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#integration"
+        }
+      ],
+      "learningResourceType": "Case study",
+      "teaches": "What operating changes are required to deliver the acquisition thesis?",
+      "dateModified": "2026-09-10"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study#resource",
+      "url": "https://www.mikeye.com/exit/articles/sourcing-journal-case-study",
+      "name": "Sourcing Journal",
+      "description": "Founder clarity, partner alignment, and the timing of a capability acquisition.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#deal-structure"
+        }
+      ],
+      "learningResourceType": "Case study",
+      "teaches": "How do seller alignment and timing affect the transaction?",
+      "dateModified": "2026-09-10"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.mikeye.com/exit/articles/buzzangle-case-study#resource",
+      "url": "https://www.mikeye.com/exit/articles/buzzangle-case-study",
+      "name": "BuzzAngle Music",
+      "description": "A strategic investment in music data, viewed through competitive position and capability.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+        }
+      ],
+      "learningResourceType": "Case study",
+      "teaches": "When is a target worth more as a strategic capability than as a standalone business?",
+      "dateModified": "2026-09-10"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.mikeye.com/intelligence#resource",
+      "url": "https://www.mikeye.com/intelligence",
+      "name": "The five decision frames",
+      "description": "Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#corporate-development"
+        }
+      ],
+      "learningResourceType": "Framework",
+      "teaches": "Which frame clarifies the decision before analysis begins?",
+      "dateModified": "2026-09-10"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.mikeye.com/exit/valuation#resource",
+      "url": "https://www.mikeye.com/exit/valuation",
+      "name": "Business valuation scenarios",
+      "description": "Explore the existing Exit Desk calculator and its indicative positioning scenarios.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://www.mikeye.com/m-and-a#library"
+      },
+      "about": [
+        {
+          "@id": "https://www.mikeye.com/m-and-a#valuation"
+        }
+      ],
+      "learningResourceType": "Tool",
+      "teaches": "How might buyer context and preparation affect an indicative valuation?",
+      "dateModified": "2026-09-10"
     }
   ]
 }

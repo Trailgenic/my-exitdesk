@@ -1,0 +1,102 @@
+[
+  {
+    "id": "6a9f2af7de5d336681b4b4ce",
+    "fieldData": {
+      "related-resources": [
+        "6aa1fa5ccae8df99de4384f1",
+        "6aa2095323a4984befe0ccef",
+        "6aa216c7cb56102c6cda988a",
+        "6aa22047508427679746850d",
+        "6aa30e25072940b2dff6a4a6",
+        "6aa312c989d4e7003791f542",
+        "6aa1f03acc577a948c9c5169",
+        "6a9f3f2c598f07756d56ea73",
+        "6a9f3af084946e9b265e5826",
+        "6a9f3af084946e9b265e5824",
+        "6a9f3af084946e9b265e5822",
+        "6a9f3af084946e9b265e5820"
+      ]
+    }
+  },
+  {
+    "id": "6a9f2af7de5d336681b4b4d0",
+    "fieldData": {
+      "related-resources": [
+        "6aa1fa5ccae8df99de4384f1",
+        "6aa2095323a4984befe0ccef",
+        "6aa22047508427679746850d",
+        "6aa30e25072940b2dff6a4a6",
+        "6aa312c989d4e7003791f542",
+        "6aa1f03acc577a948c9c5169",
+        "6a9f3f2c598f07756d56ea73",
+        "6a9f3af084946e9b265e5826",
+        "6a9f3af084946e9b265e5824",
+        "6a9f3af084946e9b265e5822",
+        "6a9f3af084946e9b265e5820"
+      ]
+    }
+  },
+  {
+    "id": "6aa1fa5ccae8df99de4384f1",
+    "fieldData": {
+      "related-resources": [
+        "6aa1f03acc577a948c9c5169",
+        "6a9f2af7de5d336681b4b4ce",
+        "6a9f2af7de5d336681b4b4d0",
+        "6aa2095323a4984befe0ccef",
+        "6aa216c7cb56102c6cda988a",
+        "6aa22047508427679746850d",
+        "6aa226d4c573eede6dcb3127",
+        "6aa23404a5b0f1fce8b86f53",
+        "6aa30e25072940b2dff6a4a6",
+        "6aa312c989d4e7003791f542"
+      ]
+    }
+  },
+  {
+    "id": "6aa2095323a4984befe0ccef",
+    "fieldData": {
+      "related-resources": [
+        "6aa1f03acc577a948c9c5169",
+        "6a9f2af7de5d336681b4b4ce",
+        "6aa1fa5ccae8df99de4384f1",
+        "6a9f2af7de5d336681b4b4d0",
+        "6aa216c7cb56102c6cda988a",
+        "6aa22047508427679746850d",
+        "6aa226d4c573eede6dcb3127",
+        "6aa23404a5b0f1fce8b86f53",
+        "6aa30e25072940b2dff6a4a6",
+        "6aa312c989d4e7003791f542"
+      ]
+    }
+  },
+  {
+    "id": "6aa226d4c573eede6dcb3127",
+    "fieldData": {
+      "related-resources": [
+        "6aa216c7cb56102c6cda988a",
+        "6aa2095323a4984befe0ccef",
+        "6aa1fa5ccae8df99de4384f1",
+        "6aa22047508427679746850d",
+        "6aa1f03acc577a948c9c5169",
+        "6aa23404a5b0f1fce8b86f53",
+        "6aa30e25072940b2dff6a4a6",
+        "6aa312c989d4e7003791f542"
+      ]
+    }
+  },
+  {
+    "id": "6aa23404a5b0f1fce8b86f53",
+    "fieldData": {
+      "related-resources": [
+        "6aa226d4c573eede6dcb3127",
+        "6aa216c7cb56102c6cda988a",
+        "6aa1fa5ccae8df99de4384f1",
+        "6aa2095323a4984befe0ccef",
+        "6aa30e25072940b2dff6a4a6",
+        "6aa312c989d4e7003791f542",
+        "6aa1f03acc577a948c9c5169"
+      ]
+    }
+  }
+]

@@ -1,0 +1,302 @@
+<!-- =============================================== -->
+<!-- Apex Landscape Sample Report — Body v1.0      -->
+<!-- /exit/sample/apex-landscape                    -->
+<!-- v1.0 — Main Street ($M sub-$1M) sample        -->
+<!-- =============================================== -->
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap');
+
+  .rpt-root { font-family: 'EB Garamond', Georgia, serif; background: #F7F5F0; color: #1A1A18; max-width: 780px; margin: 0 auto; padding: 72px 40px 80px; box-sizing: border-box; }
+  .rpt-confidential { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: #C8C4BA; margin-bottom: 32px; display: flex; align-items: center; gap: 12px; }
+  .rpt-confidential::after { content: ''; flex: 1; height: 0.5px; background: #C8C4BA; }
+  .rpt-masthead { margin-bottom: 48px; padding-bottom: 36px; border-bottom: 0.5px solid #C8C4BA; }
+  .rpt-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 16px; }
+  .rpt-title { font-size: 2.8rem; font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 12px 0; color: #1A1A18; }
+  .rpt-profile { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.06em; color: #888880; line-height: 1.8; margin: 0; }
+  .rpt-notice { background: #F2F0EB; border-left: 1.5px solid #C8C4BA; padding: 16px 20px; margin-bottom: 40px; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.04em; color: #888880; line-height: 1.7; }
+  .rpt-body { font-size: 1.1rem; line-height: 1.78; color: #2A2A26; margin-bottom: 20px; }
+  .rpt-section-rule { display: flex; align-items: center; gap: 16px; margin: 44px 0 24px; }
+  .rpt-section-number { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; color: #c8a96e; white-space: nowrap; }
+  .rpt-section-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; white-space: nowrap; }
+  .rpt-rule { flex: 1; height: 0.5px; background: #C8C4BA; }
+  .rpt-signal { background: #1A1A18; padding: 20px 24px; margin: 1rem 0 1.5rem; }
+  .rpt-signal-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #c8a96e; margin-bottom: 8px; }
+  .rpt-signal-text { font-family: 'EB Garamond', serif; font-size: 1.05rem; color: #C8C4BA; line-height: 1.65; font-style: italic; margin: 0; }
+  .rpt-pullquote { border-left: 1.5px solid #c8a96e; margin: 2rem 0; padding: 0.5rem 0 0.5rem 1.5rem; }
+  .rpt-pullquote p { font-size: 1.2rem; line-height: 1.65; font-style: italic; color: #1A1A18; margin: 0; }
+  .rpt-risk-grid { margin: 1.5rem 0; }
+  .rpt-risk-item { display: grid; grid-template-columns: 220px 1fr 100px; gap: 16px; padding: 12px 0; border-bottom: 0.5px solid #E0DDD6; align-items: start; }
+  .rpt-risk-item:last-child { border-bottom: none; }
+  .rpt-risk-dimension { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: #555550; padding-top: 2px; }
+  .rpt-risk-desc { font-family: 'EB Garamond', serif; font-size: 0.95rem; color: #2A2A26; line-height: 1.6; }
+  .rpt-risk-level { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; text-align: right; padding-top: 2px; }
+  .rpt-risk-level.high { color: #A32D2D; }
+  .rpt-risk-level.moderate { color: #BA7517; }
+  .rpt-risk-level.low { color: #3B6D11; }
+  .rpt-action { margin: 1.5rem 0; padding: 24px 28px; border-left: 1.5px solid #C8C4BA; background: #F2F0EB; }
+  .rpt-action-header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 10px; }
+  .rpt-action-number { font-family: 'DM Mono', monospace; font-size: 10px; color: #c8a96e; white-space: nowrap; }
+  .rpt-action-title { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #555550; }
+  .rpt-action p { font-family: 'EB Garamond', serif; font-size: 1.0rem; line-height: 1.72; color: #2A2A26; margin: 0 0 8px 0; }
+  .rpt-action p:last-child { margin: 0; }
+  .rpt-action-timeline { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: #c8a96e; margin-top: 10px; display: block; }
+  .rpt-ledger { list-style: none; padding: 0; margin: 0 0 8px 0; }
+  .rpt-ledger li { font-size: 1.0rem; line-height: 1.65; color: #2A2A26; padding: 10px 0 10px 16px; border-bottom: 0.5px solid #E0DDD6; position: relative; }
+  .rpt-ledger li:last-child { border-bottom: none; }
+  .rpt-ledger li::before { content: '—'; position: absolute; left: 0; color: #C8C4BA; font-size: 0.85rem; }
+  .rpt-uncertainty { margin: 1.5rem 0; padding: 24px 28px; background: #F2F0EB; border-left: 1.5px solid #C8C4BA; }
+  .rpt-uncertainty-title { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #888880; margin-bottom: 14px; }
+  .rpt-cta-block { margin: 3rem 0 2rem; padding: 36px 40px; background: #1A1A18; text-align: center; }
+  .rpt-cta-block p { font-family: 'EB Garamond', serif; font-size: 1.15rem; color: #C8C4BA; margin: 0 0 1.5rem; line-height: 1.65; font-style: italic; }
+  .rpt-cta-btn { display: inline-block; background: #c8a96e; color: #1A1A18; font-family: 'DM Mono', monospace; font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; padding: 14px 32px; text-decoration: none; }
+  .rpt-cta-btn:hover { background: #b8965a; }
+  .rpt-cta-secondary { display: inline-block; margin-top: 1rem; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #AAAAAA; text-decoration: none; border-bottom: 0.5px solid #555550; padding-bottom: 2px; }
+  .rpt-cta-secondary:hover { color: #F7F5F0; border-bottom-color: #AAAAAA; }
+  .rpt-disclaimer { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.04em; color: #AAAAAA; line-height: 1.8; border-top: 0.5px solid #C8C4BA; padding-top: 1.25rem; margin-top: 2rem; }
+  .rpt-footer { margin-top: 40px; padding-top: 28px; border-top: 0.5px solid #C8C4BA; display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .rpt-nav-group-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: #AAAAAA; margin-bottom: 12px; }
+  .rpt-nav-links { display: flex; flex-direction: column; gap: 8px; }
+  .rpt-nav-links a { font-family: 'EB Garamond', serif; font-size: 1.0rem; color: #2A2A26; text-decoration: none; border-bottom: 0.5px solid transparent; transition: border-color 0.15s, color 0.15s; display: inline-block; padding-bottom: 1px; }
+  .rpt-nav-links a:hover { color: #1A1A18; border-bottom-color: #888880; }
+  .rpt-nav-back { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #888880; text-decoration: none; display: inline-block; margin-bottom: 48px; }
+  .rpt-nav-back:hover { color: #555550; }
+  @media (max-width: 580px) {
+    .rpt-root { padding: 48px 24px 64px; }
+    .rpt-title { font-size: 2.1rem; }
+    .rpt-footer { grid-template-columns: 1fr; }
+    .rpt-risk-item { grid-template-columns: 1fr; gap: 4px; }
+    .rpt-risk-level { text-align: left; }
+    .rpt-action { padding: 20px; }
+    .rpt-cta-block { padding: 28px 24px; }
+  }
+</style>
+
+<div class="rpt-root">
+
+  <a class="rpt-nav-back" href="https://www.mikeye.com/exit/sample" style="color: #888880; text-decoration: none;">← Sample Reports</a>
+
+  <div class="rpt-confidential">Exit Desk by Mike Ye · Sample Report · Fictional Company</div>
+
+  <div class="rpt-masthead">
+    <h1 class="rpt-title">Apex Landscape Group</h1>
+    <p class="rpt-profile">
+      Industry: Construction &amp; Trades (Commercial Landscape) · Location: Dallas–Fort Worth, TX<br>
+      Revenue: Under $1M · SDE: $200K–$500K · Years operating: 7–15 · Employees: 3–10
+    </p>
+  </div>
+
+  <div class="rpt-section-rule">
+    <span class="rpt-section-number">00</span>
+    <span class="rpt-section-label">Buyer's First Impression</span>
+    <div class="rpt-rule"></div>
+  </div>
+
+  <p class="rpt-body">Apex Landscape Group is a DFW commercial landscape maintenance operator doing under $1M in revenue with 40 recurring monthly contracts, mostly office parks and HOAs, and an owner who describes himself as strategically involved but not running daily field operations. The SDE (seller's discretionary earnings — net profit plus owner compensation plus owner add-backs) range of $200K–$500K on a recurring commercial book with low customer concentration and long tenure is an attractive profile for an SBA-financed acquisition — this is the kind of cash-flow-positive, route-based service business that individual buyers actively look for.</p>
+
+  <p class="rpt-body">The immediate question marks are the operations manager who holds the client relationships and has no retention mechanism, the short-term lease that needs to be addressed before any buyer can get SBA underwriting done, and the cash-basis books that will need meaningful cleanup before a lender touches the file. Worth a call, but the transition risk lives in one person who is not the seller.</p>
+
+  <div class="rpt-section-rule">
+    <span class="rpt-section-number">01</span>
+    <span class="rpt-section-label">How Buyers Will Read the Motivation</span>
+    <div class="rpt-rule"></div>
+  </div>
+
+  <p class="rpt-body">Archetype: Clean Exit. The seller describes this as "selling from strength — timing feels right strategically," which is the textbook Clean Exit framing. The business has 7–15 years of operating history, a capable team handling daily field operations, and an owner who is actively involved but not load-bearing on a crew-by-crew basis. This is consistent with a seller who has built a real operation, sees a favorable market window (consolidation in DFW commercial landscape), and wants to monetize before the next cycle of competitive pressure or personal fatigue.</p>
+
+  <p class="rpt-body">For deal structure, this points toward a standard SBA 7(a) (the primary SBA acquisition loan program) asset purchase with a 30–90 day training period, a seller note (portion of purchase price financed by the seller rather than the bank) in the 5–15% range on full standby (no payments made for a defined period, typically required by SBA lenders) for 24 months, and the seller walking away clean. The SBA compatibility is strong in principle — the question is whether the books and lease can be brought to underwriting-ready condition before marketing.</p>
+
+  <div class="rpt-pullquote">
+    <p>The buyer profile is right. The asset profile is right. The preparation gap is what stands between this seller and a clean transaction at the price the business deserves.</p>
+  </div>
+
+  <div class="rpt-section-rule">
+    <span class="rpt-section-number">02</span>
+    <span class="rpt-section-label">Exit Readiness Signal</span>
+    <div class="rpt-rule"></div>
+  </div>
+
+  <div class="rpt-signal">
+    <div class="rpt-signal-label">Position</div>
+    <p class="rpt-signal-text">Apex Landscape Group has the core asset profile an SBA buyer wants — recurring commercial contracts, low concentration, long customer tenure — but the financial records, lease situation, and operations manager retention must be resolved before any credible sale process can begin.</p>
+  </div>
+
+  <div class="rpt-section-rule">
+    <span class="rpt-section-number">03</span>
+    <span class="rpt-section-label">How a Serious Buyer Would Frame This Business</span>
+    <div class="rpt-rule"></div>
+  </div>
+
+  <p class="rpt-body">Apex Landscape Group is a route-based commercial landscape maintenance and installation operator serving the DFW metroplex, competing in a market the seller describes as consolidating — larger players acquiring smaller ones. That consolidation dynamic matters because it means the competitive environment is getting harder for sub-$1M operators: bigger companies are buying market share, locking in multi-year contracts, and squeezing on equipment and labor costs. Apex competes on reliability and same-day response for irrigation and storm damage — a real operational differentiator, but one that depends on crew availability and institutional knowledge, not on a structural moat. For an individual SBA buyer, this is a transferable category: landscape maintenance is a well-understood operating model, the skill set required is operational management and client service rather than founder-specific technical expertise, and the recurring contract base provides a predictable daily and weekly work schedule a new owner can step into.</p>
+
+  <p class="rpt-body">Apex reports a mixed revenue model with 50–74% recurring (the 40 monthly maintenance contracts), supplemented by one-off installation projects. For SBA underwriting, the recurring maintenance base is the bankable piece — installation revenue will be treated as variable and weighted less heavily in the DSCR (debt service coverage ratio — a lender's measure of whether cash flow covers loan payments) calculation. With an SDE range of $200K–$500K on under $1M revenue, the margins are strong enough to be interesting. Assuming mid-range SDE of $300K–$350K and applying a typical SBA-financed purchase structure (10% buyer equity, 5–10% seller note, 80–85% SBA term loan at current rates), the DSCR should clear the 1.25x threshold comfortably if the SDE holds — the math works at this scale. The critical problem is that Apex operates on cash-basis or minimal accounting. SBA lenders underwrite off 3 years of tax returns and verified profit & loss statements. Cash-basis books with commingled owner expenses, inconsistent seasonal contractor classifications, and undocumented owner add-backs will not survive underwriting without 60–90 days of CPA reconstruction work. The seller knows this is a gap. It is the single largest obstacle to getting this business in front of a qualified buyer. Regarding AI exposure: commercial landscape maintenance is among the least AI-disrupted service categories, and no SBA buyer pricing this deal will discount for technology disruption.</p>
+
+  <p class="rpt-body">The seller describes himself as "actively involved" with a "team that handles daily operations" but "relies on founder for key decisions." This is a common and honest description at this scale — the founder is not on a mower, but he is the person who decides on pricing, handles client escalations, manages the P&L, and provides the strategic judgment the operations manager executes against. The step-away test confirms it: "revenue continues but quality suffers." That answer tells a buyer the business does not collapse without the founder, but it erodes — which is a reasonable and workable transfer profile. The transferable elements are clear: 40 commercial contracts, a 6-person crew plus seasonal contractors, partial documentation, and 7+ years of operating history in a defined geography. What does not transfer cleanly is the operations manager's personal knowledge of every property and every client relationship. The seller names this directly — the operations manager has been with Apex 7 years, knows every client by name, has no equity, and is the key-person risk. If the operations manager leaves before, during, or shortly after the sale, Apex loses its institutional memory and its primary client-facing relationship holder simultaneously. A buyer will require a retention plan — either equity, a stay bonus, an employment agreement with a non-compete, or some combination — before they will proceed past LOI. The seller must address this before marketing, not during negotiations.</p>
+
+  <div class="rpt-section-rule">
+    <span class="rpt-section-number">04</span>
+    <span class="rpt-section-label">Where Buyers Will Push Hardest</span>
+    <div class="rpt-rule"></div>
+  </div>
+
+  <ul class="rpt-ledger">
+    <li>Operations manager retention — this is the first question any serious buyer will ask. The operations manager holds the client relationships, knows every property, has no equity stake, and has no documented retention mechanism. An SBA lender evaluating this deal will flag the concentration of institutional knowledge in a single non-owner employee with no contractual commitment to stay post-close. The buyer will require a signed employment agreement with the operations manager — ideally with a non-compete and a stay bonus funded at or before close — as a condition of proceeding.</li>
+    <li>Financial records and SBA underwriting readiness — cash-basis books with minimal accounting will not survive SBA due diligence. The lender will require 3 years of clean tax returns, a verified trailing-twelve-month P&L with documented owner add-backs, and defensible SDE calculations. Every dollar of owner add-back the seller cannot substantiate with documentation is a dollar the SBA lender will not credit to SDE — which directly reduces the borrowing capacity and therefore the purchase price.</li>
+    <li>Lease situation — the seller acknowledges the short-term lease (under 2 years remaining) is a known issue. SBA 7(a) loans for business acquisitions typically require that any real property lease extend at least through the term of the SBA loan, or that the landlord provide a written commitment to renew. A lease with under 2 years remaining and no renewal option or landlord commitment will block SBA financing. This must be resolved before marketing begins.</li>
+    <li>Referral-only lead generation — Apex has no marketing function. All new business comes from referrals. A buyer will calculate what happens if referral volume declines post-transition — particularly if the founder's personal network is the referral source. The buyer will want to understand whether referrals come through the founder's relationships, the operations manager's relationships, or the company's reputation independently.</li>
+    <li>Seasonal contractor classification — with 6 W-2 employees plus seasonal contractors, the buyer and SBA lender will scrutinize contractor classification carefully. Misclassified 1099 workers in a field labor business create tax liability exposure that can kill a deal. The seller must be prepared to demonstrate that seasonal contractors are legitimately independent and properly classified, or convert them to W-2 before marketing.</li>
+    <li>Contract transferability — the 40 recurring commercial accounts are the core asset. The buyer will need to verify whether these contracts contain assignment clauses that allow transfer to a new owner, or whether each client must separately consent. HOA and office park management contracts sometimes include change-of-control termination provisions. Every contract must be reviewed for assignability before the deal reaches diligence.</li>
+  </ul>
+
+  <div class="rpt-section-rule">
+    <span class="rpt-section-number">05</span>
+    <span class="rpt-section-label">Where the Deal Gets Complicated</span>
+    <div class="rpt-rule"></div>
+  </div>
+
+  <div class="rpt-risk-grid">
+    <div class="rpt-risk-item">
+      <span class="rpt-risk-dimension">Key person dependency</span>
+      <span class="rpt-risk-desc">The seller is not the daily operator on job sites, and the 6-person crew plus operations manager handles field execution. However, the seller drives key decisions, pricing, and strategic direction. More critically, the operations manager — not the seller — is the true key person. The dependency is real but manageable with a defined training period and operations manager retention plan.</span>
+      <span class="rpt-risk-level moderate">Moderate</span>
+    </div>
+    <div class="rpt-risk-item">
+      <span class="rpt-risk-dimension">Customer concentration</span>
+      <span class="rpt-risk-desc">No single customer exceeds 10% of revenue across 40 commercial accounts. This is an excellent profile for SBA underwriting and meaningfully reduces deal risk. The revenue base is diversified across HOAs, office parks, and small retail centers in a large metro — this is exactly what an SBA lender wants to see.</span>
+      <span class="rpt-risk-level low">Low</span>
+    </div>
+    <div class="rpt-risk-item">
+      <span class="rpt-risk-dimension">Documentation depth</span>
+      <span class="rpt-risk-desc">Systems are partially documented and rely on the operations manager's experience. Route schedules, client preferences, irrigation system maps, and seasonal protocols likely live in the operations manager's head or in informal notes. A buyer taking over operations needs these formalized — not in a 200-page manual, but in a written operational playbook that a competent operator could follow from day one.</span>
+      <span class="rpt-risk-level moderate">Moderate</span>
+    </div>
+    <div class="rpt-risk-item">
+      <span class="rpt-risk-dimension">Financial cleanliness</span>
+      <span class="rpt-risk-desc">The seller reports cash-basis or minimal accounting needing significant cleanup. This is the most actionable risk in the entire deal. SBA lenders require verifiable financials, and the cleanup work takes 60–90 days with a CPA who understands SBA underwriting standards. Until this is done, Apex Landscape Group cannot be marketed to the majority of the buyer pool.</span>
+      <span class="rpt-risk-level high">High</span>
+    </div>
+    <div class="rpt-risk-item">
+      <span class="rpt-risk-dimension">SBA financing readiness</span>
+      <span class="rpt-risk-desc">Landscape maintenance is SBA-eligible, the SDE range supports debt service, and the customer profile is strong. Two factors hold the readiness score back: the financial cleanup and the lease. Both are solvable, but both must be solved before a buyer's SBA lender will issue a commitment letter. The lease issue alone can delay a deal by 30–60 days if the landlord is unresponsive.</span>
+      <span class="rpt-risk-level moderate">Moderate</span>
+    </div>
+  </div>
+
+  <p class="rpt-body" style="margin-top: 1.5rem;">Synthesis: Financial cleanliness is the single largest obstacle to a successful sale. Apex Landscape Group has the underlying business quality — recurring revenue, low concentration, long tenure, reasonable founder detachment — that SBA buyers actively seek. But if the books cannot be cleaned to underwriting standard, the realistic buyer pool collapses from SBA-financed individuals (70–80% of sub-$1M buyers) to cash-only buyers, which is a materially smaller market and will reduce both the speed and the price of any transaction. Fixing the financials is not optional — it is the prerequisite to everything else.</p>
+
+  <div class="rpt-section-rule">
+    <span class="rpt-section-number">06</span>
+    <span class="rpt-section-label">Who Will Actually Buy This Business</span>
+    <div class="rpt-rule"></div>
+  </div>
+
+  <p class="rpt-body">The most likely buyer for Apex Landscape Group is an individual operator seeking income replacement — someone with operational or field management experience (landscape, construction, property management, facilities services) who is leaving a W-2 role and wants to acquire a cash-flowing service business in DFW using SBA 7(a) financing. This buyer will plan to work in the business daily, managing crews, handling client relationships, and making the operational decisions currently made by the seller. The SDE range, recurring contract base, and crew infrastructure make Apex a strong fit for this buyer profile.</p>
+
+  <p class="rpt-body">A secondary buyer type is a small local or regional landscape operator looking to add DFW commercial accounts. At this revenue scale, a local strategic buyer would likely approach this as a tuck-in acquisition to absorb Apex's 40 accounts into an existing operation, which means they may value the contract book and equipment but discount or eliminate the standalone business premium. This can result in a lower headline price than a full SBA-financed acquisition by an individual operator.</p>
+
+  <p class="rpt-body">The seller should not expect: search funds (Apex's SDE is below their minimum threshold), private equity platforms, institutional strategic acquirers, or a structured auction process. Buyers at this scale appear one at a time. The seller's acknowledgment that "no inbound calls have been taken seriously" is consistent with the market — sub-$1M businesses in field services rarely receive unsolicited institutional interest. The realistic transaction environment is direct: approximately 20% of sub-$1M listed businesses actually close a sale, time from listing to close typically runs 86–203 days, and final sale prices typically land at 85–86% of the initial asking price. The seller's description of selling from strength is well-framed, but the market reality requires patience and preparation, not speed.</p>
+
+  <div class="rpt-section-rule">
+    <span class="rpt-section-number">07</span>
+    <span class="rpt-section-label">What This Report Cannot See</span>
+    <div class="rpt-rule"></div>
+  </div>
+
+  <div class="rpt-uncertainty">
+    <div class="rpt-uncertainty-title">Gaps in disclosure — reflected as uncertainties</div>
+    <ul class="rpt-ledger">
+      <li>Specific SDE figure within the $200K–$500K range. The width of this range matters enormously — $200K SDE and $500K SDE produce fundamentally different DSCR calculations, buyer affordability, and deal structures. A precise SDE figure, calculated by a CPA familiar with SBA add-back standards, is required before any meaningful pricing or marketing can begin.</li>
+      <li>Tax return quality and specific owner add-backs. The seller reports cash-basis or minimal accounting. This report cannot assess whether the tax returns for the past 3 years will support the stated SDE range, what add-backs are defensible, or what cleanup work is specifically required.</li>
+      <li>Exact lease terms and landlord disposition. The seller identifies the short-term lease as a known issue. The actual remaining term, renewal options (if any), landlord identity, and landlord willingness to extend are not provided. These are binary — if the lease cannot be extended, SBA financing is blocked.</li>
+      <li>Contract terms and assignability. Whether Apex's 40 commercial contracts include assignment clauses, change-of-control provisions, or require client consent for transfer is not known and was not asked.</li>
+      <li>Operations manager's disposition toward a sale. The seller names the operations manager as the key-person risk with 7 years of tenure and no equity. Whether this person is aware the business may sell, is receptive to staying post-close, has competing offers, or would require a specific retention package is unknown.</li>
+      <li>Seasonal contractor classification and compliance. Whether the seasonal contractors are properly classified as 1099 independent contractors or should be W-2 employees was not assessed. Misclassification liability is a common deal-killer in field services.</li>
+      <li>Equipment condition, age, and ownership. Whether Apex owns its trucks, mowers, trailers, and irrigation equipment outright, finances them, or leases them — and the condition and remaining useful life of each — is not provided. Equipment is a significant component of asset value in a landscape business.</li>
+      <li>Post-transaction intent. The seller did not specify whether they intend to exit completely, consult post-close, or remain in the industry. SBA lenders and buyers will need clarity on this.</li>
+    </ul>
+  </div>
+
+  <div class="rpt-section-rule">
+    <span class="rpt-section-number">08</span>
+    <span class="rpt-section-label">What to Fix Before Talking to Anyone</span>
+    <div class="rpt-rule"></div>
+  </div>
+
+  <div class="rpt-action">
+    <div class="rpt-action-header">
+      <span class="rpt-action-number">01</span>
+      <span class="rpt-action-title">Engage a CPA to reconstruct 3 years of financials to SBA underwriting standard</span>
+    </div>
+    <p>Apex operates on cash-basis or minimal accounting, which means the tax returns and P&L statements are almost certainly not in the condition an SBA lender requires. The CPA must reconcile revenue, normalize owner compensation, document every add-back (personal vehicle, cell phone, owner health insurance, one-time expenses, family payroll if any), and produce accrual-adjusted financials with a defensible SDE calculation. Do not engage a broker, list the business, or speak to any buyer until this is done — it is the single highest-priority action item.</p>
+    <span class="rpt-action-timeline">Timeline: 60–90 days</span>
+  </div>
+
+  <div class="rpt-action">
+    <div class="rpt-action-header">
+      <span class="rpt-action-number">02</span>
+      <span class="rpt-action-title">Secure a lease extension or landlord commitment letter</span>
+    </div>
+    <p>The short-term lease with under 2 years remaining will prevent SBA loan approval. Contact the landlord immediately and negotiate either a lease extension to at least 10 years (matching a typical SBA 7(a) loan term) or a written letter confirming willingness to extend at defined terms. If the landlord will not commit, identify and secure an alternative facility before marketing. If the facility is not critical to operations (yard storage vs. client-facing), a buyer may accept relocation, but the SBA lender still needs a confirmed operating location with sufficient lease term.</p>
+    <span class="rpt-action-timeline">Timeline: 2–6 weeks</span>
+  </div>
+
+  <div class="rpt-action">
+    <div class="rpt-action-header">
+      <span class="rpt-action-number">03</span>
+      <span class="rpt-action-title">Put a retention agreement in front of the operations manager</span>
+    </div>
+    <p>The operations manager is the most critical non-owner asset in Apex Landscape Group. Before any buyer conversation, the seller must have a signed employment agreement with the operations manager that includes a defined post-close commitment period (minimum 12 months), a non-compete and non-solicitation clause, and a retention bonus funded at close. The structure of the retention bonus is negotiable (lump sum, deferred payments, phantom equity equivalent), but the existence of a signed agreement is non-negotiable. A buyer who discovers during diligence that the key employee has no contractual commitment will either reduce the offer or walk away.</p>
+    <span class="rpt-action-timeline">Timeline: Draft within 2 weeks, negotiation within 30 days</span>
+  </div>
+
+  <div class="rpt-action">
+    <div class="rpt-action-header">
+      <span class="rpt-action-number">04</span>
+      <span class="rpt-action-title">Document operating procedures into a written transition playbook</span>
+    </div>
+    <p>The systems at Apex are partially documented and live substantially in the operations manager's institutional knowledge. Create a written playbook covering: weekly and seasonal route schedules for all 40 accounts, client contact information and service preferences, irrigation system specifications by property, equipment maintenance schedules, crew management and scheduling protocols, vendor and supplier relationships, and seasonal contractor onboarding procedures. This does not need to be elaborate — a 30–50 page document with checklists and contact lists is sufficient. The goal is to ensure that a new owner, with the operations manager's support during a training period, can manage the business without losing operational continuity.</p>
+    <span class="rpt-action-timeline">Timeline: 30–60 days</span>
+  </div>
+
+  <div class="rpt-action">
+    <div class="rpt-action-header">
+      <span class="rpt-action-number">05</span>
+      <span class="rpt-action-title">Review all 40 commercial contracts for assignment and change-of-control provisions</span>
+    </div>
+    <p>Pull every active maintenance contract and confirm whether each can be assigned to a new owner without client consent, requires written client consent, or contains a change-of-control termination provision. Any contracts that cannot be assigned will need to be renegotiated or replaced with assignable agreements before close. For HOA and property management contracts specifically, the management company (not the property owner) is often the contracting party — verify who has authority to consent to assignment.</p>
+    <span class="rpt-action-timeline">Timeline: 2–4 weeks to review, 60–90 days to renegotiate problem contracts</span>
+  </div>
+
+  <div class="rpt-cta-block">
+    <p>This is what your report looks like — built from your specific inputs, your industry, and your situation.</p>
+    <a class="rpt-cta-btn" href="https://www.mikeye.com/exit/score">Start with the Free Assessment</a>
+    <a class="rpt-cta-secondary" href="https://www.mikeye.com/exit/checkout">Get your Main Street report — $199 →</a>
+  </div>
+
+  <p class="rpt-disclaimer">This report was generated solely from the information provided in a fictional intake submission. No independent verification, financial review, or external research was conducted. This report reflects the M&A judgment framework of Mike Ye across 25 years and $7.4B of acquisitions, divestitures, and portfolio exits across media, healthcare services, retail, and technology. For advisory on your specific process, visit mikeye.com. Not legal, tax, investment, or valuation advice.</p>
+
+  <div class="rpt-footer">
+    <div>
+      <div class="rpt-nav-group-label">Sample Reports</div>
+      <div class="rpt-nav-links">
+        <a href="https://www.mikeye.com/exit/sample">All Sample Reports</a>
+        <a href="https://www.mikeye.com/exit/sample/pinnacle-hvac">Pinnacle HVAC Services</a>
+        <a href="https://www.mikeye.com/exit/sample/meridian-advisory">Meridian Advisory Group</a>
+        <a href="https://www.mikeye.com/exit/sample/fitwire-daily">Fitwire Daily Media</a>
+      </div>
+    </div>
+    <div>
+      <div class="rpt-nav-group-label">Exit Desk</div>
+      <div class="rpt-nav-links">
+        <a href="https://www.mikeye.com/exit/score">Free Assessment</a>
+        <a href="https://www.mikeye.com/exit/checkout">Main Street Edition — $199</a>
+        <a href="https://www.mikeye.com/exit/articles">Articles & Case Studies</a>
+        <a href="https://www.mikeye.com/exit/story">The Founders I Built This For</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- =============================================== -->
+<!-- END Apex Landscape Sample Report Body v1.0    -->
+<!-- =============================================== -->

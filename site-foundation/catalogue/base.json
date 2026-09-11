@@ -1,0 +1,21 @@
+{
+  "version": "2.6.1",
+  "updated": "2026-09-10",
+  "entity": {
+    "id": "https://www.mikeye.com/#person",
+    "name": "Mike Ye",
+    "website": "https://www.mikeye.com/"
+  },
+  "scope": "Published M&A learning resources and working tools",
+  "products": [
+    {
+      "name": "Exit Desk",
+      "url": "https://www.mikeye.com/exit",
+      "status": "available"
+    },
+    {
+      "name": "Acquisition Lens",
+      "status": "in development; not accepting purchases"
+    }
+  ]
+}

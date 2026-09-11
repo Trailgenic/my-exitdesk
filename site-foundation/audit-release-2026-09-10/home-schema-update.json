@@ -1,0 +1,106 @@
+{
+  "id": "69499e77d9c11f22288abc5d",
+  "jsonLdSchema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@id": "https://www.mikeye.com/#webpage",
+        "@type": "WebPage",
+        "about": {
+          "@id": "https://www.mikeye.com/#person"
+        },
+        "dateModified": "2026-09-10",
+        "description": "M&A judgment from the first question to the operating result, with practical deal tools, transaction experience, and Exit Desk.",
+        "hasPart": [
+          {
+            "@id": "https://www.mikeye.com/m-and-a#library"
+          },
+          {
+            "@id": "https://www.mikeye.com/tools-and-models#tools"
+          },
+          {
+            "@id": "https://www.mikeye.com/#featured-tools"
+          }
+        ],
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.mikeye.com/#website"
+        },
+        "name": "Mike Ye | M&A Judgment, Tools & Exit Readiness",
+        "publisher": {
+          "@id": "https://www.mikeye.com/#person"
+        },
+        "url": "https://www.mikeye.com/"
+      },
+      {
+        "@id": "https://www.mikeye.com/#featured-tools",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "item": {
+              "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource",
+              "@type": "LearningResource",
+              "name": "The M&A Deal Workflow: From Mandate to Value",
+              "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist"
+            },
+            "position": 1
+          },
+          {
+            "@type": "ListItem",
+            "item": {
+              "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#resource",
+              "@type": "LearningResource",
+              "name": "Before You Buy: Follow the Work",
+              "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work"
+            },
+            "position": 2
+          },
+          {
+            "@type": "ListItem",
+            "item": {
+              "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#resource",
+              "@type": "LearningResource",
+              "name": "After the Deal: Keep the Business Working",
+              "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working"
+            },
+            "position": 3
+          },
+          {
+            "@type": "ListItem",
+            "item": {
+              "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource",
+              "@type": "LearningResource",
+              "description": "Build a reviewed peer valuation with a reusable Excel template and populated Capital IQ reference comps covering 254 companies across 12 sectors.",
+              "name": "Public Company Comps Workbench",
+              "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench"
+            },
+            "position": 4
+          },
+          {
+            "@type": "ListItem",
+            "item": {
+              "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#resource",
+              "@type": "LearningResource",
+              "name": "Capital Allocation & Deal Affordability Tool",
+              "url": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability"
+            },
+            "position": 5
+          },
+          {
+            "@type": "ListItem",
+            "item": {
+              "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#resource",
+              "@type": "LearningResource",
+              "name": "Acquisition Mandate & Target Screen",
+              "url": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen"
+            },
+            "position": 6
+          }
+        ],
+        "name": "Signature M&A resources and tools",
+        "numberOfItems": 6
+      }
+    ]
+  }
+}

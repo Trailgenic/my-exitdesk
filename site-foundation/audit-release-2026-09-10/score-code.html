@@ -2,6 +2,7 @@
 <!-- MikeYe.com — Exit Score Free Diagnostic       -->
 <!-- BODY EMBED — v3.2 (CTA-first ordering)        -->
 <!-- =============================================== -->
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap');
 .es-root { font-family: 'EB Garamond', Georgia, serif; background: #F7F5F0; color: #1A1A18; max-width: 780px; margin: 0 auto; padding: 72px 40px 80px; box-sizing: border-box; }
@@ -114,22 +115,26 @@
 .es-email-row { flex-direction: column; }
 }
 </style>
+
 <div class="es-root">
+
 <div class="es-masthead">
 <div class="es-label">Exit Desk · Free Assessment</div>
 <h1 class="es-title">How Will a Buyer Value Your Business?</h1>
 <p class="es-subtitle">8 questions. 90 seconds. Buyer-side veteran's lens on what we look for.</p>
-<p class="es-subtitle" style="font-style: normal; font-size: 0.95rem; color: #888880; margin-top: 14px;">Built on 25 years and 75+ transactions of M&A judgment — including the Rolling Stone and Dick Clark's New Year's Rockin' Eve acquisitions.</p>
+<p class="es-subtitle" style="font-style: normal; font-size: 0.95rem; color: #888880; margin-top: 14px;">Built on 25 years and 75+ transactions of M&amp;A judgment — including the Rolling Stone and Dick Clark's New Year's Rockin' Eve acquisitions.</p>
 <div class="es-meta">
 <div class="es-meta-item">$0 to take<span> Buyer-Lens Audit™ from $199</span></div>
 <div class="es-meta-item">Email required <span>No</span></div>
 </div>
 </div>
+
 <div id="es-form">
 <div class="es-progress-wrap">
 <div class="es-progress-label">Question <span id="es-q-current">1</span> of 8</div>
 <div class="es-progress-bar"><div class="es-progress-fill" id="es-progress" style="width:12.5%"></div></div>
 </div>
+
 <div class="es-question active" id="es-q1">
 <div class="es-q-number">Question 1 of 8 · Revenue Quality</div>
 <div class="es-q-text">What is your approximate annual revenue?</div>
@@ -140,8 +145,9 @@
 <div class="es-option" data-q="1" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">$7M – $15M</span></div>
 <div class="es-option" data-q="1" data-v="e" onclick="selectOption(this)"><span class="es-option-marker">E</span><span class="es-option-text">$15M+</span></div>
 </div>
-<div class="es-nav"><span></span><button class="es-btn es-btn-primary" disabled="" id="es-next-1" onclick="nextQ(1)">Next →</button></div>
+<div class="es-nav"><span></span><button class="es-btn es-btn-primary" onclick="nextQ(1)" id="es-next-1" disabled>Next →</button></div>
 </div>
+
 <div class="es-question" id="es-q2">
 <div class="es-q-number">Question 2 of 8 · Revenue Quality</div>
 <div class="es-q-text">How does most of your revenue come in?</div>
@@ -151,8 +157,9 @@
 <div class="es-option" data-q="2" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Project-based or one-time engagements</span></div>
 <div class="es-option" data-q="2" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">Mixed model</span></div>
 </div>
-<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(2)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-2" onclick="nextQ(2)">Next →</button></div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(2)">← Back</button><button class="es-btn es-btn-primary" onclick="nextQ(2)" id="es-next-2" disabled>Next →</button></div>
 </div>
+
 <div class="es-question" id="es-q3">
 <div class="es-q-number">Question 3 of 8 · Founder Dependence</div>
 <div class="es-q-text">If you stepped away completely for 6 months, what happens to revenue?</div>
@@ -162,8 +169,9 @@
 <div class="es-option" data-q="3" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Declines significantly — key relationships or decisions depend on me</span></div>
 <div class="es-option" data-q="3" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">Effectively stops — I am the business</span></div>
 </div>
-<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(3)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-3" onclick="nextQ(3)">Next →</button></div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(3)">← Back</button><button class="es-btn es-btn-primary" onclick="nextQ(3)" id="es-next-3" disabled>Next →</button></div>
 </div>
+
 <div class="es-question" id="es-q4">
 <div class="es-q-number">Question 4 of 8 · Revenue Quality</div>
 <div class="es-q-text">How concentrated is your customer base?</div>
@@ -173,8 +181,9 @@
 <div class="es-option" data-q="4" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Top customer exceeds 25% of revenue</span></div>
 <div class="es-option" data-q="4" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">I'm not sure</span></div>
 </div>
-<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(4)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-4" onclick="nextQ(4)">Next →</button></div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(4)">← Back</button><button class="es-btn es-btn-primary" onclick="nextQ(4)" id="es-next-4" disabled>Next →</button></div>
 </div>
+
 <div class="es-question" id="es-q5">
 <div class="es-q-number">Question 5 of 8 · Founder Dependence</div>
 <div class="es-q-text">How would you describe your management team?</div>
@@ -184,8 +193,9 @@
 <div class="es-option" data-q="5" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">I have staff but no real management layer</span></div>
 <div class="es-option" data-q="5" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">I am the management team</span></div>
 </div>
-<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(5)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-5" onclick="nextQ(5)">Next →</button></div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(5)">← Back</button><button class="es-btn es-btn-primary" onclick="nextQ(5)" id="es-next-5" disabled>Next →</button></div>
 </div>
+
 <div class="es-question" id="es-q6">
 <div class="es-q-number">Question 6 of 8 · Financial Health</div>
 <div class="es-q-text">What is happening with your margins?</div>
@@ -195,8 +205,9 @@
 <div class="es-option" data-q="6" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Compressing — costs rising faster than revenue</span></div>
 <div class="es-option" data-q="6" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">I don't track this closely</span></div>
 </div>
-<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(6)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-6" onclick="nextQ(6)">Next →</button></div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(6)">← Back</button><button class="es-btn es-btn-primary" onclick="nextQ(6)" id="es-next-6" disabled>Next →</button></div>
 </div>
+
 <div class="es-question" id="es-q7">
 <div class="es-q-number">Question 7 of 8 · Competitive Position</div>
 <div class="es-q-text">What makes this business hard to replicate?</div>
@@ -206,8 +217,9 @@
 <div class="es-option" data-q="7" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Specialized team that would be hard to rebuild</span></div>
 <div class="es-option" data-q="7" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">Nothing meaningful — this is a competitive, replicable business</span></div>
 </div>
-<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(7)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-7" onclick="nextQ(7)">Next →</button></div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(7)">← Back</button><button class="es-btn es-btn-primary" onclick="nextQ(7)" id="es-next-7" disabled>Next →</button></div>
 </div>
+
 <div class="es-question" id="es-q8">
 <div class="es-q-number">Question 8 of 8 · Timing Alignment</div>
 <div class="es-q-text">What's driving your interest in an exit?</div>
@@ -217,16 +229,19 @@
 <div class="es-option" data-q="8" data-v="c" onclick="selectOption(this)"><span class="es-option-marker">C</span><span class="es-option-text">Facing pressure — health, partnership issues, or market conditions</span></div>
 <div class="es-option" data-q="8" data-v="d" onclick="selectOption(this)"><span class="es-option-marker">D</span><span class="es-option-text">Just exploring — want to understand my options</span></div>
 </div>
-<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(8)">← Back</button><button class="es-btn es-btn-primary" disabled="" id="es-next-8" onclick="showResults()">See My Score →</button></div>
+<div class="es-nav"><button class="es-btn es-btn-ghost" onclick="prevQ(8)">← Back</button><button class="es-btn es-btn-primary" onclick="showResults()" id="es-next-8" disabled>See My Score →</button></div>
 </div>
 </div>
-<div class="es-results" id="es-results">
+
+<div id="es-results" class="es-results">
+
 <div class="es-score-block">
 <div class="es-score-number" id="es-score-display">--</div>
 <div class="es-score-denom">/ 100</div>
 <div class="es-score-band" id="es-score-band">--</div>
 <div class="es-score-band-label" id="es-score-band-label">--</div>
 </div>
+
 <div class="es-radar-wrap">
 <div class="es-radar-title">Score by Dimension</div>
 <div class="es-dimension-bars">
@@ -237,39 +252,48 @@
 <div class="es-dim-row"><div class="es-dim-label">Timing Alignment</div><div class="es-dim-bar-bg"><div class="es-dim-bar-fill" id="bar-ta" style="width:0%"></div></div><div class="es-dim-score" id="score-ta">--</div></div>
 </div>
 </div>
+
 <div class="es-section-rule"><span class="es-section-label">Top Findings</span><div class="es-rule"></div></div>
 <div id="es-findings"></div>
+
 <div class="es-section-rule"><span class="es-section-label">Full Breakdown</span><div class="es-rule"></div></div>
 <div id="es-dimension-breakdown"></div>
+
 <div class="es-section-rule"><span class="es-section-label">How Buyers in Your Range Frame This</span><div class="es-rule"></div></div>
 <div id="es-industry-framing"></div>
+
 <div id="es-path-high" style="display:none">
+
 <div class="es-cta-block">
-<div class="es-cta-credential">Built from 25 years and <span>75+ transactions</span> of M&A judgment — including the <span>Rolling Stone</span> and <span>Dick Clark's New Year's Rockin' Eve</span> acquisitions.</div>
+<div class="es-cta-credential">Built from 25 years and <span>75+ transactions</span> of M&amp;A judgment — including the <span>Rolling Stone</span> and <span>Dick Clark's New Year's Rockin' Eve</span> acquisitions.</div>
 <div class="es-cta-label" id="es-cta-label">Buyer-Lens Audit™</div>
 <div class="es-cta-headline" id="es-cta-headline">See what a buyer would see — from a buyer's seat.</div>
 <div class="es-cta-sub" id="es-cta-sub">Your full Buyer-Lens Audit™, grounded in the same framework Mike has applied across 75+ transactions and $500K to $2B+ deals. Delivered within 24 hours as a branded PDF and a browser-viewable version.</div>
-<a class="es-cta-btn" href="/exit/checkout" id="es-checkout-link">Get Your Buyer-Lens Audit™ — <span id="es-cta-price">$499</span> →</a>
+<a href="/exit/checkout" id="es-checkout-link" class="es-cta-btn">Get Your Buyer-Lens Audit™ — <span id="es-cta-price">$499</span> →</a>
 <div class="es-cta-guarantee">
 <span class="es-cta-guarantee-label">Satisfaction Guarantee</span>
-If you believe the analysis doesn't reflect the information you provided, we'll regenerate the report at no cost. This is not a valuation or a professional opinion — it is structured M&A judgment applied to your inputs.</div>
+If you believe the analysis doesn't reflect the information you provided, we'll regenerate the report at no cost. This is not a valuation or a professional opinion — it is structured M&amp;A judgment applied to your inputs.</div>
 </div>
+
 <div class="es-email-block">
 <div class="es-email-label">Save Your Score</div>
 <div class="es-email-headline">Not ready? Email yourself the analysis to think on.</div>
 <div class="es-email-sub">We'll send your score, your biggest gap, and an honest read on what that score means from a buyer's perspective — so you can think on it before deciding what to do next.</div>
 <div class="es-email-row">
-<input class="es-email-input" id="es-email-high" placeholder="your@email.com" type="email"/>
+<input type="email" class="es-email-input" id="es-email-high" placeholder="your@email.com" />
 <button class="es-email-btn" onclick="saveScore('high')">Email Me My Results →</button>
 </div>
 <div class="es-email-confirm" id="es-email-confirm-high">Score saved. Check your inbox.</div>
 </div>
-<div class="es-delta-block">
+  
+  <div class="es-delta-block">
 <div class="es-delta-label" id="es-delta-label">What the Buyer-Lens Audit™ Adds</div>
 <p class="es-delta-headline" id="es-delta-headline">The assessment above tells you where you stand. The full audit tells you how a serious buyer would act on that information.</p>
 <div id="es-delta-body-wrap"></div>
 </div>
+
 </div>
+
 <div id="es-path-low" style="display:none">
 <div class="es-section-rule"><span class="es-section-label">What To Do Next</span><div class="es-rule"></div></div>
 <p class="es-trust-headline">Your business isn't ready to sell yet — and that's actually good news.</p>
@@ -280,22 +304,26 @@ If you believe the analysis doesn't reflect the information you provided, we'll 
 <div class="es-email-label">Free 30-Day Action Plan</div>
 <div class="es-email-sub">Want a free 30-day action plan for improving your exit readiness? We'll send it in three parts.</div>
 <div class="es-email-row">
-<input class="es-email-input" id="es-email-low" placeholder="your@email.com" type="email"/>
+<input type="email" class="es-email-input" id="es-email-low" placeholder="your@email.com" />
 <button class="es-email-btn" onclick="saveScore('low')">Send My Plan →</button>
 </div>
 <div class="es-email-confirm" id="es-email-confirm-low">You're in. First part arrives shortly.</div>
 </div>
 <p class="es-soft-cta">When you're ready to look at this again, the assessment will be here. — <a href="/exit/score">Retake the assessment →</a></p>
 </div>
+
 <div class="es-footer">
 <a href="/exit">Exit Desk Overview</a>
 <a href="/exit/sample">Sample Reports</a>
 <a href="/exit/articles">Articles & Case Studies</a>
 <a href="/">Home</a>
 </div>
+
 </div>
 </div>
+
 <script src="https://my-exitdesk.vercel.app/exit-score-content.js"></script>
+
 <script>
 (function() {
 
@@ -426,7 +454,8 @@ params.set('q5', answers[5] || '');
 params.set('q6', answers[6] || '');
 params.set('q7', answers[7] || '');
 params.set('q8', answers[8] || '');
-return '/exit/checkout?' + params.toString();
+var url = '/exit/checkout?' + params.toString();
+return window.ExitDeskCampaign ? window.ExitDeskCampaign.decorate(url) : url;
 }
 
 function applyTierToCTA(q1) {
@@ -468,6 +497,7 @@ deltaBodyWrap.innerHTML = '<p class="es-delta-body">The free diagnostic produces
 }
 
 window.selectOption = function(el) {
+if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('score_start');
 var q = el.getAttribute('data-q');
 var v = el.getAttribute('data-v');
 document.querySelectorAll('[data-q="' + q + '"]').forEach(function(o) { o.classList.remove('selected'); });
@@ -497,6 +527,7 @@ window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
 window.showResults = function() {
+if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('score_start');
 if (!answers[8]) return;
 var dims = calcDimensions();
 var total = calcTotal(dims);
@@ -569,6 +600,7 @@ actionsHtml += '<a href="' + a.article + '">Read: ' + a.label + ' →</a></div>'
 document.getElementById('es-trust-actions').innerHTML = actionsHtml;
 }
 
+if (window.ExitDeskCampaign) window.ExitDeskCampaign.track('score_complete');
 window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
@@ -594,12 +626,16 @@ headers: { 'Content-Type': 'application/json' },
 body: JSON.stringify({ email: email, score: total, weakestDimension: weakest, scoreBand: band, exitPath: path })
 })
 .then(function(r) { if (!r.ok) { throw new Error('subscribe failed'); } return r.json(); })
-.then(function() { confirmEl.style.display = 'block'; emailEl.disabled = true; })
+.then(function() { confirmEl.style.display = 'block'; emailEl.disabled = true; if (window.ExitDeskCampaign) window.ExitDeskCampaign.track(path === 'low' ? 'plan_signup' : 'score_save'); })
 .catch(function() { confirmEl.style.display = 'block'; confirmEl.textContent = 'Something went wrong — your results weren\'t sent. Please try again.'; });
 };
 
 })();
 </script>
+
 <!-- =============================================== -->
 <!-- END Exit Score Embed v3.2                      -->
 <!-- =============================================== -->
+
+<!-- Stalled Exit v0: attribution only; existing diagnostic and pricing remain authoritative. -->
+<script src="https://my-exitdesk.vercel.app/exit-campaign.js"></script>

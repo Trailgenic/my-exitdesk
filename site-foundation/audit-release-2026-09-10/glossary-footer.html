@@ -1,0 +1,173 @@
+<style>
+  .gloss-bottom-wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 56px 40px 64px;
+    box-sizing: border-box;
+  }
+
+  .gloss-author {
+    padding-top: 48px;
+    border-top: 0.5px solid #C8C4BA;
+    display: grid;
+    grid-template-columns: 1fr 148px;
+    gap: 40px;
+    align-items: start;
+  }
+  .gloss-author__text {
+    min-width: 0;
+  }
+  .gloss-author__label {
+    font-family: 'DM Mono', 'Courier New', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    margin: 0 0 16px 0;
+  }
+  .gloss-author__name {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    color: #1A1A18;
+    font-weight: 400;
+    margin: 0 0 6px 0;
+  }
+  .gloss-author__role {
+    font-family: 'DM Mono', 'Courier New', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888880;
+    margin: 0 0 24px 0;
+  }
+  .gloss-author__bio {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #2A2A26;
+    margin: 0 0 20px 0;
+  }
+  .gloss-author__bio strong {
+    font-weight: 500;
+    color: #1A1A18;
+  }
+  .gloss-author__disclaimer {
+    font-family: 'DM Mono', 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #888880;
+    margin: 0;
+  }
+  .gloss-author__photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(100%) contrast(1.05);
+    object-fit: cover;
+  }
+
+  .gloss-nav {
+    margin-top: 56px;
+    padding-top: 28px;
+    border-top: 0.5px solid #C8C4BA;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+  }
+  .gloss-nav__group-label {
+    font-family: 'DM Mono', 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin: 0 0 12px 0;
+  }
+  .gloss-nav__links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .gloss-nav__links a {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1rem;
+    color: #2A2A26;
+    text-decoration: none;
+    border-bottom: 0.5px solid transparent;
+    transition: border-color 0.15s, color 0.15s;
+    display: inline-block;
+    padding-bottom: 1px;
+    width: fit-content;
+  }
+  .gloss-nav__links a:hover {
+    color: #1A1A18;
+    border-bottom-color: #888880;
+  }
+  .gloss-nav__featured {
+    font-family: 'DM Mono', 'Courier New', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #888880;
+    line-height: 1.5;
+    margin-top: 4px;
+  }
+
+  @media (max-width: 580px) {
+    .gloss-bottom-wrap {
+      padding: 40px 24px 48px;
+    }
+    .gloss-author {
+      padding-top: 32px;
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    .gloss-author__photo {
+      max-width: 148px;
+    }
+    .gloss-nav {
+      margin-top: 40px;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+</style>
+<div class="gloss-bottom-wrap">
+<div class="gloss-author">
+<div class="gloss-author__text">
+<div class="gloss-author__label">Written By</div>
+<h3 class="gloss-author__name">Mike Ye</h3>
+<div class="gloss-author__role">Exit Desk · Mikeye.com</div>
+<p class="gloss-author__bio">Mike Ye brings 25 years of M&amp;A, corporate development, and strategic finance experience.</p>
+<div class="gloss-author__disclaimer">Not Legal, Tax, Investment, or Valuation Advice.</div>
+</div>
+<div class="gloss-author__photo-wrap">
+<img alt="Mike Ye" class="gloss-author__photo" src="https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/69f3b1e478b59e8cddef4d9f_file_00000000d39471f5bc43038204b0778d.png"/>
+</div>
+</div>
+<div class="gloss-nav">
+<div class="gloss-nav__group">
+<div class="gloss-nav__group-label">Glossary</div>
+<div class="gloss-nav__links">
+<a href="/glossary">All Terms</a>
+</div>
+</div>
+<div class="gloss-nav__group">
+<div class="gloss-nav__group-label">Exit Desk</div>
+<div class="gloss-nav__links">
+<a href="/exit/articles">Articles</a>
+<a href="/exit/articles/long-beach-surgical-case-study">Long Beach Surgical Case Study</a>
+<span class="gloss-nav__featured">Featured</span>
+</div>
+</div>
+<div class="gloss-nav__group">
+<div class="gloss-nav__group-label">Mike Ye</div>
+<div class="gloss-nav__links">
+<a href="/">Home</a>
+<a href="/about">About</a>
+<a href="/exit/story">Why I Built Exit Desk</a>
+</div>
+</div>
+</div>
+<p><a href="/m-and-a#topics">Explore M&amp;A topics</a> · <a href="/tools-and-models">Working tools and models</a></p></div>

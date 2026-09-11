@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "updated": "2026-09-10",
   "heading": "Follow the transaction path",
   "pillarHeading": "Explore the work of M&A",
@@ -21,8 +21,8 @@
       "evidence": "Thesis conditions, ranked target screen, pass rationale, ownership map, control path, and initial downside test.",
       "judgment": "Underwrite rather than admire. Strategic appeal does not establish transactability.",
       "gates": "Gates 1–2 · Thesis and target approved",
-      "resource": "Acquisition Mandate & Target Screen",
-      "url": "/ma-resources/acquisition-mandate-target-screen"
+      "resource": "Acquisition Target Pipeline & Deal Funnel",
+      "url": "/ma-resources/acquisition-target-pipeline-deal-funnel"
     },
     {
       "id": "first-look-underwriting",
@@ -32,7 +32,11 @@
       "judgment": "Replicate the financials. Keep buyer-created synergy separate from standalone value.",
       "gates": "Gates 3–4 · Access and economics approved",
       "resource": "Valuation models and working tools",
-      "url": "/tools-and-models"
+      "url": "/tools-and-models",
+      "supportingResources": [
+        "public-company-comps-workbench",
+        "capital-allocation-deal-affordability"
+      ]
     },
     {
       "id": "loi-diligence",
@@ -42,7 +46,10 @@
       "judgment": "Unknowns are findings. Give each material issue a consequence: Investigate, Price, Protect, or Walk.",
       "gates": "Gates 5–6 · Exclusivity approved and diligence launched",
       "resource": "LOI Economics & Risk Allocator",
-      "url": "/ma-resources/loi-economics-risk-allocator"
+      "url": "/ma-resources/loi-economics-risk-allocator",
+      "supportingResources": [
+        "workflow-diligence"
+      ]
     },
     {
       "id": "re-underwrite-sign",
@@ -51,8 +58,8 @@
       "evidence": "Revised valuation and synergy case, combined downside, final economics, protections, closing conditions, and integration owners.",
       "judgment": "Re-establish the price ceiling before signing. Prior spending does not justify the next commitment.",
       "gates": "Gates 7–8 · Re-underwriting and signing approved",
-      "resource": "Synergy Underwriting & Value Bridge",
-      "url": "/ma-resources/synergy-underwriting-value-bridge"
+      "resource": "M&A Investment Committee Memo",
+      "url": "/ma-resources/ma-investment-committee-memo"
     },
     {
       "id": "close-day-one",
@@ -62,7 +69,10 @@
       "judgment": "Protect revenue while integrating cost. Do not confuse signing with operating readiness.",
       "gates": "Gates 9–10 · Closing approved and Day 1 stable",
       "resource": "After the Deal: Keep the Business Working",
-      "url": "/ma-resources/after-the-deal-keep-the-business-working"
+      "url": "/ma-resources/after-the-deal-keep-the-business-working",
+      "supportingResources": [
+        "carve-out-perimeter-tsa-planner"
+      ]
     },
     {
       "id": "value-delivery-review",
@@ -72,7 +82,11 @@
       "judgment": "Compare results with the original thesis. A synergy belongs in the results only when the operating work delivers it.",
       "gates": "Gates 11–12 · Value delivery confirmed and program closed",
       "resource": "Synergy Underwriting & Value Bridge",
-      "url": "/ma-resources/synergy-underwriting-value-bridge"
+      "url": "/ma-resources/synergy-underwriting-value-bridge",
+      "supportingResources": [
+        "integration-continuity",
+        "deal-workflow"
+      ]
     }
   ]
 }
