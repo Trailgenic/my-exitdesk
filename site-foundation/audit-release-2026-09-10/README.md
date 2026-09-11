@@ -17,7 +17,11 @@ Approved implementation of the comprehensive site audit. Exit Desk valuation-upl
 
 - Worker smoke suite: 93 passed, zero failed.
 - All 16 download targets fetched successfully; workbook ZIP integrity, sheet names, byte sizes and SHA-256 hashes recorded in catalogue/downloads.json.
-- Browser review of staged Home and Tools: expected content, 16 downloads, no horizontal overflow.
+- Browser review of live Home, Library and Tools: expected content, 22 catalogue entries, ten topic links and 16 downloads. A Library placeholder block caught during live review was removed and rechecked.
+- Live HTTP and JSON-LD sweep: 61 expected route statuses, no invalid JSON blocks or placeholder text. Includes ten topics, six podcast episodes, 22 canonical resources and six suppressed shells.
+- Both GitHub-triggered deployments completed successfully; public Vercel catalogue has 22 resources and serves the corrected product copy.
+- Exit Desk landing-page uplift statements match their pre-release wording.
+- Supporting podcast, advisor, partner and article hubs link to the Library and downloads.
 
 ## Deferred platform settings
 

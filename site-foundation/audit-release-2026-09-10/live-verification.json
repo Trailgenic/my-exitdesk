@@ -1,0 +1,847 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "M&A judgment, from the first question to the operating result."
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com"
+    ],
+    "words": 553
+  },
+  {
+    "path": "/m-and-a",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Find the tool for your next M&A decision."
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/m-and-a"
+    ],
+    "words": 1461
+  },
+  {
+    "path": "/tools-and-models",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Put the analysis to work."
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/tools-and-models"
+    ],
+    "words": 703
+  },
+  {
+    "path": "/intelligence",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Decision frameworks"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/intelligence"
+    ],
+    "words": 480
+  },
+  {
+    "path": "/exit",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "What Your Business Is Worth Depends On Who's Reading the Numbers."
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit"
+    ],
+    "words": 1044
+  },
+  {
+    "path": "/podcast",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "The Mike Ye Briefing"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/podcast"
+    ],
+    "words": 797
+  },
+  {
+    "path": "/glossary",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Exit Desk Glossary"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/glossary"
+    ],
+    "words": 1504
+  },
+  {
+    "path": "/exit/partners",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Partner With the Resource Your Clients Need 1\u20135 Years Before They Sell."
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/partners"
+    ],
+    "words": 910
+  },
+  {
+    "path": "/exit/articles",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "What Buyers Actually See"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/articles"
+    ],
+    "words": 808
+  },
+  {
+    "path": "/exit-readiness-for-financial-advisors",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Connect the Business-Sale Assumption to the Client\u2019s Life Plan"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit-readiness-for-financial-advisors"
+    ],
+    "words": 429
+  },
+  {
+    "path": "/exit/story",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Why I Built Exit Desk"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/story"
+    ],
+    "words": 1602
+  },
+  {
+    "path": "/exit/sample/apex-landscape",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Apex Landscape Group"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/sample/apex-landscape"
+    ],
+    "words": 3238
+  },
+  {
+    "path": "/exit/sample",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "See What the Report Actually Looks Like"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/sample"
+    ],
+    "words": 1199
+  },
+  {
+    "path": "/intelligence/scarcity-vs-growth",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Scarcity vs. Growth"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/intelligence/scarcity-vs-growth"
+    ],
+    "words": 843
+  },
+  {
+    "path": "/intelligence/signal-vs-narrative",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Signal vs. Narrative"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/intelligence/signal-vs-narrative"
+    ],
+    "words": 565
+  },
+  {
+    "path": "/intelligence/timing-asymmetry",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Timing Asymmetry"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/intelligence/timing-asymmetry"
+    ],
+    "words": 597
+  },
+  {
+    "path": "/intelligence/dependency-vs-leverage",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Dependency vs. Leverage"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/intelligence/dependency-vs-leverage"
+    ],
+    "words": 592
+  },
+  {
+    "path": "/intelligence/judgment-as-a-service",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Judgment-as-a-Service"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/intelligence/judgment-as-a-service"
+    ],
+    "words": 252
+  },
+  {
+    "path": "/ma-topics/strategic-finance",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Strategic finance"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/strategic-finance"
+    ],
+    "words": 324
+  },
+  {
+    "path": "/ma-topics/divestitures",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Divestitures & carve-outs"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/divestitures"
+    ],
+    "words": 292
+  },
+  {
+    "path": "/ma-topics/integration",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Integration"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/integration"
+    ],
+    "words": 319
+  },
+  {
+    "path": "/ma-topics/synergies",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Synergies"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/synergies"
+    ],
+    "words": 313
+  },
+  {
+    "path": "/ma-topics/due-diligence",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Due diligence"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/due-diligence"
+    ],
+    "words": 301
+  },
+  {
+    "path": "/ma-topics/deal-structure",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Deal structure & negotiation"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/deal-structure"
+    ],
+    "words": 332
+  },
+  {
+    "path": "/ma-topics/industry-comps",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Comparable-company analysis"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/industry-comps"
+    ],
+    "words": 293
+  },
+  {
+    "path": "/ma-topics/financial-modeling",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Financial modeling"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/financial-modeling"
+    ],
+    "words": 329
+  },
+  {
+    "path": "/ma-topics/valuation",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Valuation"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/valuation"
+    ],
+    "words": 318
+  },
+  {
+    "path": "/ma-topics/corporate-development",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Corporate development"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-topics/corporate-development"
+    ],
+    "words": 313
+  },
+  {
+    "path": "/podcast/the-window-opens-before-it-is-obvious",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "The Window Opens Before It Is Obvious",
+      "The Mike Ye Briefing"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/podcast/the-window-opens-before-it-is-obvious"
+    ],
+    "words": 4297
+  },
+  {
+    "path": "/podcast/dependency-often-looks-like-growth",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Dependency Often Looks Like Growth",
+      "The Mike Ye Briefing"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/podcast/dependency-often-looks-like-growth"
+    ],
+    "words": 4191
+  },
+  {
+    "path": "/podcast/the-side-they-never-sat-at",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "The Side They Never Sat At",
+      "The Mike Ye Briefing"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/podcast/the-side-they-never-sat-at"
+    ],
+    "words": 3950
+  },
+  {
+    "path": "/podcast/judgment-is-the-product",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Judgment Is the Product",
+      "The Mike Ye Briefing"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/podcast/judgment-is-the-product"
+    ],
+    "words": 4055
+  },
+  {
+    "path": "/podcast/the-question-beneath-the-question",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "The Question Beneath the Question",
+      "The Mike Ye Briefing"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/podcast/the-question-beneath-the-question"
+    ],
+    "words": 3492
+  },
+  {
+    "path": "/podcast/before-consequence-arrives",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Before Consequence Arrives"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/podcast/before-consequence-arrives"
+    ],
+    "words": 2339
+  },
+  {
+    "path": "/ma-resources/acquisition-target-pipeline-deal-funnel",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Acquisition Target Pipeline & Deal Funnel"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel"
+    ],
+    "words": 1044
+  },
+  {
+    "path": "/ma-resources/ma-investment-committee-memo",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "M&A Investment Committee Memo: From Analysis to Approval"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/ma-investment-committee-memo"
+    ],
+    "words": 1381
+  },
+  {
+    "path": "/ma-resources/public-company-comps-workbench",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Public Company Comps Workbench"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/public-company-comps-workbench"
+    ],
+    "words": 826
+  },
+  {
+    "path": "/ma-resources/capital-allocation-deal-affordability",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Capital Allocation & Deal Affordability Tool"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability"
+    ],
+    "words": 2107
+  },
+  {
+    "path": "/ma-resources/carve-out-perimeter-tsa-planner",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Carve-Out Perimeter & TSA Planner"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner"
+    ],
+    "words": 1895
+  },
+  {
+    "path": "/ma-resources/acquisition-mandate-target-screen",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Acquisition Mandate & Target Screen"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen"
+    ],
+    "words": 2025
+  },
+  {
+    "path": "/ma-resources/loi-economics-risk-allocator",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "LOI Economics & Risk Allocator"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator"
+    ],
+    "words": 1973
+  },
+  {
+    "path": "/ma-resources/synergy-underwriting-value-bridge",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Synergy Underwriting & Value Bridge"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge"
+    ],
+    "words": 1363
+  },
+  {
+    "path": "/ma-resources/ma-deal-workflow-checklist",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "The M&A Deal Workflow: From Mandate to Value"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist"
+    ],
+    "words": 893
+  },
+  {
+    "path": "/ma-resources/nvidia-ai-infrastructure-valuation-model",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "NVIDIA: valuing an AI infrastructure business"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model"
+    ],
+    "words": 786
+  },
+  {
+    "path": "/ma-resources/surgery-partners-healthcare-valuation-model",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Surgery Partners: valuing a healthcare-services business"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model"
+    ],
+    "words": 730
+  },
+  {
+    "path": "/ma-resources/ziff-davis-media-valuation-model",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Ziff Davis: valuing a digital media business"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model"
+    ],
+    "words": 721
+  },
+  {
+    "path": "/ma-resources/salesforce-software-valuation-model",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Salesforce: valuing a software business"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model"
+    ],
+    "words": 726
+  },
+  {
+    "path": "/ma-resources/gap-retail-valuation-model",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Gap: valuing a retail business"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/gap-retail-valuation-model"
+    ],
+    "words": 741
+  },
+  {
+    "path": "/ma-resources/after-the-deal-keep-the-business-working",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "After the Deal: Keep the Business Working"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working"
+    ],
+    "words": 1465
+  },
+  {
+    "path": "/ma-resources/before-you-buy-follow-the-work",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Before You Buy: Follow the Work"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work"
+    ],
+    "words": 1435
+  },
+  {
+    "path": "/exit/articles/exit-readiness-checklist",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Exit Readiness Checklist for Small Business Owners"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/articles/exit-readiness-checklist"
+    ],
+    "words": 943
+  },
+  {
+    "path": "/exit/articles/long-beach-surgical-case-study",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Long Beach Surgical Center: How a Controlling Stake, a Rebrand, and the Right Physicians Tripled the Value"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/articles/long-beach-surgical-case-study"
+    ],
+    "words": 2053
+  },
+  {
+    "path": "/exit/articles/sourcing-journal-case-study",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "Sourcing Journal: What the Buyer Was Looking For That the Founder Already Knew"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/articles/sourcing-journal-case-study"
+    ],
+    "words": 1824
+  },
+  {
+    "path": "/exit/articles/buzzangle-case-study",
+    "status": 200,
+    "expected": 200,
+    "h1": [
+      "BuzzAngle Music: The Chess Move That Changed Music Media"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/articles/buzzangle-case-study"
+    ],
+    "words": 1369
+  },
+  {
+    "path": "/exit/valuation",
+    "status": 200,
+    "expected": 200,
+    "h1": [],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [
+      "https://www.mikeye.com/exit/valuation"
+    ],
+    "words": 650
+  },
+  {
+    "path": "/ma-resources/exit-readiness-checklist",
+    "status": 404,
+    "expected": 404,
+    "h1": [
+      "Page not found"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [],
+    "words": 21
+  },
+  {
+    "path": "/ma-resources/long-beach-surgical-case-study",
+    "status": 404,
+    "expected": 404,
+    "h1": [
+      "Page not found"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [],
+    "words": 21
+  },
+  {
+    "path": "/ma-resources/sourcing-journal-case-study",
+    "status": 404,
+    "expected": 404,
+    "h1": [
+      "Page not found"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [],
+    "words": 21
+  },
+  {
+    "path": "/ma-resources/buzzangle-case-study",
+    "status": 404,
+    "expected": 404,
+    "h1": [
+      "Page not found"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [],
+    "words": 21
+  },
+  {
+    "path": "/ma-resources/decision-frames",
+    "status": 404,
+    "expected": 404,
+    "h1": [
+      "Page not found"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [],
+    "words": 21
+  },
+  {
+    "path": "/ma-resources/exit-valuation",
+    "status": 404,
+    "expected": 404,
+    "h1": [
+      "Page not found"
+    ],
+    "schemaErrors": [],
+    "placeholder": false,
+    "canonical": [],
+    "words": 21
+  }
+]
