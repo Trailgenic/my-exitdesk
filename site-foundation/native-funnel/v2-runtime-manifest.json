@@ -1,0 +1,18 @@
+{
+  "runtimes": [
+    {
+      "page": "/exit/score",
+      "url": "https://my-exitdesk.vercel.app/exit-score-native-v2.js",
+      "version": "2.0.0",
+      "sha256": "6c87c10eae6e37aa51d6147de89248649fe00cdeb9957b2925125db66a2cb634",
+      "integrity": "sha384-v71VTc4QnA5ayT3s2LK/vtFLmbqsmZKv4DMefJuHv114NdPus2IOV3e63gdSU96P"
+    },
+    {
+      "page": "/exit/checkout",
+      "url": "https://my-exitdesk.vercel.app/exit-checkout-native-v2.js",
+      "version": "2.0.0",
+      "sha256": "9138b85c184c15ee4f853cbe1c67b4fe508f527f52e5a6f195689367835268b7",
+      "integrity": "sha384-LDDsPnFjbhuseKLO6xFvnrsRy7eQmvBKA3m8XeXAAN//A1p246qUKrdUbQdw7YTY"
+    }
+  ]
+}
