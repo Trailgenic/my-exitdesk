@@ -1,0 +1,25 @@
+name: Native Exit Desk funnel
+on:
+  pull_request:
+    paths:
+      - 'public/exit-*.js'
+      - 'scripts/build-native-funnel*.mjs'
+      - 'scripts/verify-native-funnel.mjs'
+      - 'site-foundation/native-funnel/**'
+      - 'site-foundation/launch/exit-score-production-embed.html'
+      - 'package*.json'
+      - '.github/workflows/native-funnel.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/build-native-funnel-v2.mjs
+      - run: git diff --exit-code -- public/exit-score-native-v2.js public/exit-checkout-native-v2.js
+      - run: node scripts/verify-native-funnel.mjs
