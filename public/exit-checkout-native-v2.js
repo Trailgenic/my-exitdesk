@@ -182,4 +182,3 @@ if (notice) notice.remove();
 root.dataset.runtimeReady = 'true';
 
 } if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',boot,{once:true});}else{boot();} })();
-

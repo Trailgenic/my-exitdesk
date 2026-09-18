@@ -4,15 +4,15 @@
       "page": "/exit/score",
       "url": "https://my-exitdesk.vercel.app/exit-score-native-v2.js",
       "version": "2.0.0",
-      "sha256": "bd09d5f421a60685a1f7669ee909561bc2625036f6e8a67a0d53c8a9ce10d851",
-      "integrity": "sha384-mRzLX0dubRhhVXA2vnvHQi1zdk5/c1lgb74kJRmZVrrsfaUlwF5DTGV6Oy+YvEtL"
+      "sha256": "6c87c10eae6e37aa51d6147de89248649fe00cdeb9957b2925125db66a2cb634",
+      "integrity": "sha384-v71VTc4QnA5ayT3s2LK/vtFLmbqsmZKv4DMefJuHv114NdPus2IOV3e63gdSU96P"
     },
     {
       "page": "/exit/checkout",
       "url": "https://my-exitdesk.vercel.app/exit-checkout-native-v2.js",
       "version": "2.0.0",
-      "sha256": "581aee50af62d94d92c5311ea02501f1d35e9488adf8ec20977940d4f7a4f2bd",
-      "integrity": "sha384-58NfxtLfumhhjOmeRTzNo0vOScVUGSghbN6wUjSl1Mc7GsB22CNXtOkCtbePbUMH"
+      "sha256": "9138b85c184c15ee4f853cbe1c67b4fe508f527f52e5a6f195689367835268b7",
+      "integrity": "sha384-LDDsPnFjbhuseKLO6xFvnrsRy7eQmvBKA3m8XeXAAN//A1p246qUKrdUbQdw7YTY"
     }
   ]
 }
