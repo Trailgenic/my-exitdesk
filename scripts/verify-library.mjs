@@ -43,7 +43,7 @@ for (const book of handbooks) {
   if (book.download) {
     const download = book.download;
     assert.equal(download.downloadVerified, true);
-    assert.match(download.url, /^https:\/\/raw\.githubusercontent\.com\/Trailgenic\/my-exitdesk\/[a-f0-9]{40}\/public\/resources\/.+\.xlsx$/);
+    assert.match(download.url, /^https:\/\/my-exitdesk\.vercel\.app\/resources\/.+\.xlsx$/);
     assert.ok(html.includes('href="' + download.url + '"'), "Missing workbook download link");
     const bytes = readFileSync(resolve(download.repositoryPath));
     assert.equal(bytes.length, download.bytes);
@@ -76,7 +76,7 @@ for (const model of models) {
   const body = modelBody(model);
   assert.match(body, /Download Excel model/);
   assert.equal(model.download.downloadVerified, true);
-  assert.match(model.download.url, /^https:\/\/raw\.githubusercontent\.com\/Trailgenic\/my-exitdesk\/[a-f0-9]{40}\/public\/resources\/.+\.xlsx$/);
+  assert.match(model.download.url, /^https:\/\/my-exitdesk\.vercel\.app\/resources\/.+\.xlsx$/);
   const bytes = readFileSync(resolve(model.download.repositoryPath));
   assert.equal(bytes.length, model.download.bytes);
   assert.equal(createHash("sha256").update(bytes).digest("hex"), model.download.sha256);

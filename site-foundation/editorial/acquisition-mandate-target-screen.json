@@ -35,7 +35,7 @@
   "sections": [
     {
       "heading": "The decision this tool answers",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/00d7d6fd497644cadf65fa347c8420da058fffca/public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx\">Download the Acquisition Mandate &amp; Target Screen workbook</a> · Excel · Version 1.0 · USD millions</p><p>An acquisition search should begin with a business need. What capability, customer access, or market position is missing? Why should buying a company be the best way to obtain it?</p><p>This workbook makes the acquisition mandate explicit, compares build, buy, partner, and do nothing, and organizes a target list around requirements and evidence. It gives a team a review order, a record of unresolved questions, and a defensible reason to pursue or pass.</p>"
+      "html": "<p><a href=\"https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx\">Download the Acquisition Mandate &amp; Target Screen workbook</a> · Excel · Version 1.0 · USD millions</p><p>An acquisition search should begin with a business need. What capability, customer access, or market position is missing? Why should buying a company be the best way to obtain it?</p><p>This workbook makes the acquisition mandate explicit, compares build, buy, partner, and do nothing, and organizes a target list around requirements and evidence. It gives a team a review order, a record of unresolved questions, and a defensible reason to pursue or pass.</p>"
     },
     {
       "heading": "When to use it",
@@ -105,7 +105,7 @@
   "download": {
     "filename": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
     "repositoryPath": "public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/00d7d6fd497644cadf65fa347c8420da058fffca/public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
     "version": "1.0",
     "bytes": 86183,
     "sha256": "76a89f6d0d40419817f5124b45c26651b8836d5e028bda6bb7cb471c1296b7ea",

@@ -27,7 +27,7 @@
     },
     {
       "heading": "Put the guide to work",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx\">Download the comprehensive post-deal integration checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 104 integration actions, Day 1 readiness gates, workflow disposition decisions, a synergy register, and a risk and decision log. Filter by phase and workstream, then assign owners, timing, evidence, and escalation.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p>"
+      "html": "<p><a href=\"https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx\">Download the comprehensive post-deal integration checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 104 integration actions, Day 1 readiness gates, workflow disposition decisions, a synergy register, and a risk and decision log. Filter by phase and workstream, then assign owners, timing, evidence, and escalation.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p>"
     },
     {
       "heading": "1. Protect revenue while integrating cost",
@@ -92,7 +92,7 @@
       "Risks & Decisions"
     ],
     "repositoryPath": "public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
     "version": "1.0",
     "downloadVerified": true
   },

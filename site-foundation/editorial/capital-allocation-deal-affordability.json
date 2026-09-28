@@ -33,7 +33,7 @@
   "sections": [
     {
       "heading": "The decision this tool answers",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/38b4a618cd3a4803f8fc1013c67e77938f7b4538/public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx\">Download the Capital Allocation &amp; Deal Affordability workbook</a> · Excel · Version 1.0 · USD millions</p><p>An acquisition competes for capital with building internally, partnering, and preserving the option to do nothing. The decision is larger than whether the buyer can assemble enough money to close.</p><p>This tool asks: <strong>Is the acquisition the best use of capital, and what is the buyer's hard price ceiling?</strong> It connects the alternatives to a five-year cash-flow view, financing choices, operating headroom, and a private walk-away price.</p>"
+      "html": "<p><a href=\"https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx\">Download the Capital Allocation &amp; Deal Affordability workbook</a> · Excel · Version 1.0 · USD millions</p><p>An acquisition competes for capital with building internally, partnering, and preserving the option to do nothing. The decision is larger than whether the buyer can assemble enough money to close.</p><p>This tool asks: <strong>Is the acquisition the best use of capital, and what is the buyer's hard price ceiling?</strong> It connects the alternatives to a five-year cash-flow view, financing choices, operating headroom, and a private walk-away price.</p>"
     },
     {
       "heading": "When to use it",
@@ -103,7 +103,7 @@
   "download": {
     "filename": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
     "repositoryPath": "public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/38b4a618cd3a4803f8fc1013c67e77938f7b4538/public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
     "version": "1.0",
     "bytes": 54196,
     "sha256": "cdf044eb840ad6d5f277881354dc364528d8a0e4d78a7d47fa80b3dfe9946c33",

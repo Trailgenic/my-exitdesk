@@ -46,7 +46,7 @@
       "Decision Log"
     ],
     "repositoryPath": "public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
     "version": "1.0",
     "downloadVerified": true
   },
@@ -58,7 +58,7 @@
     },
     {
       "heading": "Put the workflow to work",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx\">Download the comprehensive M&amp;A deal workflow checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 156 actions across 14 phases, 13 decision gates, a deal-team ownership map, and a decision log. Filter the workflow by phase, gate, workstream, priority, or unresolved consequence.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p>"
+      "html": "<p><a href=\"https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx\">Download the comprehensive M&amp;A deal workflow checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 156 actions across 14 phases, 13 decision gates, a deal-team ownership map, and a decision log. Filter the workflow by phase, gate, workstream, priority, or unresolved consequence.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p>"
     },
     {
       "heading": "1. Frame the deal before studying the target",

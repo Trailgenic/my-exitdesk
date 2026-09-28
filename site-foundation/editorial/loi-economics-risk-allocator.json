@@ -34,7 +34,7 @@
   "sections": [
     {
       "heading": "The decision this tool answers",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx\">Download the LOI Economics &amp; Risk Allocator workbook</a> · Excel · Version 1.0 · USD thousands</p><p>A headline price leaves important questions unanswered. How much reaches the seller at close? How much remains invested or depends on a future result? Which debt stays in the business? What cash must the buyer provide, and what must happen before either side commits?</p><p>This workbook turns a proposed letter of intent (LOI) into an inspectable economic bridge and a working list of conditions. Use it to understand the bargain before negotiating the details. It is an economics and decision tool, not a legal-document generator.</p>"
+      "html": "<p><a href=\"https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx\">Download the LOI Economics &amp; Risk Allocator workbook</a> · Excel · Version 1.0 · USD thousands</p><p>A headline price leaves important questions unanswered. How much reaches the seller at close? How much remains invested or depends on a future result? Which debt stays in the business? What cash must the buyer provide, and what must happen before either side commits?</p><p>This workbook turns a proposed letter of intent (LOI) into an inspectable economic bridge and a working list of conditions. Use it to understand the bargain before negotiating the details. It is an economics and decision tool, not a legal-document generator.</p>"
     },
     {
       "heading": "When to use it",
@@ -110,7 +110,7 @@
   "download": {
     "filename": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
     "repositoryPath": "public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
     "version": "1.0",
     "bytes": 47265,
     "sha256": "a6adad0cf1d79beae2e61391bb629269744efa7e4155fa8b7f3f8f6b6e71a8eb",

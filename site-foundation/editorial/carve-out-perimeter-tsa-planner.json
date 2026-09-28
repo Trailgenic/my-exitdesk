@@ -32,7 +32,7 @@
   "sections": [
     {
       "heading": "The decision this tool answers",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/18d505122f8b4ebb69e974f3056a41ec80e56b0b/public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx\">Download the Carve-Out Perimeter &amp; TSA Planner workbook</a> · Excel · Version 1.0 · USD thousands</p><p>A carve-out separates a business from a larger organization. The operating business may depend on people, systems, contracts, facilities, and decision rights that sit outside the proposed sale.</p><p>This planner asks: <strong>What is being sold, what remains entangled, and how will the business operate independently?</strong> It connects the sale perimeter to the work customers depend on, identifies temporary seller support, and keeps separation costs and readiness decisions visible.</p>"
+      "html": "<p><a href=\"https://my-exitdesk.vercel.app/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx\">Download the Carve-Out Perimeter &amp; TSA Planner workbook</a> · Excel · Version 1.0 · USD thousands</p><p>A carve-out separates a business from a larger organization. The operating business may depend on people, systems, contracts, facilities, and decision rights that sit outside the proposed sale.</p><p>This planner asks: <strong>What is being sold, what remains entangled, and how will the business operate independently?</strong> It connects the sale perimeter to the work customers depend on, identifies temporary seller support, and keeps separation costs and readiness decisions visible.</p>"
     },
     {
       "heading": "When to use it",
@@ -98,7 +98,7 @@
   "download": {
     "filename": "MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
     "repositoryPath": "public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/18d505122f8b4ebb69e974f3056a41ec80e56b0b/public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
     "version": "1.0",
     "bytes": 74465,
     "sha256": "ac112844a858a5e81b1211702e3b87c76d05981b7a2c554d2f60da26f80269d7",

@@ -29,7 +29,7 @@
     },
     {
       "heading": "Put the guide to work",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx\">Download the comprehensive M&amp;A due diligence checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 112 diligence items across the full deal process, plus an editable workflow-transferability map, issue and decision log, live status fields, and a decision-ready working table. Filter the checklist by phase, workstream, priority, or decision impact and adapt it to the transaction.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p>"
+      "html": "<p><a href=\"https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx\">Download the comprehensive M&amp;A due diligence checklist</a> · XLSX · Version 1.0</p><p>The workbook contains 112 diligence items across the full deal process, plus an editable workflow-transferability map, issue and decision log, live status fields, and a decision-ready working table. Filter the checklist by phase, workstream, priority, or decision impact and adapt it to the transaction.</p><p>Your entries stay in your copy of the workbook. The file contains no macros or external workbook links.</p>"
     },
     {
       "heading": "1. Say what you think you are buying",
@@ -92,7 +92,7 @@
       "Issue Log"
     ],
     "repositoryPath": "public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
     "version": "1.0",
     "downloadVerified": true
   },

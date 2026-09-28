@@ -19,7 +19,7 @@ for (const resource of inventory.resources) {
   assert(topicIds.has(`https://www.mikeye.com/m-and-a#${resource.topic}`));
   if (!resource.download) continue;
   const d = resource.download;
-  assert.match(d.url, /raw\.githubusercontent\.com\/Trailgenic\/my-exitdesk\/[a-f0-9]{40}\/public\/resources\//);
+  assert.match(d.url, /^https:\/\/my-exitdesk\.vercel\.app\/resources\//);
   const file = fs.readFileSync(d.repositoryPath);
   assert.equal(file.length, d.bytes, resource.id);
   assert.equal(createHash('sha256').update(file).digest('hex'), d.sha256, resource.id);

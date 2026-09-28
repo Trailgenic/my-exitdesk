@@ -110,7 +110,7 @@
       "format": "Tool",
       "topic": "valuation",
       "url": "https://www.mikeye.com/exit/valuation",
-      "summary": "Explore the existing Exit Desk calculator and its indicative positioning scenarios.",
+      "summary": "Explore the Exit Desk calculator and its indicative positioning scenarios.",
       "decision": "How might buyer context and preparation affect an indicative valuation?",
       "status": "published",
       "cmsStatus": "draft-index",
@@ -175,7 +175,7 @@
       "format": "Checklist",
       "topic": "due-diligence",
       "url": "https://www.mikeye.com/exit/articles/exit-readiness-checklist",
-      "summary": "An existing seller-preparation checklist, organized around what buyers will examine.",
+      "summary": "A seller-preparation checklist, organized around what buyers will examine.",
       "decision": "What should an owner prepare before a buyer begins diligence?",
       "status": "published",
       "cmsStatus": "draft-index",
@@ -231,7 +231,7 @@
           "Decision Log"
         ],
         "repositoryPath": "public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
         "version": "1.0",
         "downloadVerified": true
       }
@@ -275,7 +275,7 @@
           "Issue Log"
         ],
         "repositoryPath": "public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
         "version": "1.0",
         "downloadVerified": true
       },
@@ -325,7 +325,7 @@
           "Risks & Decisions"
         ],
         "repositoryPath": "public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/052f5c09a8033eff17025f08615c4a6f27c1a59a/public/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
         "version": "1.0",
         "downloadVerified": true
       },
@@ -361,7 +361,7 @@
         "version": "1.2",
         "verifiedAt": "2026-09-08",
         "downloadVerified": true,
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
+        "url": "https://my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
       "contentReviewedAt": "2026-09-08",
@@ -403,7 +403,7 @@
         "version": "1.2",
         "verifiedAt": "2026-09-08",
         "downloadVerified": true,
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx"
+        "url": "https://my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
       "contentReviewedAt": "2026-09-08",
@@ -445,7 +445,7 @@
         "version": "1.2",
         "verifiedAt": "2026-09-08",
         "downloadVerified": true,
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
+        "url": "https://my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
       "contentReviewedAt": "2026-09-08",
@@ -487,7 +487,7 @@
         "version": "1.2",
         "verifiedAt": "2026-09-08",
         "downloadVerified": true,
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
+        "url": "https://my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
       "contentReviewedAt": "2026-09-08",
@@ -530,7 +530,7 @@
         "version": "1.2",
         "verifiedAt": "2026-09-08",
         "downloadVerified": true,
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/122684a0aad30a99e7cc44878b79a4633558cdd2/public/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
+        "url": "https://my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx"
       },
       "valuationDate": "2026-09-04",
       "contentReviewedAt": "2026-09-08",
@@ -581,7 +581,7 @@
       "download": {
         "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
         "repositoryPath": "public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
         "version": "1.0",
         "bytes": 135876,
         "sha256": "f42cd99478f77a8f0664383dd81476dac4218cd5d575e1169c2341353ede48f1",
@@ -637,7 +637,7 @@
       "download": {
         "filename": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
         "repositoryPath": "public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/7dbfacd24c1e5fbae5c0d8154613cbc6b1505856/public/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
         "version": "1.0",
         "bytes": 47265,
         "sha256": "a6adad0cf1d79beae2e61391bb629269744efa7e4155fa8b7f3f8f6b6e71a8eb",
@@ -693,7 +693,7 @@
       "download": {
         "filename": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
         "repositoryPath": "public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/00d7d6fd497644cadf65fa347c8420da058fffca/public/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
         "version": "1.0",
         "bytes": 86183,
         "sha256": "76a89f6d0d40419817f5124b45c26651b8836d5e028bda6bb7cb471c1296b7ea",
@@ -746,7 +746,7 @@
       "download": {
         "filename": "MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
         "repositoryPath": "public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/18d505122f8b4ebb69e974f3056a41ec80e56b0b/public/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
         "version": "1.0",
         "bytes": 74465,
         "sha256": "ac112844a858a5e81b1211702e3b87c76d05981b7a2c554d2f60da26f80269d7",
@@ -801,7 +801,7 @@
       "download": {
         "filename": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
         "repositoryPath": "public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/38b4a618cd3a4803f8fc1013c67e77938f7b4538/public/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
         "version": "1.0",
         "bytes": 54196,
         "sha256": "cdf044eb840ad6d5f277881354dc364528d8a0e4d78a7d47fa80b3dfe9946c33",

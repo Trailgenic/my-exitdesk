@@ -33,7 +33,7 @@
   "sections": [
     {
       "heading": "The decision this tool answers",
-      "html": "<p><a href=\"https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx\">Download the Synergy Underwriting &amp; Value Bridge workbook</a> · Excel · Version 1.0 · USD thousands</p><p>A synergy is a change the buyer expects to create by combining businesses. It has value only after the cost, time, investment, disruption, and execution risk of making that change are accounted for.</p><p>This workbook separates the target’s standalone value from the buyer’s incremental cash benefit. It then makes the amount shared with the seller an explicit decision. A larger affordability case does not automatically justify a larger offer.</p>"
+      "html": "<p><a href=\"https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx\">Download the Synergy Underwriting &amp; Value Bridge workbook</a> · Excel · Version 1.0 · USD thousands</p><p>A synergy is a change the buyer expects to create by combining businesses. It has value only after the cost, time, investment, disruption, and execution risk of making that change are accounted for.</p><p>This workbook separates the target’s standalone value from the buyer’s incremental cash benefit. It then makes the amount shared with the seller an explicit decision. A larger affordability case does not automatically justify a larger offer.</p>"
     },
     {
       "heading": "When to use it",
@@ -100,7 +100,7 @@
   "download": {
     "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
     "repositoryPath": "public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
-    "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/16a04396666e13b6e3aa95c9c7bb6ecbf9fc975a/public/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
     "version": "1.0",
     "bytes": 135876,
     "sha256": "f42cd99478f77a8f0664383dd81476dac4218cd5d575e1169c2341353ede48f1",
