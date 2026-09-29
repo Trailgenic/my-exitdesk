@@ -687,11 +687,11 @@
       "encoding": {
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#download-1.0",
-        "name": "MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md",
-        "encodingFormat": "text/markdown",
-        "contentSize": "6620 bytes",
-        "sha256": "17e1ef976f485a2ea143d5927871e9d54636399c3d76ce19287092ade5427ebf"
+        "name": "MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx",
+        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "contentSize": "15889 bytes",
+        "sha256": "9607482f6360262f91506bf14f3a90bbf3edc54ab7c5fbd118dc3ff0a8745ba2"
       },
       "citation": [
         {

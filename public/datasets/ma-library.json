@@ -245,13 +245,20 @@
       "contentReviewedAt": "2026-09-28",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md",
-        "filename": "MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx",
+        "filename": "MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx",
         "version": "1.0",
-        "bytes": 6620,
-        "sha256": "17e1ef976f485a2ea143d5927871e9d54636399c3d76ce19287092ade5427ebf",
+        "bytes": 15889,
+        "sha256": "9607482f6360262f91506bf14f3a90bbf3edc54ab7c5fbd118dc3ff0a8745ba2",
         "downloadVerified": true,
-        "verifiedAt": "2026-09-10"
+        "verifiedAt": "2026-09-28",
+        "alternateFormats": [
+          {
+            "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md",
+            "format": "text/markdown",
+            "sha256": "17e1ef976f485a2ea143d5927871e9d54636399c3d76ce19287092ade5427ebf"
+          }
+        ]
       },
       "relatedResources": [
         "deal-workflow",
