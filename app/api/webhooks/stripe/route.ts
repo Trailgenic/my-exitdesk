@@ -71,6 +71,13 @@ export async function POST(request: Request) {
   // Handle Stripe Checkout session (Module 4 flow)
   if (event.type === "checkout.session.completed") {
     const session = event.data.object;
+
+    // The Stripe account is shared with Acquisition Lens. Its sales are
+    // fulfilled separately and must not be tagged as Exit Desk purchases.
+    if (session.metadata?.product_line === "acquisition_lens") {
+      return NextResponse.json({ received: true, skipped: "acquisition_lens" });
+    }
+
     const email =
       session.customer_details?.email ?? session.metadata?.email ?? "";
 
