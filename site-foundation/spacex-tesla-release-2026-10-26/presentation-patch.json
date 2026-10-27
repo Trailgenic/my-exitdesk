@@ -1,28 +1,37 @@
 {
   "date": "2026-10-26",
   "siteId": "69499e76d9c11f22288abc28",
+  "toolsPageId": "6a9f3a7d2148e9081ffed5ea",
+  "catalogueElementId": "9dcf7afc-1fba-79eb-8568-f5db4cc2427b",
+  "removedToolsElements": [
+    "b2ae7016-d54f-7b0d-4fc7-ff2591c491bd",
+    "287403c7-95fb-30c5-9448-2d56141eaabd"
+  ],
+  "heading": "Seven valuation and merger models",
+  "modelOrder": [
+    "Anthropic",
+    "NVIDIA",
+    "Surgery Partners",
+    "Ziff Davis",
+    "Salesforce",
+    "Gap",
+    "SpaceX × Tesla"
+  ],
   "style": {
-    "id": "bafa7611-2a5a-630d-ba9c-80b4879dfa00",
     "name": "my-model-title-link",
     "properties": {
       "color": "inherit",
       "text-decoration": "none"
     }
   },
-  "titleLinks": [
-    {
-      "pageId": "6a9f20d0a616017e7bdf9a95",
-      "elementId": "9403133b-c6e4-d67e-9dba-bf1bef1da3dd"
-    },
-    {
-      "pageId": "6a9f3a7d2148e9081ffed5ea",
-      "elementId": "287403c7-95fb-30c5-9448-2d56141eaab1"
-    }
-  ],
-  "toolsIntroduction": {
-    "pageId": "6a9f3a7d2148e9081ffed5ea",
-    "elementId": "888ede72-834b-68a4-5765-e262bc791562",
-    "text": "Download the working file or open its guide. Browse Excel tools, seven valuation and merger models, and the investment committee memo template."
+  "grid": {
+    "name": "my-audit-grid",
+    "baseColumns": 2,
+    "smallBreakpointColumns": 1,
+    "gap": "24px"
   },
+  "allOriginalLinksPreserved": true,
+  "originalLinkCount": 59,
+  "correctedLinkCount": 62,
   "verifiedLive": true
 }
