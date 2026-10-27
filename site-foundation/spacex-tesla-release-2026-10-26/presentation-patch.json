@@ -10,12 +10,12 @@
   "heading": "Seven valuation and merger models",
   "modelOrder": [
     "Anthropic",
+    "SpaceX × Tesla",
     "NVIDIA",
     "Surgery Partners",
     "Ziff Davis",
     "Salesforce",
-    "Gap",
-    "SpaceX × Tesla"
+    "Gap"
   ],
   "style": {
     "name": "my-model-title-link",
@@ -33,5 +33,8 @@
   "allOriginalLinksPreserved": true,
   "originalLinkCount": 59,
   "correctedLinkCount": 62,
-  "verifiedLive": true
+  "verifiedLive": true,
+  "spaceXLabel": "Model · v1.2.2 · October 26, 2026",
+  "spaceXCardId": "9dcf7afc-1fba-79eb-8568-f5db4cc2424b",
+  "spaceXDateTextId": "9dcf7afc-1fba-79eb-8568-f5db4cc2423e"
 }
