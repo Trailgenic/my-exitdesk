@@ -1,6 +1,6 @@
 {
-  "version": "3.0.0",
-  "updated": "2026-09-28",
+  "version": "3.1.0",
+  "updated": "2026-10-26",
   "entity": {
     "id": "https://www.mikeye.com/#person",
     "name": "Mike Ye",
@@ -167,6 +167,60 @@
     }
   ],
   "resources": [
+    {
+      "id": "anthropic-hybrid-valuation-model",
+      "cmsId": "6ae00cd3beb8faa3c9fd7b81",
+      "slug": "anthropic-hybrid-valuation-model",
+      "name": "Anthropic: Tokens, Value Share & the Path to $2T",
+      "type": "Model",
+      "topic": "valuation",
+      "relatedTopics": [
+        "financial-modeling"
+      ],
+      "url": "https://www.mikeye.com/ma-resources/anthropic-hybrid-valuation-model",
+      "summary": "An illustrative Excel model comparing Anthropic’s core business with hypothetical value-share partnerships, including cash runway, dilution, taxes and compute stresses.",
+      "decision": "Can tokens and subscriptions support a $2T equity valuation, and what changes under hypothetical value-share partnerships?",
+      "version": "1.3.1",
+      "contentReviewedAt": "2026-10-26",
+      "status": "published",
+      "download": {
+        "filename": "Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
+        "repositoryPath": "public/resources/Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
+        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/2b711cc0948d088c71713dfa12885c988d23afcd/public/resources/Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
+        "version": "1.3.1",
+        "bytes": 231890,
+        "sha256": "03ad3298b60a874b2ccff5cb95f917620d3b4cf645535c7916691ac05bbd030e",
+        "downloadVerified": true,
+        "verifiedAt": "2026-10-26",
+        "sheets": [
+          "Read Me",
+          "Summary",
+          "Change Log",
+          "Historicals",
+          "Inputs",
+          "Bear",
+          "Base",
+          "Bull",
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "T21",
+          "T25",
+          "T28",
+          "S7",
+          "Stress Tests"
+        ]
+      },
+      "relatedResources": [
+        "nvidia-valuation-model",
+        "public-company-comps-workbench"
+      ],
+      "sourceNotes": "<p>Historical financials and disclosure inputs are drawn from Anthropic PBC’s <a href=\"https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm\">October 26, 2026 Form S-1</a>. Forecasts, scenario probabilities, exit assumptions and hypothetical value-share economics are model assumptions; the filing does not endorse them.</p><p>Published by Mike Ye. v1.3.1 contains 9,905 formulas recalculated in LibreOffice headless with zero reported formula errors. Native Excel verification has not been performed. Independent work; no Anthropic affiliation or endorsement.</p><p>Download integrity: SHA-256 03ad3298b60a874b2ccff5cb95f917620d3b4cf645535c7916691ac05bbd030e. The versioned public file matches the supplied workbook byte for byte.</p>",
+      "evidenceType": "independent illustrative scenario model"
+    },
     {
       "id": "acquisition-target-pipeline-deal-funnel",
       "cmsId": "6aa312c989d4e7003791f542",

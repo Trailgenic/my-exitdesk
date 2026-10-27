@@ -90,3 +90,9 @@ The IC memo's [NVIDIA / Hugging Face worked example](https://my-exitdesk.vercel.
 ## Related entities
 
 exmxc.ai, TrailGenic, Sleepgenic, Ella, and Cashflow Routes are distinct affiliated properties. They are not alternate identities for Mike Ye. Mike's canonical Person and WebSite identifiers remain stable.
+
+
+## Anthropic illustrative model — v1.3.1, October 26, 2026
+
+- [Anthropic: Tokens, Value Share & the Path to $2T](https://www.mikeye.com/ma-resources/anthropic-hybrid-valuation-model): independent scenario workbook; hypothetical value share, taxes, compute stresses, cash and dilution. Read its limitations. Not company guidance or offering terms.
+- [Versioned Excel download](https://raw.githubusercontent.com/Trailgenic/my-exitdesk/2b711cc0948d088c71713dfa12885c988d23afcd/public/resources/Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx)
