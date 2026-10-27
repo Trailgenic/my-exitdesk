@@ -186,11 +186,11 @@
       "status": "published",
       "download": {
         "filename": "SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
-        "assetId": "6ae0322788a1f605358aee0d",
-        "url": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0322788a1f605358aee0d_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+        "assetId": "6ae0423a68fcc0b93f8caee5",
+        "url": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a68fcc0b93f8caee5_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
         "version": "1.2.2",
-        "bytes": 279342,
-        "sha256": "e404bf802d0a029304fa20db129e9312fb352a0659944566dd63611e94dcf901",
+        "bytes": 278978,
+        "sha256": "424056ef5787c6fe41a1999ed7c9d55c5df18d045ae6864b29f61e9bb76e0aa0",
         "downloadVerified": true,
         "verifiedAt": "2026-10-26",
         "sheets": [
@@ -210,7 +210,7 @@
         "anthropic-hybrid-valuation-model",
         "public-company-comps-workbench"
       ],
-      "sourceNotes": "<p>Historical inputs: <a href=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm\">SpaceX Q3 2026 10-Q</a>, <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm\">Tesla Q3 2026 10-Q</a>, SpaceX prospectus and earnings materials, <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm\">Tesla 2026 proxy</a>, and <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000110465925108602/tm2530188d1_ex4-4.htm\">2025 CEO award agreement</a>. Forecasts and all deal terms are independent assumptions. No company affiliation or endorsement.</p><p>Locked v1.2.2: 14,349 formulas recalculated in LibreOffice with zero formula errors. Not tested in native Excel. Download SHA-256: e404bf802d0a029304fa20db129e9312fb352a0659944566dd63611e94dcf901.</p>",
+      "sourceNotes": "<p>Historical inputs: <a href=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm\">SpaceX Q3 2026 10-Q</a>, <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm\">Tesla Q3 2026 10-Q</a>, SpaceX prospectus and earnings materials, <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm\">Tesla 2026 proxy</a>, and <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000110465925108602/tm2530188d1_ex4-4.htm\">2025 CEO award agreement</a>. Forecasts and all deal terms are independent assumptions. No company affiliation or endorsement.</p><p>Locked v1.2.2. Download SHA-256: 424056ef5787c6fe41a1999ed7c9d55c5df18d045ae6864b29f61e9bb76e0aa0.</p>",
       "evidenceType": "independent illustrative scenario model"
     },
     {
@@ -231,11 +231,10 @@
       "status": "published",
       "download": {
         "filename": "Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
-        "repositoryPath": "public/resources/Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
-        "url": "https://raw.githubusercontent.com/Trailgenic/my-exitdesk/2b711cc0948d088c71713dfa12885c988d23afcd/public/resources/Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
+        "url": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a0a0468ea1e0e28a8_Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
         "version": "1.3.1",
-        "bytes": 231890,
-        "sha256": "03ad3298b60a874b2ccff5cb95f917620d3b4cf645535c7916691ac05bbd030e",
+        "bytes": 231301,
+        "sha256": "4291e8f5a866a9f2579e16ffbb359ad09d8a814ce6d5ecd044789e7bf0eb7f0e",
         "downloadVerified": true,
         "verifiedAt": "2026-10-26",
         "sheets": [
@@ -258,13 +257,14 @@
           "T28",
           "S7",
           "Stress Tests"
-        ]
+        ],
+        "assetId": "6ae0423a0a0468ea1e0e28a8"
       },
       "relatedResources": [
         "nvidia-valuation-model",
         "public-company-comps-workbench"
       ],
-      "sourceNotes": "<p>Historical financials and disclosure inputs are drawn from Anthropic PBC’s <a href=\"https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm\">October 26, 2026 Form S-1</a>. Forecasts, scenario probabilities, exit assumptions and hypothetical value-share economics are model assumptions; the filing does not endorse them.</p><p>Published by Mike Ye. v1.3.1 contains 9,905 formulas recalculated in LibreOffice headless with zero reported formula errors. Native Excel verification has not been performed. Independent work; no Anthropic affiliation or endorsement.</p><p>Download integrity: SHA-256 03ad3298b60a874b2ccff5cb95f917620d3b4cf645535c7916691ac05bbd030e. The versioned public file matches the supplied workbook byte for byte.</p>",
+      "sourceNotes": "<p>Historical financials and disclosure inputs are drawn from Anthropic PBC’s <a href=\"https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm\">October 26, 2026 Form S-1</a>. Forecasts, scenario probabilities, exit assumptions and hypothetical value-share economics are model assumptions; the filing does not endorse them.</p><p>Published by Mike Ye. Independent work; no Anthropic affiliation or endorsement.</p><p>Download integrity: SHA-256 4291e8f5a866a9f2579e16ffbb359ad09d8a814ce6d5ecd044789e7bf0eb7f0e. Use this hash to confirm your download is unaltered.</p>",
       "evidenceType": "independent illustrative scenario model"
     },
     {

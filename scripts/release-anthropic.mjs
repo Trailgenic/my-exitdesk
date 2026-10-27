@@ -6,7 +6,7 @@ const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
 const record=read(dir+'/cms-record.json'),f=record.fieldData;
 const node=read(dir+'/resource-schema.json');
 const id='anthropic-hybrid-valuation-model';
-const download={filename:'Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx',repositoryPath:'public/resources/Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx',url:f['download-url'],version:'1.3.1',bytes:231890,sha256:node.encoding.sha256,downloadVerified:true,verifiedAt:'2026-10-26',sheets:['Read Me','Summary','Change Log','Historicals','Inputs','Bear','Base','Bull','S1','S2','S3','S4','S5','S6','T21','T25','T28','S7','Stress Tests']};
+const download={filename:'Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx',repositoryPath:'public/resources/Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx',url:f['download-url'],version:'1.3.1',bytes:231301,sha256:node.encoding.sha256,downloadVerified:true,verifiedAt:'2026-10-26',sheets:['Read Me','Summary','Change Log','Historicals','Inputs','Bear','Base','Bull','S1','S2','S3','S4','S5','S6','T21','T25','T28','S7','Stress Tests']};
 const resource={id,cmsId:record.id,slug:f.slug,name:f.name,type:'Model',topic:'valuation',relatedTopics:['financial-modeling'],url:f['canonical-url'],summary:f.summary,decision:f['decision-answered'],version:'1.3.1',contentReviewedAt:'2026-10-26',status:'published',download,relatedResources:['nvidia-valuation-model','public-company-comps-workbench'],sourceNotes:f['source-notes'],evidenceType:'independent illustrative scenario model'};
 for(const p of ['public/datasets/ma-library.json','site-foundation/launch/ma-library.json','../mikeye-workers/datasets/ma-library.json']){
  const d=read(p);d.resources=[resource,...d.resources.filter(r=>r.id!==id)];d.version='3.1.0';d.updated='2026-10-26';write(p,d);
