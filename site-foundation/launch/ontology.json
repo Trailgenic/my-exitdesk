@@ -542,6 +542,9 @@
         },
         {
           "@id": "https://www.mikeye.com/ma-resources/anthropic-hybrid-valuation-model#resource"
+        },
+        {
+          "@id": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model#resource"
         }
       ]
     },
@@ -1840,6 +1843,43 @@
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "231890 bytes",
         "sha256": "03ad3298b60a874b2ccff5cb95f917620d3b4cf645535c7916691ac05bbd030e"
+      }
+    },
+    {
+      "@type": [
+        "CreativeWork",
+        "LearningResource"
+      ],
+      "@id": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model#resource",
+      "url": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model",
+      "name": "SpaceX × Tesla: Who Wins in an All-Stock Merger?",
+      "description": "An illustrative Excel merger model testing standalone value, synergies, financing, dilution and voting control in a hypothetical SpaceX–Tesla all-stock deal.",
+      "author": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "publisher": {
+        "@id": "https://www.mikeye.com/#person"
+      },
+      "version": "1.2.2",
+      "datePublished": "2026-10-26",
+      "dateModified": "2026-10-26",
+      "isAccessibleForFree": true,
+      "inLanguage": "en-US",
+      "learningResourceType": "Illustrative merger scenario model",
+      "teaches": "How much value would a hypothetical SpaceX–Tesla merger create, and how would the premium, financing and share exchange divide it?",
+      "citation": [
+        "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+        "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+        "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1318605/000110465925108602/tm2530188d1_ex4-4.htm"
+      ],
+      "encoding": {
+        "@type": "MediaObject",
+        "name": "SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+        "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0322788a1f605358aee0d_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "contentSize": "279342 bytes",
+        "sha256": "e404bf802d0a029304fa20db129e9312fb352a0659944566dd63611e94dcf901"
       }
     }
   ]

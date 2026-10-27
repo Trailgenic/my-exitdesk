@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "updated": "2026-10-26",
   "entity": {
     "id": "https://www.mikeye.com/#person",
@@ -167,6 +167,52 @@
     }
   ],
   "resources": [
+    {
+      "id": "spacex-tesla-merger-model",
+      "cmsId": "6ae032998bb7750edd2f2893",
+      "slug": "spacex-tesla-merger-model",
+      "name": "SpaceX × Tesla: Who Wins in an All-Stock Merger?",
+      "type": "Model",
+      "topic": "valuation",
+      "relatedTopics": [
+        "financial-modeling",
+        "deal-structure"
+      ],
+      "url": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model",
+      "summary": "An illustrative Excel merger model testing standalone value, synergies, financing, dilution and voting control in a hypothetical SpaceX–Tesla all-stock deal.",
+      "decision": "How much value would a hypothetical SpaceX–Tesla merger create, and how would the premium, financing and share exchange divide it?",
+      "version": "1.2.2",
+      "contentReviewedAt": "2026-10-26",
+      "status": "published",
+      "download": {
+        "filename": "SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+        "assetId": "6ae0322788a1f605358aee0d",
+        "url": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0322788a1f605358aee0d_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+        "version": "1.2.2",
+        "bytes": 279342,
+        "sha256": "e404bf802d0a029304fa20db129e9312fb352a0659944566dd63611e94dcf901",
+        "downloadVerified": true,
+        "verifiedAt": "2026-10-26",
+        "sheets": [
+          "Read Me",
+          "Summary",
+          "Historicals",
+          "Inputs",
+          "Bear",
+          "Base",
+          "Bull",
+          "Downside",
+          "Deal",
+          "Change Log"
+        ]
+      },
+      "relatedResources": [
+        "anthropic-hybrid-valuation-model",
+        "public-company-comps-workbench"
+      ],
+      "sourceNotes": "<p>Historical inputs: <a href=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm\">SpaceX Q3 2026 10-Q</a>, <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm\">Tesla Q3 2026 10-Q</a>, SpaceX prospectus and earnings materials, <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm\">Tesla 2026 proxy</a>, and <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000110465925108602/tm2530188d1_ex4-4.htm\">2025 CEO award agreement</a>. Forecasts and all deal terms are independent assumptions. No company affiliation or endorsement.</p><p>Locked v1.2.2: 14,349 formulas recalculated in LibreOffice with zero formula errors. Not tested in native Excel. Download SHA-256: e404bf802d0a029304fa20db129e9312fb352a0659944566dd63611e94dcf901.</p>",
+      "evidenceType": "independent illustrative scenario model"
+    },
     {
       "id": "anthropic-hybrid-valuation-model",
       "cmsId": "6ae00cd3beb8faa3c9fd7b81",
