@@ -42,7 +42,7 @@ write(OUT/'cms-record.json',record)
 write(OUT/'resource-schema.json',node)
 download = {'filename':workbook.name,'assetId':'6ae0322788a1f605358aee0d','url':DOWNLOAD,'version':'1.2.2','bytes':workbook.stat().st_size,'sha256':sha,'downloadVerified':True,'verifiedAt':'2026-10-26','sheets':['Read Me','Summary','Historicals','Inputs','Bear','Base','Bull','Downside','Deal','Change Log']}
 write(OUT/'download.json',download)
-(OUT/'card.html').write_text(f'<article class="my1-card"><p class="my1-eyebrow">Model · v1.2.2 · Illustrative merger</p><h3 class="my1-card-title"><a href="{URL}">{html.escape(NAME)}</a></h3><p class="my1-copy">{html.escape(SUMMARY)}</p><p><a class="my1-text-link" href="{DOWNLOAD}">Download Excel →</a> · <a class="my1-text-link" href="{URL}">Read the guide</a></p></article>')
+(OUT/'card.html').write_text(f'<article class="my1-card"><p class="my1-eyebrow">Model · v1.2.2 · Illustrative merger</p><h3 class="my1-card-title"><a class="my-model-title-link" href="{URL}">{html.escape(NAME)}</a></h3><p class="my1-copy">{html.escape(SUMMARY)}</p><p><a class="my1-text-link" href="{DOWNLOAD}">Download Excel →</a> · <a class="my1-text-link" href="{URL}">Read the guide</a></p></article>')
 print('Prepared resource copy, schema, card and download metadata:',OUT)
 
 args = argparse.ArgumentParser()
