@@ -1,11 +1,13 @@
 // =============================================================
-// Exit Desk Buyer-Lens Valuation Calculator — v1.0
+// Exit Desk Buyer-Lens Valuation Calculator — v1.1
 // Loaded by: mikeye.com/exit/valuation (Webflow embed)
 //
 // Industry multiples: BizBuySell 2025 median data, IBBA Market
 // Pulse, adjusted by 25 years of buy-side M&A judgment (Mike Ye).
-// 26 industry categories. Tier routing: SDE-based under $1M
-// revenue, EBITDA-based at $1M+.
+// 26 industry categories. Earnings basis: SDE under $1M revenue,
+// EBITDA at $1M+. The multiple range moves gradually from the SDE
+// range to the EBITDA range between $1M and $3M of revenue, so a
+// small change in revenue cannot jump the value.
 //
 // SYNC DISCIPLINE — public claims about this calculator live in
 // three locations and must stay synchronized:
@@ -16,8 +18,18 @@
 // here, update both schemas and bump this version.
 // =============================================================
 
+const TIER_START = 1000000;
+const TIER_FULL = 3000000;
+
 function getTier(revenue) {
-  return revenue < 1000000 ? 'sde' : 'ebitda';
+  return revenue < TIER_START ? 'sde' : 'ebitda';
+}
+
+// Share of the EBITDA multiple range used: 0 below $1M, rising to 1 at $3M.
+function getEbitdaWeight(revenue) {
+  if (revenue <= TIER_START) return 0;
+  if (revenue >= TIER_FULL) return 1;
+  return (revenue - TIER_START) / (TIER_FULL - TIER_START);
 }
 
 const industryMultiples = {
@@ -76,10 +88,10 @@ const industryMultiples = {
     name: 'Med Spa / Aesthetics'
   },
   accounting: {
-    sde: { low: 1.0, high: 1.5 },
+    sde: { low: 2.5, high: 3.5 },
     ebitda: { low: 4.0, high: 6.0 },
     name: 'Accounting / CPA Firm',
-    notes: 'Often valued at 1.0-1.3x revenue. Retention agreements common.'
+    notes: 'Small firms are often quoted at about 1.0-1.3x annual revenue, with part of the price tied to client retention after the sale.'
   },
   'law-firm': {
     sde: { low: 1.5, high: 2.5 },
@@ -201,7 +213,11 @@ function calculateScenarios(inputs) {
   const tier = getTier(inputs.revenue);
   const industry = industryMultiples[inputs.industry];
   if (!industry) return null;
-  const baseMultiple = tier === 'sde' ? industry.sde : industry.ebitda;
+  const w = getEbitdaWeight(inputs.revenue);
+  const baseMultiple = {
+    low: industry.sde.low + (industry.ebitda.low - industry.sde.low) * w,
+    high: industry.sde.high + (industry.ebitda.high - industry.sde.high) * w
+  };
 
   const recurring = getRecurringRevenueAdjustment(inputs.recurring);
   const concentration = getConcentrationAdjustment(inputs.concentration);
@@ -224,8 +240,18 @@ function calculateScenarios(inputs) {
         : management;
   const optimizedFactor = recurring.factor * concentration.factor * ownerOptimized.factor * mgmtOptimized.factor;
 
-  const premarketRecurring = inputs.recurring < 50 ? getRecurringRevenueAdjustment(50) : recurring;
-  const premarketFactor = premarketRecurring.factor * concentration.factor * 1.15 * 1.1;
+  // Pre-market builds on the optimized case. In the 90-180 days before a
+  // sale the realistic gains are moving recurring revenue up one band
+  // (putting existing customers on contract) and a 5% credit for a
+  // clean, documented diligence file. It does not assume the owner or
+  // management changes beyond the optimized case.
+  const recurringSteps = [0, 10, 25, 50, 75];
+  const nextRecurring = recurringSteps.find(step => step > inputs.recurring);
+  const premarketRecurring =
+    nextRecurring === undefined ? recurring : getRecurringRevenueAdjustment(nextRecurring);
+  const PREP_CREDIT = 1.05;
+  const premarketFactor =
+    premarketRecurring.factor * concentration.factor * ownerOptimized.factor * mgmtOptimized.factor * PREP_CREDIT;
 
   return {
     tier,
@@ -279,17 +305,24 @@ function generateNarratives(scenarios, inputs) {
     optimizedNarrative = 'Your operational structure is already favorable. The optimized scenario reflects modest gains achievable in the next 6-12 months.';
   }
 
-  const premarketNarrative = `A focused 90-180 day pre-market preparation — formalizing recurring contracts, documenting systems, demonstrating owner-removed operations, strengthening management — typically lifts the multiple to ${formatMultiple(scenarios.premarket.multipleLow)} to ${formatMultiple(scenarios.premarket.multipleHigh)} ${tier}. This is what professional sellers do before they go to market.`;
+  const premarketNarrative = `Add a focused 90-180 day sale preparation on top of that work: put repeat customers on contract, clean up the books, and have the diligence file ready before the first buyer call. That supports roughly ${formatMultiple(scenarios.premarket.multipleLow)} to ${formatMultiple(scenarios.premarket.multipleHigh)} ${tier}. Preparation will not fix weak earnings, but it removes reasons for a buyer to discount them.`;
 
   const todayMid = (scenarios.today.valueLow + scenarios.today.valueHigh) / 2;
   const premarketMid = (scenarios.premarket.valueLow + scenarios.premarket.valueHigh) / 2;
   const upliftPercent = Math.round(((premarketMid - todayMid) / todayMid) * 100);
 
+  let upliftText;
+  if (upliftPercent <= 2) {
+    upliftText = 'Your structure already looks the way buyers want it to. The main lever left is growing earnings.';
+  } else {
+    upliftText = `On these inputs, the preparation path is worth about ${upliftPercent}% more at the midpoint. The earnings are the same; what changes is how much of them a buyer believes will survive the sale.`;
+  }
+
   return {
     today: todayNarrative,
     optimized: optimizedNarrative,
     premarket: premarketNarrative,
-    upliftPercent: `Pre-market positioning could lift this business by ${upliftPercent}% — without changing the underlying numbers.`
+    upliftPercent: upliftText
   };
 }
 
@@ -298,32 +331,73 @@ function formatMultiple(num) {
 }
 
 function formatCurrency(num) {
-  if (num >= 1000000) return '$' + (num / 1000000).toFixed(1) + 'M';
-  return '$' + Math.round(num / 1000) + 'K';
+  if (num >= 999500) return '$' + (num / 1000000).toFixed(1) + 'M';
+  if (num >= 1000) return '$' + Math.round(num / 1000) + 'K';
+  return '$' + Math.round(num);
+}
+
+function readNumber(id, fallback) {
+  const el = document.getElementById(id);
+  if (!el || el.value === '') return fallback;
+  const n = parseFloat(el.value);
+  return isNaN(n) ? fallback : n;
+}
+
+function showInputNote(message) {
+  const container = document.getElementById('output-container');
+  let note = document.getElementById('vc-input-note');
+  if (!note && container && container.parentNode) {
+    note = document.createElement('div');
+    note.id = 'vc-input-note';
+    note.setAttribute('role', 'status');
+    note.style.cssText =
+      "display:none;margin:24px 0;padding:18px 24px;background:#FDFCF9;border:0.5px solid #C8C4BA;border-left:2px solid #a83232;font-family:'EB Garamond',Georgia,serif;font-size:17px;line-height:1.5;color:#2c2820;";
+    container.parentNode.insertBefore(note, container);
+  }
+  if (!note) return;
+  note.textContent = message || '';
+  note.style.display = message ? 'block' : 'none';
 }
 
 function calculateAndDisplay() {
   const inputs = {
-    revenue: parseFloat(document.getElementById('input-revenue').value) || 0,
-    earnings: parseFloat(document.getElementById('input-earnings').value) || 0,
+    revenue: readNumber('input-revenue', 0),
+    earnings: readNumber('input-earnings', 0),
     industry: document.getElementById('input-industry').value,
-    recurring: parseFloat(document.getElementById('input-recurring').value) || 0,
-    concentration: parseFloat(document.getElementById('input-concentration').value) || 20,
+    recurring: Math.min(100, Math.max(0, readNumber('input-recurring', 0))),
+    concentration: Math.min(100, Math.max(0, readNumber('input-concentration', 20))),
     owner: document.getElementById('input-owner').value,
     management: document.getElementById('input-management').value
   };
 
-  if (!inputs.revenue || !inputs.earnings || !inputs.industry || !inputs.owner || !inputs.management) {
-    const container = document.getElementById('output-container');
+  const container = document.getElementById('output-container');
+  const hide = function (message) {
     if (container) container.style.display = 'none';
+    showInputNote(message);
+  };
+
+  if (inputs.revenue < 0 || inputs.earnings < 0) {
+    hide('Enter earnings as a positive number. A business that is losing money is usually priced on its assets, revenue or strategic fit, not on a multiple of earnings, so this calculator would give a misleading answer.');
     return;
   }
+  if (inputs.revenue > 0 && inputs.earnings > inputs.revenue) {
+    hide('Earnings are higher than revenue. Check the two figures: SDE or EBITDA should be a portion of annual revenue.');
+    return;
+  }
+  if (!inputs.revenue || !inputs.earnings || !inputs.industry || !inputs.owner || !inputs.management) {
+    hide('');
+    return;
+  }
+  showInputNote('');
 
   const scenarios = calculateScenarios(inputs);
   if (!scenarios) return;
   const narratives = generateNarratives(scenarios, inputs);
 
-  document.getElementById('output-tier').textContent = scenarios.tier.toUpperCase() + '-based valuation';
+  const blending = inputs.revenue > TIER_START && inputs.revenue < TIER_FULL;
+  document.getElementById('output-tier').textContent =
+    scenarios.tier.toUpperCase() + '-based valuation' +
+    (blending ? ' · multiples step up gradually between $1M and $3M of revenue' : '');
   document.getElementById('output-today-low').textContent = formatCurrency(scenarios.today.valueLow);
   document.getElementById('output-today-high').textContent = formatCurrency(scenarios.today.valueHigh);
   document.getElementById('output-today-multiple').textContent =
@@ -341,7 +415,6 @@ function calculateAndDisplay() {
   document.getElementById('output-narrative-premarket').textContent = narratives.premarket;
   document.getElementById('output-uplift-percent').textContent = narratives.upliftPercent;
 
-  const container = document.getElementById('output-container');
   if (container) container.style.display = 'block';
 
   if (typeof gtag === 'function') {
