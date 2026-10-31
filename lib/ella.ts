@@ -84,10 +84,20 @@ export async function generateReport(
 
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY, maxRetries: 3 });
   const response = await client.messages.create({
-    model: 'claude-opus-4-6',
-    max_tokens: 8000,
+    model: process.env.ELLA_REPORT_MODEL || 'claude-opus-5-5',
+    // Opus 5.5 always thinks; thinking counts toward max_tokens, so leave headroom
+    // above the ~8K-token report. You are billed only for tokens actually generated.
+    max_tokens: 16000,
     system: selectPrompt(intake.impliedRevenueRange),
     messages: [{ role: 'user', content: formatIntake(intake) }]
   });
-  return (response.content[0] as { type: 'text'; text: string }).text;
+  // Response may start with a thinking block; return the report text only.
+  const text = response.content
+    .filter((b) => b.type === 'text')
+    .map((b) => (b as { type: 'text'; text: string }).text)
+    .join('');
+  if (!text) {
+    throw new Error(`Ella returned no report text (stop_reason: ${response.stop_reason}).`);
+  }
+  return text;
 }

@@ -28,8 +28,8 @@ function completeEnvironment(
     ACQUISITION_CHECKOUT_CANCEL_URL:
       "https://example.test/acquisition/cancel",
     ANTHROPIC_API_KEY: "sk-ant-acquisition",
-    ACQUISITION_REASONING_MODEL: "claude-opus-4-6",
-    ACQUISITION_REASONING_MAX_TOKENS: "8000",
+    ACQUISITION_REASONING_MODEL: "claude-opus-5-5",
+    ACQUISITION_REASONING_MAX_TOKENS: "16000",
     ACQUISITION_REASONING_TEMPERATURE: "0",
     RESEND_API_KEY: "re_acquisition",
     ACQUISITION_RESEND_FROM_EMAIL:

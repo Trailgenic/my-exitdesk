@@ -495,7 +495,7 @@ test("Anthropic adapter requires and returns the configured tool input", async (
   } as unknown as Pick<Anthropic, "messages">;
   const adapter = new AnthropicAcquisitionReasoningModel(fakeClient);
   const output = await adapter.generateStructured({
-    model: "configured-model",
+    model: "claude-opus-4-6",
     maxTokens: 5_000,
     temperature: 0,
     systemPrompt: "system",
@@ -505,9 +505,25 @@ test("Anthropic adapter requires and returns the configured tool input", async (
   });
 
   assert.deepEqual(output, makeDraft());
-  assert.equal(sent[0].model, "configured-model");
+  assert.equal(sent[0].model, "claude-opus-4-6");
+  assert.equal(sent[0].temperature, 0);
   assert.deepEqual(sent[0].tool_choice, {
     type: "tool",
     name: "submit_acquisition_reasoning",
   });
+
+  const modern = await adapter.generateStructured({
+    model: "claude-opus-5-5",
+    maxTokens: 16_000,
+    temperature: 0,
+    systemPrompt: "system",
+    userPrompt: "user",
+    toolName: "submit_acquisition_reasoning",
+    toolSchema: { type: "object" },
+  });
+  assert.deepEqual(modern, makeDraft());
+  assert.equal(sent[1].model, "claude-opus-5-5");
+  assert.equal("temperature" in sent[1], false);
+  assert.deepEqual(sent[1].tool_choice, { type: "auto" });
+  assert.match(String(sent[1].system), /submit_acquisition_reasoning tool/);
 });
