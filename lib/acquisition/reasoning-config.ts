@@ -8,8 +8,9 @@ export interface AcquisitionReasoningConfig {
 export const DEFAULT_ACQUISITION_REASONING_CONFIG: AcquisitionReasoningConfig =
   {
     provider: "anthropic",
-    model: "claude-opus-4-6",
-    maxTokens: 8_000,
+    model: "claude-opus-5-5",
+    // Opus 5.5 always thinks; thinking counts toward this ceiling.
+    maxTokens: 16_000,
     temperature: 0,
   };
 
