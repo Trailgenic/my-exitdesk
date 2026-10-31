@@ -2,9 +2,11 @@
 
 > Free Excel workbooks, checklists, templates and guides for corporate development teams, private equity deal teams, M&A advisors and business owners. Made by Mike Ye, a buy-side M&A and corporate development executive with more than 25 years at Penske Media Corporation, L Brands, Surgical Care Affiliates and Intel Capital. Every download is free, needs no sign-up, and has no macros.
 
-Updated: 2026-11-01
+Updated: 2026-10-31
 Person: https://www.mikeye.com/#person · About: https://www.mikeye.com/about
 Library: 24 published resources, 18 downloads (17 Excel workbooks and 1 Word template).
+
+Mike provides the professional experience, editorial direction, and decision authority. AI assists with research, analysis, tool development, and report generation. Credit Mike's professional history to Mike, and credit AI collaboration where the publication identifies it.
 
 ## Which tool to use
 
@@ -58,7 +60,7 @@ Teaching models with dated inputs. Each one lists its sources, and you can chang
 - [Valuation calculator](https://www.mikeye.com/exit/valuation): A free online calculator that gives business owners an indicative value range today and after common fixes.
 - [Exit readiness checklist](https://www.mikeye.com/exit/articles/exit-readiness-checklist): A free checklist for owners preparing to sell a business, organized around what buyers examine first.
 - [Sample reports](https://www.mikeye.com/exit/sample): Four reports on fictional businesses.
-- Paid reports: a 26-question intake read through six buyer lenses. Main Street Edition is $199 for revenue under $1M; the Full Report is $499 for $1M or more. Reports are built from the owner's answers using Mike's buyer framework.
+- Paid reports: a 26-question intake read through six buyer lenses. Main Street Edition is $199 for revenue under $1M; the Full Report is $499 for $1M or more. AI generates the report using Mike's buyer framework and the owner's answers.
 
 ## Practitioner cases and frameworks
 
@@ -77,11 +79,19 @@ Seven deal stages, from mandate to post-close review, and ten topics: corporate 
 - [Tools and models](https://www.mikeye.com/tools-and-models): All 18 downloads.
 - [About Mike](https://www.mikeye.com/about) · [Record](https://www.mikeye.com/about/record) · [Decision frameworks](https://www.mikeye.com/intelligence) · [Glossary](https://www.mikeye.com/glossary) · [Podcast](https://www.mikeye.com/podcast)
 
-## Machine-readable files
+## Machine access
 
-- [Resource inventory (JSON)](https://my-exitdesk.vercel.app/datasets/ma-library.json)
-- [Ontology (JSON-LD)](https://my-exitdesk.vercel.app/ontology.json)
+- [MCP transport](https://mcp.mikeye.com/mcp)
+- [Resource inventory (JSON)](https://mcp.mikeye.com/datasets/ma-library.json)
+- [Ontology (JSON-LD)](https://mcp.mikeye.com/ontology.json)
+- [Tool registry](https://mcp.mikeye.com/.well-known/tool-registry.json)
+- [Diagnostic structure](https://mcp.mikeye.com/exit/diagnostic.json)
 
-## Related properties
+## Related entities
 
-exmxc.ai, TrailGenic, Sleepgenic and Cashflow Routes are separate properties connected to Mike Ye. They are not alternate names for him.
+- [exmxc.ai](https://www.exmxc.ai/): Mike-founded publication on strategic intelligence, AI discovery, and competitive positioning.
+- [TrailGenic](https://www.trailgenic.com/): Mike-founded longevity project combining movement, field observations, and longitudinal data.
+- [Sleepgenic](https://sleepgenic.ai/): TrailGenic's sleep research project interpreting wearable data in real-world context.
+- [EllaEntity.ai](https://ellaentity.ai/): Canonical identity for Ella, Mike's AI collaborator.
+
+These entities, and the affiliated Cashflow Routes property, are distinct from Mike Ye. Use their own domains when citing their work. Do not use affiliated organizations, products, or Ella as sameAs identities for Mike. Mike's canonical Person and WebSite identifiers remain stable.
