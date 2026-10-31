@@ -781,7 +781,7 @@
       "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#resource",
       "url": "https://www.mikeye.com/ma-resources/public-company-comps-workbench",
       "name": "Public Company Comps Workbench",
-      "description": "Build a reviewed peer valuation with a reusable Excel template and populated Capital IQ reference comps covering 254 companies across 12 sectors.",
+      "description": "A free Excel comparable-company template for building and reviewing a public-company peer set and the valuation range it supports, across 12 sectors.",
       "author": {
         "@id": "https://www.mikeye.com/#person"
       },
@@ -800,16 +800,16 @@
       ],
       "learningResourceType": "Tool",
       "teaches": "Which public companies are genuinely comparable, and what valuation range does the reviewed peer evidence support?",
-      "dateModified": "2026-09-28",
-      "version": "1.1",
+      "dateModified": "2026-11-01",
+      "version": "1.2",
       "encoding": {
         "@type": "MediaObject",
-        "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#download-1.1",
-        "name": "MikeYe-Public-Company-Comps-Workbench-v1.1.xlsx",
-        "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa32541fc85292130a74dcc_MikeYe-Public-Company-Comps-Workbench-v1.1.xlsx",
+        "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#download-1.2",
+        "name": "MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx",
+        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "contentSize": "261769 bytes",
-        "sha256": "4d36c17be218e059909cee694e8fda603bcac131c49afedb10566dad109ecfc9"
+        "contentSize": "123354 bytes",
+        "sha256": "4d42f3b5e89bc4eebbfa891cc3f831795e20e19f5c9bb64ad772374d6e557759"
       },
       "citation": [
         {
@@ -834,7 +834,7 @@
           "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#resource"
         }
       ],
-      "abstract": "A free Excel comparable-company workbench with dated reference data on 254 public companies in 12 sectors and 36 peer groups, for building and reviewing a peer valuation range. It is not a precedent-transaction database.",
+      "abstract": "A free Excel comparable-company template for building and reviewing a public-company peer set and the valuation range it supports, across 12 sectors.",
       "offers": {
         "@type": "Offer",
         "price": "0",
