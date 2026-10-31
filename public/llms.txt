@@ -1,104 +1,87 @@
-# Mike Ye — M&A judgment and working tools
+# Mike Ye: free M&A tools, checklists and valuation models
 
-Updated: 2026-09-28
-Canonical identity: https://www.mikeye.com/#person
+> Free Excel workbooks, checklists, templates and guides for corporate development teams, private equity deal teams, M&A advisors and business owners. Made by Mike Ye, a buy-side M&A and corporate development executive with more than 25 years at Penske Media Corporation, L Brands, Surgical Care Affiliates and Intel Capital. Every download is free, needs no sign-up, and has no macros.
 
-Mike Ye brings 25 years of experience across acquisitions, divestitures, corporate development, and strategic finance. MikeYe.com connects transaction experience with practical decision tools. Exit Desk is the seller-facing product; Acquisition Lens remains in development.
+Updated: 2026-11-01
+Person: https://www.mikeye.com/#person · About: https://www.mikeye.com/about
+Library: 24 published resources, 18 downloads (17 Excel workbooks and 1 Word template).
 
-## Start here
+## Which tool to use
 
-- [Home](https://www.mikeye.com/): Mike's experience and selected resources.
-- [About Mike](https://www.mikeye.com/about): Professional history and selected transactions.
-- [Record](https://www.mikeye.com/about/record): PMC masthead evidence of title and tenure.
-- [M&A Library](https://www.mikeye.com/m-and-a): The master catalogue of 22 resources.
-- [Downloads](https://www.mikeye.com/tools-and-models): 16 main downloads, including 15 Excel workbooks and one Word memo template (also available in Markdown).
-- [Decision frameworks](https://www.mikeye.com/intelligence): Five named judgment lenses.
-- [Glossary](https://www.mikeye.com/glossary): Definitions and distinctions.
-- [The Mike Ye Briefing](https://www.mikeye.com/podcast): Published podcast episodes; the later season arc is planned.
+- Deciding whether to buy at all, and which targets fit: Acquisition Mandate & Target Screen
+- Tracking targets and the next decision on each: Acquisition Target Pipeline & Deal Funnel
+- Valuing against public peers: Public Company Comps Workbench
+- Setting a walk-away price and testing funding: Capital Allocation & Deal Affordability
+- Structuring a letter of intent (cash, stock, rollover, earnout): LOI Economics & Risk Allocator
+- Sizing synergies and deciding how much to pay for them: Synergy Underwriting & Value Bridge
+- Buying or selling a division: Carve-Out Perimeter & TSA Planner
+- Running the whole deal process: M&A Deal Workflow Checklist
+- Due diligence: Before You Buy: Follow the Work
+- Integration after close: After the Deal: Keep the Business Working
+- Getting investment committee approval: M&A Investment Committee Memo
+- Learning to value a company: the company models below
+- Preparing your own business for sale: Exit Desk
 
-## Transaction path
+## Deal tools (free Excel)
 
-Seven ordered stages and thirteen decision gates organize the transaction. Topics organize subject matter, not process order.
+- [Acquisition Mandate & Target Screen](https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen): A free Excel tool for corporate development teams to decide whether to buy, build, partner or do nothing, then rank targets against the mandate. [Excel v1.0.1](https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx)
+- [Acquisition Target Pipeline & Deal Funnel](https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel): A free Excel pipeline tracker for corp dev teams that records each target's next decision, seller signals, evidence quality and why it was passed or reopened. [Excel v1.0](https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa3118be7d8bb3bee10243f_MikeYe-Acquisition-Target-Pipeline-Deal-Funnel-v1.0.xlsx)
+- [Public Company Comps Workbench](https://www.mikeye.com/ma-resources/public-company-comps-workbench): A free Excel comparable-company workbench with dated reference data on 254 public companies in 12 sectors and 36 peer groups, for building and reviewing a peer valuation range. It is not a precedent-transaction database. [Excel v1.1](https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa32541fc85292130a74dcc_MikeYe-Public-Company-Comps-Workbench-v1.1.xlsx)
+- [Capital Allocation & Deal Affordability Tool](https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability): A free Excel tool for buyers to compare an acquisition with building, partnering or doing nothing, test funding and the downside, and set a private walk-away price. [Excel v1.0.1](https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx)
+- [LOI Economics & Risk Allocator](https://www.mikeye.com/ma-resources/loi-economics-risk-allocator): A free Excel tool that shows how cash, stock, rollover, earnouts and closing conditions change the price, funding need and risk in a letter of intent. [Excel v1.0.1](https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx)
+- [Synergy Underwriting & Value Bridge](https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge): A free Excel tool for underwriting synergies as risk-adjusted cash, deciding how much to share with the seller, and assigning owners to deliver them. [Excel v1.0.1](https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx)
+- [Carve-Out Perimeter & TSA Planner](https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner): A free Excel planner for carve-outs: what transfers, the seller dependencies, the transition services needed and the path to standalone operations. [Excel v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx)
 
-1. Mandate (Gate 0 · Mandate approved): Why acquire instead of build, partner, or do nothing? [Acquisition Mandate & Target Screen](https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen).
-2. Thesis & Targets (Gates 1–2 · Thesis and target approved): What must be true, and which targets fit and can actually be bought? [Acquisition Target Pipeline & Deal Funnel](https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel).
-3. First Look & Underwriting (Gates 3–4 · Access and economics approved): Do access, standalone economics, financing, and downside support a bid? [Valuation models and working tools](https://www.mikeye.com/tools-and-models).
-4. LOI & Diligence (Gates 5–6 · Exclusivity approved and diligence launched): Are core terms clear, and can the team test the conditions behind the thesis? [LOI Economics & Risk Allocator](https://www.mikeye.com/ma-resources/loi-economics-risk-allocator).
-5. Re-underwrite & Sign (Gates 7–8 · Re-underwriting and signing approved): Does the deal still work on the facts and terms now in front of the buyer? [M&A Investment Committee Memo](https://www.mikeye.com/ma-resources/ma-investment-committee-memo).
-6. Close & Day 1 (Gates 9–10 · Closing approved and Day 1 stable): Can funds and control transfer while the business keeps working? [After the Deal: Keep the Business Working](https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working).
-7. Value Delivery & Review (Gates 11–12 · Value delivery confirmed and program closed): Has the buyer delivered the underwritten value, and what should change next time? [Synergy Underwriting & Value Bridge](https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge).
+## Checklists and templates
 
-## Ten topics
+- [M&A Deal Workflow Checklist](https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist): A free Excel checklist for buy-side deal teams: 156 actions and 13 decision gates from acquisition mandate to post-close review, with a live progress dashboard. [Excel v1.1](https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx)
+- [Before You Buy: Follow the Work (due diligence checklist)](https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work): A free 112-item M&A due diligence checklist in Excel, with a guide, for testing earnings quality, key dependencies and whether the business still works after the owner changes. [Excel v1.1](https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx)
+- [After the Deal: Keep the Business Working (integration checklist)](https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working): A free 104-action post-merger integration checklist in Excel, with a guide, for protecting revenue and Day 1 continuity and tracking synergies. [Excel v1.1](https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx)
+- [M&A Investment Committee Memo](https://www.mikeye.com/ma-resources/ma-investment-committee-memo): A free Word template and guide for writing an M&A investment committee approval memo, with a worked example of a hypothetical NVIDIA and Hugging Face deal. [Word v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx) · [Markdown](https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md) · [Worked example](https://my-exitdesk.vercel.app/resources/MikeYe-NVIDIA-Hugging-Face-IC-Memo-Worked-Example-v1.0.md)
 
-- [Corporate development](https://www.mikeye.com/ma-topics/corporate-development): Set the acquisition mandate, prioritize targets, and carry evidence from sourcing through investment approval and operating ownership.
-- [Valuation](https://www.mikeye.com/ma-topics/valuation): Build a defensible valuation range, separate standalone economics from buyer-created value, and connect evidence to price discipline.
-- [Financial modeling](https://www.mikeye.com/ma-topics/financial-modeling): Turn operating assumptions into cash flows, valuation ranges, and acquisition decisions using five downloadable company models.
-- [Comparable-company analysis](https://www.mikeye.com/ma-topics/industry-comps): Choose comparable public companies, review trading multiples and financial definitions, and support a valuation range.
-- [Deal structure & negotiation](https://www.mikeye.com/ma-topics/deal-structure): Separate price from funding, compare forms of consideration, and assign unresolved risks before committing to acquisition terms.
-- [Due diligence](https://www.mikeye.com/ma-topics/due-diligence): Test earnings, transferability, and operating dependencies with a 112-item diligence checklist that connects findings to deal consequences.
-- [Synergies](https://www.mikeye.com/ma-topics/synergies): Turn synergy claims into risk-adjusted cash benefits, separate buyer-created value, and assign the operating work required to deliver it.
-- [Integration](https://www.mikeye.com/ma-topics/integration): Protect business continuity, assign operating decisions, and track acquisition value with a 104-action post-deal integration checklist.
-- [Divestitures & carve-outs](https://www.mikeye.com/ma-topics/divestitures): Define what transfers, expose seller dependencies, and plan the path from Day 1 continuity to independent operations.
-- [Strategic finance](https://www.mikeye.com/ma-topics/strategic-finance): Compare buying with alternatives, test liquidity and downside constraints, and set a private acquisition price ceiling.
+## Valuation and merger models (free Excel, built from public filings)
 
-## Resources
+Teaching models with dated inputs. Each one lists its sources, and you can change an assumption and watch the value move. They are not investment advice.
 
-- [Acquisition Target Pipeline & Deal Funnel](https://www.mikeye.com/ma-resources/acquisition-target-pipeline-deal-funnel): Manage acquisition targets from thesis through close with explicit next decisions, seller and control signals, evidence quality, private price discipline, and a durable pass-and-reopen record. [Download Excel v1.0](https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa3118be7d8bb3bee10243f_MikeYe-Acquisition-Target-Pipeline-Deal-Funnel-v1.0.xlsx).
-- [M&A Investment Committee Memo: From Analysis to Approval](https://www.mikeye.com/ma-resources/ma-investment-committee-memo): Turn mandate, valuation, diligence, deal structure, synergies, affordability, downside, and integration into one decision-ready M&A approval memo—with a worked NVIDIA–Hugging Face example. [Download Word v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx).
-- [Public Company Comps Workbench](https://www.mikeye.com/ma-resources/public-company-comps-workbench): Build a reviewed peer valuation with a reusable Excel template and populated Capital IQ reference comps covering 254 companies across 12 sectors. [Download Excel v1.1](https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa32541fc85292130a74dcc_MikeYe-Public-Company-Comps-Workbench-v1.1.xlsx).
-- [Capital Allocation & Deal Affordability Tool](https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability): Compare buying, building, partnering, and doing nothing; test funding and downside constraints; and set the buyer's private hard price ceiling. [Download Excel v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx).
-- [Carve-Out Perimeter & TSA Planner](https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner): Define what transfers, map seller dependencies, plan temporary services and their exit, and separate Day 1 readiness from independent operations. [Download Excel v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx).
-- [Acquisition Mandate & Target Screen](https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen): Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership. [Download Excel v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx).
-- [LOI Economics & Risk Allocator](https://www.mikeye.com/ma-resources/loi-economics-risk-allocator): See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal. [Download Excel v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx).
-- [Synergy Underwriting & Value Bridge](https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge): Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan. [Download Excel v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx).
-- [The M&A Deal Workflow: From Mandate to Value](https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist): A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review. [Download Excel v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx).
-- [NVIDIA: valuing an AI infrastructure business](https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model): Connect demand for computing to product economics, supply commitments, and the cash that growth can produce. [Download Excel v1.2](https://my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx).
-- [Surgery Partners: valuing a healthcare-services business](https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model): Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep. [Download Excel v1.2](https://my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx).
-- [Ziff Davis: valuing a digital media business](https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model): Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued. [Download Excel v1.2](https://my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx).
-- [Salesforce: valuing a software business](https://www.mikeye.com/ma-resources/salesforce-software-valuation-model): Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth. [Download Excel v1.2](https://my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx).
-- [Gap: valuing a retail business](https://www.mikeye.com/ma-resources/gap-retail-valuation-model): Start with what customers buy, what the retailer keeps, and how much cash sits in inventory. [Download Excel v1.2](https://my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx).
-- [After the Deal: Keep the Business Working](https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working): A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies. [Download Excel v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx).
-- [Before You Buy: Follow the Work](https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work): A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences. [Download Excel v1.0](https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx).
-- [Exit readiness checklist](https://www.mikeye.com/exit/articles/exit-readiness-checklist): A seller-preparation checklist, organized around what buyers will examine.
-- [Long Beach Outpatient Surgery](https://www.mikeye.com/exit/articles/long-beach-surgical-case-study): A controlling investment and the operating work behind a multi-specialty expansion.
-- [Sourcing Journal](https://www.mikeye.com/exit/articles/sourcing-journal-case-study): Founder clarity, partner alignment, and the timing of a capability acquisition.
-- [BuzzAngle Music](https://www.mikeye.com/exit/articles/buzzangle-case-study): A strategic investment in music data, viewed through competitive position and capability.
-- [The five decision frames](https://www.mikeye.com/intelligence): Judgment, dependency, timing, signal, and scarcity: the frames behind consequential decisions.
-- [Business valuation scenarios](https://www.mikeye.com/exit/valuation): Explore the Exit Desk calculator and its indicative positioning scenarios.
+- [Gap](https://www.mikeye.com/ma-resources/gap-retail-valuation-model): A free, fully built Excel valuation model of Gap Inc. (DCF, trading comps, buyer price ceiling) for learning how to value a retailer where markdowns and inventory drive the cash. [Excel v1.2.1](https://my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx)
+- [Salesforce](https://www.mikeye.com/ma-resources/salesforce-software-valuation-model): A free, fully built Excel valuation model of Salesforce for learning how to value a subscription software company when stock pay and customer retention drive the cash. [Excel v1.2.1](https://my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.1.xlsx)
+- [Ziff Davis](https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model): A free, fully built Excel valuation model of Ziff Davis for learning how to value a digital media portfolio exposed to search and platform traffic. [Excel v1.2.1](https://my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx)
+- [Surgery Partners](https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model): A free, fully built Excel valuation model of Surgery Partners for learning how partner (minority) interests and debt change what a healthcare-services buyer actually owns. [Excel v1.2.1](https://my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx)
+- [NVIDIA](https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model): A free, fully built Excel valuation model of NVIDIA for testing what must stay true about AI computing demand, margins and supply commitments for the valuation to hold. [Excel v1.2.1](https://my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx)
+- [Anthropic](https://www.mikeye.com/ma-resources/anthropic-hybrid-valuation-model): A free Excel scenario model built from public filings that tests whether tokens and subscriptions can support a $2 trillion valuation for Anthropic, with cash, dilution, tax and compute stress tests. Independent and illustrative. [Excel v1.3.1](https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a0a0468ea1e0e28a8_Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx)
+- [SpaceX × Tesla](https://www.mikeye.com/ma-resources/spacex-tesla-merger-model): A free Excel merger model of a hypothetical all-stock SpaceX and Tesla deal: standalone values, exchange ratio, synergies needed to break even, dilution and voting control. No deal has been agreed. [Excel v1.2.2](https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a68fcc0b93f8caee5_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx)
 
-## Evidence and versions
+## For business owners
 
-Cite the HTML guide for method and the versioned download for its contents. The Comps Workbench v1.1 combines the reusable template and dated Capital IQ public-company reference: 254 companies, 12 sectors, and 36 peer groups. It is not a populated precedent-transaction database. Company models use the information dates stated in their guides. Practitioner transaction cases, public-company teaching models, the NVIDIA / Hugging Face worked example, and fictional Exit Desk samples are distinct evidence types.
+- [Exit Desk](https://www.mikeye.com/exit): Help preparing a business for sale, seen from the buyer's side.
+- [Free exit readiness score](https://www.mikeye.com/exit/score): Eight questions, about 90 seconds, five readiness scores from a buyer's point of view. No sign-up.
+- [Valuation calculator](https://www.mikeye.com/exit/valuation): A free online calculator that gives business owners an indicative value range today and after common fixes.
+- [Exit readiness checklist](https://www.mikeye.com/exit/articles/exit-readiness-checklist): A free checklist for owners preparing to sell a business, organized around what buyers examine first.
+- [Sample reports](https://www.mikeye.com/exit/sample): Four reports on fictional businesses.
+- Paid reports: a 26-question intake read through six buyer lenses. Main Street Edition is $199 for revenue under $1M; the Full Report is $499 for $1M or more. Reports are built from the owner's answers using Mike's buyer framework.
 
-The IC memo's [NVIDIA / Hugging Face worked example](https://my-exitdesk.vercel.app/resources/MikeYe-NVIDIA-Hugging-Face-IC-Memo-Worked-Example-v1.0.md) is a companion to the memo template. The seller calculator's email-gated workbook is a separate distribution path. Neither is counted among the 16 main catalogue downloads.
+## Practitioner cases and frameworks
 
-## Applied products
+- [Long Beach Outpatient Surgery](https://www.mikeye.com/exit/articles/long-beach-surgical-case-study): A practitioner case on taking a controlling stake in a surgery center and the operating work behind its multi-specialty expansion.
+- [Sourcing Journal](https://www.mikeye.com/exit/articles/sourcing-journal-case-study): A practitioner case on founder clarity, partner alignment and timing in a capability acquisition.
+- [BuzzAngle Music](https://www.mikeye.com/exit/articles/buzzangle-case-study): A practitioner case on investing in a music-data business for its strategic capability.
+- [The five decision frames](https://www.mikeye.com/intelligence): Five short decision frames (judgment, dependency, timing, signal and scarcity) for framing an M&A or investment decision before running the numbers.
 
-- [Exit Desk](https://www.mikeye.com/exit): Seller readiness, value improvement, and preparation for a business sale.
-- [Valuation calculator](https://www.mikeye.com/exit/valuation): Today, optimized, and pre-market scenarios.
-- [Free diagnostic](https://www.mikeye.com/exit/score): Eight questions produce five indicative scores from the owner's answers.
-- [Sample reports](https://www.mikeye.com/exit/sample): Four reports based on fictional business profiles.
-- Paid reports: 26-question intake, six buyer lenses. Main Street Edition is $199 for annual revenue under $1M; Full Report is $499 for $1M or more. AI generates the report using Mike's framework and the submitted inputs.
+## How the library is organized
 
-## Machine access
+Seven deal stages, from mandate to post-close review, and ten topics: corporate development, valuation, financial modeling, comparable companies, deal structure, due diligence, synergies, integration, divestitures and strategic finance. Cite the web guide for method and the versioned download for its contents.
 
-- [Resource inventory](https://mcp.mikeye.com/datasets/ma-library.json)
-- [Ontology](https://mcp.mikeye.com/ontology.json)
-- [Tool registry](https://mcp.mikeye.com/.well-known/tool-registry.json)
-- [Diagnostic structure](https://mcp.mikeye.com/exit/diagnostic.json)
+## Site guide
 
-## Related entities
+- [M&A Library](https://www.mikeye.com/m-and-a): All 24 resources by deal stage and topic.
+- [Tools and models](https://www.mikeye.com/tools-and-models): All 18 downloads.
+- [About Mike](https://www.mikeye.com/about) · [Record](https://www.mikeye.com/about/record) · [Decision frameworks](https://www.mikeye.com/intelligence) · [Glossary](https://www.mikeye.com/glossary) · [Podcast](https://www.mikeye.com/podcast)
 
-exmxc.ai, TrailGenic, Sleepgenic, Ella, and Cashflow Routes are distinct affiliated properties. They are not alternate identities for Mike Ye. Mike's canonical Person and WebSite identifiers remain stable.
+## Machine-readable files
 
+- [Resource inventory (JSON)](https://my-exitdesk.vercel.app/datasets/ma-library.json)
+- [Ontology (JSON-LD)](https://my-exitdesk.vercel.app/ontology.json)
 
-## Anthropic illustrative model — v1.3.1, October 26, 2026
+## Related properties
 
-- [Anthropic: Tokens, Value Share & the Path to $2T](https://www.mikeye.com/ma-resources/anthropic-hybrid-valuation-model): independent scenario workbook; hypothetical value share, taxes, compute stresses, cash and dilution. Read its limitations. Not company guidance or offering terms.
-- [Versioned Excel download](https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a0a0468ea1e0e28a8_Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx)
-
-
-## SpaceX × Tesla illustrative merger model — v1.2.2, October 26, 2026
-
-- [SpaceX × Tesla: Who Wins in an All-Stock Merger?](https://www.mikeye.com/ma-resources/spacex-tesla-merger-model): hypothetical all-stock deal; standalone value, synergies, financing, dilution and control. Bear unresolved; weighted n/a. No agreed terms or company endorsement.
-- [Locked Excel download](https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a68fcc0b93f8caee5_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx)
+exmxc.ai, TrailGenic, Sleepgenic and Cashflow Routes are separate properties connected to Mike Ye. They are not alternate names for him.

@@ -373,5 +373,252 @@
       "Deal",
       "Change Log"
     ]
+  },
+  "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx",
+    "filename": "MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx",
+    "version": "1.1",
+    "bytes": 50642,
+    "sha256": "71eb89a7954033c34b3c94ae9230b3d5dbca97c96d664ebd67c800caaa23ad1a",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Dashboard",
+      "Deal Workflow",
+      "Stage Gates",
+      "Deal Team",
+      "Decision Log"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx",
+    "filename": "MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx",
+    "version": "1.1",
+    "bytes": 48746,
+    "sha256": "82dad2b046fe980c6bf82f8c0b3937ae83494e878d43cf8e3ce2da572ca95745",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Dashboard",
+      "Follow One Sale",
+      "Checklist",
+      "Workflow Map",
+      "Issue Log"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx",
+    "filename": "MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx",
+    "version": "1.1",
+    "bytes": 48834,
+    "sha256": "012d3fc21f120a82ed3894bf319603c7837ecdf5f2d65a29cf64dbeea98b9769",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Dashboard",
+      "Integration Plan",
+      "Day 1 Readiness",
+      "Workflow Decisions",
+      "Synergies",
+      "Risks & Decisions"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx",
+    "filename": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx",
+    "version": "1.0.1",
+    "bytes": 88155,
+    "sha256": "de53062d576b6830478ae777d964c973d88197496b98dd414702e1c83b2d383d",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Dashboard",
+      "Mandate",
+      "Routes",
+      "Targets",
+      "Screen",
+      "Guide"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx",
+    "filename": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx",
+    "version": "1.0.1",
+    "bytes": 58449,
+    "sha256": "01b9c72f828f1659eb0093e0bd4ec10a879207baa828fdd8b016464b7120810f",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Dashboard",
+      "Controls",
+      "Deal cash flow",
+      "Financing",
+      "Capacity",
+      "Alternatives",
+      "Guide"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx",
+    "filename": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx",
+    "version": "1.0.1",
+    "bytes": 51471,
+    "sha256": "79ad2c62d7d6996abf2e8bd81699abfa21baf90cca119fc5965aa4212a5c8747",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Dashboard",
+      "Assumptions",
+      "Economics",
+      "Contingencies",
+      "Conditions",
+      "Guide"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx",
+    "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx",
+    "version": "1.0.1",
+    "bytes": 135392,
+    "sha256": "a6a0906425c4736ef5c143f1d825cf1b5ddb044c0d5ae46c5468e3745d2080ab",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Dashboard",
+      "Assumptions",
+      "Cash Flow",
+      "Initiatives",
+      "Delivery",
+      "Guide"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx",
+    "filename": "Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx",
+    "version": "1.2.1",
+    "bytes": 97406,
+    "sha256": "5f0123b06e577210df4732f2b22d6c6663127de4c8c0d6289d601f255704fcf7",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "Operating Forecast",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Verified Inputs"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.1.xlsx",
+    "filename": "Salesforce_CRM_Valuation_Model-v1.2.1.xlsx",
+    "version": "1.2.1",
+    "bytes": 89522,
+    "sha256": "ba5cc0b282e9a5886c234530da263dff8a326676dcea1d3103881ecbf15f4c5c",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "Operating Forecast",
+      "KPIs & SBC-FCF",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Verified Inputs"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx",
+    "filename": "Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx",
+    "version": "1.2.1",
+    "bytes": 85548,
+    "sha256": "4a433050e27988d67079f8b403bbba8de3b4d6996fb2c9bf0e05f6628d2bd05d",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "Portfolio & Divestiture",
+      "Operating Forecast",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Source Inputs"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx",
+    "filename": "Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx",
+    "version": "1.2.1",
+    "bytes": 90370,
+    "sha256": "73ada279067776c91c3330b3a4d563f3827152af035fcc75552dc488c6eb8b70",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "NCI Reconciliation",
+      "Operating Forecast",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Source Inputs"
+    ]
+  },
+  "https://my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx",
+    "filename": "NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx",
+    "version": "1.2.1",
+    "bytes": 90528,
+    "sha256": "f8a113b35180756238308425d2c00672cec87d9a02588cbba54a2b79c14908fb",
+    "downloadVerified": false,
+    "verifiedAt": null,
+    "sheets": [
+      "Start Here",
+      "Valuation Summary",
+      "Assumptions",
+      "Historical Financials",
+      "Operating Forecast",
+      "KPIs & SBC",
+      "Trading Comps",
+      "DCF",
+      "Transactions",
+      "Sum-of-the-Parts",
+      "Acquisition Returns",
+      "Sensitivities",
+      "Sources & Adjustments",
+      "Checks",
+      "Source Inputs"
+    ]
   }
 }
