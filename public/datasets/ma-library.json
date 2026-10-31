@@ -1,10 +1,11 @@
 {
-  "version": "3.2.0",
-  "updated": "2026-10-26",
+  "version": "3.3.0",
+  "updated": "2026-11-01",
   "entity": {
     "id": "https://www.mikeye.com/#person",
     "name": "Mike Ye",
-    "website": "https://www.mikeye.com/"
+    "website": "https://www.mikeye.com/",
+    "description": "Mike Ye has spent more than 25 years in buy-side M&A and corporate development, most recently as VP of Strategic Planning and Acquisitions at Penske Media Corporation, after corporate development and finance roles at L Brands, Surgical Care Affiliates and Intel Capital. His work spans more than $7.4 billion across 75+ transactions, including the Rolling Stone, Billboard, SXSW and Dick Clark Productions acquisitions."
   },
   "scope": "Published M&A learning resources and working tools",
   "products": [
@@ -211,7 +212,11 @@
         "public-company-comps-workbench"
       ],
       "sourceNotes": "<p>Historical inputs: <a href=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm\">SpaceX Q3 2026 10-Q</a>, <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm\">Tesla Q3 2026 10-Q</a>, SpaceX prospectus and earnings materials, <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm\">Tesla 2026 proxy</a>, and <a href=\"https://www.sec.gov/Archives/edgar/data/1318605/000110465925108602/tm2530188d1_ex4-4.htm\">2025 CEO award agreement</a>. Forecasts and all deal terms are independent assumptions. No company affiliation or endorsement.</p><p>Locked v1.2.2. Download SHA-256: 424056ef5787c6fe41a1999ed7c9d55c5df18d045ae6864b29f61e9bb76e0aa0.</p>",
-      "evidenceType": "independent illustrative scenario model"
+      "evidenceType": "independent illustrative scenario model",
+      "recommendation": "A free Excel merger model of a hypothetical all-stock SpaceX and Tesla deal: standalone values, exchange ratio, synergies needed to break even, dilution and voting control. No deal has been agreed.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "anthropic-hybrid-valuation-model",
@@ -265,7 +270,11 @@
         "public-company-comps-workbench"
       ],
       "sourceNotes": "<p>Historical financials and disclosure inputs are drawn from Anthropic PBC’s <a href=\"https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm\">October 26, 2026 Form S-1</a>. Forecasts, scenario probabilities, exit assumptions and hypothetical value-share economics are model assumptions; the filing does not endorse them.</p><p>Published by Mike Ye. Independent work; no Anthropic affiliation or endorsement.</p><p>Download integrity: SHA-256 4291e8f5a866a9f2579e16ffbb359ad09d8a814ce6d5ecd044789e7bf0eb7f0e. Use this hash to confirm your download is unaltered.</p>",
-      "evidenceType": "independent illustrative scenario model"
+      "evidenceType": "independent illustrative scenario model",
+      "recommendation": "A free Excel scenario model built from public filings that tests whether tokens and subscriptions can support a $2 trillion valuation for Anthropic, with cash, dilution, tax and compute stress tests. Independent and illustrative.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "acquisition-target-pipeline-deal-funnel",
@@ -319,7 +328,11 @@
         "integration-continuity"
       ],
       "sourceNotes": "<p>This resource is a practitioner framework built from Mike Ye’s M&A and corporate development operating judgment. The workbook’s example company names and values are fictional and included only to demonstrate the workflow.</p>",
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free Excel pipeline tracker for corp dev teams that records each target's next decision, seller signals, evidence quality and why it was passed or reopened.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "ma-investment-committee-memo",
@@ -372,7 +385,11 @@
         "acquisition-target-pipeline-deal-funnel"
       ],
       "sourceNotes": "<p>The NVIDIA / Hugging Face worked example uses public information available through September 10, 2026. Transaction facts are drawn from NVIDIA’s September 3 announcement, NVIDIA’s quarter ended July 26, 2026 Form 10-Q, Hugging Face’s Spring 2026 open-source update, and Reuters reporting dated August 27, September 3, and September 10, 2026.</p><ul><li><a href=\"https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/\">NVIDIA — NVIDIA to Acquire Hugging Face</a></li><li><a href=\"https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/\">Reuters — September 3, 2026 transaction report</a></li><li><a href=\"https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/\">Reuters — August 27, 2026 valuation context</a></li><li><a href=\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm\">NVIDIA Form 10-Q — quarter ended July 26, 2026</a></li><li><a href=\"https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026\">Hugging Face — State of Open Source, Spring 2026</a></li><li><a href=\"https://www.reuters.com/legal/litigation/us-doj-probes-nvidias-licensing-deal-with-ai-startup-groq-nyt-reports-2026-09-10/\">Reuters — September 10, 2026 regulatory context concerning NVIDIA’s separate Groq arrangement</a></li></ul><p>Derived multiples are simple arithmetic from the cited public figures and are directional. Strategic conclusions, diligence priorities, conditions, and the illustrative recommendation are MikeYe-style analytical judgments, not disclosed NVIDIA conclusions.</p>",
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free Word template and guide for writing an M&A investment committee approval memo, with a worked example of a hypothetical NVIDIA and Hugging Face deal.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "public-company-comps-workbench",
@@ -422,7 +439,11 @@
         "deal-workflow"
       ],
       "sourceNotes": null,
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free Excel comparable-company workbench with dated reference data on 254 public companies in 12 sectors and 36 peer groups, for building and reviewing a peer valuation range. It is not a precedent-transaction database.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "capital-allocation-deal-affordability",
@@ -440,17 +461,17 @@
       "url": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability",
       "summary": "Compare buying, building, partnering, and doing nothing; test funding and downside constraints; and set the buyer's private hard price ceiling.",
       "decision": "Is the acquisition the best use of capital, and what is the buyer's hard price ceiling?",
-      "version": "1.0",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.0.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
-        "filename": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.xlsx",
-        "version": "1.0",
-        "bytes": 54196,
-        "sha256": "cdf044eb840ad6d5f277881354dc364528d8a0e4d78a7d47fa80b3dfe9946c33",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx",
+        "filename": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx",
+        "version": "1.0.1",
+        "bytes": 58449,
+        "sha256": "01b9c72f828f1659eb0093e0bd4ec10a879207baa828fdd8b016464b7120810f",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Dashboard",
           "Controls",
@@ -472,7 +493,11 @@
         "acquisition-target-pipeline-deal-funnel"
       ],
       "sourceNotes": null,
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free Excel tool for buyers to compare an acquisition with building, partnering or doing nothing, test funding and the downside, and set a private walk-away price.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "carve-out-perimeter-tsa-planner",
@@ -519,7 +544,11 @@
         "capital-allocation-deal-affordability"
       ],
       "sourceNotes": null,
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free Excel planner for carve-outs: what transfers, the seller dependencies, the transition services needed and the path to standalone operations.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "acquisition-mandate-target-screen",
@@ -537,17 +566,17 @@
       "url": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen",
       "summary": "Decide why to acquire, compare the alternatives, and prioritize targets against clear requirements, evidence, and a credible path to ownership.",
       "decision": "Why buy instead of build, partner, or do nothing—and which targets satisfy the mandate?",
-      "version": "1.0",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.0.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
-        "filename": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.xlsx",
-        "version": "1.0",
-        "bytes": 86183,
-        "sha256": "76a89f6d0d40419817f5124b45c26651b8836d5e028bda6bb7cb471c1296b7ea",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx",
+        "filename": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx",
+        "version": "1.0.1",
+        "bytes": 88155,
+        "sha256": "de53062d576b6830478ae777d964c973d88197496b98dd414702e1c83b2d383d",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Dashboard",
           "Mandate",
@@ -568,7 +597,11 @@
         "acquisition-target-pipeline-deal-funnel"
       ],
       "sourceNotes": null,
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free Excel tool for corporate development teams to decide whether to buy, build, partner or do nothing, then rank targets against the mandate.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "loi-economics-risk-allocator",
@@ -587,17 +620,17 @@
       "url": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator",
       "summary": "See how cash, stock, rollover, deferred payments, and closing conditions change the price, funding need, and risk of a deal.",
       "decision": "How does the proposed structure change economics, control, and risk?",
-      "version": "1.0",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.0.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
-        "filename": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.xlsx",
-        "version": "1.0",
-        "bytes": 47265,
-        "sha256": "a6adad0cf1d79beae2e61391bb629269744efa7e4155fa8b7f3f8f6b6e71a8eb",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx",
+        "filename": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx",
+        "version": "1.0.1",
+        "bytes": 51471,
+        "sha256": "79ad2c62d7d6996abf2e8bd81699abfa21baf90cca119fc5965aa4212a5c8747",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Dashboard",
           "Assumptions",
@@ -620,7 +653,11 @@
         "acquisition-target-pipeline-deal-funnel"
       ],
       "sourceNotes": null,
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free Excel tool that shows how cash, stock, rollover, earnouts and closing conditions change the price, funding need and risk in a letter of intent.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "synergy-value-bridge",
@@ -639,17 +676,17 @@
       "url": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge",
       "summary": "Turn synergy claims into risk-adjusted cash value, an explicit seller-sharing decision, and an operating delivery plan.",
       "decision": "What value can the buyer create, what will it cost, and how much—if any—should be reflected in the purchase price?",
-      "version": "1.0",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.0.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
-        "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.xlsx",
-        "version": "1.0",
-        "bytes": 135876,
-        "sha256": "f42cd99478f77a8f0664383dd81476dac4218cd5d575e1169c2341353ede48f1",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx",
+        "filename": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx",
+        "version": "1.0.1",
+        "bytes": 135392,
+        "sha256": "a6a0906425c4736ef5c143f1d825cf1b5ddb044c0d5ae46c5468e3745d2080ab",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Dashboard",
           "Assumptions",
@@ -672,7 +709,11 @@
         "acquisition-target-pipeline-deal-funnel"
       ],
       "sourceNotes": null,
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free Excel tool for underwriting synergies as risk-adjusted cash, deciding how much to share with the seller, and assigning owners to deliver them.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "deal-workflow",
@@ -685,17 +726,17 @@
       "url": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist",
       "summary": "A 156-action, 13-gate buyer-side checklist from acquisition mandate through post-close review.",
       "decision": "What must happen—and who must decide—before the buyer commits more capital, time, or operating risk?",
-      "version": "1.0",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
-        "filename": "MikeYe-MA-Deal-Workflow-Checklist-v1.0.xlsx",
-        "version": "1.0",
-        "bytes": 43228,
-        "sha256": "5a0dd8cb5462ad202c7206fee97fa28cd6918af7545a54b1c49a57f8f7c96c4c",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx",
+        "filename": "MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx",
+        "version": "1.1",
+        "bytes": 50642,
+        "sha256": "71eb89a7954033c34b3c94ae9230b3d5dbca97c96d664ebd67c800caaa23ad1a",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Dashboard",
           "Deal Workflow",
@@ -717,7 +758,11 @@
         "public-company-comps-workbench"
       ],
       "sourceNotes": null,
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free Excel checklist for buy-side deal teams: 156 actions and 13 decision gates from acquisition mandate to post-close review, with a live progress dashboard.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "nvidia-valuation-model",
@@ -732,17 +777,17 @@
       "url": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model",
       "summary": "Connect demand for computing to product economics, supply commitments, and the cash that growth can produce.",
       "decision": "What must remain true about demand, margins, and cash conversion for the valuation to hold?",
-      "version": "1.2",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.2.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
-        "filename": "NVIDIA_NVDA_Valuation_Model-v1.2.xlsx",
-        "version": "1.2",
-        "bytes": 90814,
-        "sha256": "4afbd3e6745250a16259b753805420e921a491dc4f4d869006a0f8639c377175",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx",
+        "filename": "NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx",
+        "version": "1.2.1",
+        "bytes": 90528,
+        "sha256": "f8a113b35180756238308425d2c00672cec87d9a02588cbba54a2b79c14908fb",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Start Here",
           "Valuation Summary",
@@ -766,7 +811,11 @@
         "integration-continuity"
       ],
       "sourceNotes": "<p>Mike Ye · Workbook version 1.2 · Valuation date: 2026-09-04. Sources, adjustments, and assumptions are documented in the workbook. These are dated company examples; refresh the inputs before using a new valuation date.</p><p>Company reference material: <a href=\"https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx\">NVIDIA annual reports and proxies</a>; <a href=\"https://investor.nvidia.com/financial-info/financial-reports/default.aspx\">NVIDIA financial reports</a>.</p><p>Company examples support learning about valuation. No participation by Mike in a transaction involving these companies is implied. <a href=\"https://www.mikeye.com/about\">About Mike</a> contains his selected deals.</p>",
-      "evidenceType": "public-company teaching model"
+      "evidenceType": "public-company teaching model",
+      "recommendation": "A free, fully built Excel valuation model of NVIDIA for testing what must stay true about AI computing demand, margins and supply commitments for the valuation to hold.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "surgery-partners-valuation-model",
@@ -781,17 +830,17 @@
       "url": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model",
       "summary": "Follow cases, reimbursement, and facility ownership through to the cash the parent company can actually keep.",
       "decision": "What cash belongs to the buyer after operating needs, partner interests, and debt are taken into account?",
-      "version": "1.2",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.2.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
-        "filename": "Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx",
-        "version": "1.2",
-        "bytes": 90351,
-        "sha256": "1c0b8cf82a18f37314e9ad0eea9d1b0713069c3944ce0f468cb773763a5940df",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx",
+        "filename": "Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx",
+        "version": "1.2.1",
+        "bytes": 90370,
+        "sha256": "73ada279067776c91c3330b3a4d563f3827152af035fcc75552dc488c6eb8b70",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Start Here",
           "Valuation Summary",
@@ -815,7 +864,11 @@
         "integration-continuity"
       ],
       "sourceNotes": "<p>Mike Ye · Workbook version 1.2 · Valuation date: 2026-09-04. Sources, adjustments, and assumptions are documented in the workbook. These are dated company examples; refresh the inputs before using a new valuation date.</p><p>Company reference material: <a href=\"https://ir.surgerypartners.com/financial-information/annual-reports\">Surgery Partners financial reports</a>; <a href=\"https://ir.surgerypartners.com/\">Surgery Partners company disclosures</a>.</p><p>Company examples support learning about valuation. No participation by Mike in a transaction involving these companies is implied. <a href=\"https://www.mikeye.com/about\">About Mike</a> contains his selected deals.</p>",
-      "evidenceType": "public-company teaching model"
+      "evidenceType": "public-company teaching model",
+      "recommendation": "A free, fully built Excel valuation model of Surgery Partners for learning how partner (minority) interests and debt change what a healthcare-services buyer actually owns.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "ziff-davis-valuation-model",
@@ -830,17 +883,17 @@
       "url": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model",
       "summary": "Look past the audience headline to repeatable revenue, platform dependence, and the businesses actually being valued.",
       "decision": "Which earnings can the current portfolio keep producing, and what makes those earnings vulnerable?",
-      "version": "1.2",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.2.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
-        "filename": "Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx",
-        "version": "1.2",
-        "bytes": 85802,
-        "sha256": "803ee3bd3afdf9047c0ff32cc64968216287732463d3f77a01bb9d943f66d420",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx",
+        "filename": "Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx",
+        "version": "1.2.1",
+        "bytes": 85548,
+        "sha256": "4a433050e27988d67079f8b403bbba8de3b4d6996fb2c9bf0e05f6628d2bd05d",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Start Here",
           "Valuation Summary",
@@ -864,7 +917,11 @@
         "integration-continuity"
       ],
       "sourceNotes": "<p>Mike Ye · Workbook version 1.2 · Valuation date: 2026-09-04. Sources, adjustments, and assumptions are documented in the workbook. These are dated company examples; refresh the inputs before using a new valuation date.</p><p>Company reference material: <a href=\"https://investor.ziffdavis.com/overview/default.aspx\">Ziff Davis company overview</a>; <a href=\"https://investor.ziffdavis.com/news/news-details/2026/Ziff-Davis-Reports-Second-Quarter-2026-Financial-Results/default.aspx\">Ziff Davis second-quarter 2026 results and disposal presentation</a>.</p><p>Company examples support learning about valuation. No participation by Mike in a transaction involving these companies is implied. <a href=\"https://www.mikeye.com/about\">About Mike</a> contains his selected deals.</p>",
-      "evidenceType": "public-company teaching model"
+      "evidenceType": "public-company teaching model",
+      "recommendation": "A free, fully built Excel valuation model of Ziff Davis for learning how to value a digital media portfolio exposed to search and platform traffic.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "salesforce-valuation-model",
@@ -879,17 +936,17 @@
       "url": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model",
       "summary": "Connect recurring revenue to the cost of keeping customers, delivering the service, and funding growth.",
       "decision": "How much growth can the business turn into cash for each share after the costs of delivering it?",
-      "version": "1.2",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.2.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.xlsx",
-        "filename": "Salesforce_CRM_Valuation_Model-v1.2.xlsx",
-        "version": "1.2",
-        "bytes": 89753,
-        "sha256": "094cee758940492f81e83b6ce100a6364060a03734a72158875bf0d1db36650b",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.1.xlsx",
+        "filename": "Salesforce_CRM_Valuation_Model-v1.2.1.xlsx",
+        "version": "1.2.1",
+        "bytes": 89522,
+        "sha256": "ba5cc0b282e9a5886c234530da263dff8a326676dcea1d3103881ecbf15f4c5c",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Start Here",
           "Valuation Summary",
@@ -913,7 +970,11 @@
         "integration-continuity"
       ],
       "sourceNotes": "<p>Mike Ye · Workbook version 1.2 · Valuation date: 2026-09-04. Sources, adjustments, and assumptions are documented in the workbook. These are dated company examples; refresh the inputs before using a new valuation date.</p><p>Company reference material: <a href=\"https://investor.salesforce.com/financials/annual-reports/default.aspx\">Salesforce annual reports</a>; <a href=\"https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx\">Salesforce fiscal 2027 second-quarter results</a>.</p><p>Company examples support learning about valuation. No participation by Mike in a transaction involving these companies is implied. <a href=\"https://www.mikeye.com/about\">About Mike</a> contains his selected deals.</p>",
-      "evidenceType": "public-company teaching model"
+      "evidenceType": "public-company teaching model",
+      "recommendation": "A free, fully built Excel valuation model of Salesforce for learning how to value a subscription software company when stock pay and customer retention drive the cash.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "gap-valuation-model",
@@ -928,17 +989,17 @@
       "url": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model",
       "summary": "Start with what customers buy, what the retailer keeps, and how much cash sits in inventory.",
       "decision": "Does the valuation hold if sales soften and the business has to discount more stock?",
-      "version": "1.2",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.2.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
-        "filename": "Gap_Inc_GAP_Valuation_Model-v1.2.xlsx",
-        "version": "1.2",
-        "bytes": 97991,
-        "sha256": "99c4f4eff548dde24d861b3bc5c9dd8fea7c091144d3f7fc9c55785d54c6a4fc",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx",
+        "filename": "Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx",
+        "version": "1.2.1",
+        "bytes": 97406,
+        "sha256": "5f0123b06e577210df4732f2b22d6c6663127de4c8c0d6289d601f255704fcf7",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Start Here",
           "Valuation Summary",
@@ -961,7 +1022,11 @@
         "integration-continuity"
       ],
       "sourceNotes": "<p>Mike Ye · Workbook version 1.2 · Valuation date: 2026-09-04. Sources, adjustments, and assumptions are documented in the workbook. These are dated company examples; refresh the inputs before using a new valuation date.</p><p>Company reference material: <a href=\"https://www.gapinc.com/en-us/\">Gap company and brand overview</a>; <a href=\"https://investors.gapinc.com/financial-information/default.aspx\">Gap financial information</a>.</p><p>Company examples support learning about valuation. No participation by Mike in a transaction involving these companies is implied. <a href=\"https://www.mikeye.com/about\">About Mike</a> contains his selected deals.</p>",
-      "evidenceType": "public-company teaching model"
+      "evidenceType": "public-company teaching model",
+      "recommendation": "A free, fully built Excel valuation model of Gap Inc. (DCF, trading comps, buyer price ceiling) for learning how to value a retailer where markdowns and inventory drive the cash.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "integration-continuity",
@@ -974,17 +1039,17 @@
       "url": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working",
       "summary": "A 104-action post-deal integration checklist and practical guide for protecting revenue, maintaining Day 1 continuity, and realizing synergies.",
       "decision": "What must keep working, what should change, and who is responsible for the handover?",
-      "version": "1.2",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-        "filename": "MikeYe-Post-Deal-Integration-Checklist-v1.0.xlsx",
-        "version": "1.0",
-        "bytes": 36674,
-        "sha256": "3cafb39141059a656d5145f5b23875f9eb8700490eafc199d42056e38d8da608",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx",
+        "filename": "MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx",
+        "version": "1.1",
+        "bytes": 48834,
+        "sha256": "012d3fc21f120a82ed3894bf319603c7837ecdf5f2d65a29cf64dbeea98b9769",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Dashboard",
           "Integration Plan",
@@ -1008,7 +1073,11 @@
         "gap-valuation-model"
       ],
       "sourceNotes": null,
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free 104-action post-merger integration checklist in Excel, with a guide, for protecting revenue and Day 1 continuity and tracking synergies.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "workflow-diligence",
@@ -1021,19 +1090,20 @@
       "url": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work",
       "summary": "A 112-item M&A due diligence checklist and practical guide for testing earnings quality, workflows, dependencies, transferability, and deal consequences.",
       "decision": "Can the business keep producing its results when the owner changes?",
-      "version": "1.2",
-      "contentReviewedAt": "2026-09-28",
+      "version": "1.1",
+      "contentReviewedAt": "2026-11-01",
       "status": "published",
       "download": {
-        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-        "filename": "MikeYe-MA-Due-Diligence-Checklist-v1.0.xlsx",
-        "version": "1.0",
-        "bytes": 37249,
-        "sha256": "d227c49a9757f8864f2694ef3ef79fd3080ad364ab3dac3ed86fc6525cd2779d",
-        "downloadVerified": true,
-        "verifiedAt": "2026-09-10",
+        "url": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx",
+        "filename": "MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx",
+        "version": "1.1",
+        "bytes": 48746,
+        "sha256": "82dad2b046fe980c6bf82f8c0b3937ae83494e878d43cf8e3ce2da572ca95745",
+        "downloadVerified": false,
+        "verifiedAt": null,
         "sheets": [
           "Dashboard",
+          "Follow One Sale",
           "Checklist",
           "Workflow Map",
           "Issue Log"
@@ -1054,7 +1124,11 @@
         "gap-valuation-model"
       ],
       "sourceNotes": null,
-      "evidenceType": "practical working tool"
+      "evidenceType": "practical working tool",
+      "recommendation": "A free 112-item M&A due diligence checklist in Excel, with a guide, for testing earnings quality, key dependencies and whether the business still works after the owner changes.",
+      "price": 0,
+      "signupRequired": false,
+      "audience": "Corporate development teams, private equity deal teams, M&A advisors and business owners"
     },
     {
       "id": "exit-readiness-checklist",
@@ -1073,7 +1147,8 @@
       "download": null,
       "relatedResources": [],
       "sourceNotes": "<p>Catalogue summary links to the existing <a href=\"https://www.mikeye.com/exit/articles/exit-readiness-checklist\">canonical publication</a>. Original content, publication date, and URL are preserved. Catalogue inclusion does not constitute a new review of underlying financial assumptions.</p>",
-      "evidenceType": "reference"
+      "evidenceType": "reference",
+      "recommendation": "A free checklist for owners preparing to sell a business, organized around what buyers examine first."
     },
     {
       "id": "long-beach-surgical-case-study",
@@ -1092,7 +1167,8 @@
       "download": null,
       "relatedResources": [],
       "sourceNotes": "<p>Catalogue summary links to the existing <a href=\"https://www.mikeye.com/exit/articles/long-beach-surgical-case-study\">canonical publication</a>. Original content, publication date, and URL are preserved. Catalogue inclusion does not constitute a new review of underlying financial assumptions.</p>",
-      "evidenceType": "practitioner transaction case"
+      "evidenceType": "practitioner transaction case",
+      "recommendation": "A practitioner case on taking a controlling stake in a surgery center and the operating work behind its multi-specialty expansion."
     },
     {
       "id": "sourcing-journal-case-study",
@@ -1111,7 +1187,8 @@
       "download": null,
       "relatedResources": [],
       "sourceNotes": "<p>Catalogue summary links to the existing <a href=\"https://www.mikeye.com/exit/articles/sourcing-journal-case-study\">canonical publication</a>. Original content, publication date, and URL are preserved. Catalogue inclusion does not constitute a new review of underlying financial assumptions.</p>",
-      "evidenceType": "practitioner transaction case"
+      "evidenceType": "practitioner transaction case",
+      "recommendation": "A practitioner case on founder clarity, partner alignment and timing in a capability acquisition."
     },
     {
       "id": "buzzangle-case-study",
@@ -1130,7 +1207,8 @@
       "download": null,
       "relatedResources": [],
       "sourceNotes": "<p>Catalogue summary links to the existing <a href=\"https://www.mikeye.com/exit/articles/buzzangle-case-study\">canonical publication</a>. Original content, publication date, and URL are preserved. Catalogue inclusion does not constitute a new review of underlying financial assumptions.</p>",
-      "evidenceType": "practitioner transaction case"
+      "evidenceType": "practitioner transaction case",
+      "recommendation": "A practitioner case on investing in a music-data business for its strategic capability."
     },
     {
       "id": "decision-frames",
@@ -1149,7 +1227,8 @@
       "download": null,
       "relatedResources": [],
       "sourceNotes": "<p>Catalogue summary links to the existing <a href=\"https://www.mikeye.com/intelligence\">canonical publication</a>. Original content, publication date, and URL are preserved. Catalogue inclusion does not constitute a new review of underlying financial assumptions.</p>",
-      "evidenceType": "reference"
+      "evidenceType": "reference",
+      "recommendation": "Five short decision frames (judgment, dependency, timing, signal and scarcity) for framing an M&A or investment decision before running the numbers."
     },
     {
       "id": "exit-valuation",
@@ -1168,7 +1247,8 @@
       "download": null,
       "relatedResources": [],
       "sourceNotes": "<p>Catalogue summary links to the existing <a href=\"https://www.mikeye.com/exit/valuation\">canonical publication</a>. Original content, publication date, and URL are preserved. Catalogue inclusion does not constitute a new review of underlying financial assumptions.</p>",
-      "evidenceType": "reference"
+      "evidenceType": "reference",
+      "recommendation": "A free online calculator that gives business owners an indicative value range today and after common fixes."
     }
   ],
   "transactionPath": {
