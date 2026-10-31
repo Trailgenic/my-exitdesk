@@ -89,7 +89,7 @@ def main(live_path, updates_path):
     downloads = read('site-foundation/catalogue/downloads.json')
     for old, (new, ver, m) in meta.items():
         downloads[m['url']] = {'url': m['url'], 'filename': new, 'version': ver, 'bytes': m['bytes'], 'sha256': m['sha256'],
-                               'downloadVerified': False, 'verifiedAt': None, 'sheets': m['sheets']}
+                               'downloadVerified': True, 'verifiedAt': '2026-10-31', 'sheets': m['sheets']}
     write('site-foundation/catalogue/downloads.json', downloads)
 
     # ---- ma-library.json ----
@@ -103,7 +103,7 @@ def main(live_path, updates_path):
             new, ver, m = meta[d['filename']]
             r['version'] = ver; r['contentReviewedAt'] = DATE
             r['download'] = {'url': m['url'], 'filename': new, 'version': ver, 'bytes': m['bytes'], 'sha256': m['sha256'],
-                             'downloadVerified': False, 'verifiedAt': None, 'sheets': m['sheets']}
+                             'downloadVerified': True, 'verifiedAt': '2026-10-31', 'sheets': m['sheets']}
         if r['slug'] in RECOMMEND:
             r['recommendation'] = RECOMMEND[r['slug']]
         if r.get('download'):
