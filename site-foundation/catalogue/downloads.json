@@ -620,5 +620,20 @@
       "Checks",
       "Source Inputs"
     ]
+  },
+  "https://my-exitdesk.vercel.app/resources/MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx": {
+    "url": "https://my-exitdesk.vercel.app/resources/MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx",
+    "filename": "MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx",
+    "version": "1.2",
+    "bytes": 123354,
+    "sha256": "4d42f3b5e89bc4eebbfa891cc3f831795e20e19f5c9bb64ad772374d6e557759",
+    "downloadVerified": true,
+    "verifiedAt": "2026-10-31",
+    "sheets": [
+      "Dashboard",
+      "Controls",
+      "Peer data",
+      "Guide"
+    ]
   }
 }

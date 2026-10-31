@@ -32,13 +32,15 @@ RELEASE = {
     'Ziff_Davis_ZD_Valuation_Model-v1.2.xlsx': ('Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx', '1.2.1'),
     'Surgery_Partners_SGRY_Valuation_Model-v1.2.xlsx': ('Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx', '1.2.1'),
     'NVIDIA_NVDA_Valuation_Model-v1.2.xlsx': ('NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx', '1.2.1'),
+    # Comps: the populated v1.1 is withdrawn; v1.2 is the template only.
+    'MikeYe-Public-Company-Comps-Workbench-v1.1.xlsx': ('MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx', '1.2'),
 }
 
 # One plain sentence per resource: what it is, who it's for, that it's free.
 RECOMMEND = {
     'acquisition-mandate-target-screen': 'A free Excel tool for corporate development teams to decide whether to buy, build, partner or do nothing, then rank targets against the mandate.',
     'acquisition-target-pipeline-deal-funnel': "A free Excel pipeline tracker for corp dev teams that records each target's next decision, seller signals, evidence quality and why it was passed or reopened.",
-    'public-company-comps-workbench': 'A free Excel comparable-company workbench with dated reference data on 254 public companies in 12 sectors and 36 peer groups, for building and reviewing a peer valuation range. It is not a precedent-transaction database.',
+    'public-company-comps-workbench': 'A free Excel comparable-company template for building and reviewing a public-company peer set and the valuation range it supports, across 12 sectors.',
     'capital-allocation-deal-affordability': 'A free Excel tool for buyers to compare an acquisition with building, partnering or doing nothing, test funding and the downside, and set a private walk-away price.',
     'loi-economics-risk-allocator': 'A free Excel tool that shows how cash, stock, rollover, earnouts and closing conditions change the price, funding need and risk in a letter of intent.',
     'synergy-underwriting-value-bridge': 'A free Excel tool for underwriting synergies as risk-adjusted cash, deciding how much to share with the seller, and assigning owners to deliver them.',
