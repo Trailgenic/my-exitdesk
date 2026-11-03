@@ -635,5 +635,41 @@
       "Peer data",
       "Guide"
     ]
+  },
+  "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae93a7e5ef39214d025d2d0_Anthropic_ANT_Hybrid_Model_v1.3.3.xlsx": {
+    "filename": "Anthropic_ANT_Hybrid_Model_v1.3.3.xlsx",
+    "url": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae93a7e5ef39214d025d2d0_Anthropic_ANT_Hybrid_Model_v1.3.3.xlsx",
+    "version": "1.3.3",
+    "bytes": 311921,
+    "sha256": "62eff02ba0fc41b5ace0416c31ad177a644d24ee7e240770d838c2f7b1354d8d",
+    "downloadVerified": true,
+    "verifiedAt": "2026-11-02",
+    "sheets": [
+      "Read Me",
+      "Summary",
+      "Change Log",
+      "Historicals",
+      "Inputs",
+      "Bear",
+      "Base",
+      "Bull",
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "T21",
+      "T25",
+      "T28",
+      "S7",
+      "S8",
+      "S8E",
+      "S8L",
+      "S9",
+      "S10",
+      "Stress Tests"
+    ],
+    "assetId": "6ae93a7e5ef39214d025d2d0"
   }
 }

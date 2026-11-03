@@ -1,6 +1,11 @@
 [
   {
     "id": "6a9f3a7d2148e9081ffed5ea",
+    "siteId": "69499e76d9c11f22288abc28",
+    "localeId": "69f3a41de5b105723d8fe43d",
+    "effectiveLocaleId": "69f3a41de5b105723d8fe43d",
+    "publishedPath": "/tools-and-models",
+    "lastUpdated": "2026-10-31T22:20:04.643Z",
     "jsonLdSchema": {
       "@context": "https://schema.org",
       "@graph": [
@@ -24,7 +29,7 @@
         {
           "@type": "ItemList",
           "@id": "https://www.mikeye.com/tools-and-models#resources",
-          "numberOfItems": 21,
+          "numberOfItems": 22,
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -171,6 +176,13 @@
               "position": 21,
               "item": {
                 "@id": "https://www.mikeye.com/ma-resources/anthropic-hybrid-valuation-model#resource"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 22,
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model#resource"
               }
             }
           ]
@@ -693,28 +705,75 @@
           "publisher": {
             "@id": "https://www.mikeye.com/#person"
           },
-          "version": "1.3.1",
+          "version": "1.3.3",
           "datePublished": "2026-10-26",
-          "dateModified": "2026-10-26",
+          "dateModified": "2026-11-02",
           "isAccessibleForFree": true,
           "inLanguage": "en-US",
           "learningResourceType": "Illustrative valuation scenario model",
           "teaches": "Test the operating, cash, financing and dilution assumptions needed to support a reference equity valuation.",
-          "citation": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+          "citation": [
+            "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+            "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+          ],
           "encoding": {
             "@type": "MediaObject",
-            "name": "Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
-            "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a0a0468ea1e0e28a8_Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
+            "name": "Anthropic_ANT_Hybrid_Model_v1.3.3.xlsx",
+            "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae93a7e5ef39214d025d2d0_Anthropic_ANT_Hybrid_Model_v1.3.3.xlsx",
             "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "contentSize": "231301 bytes",
-            "sha256": "4291e8f5a866a9f2579e16ffbb359ad09d8a814ce6d5ecd044789e7bf0eb7f0e"
+            "contentSize": "311921 bytes",
+            "sha256": "62eff02ba0fc41b5ace0416c31ad177a644d24ee7e240770d838c2f7b1354d8d"
+          }
+        },
+        {
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "@id": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model#resource",
+          "url": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model",
+          "name": "SpaceX × Tesla: Who Wins in an All-Stock Merger?",
+          "description": "An illustrative Excel merger model testing standalone value, synergies, financing, dilution and voting control in a hypothetical SpaceX–Tesla all-stock deal.",
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "version": "1.2.2",
+          "datePublished": "2026-10-26",
+          "dateModified": "2026-10-26",
+          "isAccessibleForFree": true,
+          "inLanguage": "en-US",
+          "learningResourceType": "Illustrative merger scenario model",
+          "teaches": "How much value would a hypothetical SpaceX–Tesla merger create, and how would the premium, financing and share exchange divide it?",
+          "citation": [
+            "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+            "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+            "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+            "https://www.sec.gov/Archives/edgar/data/1318605/000110465925108602/tm2530188d1_ex4-4.htm"
+          ],
+          "encoding": {
+            "@type": "MediaObject",
+            "name": "SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+            "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a68fcc0b93f8caee5_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": "278978 bytes",
+            "sha256": "424056ef5787c6fe41a1999ed7c9d55c5df18d045ae6864b29f61e9bb76e0aa0"
           }
         }
       ]
-    }
+    },
+    "rawJsonLdSchema": null,
+    "isInherited": false
   },
   {
     "id": "6a9f20d0a616017e7bdf9a95",
+    "siteId": "69499e76d9c11f22288abc28",
+    "localeId": "69f3a41de5b105723d8fe43d",
+    "effectiveLocaleId": "69f3a41de5b105723d8fe43d",
+    "publishedPath": "/m-and-a",
+    "lastUpdated": "2026-10-31T22:20:14.800Z",
     "jsonLdSchema": {
       "@context": "https://schema.org",
       "@graph": [
@@ -738,7 +797,7 @@
         {
           "@type": "ItemList",
           "@id": "https://www.mikeye.com/m-and-a#resources",
-          "numberOfItems": 26,
+          "numberOfItems": 27,
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -920,6 +979,13 @@
               "position": 26,
               "item": {
                 "@id": "https://www.mikeye.com/ma-resources/anthropic-hybrid-valuation-model#resource"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 27,
+              "item": {
+                "@id": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model#resource"
               }
             }
           ]
@@ -1905,24 +1971,66 @@
           "publisher": {
             "@id": "https://www.mikeye.com/#person"
           },
-          "version": "1.3.1",
+          "version": "1.3.3",
           "datePublished": "2026-10-26",
-          "dateModified": "2026-10-26",
+          "dateModified": "2026-11-02",
           "isAccessibleForFree": true,
           "inLanguage": "en-US",
           "learningResourceType": "Illustrative valuation scenario model",
           "teaches": "Test the operating, cash, financing and dilution assumptions needed to support a reference equity valuation.",
-          "citation": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+          "citation": [
+            "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+            "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+          ],
           "encoding": {
             "@type": "MediaObject",
-            "name": "Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
-            "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a0a0468ea1e0e28a8_Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
+            "name": "Anthropic_ANT_Hybrid_Model_v1.3.3.xlsx",
+            "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae93a7e5ef39214d025d2d0_Anthropic_ANT_Hybrid_Model_v1.3.3.xlsx",
             "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "contentSize": "231301 bytes",
-            "sha256": "4291e8f5a866a9f2579e16ffbb359ad09d8a814ce6d5ecd044789e7bf0eb7f0e"
+            "contentSize": "311921 bytes",
+            "sha256": "62eff02ba0fc41b5ace0416c31ad177a644d24ee7e240770d838c2f7b1354d8d"
+          }
+        },
+        {
+          "@type": [
+            "CreativeWork",
+            "LearningResource"
+          ],
+          "@id": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model#resource",
+          "url": "https://www.mikeye.com/ma-resources/spacex-tesla-merger-model",
+          "name": "SpaceX × Tesla: Who Wins in an All-Stock Merger?",
+          "description": "An illustrative Excel merger model testing standalone value, synergies, financing, dilution and voting control in a hypothetical SpaceX–Tesla all-stock deal.",
+          "author": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "publisher": {
+            "@id": "https://www.mikeye.com/#person"
+          },
+          "version": "1.2.2",
+          "datePublished": "2026-10-26",
+          "dateModified": "2026-10-26",
+          "isAccessibleForFree": true,
+          "inLanguage": "en-US",
+          "learningResourceType": "Illustrative merger scenario model",
+          "teaches": "How much value would a hypothetical SpaceX–Tesla merger create, and how would the premium, financing and share exchange divide it?",
+          "citation": [
+            "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+            "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+            "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+            "https://www.sec.gov/Archives/edgar/data/1318605/000110465925108602/tm2530188d1_ex4-4.htm"
+          ],
+          "encoding": {
+            "@type": "MediaObject",
+            "name": "SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+            "contentUrl": "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a68fcc0b93f8caee5_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": "278978 bytes",
+            "sha256": "424056ef5787c6fe41a1999ed7c9d55c5df18d045ae6864b29f61e9bb76e0aa0"
           }
         }
       ]
-    }
+    },
+    "rawJsonLdSchema": null,
+    "isInherited": false
   }
 ]
