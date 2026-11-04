@@ -1,0 +1,39 @@
+name: Site content
+on:
+  pull_request:
+    paths:
+      - 'site-src/**'
+      - 'scripts/site/**'
+      - 'public/_site/**'
+      - 'public/sitemap.xml'
+  push:
+    branches: [main]
+    paths:
+      - 'site-src/**'
+      - 'scripts/site/**'
+      - 'public/_site/**'
+      - 'public/sitemap.xml'
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generated pages match their entries
+        run: python3 scripts/site/build.py --check
+      - name: Structured data on every page is valid JSON
+        run: |
+          python3 - <<'EOF'
+          import json, pathlib, re, sys
+          bad = 0
+          for f in pathlib.Path("public/_site").rglob("index.html"):
+              for block in re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', f.read_text(), re.S):
+                  try:
+                      json.loads(block)
+                  except Exception as e:
+                      bad += 1
+                      print(f"{f}: {e}")
+          sys.exit(1 if bad else 0)
+          EOF

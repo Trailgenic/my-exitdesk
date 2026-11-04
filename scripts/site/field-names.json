@@ -1,0 +1,10 @@
+{
+  "glossary": {"meta_description": "summary", "description": "summary_schema", "gloss_term_body_3": "definition",
+               "gloss_term_body_2": "what_it_means", "gloss_term_body": "buyers_lens", "w_richtext": "related"},
+  "podcast": {"seo_title": "title", "ep_summary": "summary", "date_published": "date_published", "ep_date": "display_date",
+              "same_as": "spotify_url", "src": "player_url", "time_required": "duration", "w_richtext": "transcript"},
+  "ma-topics": {"meta_description": "summary", "teaches": "decision_question", "my2_rich": "guide"},
+  "ma-resources": {"description": "summary", "teaches": "decision_question", "content_url": "download_url",
+                   "name_2": "download_name", "my2_status": "format", "my2_rich": "methodology",
+                   "field_2": "judgment", "field": "form_variant"}
+}

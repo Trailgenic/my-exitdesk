@@ -24,7 +24,7 @@ import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SNAP = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "migration-snapshot"
+SNAP = next((Path(a) for a in sys.argv[1:] if not a.startswith("--")), ROOT / "migration-snapshot")
 PUBLIC = ROOT / "public"
 SITE_OUT = PUBLIC / "_site"
 ASSET_OUT = PUBLIC / "assets" / "webflow"
@@ -99,6 +99,9 @@ def port_html(text: str) -> str:
 
 
 def main():
+    if "--force" not in sys.argv:
+        sys.exit("Migration step already done (2026-11-04). The site is now edited in this repo; "
+                 "re-running would overwrite it from the Webflow snapshot. Use --force only to start over.")
     manifest = json.loads((SNAP / "manifest.json").read_text())
 
     if SITE_OUT.exists():
