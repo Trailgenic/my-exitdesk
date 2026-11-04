@@ -1,11 +1,6 @@
 name: Live site snapshot (Webflow to Vercel migration)
+# Run by hand (Actions tab > Run workflow) to refresh the snapshot.
 on:
-  push:
-    branches:
-      - migration/live-snapshot
-    paths:
-      - 'scripts/migration/**'
-      - '.github/workflows/migration-snapshot.yml'
   workflow_dispatch:
 permissions:
   contents: write

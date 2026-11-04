@@ -22,7 +22,20 @@ const nextConfig = {
         destination: "/exit/score",
         permanent: true,
       },
+      // The site's pages live in public/_site; keep that folder out of public addresses.
+      { source: "/_site/index.html", destination: "/", permanent: true },
+      { source: "/_site/:path*/index.html", destination: "/:path*", permanent: true },
     ];
+  },
+  // mikeye.com pages (formerly hosted on Webflow) are static HTML in public/_site.
+  // Real routes and files (API, /assets, llms.txt, ...) take priority; any other
+  // address is served from the matching page, or the 404 page if none exists.
+  async rewrites() {
+    return {
+      beforeFiles: [{ source: "/", destination: "/_site/index.html" }],
+      afterFiles: [],
+      fallback: [{ source: "/:path+", destination: "/_site/:path+/index.html" }],
+    };
   },
 };
 export default nextConfig;

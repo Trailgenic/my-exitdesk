@@ -1,0 +1,9 @@
+# mikeye.com | robots.txt
+# Purpose: Allow discovery of Mike Ye's public M&A resources and tools.
+# Domain: https://www.mikeye.com/
+# Last updated: 2026-09-11
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.mikeye.com/sitemap.xml
