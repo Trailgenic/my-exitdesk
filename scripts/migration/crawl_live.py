@@ -31,7 +31,8 @@ ASSET_HOSTS = {
     "my-exitdesk.vercel.app",
 }
 UA = "mikeye-migration-snapshot/1.0"
-MAX_PAGES = 800
+MAX_PAGES = 600
+DEADLINE = time.time() + 22 * 60
 
 # Every published path known from the Webflow API on 2026-11-04, plus files
 # that live at the site root. The crawler also follows links and the sitemap.
@@ -59,7 +60,7 @@ SEED_PATHS = [
 ]
 
 
-def fetch(url: str, follow: bool = True, tries: int = 3):
+def fetch(url: str, follow: bool = True, tries: int = 2):
     """Return (status, headers, body, final_url). Never raises on HTTP errors."""
     class NoRedirect(urllib.request.HTTPRedirectHandler):
         def redirect_request(self, *a, **k):
@@ -68,14 +69,19 @@ def fetch(url: str, follow: bool = True, tries: int = 3):
     opener = urllib.request.build_opener() if follow else urllib.request.build_opener(NoRedirect)
     last_err = None
     for attempt in range(tries):
+        t0 = time.time()
         req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "identity"})
         try:
-            with opener.open(req, timeout=60) as r:
-                return r.status, dict(r.headers), r.read(), r.geturl()
+            with opener.open(req, timeout=20) as r:
+                body = r.read()
+                print(f"  {r.status} {url} ({len(body)}b, {time.time()-t0:.1f}s)", flush=True)
+                return r.status, dict(r.headers), body, r.geturl()
         except urllib.error.HTTPError as e:
+            print(f"  {e.code} {url}", flush=True)
             return e.code, dict(e.headers or {}), e.read() if e.fp else b"", url
         except Exception as e:  # network hiccup
             last_err = e
+            print(f"  ERR {url}: {e!r} after {time.time()-t0:.1f}s", flush=True)
             time.sleep(2 * (attempt + 1))
     return 0, {"error": repr(last_err)}, b"", url
 
@@ -144,7 +150,7 @@ def main():
         for loc in re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", body.decode("utf-8", "replace")):
             queue.append(urllib.parse.urlparse(loc).path or "/")
 
-    while queue and len(seen_pages) < MAX_PAGES:
+    while queue and len(seen_pages) < MAX_PAGES and time.time() < DEADLINE:
         path = queue.pop(0)
         path = path.split("#")[0]
         if not path.startswith("/"):
@@ -197,7 +203,7 @@ def main():
     # Download assets; scan CSS and JS for further asset references.
     pending = sorted(asset_urls)
     done: set[str] = set()
-    while pending:
+    while pending and time.time() < DEADLINE:
         aurl = pending.pop(0)
         if aurl in done:
             continue
