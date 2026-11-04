@@ -2,7 +2,8 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 // Native site forms that Webflow used to collect. Each submission is emailed
-// to SITE_FORM_NOTIFY_TO with the visitor's address as the reply-to.
+// to mike@mikeye.com (override with SITE_FORM_NOTIFY_TO) with the visitor's
+// address as the reply-to.
 const FORMS = new Set(["Acquisition Lens Request", "Library Updates"]);
 const HONEYPOT = "company_website";
 const MAX_FIELDS = 20;
@@ -45,10 +46,10 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Valid email required" }, { status: 400 });
   }
 
-  const to = process.env.SITE_FORM_NOTIFY_TO;
+  const to = process.env.SITE_FORM_NOTIFY_TO || "mike@mikeye.com";
   const apiKey = process.env.RESEND_API_KEY;
-  if (!to || !apiKey) {
-    console.error("site-form: SITE_FORM_NOTIFY_TO or RESEND_API_KEY is not set");
+  if (!apiKey) {
+    console.error("site-form: RESEND_API_KEY is not set");
     return NextResponse.json({ error: "Form temporarily unavailable" }, { status: 503 });
   }
 
