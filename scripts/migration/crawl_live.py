@@ -95,6 +95,8 @@ class LinkParser(HTMLParser):
         for name, value in attrs:
             if not value:
                 continue
+            if name == "content" and not value.startswith(("http://", "https://", "/")):
+                continue  # meta descriptions and titles, not links
             if name in ("href", "src", "content", "data-src", "poster"):
                 self.links.append(value)
             elif name == "srcset":
@@ -153,7 +155,7 @@ def main():
     while queue and len(seen_pages) < MAX_PAGES and time.time() < DEADLINE:
         path = queue.pop(0)
         path = path.split("#")[0]
-        if not path.startswith("/"):
+        if not path.startswith("/") or re.search(r"\s", path):
             continue
         if path in seen_pages:
             continue
