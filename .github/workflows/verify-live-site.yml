@@ -1,0 +1,19 @@
+name: Verify live mikeye.com
+# Run by hand after a DNS or hosting change: checks every page, link,
+# download, redirect and the 404 page on the live site.
+on:
+  workflow_dispatch:
+    inputs:
+      base:
+        description: Site to check
+        default: https://www.mikeye.com
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -u scripts/migration/verify_port.py "${{ inputs.base }}"
