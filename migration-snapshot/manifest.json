@@ -1,0 +1,1360 @@
+{
+  "assets": {
+    "https://cdn.prod.website-files.com": {
+      "bytes": 263,
+      "contentType": "application/xml",
+      "status": 403
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6949e39e0d2b09fe7005bb61_favicon-32x32.png": {
+      "bytes": 1219,
+      "contentType": "image/png",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/6949e39e0d2b09fe7005bb61_favicon-32x32.png",
+      "sha256": "cc50870a9902c0ef78170c92e8330be2ee08490e1ab0d4427d19a1d4adf12e8c",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6949e5995ca9fcebdc5e9c9e_android-chrome-512x512.jpg": {
+      "bytes": 3244,
+      "contentType": "image/jpeg",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/6949e5995ca9fcebdc5e9c9e_android-chrome-512x512.jpg",
+      "sha256": "756635636b5f45341dde6b53cfef031faa65dfef9f799a3cdc3af18a64a9587e",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/69c5c110700b43ddb283e090_Mike%20Ye%20B%26W.png": {
+      "bytes": 99201,
+      "contentType": "image/png",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/69c5c110700b43ddb283e090_Mike Ye B&W.png",
+      "sha256": "f3fb3bc2a4b07aa144def09c476f0232e6b8697c1fa298fc9c246ad89d89f031",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/69ef96b95dd9b0b6c21ff595_Exit%20Desk%20Hero.png": {
+      "bytes": 787634,
+      "contentType": "image/png",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/69ef96b95dd9b0b6c21ff595_Exit Desk Hero.png",
+      "sha256": "d0a907d94035240501e7eef9c117080c6cfede514b93f17e3e6088704717c758",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/69f3b1e478b59e8cddef4d9f_file_00000000d39471f5bc43038204b0778d.png": {
+      "bytes": 1340421,
+      "contentType": "image/png",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/69f3b1e478b59e8cddef4d9f_file_00000000d39471f5bc43038204b0778d.png",
+      "sha256": "73407968345bd0e20d6e390e8c329c14ff17898419cd09f732317cb48833b435",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/69f917f2d65b708c454de20b_file_00000000b4a471fdb7a8520b3817ae07.png": {
+      "bytes": 2276852,
+      "contentType": "image/png",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/69f917f2d65b708c454de20b_file_00000000b4a471fdb7a8520b3817ae07.png",
+      "sha256": "3d88e53139495032f2a4b90468ca7d8112304eca102c6909c8b51c6fab8e54ca",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa3118be7d8bb3bee10243f_MikeYe-Acquisition-Target-Pipeline-Deal-Funnel-v1.0.xlsx": {
+      "bytes": 58035,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/6aa3118be7d8bb3bee10243f_MikeYe-Acquisition-Target-Pipeline-Deal-Funnel-v1.0.xlsx",
+      "sha256": "5dcf16183de7b72f4e55a2e5b980da8a1fb5a29290df286a4f5555cf023fa702",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a0a0468ea1e0e28a8_Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx": {
+      "bytes": 231301,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a0a0468ea1e0e28a8_Anthropic_ANT_Hybrid_Model_v1.3.1.xlsx",
+      "sha256": "4291e8f5a866a9f2579e16ffbb359ad09d8a814ce6d5ecd044789e7bf0eb7f0e",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a68fcc0b93f8caee5_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx": {
+      "bytes": 278978,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae0423a68fcc0b93f8caee5_SpaceX_Tesla_Merger_Model_v1.2.2.xlsx",
+      "sha256": "424056ef5787c6fe41a1999ed7c9d55c5df18d045ae6864b29f61e9bb76e0aa0",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae93a7e5ef39214d025d2d0_Anthropic_ANT_Hybrid_Model_v1.3.3.xlsx": {
+      "bytes": 311921,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/6ae93a7e5ef39214d025d2d0_Anthropic_ANT_Hybrid_Model_v1.3.3.xlsx",
+      "sha256": "62eff02ba0fc41b5ace0416c31ad177a644d24ee7e240770d838c2f7b1354d8d",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/css/mike-ye.webflow.shared.675a2fff6.css": {
+      "bytes": 110310,
+      "contentType": "text/css",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/css/mike-ye.webflow.shared.675a2fff6.css",
+      "sha256": "77b0f6aa3793a7ce58fea0d93b6b36eecfd56769ed1e7dd20315877c020ab296",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/js/webflow.751e0867.148dc658e77a3916.js": {
+      "bytes": 1062,
+      "contentType": "text/javascript",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/js/webflow.751e0867.148dc658e77a3916.js",
+      "sha256": "bb4c0003021f8855c2d9103c5436247c47b3a969b7d7607714e7451f40304549",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/js/webflow.a0aa6ca1.38bff8ac21973156.js": {
+      "bytes": 10534,
+      "contentType": "text/javascript",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/js/webflow.a0aa6ca1.38bff8ac21973156.js",
+      "sha256": "9b01dbf07322679933d3d75b8232d68a382f606210f90e8c04abcb27b66ff9d7",
+      "status": 200
+    },
+    "https://cdn.prod.website-files.com/69499e76d9c11f22288abc28/js/webflow.schunk.7321a5097fb66f41.js": {
+      "bytes": 35992,
+      "contentType": "text/javascript",
+      "file": "assets/cdn.prod.website-files.com/69499e76d9c11f22288abc28/js/webflow.schunk.7321a5097fb66f41.js",
+      "sha256": "52929dca1ed69df4a7f6168cb47958dc07be27550be8031f73815d1a31a6892a",
+      "status": 200
+    },
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69499e76d9c11f22288abc28": {
+      "bytes": 89476,
+      "contentType": "application/javascript",
+      "file": "assets/d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js__c1db1d4e",
+      "sha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/api/create-checkout-session": {
+      "bytes": 0,
+      "contentType": null,
+      "status": 405
+    },
+    "https://my-exitdesk.vercel.app/api/generate-report": {
+      "bytes": 0,
+      "contentType": null,
+      "status": 405
+    },
+    "https://my-exitdesk.vercel.app/api/subscribe": {
+      "bytes": 0,
+      "contentType": null,
+      "status": 405
+    },
+    "https://my-exitdesk.vercel.app/api/verify-session?session_id=": {
+      "bytes": 31,
+      "contentType": "application/json",
+      "status": 400
+    },
+    "https://my-exitdesk.vercel.app/datasets/ma-library.json": {
+      "bytes": 65966,
+      "contentType": "application/json; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/datasets/ma-library.json",
+      "sha256": "2f580857e365bd50fc0fa0ad8432fa30d9dce4e054871a5237ffcd714339ee02",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/exit-campaign.js": {
+      "bytes": 5804,
+      "contentType": "text/html; charset=utf-8",
+      "status": 404
+    },
+    "https://my-exitdesk.vercel.app/exit-checkout-native-v2.js": {
+      "bytes": 8350,
+      "contentType": "application/javascript; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/exit-checkout-native-v2.js",
+      "sha256": "9138b85c184c15ee4f853cbe1c67b4fe508f527f52e5a6f195689367835268b7",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/exit-desk-form.js": {
+      "bytes": 8131,
+      "contentType": "application/javascript; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/exit-desk-form.js",
+      "sha256": "c820c1f4dbf8a52a9b7aedd9409c716ed7af4ac91c8b8dbdfc130b8abe746eb6",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/exit-funnel-native-v1.css?v=1.0.1": {
+      "bytes": 27662,
+      "contentType": "text/css; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/exit-funnel-native-v1.css__27211dc9",
+      "sha256": "b4b04bfa431fbcaf0e6b9c542a7ca0d5f00a0f037016f1a324ac8909194a8dd2",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/exit-score-native-v2.js": {
+      "bytes": 67763,
+      "contentType": "application/javascript; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/exit-score-native-v2.js",
+      "sha256": "6c87c10eae6e37aa51d6147de89248649fe00cdeb9957b2925125db66a2cb634",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/exit-valuation-content.js": {
+      "bytes": 18937,
+      "contentType": "application/javascript; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/exit-valuation-content.js",
+      "sha256": "60653cb5a7b47a0f324eb44d6464fe38b09affc5157187b000b0f18cf64ad662",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/llms.txt": {
+      "bytes": 13009,
+      "contentType": "text/plain; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/llms.txt",
+      "sha256": "7637a7fe08010e2a42253534855b936fb4843f73c4659deea6b843efffb04e44",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/ontology.json": {
+      "bytes": 86592,
+      "contentType": "application/ld+json; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/ontology.json",
+      "sha256": "b0b54575380be40059ee15905e9c3cdb88a89c5287d244a72c392c56493aa2c7",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/Acquisition-Lens-Sample-Buyer-Memo.pdf": {
+      "bytes": 136416,
+      "contentType": "application/pdf",
+      "file": "assets/my-exitdesk.vercel.app/resources/Acquisition-Lens-Sample-Buyer-Memo.pdf",
+      "sha256": "4cb2ac86ecc54cbbbd11efb0079f55bc7f35c32c975e553773d964b1b2fdbc13",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx": {
+      "bytes": 97406,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx",
+      "sha256": "5f0123b06e577210df4732f2b22d6c6663127de4c8c0d6289d601f255704fcf7",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx": {
+      "bytes": 88155,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx",
+      "sha256": "de53062d576b6830478ae777d964c973d88197496b98dd414702e1c83b2d383d",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx": {
+      "bytes": 58449,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx",
+      "sha256": "01b9c72f828f1659eb0093e0bd4ec10a879207baa828fdd8b016464b7120810f",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx": {
+      "bytes": 74465,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+      "sha256": "ac112844a858a5e81b1211702e3b87c76d05981b7a2c554d2f60da26f80269d7",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx": {
+      "bytes": 51471,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx",
+      "sha256": "79ad2c62d7d6996abf2e8bd81699abfa21baf90cca119fc5965aa4212a5c8747",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx": {
+      "bytes": 50642,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx",
+      "sha256": "71eb89a7954033c34b3c94ae9230b3d5dbca97c96d664ebd67c800caaa23ad1a",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx": {
+      "bytes": 48746,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx",
+      "sha256": "82dad2b046fe980c6bf82f8c0b3937ae83494e878d43cf8e3ce2da572ca95745",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx": {
+      "bytes": 15889,
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx",
+      "sha256": "9607482f6360262f91506bf14f3a90bbf3edc54ab7c5fbd118dc3ff0a8745ba2",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md": {
+      "bytes": 6620,
+      "contentType": "text/markdown; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.md",
+      "sha256": "17e1ef976f485a2ea143d5927871e9d54636399c3d76ce19287092ade5427ebf",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-NVIDIA-Hugging-Face-IC-Memo-Worked-Example-v1.0.md": {
+      "bytes": 16190,
+      "contentType": "text/markdown; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-NVIDIA-Hugging-Face-IC-Memo-Worked-Example-v1.0.md",
+      "sha256": "1a877dd14ae0bf40caf98d24f98d6cade6155c82e9695caa42294d7011d54717",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx": {
+      "bytes": 48834,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx",
+      "sha256": "012d3fc21f120a82ed3894bf319603c7837ecdf5f2d65a29cf64dbeea98b9769",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx": {
+      "bytes": 123354,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx",
+      "sha256": "4d42f3b5e89bc4eebbfa891cc3f831795e20e19f5c9bb64ad772374d6e557759",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx": {
+      "bytes": 135392,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx",
+      "sha256": "a6a0906425c4736ef5c143f1d825cf1b5ddb044c0d5ae46c5468e3745d2080ab",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx": {
+      "bytes": 90528,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx",
+      "sha256": "f8a113b35180756238308425d2c00672cec87d9a02588cbba54a2b79c14908fb",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.1.xlsx": {
+      "bytes": 89522,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.1.xlsx",
+      "sha256": "ba5cc0b282e9a5886c234530da263dff8a326676dcea1d3103881ecbf15f4c5c",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx": {
+      "bytes": 90370,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx",
+      "sha256": "73ada279067776c91c3330b3a4d563f3827152af035fcc75552dc488c6eb8b70",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx": {
+      "bytes": 85548,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file": "assets/my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx",
+      "sha256": "4a433050e27988d67079f8b403bbba8de3b4d6996fb2c9bf0e05f6628d2bd05d",
+      "status": 200
+    },
+    "https://my-exitdesk.vercel.app/webmcp-exit-readiness.js": {
+      "bytes": 8468,
+      "contentType": "application/javascript; charset=utf-8",
+      "file": "assets/my-exitdesk.vercel.app/webmcp-exit-readiness.js",
+      "sha256": "1461b8f098bbaec9ea13bfed57c0fd481ac70e72ba1797dc7e4d09e6f1dcfefb",
+      "status": 200
+    }
+  },
+  "fetchedAt": "2026-11-04T19:48:20Z",
+  "hostChecks": {
+    "http://mikeye.com/": {
+      "location": "https://mikeye.com/",
+      "status": 301
+    },
+    "http://www.mikeye.com/": {
+      "location": "https://www.mikeye.com/",
+      "status": 301
+    },
+    "https://mikeye.com/": {
+      "location": "https://www.mikeye.com/",
+      "status": 301
+    },
+    "https://www.mikeye.com/About": {
+      "location": null,
+      "status": 404
+    },
+    "https://www.mikeye.com/exit/": {
+      "location": "https://www.mikeye.com/exit",
+      "status": 301
+    }
+  },
+  "origin": "https://www.mikeye.com",
+  "pages": {
+    "/": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/index.html",
+      "location": null,
+      "sha256": "e0b74e4df528ece4159de2fc5f981b561411697ccc0e45d2f0d9f221105f7042",
+      "status": 200
+    },
+    "/.well-known/llms.txt": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "root/.well-known/llms.txt",
+      "location": null,
+      "sha256": "62b6eec5bc825126a7b9734e03ff00c9dc7899f3f07111746bf583d193b44dd0",
+      "status": 404
+    },
+    "/about": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/about/index.html",
+      "location": null,
+      "sha256": "b5351d803eb023399847d9165d50ce817be4ffbe70c2b23eb36060ee9ab2cc7d",
+      "status": 200
+    },
+    "/about/record": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/about/record/index.html",
+      "location": null,
+      "sha256": "fc73a3afe2f49c41347aa2377b1b13f8cb6b977109011800fea0b2a5902daff6",
+      "status": 200
+    },
+    "/acquisition-lens": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/acquisition-lens/index.html",
+      "location": null,
+      "sha256": "f4682aa7f77837cbd26ab3b73e75037dd7b443d155a1ee999dbc1a399713d105",
+      "status": 200
+    },
+    "/digital-discovery-equity": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/digital-discovery-equity/index.html",
+      "location": null,
+      "sha256": "7a738a400fa3f63fa935b5f73f8635f01fac1c8125832b72b81aa0e9ae2349c1",
+      "status": 200
+    },
+    "/ella": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ella/index.html",
+      "location": null,
+      "sha256": "9ab91eb092b82172cb3eac81fde644502b58361ef04d3824d174f04c7c36abb7",
+      "status": 200
+    },
+    "/exit": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/index.html",
+      "location": null,
+      "sha256": "20d0036d7c97d6dde2279b1b965ef0fb0bfb1206aa0f9857db17752b364c675e",
+      "status": 200
+    },
+    "/exit-planning-for-estate-attorneys": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit-planning-for-estate-attorneys/index.html",
+      "location": null,
+      "sha256": "c6363ddcbac6ad122a65fa9c4cd5c0fbd8c23b71bd0ca197440488f286ced4d5",
+      "status": 200
+    },
+    "/exit-planning-resources-for-cpas": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit-planning-resources-for-cpas/index.html",
+      "location": null,
+      "sha256": "64ab8ee30f168be8c758effd09a2a74dab460d0e2ec6caa6a3f99829c96de281",
+      "status": 200
+    },
+    "/exit-readiness-for-business-brokers": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit-readiness-for-business-brokers/index.html",
+      "location": null,
+      "sha256": "ede5496cdf7d4cec3970b0f662c4a9e8b2aabd17ffe448c3f942a4a16607cae4",
+      "status": 200
+    },
+    "/exit-readiness-for-financial-advisors": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit-readiness-for-financial-advisors/index.html",
+      "location": null,
+      "sha256": "fac420262dae34c17b8b6b39db3bfcc69302a278f60ca9ba37aba953674080ca",
+      "status": 200
+    },
+    "/exit/articles": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/index.html",
+      "location": null,
+      "sha256": "d78541a2802556ab82fea42cf4228520247ce7331421717b77755fa929fc1b7d",
+      "status": 200
+    },
+    "/exit/articles/ai-impact-on-business-valuation": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/ai-impact-on-business-valuation/index.html",
+      "location": null,
+      "sha256": "12900d30215c0a457ce0c5a53085446e773d56afc4e2570d15884627f33c9b12",
+      "status": 200
+    },
+    "/exit/articles/business-valuation-multiples-explained": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/business-valuation-multiples-explained/index.html",
+      "location": null,
+      "sha256": "343e202540c72b603e55253c9ff0d8da2939eef41f6e5418313cf6e05623b706",
+      "status": 200
+    },
+    "/exit/articles/buzzangle-case-study": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/buzzangle-case-study/index.html",
+      "location": null,
+      "sha256": "d13ea06121c5db901232f4bef1a100db8689fc50fdd1741768ef6591f73558e1",
+      "status": 200
+    },
+    "/exit/articles/exit-readiness-checklist": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/exit-readiness-checklist/index.html",
+      "location": null,
+      "sha256": "7141b2edab1a45f50cbd075d1c3ebd7b96420a3765d9a42c23a9e078f4b43b95",
+      "status": 200
+    },
+    "/exit/articles/founder-dependence-kills-deals": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/founder-dependence-kills-deals/index.html",
+      "location": null,
+      "sha256": "9139518196c83d2579ebd47178ccb24c29d3790a6a8b56fc7494b416be4357ba",
+      "status": 200
+    },
+    "/exit/articles/how-buyers-evaluate-revenue-quality": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/how-buyers-evaluate-revenue-quality/index.html",
+      "location": null,
+      "sha256": "e2a419e1a9d3d7d481fd390193628d932ff90d75534c66d3eae82080444aa33d",
+      "status": 200
+    },
+    "/exit/articles/long-beach-surgical-case-study": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/long-beach-surgical-case-study/index.html",
+      "location": null,
+      "sha256": "bd7c9f84cec4b51868340bbf6f177f5975d795aa8efa337a9b87cb2412605210",
+      "status": 200
+    },
+    "/exit/articles/sourcing-journal-case-study": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/sourcing-journal-case-study/index.html",
+      "location": null,
+      "sha256": "f9c04148591548a4805c286cf3550388c8aa09b9298ac7650934974d1bf6da27",
+      "status": 200
+    },
+    "/exit/articles/what-buyers-actually-look-for": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/what-buyers-actually-look-for/index.html",
+      "location": null,
+      "sha256": "6f77f7f3657d3ca458f9971a73c61767dd7b10b51df73c897d5cb49d633bf84f",
+      "status": 200
+    },
+    "/exit/articles/what-cpas-miss-about-exit-planning": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/what-cpas-miss-about-exit-planning/index.html",
+      "location": null,
+      "sha256": "f101ae957256fc22787c2425ff483d47f717317d8e39011d1b0c64c517a23886",
+      "status": 200
+    },
+    "/exit/articles/when-to-sell-your-business": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/articles/when-to-sell-your-business/index.html",
+      "location": null,
+      "sha256": "750570977a6d0c2296828a3eb8a237ce8093151a639100b1cfa2aa056df7d38d",
+      "status": 200
+    },
+    "/exit/checkout": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/checkout/index.html",
+      "location": null,
+      "sha256": "41fd741e5caaf3829fb6e61cdc9ca83a51c157b3c5319c4412d55d5b77f3703e",
+      "status": 200
+    },
+    "/exit/desk": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/desk/index.html",
+      "location": null,
+      "sha256": "1e8686315c3dfc78c89216df10c15d7b628a4c92cbaee3715e0a72ab0927a031",
+      "status": 200
+    },
+    "/exit/partners": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/partners/index.html",
+      "location": null,
+      "sha256": "12d1874302694801370342cae7bd752cebcefe18c77e680e4ceb88abab7d45dd",
+      "status": 200
+    },
+    "/exit/sample": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/sample/index.html",
+      "location": null,
+      "sha256": "bdfa41b05ca51862962f314a6b4ffb42ef4741e11f96c310ca79d8c307095e82",
+      "status": 200
+    },
+    "/exit/sample/apex-landscape": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/sample/apex-landscape/index.html",
+      "location": null,
+      "sha256": "3191a06290441ab03b5d122c3d9414f6c708a8dd933bc98fa7b24eae703199b3",
+      "status": 200
+    },
+    "/exit/sample/fitwire-daily": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/sample/fitwire-daily/index.html",
+      "location": null,
+      "sha256": "cb81d2f7c467a3ddb88f165b00ed5bef8da2f04264bd7965996e651b29aeafab",
+      "status": 200
+    },
+    "/exit/sample/meridian-advisory": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/sample/meridian-advisory/index.html",
+      "location": null,
+      "sha256": "7f3bd386e04d379ce6b1a1d5bfd2c7c597e3d0f55f593071212b265a83bcc605",
+      "status": 200
+    },
+    "/exit/sample/pinnacle-hvac": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/sample/pinnacle-hvac/index.html",
+      "location": null,
+      "sha256": "2d715085bd41eb3309341d03c0f48838ccb4c80a9814ef4163e0032d39901853",
+      "status": 200
+    },
+    "/exit/score": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/score/index.html",
+      "location": null,
+      "sha256": "637ac8fc8c40ea9465f40e4455bb7027ece4ad1df07724020e6fd4ef8c7b7502",
+      "status": 200
+    },
+    "/exit/story": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/story/index.html",
+      "location": null,
+      "sha256": "02e192e5d1cf2f53eb7a330d6bd7ebd033c38d51f5f5840d68295263def1d5e9",
+      "status": 200
+    },
+    "/exit/success": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/success/index.html",
+      "location": null,
+      "sha256": "c8c3afcfb0257a5dea20671e116dcb7f07e65b6e9879edf3c17116cc5abf4be3",
+      "status": 200
+    },
+    "/exit/valuation": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/exit/valuation/index.html",
+      "location": null,
+      "sha256": "6b9982cb9ae396f0bd10b0899d4271f742b47038f35875ffc52987f28849897d",
+      "status": 200
+    },
+    "/favicon.ico": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "root/favicon.ico",
+      "location": null,
+      "sha256": "90c032f35272ba1a7aa93027ab635e6610d4f24cf9e53c0624d00f065d7c7e7d",
+      "status": 404
+    },
+    "/glossary": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/index.html",
+      "location": null,
+      "sha256": "d3d82637fcfa80ac7434ab23873e4590e61c357fffe4363236421c988435b381",
+      "status": 200
+    },
+    "/glossary/add-backs": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/add-backs/index.html",
+      "location": null,
+      "sha256": "cf66df9c9ab07a7e104c8e540aa577e264bd284c21d4a60b32e5e241829dd84d",
+      "status": 200
+    },
+    "/glossary/ai-exposure-assessment": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/ai-exposure-assessment/index.html",
+      "location": null,
+      "sha256": "f88f69b1f2031703135e3be908f0af235e2ac3d674db62c7e22bb4e39957be40",
+      "status": 200
+    },
+    "/glossary/asset-sale-vs-stock-sale": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/asset-sale-vs-stock-sale/index.html",
+      "location": null,
+      "sha256": "b8f8667650fd4c7c424508052e22e5f30cf9b517442d57ccf28a03c8400a8961",
+      "status": 200
+    },
+    "/glossary/buyer-lens-analysis": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/buyer-lens-analysis/index.html",
+      "location": null,
+      "sha256": "87cd3c3c2594d1baaf22fbd7fc025021d02b1c3e11e4b512e53fea8c15c1df64",
+      "status": 200
+    },
+    "/glossary/buyer-ready-business": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/buyer-ready-business/index.html",
+      "location": null,
+      "sha256": "500e4501e9bcc39e132b35b8f70e34b9e97df0085993bb2b9a530d4387bfcaf0",
+      "status": 200
+    },
+    "/glossary/cim-confidential-information-memorandum": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/cim-confidential-information-memorandum/index.html",
+      "location": null,
+      "sha256": "8e3b9fcd0b283b3c6194f3e86e5452a4dd08cddd13ff307108c93feb19b3c1a2",
+      "status": 200
+    },
+    "/glossary/customer-concentration": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/customer-concentration/index.html",
+      "location": null,
+      "sha256": "d50a9061af8bf40e3d4e647980e57864ed984fefdaaf538632c85a321e950b88",
+      "status": 200
+    },
+    "/glossary/customer-concentration-discount": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/customer-concentration-discount/index.html",
+      "location": null,
+      "sha256": "ce8db04b6579619d1bc28177313b6146a4e30c689da3ab29ecc8fe330435d619",
+      "status": 200
+    },
+    "/glossary/deal-fatigue": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/deal-fatigue/index.html",
+      "location": null,
+      "sha256": "8f3b7a4d826466c7169f2a1584d0475852fbbe84bd5250f1dd3dbca2c978fe48",
+      "status": 200
+    },
+    "/glossary/diligence-pressure-map": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/diligence-pressure-map/index.html",
+      "location": null,
+      "sha256": "eee32dc459480df8791975881c62f50ac3dc4599ce6e6d1c22774724d1bca188",
+      "status": 200
+    },
+    "/glossary/disallowed-add-backs": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/disallowed-add-backs/index.html",
+      "location": null,
+      "sha256": "de9b0c890f0216a1dc916e5ac2ceed64aa9d48240dfe0ac8aeb53ebfd9191a76",
+      "status": 200
+    },
+    "/glossary/dso-and-vertical-roll-ups": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/dso-and-vertical-roll-ups/index.html",
+      "location": null,
+      "sha256": "0a2c635b19d8513d9b0f3115caadc3dd8f03f19615df3ef2cd9e0d61dc774a99",
+      "status": 200
+    },
+    "/glossary/due-diligence": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/due-diligence/index.html",
+      "location": null,
+      "sha256": "3279337e2fca35277a354ec901c525e9dcdf992b5c258e1e3c377d7fa2418b7a",
+      "status": 200
+    },
+    "/glossary/earnout": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/earnout/index.html",
+      "location": null,
+      "sha256": "ae4e388ce6354a8a1bc9c9a1735e7e632976b30fa61e9319617744a90e45a822",
+      "status": 200
+    },
+    "/glossary/earnout-vs-cash-at-close": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/earnout-vs-cash-at-close/index.html",
+      "location": null,
+      "sha256": "7f2a22a7decf0313dfceee7f971b9d3af34f924f0771040d7839c68555d0650a",
+      "status": 200
+    },
+    "/glossary/ebitda": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/ebitda/index.html",
+      "location": null,
+      "sha256": "3dd9e4ca76f9027f5409f0e213f6f251cd4e7fc14c0632ee855e8fcd5abbce2f",
+      "status": 200
+    },
+    "/glossary/escrow": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/escrow/index.html",
+      "location": null,
+      "sha256": "a4338be64f7e010491bf7509bdc74d1d479cd082f4e8bdde3434651015da9dd6",
+      "status": 200
+    },
+    "/glossary/esop-vs-strategic-sale": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/esop-vs-strategic-sale/index.html",
+      "location": null,
+      "sha256": "6e91c45923f63b215fb286a508b27f374cc41d29e230b084869f41dd1e62f487",
+      "status": 200
+    },
+    "/glossary/family-office": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/family-office/index.html",
+      "location": null,
+      "sha256": "0ac4024c76f63952c693239d7279ed7f8d7ff424144e25258d2e492c8c9b932a",
+      "status": 200
+    },
+    "/glossary/financial-buyer": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/financial-buyer/index.html",
+      "location": null,
+      "sha256": "8b0829ceac671f99cc933115cf7176f8498840c3fd8058c07442fab7633c3621",
+      "status": 200
+    },
+    "/glossary/founder-dependence": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/founder-dependence/index.html",
+      "location": null,
+      "sha256": "4c6f0b42321fc7229c003bce717985b301fc28a00527f37281f0db92ec36f5a9",
+      "status": 200
+    },
+    "/glossary/going-to-market": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/going-to-market/index.html",
+      "location": null,
+      "sha256": "cddf4666e2b0a18f15d06bf9372dead538a30c08c4bd0e5143ffddc7ca4815de",
+      "status": 200
+    },
+    "/glossary/holdback": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/holdback/index.html",
+      "location": null,
+      "sha256": "f6095cb866be5185186d08bd5c2808c28deea4e4b4ed1ec6ef2b94c3b24877da",
+      "status": 200
+    },
+    "/glossary/indemnification": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/indemnification/index.html",
+      "location": null,
+      "sha256": "4697d19226d5b3bdcab8250b6538903e8a7da76ebccc901da2d4545c4ba7ceab",
+      "status": 200
+    },
+    "/glossary/independent-sponsor": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/independent-sponsor/index.html",
+      "location": null,
+      "sha256": "ea15c410c472aad995528dd6f64107f8016dacb2b637bf016d6fc55cb18f37e8",
+      "status": 200
+    },
+    "/glossary/key-person-risk": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/key-person-risk/index.html",
+      "location": null,
+      "sha256": "36b0662412225df3cad1995f412ed934adf355675ecc053a6da0d3814c350dd7",
+      "status": 200
+    },
+    "/glossary/loi-letter-of-intent": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/loi-letter-of-intent/index.html",
+      "location": null,
+      "sha256": "d078b5c53024c6c0b6836ef0209686893cfa937ded7997a7f70a671771b92bdd",
+      "status": 200
+    },
+    "/glossary/management-buy-in-mbi": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/management-buy-in-mbi/index.html",
+      "location": null,
+      "sha256": "49953468a6f3b94f63c44d6b8d8e06902365dbda2f8e59b089dd5f94b3f2a20b",
+      "status": 200
+    },
+    "/glossary/management-buyout-mbo": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/management-buyout-mbo/index.html",
+      "location": null,
+      "sha256": "c85c7e0a9fc9f510d431373707d6a734cc29af4cc821df3bf0d4a0c2cbbffd51",
+      "status": 200
+    },
+    "/glossary/material-adverse-change-mac": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/material-adverse-change-mac/index.html",
+      "location": null,
+      "sha256": "88ebebe1efbbfc708907f47486cf8d2a6c920147b11bf5c04c0099314d93eabf",
+      "status": 200
+    },
+    "/glossary/nda-non-disclosure-agreement": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/nda-non-disclosure-agreement/index.html",
+      "location": null,
+      "sha256": "184e7f52c97352eba2d4402be094a7a902e0dd2bf40dbf2b4c1064345bfd4b76",
+      "status": 200
+    },
+    "/glossary/owner-dependency": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/owner-dependency/index.html",
+      "location": null,
+      "sha256": "323cca8d3587a4162dbcd12f05c11202ddaaf2d6f8e15beb95aa526b2ba22520",
+      "status": 200
+    },
+    "/glossary/owner-dependency-discount": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/owner-dependency-discount/index.html",
+      "location": null,
+      "sha256": "0d7a2b2af8c394b0eafaaffc7cf5669b10e907470ceac9ea673e4948f724ff1e",
+      "status": 200
+    },
+    "/glossary/pe-roll-up": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/pe-roll-up/index.html",
+      "location": null,
+      "sha256": "0db784f5f289c9c445b40a09b568628e56e3ff9bcddad195392c8b9f2b37334d",
+      "status": 200
+    },
+    "/glossary/pre-market-action-plan": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/pre-market-action-plan/index.html",
+      "location": null,
+      "sha256": "588937b2a1bf03947be2e74dc9f5a44823ec6f9eb941a8139a3d6eee5e4467ed",
+      "status": 200
+    },
+    "/glossary/pre-market-preparation": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/pre-market-preparation/index.html",
+      "location": null,
+      "sha256": "e4ffed2ae00bd8c69fdb5b60fbf05f5d8fe67a11de07e08f3ecf31606e2585fd",
+      "status": 200
+    },
+    "/glossary/quality-of-earnings": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/quality-of-earnings/index.html",
+      "location": null,
+      "sha256": "cf72eb0dacceae9d02571b289e28220bbe3334c8fa87cef35dc3e104f57bbb03",
+      "status": 200
+    },
+    "/glossary/re-trade": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/re-trade/index.html",
+      "location": null,
+      "sha256": "cc420dfe4d8cd35bda9245d8c207ee821a7c9240b40630e13a6898726dab56ee",
+      "status": 200
+    },
+    "/glossary/recasting-financials": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/recasting-financials/index.html",
+      "location": null,
+      "sha256": "53e3de17a89ceeb3fdb3555121ca45f6bc22d55a3fb2e19214583218bab378c6",
+      "status": 200
+    },
+    "/glossary/recurring-revenue": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/recurring-revenue/index.html",
+      "location": null,
+      "sha256": "8b36fa55ead6a6c3995a58cb954ee31f299ca0881f2f201d6c4e79ca5fef20ca",
+      "status": 200
+    },
+    "/glossary/rep-and-warranty-insurance": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/rep-and-warranty-insurance/index.html",
+      "location": null,
+      "sha256": "31f201e646c2211d55557321d45337671b0db505ec4fffb8d434ad29cfe999bb",
+      "status": 200
+    },
+    "/glossary/rollover-equity": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/rollover-equity/index.html",
+      "location": null,
+      "sha256": "40f4de96abba1ac272de724bd3a29a4b6b0ac5acbed23b6f24fbc30835644c78",
+      "status": 200
+    },
+    "/glossary/sde-sellers-discretionary-earnings": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/sde-sellers-discretionary-earnings/index.html",
+      "location": null,
+      "sha256": "0e0f90916da3ae7d5bc790c485b993fa3edc74881507ce0c354570e4b9385d4d",
+      "status": 200
+    },
+    "/glossary/sde-vs-ebitda": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/sde-vs-ebitda/index.html",
+      "location": null,
+      "sha256": "c63e53f9fe986fce78074d4f7d5c5c53e23dc9ae29054caf451fc7edc3bc7c65",
+      "status": 200
+    },
+    "/glossary/search-fund-buyer": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/search-fund-buyer/index.html",
+      "location": null,
+      "sha256": "363440f1d9ef20bc66dd9a20420c3e81acb3d4f647c2c8539f08b2edcc4f38ac",
+      "status": 200
+    },
+    "/glossary/sellability-exit-readiness": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/sellability-exit-readiness/index.html",
+      "location": null,
+      "sha256": "44c07d15cf0a1122ff54832aa0e8b486e7690c7452a281f4d6249129058da42a",
+      "status": 200
+    },
+    "/glossary/seller-financing": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/seller-financing/index.html",
+      "location": null,
+      "sha256": "39fee7c22fe8777f9bcd9eb2a15040a29c6c145cb1f95e129caf611c077afe1e",
+      "status": 200
+    },
+    "/glossary/strategic-buyer": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/strategic-buyer/index.html",
+      "location": null,
+      "sha256": "23259ebbff2dde7b8e2fc64e0e0ea789472e45c6f05641b86f182accee6fa36c",
+      "status": 200
+    },
+    "/glossary/strategic-vs-financial-buyer": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/strategic-vs-financial-buyer/index.html",
+      "location": null,
+      "sha256": "1417db26205c44590d1f1801cf69c393db5a20443f8f1c1921e009d1bcad6799",
+      "status": 200
+    },
+    "/glossary/transferability": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/transferability/index.html",
+      "location": null,
+      "sha256": "5aa50e1694541a5893bde7f0da323d016dd739b63241b8a4fd9792e53573e596",
+      "status": 200
+    },
+    "/glossary/value-drags": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/value-drags/index.html",
+      "location": null,
+      "sha256": "6b91cbb1e6e1fb05ed1736be6e924ac34afd8e20eb11dd029e3e7de13454c08e",
+      "status": 200
+    },
+    "/glossary/value-drivers": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/value-drivers/index.html",
+      "location": null,
+      "sha256": "e0564f88e8ad275abd0ab9938cc46a8e4f9a9536df266ac801509bb7acc47b6b",
+      "status": 200
+    },
+    "/glossary/value-gap": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/value-gap/index.html",
+      "location": null,
+      "sha256": "44f86ae121d8255a0423b2546694c777066dbc8235b0d8ed7188541dff75b3b2",
+      "status": 200
+    },
+    "/glossary/working-capital-peg": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/glossary/working-capital-peg/index.html",
+      "location": null,
+      "sha256": "f1319faf398a352132ef652045685d349cbf83a7001ff19ab3b827ade7ece1af",
+      "status": 200
+    },
+    "/intelligence": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/intelligence/index.html",
+      "location": null,
+      "sha256": "77af10691ff1c4c90f1d20a1e996213650fdbf24ce33284cd9d67b3aec6f54eb",
+      "status": 200
+    },
+    "/intelligence/dependency-vs-leverage": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/intelligence/dependency-vs-leverage/index.html",
+      "location": null,
+      "sha256": "6e0703d58eb05c6f1d2b50e660eef95d64e670e8093ffaac45c02909043d91ad",
+      "status": 200
+    },
+    "/intelligence/judgment-as-a-service": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/intelligence/judgment-as-a-service/index.html",
+      "location": null,
+      "sha256": "a925fef98b2cba424697cf69aad132fb8e732be6481661892f9de6fe42d66be2",
+      "status": 200
+    },
+    "/intelligence/scarcity-vs-growth": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/intelligence/scarcity-vs-growth/index.html",
+      "location": null,
+      "sha256": "f4c99eb46a3022880d88530eeb99cb676deed60941337beda6b62e4b3e57ecf8",
+      "status": 200
+    },
+    "/intelligence/signal-vs-narrative": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/intelligence/signal-vs-narrative/index.html",
+      "location": null,
+      "sha256": "3718d92833814a79f11644924c1cf82eae060679cccbede8627bd17b9f64fdbd",
+      "status": 200
+    },
+    "/intelligence/timing-asymmetry": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/intelligence/timing-asymmetry/index.html",
+      "location": null,
+      "sha256": "bcda0f3271f306af20c0ef0c008cf6ca90957ccf827d066bf940174b54c30414",
+      "status": 200
+    },
+    "/llms-full.txt": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "root/llms-full.txt",
+      "location": null,
+      "sha256": "90c032f35272ba1a7aa93027ab635e6610d4f24cf9e53c0624d00f065d7c7e7d",
+      "status": 404
+    },
+    "/llms.txt": {
+      "contentType": "text/plain; charset=utf-8",
+      "file": "root/llms.txt",
+      "location": null,
+      "sha256": "406b2ca6e1aa4e2dd6cd24aa58b3ad13e6243331b3f39704ce5cdd59da852680",
+      "status": 200
+    },
+    "/m-and-a": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/m-and-a/index.html",
+      "location": null,
+      "sha256": "ee63a2e6ca68e00f92daaa98291532ed91e5072ddb6a535705ea7bfe9b50e07a",
+      "status": 200
+    },
+    "/ma-resources/acquisition-mandate-target-screen": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/acquisition-mandate-target-screen/index.html",
+      "location": null,
+      "sha256": "2cd6a6b1c86a38871c8d473c7a590c00646e4119de5bbb03d32d9e05e7919c6f",
+      "status": 200
+    },
+    "/ma-resources/acquisition-target-pipeline-deal-funnel": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/acquisition-target-pipeline-deal-funnel/index.html",
+      "location": null,
+      "sha256": "ba9af7a20430cbac6e7ddc6d211ec986bad9c45cf6becae130775675f2b77501",
+      "status": 200
+    },
+    "/ma-resources/after-the-deal-keep-the-business-working": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/after-the-deal-keep-the-business-working/index.html",
+      "location": null,
+      "sha256": "26b2f68bfff69c06ac998fa29ba4f95712cd9f33469514dfb770746f4e9dd29e",
+      "status": 200
+    },
+    "/ma-resources/anthropic-hybrid-valuation-model": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/anthropic-hybrid-valuation-model/index.html",
+      "location": null,
+      "sha256": "5de57d99e6008d42c0d44ea9e504bce719d30239c2817a0bdb4aa9b666e1638d",
+      "status": 200
+    },
+    "/ma-resources/before-you-buy-follow-the-work": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/before-you-buy-follow-the-work/index.html",
+      "location": null,
+      "sha256": "bbf0096aa71a3b3ed9b0ce04faaedf26ba2d91daae1457cd70667d1e0cea0df3",
+      "status": 200
+    },
+    "/ma-resources/capital-allocation-deal-affordability": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/capital-allocation-deal-affordability/index.html",
+      "location": null,
+      "sha256": "8b576f575862ec136b4a9e9a3327e5be7f80743e38e96f8d919557aaed02df09",
+      "status": 200
+    },
+    "/ma-resources/carve-out-perimeter-tsa-planner": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/carve-out-perimeter-tsa-planner/index.html",
+      "location": null,
+      "sha256": "74206906d8e2656211677741a9a18918335eeddab2099ea239db5c8d0a252603",
+      "status": 200
+    },
+    "/ma-resources/gap-retail-valuation-model": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/gap-retail-valuation-model/index.html",
+      "location": null,
+      "sha256": "57830e79a24ec60d3afe6656a27b0b73f7d03f49fc9ebf8609b0e8585dbedebb",
+      "status": 200
+    },
+    "/ma-resources/loi-economics-risk-allocator": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/loi-economics-risk-allocator/index.html",
+      "location": null,
+      "sha256": "390714a963d49080c6e8a739eae44d4720f0874914c860129a13fd88b0bdfc01",
+      "status": 200
+    },
+    "/ma-resources/ma-deal-workflow-checklist": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/ma-deal-workflow-checklist/index.html",
+      "location": null,
+      "sha256": "a4d801543024d6c9f1889c991e9c4ceffdc215a6bec38b7ac1685b1a4571f791",
+      "status": 200
+    },
+    "/ma-resources/ma-investment-committee-memo": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/ma-investment-committee-memo/index.html",
+      "location": null,
+      "sha256": "780d38d8f382f075042930562d440e4c7497a10d320bac981d6fee5ec1f80dd3",
+      "status": 200
+    },
+    "/ma-resources/nvidia-ai-infrastructure-valuation-model": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/nvidia-ai-infrastructure-valuation-model/index.html",
+      "location": null,
+      "sha256": "971c5ef41ccb76596985a4c721dad306cb217ef7440ceb79d7b9dacb6ceb2154",
+      "status": 200
+    },
+    "/ma-resources/public-company-comps-workbench": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/public-company-comps-workbench/index.html",
+      "location": null,
+      "sha256": "efcd45f4b7779220287d1fe384b5c4c1448287e5bc87b7b4e63821c07d8416f6",
+      "status": 200
+    },
+    "/ma-resources/salesforce-software-valuation-model": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/salesforce-software-valuation-model/index.html",
+      "location": null,
+      "sha256": "8174357d9c09ab247e7943553e38f7b48ce5b5faff65a4858df4451bc4d6daf5",
+      "status": 200
+    },
+    "/ma-resources/spacex-tesla-merger-model": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/spacex-tesla-merger-model/index.html",
+      "location": null,
+      "sha256": "7d7c8a5fe32761ee373b33beb68a852bd66abffc79a2842668e7623cd498188d",
+      "status": 200
+    },
+    "/ma-resources/surgery-partners-healthcare-valuation-model": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/surgery-partners-healthcare-valuation-model/index.html",
+      "location": null,
+      "sha256": "f5f4694741afa513aa844be5763f3292542f1b1a35a139f4b931288d7fe74d27",
+      "status": 200
+    },
+    "/ma-resources/synergy-underwriting-value-bridge": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/synergy-underwriting-value-bridge/index.html",
+      "location": null,
+      "sha256": "9a919a3600cfde17f2c648ee5d0eedad3ec26cf74a3dbb9673490dad89b0a4cf",
+      "status": 200
+    },
+    "/ma-resources/ziff-davis-media-valuation-model": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-resources/ziff-davis-media-valuation-model/index.html",
+      "location": null,
+      "sha256": "e08de8d1d43f11b332085efcd3605c4c73f08271ccce5f2cdd04ee201b6c3de6",
+      "status": 200
+    },
+    "/ma-topics/corporate-development": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/corporate-development/index.html",
+      "location": null,
+      "sha256": "0b30a0fb8cc051c37ba721d3047e1210f6997311999f7bb1a01c5f138ad9a865",
+      "status": 200
+    },
+    "/ma-topics/deal-structure": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/deal-structure/index.html",
+      "location": null,
+      "sha256": "f05f55f5ebd4d3ab0dd5551259942aca0fa448fc6824a54a991c9087e1feb766",
+      "status": 200
+    },
+    "/ma-topics/divestitures": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/divestitures/index.html",
+      "location": null,
+      "sha256": "018569cafae8f5635e7ae31ee7282d098bd112af32a4b7053da6e9e132080289",
+      "status": 200
+    },
+    "/ma-topics/due-diligence": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/due-diligence/index.html",
+      "location": null,
+      "sha256": "ec683f223cbe382dde28b0ac67f1a817ffbb44df79c65954e67a157e6d018864",
+      "status": 200
+    },
+    "/ma-topics/financial-modeling": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/financial-modeling/index.html",
+      "location": null,
+      "sha256": "5352b6d21ba48bc9f9a188f7e5a4a2819d8cd4e08593575130066a134756515d",
+      "status": 200
+    },
+    "/ma-topics/industry-comps": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/industry-comps/index.html",
+      "location": null,
+      "sha256": "201602c39f2bf149a81ec80ac0b9cfa456aa8931f53b7010c3138b4baa6b968d",
+      "status": 200
+    },
+    "/ma-topics/integration": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/integration/index.html",
+      "location": null,
+      "sha256": "649ff9cc77095ab64db1e3f32441d747c3b396b1573511c5296535e701741ee2",
+      "status": 200
+    },
+    "/ma-topics/strategic-finance": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/strategic-finance/index.html",
+      "location": null,
+      "sha256": "a6e554e233834ebb3c41c9a14f65fbceb40c88c93c813985e0473a54785de2a9",
+      "status": 200
+    },
+    "/ma-topics/synergies": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/synergies/index.html",
+      "location": null,
+      "sha256": "6f0ff11376463902f12b2c01e1fa589e9068f4c700c96c99c9f65319bfe0fef0",
+      "status": 200
+    },
+    "/ma-topics/valuation": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/ma-topics/valuation/index.html",
+      "location": null,
+      "sha256": "3a6d0e3c0be2aea8ac91d350f62e4a86bbf3ec134c59cf40a79de66d7ff2df6b",
+      "status": 200
+    },
+    "/negotiation-intelligence": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/negotiation-intelligence/index.html",
+      "location": null,
+      "sha256": "85c211a5aaa02d9d5b5225037ed52860b82a330ab09a2d6e628f3b70394f3a2c",
+      "status": 200
+    },
+    "/podcast": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/podcast/index.html",
+      "location": null,
+      "sha256": "0eceb2a9bb4745a42e94fe440ebc47138e17555b17426a555908856c9dc1e7b7",
+      "status": 200
+    },
+    "/podcast/": {
+      "contentType": "text/html",
+      "location": "https://www.mikeye.com/podcast",
+      "status": 301
+    },
+    "/podcast/before-consequence-arrives": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/podcast/before-consequence-arrives/index.html",
+      "location": null,
+      "sha256": "a15210b2d2888392edf5277eb35373814b2141db3a4263f481b98e7473321825",
+      "status": 200
+    },
+    "/podcast/dependency-often-looks-like-growth": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/podcast/dependency-often-looks-like-growth/index.html",
+      "location": null,
+      "sha256": "f4d1d3d30a5b3417e2e8410bb8dd7854e05d6d7d6a57e71fa989c1e11507d56a",
+      "status": 200
+    },
+    "/podcast/judgment-is-the-product": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/podcast/judgment-is-the-product/index.html",
+      "location": null,
+      "sha256": "7fba20b984e34a61750005bfcaa6e4555db811857d591fad8a5bcf0a5116234e",
+      "status": 200
+    },
+    "/podcast/the-question-beneath-the-question": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/podcast/the-question-beneath-the-question/index.html",
+      "location": null,
+      "sha256": "7f7367b840193f4ca4ee50652d2e6926a119a1612236c20e67f2bffeca43ed7e",
+      "status": 200
+    },
+    "/podcast/the-side-they-never-sat-at": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/podcast/the-side-they-never-sat-at/index.html",
+      "location": null,
+      "sha256": "d516ff62f927bd4744da52949ee45a1abd7d87a107646c565dba9a2cbf6772f9",
+      "status": 200
+    },
+    "/podcast/the-window-opens-before-it-is-obvious": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/podcast/the-window-opens-before-it-is-obvious/index.html",
+      "location": null,
+      "sha256": "fed9f2453e9149646293c25543291bd90dddb1c0cf34dede7d6037653bc09feb",
+      "status": 200
+    },
+    "/received-offer-to-buy-my-business": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/received-offer-to-buy-my-business/index.html",
+      "location": null,
+      "sha256": "28674f7cb1b19069e1428516243fa740a1abdf4ec27f8d2a4b1e8953cfd4b287",
+      "status": 200
+    },
+    "/robots.txt": {
+      "contentType": "text/plain; charset=utf-8",
+      "file": "root/robots.txt",
+      "location": null,
+      "sha256": "601a53561a48d0351ce7f85cd5de3c54fe7e007122a03fcd2635af10c3f51e9c",
+      "status": 200
+    },
+    "/sitemap.xml": {
+      "contentType": "application/rss+xml; charset=utf-8",
+      "file": "root/sitemap.xml",
+      "location": null,
+      "sha256": "c46440d8c4769709ccbe8c7d5e065317872c92ccd710984f3ad13def9adce091",
+      "status": 200
+    },
+    "/this-page-does-not-exist-404-check": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/this-page-does-not-exist-404-check/index.html",
+      "location": null,
+      "sha256": "90c032f35272ba1a7aa93027ab635e6610d4f24cf9e53c0624d00f065d7c7e7d",
+      "status": 404
+    },
+    "/tools-and-models": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/tools-and-models/index.html",
+      "location": null,
+      "sha256": "3e395b27095fbf27abd1e67b34f8033b99147760fa9828a086f96628c074f2b9",
+      "status": 200
+    },
+    "/who-owns-what-before-selling-business": {
+      "contentType": "text/html; charset=utf-8",
+      "file": "pages/who-owns-what-before-selling-business/index.html",
+      "location": null,
+      "sha256": "2bb389c83dae7b3ac6fe77cf6299e620da3d9c4f12d3c0256fe3e0469d05cf1a",
+      "status": 200
+    }
+  }
+}
