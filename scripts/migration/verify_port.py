@@ -72,6 +72,7 @@ for path in sorted(linked):
 checks = [
     ("/exit/", (301, 308), "/exit"),
     ("/exit/run", (301, 308), "/exit/score"),
+    ("/exit/articles/what-buyers-actually-look", (301, 308), "/exit/articles/what-buyers-actually-look-for"),
     ("/_site/about/index.html", (301, 308), "/about"),
     ("/checkout", (200, 307, 308), None),
     ("/this-page-does-not-exist-404-check", (404,), None),

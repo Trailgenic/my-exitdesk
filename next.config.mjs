@@ -13,13 +13,25 @@ const nextConfig = {
         { key: "Access-Control-Allow-Origin", value: "*" },
         ...(source === "/ontology.json" ? [{ key: "Content-Type", value: "application/ld+json; charset=utf-8" }] : []),
       ],
-    }))];
+    })), {
+      // mikeye.com is the only address search engines and AI models should index;
+      // the project's vercel.app address serves the same files.
+      source: "/:path*",
+      has: [{ type: "host", value: "my-exitdesk.vercel.app" }],
+      headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+    }];
   },
   async redirects() {
     return [
       {
         source: "/exit/run",
         destination: "/exit/score",
+        permanent: true,
+      },
+      // Carried over from Webflow's 301 list (the /exit/run rule is above).
+      {
+        source: "/exit/articles/what-buyers-actually-look",
+        destination: "/exit/articles/what-buyers-actually-look-for",
         permanent: true,
       },
       // The site's pages live in public/_site; keep that folder out of public addresses.

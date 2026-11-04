@@ -724,7 +724,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/ma-investment-committee-memo#download-1.0",
         "name": "MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-MA-Investment-Committee-Memo-Template-v1.0.docx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "contentSize": "15889 bytes",
         "sha256": "9607482f6360262f91506bf14f3a90bbf3edc54ab7c5fbd118dc3ff0a8745ba2"
@@ -806,7 +806,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/public-company-comps-workbench#download-1.2",
         "name": "MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-Public-Company-Comps-Workbench-v1.2.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "123354 bytes",
         "sha256": "4d42f3b5e89bc4eebbfa891cc3f831795e20e19f5c9bb64ad772374d6e557759"
@@ -894,7 +894,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/capital-allocation-deal-affordability#download-1.0.1",
         "name": "MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-Capital-Allocation-Deal-Affordability-v1.0.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "58449 bytes",
         "sha256": "01b9c72f828f1659eb0093e0bd4ec10a879207baa828fdd8b016464b7120810f"
@@ -982,7 +982,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/carve-out-perimeter-tsa-planner#download-1.0",
         "name": "MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-Carve-Out-Perimeter-TSA-Planner-v1.0.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "74465 bytes",
         "sha256": "ac112844a858a5e81b1211702e3b87c76d05981b7a2c554d2f60da26f80269d7"
@@ -1067,7 +1067,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/acquisition-mandate-target-screen#download-1.0.1",
         "name": "MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-Acquisition-Mandate-Target-Screen-v1.0.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "88155 bytes",
         "sha256": "de53062d576b6830478ae777d964c973d88197496b98dd414702e1c83b2d383d"
@@ -1161,7 +1161,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/loi-economics-risk-allocator#download-1.0.1",
         "name": "MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-LOI-Economics-Risk-Allocator-v1.0.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "51471 bytes",
         "sha256": "79ad2c62d7d6996abf2e8bd81699abfa21baf90cca119fc5965aa4212a5c8747"
@@ -1261,7 +1261,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/synergy-underwriting-value-bridge#download-1.0.1",
         "name": "MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-Synergy-Underwriting-Value-Bridge-v1.0.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "135392 bytes",
         "sha256": "a6a0906425c4736ef5c143f1d825cf1b5ddb044c0d5ae46c5468e3745d2080ab"
@@ -1346,7 +1346,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/ma-deal-workflow-checklist#download-1.1",
         "name": "MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-MA-Deal-Workflow-Checklist-v1.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "50642 bytes",
         "sha256": "71eb89a7954033c34b3c94ae9230b3d5dbca97c96d664ebd67c800caaa23ad1a"
@@ -1434,7 +1434,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/nvidia-ai-infrastructure-valuation-model#download-1.2.1",
         "name": "NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/NVIDIA_NVDA_Valuation_Model-v1.2.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "90528 bytes",
         "sha256": "f8a113b35180756238308425d2c00672cec87d9a02588cbba54a2b79c14908fb"
@@ -1498,7 +1498,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/surgery-partners-healthcare-valuation-model#download-1.2.1",
         "name": "Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/Surgery_Partners_SGRY_Valuation_Model-v1.2.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "90370 bytes",
         "sha256": "73ada279067776c91c3330b3a4d563f3827152af035fcc75552dc488c6eb8b70"
@@ -1562,7 +1562,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/ziff-davis-media-valuation-model#download-1.2.1",
         "name": "Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/Ziff_Davis_ZD_Valuation_Model-v1.2.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "85548 bytes",
         "sha256": "4a433050e27988d67079f8b403bbba8de3b4d6996fb2c9bf0e05f6628d2bd05d"
@@ -1626,7 +1626,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/salesforce-software-valuation-model#download-1.2.1",
         "name": "Salesforce_CRM_Valuation_Model-v1.2.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/Salesforce_CRM_Valuation_Model-v1.2.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/Salesforce_CRM_Valuation_Model-v1.2.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "89522 bytes",
         "sha256": "ba5cc0b282e9a5886c234530da263dff8a326676dcea1d3103881ecbf15f4c5c"
@@ -1690,7 +1690,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/gap-retail-valuation-model#download-1.2.1",
         "name": "Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/Gap_Inc_GAP_Valuation_Model-v1.2.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "97406 bytes",
         "sha256": "5f0123b06e577210df4732f2b22d6c6663127de4c8c0d6289d601f255704fcf7"
@@ -1751,7 +1751,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/after-the-deal-keep-the-business-working#download-1.1",
         "name": "MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-Post-Deal-Integration-Checklist-v1.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "48834 bytes",
         "sha256": "012d3fc21f120a82ed3894bf319603c7837ecdf5f2d65a29cf64dbeea98b9769"
@@ -1839,7 +1839,7 @@
         "@type": "MediaObject",
         "@id": "https://www.mikeye.com/ma-resources/before-you-buy-follow-the-work#download-1.1",
         "name": "MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx",
-        "contentUrl": "https://my-exitdesk.vercel.app/resources/MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx",
+        "contentUrl": "https://www.mikeye.com/resources/MikeYe-MA-Due-Diligence-Checklist-v1.1.xlsx",
         "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "contentSize": "48746 bytes",
         "sha256": "82dad2b046fe980c6bf82f8c0b3937ae83494e878d43cf8e3ce2da572ca95745"

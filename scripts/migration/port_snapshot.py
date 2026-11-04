@@ -32,6 +32,9 @@ CANONICAL = "https://www.mikeye.com"
 SITE_ID = "69499e76d9c11f22288abc28"
 
 CDN = re.compile(r"https://cdn\.prod\.website-files\.com/" + SITE_ID + r"/([^\s\"'<>)\\,]+)")
+# The Exit Desk project now serves mikeye.com itself, so its files are linked
+# on the canonical domain (one domain for search engines and AI models).
+VERCEL = re.compile(r"https://my-exitdesk\.vercel\.app(/[^\s\"'<>)\\]*)")
 JQUERY = re.compile(r"https://d3e54v103j8qbb\.cloudfront\.net/js/(jquery-[0-9.]+\.min\.[0-9a-f]+\.js)\?site=" + SITE_ID)
 FORMS_SCRIPT = '<script src="/assets/site/forms.js" type="text/javascript"></script>'
 FORM_NAMES = ("Acquisition Lens Request", "Library Updates")
@@ -65,6 +68,7 @@ def rewrite(text: str, absolute: bool) -> str:
         return local_url(rel, absolute)
 
     text = CDN.sub(cdn_sub, text)
+    text = VERCEL.sub(lambda m: (CANONICAL if absolute else "") + m.group(1), text)
     text = JQUERY.sub(lambda m: (CANONICAL if absolute else "") + "/assets/webflow/js/" + m.group(1), text)
     return text
 
@@ -81,6 +85,8 @@ def port_html(text: str) -> str:
     text = LD_JSON.sub(lambda m: m.group(1) + rewrite(m.group(2), True) + m.group(3), text)
     text = META.sub(lambda m: rewrite(m.group(0), True), text)
     text = LINK_CANON.sub(lambda m: rewrite(m.group(0), True), text)
+    # A script tag for a file that never existed (404 on the old site too).
+    text = re.sub(r'<script[^>]*src="https://my-exitdesk\.vercel\.app/exit-campaign\.js"[^>]*></script>\s*', "", text)
     # Everything else: root-relative links.
     text = rewrite(text, False)
     # Native Webflow forms now post to this site instead of Webflow.
