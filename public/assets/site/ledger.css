@@ -1,0 +1,72 @@
+/* MikeYe.com Ledger — site-wide design system layer.
+   Tokens and rules: the "MikeYe.com Ledger" design system. Loaded after the
+   page's own styles so it wins. */
+:root{
+  --paper:#F6F3EC;--paper-raised:#FBF9F4;--ink:#1C1B18;--ink-soft:#3D3A33;--muted:#5A564D;--label:#6B665C;
+  --line:#D9D3C6;--accent:#1F3A5F;--inverse-paper:#F6F3EC;--inverse-muted:#CFC9BC;--inverse-label:#A9A396;--inverse-line:#4A463E;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;--sans:"Inter",system-ui,-apple-system,sans-serif;
+  --measure:1160px;--gutter:32px;
+}
+html{background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--serif);font-weight:400;color:var(--ink);letter-spacing:-.015em}
+h1{letter-spacing:-.02em}
+a{color:var(--ink)}a:hover{color:var(--accent)}
+::selection{background:#E4E9F0}
+button,input,select,textarea{font-family:var(--sans)}
+img{max-width:100%;height:auto}
+
+/* Shared frame */
+.lg-skip{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+.lg-skip:focus{position:static;width:auto;height:auto;display:inline-block;overflow:visible;padding:8px 32px}
+.lg-header{border-bottom:1px solid var(--line);background:var(--paper)}
+.lg-header-in{max-width:var(--measure);margin:0 auto;padding:22px var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.lg-brand{text-decoration:none;display:flex;align-items:baseline;gap:14px;color:var(--ink)}
+.lg-brand-name{font-family:var(--serif);font-size:24px;font-weight:500;letter-spacing:-.01em}
+.lg-brand-note{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--label)}
+.lg-nav{display:flex;gap:28px;flex-wrap:wrap;align-items:center;font-size:14px;font-weight:500}
+.lg-nav a{text-decoration:none;color:var(--ink);padding-bottom:2px;border-bottom:2px solid transparent}
+.lg-nav a:hover{color:var(--accent)}
+.lg-nav a[aria-current="true"]{border-bottom-color:var(--accent)}
+.lg-nav .lg-cta{color:var(--accent);border:1px solid var(--accent);padding:9px 16px;border-radius:2px}
+.lg-nav .lg-cta:hover{background:var(--accent);color:var(--inverse-paper)}
+.lg-crumbs{max-width:var(--measure);margin:0 auto;padding:18px var(--gutter) 0;font-size:13px;color:var(--label);display:flex;gap:10px;flex-wrap:wrap}
+.lg-crumbs a{color:var(--label);text-decoration:none}.lg-crumbs a:hover{color:var(--accent)}
+.lg-footer{border-top:1px solid var(--line);background:var(--paper);margin-top:48px}
+.lg-footer-in{max-width:var(--measure);margin:0 auto;padding:48px var(--gutter);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:32px;font-size:14px}
+.lg-footer-brand{grid-column:span 4}
+.lg-footer-brand .lg-brand-name{display:block;margin-bottom:8px;font-size:22px;font-weight:400}
+.lg-footer-brand p{margin:0;color:var(--label);font-family:var(--sans);font-size:14px}
+.lg-footer-col{grid-column:span 2;display:flex;flex-direction:column;gap:10px}
+.lg-footer-col span{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--label)}
+.lg-footer-col a{text-decoration:none;color:var(--ink)}
+.lg-footer-legal{grid-column:span 12;margin:16px 0 0;font-size:12px;color:var(--label);border-top:1px solid var(--line);padding-top:16px;font-family:var(--sans)}
+@media(max-width:860px){.lg-footer-col{grid-column:span 6}.lg-footer-brand{grid-column:span 12}}
+
+/* Old site-wide classes still used by many pages: fold them into the system */
+.my1-root{font-family:var(--sans)}
+.my1-main,.my1-section,.my1-hero{font-family:var(--sans)}
+.my1-section-title,.my1-hero-title,.my2-title,.my1-topic-title,.my2-reading h2,.my2-reading h3{font-family:var(--serif);font-weight:400}
+.my1-copy,.my2-rich p,.my2-rich li,.my2-reading p{font-family:var(--serif);font-size:19px;line-height:1.65;color:var(--ink-soft)}
+.my1-small,.my1-index,.my2-status,.my1-kicker,.my1-eyebrow{font-family:var(--sans)}
+.my2-status,.my1-index,.my1-kicker,.my1-eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--label)}
+.my1-text-link{color:var(--accent)}
+.my-notify-input{font-family:var(--sans);border:1px solid var(--ink);background:var(--paper);border-radius:2px}
+.my-notify-button,.w-button{font-family:var(--sans);background:var(--ink);color:var(--inverse-paper);border-radius:2px;border:0}
+
+/* Rich text everywhere */
+.w-richtext p,.w-richtext li,.w-richtext blockquote{font-family:var(--serif);font-size:19px;line-height:1.65;color:var(--ink-soft)}
+.w-richtext h2,.w-richtext h3,.w-richtext h4{font-family:var(--serif);font-weight:400;color:var(--ink)}
+.w-richtext a{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:.5px}
+.w-richtext a:hover{color:var(--accent)}
+.w-richtext strong{font-weight:500;color:var(--ink)}
+.w-richtext table{font-family:var(--sans);font-size:14px;font-variant-numeric:tabular-nums}
+
+/* Small-capital labels: anything that used the typewriter face */
+.lg-label,[class*="__label"],[class*="-label"],[class*="kicker"],[class*="eyebrow"],[class*="row-num"],[class*="row-date"],.hub-rule span,[class*="__eyebrow"],.lbl,[class*="__role"],[class*="__disclaimer"]{font-family:var(--sans);letter-spacing:.14em;text-transform:uppercase}
+
+/* Utility 404 */
+.utility-wrapper{min-height:60vh;display:flex;align-items:center;justify-content:center;padding:64px 32px}
+.utility-container{max-width:560px;text-align:left}
+.utility-container .text-mono{font-family:var(--sans);font-size:12px;letter-spacing:.16em;color:var(--accent)}
+.utility-content h1{font-family:var(--serif);font-size:44px;margin:12px 0 8px}

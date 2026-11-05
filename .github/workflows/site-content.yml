@@ -23,6 +23,8 @@ jobs:
           python-version: '3.12'
       - name: Generated pages match their entries
         run: python3 scripts/site/build.py --check
+      - name: Every page carries the Ledger design system
+        run: python3 scripts/site/ledger.py --check
       - name: Structured data on every page is valid JSON
         run: |
           python3 - <<'EOF'
