@@ -87,6 +87,7 @@ def header(path: str) -> str:
     return (f'{MARK}<a href="#main-content" class="lg-skip">Skip to content</a>'
             f'<header class="lg-header"><div class="lg-header-in"><a href="/" class="lg-brand">'
             f'<span class="lg-brand-name">Mike Ye</span><span class="lg-brand-note">M&amp;A · Corporate Development</span></a>'
+            f'<input type="checkbox" id="lg-menu" class="lg-menu-toggle" aria-label="Show menu"><label for="lg-menu" class="lg-menu-btn">Menu</label>'
             f'<nav aria-label="Primary" class="lg-nav">{"".join(links)}</nav></div></header>')
 
 
