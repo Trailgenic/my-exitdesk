@@ -169,6 +169,8 @@ def frame(text: str, path: str) -> str:
     text = OLD_FOOTER.sub("", text)
     text = OLD_SKIP.sub("", text)
     text = OLD_SECTION_FOOTERS.sub("", text)
+    # The main stylesheet was recolored, so its integrity fingerprint no longer matches: drop it.
+    text = re.sub(r'(<link href="/assets/webflow/css/[^"]+"[^>]*?) integrity="[^"]*"( crossorigin="anonymous")?', r"\1", text)
     # fonts + stylesheet, once, at the end of <head>
     if "/assets/site/ledger.css" not in text:
         text = text.replace("</head>", FONT_LINK + "</head>", 1)
