@@ -124,3 +124,12 @@ a.lg-panel-note{text-decoration:none;color:var(--accent)!important;font-size:13p
 .lg-tag{font-family:var(--sans);font-size:12px;color:var(--muted);border:1px solid var(--line);padding:5px 10px;border-radius:2px}
 .lg-prose [class$="-section-rule"]{margin:40px 0 16px}
 .lg-prose [class$="-section-label"]{scroll-margin-top:24px}
+.lg-stats{border-top:1px solid var(--line);background:var(--paper)}
+.lg-stats-in{max-width:var(--measure);margin:0 auto;padding:0 var(--gutter);display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.lg-stat{padding:24px 20px;border-left:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.lg-stat:first-child{border-left:0;padding-left:0}
+.lg-stat-label{font-family:var(--sans);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--label)}
+.lg-stat-label.lg-accent{color:var(--accent)}
+.lg-stat-value{font-family:var(--serif);font-size:34px;line-height:1;font-variant-numeric:tabular-nums;color:var(--ink)}
+.lg-stat-note{font-family:var(--sans);font-size:13px;color:var(--muted);line-height:1.4}
+@media(max-width:900px){.lg-stats-in{grid-template-columns:repeat(2,minmax(0,1fr))}.lg-stat:nth-child(odd){border-left:0;padding-left:0}}
