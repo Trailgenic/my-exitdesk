@@ -129,6 +129,37 @@ def restyle_css(text: str) -> str:
 
 
 LD = re.compile(r"<script[^>]*application/ld\+json[^>]*>.*?</script>", re.S)
+ACCENT_ON_INK = "#A9C1E0"  # the accent as it reads on ink sections (8.8:1)
+RULE = re.compile(r"([^{}]+)\{([^{}]*)\}")
+
+
+def dark_accent_css(page_css: str, base_css: str) -> str:
+    """Rules that keep the accent visible inside ink-coloured sections.
+
+    For every container painted ink and every selector coloured accent, emit
+    `container selector {color: light accent}` so kickers, labels and links inside
+    dark sections don't vanish. Buttons (ink fills with light text) are skipped."""
+    dark, accent = [], []
+    for css in (base_css, page_css):
+        css = re.sub(r"@(media|supports)[^{]*\{", "", css)  # flatten nested blocks
+        for m in RULE.finditer(css):
+            selectors = [x.strip() for x in m.group(1).split(",")]
+            body = m.group(2)
+            if re.search(r"background(?:-color)?\s*:\s*#1C1B18", body, re.I):
+                for sel in selectors:
+                    if ":" in sel or re.search(r"btn|button|submit|-fill|::", sel, re.I) or sel.startswith("/*"):
+                        continue
+                    dark.append(sel)
+            if re.search(r"(?<![-\w])color\s*:\s*#1F3A5F", body, re.I):
+                for sel in selectors:
+                    if ":" not in sel and not sel.startswith("/*"):
+                        accent.append(sel)
+    dark = list(dict.fromkeys(dark)); accent = list(dict.fromkeys(accent))
+    if not dark or not accent:
+        return ""
+    rules = [f"{d} {a}{{color:{ACCENT_ON_INK}}}" for d in dark for a in accent]
+    rules += [f"{d} a:hover{{color:{ACCENT_ON_INK}}}" for d in dark]
+    return "<style id=\"lg-dark\">" + "".join(rules) + "</style>"
 STYLE = re.compile(r"<style[^>]*>.*?</style>", re.S)
 INLINE = re.compile(r'style="([^"]*)"')
 
@@ -174,6 +205,12 @@ def frame(text: str, path: str) -> str:
     # fonts + stylesheet, once, at the end of <head>
     if "/assets/site/ledger.css" not in text:
         text = text.replace("</head>", FONT_LINK + "</head>", 1)
+    # accent visibility inside dark sections (page-specific, regenerated each run)
+    text = re.sub(r'<style id="lg-dark">.*?</style>', "", text, flags=re.S)
+    page_css = "\n".join(m.group(0) for m in STYLE.finditer(text))
+    dark = dark_accent_css(page_css, WEBFLOW_CSS.read_text("utf-8"))
+    if dark:
+        text = text.replace("</body>", dark + "</body>", 1)
     # header right after <body>
     body = re.search(r"<body[^>]*>", text)
     insert_at = body.end()
