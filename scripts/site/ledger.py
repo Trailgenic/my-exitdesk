@@ -221,7 +221,11 @@ def frame(text: str, path: str) -> str:
     text = text[:at] + FOOTER + text[at:]
     # the page's main landmark for the skip link
     if 'id="main-content"' not in text:
-        text = re.sub(r"(<main\b)(?![^>]*\bid=)", r'\1 id="main-content"', text, count=1)
+        text, n = re.subn(r"(<main\b)(?![^>]*\bid=)", r'\1 id="main-content"', text, count=1)
+        if not n:  # no <main>: the skip link lands just below the header
+            crumb_end = text.find("</nav>", text.find('class="lg-crumbs"')) if 'class="lg-crumbs"' in text else -1
+            at = crumb_end + 6 if crumb_end != -1 else text.find("</header>", text.find('class="lg-header"')) + 9
+            text = text[:at] + '<span id="main-content" tabindex="-1"></span>' + text[at:]
     return text
 
 
