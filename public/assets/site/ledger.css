@@ -119,3 +119,8 @@ a.lg-panel-note{text-decoration:none;color:var(--accent)!important;font-size:13p
 .lg-byline{margin:0;font-family:var(--sans);font-size:13px;color:var(--label)}
 .lg-prose .w-richtext h1{font-size:32px;margin:0 0 12px}
 .lg-prose .episode-links{margin-top:32px;padding-top:16px;border-top:1px solid var(--line)}
+.lg-root{max-width:none!important;width:auto!important;padding:0!important;margin:0!important;background:none!important;border:0!important;box-shadow:none!important}
+.lg-tags{display:flex;flex-wrap:wrap;gap:8px}
+.lg-tag{font-family:var(--sans);font-size:12px;color:var(--muted);border:1px solid var(--line);padding:5px 10px;border-radius:2px}
+.lg-prose [class$="-section-rule"]{margin:40px 0 16px}
+.lg-prose [class$="-section-label"]{scroll-margin-top:24px}

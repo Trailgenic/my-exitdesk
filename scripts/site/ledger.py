@@ -73,7 +73,7 @@ SECTIONS = [
     ("/intelligence", "Decision Frameworks", "/intelligence", None, None),
     ("/about", "About", "/about", None, None),
 ]
-NAV = [("/m-and-a", "M&A Library"), ("/tools-and-models", "Tools & Models"), ("/intelligence", "Decision Frameworks"),
+NAV = [("/m-and-a", "M&A Library"), ("/tools-and-models", "Tools & Models"), ("/glossary", "Glossary"), ("/intelligence", "Frameworks"),
        ("/podcast", "The Briefing"), ("/about", "About")]
 
 
